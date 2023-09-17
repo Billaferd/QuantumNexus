@@ -1,15 +1,15 @@
 # Quantum Nexus Rules
 
-# How to Win
+## How to Win
 
 In Quantum Nexus, there are several ways to win.
 
 1. Force an opponent to draw a card when the deck is empty.
 2. Finish all missions in a match.
 
-# Components
+## Components
 
-## Cards
+### Cards
 
 Quantum Nexus is played by two or more people using only the cards in their decks. There are several different types of cards in Quantum Nexus:
 
@@ -28,7 +28,7 @@ Quantum Nexus is played by two or more people using only the cards in their deck
 
 Each card type has a unique role in the game and is used together to defeat an opponent. All cards have a cost associated with them; this cost is called Command Points and is always located in the top left of the cards.
 
-# Deck Construction
+## Deck Construction
 
 Each player must construct their decks to a specific set of rules. These rules can be changed if agreed upon by the contestants or stipulated in a tournament setting.
 
@@ -36,13 +36,13 @@ Each player must construct their decks to a specific set of rules. These rules c
 2. A maximum of six (6) mission cards can be included in a deck.
 3. No single card count is greater then the number of duplicates allowed.
 
-## Selecting Missions
+### Selecting Missions
 
 Each mission card as four domains: Technology, Magic, Psionics, Theism. Each mission card will have a 0 - 4 points in any one Domain, and a maximum of 6 points in total.
 
 You may select mission cards where the sum of all domains on the mission cards does not exceed 6 and any single domain does not exceed 4. It is acceptable to have a domain with 0 points.
 
-### Example
+#### Example
 
 Three mission cards are selected with the following values:
 
@@ -73,15 +73,15 @@ Three mission cards are selected with the following values:
 | Psionics | 0 |
 | Theism | 1 |
 
-## Determining Command Points
+### Determining Command Points
 
 Each selected mission card has a Command Point (CP) value. The sum of these values will determine the starting CP. In the example above the total CP per turn is 19.
 
-## Selecting Cards
+### Selecting Cards
 
 Each card has the four domains listed with values. The domain values on the card can not exceed the sum of the domain values on the mission cards.
 
-### Example
+#### Example
 
 | Name | Unit 1 |
 | --- | --- |
@@ -116,27 +116,27 @@ Unit 2 cant be added because it requires a Magic value of 1 but our mission card
 
 Similarly, Unit 3 can't be added because the sum of the Psionics domain is 1 on the mission cards but the unit requires at least a 2 in Psionics.
 
-# Cards
+## Cards
 
 All cards have attributes that are the same. Each card type is used uniquely, but all are necessary to win against an opponent. Each card has the following shared attributes.
 
-## Command Points
+### Command Points
 
 Command Points are always located at the top left of the card. They indicate the cost to add to the deck and to be deployed to the battlefield.
 
-## Type
+### Type
 
 Each card is one of several major types. Each type has a unique function on the board. Commander, Unit, Tech, Event, Mission, and Terrain are the seven types.
 
-## Subtype
+### Subtype
 
 Each card also has a subtype that more precisely describes the card. Several subtypes are used across all of the cards. Sometimes, Effects and Abilities will target specific subtypes.
 
-## Rule Box
+### Rule Box
 
 A card rule box holds a card's abilities, effects, and conditions. Any text written in the rule box will take precedence over these rules. The rule box defines a card’s functions and is vital for tactical planning.
 
-### Mandatory Interrupts
+#### Mandatory Interrupts
 
 Mandatory Interrupts will have a trigger in the form of “Type-Action.” Since there is no cost, these interrupts must activate if possible. If a unit is able to activate they must when the triggering condition is met.
 
@@ -148,49 +148,49 @@ Mech-Attack: Triggered when a mech attacks.
 
 Player-Draw: Triggered when a player draws a card.
 
-### Interrupts
+#### Interrupts
 
 Interrupts not only have a trigger, but they also have a cost. Since there is a cost involved these interrupts are optional and can only be triggered if the trigger is met, and the cost is then paid at that time.
 
-### Active Abilities
+#### Active Abilities
 
 Active abilities will have a cost listed to the right of the effect. These abilities will activate the card and prevent it from making any further attacks, defenses, or abilities.
 
-### Passive Abilities
+#### Passive Abilities
 
 Passive abilities have no markings in the rule box and only describe an effect. Passive abilities are active at all times.
 
-## Duplicates
+### Duplicates
 
 Each card has a limit to how many times it is allowed to be added to the deck. You can include the same card multiple times up to this limit. Some cards have a duplicate count of one, meaning only one card with that name can be included.
 
-## Card Types
+### Card Types
 
-### Unit
+#### Unit
 
 Units have both an Attack and Defense attribute that is used for combat. When an attack value is larger than the opponent's defence value, the opponent loses the fight, and that card is discarded. Unit cards can only be deployed during the deployment phase and can only attack during the attack phase. Units will also mention what row they are allowed to be deployed into: one of the front row, the back row, or both. This restriction must be adhered to when deploying a unit, but once deployed, a unit can move to either row if an event or ability allows.
 
-### Asset
+#### Asset
 
 Asset cards don't have an Attack value, but they do have a defence value. Asset cards are placed into the loadout area and can't be attacked by units’ basic attacks but can be targeted by abilities and events. Asset cards bring robust, persistent, or repeatable skills and effects to the battlefield. Asset cards can only be deployed during the deployment phase, and their abilities can be activated during the Command Phase.
 
-### Event
+#### Event
 
 Event cards create a powerful single-use effect. Event cards don't have any other attributes but can only be played during the Command Phase of play.
 
-### Upgrades
+#### Upgrades
 
 Upgrade cards have Attack and Defence values but are modifiers, not base values. The modifiers will add or subtract from a unit’s attack or defence values. An upgrade can also give a unit additional effects, statuses, and abilities.
 
-### Terrain
+#### Terrain
 
 Terrain can be deployed during the deployment phase and may have similar restrictions to a unit. It may only be able to be deployed to the front row, back row, or both. Once the terrain is deployed, it will cause a passive status effect for all the units in the row it was deployed to. There can only be two terrain cards active for each row.
 
-### Mission
+#### Mission
 
 Mission cards are available for each player and have completion conditions. Once the requirements are met, the mission card will start providing a passive effect on the battlefield and count toward the victory condition. Each mission card also has an ability; once triggered, it will remove the passive effect from the mission, and that card will be turned over, indicating that it will not be able to be used again for that game. The player can include no more than six (6) missions in a deck, and a player will be deemed victorious once all missions have been completed. A deck may include any number of missions as long as there are fewer than six.
 
-# Determining First Turn (Initiative)
+## Determining First Turn (Initiative)
 
 Turn order is determined at the beginning of the game to decide which player goes first.
 
@@ -202,7 +202,7 @@ Turn order is determined at the beginning of the game to decide which player goe
 6. Once the first player is chosen, the game setup continues as detailed below.
 7. When the game starts, play then continues to the left of the first chosen player. The first turn can have long-lasting effects and allows a player to set the pace of the battle.
 
-# Changing Order of Play
+## Changing Order of Play
 
 During Quantum Nexus gameplay, players take turns within each phase. This ensures a structured and fair experience. Here's how it works:
 
@@ -212,11 +212,11 @@ During Quantum Nexus gameplay, players take turns within each phase. This ensure
 - Resolving Ties: If multiple players finish their actions simultaneously in a phase and have the same CP value, the player with the lowest CP value for that turn becomes the first player in the next phase. If CP values are still tied, the next player to act among those not playing cards in the current phase is selected.
 This turn structure ensures that each player has a chance to act in a fair and organized manner within each phase of the game.
 
-# Phases of Play
+## Phases of Play
 
 In Quantum Nexus, a player's turn consists of four phases: Ready Phase, Deployment Phase, Command Phase, and Battle Phase. Players perform each phase together, taking turns within each phase as needed.
 
-## Ready Phase (Simultaneous)
+### Ready Phase (Simultaneous)
 
 At the start of each player's turn, both players simultaneously perform the following steps during the Ready Phase:
 
@@ -225,20 +225,20 @@ At the start of each player's turn, both players simultaneously perform the foll
 3. Reset Command Points (CP): At the same time, both players reset their Command Points (CP) to their starting value.
 4. Add Extra CP: If any extra CP is given at the turn's beginning, both players add it to their CP pool simultaneously.
 
-### Deployment Phase (Alternating Turns)
+#### Deployment Phase (Alternating Turns)
 
 - Players take turns placing cards one at a time, alternating between players.
 - A player can play a card or pass their turn to signal they are finished with the Deployment Phase.
 
 If more than one player stops playing cards simultaneously, the player with the lowest CP value of that turn goes first in the next phase. If CP values are the same, the next player among those not playing cards from the current phase leader is selected.
 
-### Command Phase (Alternating Turns)
+#### Command Phase (Alternating Turns)
 
 - Players take turns activating abilities or deploying Events, one at a time.
 - Resolve each ability or Event immediately.
 - A player can choose not to activate abilities if they have none left to use during this phase.
 
-### Battle Phase (Declaring Attacks)
+#### Battle Phase (Declaring Attacks)
 
 - Each player takes turns declaring attacks against other units.
 - Declare both the attacker and the defender for each attack.
@@ -247,43 +247,43 @@ If more than one player stops playing cards simultaneously, the player with the 
 - If the defender's Attack value exceeds the attacker's Defense value, the attacker is discarded.
 - If Attack and Defense values match, both units remain in play.
 
-# Areas of Play
+## Areas of Play
 
 There are several distinct areas that cards are played in Quantum Nexus.
 
-## Mission Cards
+### Mission Cards
 
 The mission card area is where your mission cards are. They must be visible to both players to ensure transparency and fairness. They are commonly put above the players deck.
 
-## Deck
+### Deck
 
 The deck is where all of the players cards are kept. It is generally kept to the right of the play area with the mission cards above it and the discard pile below it. Players will draw cards from the deck.
 
-## Discard pile
+#@# Discard pile
 
 The discard pile is where all of the destroyed cards go. Once a card has been either destroyed or used if it is an event that card is put into the discard pile face up.
 
-## Loadout
+### Loadout
 
 The loadout area is located on the left side of the player. This area is where all of the Asset cards in play are kept.
 
-## Battlefield
+### Battlefield
 
 The battlefield is between the loadout and deck, where all the units are placed. The battlefield is further subdivided into two horizontal lines.
 
-### Front Line
+#### Front Line
 
 The front line is the line of troops towards the front of the battlefield. These troops must attack and be attacked first.
 
-### Back Line
+#### Back Line
 
 The back line is the line of units behind the front line. This line of units can attack after the front line units have attacked but can't be targeted until the front line is defeated.
 
-# Game Setup
+## Game Setup
 
 Each player removes their mission cards from their deck. They then shuffle their deck, place it near the mission cards and draw a hand of five cards.
 
-## Start of Turn Sequence
+### Start of Turn Sequence
 
 At the start of each player’s turn, they must: 
 

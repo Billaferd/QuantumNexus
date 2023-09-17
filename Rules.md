@@ -1,5 +1,9 @@
 # Quantum Nexus Rules
 
+## Overview
+
+Welcome to Quantum Nexus, the thrilling sci-fi trading card game where strategic mastery and clever deck construction are your keys to victory! In this immersive universe, you'll harness the power of advanced civilizations to outwit your opponents and achieve your objectives.
+
 ## How to Win
 
 In Quantum Nexus, there are several ways to win.

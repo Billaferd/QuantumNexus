@@ -238,7 +238,7 @@ graph TD;
   DeployCard2 --> FirstPlayer;
   BothPass2 -- |No| --> FirstPlayer;
   BothPass1 -- |Yes| --> DetermineOrder[Determine order for next phase];
-  DetermineOrder --> End[Command Phase];
+  DetermineOrder --> CommandPhase[Command Phase];
 ```
 
 #### Command Phase (Alternating Turns)

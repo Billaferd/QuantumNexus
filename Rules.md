@@ -226,21 +226,20 @@ If more than one player stops playing cards simultaneously, the player with the 
 
 ```mermaid
 graph TD;
-  Start[Start Deployment Phase] --> Player1{Player 1};
-  Start --> Player2{Player 2};
-  Player1 --> |Play Card| Deploy1[Deploy Card];
-  Deploy1 --> |Pass Turn| CheckPass1[Check for Pass];
-  Player2 --> |Play Card| Deploy2[Deploy Card];
-  Deploy2 --> |Pass Turn| CheckPass2[Check for Pass];
-  CheckPass1 --> |Yes| NextPlayer1[Next Player 1];
-  CheckPass1 --> |No| CheckPass2[Check for Pass];
-  CheckPass2 --> |Yes| NextPlayer2[Next Player 2];
-  CheckPass2 --> |No| NextPlayer1[Next Player 1];
-  NextPlayer1 --> |Lowest CP| BattlePhase1[Battle Phase];
-  NextPlayer2 --> |Lowest CP| BattlePhase2[Battle Phase];
-  BattlePhase1 --> End[End of Deployment Phase];
-  BattlePhase2 --> End[End of Deployment Phase];
-  End --> |Next Phase| ReadyPhase[Ready Phase];
+  Start[Start Phase] --> FirstPlayer[First Player]
+  FirstPlayer --> WillDeploy1{Will Deploy a Card?}
+  WillDeploy1 -- |Yes| --> DeployCard1[Deploy Card]
+  WillDeploy1 -- |No| --> BothPass1{Have both players passed?}
+  BothPass1 -- |No| --> SecondPlayer
+  DeployCard1 --> SecondPlayer[Second Player]
+  SecondPlayer --> WillDeploy2{Will Deploy a Card?}
+  WillDeploy2 --> |Yes| --> DeployCard2[Deploy Card]
+  WillDeploy2 -- |No| --> BothPass2{Have both players passed?}
+  DeployCard2 --> FirstPlayer
+  BothPass2 -- |No| --> FirstPlayer
+  BothPass1 -- |Yes| --> DetermineOrder[Determine order for next phase]
+  BothPass1 -- |Yes| --> DetermineOrder
+  DetermineOrder --> End[Command Phase]
 ```
 
 #### Command Phase (Alternating Turns)

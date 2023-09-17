@@ -309,7 +309,7 @@ The mission card area is where your mission cards are. They must be visible to b
 
 The deck is where all of the players cards are kept. It is generally kept to the right of the play area with the mission cards above it and the discard pile below it. Players will draw cards from the deck.
 
-#@# Discard pile
+### Discard pile
 
 The discard pile is where all of the destroyed cards go. Once a card has been either destroyed or used if it is an event that card is put into the discard pile face up.
 

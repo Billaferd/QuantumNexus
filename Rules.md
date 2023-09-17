@@ -238,6 +238,7 @@ graph TD;
   DeployCard2 --> FirstPlayer;
   BothPass2 -- No --> FirstPlayer;
   BothPass1 -- Yes --> DetermineOrder[Determine order for next phase];
+  BothPass2 --> DetermineOrder
   DetermineOrder --> CommandPhase[Command Phase];
 ```
 

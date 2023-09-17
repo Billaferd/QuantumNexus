@@ -1,0 +1,29 @@
+<svg width="500" height="300" xmlns="http://www.w3.org/2000/svg">
+    <!-- Mission Cards Area -->
+    <rect x="10" y="10" width="100" height="60" fill="lightgray" />
+    <text x="15" y="25" font-size="12" fill="black">Mission Cards</text>
+
+    <!-- Deck Area -->
+    <rect x="420" y="10" width="60" height="80" fill="lightgray" />
+    <text x="430" y="25" font-size="12" fill="black">Deck</text>
+
+    <!-- Discard Pile Area -->
+    <rect x="420" y="100" width="60" height="80" fill="lightgray" />
+    <text x="430" y="115" font-size="12" fill="black">Discard Pile</text>
+
+    <!-- Loadout Area -->
+    <rect x="10" y="90" width="100" height="80" fill="lightgray" />
+    <text x="20" y="105" font-size="12" fill="black">Loadout</text>
+
+    <!-- Battlefield Area -->
+    <rect x="120" y="10" width="280" height="230" fill="lightgray" />
+    <text x="120" y="30" font-size="12" fill="black">Battlefield</text>
+
+    <!-- Front Line Area -->
+    <rect x="130" y="50" width="260" height="80" fill="gray" />
+    <text x="140" y="80" font-size="12" fill="black">Front Line</text>
+
+    <!-- Back Line Area -->
+    <rect x="130" y="140" width="260" height="80" fill="gray" />
+    <text x="140" y="170" font-size="12" fill="black">Back Line</text>
+</svg>

@@ -42,6 +42,8 @@ Each mission card as four domains: Technology, Magic, Psionics, Theism. Each mis
 
 You may select mission cards where the sum of all domains on the mission cards does not exceed 6 and any single domain does not exceed 4. It is acceptable to have a domain with 0 points.
 
+Selecting mission cards is crucial for winning, be careful that the cards you include are able to meet the requirements of the missions.
+
 #### Determining Command Points
 
 Each selected mission card has a Command Point (CP) value. The sum of these values will determine the starting CP. In the example above the total CP per turn is 19.

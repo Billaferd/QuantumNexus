@@ -198,7 +198,7 @@ Asset cards don't have an Attack value, but they do have a defence value. Asset 
 
 Event cards create a powerful single-use effect. Event cards don't have any other attributes but can only be played during the Command Phase of play.
 
-#### Upgrades
+#### Upgrade
 
 Upgrade cards have Attack and Defence values but are modifiers, not base values. The modifiers will add or subtract from a unit’s attack or defence values. An upgrade can also give a unit additional effects, statuses, and abilities.
 
@@ -208,7 +208,7 @@ Terrain can be deployed during the deployment phase and may have similar restric
 
 #### Mission
 
-Mission cards are available for each player and have completion conditions. Once the requirements are met, the mission card will start providing a passive effect on the battlefield and count toward the victory condition. Each mission card also has an ability; once triggered, it will remove the passive effect from the mission, and that card will be turned over, indicating that it will not be able to be used again for that game. The player can include no more than six (6) missions in a deck, and a player will be deemed victorious once all missions have been completed. A deck may include any number of missions as long as there are fewer than six.
+Mission cards are available for each player and have completion conditions. Once the requirements are met, the mission card will start providing a passive effect on the battlefield and count toward the victory condition. Each mission card also has an ability; once completed, the ability will be triggered immediately. The player can include no more than six (6) missions in a deck, and a player will be deemed victorious once all missions have been completed. A deck may include any number of missions as long as there are fewer than six, and the total domain points are equal to six.
 
 ## How to Play
 

@@ -190,9 +190,7 @@ Terrain can be deployed during the deployment phase and may have similar restric
 
 Mission cards are available for each player and have completion conditions. Once the requirements are met, the mission card will start providing a passive effect on the battlefield and count toward the victory condition. Each mission card also has an ability; once triggered, it will remove the passive effect from the mission, and that card will be turned over, indicating that it will not be able to be used again for that game. The player can include no more than six (6) missions in a deck, and a player will be deemed victorious once all missions have been completed. A deck may include any number of missions as long as there are fewer than six.
 
-## How to Play
-
-### Determining First Turn (Initiative)
+## Determining First Turn (Initiative)
 
 Turn order is determined at the beginning of the game to decide which player goes first.
 
@@ -204,11 +202,21 @@ Turn order is determined at the beginning of the game to decide which player goe
 6. Once the first player is chosen, the game setup continues as detailed below.
 7. When the game starts, play then continues to the left of the first chosen player. The first turn can have long-lasting effects and allows a player to set the pace of the battle.
 
-### Phases of Play
+## Changing Order of Play
+
+During Quantum Nexus gameplay, players take turns within each phase. This ensures a structured and fair experience. Here's how it works:
+
+- Sequential Turns: Within each phase, such as Deployment or Command, players take turns one after the other.
+- Determining the First Player: To start the game, players compare the Command Point (CP) values of the top cards of their decks. The player with the lowest CP value decides who goes first. In case of a tie, players draw additional cards until the tie is broken.
+- Completing Actions: Players complete their actions within a phase, such as deploying cards in the Deployment Phase. The player who finishes their actions first becomes the first player in the next phase.
+- Resolving Ties: If multiple players finish their actions simultaneously in a phase and have the same CP value, the player with the lowest CP value for that turn becomes the first player in the next phase. If CP values are still tied, the next player to act among those not playing cards in the current phase is selected.
+This turn structure ensures that each player has a chance to act in a fair and organized manner within each phase of the game.
+
+## Phases of Play
 
 In Quantum Nexus, a player's turn consists of four phases: Ready Phase, Deployment Phase, Command Phase, and Battle Phase. Players perform each phase together, taking turns within each phase as needed.
 
-#### Ready Phase (Simultaneous)
+### Ready Phase (Simultaneous)
 
 At the start of each player's turn, both players simultaneously perform the following steps during the Ready Phase:
 
@@ -224,6 +232,25 @@ At the start of each player's turn, both players simultaneously perform the foll
 
 If more than one player stops playing cards simultaneously, the player with the lowest CP value of that turn goes first in the next phase. If CP values are the same, the next player among those not playing cards from the current phase leader is selected.
 
+```mermaid
+graph TD;
+  Start[Start Deployment Phase] --> Player1{Player 1};
+  Start --> Player2{Player 2};
+  Player1 --> |Play Card| Deploy1[Deploy Card];
+  Deploy1 --> |Pass Turn| CheckPass1[Check for Pass];
+  Player2 --> |Play Card| Deploy2[Deploy Card];
+  Deploy2 --> |Pass Turn| CheckPass2[Check for Pass];
+  CheckPass1 --> |Yes| NextPlayer1[Next Player 1];
+  CheckPass1 --> |No| CheckPass2[Check for Pass];
+  CheckPass2 --> |Yes| NextPlayer2[Next Player 2];
+  CheckPass2 --> |No| NextPlayer1[Next Player 1];
+  NextPlayer1 --> |Lowest CP| BattlePhase1[Battle Phase];
+  NextPlayer2 --> |Lowest CP| BattlePhase2[Battle Phase];
+  BattlePhase1 --> End[End of Deployment Phase];
+  BattlePhase2 --> End[End of Deployment Phase];
+  End --> |Next Phase| ReadyPhase[Ready Phase];
+```
+
 #### Command Phase (Alternating Turns)
 
 - Players take turns activating abilities or deploying Events, one at a time.
@@ -238,16 +265,6 @@ If more than one player stops playing cards simultaneously, the player with the 
 - If an attacker's Attack value exceeds the defender's Defense value, the defender is discarded.
 - If the defender's Attack value exceeds the attacker's Defense value, the attacker is discarded.
 - If Attack and Defense values match, both units remain in play.
-
-### Changing Order of Play
-
-During Quantum Nexus gameplay, players take turns within each phase. This ensures a structured and fair experience. Here's how it works:
-
-- Sequential Turns: Within each phase, such as Deployment or Command, players take turns one after the other.
-- Determining the First Player: To start the game, players compare the Command Point (CP) values of the top cards of their decks. The player with the lowest CP value decides who goes first. In case of a tie, players draw additional cards until the tie is broken.
-- Completing Actions: Players complete their actions within a phase, such as deploying cards in the Deployment Phase. The player who finishes their actions first becomes the first player in the next phase.
-- Resolving Ties: If multiple players finish their actions simultaneously in a phase and have the same CP value, the player with the lowest CP value for that turn becomes the first player in the next phase. If CP values are still tied, the next player to act among those not playing cards in the current phase is selected.
-This turn structure ensures that each player has a chance to act in a fair and organized manner within each phase of the game.
 
 ## Areas of Play
 

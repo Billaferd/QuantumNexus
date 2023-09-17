@@ -208,6 +208,14 @@ Turn order is determined at the beginning of the game to decide which player goe
 
 In Quantum Nexus, a player's turn consists of four phases: Ready Phase, Deployment Phase, Command Phase, and Battle Phase. Players perform each phase together, taking turns within each phase as needed.
 
+```mermaid
+graph TD;
+  ReadyPhase[Ready Phase] --> DeployPhase[Deploy Phase];
+  DeployPhase --> CommandPhase[Command Phase];
+  CommandPhase --> BattlePhase[Battle Phase];
+  BattlePhase --> ReadyPhase
+```
+
 #### Ready Phase (Simultaneous)
 
 At the start of each player's turn, both players simultaneously perform the following steps during the Ready Phase:

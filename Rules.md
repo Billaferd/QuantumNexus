@@ -228,16 +228,16 @@ If more than one player stops playing cards simultaneously, the player with the 
 graph TD;
   Start[Start Phase] --> FirstPlayer[First Player];
   FirstPlayer --> WillDeploy1{Will Deploy a Card?};
-  WillDeploy1 -- |Yes| --> DeployCard1[Deploy Card];
-  WillDeploy1 -- |No| --> BothPass1{Have both players passed?};
-  BothPass1 -- |No| --> SecondPlayer[Second Player];
+  WillDeploy1 -- Yes --> DeployCard1[Deploy Card];
+  WillDeploy1 -- No --> BothPass1{Have both players passed?};
+  BothPass1 -- No --> SecondPlayer[Second Player];
   DeployCard1 --> SecondPlayer;
   SecondPlayer --> WillDeploy2{Will Deploy a Card?};
-  WillDeploy2 --> |Yes| --> DeployCard2[Deploy Card];
-  WillDeploy2 -- |No| --> BothPass2{Have both players passed?};
+  WillDeploy2 --> Yes --> DeployCard2[Deploy Card];
+  WillDeploy2 -- No --> BothPass2{Have both players passed?};
   DeployCard2 --> FirstPlayer;
-  BothPass2 -- |No| --> FirstPlayer;
-  BothPass1 -- |Yes| --> DetermineOrder[Determine order for next phase];
+  BothPass2 -- No --> FirstPlayer;
+  BothPass1 -- Yes --> DetermineOrder[Determine order for next phase];
   DetermineOrder --> CommandPhase[Command Phase];
 ```
 

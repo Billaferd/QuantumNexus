@@ -38,9 +38,9 @@ Each player must construct their decks to a specific set of rules. These rules c
 
 ### Selecting Missions
 
-Each mission card as four domains: Technology, Magic, Psionics, Theism. Each mission card will have a 0 - 4 points in any one Domain, and a maximum of 6 points in total. The domain points will determine which cards will be able to be added to the deck.
+Each mission card as four domains: Technology, Magic, Psionics, Theism. Each mission card will have a 0 - 4 points in any one Domain, and a maximum of 6 points in total.
 
-You may select mission cards where the sum of all domains on the mission cards does not exceed 6 and any single domain does not exceed 4. It is acceptable to have a domain with 0 points.
+You may select mission cards where the sum of all domains on the mission cards does not exceed 6 and any single domain does not exceed 4. It is acceptable to have a domain with 0 points. The domain points will determine the types of cards available during deck construction.
 
 #### Example
 
@@ -172,7 +172,7 @@ Units have both an Attack and Defense attribute that is used for combat. When an
 
 #### Asset
 
-Asset cards don't have an Attack value, but they do have a defence value. Asset cards are placed into the loadout area and can't be attacked by units’ basic attacks but can be targeted by abilities and events. Asset cards bring robust, persistent, or repeatable skills and effects to the battlefield. An example Asset card ability is to add +1 CP per turn. Asset cards can only be deployed during the deployment phase, and their abilities can be activated during the Command Phase.
+Asset cards don't have an Attack value, but they do have a defence value. Asset cards are placed into the loadout area and can't be attacked by units’ basic attacks but can be targeted by abilities and events. Asset cards bring robust, persistent, or repeatable skills and effects to the battlefield. Asset cards can only be deployed during the deployment phase, and their abilities can be activated during the Command Phase.
 
 #### Event
 
@@ -188,7 +188,7 @@ Terrain can be deployed during the deployment phase and may have similar restric
 
 #### Mission
 
-Mission cards are available for each player and have completion conditions. Once the requirements are met, the mission card will start providing a passive effect on the battlefield and count toward the victory condition. Each mission card also has an ability; once completed, the ability is triggered and resolved immediately. The player can include no more than six (6) missions in a deck, and a player will be deemed victorious once all missions have been completed. A deck may include any number of missions as long as there are fewer than six.
+Mission cards are available for each player and have completion conditions. Once the requirements are met, the mission card will start providing a passive effect on the battlefield and count toward the victory condition. Each mission card also has an ability; once triggered, it will remove the passive effect from the mission, and that card will be turned over, indicating that it will not be able to be used again for that game. The player can include no more than six (6) missions in a deck, and a player will be deemed victorious once all missions have been completed. A deck may include any number of missions as long as there are fewer than six.
 
 ## How to Play
 
@@ -343,7 +343,7 @@ There are several distinct areas that cards are played in Quantum Nexus.
 
 ### Mission Cards
 
-The mission card area is where your mission cards are. They must be visible to both players to ensure transparency and fairness. Mission cards are commonly put above the players deck so that both players can easily see them.
+The mission card area is where your mission cards are. They must be visible to both players to ensure transparency and fairness. They are commonly put above the players deck so that both players can easily see them.
 
 ### Deck
 

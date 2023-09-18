@@ -248,6 +248,24 @@ graph TD;
 - Resolve each ability or Event immediately.
 - A player can choose not to activate abilities if they have none left to use during this phase.
 
+```mermaid
+graph TB;
+  Start[Start Phase] --> FirstPlayer[First Player];
+  FirstPlayer --> WillActivate1{Will Activate an Ability?};
+  WillActivate1 -- Yes --> ActivateAbility1[Activate Ability];
+  WillActivate1 -- No --> Pass1{Has the Player Passed?};
+  Pass1 -- No --> SecondPlayer[Second Player];
+  ActivateAbility1 --> SecondPlayer;
+  SecondPlayer --> WillActivate2{Will Activate an Ability?};
+  WillActivate2 --> Yes --> ActivateAbility2[Activate Ability];
+  WillActivate2 -- No --> Pass2{Has the Player Passed?};
+  ActivateAbility2 --> FirstPlayer;
+  Pass2 -- No --> FirstPlayer;
+  Pass1 -- Yes --> ResolveAbilities[Resolve Abilities and End Phase];
+  Pass2 -- Yes --> ResolveAbilities
+  ResolveAbilities --> End[End Phase];
+```
+
 #### Battle Phase (Declaring Attacks)
 
 - Each player takes turns declaring attacks against other units.

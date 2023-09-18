@@ -46,7 +46,7 @@ You may select mission cards where the sum of all domains on the mission cards d
 
 Three mission cards are selected with the following values:
 
-| Name | Mission 1 |
+| Name | Mech Onslaught |
 | --- | --- |
 | CP | 6 |
 | Type | Mission |
@@ -54,6 +54,9 @@ Three mission cards are selected with the following values:
 | Magic | 0 |
 | Psionics | 0 |
 | Theism | 0 |
+| Requirement | In a single turn, one `Mech` unit must defeat 3 opposing units and survive. |
+| Passive | All mech units cost one less CP to Deploy. |
+| Completion | All friendly `Mech` units gain +1/+1. |
 
 | Name | Mission 2 |
 | --- | --- |
@@ -63,15 +66,28 @@ Three mission cards are selected with the following values:
 | Magic | 0 |
 | Psionics | 1 |
 | Theism | 1 |
+| Requirement | In a single turn, `Exfiltrate` an opponents hand, top three cards of their deck and bottom card of the deck. |
+| Passive | Opponent plays with the top card on their deck flipped up. |
+| Completion | Remove one unit, terrain, and asset from your opponents board. |
 
-| Name | Mission 3 |
+| Name | Divine Crusade |
 | --- | --- |
 | CP | 4 |
-| Technogy | 0 |
 | Type | Mission |
+| Technology |0|
 | Magic | 0 |
 | Psionics | 0 |
 | Theism | 1 |
+| Requirement | in a single turn, three units with the keyword `Holy` must remove at least one opposing unit each. |
+| Passive | At the start of each Battle phase choose one unit to gain +1 attack. |
+| Completion | All opposing non-mechanical units are `Pinned` for the rest of this turn. |
+
+In this example, we have three mission cards that give a total of 19 CP for the player to spend on their turn. It also gives the following values in each domain:
+
+| Technology | 3 |
+| Magic | 0 |
+| Psionics | 1 |
+| Theism | 2 |
 
 ### Determining Command Points
 

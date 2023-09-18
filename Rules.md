@@ -1,9 +1,5 @@
 # Quantum Nexus Rules
 
-## Overview
-
-Welcome to Quantum Nexus, the thrilling sci-fi trading card game where strategic mastery and clever deck construction are your keys to victory! In this immersive universe, you'll harness the power of advanced civilizations to outwit your opponents and achieve your objectives.
-
 ## How to Win
 
 In Quantum Nexus, there are several ways to win.
@@ -46,17 +42,11 @@ Each mission card as four domains: Technology, Magic, Psionics, Theism. Each mis
 
 You may select mission cards where the sum of all domains on the mission cards does not exceed 6 and any single domain does not exceed 4. It is acceptable to have a domain with 0 points.
 
-Selecting mission cards is crucial for winning, be careful that the cards you include are able to meet the requirements of the missions.
-
-#### Determining Command Points
-
-Each selected mission card has a Command Point (CP) value. The sum of these values will determine the starting CP. In the example above the total CP per turn is 19.
-
 #### Example
 
 Three mission cards are selected with the following values:
 
-| Name | Mech Onslaught |
+| Name | Mission 1 |
 | --- | --- |
 | CP | 6 |
 | Type | Mission |
@@ -64,9 +54,6 @@ Three mission cards are selected with the following values:
 | Magic | 0 |
 | Psionics | 0 |
 | Theism | 0 |
-| Requirement | In a single turn, one `Mech` unit must defeat 3 opposing units and survive. |
-| Passive | All mech units cost one less CP to Deploy. |
-| Completion | All friendly `Mech` units gain +1/+1. |
 
 | Name | Mission 2 |
 | --- | --- |
@@ -76,30 +63,19 @@ Three mission cards are selected with the following values:
 | Magic | 0 |
 | Psionics | 1 |
 | Theism | 1 |
-| Requirement | In a single turn, `Exfiltrate` an opponents hand, top three cards of their deck and bottom card of the deck. |
-| Passive | Opponent plays with the top card on their deck flipped up. |
-| Completion | Remove one unit, terrain, and asset from your opponents board. |
 
-| Name | Divine Crusade |
+| Name | Mission 3 |
 | --- | --- |
 | CP | 4 |
+| Technogy | 0 |
 | Type | Mission |
-| Technology |0|
 | Magic | 0 |
 | Psionics | 0 |
 | Theism | 1 |
-| Requirement | in a single turn, three units with the keyword `Holy` must remove at least one opposing unit each. |
-| Passive | At the start of each Battle phase choose one unit to gain +1 attack. |
-| Completion | All opposing non-mechanical units are `Pinned` for the rest of this turn. |
 
-In this example, we have three mission cards that give a total of 19 CP for the player to spend on their turn. It also gives the following values in each domain:
+### Determining Command Points
 
-| Domain | Points |
-|--|--|
-| Technology | 3 |
-| Magic | 0 |
-| Psionics | 1 |
-| Theism | 2 |
+Each selected mission card has a Command Point (CP) value. The sum of these values will determine the starting CP. In the example above the total CP per turn is 19.
 
 ### Selecting Cards
 
@@ -202,7 +178,7 @@ Asset cards don't have an Attack value, but they do have a defence value. Asset 
 
 Event cards create a powerful single-use effect. Event cards don't have any other attributes but can only be played during the Command Phase of play.
 
-#### Upgrade
+#### Upgrades
 
 Upgrade cards have Attack and Defence values but are modifiers, not base values. The modifiers will add or subtract from a unit’s attack or defence values. An upgrade can also give a unit additional effects, statuses, and abilities.
 
@@ -212,7 +188,7 @@ Terrain can be deployed during the deployment phase and may have similar restric
 
 #### Mission
 
-Mission cards are available for each player and have completion conditions. Once the requirements are met, the mission card will start providing a passive effect on the battlefield and count toward the victory condition. Each mission card also has an ability; once completed, the ability will be triggered immediately. The player can include no more than six (6) missions in a deck, and a player will be deemed victorious once all missions have been completed. A deck may include any number of missions as long as there are fewer than six, and the total domain points are equal to six.
+Mission cards are available for each player and have completion conditions. Once the requirements are met, the mission card will start providing a passive effect on the battlefield and count toward the victory condition. Each mission card also has an ability; once triggered, it will remove the passive effect from the mission, and that card will be turned over, indicating that it will not be able to be used again for that game. The player can include no more than six (6) missions in a deck, and a player will be deemed victorious once all missions have been completed. A deck may include any number of missions as long as there are fewer than six.
 
 ## How to Play
 
@@ -231,14 +207,6 @@ Turn order is determined at the beginning of the game to decide which player goe
 ### Phases of Play
 
 In Quantum Nexus, a player's turn consists of four phases: Ready Phase, Deployment Phase, Command Phase, and Battle Phase. Players perform each phase together, taking turns within each phase as needed.
-
-```mermaid
-graph TD;
-  ReadyPhase[Ready Phase] --> DeployPhase[Deploy Phase];
-  DeployPhase --> CommandPhase[Command Phase];
-  CommandPhase --> BattlePhase[Battle Phase];
-  BattlePhase --> ReadyPhase
-```
 
 #### Ready Phase (Simultaneous)
 
@@ -270,7 +238,7 @@ graph TD;
   DeployCard2 --> FirstPlayer;
   BothPass2 -- No --> FirstPlayer;
   BothPass1 -- Yes --> DetermineOrder[Determine order for next phase];
-  BothPass2 -- Yes --> DetermineOrder
+  BothPass2 --> DetermineOrder
   DetermineOrder --> CommandPhase[Command Phase];
 ```
 
@@ -289,6 +257,24 @@ graph TD;
 - If the defender's Attack value exceeds the attacker's Defense value, the attacker is discarded.
 - If Attack and Defense values match, both units remain in play.
 
+```mermaid
+graph TD;
+  Start[Start Phase] --> FirstPlayer[First Player];
+  FirstPlayer --> WillAttack1{Will Declare an Attack?};
+  WillAttack1 -- Yes --> DeclareAttack1[Declare Attack];
+  WillAttack1 -- No --> BothPass1{Have both players passed?};
+  BothPass1 -- No --> SecondPlayer[Second Player];
+  DeclareAttack1 --> SecondPlayer;
+  SecondPlayer --> WillAttack2{Will Declare an Attack?};
+  WillAttack2 --> Yes --> DeclareAttack2[Declare Attack];
+  WillAttack2 -- No --> BothPass2{Have both players passed?};
+  DeclareAttack2 --> FirstPlayer;
+  BothPass2 -- No --> FirstPlayer;
+  BothPass1 -- Yes --> ResolveAttacks[Resolve Attacks and End Phase];
+  BothPass2 -- Yes --> ResolveAttacks
+  ResolveAttacks --> End[End Phase];
+```
+
 ### Changing Order of Play
 
 During Quantum Nexus gameplay, players take turns within each phase. This ensures a structured and fair experience. Here's how it works:
@@ -303,7 +289,7 @@ This turn structure ensures that each player has a chance to act in a fair and o
 
 There are several distinct areas that cards are played in Quantum Nexus.
 
-![Areas of Play](./areasOfPlay.svg)
+[Areas of Play](./areasOfPlay.svg)
 
 ### Mission Cards
 

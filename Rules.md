@@ -102,7 +102,7 @@ Each card has the four domains listed with values. The domain values on the card
 
 #### Example
 
-| Name | Unit 1 |
+| Name | Mech Trooper |
 | --- | --- |
 | CP | 6 |
 | Type | Unit |
@@ -111,7 +111,7 @@ Each card has the four domains listed with values. The domain values on the card
 | Psionics | 1 |
 | Theism | 0 |
 
-| Name | Unit 2 |
+| Name | Mystic Sorcerer |
 | --- | --- |
 | CP | 2 |
 | Type | Unit |
@@ -120,7 +120,7 @@ Each card has the four domains listed with values. The domain values on the card
 | Psionics | 0 |
 | Theism | 0 |
 
-| Name | Unit 3 |
+| Name | Psionic Guardian |
 | --- | --- |
 | CP | 5 |
 | Type | Unit |

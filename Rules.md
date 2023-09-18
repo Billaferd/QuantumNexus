@@ -204,6 +204,20 @@ Turn order is determined at the beginning of the game to decide which player goe
 6. Once the first player is chosen, the game setup continues as detailed below.
 7. When the game starts, play then continues to the left of the first chosen player. The first turn can have long-lasting effects and allows a player to set the pace of the battle.
 
+```mermaid
+graph TB;
+  Start[Start of Game] --> Shuffle[Both Players Shuffle Their Decks];
+  Shuffle --> FlipCards[Both Players Simultaneously Flip the Top Card of Their Decks];
+  FlipCards --> CompareCP{Compare CP Values of Flipped Cards};
+  CompareCP -- CP1 < CP2 --> Player1[Player 1 Chooses Who Goes First];
+  CompareCP -- CP2 < CP1 --> Player2[Player 2 Chooses Who Goes First];
+  CompareCP -- CP1 = CP2 --> DrawAgain[CP Values Are Equal, Draw Again];
+  DrawAgain --> FlipAdditional[Both Players Flip Additional Cards];
+  FlipAdditional --> CompareCP;
+  Player1 --> GameStart[Game Begins with Chosen First Player];
+  Player2 --> GameStart[Game Begins with Chosen First Player];
+```
+
 ### Phases of Play
 
 In Quantum Nexus, a player's turn consists of four phases: Ready Phase, Deployment Phase, Command Phase, and Battle Phase. Players perform each phase together, taking turns within each phase as needed.

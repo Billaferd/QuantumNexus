@@ -222,22 +222,6 @@ graph TB;
 
 In Quantum Nexus, a player's turn consists of four phases: Ready Phase, Deployment Phase, Command Phase, and Battle Phase. Players perform each phase together, taking turns within each phase as needed.
 
-```mermaid
-graph TB;
-  Start1[Start of Player 1's Ready Phase] --> Deactivate1[Player 1 Deactivates Cards in Play];
-  Start2[Start of Player 2's Ready Phase] --> Deactivate2[Player 2 Deactivates Cards in Play];
-  Deactivate1 --> DrawCards1[Player 1 Draws Cards];
-  Deactivate2 --> DrawCards2[Player 2 Draws Cards];
-  DrawCards1 --> ResetCP1[Player 1 Resets Command Points (CP)];
-  DrawCards2 --> ResetCP2[Player 2 Resets Command Points (CP)];
-  ResetCP1 --> AddExtraCP1[Player 1 Adds Extra CP If Any];
-  ResetCP2 --> AddExtraCP2[Player 2 Adds Extra CP If Any];
-  AddExtraCP1 --> End1[End of Player 1's Ready Phase];
-  AddExtraCP2 --> End2[End of Player 2's Ready Phase];
-  End1 --> Common[Common Actions for Both Players];
-  End2 --> Common;
-```
-
 #### Ready Phase (Simultaneous)
 
 At the start of each player's turn, both players simultaneously perform the following steps during the Ready Phase:
@@ -246,6 +230,22 @@ At the start of each player's turn, both players simultaneously perform the foll
 2. Draw cards: Simultaneously, both players draw cards from their decks to ensure they have five cards in their hand.
 3. Reset Command Points (CP): At the same time, both players reset their Command Points (CP) to their starting value.
 4. Add Extra CP: If any extra CP is given at the turn's beginning, both players add it to their CP pool simultaneously.
+
+```mermaid
+graph TB;
+  Start1[Start of Player 1s Ready Phase] --> Deactivate1[Player 1 Deactivates Cards in Play];
+  Start2[Start of Player 2s Ready Phase] --> Deactivate2[Player 2 Deactivates Cards in Play];
+  Deactivate1 --> DrawCards1[Player 1 Draws Cards];
+  Deactivate2 --> DrawCards2[Player 2 Draws Cards];
+  DrawCards1 --> ResetCP1[Player 1 Resets Command Points (CP)];
+  DrawCards2 --> ResetCP2[Player 2 Resets Command Points (CP)];
+  ResetCP1 --> AddExtraCP1[Player 1 Adds Extra CP If Any];
+  ResetCP2 --> AddExtraCP2[Player 2 Adds Extra CP If Any];
+  AddExtraCP1 --> End1[End of Player 1s Ready Phase];
+  AddExtraCP2 --> End2[End of Player 2s Ready Phase];
+  End1 --> Common[Common Actions for Both Players];
+  End2 --> Common;
+```
 
 #### Deployment Phase (Alternating Turns)
 

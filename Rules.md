@@ -1,5 +1,4 @@
-# Quantum Nexus Rules
-
+# Quantum Nexus Ru
 ## How to Win
 
 In Quantum Nexus, there are several ways to win.
@@ -24,7 +23,7 @@ Quantum Nexus is played by two or more people using only the cards in their deck
 - Terrain
     - Adds or removes bonuses, effects, and abilities for specific units on the battlefield.
 - Missions
-    - Represent battle objectives that, once achieved, provide a passive bonus or a powerful one off effect.
+    - Represent battle objectives that, once achieved, provide a passive bonus or a powerful one-off effect.
 
 Each card type has a unique role in the game and is used together to defeat an opponent. All cards have a cost associated with them; this cost is called Command Points and is always located in the top left of the cards.
 
@@ -34,13 +33,13 @@ Each player must construct their decks to a specific set of rules. These rules c
 
 1. Each player’s deck must have exactly 200 Commanders Points worth of cards.
 2. A maximum of six (6) mission cards can be included in a deck.
-3. No single card count is greater then the number of duplicates allowed.
+3. No single card count exceeds the number of duplicates allowed.
 
 ### Selecting Missions
 
-Each mission card as four domains: Technology, Magic, Psionics, Theism. Each mission card will have a 0 - 4 points in any one Domain, and a maximum of 6 points in total.
+Each mission card has four domains: Technology, Magic, Psionics, and Theism. Each mission card will have a value of 0 - 4 points in any one Domain and a maximum of 6 points.
 
-You may select mission cards where the sum of all domains on the mission cards does not exceed 6 and any single domain does not exceed 4. It is acceptable to have a domain with 0 points. The domain points will determine the types of cards available during deck construction.
+You may select mission cards where the sum of all domains on the mission cards does not exceed six, and any single domain does not exceed 4. It is acceptable to have a domain with 0 points. The domain points will determine the types of cards available during deck construction.
 
 #### Example
 
@@ -66,9 +65,9 @@ Three mission cards are selected with the following values:
 | Magic | 0 |
 | Psionics | 1 |
 | Theism | 1 |
-| Requirement | In a single turn, `Exfiltrate` an opponents hand, top three cards of their deck and bottom card of the deck. |
+| Requirement | In a single turn, `Exfiltrate` an opponent's hand, the top three cards of their deck and the bottom card of the deck. |
 | Passive | Opponent plays with the top card on their deck flipped up. |
-| Completion | Remove one unit, terrain, and asset from your opponents board. |
+| Completion | Remove one unit, terrain, and asset from your opponent's board. |
 
 | Name | Divine Crusade |
 | --- | --- |
@@ -78,11 +77,11 @@ Three mission cards are selected with the following values:
 | Magic | 0 |
 | Psionics | 0 |
 | Theism | 1 |
-| Requirement | in a single turn, three units with the keyword `Holy` must remove at least one opposing unit each. |
-| Passive | At the start of each Battle phase choose one unit to gain +1 attack. |
+| Requirement | In a single turn, three units with the keyword `Holy` must remove at least one opposing unit each. |
+| Passive | At the start of each Battle phase, choose one unit to gain +1 attack. |
 | Completion | All opposing non-mechanical units are `Pinned` for the rest of this turn. |
 
-In this example, we have three mission cards that give a total of 19 CP for the player to spend on their turn. It also gives the following values in each domain:
+In this example, we have three mission cards that give 19 CP for the player to spend on their turn. It also provides the following values in each domain:
 
 
 | Domain | Points |
@@ -94,7 +93,7 @@ In this example, we have three mission cards that give a total of 19 CP for the 
 
 ### Determining Command Points
 
-Each selected mission card has a Command Point (CP) value. The sum of these values will determine the starting CP. In the example above the total CP per turn is 19.
+Each selected mission card has a Command Point (CP) value. The sum of these values will determine the starting CP. In the example above, the total CP per turn is 19.
 
 ### Selecting Cards
 
@@ -129,11 +128,11 @@ Each card has the four domains listed with values. The domain values on the card
 | Psionics | 2 |
 | Theism | 0 |
 
-With these example cards, Unit 1 can be added to the deck because both domain numbers are less then or equal to the sum of each corresponding domain on the mission cards.
+With these example cards, Unit 1 can be added to the deck because both domain numbers are less than or equal to the sum of each corresponding domain on the mission cards.
 
-Unit 2 cant be added because it requires a Magic value of 1 but our mission cards Magic value sum is 0.
+Unit 2 can't be added because it requires a Magic value of 1, but our mission card Magic value sum is 0.
 
-Similarly, Unit 3 can't be added because the sum of the Psionics domain is 1 on the mission cards but the unit requires at least a 2 in Psionics.
+Similarly, Unit 3 can't be added because the sum of the Psionics domain is one on the mission cards, but the unit requires at least a 2 in Psionics.
 
 ## Cards
 
@@ -157,7 +156,7 @@ A card rule box holds a card's abilities, effects, and conditions. Any text writ
 
 #### Mandatory Interrupts
 
-Mandatory Interrupts will have a trigger in the form of “Type-Action.” Since there is no cost, these interrupts must activate if possible. If a unit is able to activate they must when the triggering condition is met.
+Mandatory Interrupts will have a trigger in the form of “Type-Action.” Since there is no cost, these interrupts must activate if possible. If a unit can activate, it must when the triggering condition is met.
 
 An example of a few triggers would be:
 
@@ -169,11 +168,11 @@ Player-Draw: Triggered when a player draws a card.
 
 #### Interrupts
 
-Interrupts not only have a trigger, but they also have a cost. Since there is a cost involved these interrupts are optional and can only be triggered if the trigger is met, and the cost is then paid at that time.
+Interrupts not only have a trigger, but they also have a cost. Since a cost is involved, these interrupts are optional and can only be triggered if the trigger is met, and the cost is then paid at that time.
 
 #### Active Abilities
 
-Active abilities will have a cost listed to the right of the effect. These abilities will activate the card and prevent it from making any further attacks, defenses, or abilities.
+Active abilities will have a cost listed to the right of the effect. These abilities will activate the card and prevent it from making any further attacks, defences, or abilities.
 
 #### Passive Abilities
 
@@ -181,7 +180,7 @@ Passive abilities have no markings in the rule box and only describe an effect. 
 
 ### Duplicates
 
-Each card has a limit to how many times it is allowed to be added to the deck. You can include the same card multiple times up to this limit. Some cards have a duplicate count of one, meaning only one card with that name can be included.
+Each card is limited to how many times it is allowed to be added to the deck. You can include the same card multiple times up to this limit. Some cards have a duplicate count of one, meaning only one card with that name can be included.
 
 ### Card Types
 
@@ -207,7 +206,7 @@ Terrain can be deployed during the deployment phase and may have similar restric
 
 #### Mission
 
-Mission cards are available for each player and have completion conditions. Once the requirements are met, the mission card will start providing a passive effect on the battlefield and count toward the victory condition. Each mission card also has an ability; once triggered, it will remove the passive effect from the mission, and that card will be turned over, indicating that it will not be able to be used again for that game. The player can include no more than six (6) missions in a deck, and a player will be deemed victorious once all missions have been completed. A deck may include any number of missions as long as there are fewer than six.
+Mission cards are available for each player and have completion conditions. Once the requirements are met, the mission card will start providing a passive effect on the battlefield and count toward the victory condition. Each mission card also has an ability; once triggered, it will remove the passive effect from the mission, and that card will be turned over, indicating that it will not be able to be used again for that game. The player can include no more than six (6) missions in a deck, and a player will be deemed victorious once all missions have been completed. A deck may include any number of missions if there are fewer than six.
 
 ## How to Play
 
@@ -216,12 +215,12 @@ Mission cards are available for each player and have completion conditions. Once
 Turn order is determined at the beginning of the game to decide which player goes first.
 
 1. Each player shuffles their deck thoroughly.
-2. Both players simultaneously flip up a card from the top of their shuffled decks.
-3. The card with the lowest Command Point (CP) value is used to determine which player goes first. The player with the lowest CP value chooses who goes first.
-4. In case of a draw (both players reveal cards with the same CP value), both players flip up another card from their decks.
-5. Repeat the process until there is no longer a draw. The player with the lowest CP value after this process chooses who goes first.
+2. Both players flip up a card from the top of their shuffled decks.
+3. The card with the lowest Command Point (CP) value determines which player goes first. The player with the lowest CP value chooses who goes first.
+4. In case of a draw (both players reveal cards with the same CP value), they flip up another card from their decks.
+5. Repeat the process until there is no longer a draw. The player with the lowest CP value, after this process, chooses who goes first.
 6. Once the first player is chosen, the game setup continues as detailed below.
-7. When the game starts, play then continues to the left of the first chosen player. The first turn can have long-lasting effects and allows a player to set the pace of the battle.
+7. When the game starts, play continues to the left of the first chosen player. The first turn can have long-lasting effects and allows a player to set the pace of the battle.
 
 ```mermaid
 graph TB;
@@ -246,8 +245,8 @@ In Quantum Nexus, a player's turn consists of four phases: Ready Phase, Deployme
 At the start of each player's turn, both players simultaneously perform the following steps during the Ready Phase:
 
 1. Deactivate any cards: Both players deactivate any cards they have in play from the previous turn.
-2. Draw cards: Simultaneously, both players draw cards from their decks to ensure they have five cards in their hand.
-3. Reset Command Points (CP): At the same time, both players reset their Command Points (CP) to their starting value.
+2. Draw cards: Simultaneously, both players draw cards from their deck to ensure they have five cards in their hand.
+3. Reset Command Points (CP): Simultaneously, both players reset their Command Points (CP) to their starting value.
 4. Add Extra CP: If any extra CP is given at the turn's beginning, both players add it to their CP pool simultaneously.
 
 ```mermaid
@@ -344,11 +343,11 @@ graph TD;
   ResolveAttacks --> End[End Phase];
 ```
 
-### Changing Order of Play
+### Changing the Order of Play
 
 During Quantum Nexus gameplay, players take turns within each phase. This ensures a structured and fair experience. Here's how it works:
 
-- Sequential Turns: Within each phase, such as Deployment or Command, players take turns one after the other.
+- Sequential Turns: Within each phase, such as Deployment or Command, players take turns.
 - Determining the First Player: To start the game, players compare the Command Point (CP) values of the top cards of their decks. The player with the lowest CP value decides who goes first. In case of a tie, players draw additional cards until the tie is broken.
 - Completing Actions: Players complete their actions within a phase, such as deploying cards in the Deployment Phase. The player who finishes their actions first becomes the first player in the next phase.
 - Resolving Ties: If multiple players finish their actions simultaneously in a phase and have the same CP value, the player with the lowest CP value for that turn becomes the first player in the next phase. If CP values are still tied, the next player to act among those not playing cards in the current phase is selected.
@@ -356,21 +355,21 @@ This turn structure ensures that each player has a chance to act in a fair and o
 
 ## Areas of Play
 
-There are several distinct areas that cards are played in Quantum Nexus.
+There are several distinct areas in which cards are played in Quantum Nexus.
 
 [Areas of Play](./areasOfPlay.svg)
 
 ### Mission Cards
 
-The mission card area is where your mission cards are. They must be visible to both players to ensure transparency and fairness. They are commonly put above the players deck so that both players can easily see them.
+The mission card area is where your mission cards are. They must be visible to both players to ensure transparency and fairness. They are commonly put above the player's deck so both can easily see them.
 
 ### Deck
 
-The deck is where all of the players cards are kept. It is generally kept to the right of the play area with the mission cards above it and the discard pile below it. Players will draw cards from the deck.
+The deck is where all of the player's cards are kept. It is generally held to the right of the play area, with the mission cards above it and the discard pile below it. Players will draw cards from the deck.
 
 ### Discard pile
 
-The discard pile is where all of the destroyed cards go. Once a card has been either destroyed or used if it is an event that card is put into the discard pile face up.
+The discard pile is where all of the destroyed cards go. Once a card has been either destroyed or used, if it is an event, that card is put into the discard pile face up.
 
 ### Loadout
 

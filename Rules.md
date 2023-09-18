@@ -358,7 +358,7 @@ This turn structure ensures that each player has a chance to act in a fair and o
 
 There are several distinct areas in which cards are played in Quantum Nexus.
 
-[Areas of Play](./areasOfPlay.svg)
+![Areas of Play](./areasOfPlay.svg)
 
 ### Mission Cards
 

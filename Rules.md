@@ -84,6 +84,9 @@ Three mission cards are selected with the following values:
 
 In this example, we have three mission cards that give a total of 19 CP for the player to spend on their turn. It also gives the following values in each domain:
 
+
+| Domain | Points |
+|--|--|
 | Technology | 3 |
 | Magic | 0 |
 | Psionics | 1 |

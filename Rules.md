@@ -1,4 +1,5 @@
-# Quantum Nexus Ru
+# Quantum Nexus Rules
+
 ## How to Win
 
 In Quantum Nexus, there are several ways to win.

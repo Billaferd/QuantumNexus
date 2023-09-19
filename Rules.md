@@ -1,5 +1,11 @@
 # Quantum Nexus Rules
 
+## Introduction
+
+Welcome to the exciting world of Quantum Nexus, the sci-fi trading card game that will challenge your strategic skills and immerse you in epic battles between advanced civilizations. In Quantum Nexus, you will embark on thrilling adventures, deploy powerful units, and engage in tactical warfare to achieve victory.
+
+This rule book is your comprehensive guide to understanding the game's mechanics, strategies, and objectives. Whether you're a newcomer or a seasoned player, this rule book will provide all the information you need to dive into the Quantum Nexus universe.
+
 ## How to Win
 
 In Quantum Nexus, there are several ways to win.
@@ -38,7 +44,7 @@ Each player must construct their decks to a specific set of rules. These rules c
 
 ### Selecting Missions
 
-Each mission card has four domains: Technology, Magic, Psionics, and Theism. Each mission card will have a value of 0 - 4 points in any one Domain and a maximum of 6 points.
+Each mission card has four domains: Technology, Magic, Psionics, and Divinity. Each mission card will have a value of 0 - 4 points in any one Domain and a maximum of 6 points.
 
 You may select mission cards where the sum of all domains on the mission cards does not exceed six, and any single domain does not exceed 4. It is acceptable to have a domain with 0 points. The domain points will determine the types of cards available during deck construction.
 
@@ -53,7 +59,7 @@ Three mission cards are selected with the following values:
 | Technogy | 2 |
 | Magic | 0 |
 | Psionics | 0 |
-| Theism | 0 |
+| Divinity | 0 |
 | Requirement | In a single turn, one `Mech` unit must defeat 3 opposing units and survive. |
 | Passive | All mech units cost one less CP to Deploy. |
 | Completion | All friendly `Mech` units gain +1/+1. |
@@ -65,7 +71,7 @@ Three mission cards are selected with the following values:
 | Technogy | 1 |
 | Magic | 0 |
 | Psionics | 1 |
-| Theism | 1 |
+| Divinity | 1 |
 | Requirement | In a single turn, `Exfiltrate` an opponent's hand, the top three cards of their deck and the bottom card of the deck. |
 | Passive | Opponent plays with the top card on their deck flipped up. |
 | Completion | Remove one unit, terrain, and asset from your opponent's board. |
@@ -77,7 +83,7 @@ Three mission cards are selected with the following values:
 | Technology |0|
 | Magic | 0 |
 | Psionics | 0 |
-| Theism | 1 |
+| Divinity | 1 |
 | Requirement | In a single turn, three units with the keyword `Holy` must remove at least one opposing unit each. |
 | Passive | At the start of each Battle phase, choose one unit to gain +1 attack. |
 | Completion | All opposing non-mechanical units are `Pinned` for the rest of this turn. |
@@ -90,7 +96,7 @@ In this example, we have three mission cards that give 19 CP for the player to s
 | Technology | 3 |
 | Magic | 0 |
 | Psionics | 1 |
-| Theism | 2 |
+| Divinity | 2 |
 
 ### Determining Command Points
 
@@ -109,7 +115,7 @@ Each card has the four domains listed with values. The domain values on the card
 | Technogy | 1 |
 | Magic | 0 |
 | Psionics | 1 |
-| Theism | 0 |
+| Divinity | 0 |
 
 | Name | Mystic Sorcerer |
 | --- | --- |
@@ -118,7 +124,7 @@ Each card has the four domains listed with values. The domain values on the card
 | Technogy | 0 |
 | Magic | 1 |
 | Psionics | 0 |
-| Theism | 0 |
+| Divinity | 0 |
 
 | Name | Psionic Guardian |
 | --- | --- |
@@ -127,9 +133,9 @@ Each card has the four domains listed with values. The domain values on the card
 | Technogy | 0 |
 | Magic | 0 |
 | Psionics | 2 |
-| Theism | 0 |
+| Divinity | 0 |
 
-With these example cards, Unit 1 can be added to the deck because both domain numbers are less than or equal to the sum of each corresponding domain on the mission cards.
+Unit 1 can be added to the deck with these example cards because both domain numbers are less than or equal to the sum of each corresponding domain on the mission cards.
 
 Unit 2 can't be added because it requires a Magic value of 1, but our mission card Magic value sum is 0.
 
@@ -145,7 +151,7 @@ Command Points are always located at the top left of the card. They indicate the
 
 ### Type
 
-Each card is one of several major types. Each type has a unique function on the board. Commander, Unit, Tech, Event, Mission, and Terrain are the seven types.
+Each card is one of several major types. Each type has a unique function on the board. Unit, Upgrade, Asset, Event, Mission, and Terrain are the six types.
 
 ### Subtype
 
@@ -181,7 +187,7 @@ Passive abilities have no markings in the rule box and only describe an effect. 
 
 ### Duplicates
 
-Each card is limited to how many times it is allowed to be added to the deck. You can include the same card multiple times up to this limit. Some cards have a duplicate count of one, meaning only one card with that name can be included.
+Each card is limited to how many times it can be added to the deck. You can include the same card multiple times up to this limit. Some cards have a duplicate count of one, meaning only one card with that name can be included.
 
 ### Card Types
 
@@ -219,7 +225,7 @@ Turn order is determined at the beginning of the game to decide which player goe
 2. Both players flip up a card from the top of their shuffled decks.
 3. The card with the lowest Command Point (CP) value determines which player goes first. The player with the lowest CP value chooses who goes first.
 4. In case of a draw (both players reveal cards with the same CP value), they flip up another card from their decks.
-5. Repeat the process until there is no longer a draw. The player with the lowest CP value, after this process, chooses who goes first.
+5. Repeat the process until there is no longer a draw. After this process, the player with the lowest CP value chooses who goes first.
 6. Once the first player is chosen, the game setup continues as detailed below.
 7. When the game starts, play continues to the left of the first chosen player. The first turn can have long-lasting effects and allows a player to set the pace of the battle.
 
@@ -270,10 +276,10 @@ graph TB;
 
 #### Deployment Phase (Alternating Turns)
 
-- Players take turns placing cards one at a time, alternating between players.
+- Players place cards one at a time, alternating between players.
 - A player can play a card or pass their turn to signal they are finished with the Deployment Phase.
 
-If more than one player stops playing cards simultaneously, the player with the lowest CP value of that turn goes first in the next phase. If CP values are the same, the next player among those not playing cards from the current phase leader is selected.
+If more than one player stops playing cards simultaneously, the player with the lowest CP value of that turn goes first in the next phase. If CP values are the same, the next player from the current phase leader is selected among those not playing cards.
 
 ```mermaid
 graph TD;
@@ -284,7 +290,7 @@ graph TD;
   BothPass1 -- No --> SecondPlayer[Second Player];
   DeployCard1 --> SecondPlayer;
   SecondPlayer --> WillDeploy2{Will Deploy a Card?};
-  WillDeploy2 --> Yes --> DeployCard2[Deploy Card];
+  WillDeploy2 -- Yes --> DeployCard2[Deploy Card];
   WillDeploy2 -- No --> BothPass2{Have both players passed?};
   DeployCard2 --> FirstPlayer;
   BothPass2 -- No --> FirstPlayer;
@@ -304,17 +310,17 @@ graph TB;
   Start[Start Phase] --> FirstPlayer[First Player];
   FirstPlayer --> WillActivate1{Will Activate an Ability?};
   WillActivate1 -- Yes --> ActivateAbility1[Activate Ability];
-  WillActivate1 -- No --> Pass1{Has the Player Passed?};
+  WillActivate1 -- No --> Pass1{Have both players passed?};
   Pass1 -- No --> SecondPlayer[Second Player];
   ActivateAbility1 --> SecondPlayer;
   SecondPlayer --> WillActivate2{Will Activate an Ability?};
-  WillActivate2 --> Yes --> ActivateAbility2[Activate Ability];
-  WillActivate2 -- No --> Pass2{Has the Player Passed?};
+  WillActivate2 -- Yes --> ActivateAbility2[Activate Ability];
+  WillActivate2 -- No --> Pass2{Have both players passed?};
   ActivateAbility2 --> FirstPlayer;
   Pass2 -- No --> FirstPlayer;
-  Pass1 -- Yes --> ResolveAbilities[Resolve Abilities and End Phase];
-  Pass2 -- Yes --> ResolveAbilities
-  ResolveAbilities --> End[End Phase];
+  Pass1 -- Yes --> DetermineOrder[Determine order for next phase];
+  Pass2 -- Yes --> DetermineOrder
+  DetermineOrder --> End[End Phase];
 ```
 
 #### Battle Phase (Declaring Attacks)
@@ -330,26 +336,26 @@ graph TB;
 graph TD;
   Start[Start Phase] --> FirstPlayer[First Player];
   FirstPlayer --> WillAttack1{Will Declare an Attack?};
-  WillAttack1 -- Yes --> DeclareAttack1[Declare Attack];
+  WillAttack1 -- Yes --> DeclareAttack1[Attack];
   WillAttack1 -- No --> BothPass1{Have both players passed?};
   BothPass1 -- No --> SecondPlayer[Second Player];
   DeclareAttack1 --> SecondPlayer;
   SecondPlayer --> WillAttack2{Will Declare an Attack?};
-  WillAttack2 --> Yes --> DeclareAttack2[Declare Attack];
+  WillAttack2 -- Yes --> DeclareAttack2[Attack];
   WillAttack2 -- No --> BothPass2{Have both players passed?};
   DeclareAttack2 --> FirstPlayer;
   BothPass2 -- No --> FirstPlayer;
-  BothPass1 -- Yes --> ResolveAttacks[Resolve Attacks and End Phase];
-  BothPass2 -- Yes --> ResolveAttacks
-  ResolveAttacks --> End[End Phase];
+  BothPass1 -- Yes --> DetermineOrder[Determine order for next phase];
+  BothPass2 -- Yes --> DetermineOrder
+  DetermineOrder --> End[End Phase];
 ```
 
 ### Changing the Order of Play
 
 During Quantum Nexus gameplay, players take turns within each phase. This ensures a structured and fair experience. Here's how it works:
 
-- Sequential Turns: Within each phase, such as Deployment or Command, players take turns.
-- Determining the First Player: To start the game, players compare the Command Point (CP) values of the top cards of their decks. The player with the lowest CP value decides who goes first. In case of a tie, players draw additional cards until the tie is broken.
+- Sequential Turns: Players take turns within each phase, such as Deployment or Command.
+- Determining the First Player: Players compare the Command Point (CP) values of the top cards of their decks to start the game. The player with the lowest CP value decides who goes first. Players draw additional cards in case of a tie until the tie is broken.
 - Completing Actions: Players complete their actions within a phase, such as deploying cards in the Deployment Phase. The player who finishes their actions first becomes the first player in the next phase.
 - Resolving Ties: If multiple players finish their actions simultaneously in a phase and have the same CP value, the player with the lowest CP value for that turn becomes the first player in the next phase. If CP values are still tied, the next player to act among those not playing cards in the current phase is selected.
 This turn structure ensures that each player has a chance to act in a fair and organized manner within each phase of the game.
@@ -370,7 +376,7 @@ The deck is where all of the player's cards are kept. It is generally held to th
 
 ### Discard pile
 
-The discard pile is where all of the destroyed cards go. Once a card has been either destroyed or used, if it is an event, that card is put into the discard pile face up.
+The discard pile is where all of the destroyed cards go. Once a card has been destroyed or used, it is put into the discard pile face up.
 
 ### Loadout
 

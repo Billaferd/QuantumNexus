@@ -21,6 +21,7 @@ This guide will allow designers to create more consistent, balanced, and excitin
 2. Domain Disciplines
     1. For every point in each domain, select a random discipline for that domain
     2. If there are two points in a domain then two disciplines would be chosen. If three points, then three disciplines and so forth.
+      - If three points were chosen for Magic, one possible set of disciplines would be: Elemental Magic, Enchantment, and Necromancy.
     3. These disciplines will dictate the flavour and direction of the card. All disciplines must be considered.
     4. Domains
         1. Technology Domain:

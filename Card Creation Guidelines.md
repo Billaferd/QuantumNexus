@@ -1,32 +1,26 @@
-# Card Creation Guidelines
+# Card Creation Guidelines for Quantum Nexus
 
-This guide will allow designers to create more consistent, balanced, and exciting cards.
+1. **Basic Feel**:
+   - Define the card's nature using five axes:
+     - Malevolence (Neutral, Malevolent, Benevolent)
+     - Utility (Utility-focused, Neutral, Disruptive)
+     - Combat (Offense, Neutrality, Defense)
+     - Range (Close Quarters, Neutral Range, Ranged)
+     - Impact (Constructive, Neutral, Destructive)
 
-**Basic Feel:**
+2. **Domain Points Allocation**:
+   - Allocate a total of 6 points across four domains:
+     - Technology
+     - Magic
+     - Psionics
+     - Divinity
+   - Ensure balanced distribution, with no domain exceeding 4 points.
+   - Assign at least 1 point to any domain mentioned in the card's attributes, abilities, name, or description.
 
-- Use five axes to define a card's nature:
-    - Malevolence: Decide if it's malevolent, neutral, or benevolent.
-    - Utility: Specify if it's utility-focused, neutral, or disruptive.
-    - Combat: Determine if it leans toward offense, defense, or neutrality.
-    - Range: Indicate if it operates in close quarters, has neutral range, or is ranged.
-    - Impact: Decide if its impact is constructive, neutral, or destructive.
-1. **Domain Points:**
-    - Assign 0 to 6 points to four domains:
-        - Technology: Reflects technological influence.
-        - Magic: Represents the presence of magical elements.
-        - Psionics: Indicates the use of psychic or mental powers.
-        - Divinity: Denotes a connection to divine or religious aspects.
-    - Distribute domain points based on the thematic and strategic focus of the card. You have the freedom to emphasize certain domains while leaving others with fewer points or even none at all.
-    - Ensure that no domain exceeds 4 points, maintaining a balanced distribution of influences.
-    - The average should be around 2-4 points. Some may be 0 and some as high as 5-6.
-    - The points used is indicative the cost and power of the card.
-    - The card's abilities and cost should roughly double for every two points spent.
-2. Domain Disciplines
-    1. For every point in each domain, select a random discipline for that domain and assign points to the discipline. 
-    2. If there are two points in a domain then two disciplines could be chosen with one point, or one discipline with two points. If three points, then three disciplines with one point, one discipline with three points or any other combination of three points.
-    3. The points dictate the proficiency in a specific discipline. 0 means no proficiency, 1 means basic proficiency, 2 means intermediate, 3 means advanced, and 4 means transcendent mastery.
-    3. These disciplines will dictate the flavour and direction of the card. All disciplines must be considered for the abilities and lore of the card.
-    4. Domains
+3. **Domain Disciplines**:
+   - For each point assigned to a domain, select a relevant discipline within that domain.
+   - The total points assigned to chosen disciplines in a domain should not exceed the total points allocated to that domain.
+  - Domains
         1. Technology Domain:
             1. Cybernetics: Focuses on enhancing units and tactics with advanced technology implants and upgrades.
             2. Robotics: Concentrates on deploying autonomous robots and mechanical units to the battlefield.
@@ -47,23 +41,20 @@ This guide will allow designers to create more consistent, balanced, and excitin
             2. Celestial Summons: Calls upon divine beings and celestial creatures to aid in battles.
             3. Divine Wrath: Inflicts powerful divine damage upon enemies and invokes divine retribution.
             4. Faith Manipulation: Focuses on strengthening the resolve of units and tactics through faith-based abilities.
-3. **Card Rank:**
-    - Cards belong to one of four ranks:
-        - Terrestrial: Earth-related.
-        - Aerial: Sky-related.
-        - Orbital: Space-related.
-        - Interstellar: Interstellar themes.
-4. **Card Type:**
-    - Choose from four types:
-        - Unit: Characters or entities for various purposes.
-        - Asset: Valuable items or strategic resources.
-        - Terrain: Landscape or environmental elements affecting gameplay.
-        - Event: One-time occurrences with specific effects.
-5. **CP Cost:**
-    - Specify Command Points (CP) required for card deployment or use.
-6. **Card Name:**
-    - Provide a unique, meaningful name reflecting characteristics or abilities.
-7. Detailed Image description:
-    1. A description of the image for this card.
-8. **Rule Text (Optional):**
-    - Add special abilities or conditions if needed.
+
+4. **Attribute Consistency**:
+   - Verify that the chosen domain disciplines align with the card's theme, name, and abilities.
+   - If a card has a basic domain, ensure its flavor, name, and effects reflect that domain.
+
+5. **Description Alignment**:
+   - Align the card's attributes, name, and description with its domain points and chosen disciplines.
+   - Confirm that the card's flavor matches its mechanics and domain influences.
+
+6. **Card Details**:
+   - Specify additional card details:
+     - Card Rank (*Terrestrial*, Aerial, Orbital, Interstellar)
+     - Card Type (*Unit*, Asset, Terrain, Event)
+     - CP Cost (Command Points required for deployment or use)
+     - Card Name (Provide a unique, meaningful name reflecting characteristics or abilities)
+     - Detailed Image description (Description of the card's image)
+     - Rule Text (*Optional*: Add special abilities or conditions if needed)

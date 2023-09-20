@@ -19,10 +19,9 @@ This guide will allow designers to create more consistent, balanced, and excitin
     - Distribute domain points based on the thematic and strategic focus of the card. You have the freedom to emphasize certain domains while leaving others with fewer points or even none at all.
     - Ensure that no domain exceeds 4 points, maintaining a balanced distribution of influences.
 2. Domain Disciplines
-    1. For every point in each domain, select a random discipline for that domain
-    2. If there are two points in a domain then two disciplines would be chosen. If three points, then three disciplines and so forth.
-      - If three points were chosen for Magic, one possible set of disciplines would be: Elemental Magic, Enchantment, and Necromancy.
-      - If two points were given to Psionics and 2 points to Divinity then the combination of disciplines could be: Mind Control, Precognition, Holy Light, and Divine Wrath.
+    1. For every point in each domain, select a random discipline for that domain and assign points to the discipline. 
+    2. If there are two points in a domain then two disciplines could be chosen with one point, or one discipline with two points. If three points, then three disciplines with one point, one discipline with three points or any other combination of three points.
+    3. The points dictate the proficiency in a specific discipline. 0 means no proficiency, 1 means basic proficiency, 2 means intermediate, 3 means advanced, and 4 means transcendent mastery.
     3. These disciplines will dictate the flavour and direction of the card. All disciplines must be considered.
     4. Domains
         1. Technology Domain:

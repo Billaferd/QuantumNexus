@@ -18,11 +18,14 @@ This guide will allow designers to create more consistent, balanced, and excitin
         - Divinity: Denotes a connection to divine or religious aspects.
     - Distribute domain points based on the thematic and strategic focus of the card. You have the freedom to emphasize certain domains while leaving others with fewer points or even none at all.
     - Ensure that no domain exceeds 4 points, maintaining a balanced distribution of influences.
+    - The average should be around 2-4 points. Some may be 0 and some as high as 5-6.
+    - The points used is indicative the cost and power of the card.
+    - The card's abilities and cost should roughly double for every two points spent.
 2. Domain Disciplines
     1. For every point in each domain, select a random discipline for that domain and assign points to the discipline. 
     2. If there are two points in a domain then two disciplines could be chosen with one point, or one discipline with two points. If three points, then three disciplines with one point, one discipline with three points or any other combination of three points.
     3. The points dictate the proficiency in a specific discipline. 0 means no proficiency, 1 means basic proficiency, 2 means intermediate, 3 means advanced, and 4 means transcendent mastery.
-    3. These disciplines will dictate the flavour and direction of the card. All disciplines must be considered.
+    3. These disciplines will dictate the flavour and direction of the card. All disciplines must be considered for the abilities and lore of the card.
     4. Domains
         1. Technology Domain:
             1. Cybernetics: Focuses on enhancing units and tactics with advanced technology implants and upgrades.

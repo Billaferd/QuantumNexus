@@ -372,7 +372,7 @@ There are several distinct areas in which cards are played in Quantum Nexus.
 
 ### Mission Cards
 
-The mission card area is where your mission cards are. They must be visible to both players to ensure transparency and fairness. They are placed in the play area when the game starts. They are commonly put above the player's deck so both can easily see them.
+The mission card area is where your mission cards are. They must be visible to both players to ensure transparency and fairness. They are placed in the play area when the game starts. They are commonly put above the loadout area so both players can easily see them.
 
 ### Deck
 

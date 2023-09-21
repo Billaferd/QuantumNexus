@@ -243,6 +243,10 @@ graph TB;
   Player2 --> GameStart[Game Begins with Chosen First Player];
 ```
 
+### Game Setup
+
+Each player removes their mission cards from their deck and places them face up where the opponent can easily see them. They then shuffle their deck, place it near the mission cards and draw a hand of five cards.
+
 ### Phases of Play
 
 In Quantum Nexus, a player's turn consists of four phases: Ready Phase, Deployment Phase, Command Phase, and Battle Phase. Players perform each phase together, taking turns within each phase as needed.
@@ -368,7 +372,7 @@ There are several distinct areas in which cards are played in Quantum Nexus.
 
 ### Mission Cards
 
-The mission card area is where your mission cards are. They must be visible to both players to ensure transparency and fairness. They are commonly put above the player's deck so both can easily see them.
+The mission card area is where your mission cards are. They must be visible to both players to ensure transparency and fairness. They are placed in the play area when the game starts. They are commonly put above the player's deck so both can easily see them.
 
 ### Deck
 
@@ -392,17 +396,5 @@ The front line is the line of troops towards the front of the battlefield. These
 
 #### Back Line
 
-The back line is the line of units behind the front line. This line of units can attack after the front line units have attacked but can't be targeted until the front line is defeated.
+The back line is the line of units behind the front line. This line of units can attack after the front line units have attacked but can't be targeted until all of the units on the front line are defeated.
 
-## Game Setup
-
-Each player removes their mission cards from their deck. They then shuffle their deck, place it near the mission cards and draw a hand of five cards.
-
-### Start of Turn Sequence
-
-At the start of each player’s turn, they must: 
-
-1. Deactivate the cards already played.
-2. They must pick up cards to end up with five cards. 
-3. They must reset their command points.
-4. They must add any extra command points given at the turn’s beginning.

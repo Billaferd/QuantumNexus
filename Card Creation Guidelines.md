@@ -3,13 +3,19 @@
 1. **Basic Feel**:
    - Define the card's nature using five axes:
      - Malevolence (Neutral, Malevolent, Benevolent)
+      - Malevolent cards create a theme of evilness, sadism, masochism, and other similar terms.
+      - Benevolent cards have a theme of goodness, righteousness, saintlyness, etc..
      - Utility (Utility-focused, Neutral, Disruptive)
+      - Utility-focused cards generally create order or structure.
+      - Distuptive cards create chaos.
      - Combat (Offense, Neutrality, Defense)
      - Range (Close Quarters, Neutral Range, Ranged)
      - Impact (Constructive, Neutral, Destructive)
+      - Constructive cards focus on creation, multiplication, etc...
+      - Destructive cards focus on card removal and other similar styles.
 
 2. **Domain Points Allocation**:
-   - Allocate a total of 6 points across four domains:
+   - Allocate between 0 and 6 points across four domains:
      - Technology
      - Magic
      - Psionics

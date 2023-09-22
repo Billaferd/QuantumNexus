@@ -39,12 +39,58 @@ Every mission card must present a specific challenge that the player must comple
 
 ### Example Challenges
 
+#### Generic
+
 - 1 point - play three cards of a specific type in a single turn.
 - 2 points - defeat two opponent units with a single attack.
 - 3 points - remove an entire (front or back) row of at least five units.
 - 4 Points - Return to play ten cards from the discard pile.
 - 5 points - Remove at least ten cards to empty the opponent's side of the board in a single turn.
 - 6 points - Defend against five attacks without a card going to the discard pile in a single turn.
+
+#### Technology Challenges
+
+- 1 Technology Point - Deploy three technology-based units.
+- 2 Technology Points - Activate a tech device that temporarily disables all of your opponent's assets for one turn.
+- 3 Points - Initiate a stealth operation by deploying a squad of robotic infiltrators, each with a different ability, in a single turn.
+- 4 Technology Points - Trigger a chain reaction of explosions by destroying one of your own technology-based units, dealing massive damage to the opponent's front line.
+
+### Magic Challenges
+
+- 1 Magic Point - Enchant a unit, giving it a temporary boost in attack power.
+- 2 Magic Points - Summon a magical guardian to protect your units from all attacks for one turn.
+- 3 Magic Points - Channel elemental forces to cast a spell that removes all enemy units in a chosen row from the battlefield.
+- 4 Magic Points - Unleash a cataclysmic magical storm, dealing damage to all opposing units and assets on the battlefield.
+
+### Psionics Challenges
+- 1 Psionics Point - Control the thoughts of an opponent's unit, causing it to attack its own allies for one turn.
+- 2 Psionics Points - Foresee your opponent's moves and draw two additional cards this turn.
+- 3 Psionics Points - Dominate your opponent's mind, forcing them to discard their entire hand.
+- 4 Psionics Points - Create a psychic barrier that renders your units immune to all forms of attack for one turn.
+
+### Divinity Challenges
+- 1 Divinity Point - Receive a divine blessing that doubles the strength of one of your units for a turn."
+- 2 Divinity Points - Invoke a celestial intervention that revives one of your defeated units with full health.
+- 3 Divinity Points - Lead a holy crusade, causing all non-mechanical enemy units to be pinned for the rest of the turn.
+- 4 Divinity Points - Ascend to divine status, granting you the power to remove all enemy assets from the battlefield and draw three extra cards.
+
+### Mixed Domain
+
+#### Technology and Magic Challenge
+
+- 3 Points - Unleash a technological marvel infused with magic. Deploy a unit with both technology and magic attributes, and use its unique ability to defeat an opponent's unit.
+
+#### Magic and Psionics Challenge
+
+- 4 Points - Conduct a mystical experiment to unlock hidden psychic potential. Deploy a unit with both magic and psionics attributes, and manipulate the battlefield by activating its mind-bending abilities.
+
+#### Psionics and Divinity Challenge
+
+- 5 Points - Tap into the divine mysteries of the mind. Deploy a unit with both psionics and divinity attributes, and command it to initiate a spiritual awakening that affects all units on the battlefield.
+
+#### Technology, Magic, and Divinity Challenge
+
+- 6 Points - Combine technology, magic, and divine energies to create a transcendent artifact. Deploy a legendary unit with all three attributes, and trigger its ultimate ability to reshape the very fabric of reality.
 
 ## Passive Ability
 

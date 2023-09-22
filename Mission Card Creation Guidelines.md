@@ -98,12 +98,20 @@ Each mission card comes with a passive ability that activates upon mission compl
 
 ### Passive Ability Examples
 
-- 1 Point - One unit ability per turn costs one less CP than stated.
-- 2 Points - one unit deployment and one card ability per turn costs one less CP than stated.
-- 3 Points - Discard one card and pick up one card per turn.
-- 4 Points - Pick up one extra card per turn.
-- 5 Points - Deploy one card with fewer than 5 CP for free per turn.
-- 6 Points - Gain 1 CP per turn phase.
+- 1 Point - One unit ability per turn costs one less CP than stated
+- 2 Points - one unit deployment and one card ability per turn costs one less CP than stated
+- 3 Points - Discard one card and pick up one card per turn
+- 4 Points - Pick up one extra card per turn
+- 5 Points - Deploy one card with fewer than 5 CP for free per turn
+- 6 Points - Gain 1 CP per turn phase
+- 5 Points - All your units with the 'Tech' subtype cost 1 less Command Point (CP) to deploy
+- 4 Points - Once per turn, you may draw an extra card during your Ready Phase
+- 6 Points: 6 - At the start of each Command Phase, you may look at the top card of your opponent's deck
+- 3 Points - All your units with the 'Divinity' subtype gain +1 Defense
+- 4 Points - Whenever you deploy a 'Tech' unit, draw a card
+- 3 Points - Once per turn, you may discard a card to gain 1 extra Command Point (CP) during your Command Phase
+- 5 Points - At the start of each Battle Phase, you may choose one enemy unit. That unit gains -1 Attack until the end of the phase
+- 4 Points - Once per turn, you may choose one friendly unit. That unit gains +1 Attack until the end of the turn
 
 ## Single-Use Ability
 

@@ -39,11 +39,11 @@ Single-Use Ability
 
 ## Challenges
 
-Every mission card must present a specific challenge that the player must complete. The complexity of the challenge is determined by the total number of domain points used on the card, with higher points leading to more intricate challenges. These challenges may involve multiple steps and items to complete.
+Every mission card must present a specific challenge that the player must complete. The complexity of the challenge is determined by the total number of domain points used on the card, with higher points leading to more difficult challenges. These challenges may involve multiple steps and items to complete.
 
 ## Difficulty
 
-Domain point should be an easy challenge. 2 points would be an intermediate challenge. 3-4 points should be an advanced challenge. 5-6 points should be extremely challenging.
+Domain point should be an easy challenge. 2 points would be an intermediate challenge. 3-4 points should be an advanced challenge. 5-6 points should be extremely challenging. The points come from the sum of all of the domain points in use on the card. If a card has 1 point in Technology and 2 points in Psionics, that would be 3 points for the challenge in total.
 
 ## Example Challenges
 

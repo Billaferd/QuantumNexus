@@ -6,7 +6,7 @@ Each mission card is associated with one or more domains: Technology, Magic, Psi
 
 ## Point Distribution
 
-Mission cards must allocate between 1 and 6 points across the domains: Technology, Magic, Psionics, and Theism. It's important to note that no domain should exceed a maximum of four points on a single mission card. The total domain points on a card can range from 1 to 6, but individual domains should not exceed 4 points.
+Mission cards must allocate between 1 and 6 points across the domains: Technology, Magic, Psionics, and Divinity. It's important to note that no domain should exceed a maximum of four points on a single mission card. The total domain points on a card can range from 1 to 6, but individual domains should not exceed 4 points.
 
 ## CP Value
 
@@ -16,9 +16,18 @@ Every mission card has a CP (Command Points) value. The CP values of all selecte
 
 CP should be distributed such that 6 domain points translate to approximately 20 CP, with a margin of around +-3.
 
-## Difficulty Scaling
+## Difficulty Scaling and Thematic Elements
 
-The more domain points a mission card has, the more challenging the mission should be to complete. The mission's thematic elements should align with its domain point distribution.
+Each mission card should not only present a challenge but also immerse players in the thematic elements associated with the chosen domains. Here are some clarifications and examples:
+
+  - Technology: If you allocate domain points to Technology, consider challenges that involve advanced gadgets, inventions, or strategic maneuvers. The thematic elements should revolve around technological advancements and innovation.
+    - Example Challenge for 3 Technology Points: "Deploy three technology-based units that synergize to create a powerful combo."
+  - Magic: For Magic domain points, challenges should tap into mystical and arcane themes. Think of challenges that require spellcasting, enchantments, or harnessing magical energies.
+    - Example Challenge for 4 Magic Points: "Conjure a magical barrier that protects your units from all attacks for one turn."
+  - Psionics: Psionics should evoke psychic and mental abilities. Challenges can involve manipulating thoughts, foreseeing events, or exerting mental control.
+    - Example Challenge for 5 Psionics Points: "Dominate your opponent's mind, forcing them to discard their entire hand."
+  - Divinity: Divinity should encompass divine and spiritual themes. Challenges may involve divine blessings, celestial interventions, or acts of faith.
+    - Example Challenge for 2 Theism Points: "Receive a divine blessing that doubles the strength of one of your units for a turn."
 
 ## Passive Ability
 

@@ -213,7 +213,7 @@ Terrain can be deployed during the deployment phase and may have similar restric
 
 #### Mission
 
-Mission cards are available for each player and have completion conditions. Once the requirements are met, the mission card will start providing a passive effect on the battlefield and count toward the victory condition. Each mission card also has an ability; once triggered, it will remove the passive effect from the mission, and that card will be turned over, indicating that it will not be able to be used again for that game. The player can include no more than six (6) missions in a deck, and a player will be deemed victorious once all missions have been completed. A deck may include any number of missions if there are fewer than six.
+Mission cards are available for each player and have completion conditions. Once the requirements are met, the mission card will start providing a passive effect on the battlefield and count toward the victory condition. Each mission card also has an ability that is triggered immediately upon completion. The player can include no more than six (6) missions in a deck, and a player will be deemed victorious once all missions have been completed. A deck may include any number of missions as long as there are fewer than six.
 
 ## How to Play
 
@@ -360,8 +360,9 @@ During Quantum Nexus gameplay, players take turns within each phase. This ensure
 
 - Sequential Turns: Players take turns within each phase, such as Deployment or Command.
 - Determining the First Player: Players compare the Command Point (CP) values of the top cards of their decks to start the game. The player with the lowest CP value decides who goes first. Players draw additional cards in case of a tie until the tie is broken.
-- Completing Actions: Players complete their actions within a phase, such as deploying cards in the Deployment Phase. The player who finishes their actions first becomes the first player in the next phase.
-- Resolving Ties: If multiple players finish their actions simultaneously in a phase and have the same CP value, the player with the lowest CP value for that turn becomes the first player in the next phase. If CP values are still tied, the next player to act among those not playing cards in the current phase is selected.
+- Completing Actions: Players complete their actions within a phase, such as deploying cards in the Deployment Phase. The player who performs the fewest actions becomes the first player in the next phase.
+- Resolving Ties: If multiple players have the same number of actions in a phase, the player with the lowest CP value for that turn becomes the first player in the next phase. If CP values are still tied, the next player to act among those tied are selected.
+
 This turn structure ensures that each player has a chance to act in a fair and organized manner within each phase of the game.
 
 ## Areas of Play
@@ -392,9 +393,8 @@ The battlefield is between the loadout and deck, where all the units are placed.
 
 #### Front Line
 
-The front line is the line of troops towards the front of the battlefield. These troops must attack and be attacked first.
+The front line is the line of troops towards the front of the battlefield. These troops must attack and be attacked first. Opponents can't attack the back line until the front line is empty.
 
 #### Back Line
 
 The back line is the line of units behind the front line. This line of units can attack after the front line units have attacked but can't be targeted until all of the units on the front line are defeated.
-

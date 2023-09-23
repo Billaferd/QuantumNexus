@@ -29,13 +29,13 @@ Domain points assigned to the card dictate how demanding the challenge is and ho
 Each mission card should not only present a challenge but also immerse players in the thematic elements associated with the chosen domains. Here are some clarifications and examples:
 
   - Technology: If you allocate domain points to Technology, consider challenges that involve advanced gadgets, inventions, or strategic maneuvers. The thematic elements should revolve around technological advancements and innovation.
-    - Example Challenge for 3 Technology Points: "Deploy three technology-based units that synergize to create a powerful combo."
+    - Example Challenge for 3 Technology Points: "In a single turn, deploy three `Mech` units and clear the opponents front line of at least 5 units."
   - Magic: For Magic domain points, challenges should tap into mystical and arcane themes. Think of challenges that require spellcasting, enchantments, or harnessing magical energies.
-    - Example Challenge for 4 Magic Points: "Conjure a magical barrier that protects your units from all attacks for one turn."
+    - Example Challenge for 4 Magic Points: "Conjure a magical barrier that protects your units from at least 4 attacks for one turn."
   - Psionics: Psionics should evoke psychic and mental abilities. Challenges can involve manipulating thoughts, foreseeing events, or exerting cognitive control.
-    - Example Challenge for 5 Psionics Points: "Dominate your opponent's mind, forcing them to discard their entire hand."
+    - Example Challenge for 2 Psionics Points: "In a single turn, force your opponent to discard 3 cards."
   - Divinity: Divinity should encompass divine and spiritual themes. Challenges may involve divine blessings, celestial interventions, or acts of faith.
-    - Example Challenge for 2 Theism Points: "Receive a divine blessing that doubles the strength of one of your units for a turn."
+    - Example Challenge for 2 Divinity Points: "Receive a divine blessing that doubles the strength of one of your units for a turn."
 
 ## Challenges
 

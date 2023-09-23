@@ -6,7 +6,7 @@ Each mission card is associated with one or more domains: Technology, Magic, Psi
 
 ## Point Distribution
 
-Mission cards must allocate between 1 and 6 points across the domains: Technology, Magic, Psionics, and Divinity. It's important to note that no domain should exceed a maximum of 4 points on a single mission card. The total domain points on a card can range from 1 to 6, but individual domains should not exceed 4 points.
+Mission cards must allocate between 1 and 6 points across the domains: Technology, Magic, Psionics, and Divinity. It's important to note that no individual domain should exceed a maximum of 4 points on a single mission card. The total domain points on a card can range from 1 to 6, but individual domains should range between 0 and 4 points.
 
 ## CP Value
 

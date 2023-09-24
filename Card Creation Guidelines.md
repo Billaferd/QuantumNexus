@@ -58,8 +58,8 @@
 
 6. **Card Details**:
    - Specify additional card details:
-     - Card Rank (*Terrestrial*, Aerial, Orbital, Interstellar)
-     - Card Type (*Unit*, Asset, Terrain, Event)
+     - Card Rank (Terrestrial, Aerial, Orbital, Interstellar)
+     - Card Type (Unit, Asset, Terrain, Event)
      - CP Cost (Command Points required for deployment or use)
      - Card Name (Provide a unique, meaningful name reflecting characteristics or abilities)
      - Detailed Image description (Description of the card's image)

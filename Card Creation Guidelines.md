@@ -24,8 +24,9 @@
    - Assign at least 1 point to any domain mentioned in the card's attributes, abilities, name, or description.
 
 3. **Domain Disciplines**:
-   - For each point assigned to a domain, select a relevant discipline within that domain.
-   - The total points assigned to chosen disciplines in a domain should not exceed the total points allocated to that domain.
+  - For each point assigned to a domain, select a relevant discipline within that domain.
+  - The total points assigned to chosen disciplines in a domain should not exceed the total points allocated to that domain.
+  - If a card has a basic domain, ensure its flavor, name, and effects reflect that domain.   
   - Domains
         1. Technology Domain:
             1. Cybernetics: Focuses on enhancing units and tactics with advanced technology implants and upgrades.

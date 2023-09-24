@@ -1,5 +1,15 @@
 # Mission Card Creation Guidelines
 
+## Introduction
+
+Quantum Nexus is a trading card game that adheres to the following tenants of design.
+
+1. Cards will never cross the table to an opponent's side. Every player will always be in full possession of their cards.
+
+2. No randomness, ever. There will never be any randomness except for the card shuffle. There will never be dice rolls, coin flips, or card flips. The only exception is when the first player is selected through card flips at the start.
+
+3. There are no health points, defense is not a measure of health and a player should not have to book keep health on their units.
+
 ## Domain Points
 
 - Each mission card is associated with one or more domains: Technology, Magic, Psionics, and Divinity.
@@ -18,24 +28,24 @@ Every mission card has a CP (Command Points) value. The CP values of all selecte
 
 ## CP Distribution
 
-CP should be distributed such that 6 domain points translate to approximately 20 CP, with a margin of around +-3. Each domain point that the card has provides between 3 and 5 CP.
+CP should be distributed such that six domain points translate to approximately 20 CP, with a margin of around +-3. Each domain point that the card has provides between 3 and 5 CP.
 
 ## Difficulty Scaling and Thematic Elements
 
 Domain points assigned to the card dictate how demanding the challenge is and how consequential the rewards are.
 
-1 domain point should be an easy challenge. 2 points would be an intermediate challenge. 3-4 points should be an advanced challenge. 5-6 points should be highly challenging. The points come from the sum of all domain points used on the card. If a card has 1 point in Technology and 2 points in Psionics, that would be 3 points for the challenge.
+One domain point should be an easy challenge. 2 points would be an intermediate challenge. 3-4 points should be an advanced challenge. 5-6 points should be highly challenging. The points come from the sum of all domain points used on the card. If a card has 1 point in Technology and 2 points in Psionics, that would be 3 points for the challenge.
 
 Each mission card should not only present a challenge but also immerse players in the thematic elements associated with the chosen domains. Here are some clarifications and examples:
 
-  - Technology: If you allocate domain points to Technology, consider challenges that involve advanced gadgets, inventions, or strategic maneuvers. The thematic elements should revolve around technological advancements and innovation.
-    - Example Challenge for 3 Technology Points: "In a single turn, deploy three `Mech` units and clear the opponents front line of at least 5 units."
-  - Magic: For Magic domain points, challenges should tap into mystical and arcane themes. Think of challenges that require spellcasting, enchantments, or harnessing magical energies.
-    - Example Challenge for 4 Magic Points: "Conjure a magical barrier that protects your units from at least 4 attacks for one turn."
-  - Psionics: Psionics should evoke psychic and mental abilities. Challenges can involve manipulating thoughts, foreseeing events, or exerting cognitive control.
-    - Example Challenge for 2 Psionics Points: "In a single turn, force your opponent to discard 3 cards."
-  - Divinity: Divinity should encompass divine and spiritual themes. Challenges may involve divine blessings, celestial interventions, or acts of faith.
-    - Example Challenge for 2 Divinity Points: "Receive a divine blessing that doubles the strength of one of your units for a turn."
+- Technology: If you allocate domain points to Technology, consider challenges that involve advanced gadgets, inventions, or strategic maneuvers. The thematic elements should revolve around technological advancements and innovation.
+  - Example Challenge for 3 Technology Points: "In a single turn, deploy three `Mech` units and clear the opponent's front line of at least five units."
+- Magic: For Magic domain points, challenges should tap into mystical and arcane themes. Think of challenges that require spellcasting, enchantments, or harnessing magical energies.
+  - Example Challenge for 4 Magic Points: "Conjure a magical barrier that protects your units from at least 4 attacks for one turn."
+- Psionics: Psionics should evoke psychic and mental abilities. Challenges can involve manipulating thoughts, foreseeing events, or exerting cognitive control.
+  - Example Challenge for 2 Psionics Points: "In a single turn, force your opponent to discard 3 cards."
+- Divinity: Divinity should encompass divine and spiritual themes. Challenges may involve divine blessings, celestial interventions, or acts of faith.
+  - Example Challenge for 2 Divinity Points: "Receive a divine blessing that doubles the strength of one of your units for a turn."
 
 ## Challenges
 
@@ -57,7 +67,7 @@ Every mission card must present a specific challenge that the player must comple
 - 1 Technology Point - Deploy three technology-based units.
 - 2 Technology Points - Activate a tech device that temporarily disables all of your opponent's assets for one turn.
 - 3 Points - Initiate a stealth operation by deploying a squad of robotic infiltrators, each with a different ability, in a single turn.
-- 4 Technology Points - Trigger a chain reaction of explosions by destroying one of your own technology-based units, dealing massive damage to the opponent's front line.
+- 4 Technology Points - Destroy all cards in an opponents loadout, there must be at least 5 cards.
 
 ### Magic Challenges
 
@@ -67,14 +77,16 @@ Every mission card must present a specific challenge that the player must comple
 - 4 Magic Points - Unleash a cataclysmic magical storm, dealing damage to all opposing units and assets on the battlefield.
 
 ### Psionics Challenges
+
 - 1 Psionics Point - Control the thoughts of an opponent's unit, causing it to attack its own allies for one turn.
 - 2 Psionics Points - Foresee your opponent's moves and draw two additional cards this turn.
 - 3 Psionics Points - Dominate your opponent's mind, forcing them to discard their entire hand.
 - 4 Psionics Points - Create a psychic barrier that renders your units immune to all forms of attack for one turn.
 
 ### Divinity Challenges
+
 - 1 Divinity Point - Receive a divine blessing that doubles the strength of one of your units for a turn."
-- 2 Divinity Points - Invoke a celestial intervention that revives one of your defeated units with full health.
+- 2 Divinity Points - Invoke a celestial intervention that revives one of your defeated units.
 - 3 Divinity Points - Lead a holy crusade, causing all non-mechanical enemy units to be pinned for the rest of the turn.
 - 4 Divinity Points - Ascend to divine status, granting you the power to remove all enemy assets from the battlefield and draw three extra cards.
 
@@ -108,10 +120,10 @@ Each mission card comes with a passive ability that activates upon mission compl
 - 4 Points - Pick up one extra card per turn
 - 5 Points - Deploy one card with fewer than 5 CP for free per turn
 - 6 Points - Gain 1 CP per turn phase
-- 5 Points - All your units with the 'Tech' subtype cost 1 less Command Point (CP) to deploy
+- 5 Points - All your units with the 'Mech' subtype cost 1 less Command Point (CP) to deploy
 - 4 Points - Once per turn, you may draw an extra card during your Ready Phase
 - 6 Points: 6 - At the start of each Command Phase, you may look at the top card of your opponent's deck
-- 3 Points - All your units with the 'Divinity' subtype gain +1 Defense
+- 3 Points - All your units with the 'Specialist' subtype gain +1 Defense
 - 4 Points - Whenever you deploy a 'Tech' unit, draw a card
 - 3 Points - Once per turn, you may discard a card to gain 1 extra Command Point (CP) during your Command Phase
 - 5 Points - At the start of each Battle Phase, you may choose one enemy unit. That unit gains -1 Attack until the end of the phase

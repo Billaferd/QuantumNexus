@@ -213,7 +213,7 @@ Upgrade cards have Attack and Defence values but are modifiers, not base values.
 
 #### Terrain
 
-Terrain can be deployed during the deployment phase and may have similar restrictions to a unit. It may only be able to be deployed to the front row, back row, or both. Once the terrain is deployed, it will cause a passive status effect for all the units in the row it was deployed to. There can only be two terrain cards active for each row.
+Terrain can be deployed during the deployment phase and may have similar restrictions to a unit. Once the terrain is deployed, it will cause a passive status effect for all the units in the quadrant it was deployed to. There can only be two terrain cards active for each quadrant.
 
 #### Mission
 

@@ -193,7 +193,11 @@ Each card is limited to how many times it can be added to the deck. You can incl
 
 #### Unit
 
-Units have both an Attack and Defense attribute that is used for combat. When an attack value is larger than the opponent's defence value, the opponent loses the fight, and that card is discarded. Unit cards can only be deployed during the deployment phase and can only attack during the attack phase. Units will also mention what row they are allowed to be deployed into: one of the front row, the back row, or both. This restriction must be adhered to when deploying a unit, but once deployed, a unit can move to either row if an event or ability allows.
+Units have both an Attack and Defense attribute that is used for combat. When an attack value is larger than the opponent's defence value, the opponent loses the fight, and that card is discarded. Unit cards can only be deployed during the deployment phase and can only attack during the attack phase. Units will also display an attack range, one of close, mid, or far.
+
+##### Leader
+
+Some units are special powerful units called leaders. Only one leader can occupy a quadrant at a time.
 
 #### Asset
 
@@ -213,7 +217,7 @@ Terrain can be deployed during the deployment phase and may have similar restric
 
 #### Mission
 
-Mission cards are available for each player and have completion conditions. Once the requirements are met, the mission card will start providing a passive effect on the battlefield and count toward the victory condition. Each mission card also has an ability that is triggered immediately upon completion. The player can include no more than six (6) missions in a deck, and a player will be deemed victorious once all missions have been completed. A deck may include any number of missions as long as there are fewer than six.
+Mission cards are available for each player and have completion conditions. Once the requirements are met, the mission card will start providing a passive effect on the battlefield and count toward the victory condition. Each mission card also has an ability that is triggered immediately upon completion. The player can include no more than six (6) missions in a deck, and a player will be deemed victorious once all missions have been completed. A deck may include any number of missions if there are fewer than six.
 
 ## How to Play
 
@@ -361,7 +365,7 @@ During Quantum Nexus gameplay, players take turns within each phase. This ensure
 - Sequential Turns: Players take turns within each phase, such as Deployment or Command.
 - Determining the First Player: Players compare the Command Point (CP) values of the top cards of their decks to start the game. The player with the lowest CP value decides who goes first. Players draw additional cards in case of a tie until the tie is broken.
 - Completing Actions: Players complete their actions within a phase, such as deploying cards in the Deployment Phase. The player who performs the fewest actions becomes the first player in the next phase.
-- Resolving Ties: If multiple players have the same number of actions in a phase, the player with the lowest CP value for that turn becomes the first player in the next phase. If CP values are still tied, the next player to act among those tied are selected.
+- Resolving Ties: If multiple players have the same number of actions in a phase, the player with the lowest CP value for that turn becomes the first player in the next phase. If CP values are still tied, the next player to act among those tied is selected.
 
 This turn structure ensures that each player has a chance to act in a fair and organized manner within each phase of the game.
 
@@ -373,7 +377,7 @@ There are several distinct areas in which cards are played in Quantum Nexus.
 
 ### Mission Cards
 
-The mission card area is where your mission cards are. They must be visible to both players to ensure transparency and fairness. They are placed in the play area when the game starts. They are commonly put above the loadout area so both players can easily see them.
+The mission card area is where your mission cards are. They must be visible to both players to ensure transparency and fairness. They are placed in the play area when the game starts. They are commonly put above the loadout area so players can easily see them.
 
 ### Deck
 
@@ -389,12 +393,40 @@ The loadout area is located on the left side of the player. This area is where a
 
 ### Battlefield
 
-The battlefield is between the loadout and deck, where all the units are placed. The battlefield is further subdivided into two horizontal lines.
+The battlefield is between the loadout and deck, where all the units are placed. The battlefield is subdivided into two horizontal lines, front and back rows, and three vertical lines, left flank, center, and right flank. In all, there are six quadrants. These quadrants define where each unit's range can be targeted.
 
-#### Front Line
+#### Quadrants
+
+Quadrants are a way of splitting the battlefield. There can be any number of units in each quadrant, but only one leader can be in any quadrant simultaneously.
+
+##### Front Line
 
 The front line is the line of troops towards the front of the battlefield. These troops must attack and be attacked first. Opponents can't attack the back line until the front line is empty.
 
-#### Back Line
+##### Back Line
 
 The back line is the line of units behind the front line. This line of units can attack after the front line units have attacked but can't be targeted until all of the units on the front line are defeated.
+
+##### Flanks
+
+The areas on the far left and far right of the battlefield are known as the flanks.
+
+##### Center
+
+The areas between the flanks are known as the center.
+
+#### Ranges
+
+Each unit card will state its range. This applies to the unit's attack and abilities. If an ability has a different range, it will be explicitly stated.
+
+##### Close
+
+Close-range attacks and abilities can only target directly ahead of themselves or directly to either side.
+
+##### Mid
+
+Mid-range attacks and abilities can target either directly ahead, the immediate sides or the diagonals.
+
+##### Far
+
+Far-range attacks and abilities must target one row away from them. If they are in the back row, they can target the opponent's front row; if they are in the front row, they can target the opponent's back row.

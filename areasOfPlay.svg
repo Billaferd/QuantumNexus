@@ -19,11 +19,27 @@
     <rect x="120" y="10" width="280" height="230" fill="lightgray" />
     <text x="120" y="30" font-size="12" fill="black">Battlefield</text>
 
-    <!-- Front Line Area -->
-    <rect x="130" y="50" width="260" height="80" fill="gray" />
-    <text x="140" y="80" font-size="12" fill="black">Front Line</text>
+    <!-- Front Left Flank -->
+    <rect x="130" y="50" width="80" height="80" fill="gray" />
+    <text x="140" y="80" font-size="12" fill="black">Left Front Flank</text>
 
-    <!-- Back Line Area -->
-    <rect x="130" y="140" width="260" height="80" fill="gray" />
-    <text x="140" y="170" font-size="12" fill="black">Back Line</text>
+    <!-- Back Left Flank -->
+    <rect x="130" y="140" width="80" height="80" fill="gray" />
+    <text x="140" y="170" font-size="12" fill="black">Left Back Flank</text>
+
+    <!-- Front Center -->
+    <rect x="220" y="50" width="80" height="80" fill="gray" />
+    <text x="230" y="80" font-size="12" fill="black">Front Center</text>
+
+    <!-- Back Center -->
+    <rect x="220" y="140" width="80" height="80" fill="gray" />
+    <text x="230" y="170" font-size="12" fill="black">Back Center</text>
+
+    <!-- Front Right Flank -->
+    <rect x="310" y="50" width="80" height="80" fill="gray" />
+    <text x="320" y="80" font-size="12" fill="black">Right Front Flank</text>
+
+    <!-- Back Right Flank -->
+    <rect x="310" y="140" width="80" height="80" fill="gray" />
+    <text x="320" y="170" font-size="12" fill="black">Right Back Flank</text>
 </svg>

@@ -249,7 +249,33 @@ graph TB;
 
 ### Game Setup
 
-Each player removes their mission cards from their deck and places them face up where the opponent can easily see them. They then shuffle their deck, place it near the mission cards and draw a hand of five cards.
+Each player removes their mission cards from their deck and places them face up where the opponent can easily see them. They then select their starting units, set them aside and then shuffle their deck.
+
+#### Pre-Deployment Phase
+
+The Pre-Deployment Phase allows players to strategically place their initial units on the battlefield before the game officially begins. The objective is to make thoughtful decisions about the positioning of units that can impact the early game.
+
+##### Sequence of Play
+
+1. Mission Card Placement: Before deploying units, players must place their mission cards face-up in the Mission Card area, ensuring they are visible to both players. This is done to establish the initial objectives for the match.
+
+2. Starting CP Determination: Each player determines their starting Command Points (CP) for this phase. The starting CP is equal to the sum of CP values on their mission cards. For example, if a player's mission cards have a total CP value of 15, they start with 15 CP for this phase.
+
+3. Alternate Unit Deployment: Players take turns deploying units one at a time, starting with the player who won the card flip.
+
+4. Unit Placement Rules: Units can be placed in any of the six quadrants on the battlefield during this phase. Players must adhere to the following rules:
+  - Players can deploy any type of unit (Unit cards) during this phase.
+  - Players can choose not to deploy a unit during their turn.
+  - Activation of Abilities: If any unit has an ability that activates during deployment (e.g., a special ability that triggers when placed on the battlefield), it is ignored in this phase.
+  - Ending the Pre-Deployment Phase: The Pre-Deployment Phase continues until both players have deployed all the units they wish to or until both players pass their turns consecutively. Passing indicates that a player has finished their deployment.
+
+##### Interaction with Mission Cards
+
+Mission cards with deployment-related objectives can be partially fulfilled during this phase if the conditions are met. Players should check their mission card objectives for any relevant requirements.
+
+##### Transition to Ready Phase
+
+Once the Pre-Deployment Phase concludes, players proceed to the first Ready Phase as outlined in the game's standard rules.
 
 ### Phases of Play
 

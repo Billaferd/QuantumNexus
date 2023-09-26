@@ -79,3 +79,31 @@ Finally, the card name can be assigned while considering everything that was dec
 A detailed description of the card image needs to be created.
 
 A set of flavour text no longer than 255 characters must also be drafted.
+
+## Example
+
+First, we will select the card type. In this case it will be a Unit type card.
+
+Second we determine Domain Points, for this example we will allocate 1 point to Technology and 1 point to Divinity.
+
+We can select one discipline from technology and divinity each. In this case we will use Nano-technology and Divine Aura.
+
+We have two total domain points so that means we have between 4 and 10 CP available. Let's start at 6 CP, for the deployment cost.
+
+For the general feel we will select the following values:
+
+- Malevolence: Malevolent
+- Utility: Neutral
+- Impact: Destructive
+
+We will assign 1 defence and 2 attack to the card. This will use about 1 CP. We are leaving 5 for the rule box effects.
+
+For the rule pox effects, we will assign an interrupt of `this - deploy,` triggering every time this specific unit enters play. This interrupt will cause the player to pick up a card. This is equal to about 2 CP with the interrupt type providing a 1x multiplier. That is three CP used so far. For the last three we will use the `this - discard` interrupt and assign the effect: Opponent discards one card from the top of their deck. This costs about 3 CP.
+
+This will be a close ranged terrestrial unit.
+
+The name of this card will be Blessed Scourge.
+
+The image description will be: A scourge of nano-bots with a divine light radiating out of them.
+
+The flavour text will be: Creeping across the land, the scourge brings us news.

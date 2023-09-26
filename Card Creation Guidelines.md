@@ -36,6 +36,34 @@ Domain Points represent how advanced a card is in a particular domain. Cards mus
 
 Each domain has several associated disciplines, allowing for diverse card abilities. For each point assigned to a domain, select a relevant discipline within that domain. The total points assigned to chosen disciplines in a domain should not exceed those allocated to that domain.
 
+### Technology Domain
+
+- Cybernetics: Focusing on advanced mechanical enhancements and robotic units.
+- Energy Weapons: Specializing in high-tech energy-based weaponry and tactics.
+- Robotics: Emphasizing the use of powerful mechanized units, including mechs.
+- Genetics: Manipulating the genetic makeup of units and assets for various effects.
+
+### Magic Domain
+
+- Elemental Magic: Harnessing the powers of fire, water, earth, and air for various effects.
+- Enchantment: Enriching units and assets with magical enhancements and buffs.
+- Summoning: Conjuring creatures or beings from other realms to fight for you.
+- Alchemy: Transforming and transmuting objects and units using mystical concoctions.
+
+### Psionics Domain
+
+- Telekinesis: Controlling objects and units with the power of the mind.
+- Mind Control: Dominating the thoughts and actions of enemy units.
+- Precognition: Gaining insights into future events for strategic advantage.
+- Astral Projection: Sending your consciousness to distant locations for reconnaissance and manipulation.
+
+### Divinity Domain
+
+- Holy Light: Channeling divine energy for healing and purification.
+- Divine Wrath: Smiting enemies with powerful, righteous attacks.
+- Blessings: Bestowing boons and protections upon allies.
+- Divine Intervention: Calling upon higher powers for miraculous effects and divine guidance.
+
 ## Card Feel
 
 Cards in Quantum Nexus are defined using three axes

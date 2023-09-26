@@ -50,13 +50,15 @@ Define a card's attributes, such as rule box effects, Rank, and CP, while consid
 
 ### CP Assignment
 
-When creating cards for Quantum Nexus, it's crucial to consider the allocation of Domain Points and how they affect the CP (Command Points) assignment. Domain Points represent the card's proficiency in different domains, and they directly impact the CP cost of the card. Here's how to ensure Domain Points are appropriately integrated into the CP assignment:
+When creating cards for Quantum Nexus, it's crucial to consider the allocation of Domain Points and how they affect the CP (Command Points) assignment. Domain Points represent the card's proficiency in different domains, and they directly impact the CP cost of the card.
 
 1. Allocate Domain Points: Determine how many to allocate to each domain: Technology, Magic, Psionics, and Divinity. These points reflect the card's thematic and mechanical qualities. Keep in mind that each domain point contributes to the CP cost.
 
 2. Determine CP Contribution: Understand that each Domain Point allocated to a card adds to its CP cost. The specific CP contribution for each Domain Point can vary but typically falls within the range of 2 to 5 CP. This contribution reflects the card's specialization in a particular domain.
 
-3. The calculated CP will be used as currency to determine some of the other attributes of the card. This number will become the overall CP cost to deploy the card.
+3. The calculated CP will be used as the actual deployment cost for the card.
+
+4. The values assigned to the attack, defense and rule box effects will need to roughly equal the deployment cost.
 
 ### Attack and Defense
 

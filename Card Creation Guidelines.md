@@ -32,9 +32,19 @@ Each card can have between 0 and 6 points across these domains, ensuring a balan
 
 Domain Points represent how advanced a card is in a particular domain. Cards must allocate at least 1 point to any domain mentioned in their attributes, abilities, name, or description.
 
+### CP Assignment
+
+When creating cards for Quantum Nexus, it's crucial to consider the allocation of Domain Points and how they affect the CP (Command Points) assignment. Domain Points represent the card's proficiency in different domains, and they directly impact the CP cost of the card.
+
+1. Allocate Domain Points: Determine how many to allocate to each domain: Technology, Magic, Psionics, and Divinity. These points reflect the card's thematic and mechanical qualities. Keep in mind that each domain point contributes to the CP cost.
+
+2. Determine CP Contribution: Understand that each Domain Point allocated to a card adds to its CP cost. The specific CP contribution for each Domain Point can vary but typically falls within the range of 2 to 5 CP. This contribution reflects the card's specialization in a particular domain. For example if a card has 2 domain points it would have somewhere between 4 and 10 CP.
+
+3. The actual point value would be up to the designer, but should fall within the values that are calculated in the step above.
+
 ## Disciplines
 
-Each domain has several associated disciplines, allowing for diverse card abilities. For each point assigned to a domain, select a relevant discipline within that domain. The total points assigned to chosen disciplines in a domain should not exceed those allocated to that domain.
+Each domain has several associated disciplines, allowing for diverse card abilities. For each point assigned to a domain, select a relevant discipline within that domain. The total points assigned to chosen disciplines in a domain should not exceed those allocated to that domain. Each domain with a point must have one discipline selected.
 
 ### Technology Domain
 
@@ -76,21 +86,9 @@ Cards in Quantum Nexus are defined using three axes
 
 Define a card's attributes, such as rule box effects, Rank, and CP, while considering the Domain Points allocated and the chosen disciplines.
 
-### CP Assignment
-
-When creating cards for Quantum Nexus, it's crucial to consider the allocation of Domain Points and how they affect the CP (Command Points) assignment. Domain Points represent the card's proficiency in different domains, and they directly impact the CP cost of the card.
-
-1. Allocate Domain Points: Determine how many to allocate to each domain: Technology, Magic, Psionics, and Divinity. These points reflect the card's thematic and mechanical qualities. Keep in mind that each domain point contributes to the CP cost.
-
-2. Determine CP Contribution: Understand that each Domain Point allocated to a card adds to its CP cost. The specific CP contribution for each Domain Point can vary but typically falls within the range of 2 to 5 CP. This contribution reflects the card's specialization in a particular domain. For example if a card has 2 domain points it would have somewhere between 4 and 10 CP.
-
-3. The calculated CP will be used as the actual deployment cost for the card.
-
-4. The values assigned to the attack, defense and rule box effects will need to roughly equal the deployment cost.
-
 ### Attack and Defense
 
-Attack and defence will use up the calculated CP at a rate of about 1 CP for every two Attack and/or Defense rounded down.
+Attack and defence will use up the calculated CP at a rate of about 1 CP for every two Attack and/or Defense rounded down. The effects and the attack and defense values should calculate to the same as the deployment cost.
 
 ### Rulebox Effects
 

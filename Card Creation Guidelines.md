@@ -88,7 +88,7 @@ Define a card's attributes, such as rule box effects, Rank, and CP, while consid
 
 ### Attack and Defense
 
-Attack and defence will use up the calculated CP at a rate of about 1 CP for every two Attack and/or Defense rounded down. The effects and the attack and defense values should calculate to the same as the deployment cost.
+Attack and defence will use up the calculated CP at a rate of about 1 CP for every two Attack and/or Defense rounded down. The Attack and Defense values are summed for the CP calculation (Ceiling((Attack+Defense)/2)). The effects and the attack and defense values should calculate to the same as the deployment cost.
 
 ### Rulebox Effects
 

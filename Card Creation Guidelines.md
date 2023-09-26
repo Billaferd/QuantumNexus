@@ -54,7 +54,15 @@ The rule ox can have Active abilities, passive abilities, interrupts, and mandat
 
 ### CP Assignment
 
-Ensure that the CP (Command Points) cost is defined. Each Domain Point adds 2 to 5 CP; higher numbers should be used to balance the rule box effects. Attack and Defense values add approximately 1 CP for every two points, using the ceiling function for calculation.
+When creating cards for Quantum Nexus, it's crucial to consider the allocation of Domain Points and how they affect the CP (Command Points) assignment. Domain Points represent the card's proficiency in different domains, and they directly impact the CP cost of the card. Here's how to ensure Domain Points are properly integrated into the CP assignment:
+
+1. Allocate Domain Points: Begin by determining how many Domain Points to allocate to each domain: Technology, Magic, Psionics, and Divinity. These points reflect the card's thematic and mechanical qualities. Keep in mind that each domain point contributes to the CP cost.
+
+2. Determine CP Contribution: Understand that each Domain Point allocated to a card adds to its CP cost. The specific CP contribution for each Domain Point can vary but typically falls within the range of 2 to 5 CP. This contribution reflects the card's specialization in a particular domain.
+
+3. Consider Card Attributes: As you define the card's attributes, such as Attack and Defense values, rule box effects, and abilities, keep in mind that these attributes may influence the CP assignment. For example, Attack and Defense values contribute approximately 1 CP for every two points, rounded up.
+
+4. Maintain Balance: Use CP assignment as a balancing mechanism. Cards with more potent rule box effects or higher Attack/Defense values should have a higher CP cost to ensure fair gameplay.
 
 ### Rank
 

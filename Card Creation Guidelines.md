@@ -48,21 +48,23 @@ Cards in Quantum Nexus are defined using three axes
 
 Define a card's attributes, such as rule box effects, Rank, and CP, while considering the Domain Points allocated and the chosen disciplines.
 
-### Rulebox Effects
-
-The rule ox can have Active abilities, passive abilities, interrupts, and mandatory interrupts. The more domain points assigned, the more potent the effects become. Multiple types of rule box effects can be set at once. Specificity can be used as a balancing mechanism.
-
 ### CP Assignment
 
-When creating cards for Quantum Nexus, it's crucial to consider the allocation of Domain Points and how they affect the CP (Command Points) assignment. Domain Points represent the card's proficiency in different domains, and they directly impact the CP cost of the card. Here's how to ensure Domain Points are properly integrated into the CP assignment:
+When creating cards for Quantum Nexus, it's crucial to consider the allocation of Domain Points and how they affect the CP (Command Points) assignment. Domain Points represent the card's proficiency in different domains, and they directly impact the CP cost of the card. Here's how to ensure Domain Points are appropriately integrated into the CP assignment:
 
-1. Allocate Domain Points: Begin by determining how many Domain Points to allocate to each domain: Technology, Magic, Psionics, and Divinity. These points reflect the card's thematic and mechanical qualities. Keep in mind that each domain point contributes to the CP cost.
+1. Allocate Domain Points: Determine how many to allocate to each domain: Technology, Magic, Psionics, and Divinity. These points reflect the card's thematic and mechanical qualities. Keep in mind that each domain point contributes to the CP cost.
 
 2. Determine CP Contribution: Understand that each Domain Point allocated to a card adds to its CP cost. The specific CP contribution for each Domain Point can vary but typically falls within the range of 2 to 5 CP. This contribution reflects the card's specialization in a particular domain.
 
-3. Consider Card Attributes: As you define the card's attributes, such as Attack and Defense values, rule box effects, and abilities, keep in mind that these attributes may influence the CP assignment. For example, Attack and Defense values contribute approximately 1 CP for every two points, rounded up.
+3. The calculated CP will be used as currency to determine some of the other attributes of the card. This number will become the overall CP cost to deploy the card.
 
-4. Maintain Balance: Use CP assignment as a balancing mechanism. Cards with more potent rule box effects or higher Attack/Defense values should have a higher CP cost to ensure fair gameplay.
+### Attack and Defense
+
+Attack and defence will use up the calculated CP at a rate of about 1 CP for every two Attack and/or Defense rounded down.
+
+### Rulebox Effects
+
+The rule box holds active abilities, passive abilities, interrupts, and mandatory interrupts. The rule box can hold multiples of these but each rule will subtract from the calculated CP after attack and defense are deducted.
 
 ### Rank
 

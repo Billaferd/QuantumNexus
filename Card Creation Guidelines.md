@@ -94,7 +94,40 @@ Attack and defence will use up the calculated CP at a rate of about 1 CP for eve
 
 The rule box holds active abilities, passive abilities, interrupts, and mandatory interrupts. The rule box can hold multiples of these but each rule will subtract from the calculated CP after attack and defense are deducted.
 
-#### Examples
+#### Interrupts
+
+Interrupts have a specific pattern that is used to describe who and what triggers it. The interrupt text has four parts:
+
+`[Modifier] Target - Action`
+
+Some examples include `Opposing Unit - Attack` and `Event - Deploy`.
+
+##### Targets
+
+Targets are the things that can trigger an interrupt.
+
+| Target | Description |
+|--------|-------------|
+| this   | The card that the text is printed on. |
+| Player | The player that played this card. |
+| Opponent | An opposing player |
+| Unit     | A unit in play.    |
+
+##### Modifiers
+
+Modifiers add specificity to the target.
+
+| Modifier | Description  |
+|----------|--------------|
+| Opposing | Something that is controlled by an enemy or opposing player. |
+| Friendly | Something that is controlled be the player or an ally. |
+
+
+##### Actions
+
+
+
+### Examples
 
 These are some examples of abilities and base costs associated with them.
 

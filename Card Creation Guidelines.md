@@ -92,6 +92,10 @@ Attack and defense will use up the calculated CP at a rate of about 1 CP for eve
 
 The rule box holds active abilities, passive abilities, interrupts, and mandatory interrupts. The rule box can hold multiples of these but each rule will subtract from the calculated CP after attack and defense are deducted.
 
+#### Abilities
+
+A cards abilities will always have a cost, even if that cost is zero. The ability will always have the form `Cost[, Cost] - Ability`. The cost of an ability can be used to partially balance a card by changing it. Abilities can have compound costs and costs don't strictly have to be CP, discarding a card, skipping a turn, and destroying a card are all valid costs. An example ability text would be `3CP - Force an opponent to discard a card`. A more advanced example with a compound cost would be `2CP, Discard 1 - Deal 3 damage to an enemy in Mid-range`.
+
 #### Interrupts
 
 Interrupts have a specific pattern that is used to describe who and what triggers it. The interrupt text has four parts:

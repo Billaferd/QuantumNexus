@@ -6,15 +6,15 @@ Quantum Nexus features five card types, each with its unique role:
 
 ### Unit Cards
 
-These cards represent characters and creatures critical for both offence and defence. Unit cards have Attack and Defense values, as well as a defined Range (close, mid, or far).
+These cards represent characters and creatures critical for both offence and defence. Unit cards have Attack and Defense values, as well as a defined Range (close, mid, or far). Units can only be deployed on to the battlefield.
 
 ### Upgrade Cards
 
-Upgrade cards enhance units and other cards, boosting their capabilities. Upgrade cards also have Attack and Defense values.
+Upgrade cards enhance units and other cards, boosting their capabilities. Upgrade cards also have Attack and Defense values. Upgrade cards can be deployed onto the battlefield or loadout depending on the target of the upgrade.
 
 ### Asset Cards
 
-Asset cards provide ongoing effects that influence the battlefield. They have a Defense value to protect them.
+Asset cards provide ongoing effects that influence the battlefield. They have a Defense value to protect them. Asset cards can only be deployed to the loadout.
 
 ### Event Cards
 
@@ -22,7 +22,7 @@ Event cards create temporary effects that last for a single turn, introducing dy
 
 ### Terrain Cards
 
-Terrain cards grant bonuses to units on the battlefield, altering the strategic landscape.
+Terrain cards grant bonuses to units on the battlefield, altering the strategic landscape. Terrain cards can only be deployed to the battlefield.
 
 ## Rank
 

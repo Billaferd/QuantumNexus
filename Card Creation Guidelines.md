@@ -6,7 +6,7 @@ Quantum Nexus features five card types, each with its unique role:
 
 ### Unit Cards
 
-These cards represent characters and creatures critical for both offence and defence. Unit cards have Attack and Defense values, as well as a defined Range (close, mid, or far). Units can only be deployed on to the battlefield.
+These cards represent characters and creatures critical for both offence and defence. Unit cards have Attack and Defense values, as well as a defined Range (close, mid, or far). Units can only be deployed onto the battlefield.
 
 ### Upgrade Cards
 
@@ -23,6 +23,18 @@ Event cards create temporary effects that last for a single turn, introducing dy
 ### Terrain Cards
 
 Terrain cards grant bonuses to units on the battlefield, altering the strategic landscape. Terrain cards can only be deployed to the battlefield.
+
+## Card Subtypes
+
+All cards have a subtype. Subtypes allow the card's primary type to be more specific. All of the main types share the same subtypes. This will enable players to take in the information since it is familiar.
+
+### Examples
+
+| Subtype | Description |
+|---------|-------------|
+| Mech | Mechanised Infantry |
+| Squad | Soldiers that act as a group |
+| Specialist | A soldier that operates independently and has specialized skills |
 
 ## Rank
 

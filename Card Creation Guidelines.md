@@ -24,6 +24,18 @@ Event cards create temporary effects that last for a single turn, introducing dy
 
 Terrain cards grant bonuses to units on the battlefield, altering the strategic landscape.
 
+## Rank
+
+Specify if the card is Terrestrial, Aerial, Orbital, or Interstellar. All cards must have a rank.
+
+Terrestrial cards are any card type that can be deployed into the battlefield and typically have close or mid-range attacks and abilities, although they can have a far range at times as well.
+
+Aerial cards can also be any card type deployed on the battlefield; these cards typically have mid to far-range attacks and abilities and have the flying keyword.
+
+Orbital Cards can be any card type that can be deployed to the loadout and typically affect an entire quadrant at a time on the battlefield.
+
+Interstellar cards can be any card type deployed to the loadout and typically target Orbital type cards or affect entire battlefield sections (Rows or Columns).
+
 ## Domain Point Allocation
 
 In Quantum Nexus, cards are allocated Domain Points from four domains: Technology, Magic, Psionics, and Divinity.
@@ -166,18 +178,6 @@ These are some examples of abilities and base costs associated with them.
 | Debuff Infliction (e.g., Apply a debuff on hit)                         | 4 CP              |
 | Buff Dispelling (e.g., Remove one enemy buff at the start of your turn) | 6 CP              |
 | Terrain Interaction (e.g., Gain bonuses from specific terrains)         | 4 CP              |
-
-### Rank
-
-Specify if the card is Terrestrial, Aerial, Orbital, or Interstellar.
-
-Terrestrial cards are any card type that can be deployed into the battlefield and typically have close or mid-range attacks and abilities, although they can have a far range at times as well.
-
-Aerial cards can also be any card type deployed on the battlefield; these cards typically have mid to far-range attacks and abilities and have the flying keyword.
-
-Orbital Cards can be any card type that can be deployed to the loadout and typically affect an entire quadrant at a time on the battlefield.
-
-Interstellar cards can be any card type deployed to the loadout and typically target Orbital type cards or affect entire battlefield sections (Rows or Columns).
 
 ## Flavor Attributes
 

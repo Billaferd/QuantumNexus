@@ -111,7 +111,16 @@ Targets are the things that can trigger an interrupt.
 | this   | The card that the text is printed on. |
 | Player | The player that played this card. |
 | Opponent | An opposing player |
-| Unit     | A unit in play.    |
+| Unit     | A unit in play     |
+| Event | An event currently in play |
+| Terrain | A terrain card currently in play |
+| Deck | One of the players deck of cards |
+| Asset | An asset that is currently in play |
+| Upgrade | An upgrade currently in play |
+| Hand | One of the players hand of cards |
+| Discard | One of the players discard piles |
+| Battlefield | Either the whole battlefield or one of the quadrants |
+| Loadout | One of the players loadouts |
 
 ##### Modifiers
 
@@ -120,12 +129,17 @@ Modifiers add specificity to the target.
 | Modifier | Description  |
 |----------|--------------|
 | Opposing | Something that is controlled by an enemy or opposing player. |
-| Friendly | Something that is controlled be the player or an ally. |
+| Friendly | Something that is controlled by the player or an ally. |
 
 
 ##### Actions
 
-
+| Action | Description |
+|--------|-------------|
+| Deploy | When a player is deploying a card |
+| Attack | When a unit is performing a basic attack |
+| Ability | When a player activates a card ability |
+| Interrupt | When an interrupt activates |
 
 ### Examples
 

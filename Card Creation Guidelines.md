@@ -38,7 +38,7 @@ When creating cards for Quantum Nexus, it's crucial to consider the allocation o
 
 1. Allocate Domain Points: Determine how many to allocate to each domain: Technology, Magic, Psionics, and Divinity. These points reflect the card's thematic and mechanical qualities. Keep in mind that each domain point contributes to the CP cost.
 2. Determine CP Contribution: Understand that each Domain Point allocated to a card adds to its CP cost. The specific CP contribution for each Domain Point can vary but typically falls within the range of 2 to 5 CP. This contribution reflects the card's specialization in a particular domain. For example if a card has 2 domain points it would have somewhere between 4 and 10 CP.
-3. The actual point value would be up to the designer, but should fall within the values that are calculated in the step above.
+3. The actual point value would be up to the designer, but should fall within the values that are calculated in the step above. If in doubt, simply pick a random number within the range of 2 to 4 and multiply by the total number of domain points.
 
 ## Disciplines
 
@@ -171,6 +171,14 @@ These are some examples of abilities and base costs associated with them.
 
 Specify if the card is Terrestrial, Aerial, Orbital, or Interstellar.
 
+Terrestrial cards are any card type that can be deployed into the battlefield and typically have close or mid-range attacks and abilities, although they can have a far range at times as well.
+
+Aerial cards can also be any card type deployed on the battlefield; these cards typically have mid to far-range attacks and abilities and have the flying keyword.
+
+Orbital Cards can be any card type that can be deployed to the loadout and typically affect an entire quadrant at a time on the battlefield.
+
+Interstellar cards can be any card type deployed to the loadout and typically target Orbital type cards or affect entire battlefield sections (Rows or Columns).
+
 ## Flavor Attributes
 
 Finally, the card name can be assigned while considering everything that was decided earlier.
@@ -181,15 +189,15 @@ A set of flavour text no longer than 255 characters must also be drafted.
 
 ## Example
 
-First, we will select the card type. In this case it will be a Unit type card.
+First, we will select the card type. In this case, it will be a Unit type card.
 
-Second we determine Domain Points, for this example we will allocate 1 point to Technology and 1 point to Divinity.
+Second, we determine Domain Points; for this example, we will allocate 1 point to Technology and 1 point to Divinity.
 
-We can select one discipline from technology and divinity each. In this case we will use Nano-technology and Divine Aura.
+We can select one discipline from technology and divinity each. In this case, we will use Nano-technology and Divine Aura.
 
-We have two total domain points so that means we have between 4 and 10 CP available. Let's start at 6 CP, for the deployment cost.
+We have two total domain points, so we have between 4 and 10 CP available. Let's start at 6 CP for the deployment cost.
 
-For the general feel we will select the following values:
+For the general feel, we will select the following values:
 
 - Malevolence: Malevolent
 - Utility: Neutral
@@ -197,7 +205,7 @@ For the general feel we will select the following values:
 
 We will assign 1 defence and 2 attack to the card. This will use about 1 CP. We are leaving 5 for the rule box effects.
 
-For the rule pox effects, we will assign an interrupt of `this - deploy,` triggering every time this specific unit enters play. This interrupt will cause the player to pick up a card. This is equal to about 2 CP with the interrupt type providing a 1x multiplier. That is three CP used so far. For the last three we will use the `this - discard` interrupt and assign the effect: Opponent discards one card from the top of their deck. This costs about 3 CP.
+For the rule pox effects, we will assign an interrupt of `this - deploy,` triggering every time this specific unit enters play. This interrupt will cause the player to pick up a card. This equals about 2 CP, with the interrupt type providing a 1x multiplier. That is three CP used so far. For the last three, we will use the `this - discard` interrupt and assign the effect: Opponent discards one card from the top of their deck. This costs about 3 CP.
 
 This will be a close ranged terrestrial unit.
 

@@ -26,7 +26,7 @@ Terrain cards grant bonuses to units on the battlefield, altering the strategic 
 
 ## Domain Point Allocation
 
-In Quantum Nexus, cards are allocated Domain Points from four domains: Technology, Magic, Psionics, and Divinity. 
+In Quantum Nexus, cards are allocated Domain Points from four domains: Technology, Magic, Psionics, and Divinity.
 
 Each card can have between 0 and 6 points across these domains, ensuring a balanced distribution with no domain exceeding 4 points.
 
@@ -37,9 +37,7 @@ Domain Points represent how advanced a card is in a particular domain. Cards mus
 When creating cards for Quantum Nexus, it's crucial to consider the allocation of Domain Points and how they affect the CP (Command Points) assignment. Domain Points represent the card's proficiency in different domains, and they directly impact the CP cost of the card.
 
 1. Allocate Domain Points: Determine how many to allocate to each domain: Technology, Magic, Psionics, and Divinity. These points reflect the card's thematic and mechanical qualities. Keep in mind that each domain point contributes to the CP cost.
-
 2. Determine CP Contribution: Understand that each Domain Point allocated to a card adds to its CP cost. The specific CP contribution for each Domain Point can vary but typically falls within the range of 2 to 5 CP. This contribution reflects the card's specialization in a particular domain. For example if a card has 2 domain points it would have somewhere between 4 and 10 CP.
-
 3. The actual point value would be up to the designer, but should fall within the values that are calculated in the step above.
 
 ## Disciplines
@@ -88,7 +86,7 @@ Define a card's attributes, such as rule box effects, Rank, and CP, while consid
 
 ### Attack and Defense
 
-Attack and defence will use up the calculated CP at a rate of about 1 CP for every two Attack and/or Defense rounded down. The Attack and Defense values are summed for the CP calculation (Ceiling((Attack+Defense)/2)). The effects and the attack and defense values should calculate to the same as the deployment cost.
+Attack and defense will use up the calculated CP at a rate of about 1 CP for every two Attack and/or Defense rounded down. The Attack and Defense values are summed for the CP calculation (Ceiling((Attack+Defense)/2)). The effects and the attack and defense values should calculate to the same as the deployment cost.
 
 ### Rulebox Effects
 
@@ -106,63 +104,64 @@ Some examples include `Opposing Unit - Attack` and `Event - Deploy`.
 
 Targets are the things that can trigger an interrupt.
 
-| Target | Description |
-|--------|-------------|
-| this   | The card that the text is printed on. |
-| Player | The player that played this card. |
-| Opponent | An opposing player |
-| Unit     | A unit in play     |
-| Event | An event currently in play |
-| Terrain | A terrain card currently in play |
-| Deck | One of the players deck of cards |
-| Asset | An asset that is currently in play |
-| Upgrade | An upgrade currently in play |
-| Hand | One of the players hand of cards |
-| Discard | One of the players discard piles |
+| Target      | Description                                          |
+| ----------- | ---------------------------------------------------- |
+| this        | The card that the text is printed on.                |
+| Player      | The player that played this card.                    |
+| Opponent    | An opposing player                                   |
+| Unit        | A unit in play                                       |
+| Event       | An event currently in play                           |
+| Terrain     | A terrain card currently in play                     |
+| Deck        | One of the players deck of cards                     |
+| Asset       | An asset that is currently in play                   |
+| Upgrade     | An upgrade currently in play                         |
+| Hand        | One of the players hand of cards                     |
+| Discard     | One of the players discard piles                     |
 | Battlefield | Either the whole battlefield or one of the quadrants |
-| Loadout | One of the players loadouts |
+| Loadout     | One of the players loadouts                          |
 
 ##### Modifiers
 
 Modifiers add specificity to the target.
 
-| Modifier | Description  |
-|----------|--------------|
+| Modifier | Description                                                  |
+| -------- | ------------------------------------------------------------ |
 | Opposing | Something that is controlled by an enemy or opposing player. |
-| Friendly | Something that is controlled by the player or an ally. |
-
+| Friendly | Something that is controlled by the player or an ally.       |
 
 ##### Actions
 
-| Action | Description |
-|--------|-------------|
-| Deploy | When a player is deploying a card |
-| Attack | When a unit is performing a basic attack |
-| Ability | When a player activates a card ability |
-| Interrupt | When an interrupt activates |
+| Action    | Description                                      |
+| --------- | ------------------------------------------------ |
+| Deploy    | When a player is deploying a card                |
+| Attack    | When a unit is performing a basic attack         |
+| Ability   | When a player activates a card ability           |
+| Interrupt | When an interrupt activates                      |
+| Discard   | When a card is discarded                         |
+| Destroy   | When a card is destroyed by an ability or attack |
 
 ### Examples
 
 These are some examples of abilities and base costs associated with them.
 
-##### Passive Abilities
+#### Abilities
 
-| Passive Ability                | CP Cost (Approx.) |
-|-------------------------------|-------------------|
-| Enhanced Attack (e.g., +1 Attack)       | 2 CP              |
-| Enhanced Defense (e.g., +1 Defense)     | 2 CP              |
-| Enhanced Range (e.g., +1 Range for ranged units) | 3 CP              |
-| Card Draw (e.g., Draw 1 card at the start of your turn) | 4 CP              |
-| Resource Generation (e.g., Gain 1 CP at the start of your turn) | 3 CP              |
-| Damage Reduction (e.g., Reduce incoming damage by 1) | 4 CP              |
-| Status Effect Immunity (e.g., Immune to poison, stun, etc.) | 5 CP              |
-| Retaliation (e.g., Deal 1 damage to attackers) | 4 CP              |
-| Bonus Damage (e.g., +1 damage to specific types of units) | 3 CP              |
-| Resource Cost Reduction (e.g., Reduce CP cost of abilities by 1) | 5 CP              |
-| Critical Hit Bonus (e.g., Deal double damage on critical hits) | 6 CP              |
-| Debuff Infliction (e.g., Apply a debuff on hit) | 4 CP              |
+| Passive Ability                                                         | CP Cost (Approx.) |
+| ----------------------------------------------------------------------- | ----------------- |
+| Enhanced Attack (e.g., +1 Attack)                                       | 2 CP              |
+| Enhanced Defense (e.g., +1 Defense)                                     | 2 CP              |
+| Enhanced Range (e.g., +1 Range for ranged units)                        | 3 CP              |
+| Card Draw (e.g., Draw 1 card at the start of your turn)                 | 4 CP              |
+| Resource Generation (e.g., Gain 1 CP at the start of your turn)         | 3 CP              |
+| Damage Reduction (e.g., Reduce incoming damage by 1)                    | 4 CP              |
+| Status Effect Immunity (e.g., Immune to poison, stun, etc.)             | 5 CP              |
+| Retaliation (e.g., Deal 1 damage to attackers)                          | 4 CP              |
+| Bonus Damage (e.g., +1 damage to specific types of units)               | 3 CP              |
+| Resource Cost Reduction (e.g., Reduce CP cost of abilities by 1)        | 5 CP              |
+| Critical Hit Bonus (e.g., Deal double damage on critical hits)          | 6 CP              |
+| Debuff Infliction (e.g., Apply a debuff on hit)                         | 4 CP              |
 | Buff Dispelling (e.g., Remove one enemy buff at the start of your turn) | 6 CP              |
-| Terrain Interaction (e.g., Gain bonuses from specific terrains) | 4 CP              |
+| Terrain Interaction (e.g., Gain bonuses from specific terrains)         | 4 CP              |
 
 ### Rank
 

@@ -201,7 +201,7 @@ A set of flavour text no longer than 255 characters must also be drafted.
 
 ## Example
 
-First, we will select the card type. In this case, it will be a Unit type card.
+First, we will select the card type. In this case, it will be a Unit type card. The subtype will be Squad because these nano-bots operate as a group even though they are extremely small. This will appear on the card as `Unit - Squad`.
 
 Second, we determine Domain Points; for this example, we will allocate 1 point to Technology and 1 point to Divinity.
 
@@ -217,7 +217,7 @@ For the general feel, we will select the following values:
 
 We will assign 1 defence and 2 attack to the card. This will use about 1 CP. We are leaving 5 for the rule box effects.
 
-For the rule pox effects, we will assign an interrupt of `this - deploy,` triggering every time this specific unit enters play. This interrupt will cause the player to pick up a card. This equals about 2 CP, with the interrupt type providing a 1x multiplier. That is three CP used so far. For the last three, we will use the `this - discard` interrupt and assign the effect: Opponent discards one card from the top of their deck. This costs about 3 CP.
+For the rule box effects, we will assign an interrupt of `this - deploy,` triggering every time this specific unit enters play. This interrupt will cause the player to pick up a card. This equals about 2 CP, with the interrupt type providing a 1x multiplier. That is three CP used so far. For the last three, we will use the `this - discard` interrupt and assign the effect: Opponent discards one card from the top of their deck. This costs about 3 CP.
 
 This will be a close ranged terrestrial unit.
 

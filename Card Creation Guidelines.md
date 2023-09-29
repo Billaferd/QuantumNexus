@@ -34,7 +34,7 @@ All cards have a subtype. Subtypes allow the card's primary type to be more spec
 |---------|-------------|
 | Mech | Mechanised Infantry |
 | Squad | Soldiers that act as a group |
-| Specialist | A soldier that operates independently and has specialized skills |
+| Specialist | A soldier who operates independently and has specialized skills |
 
 ## Rank
 
@@ -56,12 +56,30 @@ Each card can have between 0 and 6 points across these domains, ensuring a balan
 
 Domain Points represent how advanced a card is in a particular domain. Cards must allocate at least 1 point to any domain mentioned in their attributes, abilities, name, or description.
 
+Domains have a certain feel to them, as is described next.
+
+### Technology
+
+Technology cards generally attack at a distance; mid and far-range attacks are much more common than close-range attacks. Technology abilities are generally destructive and lack precision most of the time. Technological cards can be precise, but this is not as common as abilities that affect entire quadrants or even battlefield sections. Technology users rely on Aerial, Orbital or Interstellar cards for battlefield dominance. Terrestrial cards, although rare, are generally heavily armoured and mid-ranged.
+
+### Magic
+
+The magic domain primarily deals in the close to mid-range. Far-range is available but not very common. Magic users have powerful, precise abilities that excel at the removal of specific targets. Magic users have issues against large crowds. Terrestrial cards are the most common, but aerial cards are also used. It is scarce for magic users to unleash their orbital or interstellar powers.
+
+### Psionics
+
+Psionics users rely on extremely close range but can also take care of large crowds and single threats. They tend to rely on control of the battlefield and use their opponent's minds against them. Anything other than terrestrial cards is rare.
+
+## Divinity
+
+Divine cards are mostly far-ranged and indirect. They rely on their deities for intervention and excel at inflicting status ailments. They cannot single out specific targets but they can lay waster to large sections of the battlefield.
+
 ### CP Assignment
 
 When creating cards for Quantum Nexus, it's crucial to consider the allocation of Domain Points and how they affect the CP (Command Points) assignment. Domain Points represent the card's proficiency in different domains, and they directly impact the CP cost of the card.
 
 1. Allocate Domain Points: Determine how many to allocate to each domain: Technology, Magic, Psionics, and Divinity. These points reflect the card's thematic and mechanical qualities. Keep in mind that each domain point contributes to the CP cost.
-2. Determine CP Contribution: Understand that each Domain Point allocated to a card adds to its CP cost. The specific CP contribution for each Domain Point can vary but typically falls within the range of 2 to 5 CP. This contribution reflects the card's specialization in a particular domain. For example if a card has 2 domain points it would have somewhere between 4 and 10 CP.
+2. Determine CP Contribution: Understand that each Domain Point allocated to a card adds to its CP cost. The specific CP contribution for each Domain Point can vary but typically falls within the range of 2 to 5 CP. This contribution reflects the card's specialization in a particular domain. For example, if a card has two domain points it would have somewhere between 4 and 10 CP.
 3. The actual point value would be up to the designer, but should fall within the values that are calculated in the step above. If in doubt, simply pick a random number within the range of 2 to 4 and multiply by the total number of domain points.
 
 ## Disciplines

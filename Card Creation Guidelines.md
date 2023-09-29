@@ -128,11 +128,11 @@ Define a card's attributes, such as rule box effects, Rank, and CP, while consid
 
 ### Attack and Defense
 
-Attack and defense will use up the calculated CP at a rate of about 1 CP for every two Attack and/or Defense rounded down. The Attack and Defense values are summed for the CP calculation (Ceiling((Attack+Defense)/2)). The effects and the attack and defense values should calculate to the same as the deployment cost.
+Attack and defense will cost a rate of about 1 purchase point for every two Attack and/or Defense rounded down. The Attack and Defense values are summed for the purchase calculation (Ceiling((Attack+Defense)/2)).
 
 ### Rulebox Effects
 
-The rule box holds active abilities, passive abilities, interrupts, and mandatory interrupts. The rule box can hold multiples of these but each rule will subtract from the calculated CP after attack and defense are deducted.
+The rule box holds active abilities, passive abilities, interrupts, and mandatory interrupts. The rule box can hold multiples of these but each rule will add to the purchase cost. The purchase cost of the rule box effects and the attack/defense values should be equal to the numeric value of the deployment cost.
 
 #### Abilities
 
@@ -192,22 +192,22 @@ These are some examples of abilities and base costs associated with them.
 
 #### Abilities
 
-| Passive Ability                                                         | CP Cost (Approx.) |
+| Passive Ability                                                         | Purchase Cost (Approx.) |
 | ----------------------------------------------------------------------- | ----------------- |
-| Enhanced Attack (e.g., +1 Attack)                                       | 2 CP              |
-| Enhanced Defense (e.g., +1 Defense)                                     | 2 CP              |
-| Enhanced Range (e.g., +1 Range for ranged units)                        | 3 CP              |
-| Card Draw (e.g., Draw 1 card at the start of your turn)                 | 4 CP              |
-| Resource Generation (e.g., Gain 1 CP at the start of your turn)         | 3 CP              |
-| Damage Reduction (e.g., Reduce incoming damage by 1)                    | 4 CP              |
-| Status Effect Immunity (e.g., Immune to poison, stun, etc.)             | 5 CP              |
-| Retaliation (e.g., Deal 1 damage to attackers)                          | 4 CP              |
-| Bonus Damage (e.g., +1 damage to specific types of units)               | 3 CP              |
-| Resource Cost Reduction (e.g., Reduce CP cost of abilities by 1)        | 5 CP              |
-| Critical Hit Bonus (e.g., Deal double damage on critical hits)          | 6 CP              |
-| Debuff Infliction (e.g., Apply a debuff on hit)                         | 4 CP              |
-| Buff Dispelling (e.g., Remove one enemy buff at the start of your turn) | 6 CP              |
-| Terrain Interaction (e.g., Gain bonuses from specific terrains)         | 4 CP              |
+| Enhanced Attack (e.g., +1 Attack)                                       | 2              |
+| Enhanced Defense (e.g., +1 Defense)                                     | 2              |
+| Enhanced Range (e.g., +1 Range for ranged units)                        |              |
+| Card Draw (e.g., Draw 1 card at the start of your turn)                 | 4              |
+| Resource Generation (e.g., Gain 1 CP at the start of your turn)         | 3              |
+| Damage Reduction (e.g., Reduce incoming damage by 1)                    | 4              |
+| Status Effect Immunity (e.g., Immune to poison, stun, etc.)             | 5              |
+| Retaliation (e.g., Deal 1 damage to attackers)                          | 4              |
+| Bonus Damage (e.g., +1 damage to specific types of units)               | 3              |
+| Resource Cost Reduction (e.g., Reduce CP cost of abilities by 1)        | 5              |
+| Critical Hit Bonus (e.g., Deal double damage on critical hits)          | 6              |
+| Debuff Infliction (e.g., Apply a debuff on hit)                         | 4              |
+| Buff Dispelling (e.g., Remove one enemy buff at the start of your turn) | 6              |
+| Terrain Interaction (e.g., Gain bonuses from specific terrains)         | 4              |
 
 ## Flavor Attributes
 

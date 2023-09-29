@@ -1,5 +1,15 @@
 # Card Creation Guidelines for Quantum Nexus
 
+## General Info
+
+### Battlefield
+
+The battlefield is split into 3x2 field of 6 quadrants. Each row or column of quadrants is referred to as a section.
+
+### Range
+
+Close-range attacks and abilities can only target quadrants directly above and directly to each side. Mid-range abilities and attacks can target the quadrants above and to the sides, bit they can also target the top right and left diagonals. Far-ranged cards can only target one row away. This means that a far-ranged card in the back row can target the opponents front row and if it is in the front row, it can target the opponents back row.
+
 ## Card Types
 
 Quantum Nexus features five card types, each with its unique role:

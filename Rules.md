@@ -20,17 +20,19 @@ In Quantum Nexus, there are several ways to win.
 Quantum Nexus is played by two or more people using only the cards in their decks. There are several different types of cards in Quantum Nexus:
 
 - Units
-    - They are used to Attack and Defend on the battlefield.
+  - They are used to Attack and Defend on the battlefield.
+- Leaders
+  - They are powerful units and only one may occupy a quadrant at any time.
 - Assets
-    - They are used as persistent effects on the battlefield.
+  - They are used as persistent effects on the battlefield.
 - Events
-    - Powerful one-time effects that are discarded immediately.
+  - Powerful one-time effects that are discarded immediately.
 - Upgrades
-    - Upgrades that change stats and give effects or abilities to other cards. They require another card to be played.
+  - Upgrades that change stats and give effects or abilities to other cards. They require another card to be played.
 - Terrain
-    - Adds or removes bonuses, effects, and abilities for specific units on the battlefield.
+  - Adds or removes bonuses, effects, and abilities for specific units on the battlefield.
 - Missions
-    - Represent battle objectives that, once achieved, provide a passive bonus or a powerful one-off effect.
+  - Represent battle objectives that, once achieved, provide a passive bonus or a powerful one-off effect.
 
 Each card type has a unique role in the game and is used together to defeat an opponent. All cards have a cost associated with them; this cost is called Command Points and is always located in the top left of the cards.
 
@@ -89,7 +91,6 @@ Three mission cards are selected with the following values:
 | Completion | All opposing non-mechanical units are `Pinned` for the rest of this turn. |
 
 In this example, we have three mission cards that give 19 CP for the player to spend on their turn. It also provides the following values in each domain:
-
 
 | Domain | Points |
 |--|--|
@@ -151,7 +152,7 @@ Command Points are always located at the top left of the card. They indicate the
 
 ### Type
 
-Each card is one of several major types. Each type has a unique function on the board. Unit, Upgrade, Asset, Event, Mission, and Terrain are the six types.
+Each card is one of several major types. Each type has a unique function on the board. Unit, Leader, Upgrade, Asset, Event, Mission, and Terrain are the six types.
 
 ### Subtype
 

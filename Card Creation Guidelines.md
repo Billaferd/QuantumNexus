@@ -16,7 +16,11 @@ Quantum Nexus features five card types, each with its unique role:
 
 ### Unit Cards
 
-These cards represent characters and creatures critical for both offence and defence. Unit cards have Attack and Defense values, as well as a defined Range (close, mid, or far). Units can only be deployed onto the battlefield.
+These cards represent characters and creatures critical for both offense and defense. Unit cards have Attack and Defense values, as well as a defined Range (close, mid, or far). Units can only be deployed onto the battlefield.
+
+### Leader Cards
+
+Leader cards are power cards that are similar to units. They do get a 50% discount on the costs though, because only 1 of any type is allowed, and only one leader at all is allowed in a single quadrant at a time. Their effects generally affect all units in their quadrant.
 
 ### Upgrade Cards
 
@@ -24,7 +28,7 @@ Upgrade cards enhance units and other cards, boosting their capabilities. Upgrad
 
 ### Asset Cards
 
-Asset cards provide ongoing effects that influence the battlefield. They have a Defense value to protect them. Asset cards can only be deployed to the loadout.
+Asset cards provide ongoing effects that influence the battlefield. They have a Defense value to protect them. Asset cards can only be deployed to the loadout. If they interact with a quadrant or section it must be chosen either at deployment or at the beginning of each turn.
 
 ### Event Cards
 
@@ -42,7 +46,7 @@ All cards have a subtype. Subtypes allow the card's primary type to be more spec
 
 | Subtype | Description |
 |---------|-------------|
-| Mech | Mechanised Infantry |
+| Mech | Mechanized Infantry |
 | Squad | Soldiers that act as a group |
 | Specialist | A soldier who operates independently and has specialized skills |
 
@@ -140,13 +144,13 @@ Define a card's attributes, such as rule box effects, Rank, and CP, while consid
 
 Attack and defense will cost a rate of about 1 purchase point for every two Attack and/or Defense rounded down. The Attack and Defense values are summed for the purchase calculation (Ceiling((Attack+Defense)/2)).
 
-### Rulebox Effects
+### Rule Box Effects
 
-The rule box holds active abilities, passive abilities, interrupts, and mandatory interrupts. The rule box can hold multiples of these but each rule will add to the purchase cost. The purchase cost of the rule box effects and the attack/defense values should be equal to the numeric value of the deployment cost.
+The rule box holds active abilities, passive abilities, interrupts, and mandatory interrupts. The rule box can hold multiples of these but each rule will add to the purchase cost. The purchase cost of the rule box effects and the attack/defense values should be equal to the numeric value of the deployment cost. The total cost of the attack/defense values and all of the rule box effects must be equal to the numeric value of the deployment cost.
 
 #### Abilities
 
-A cards abilities will always have a cost, even if that cost is zero. The ability will always have the form `Cost[, Cost] - Ability`. The cost of an ability can be used to partially balance a card by changing it. Abilities can have compound costs and costs don't strictly have to be CP, discarding a card, skipping a turn, and destroying a card are all valid costs. An example ability text would be `3CP - Force an opponent to discard a card`. A more advanced example with a compound cost would be `2CP, Discard 1 - Deal 3 damage to an enemy in Mid-range`.
+A cards abilities will always have a cost, even if that cost is zero. The ability will always have the form `Cost[, Cost] - Ability`. The cost of an ability can be used to partially balance a card by changing it. Abilities can have compound costs and costs don't strictly have to be CP, discarding a card, skipping a turn, and destroying a card are all valid costs. An example ability text would be `3CP - Force an opponent to discard a card`. A more advanced example with a compound cost would be `2CP, Discard 1 - Deal 3 damage to an enemy in Mid-range`. Passive abilities don't have a cost associated, an example would be `P, Other units in this quadrant gain +1 attack.`
 
 #### Interrupts
 
@@ -200,24 +204,40 @@ Modifiers add specificity to the target.
 
 These are some examples of abilities and base costs associated with them.
 
-#### Abilities
+#### Effects
 
-| Passive Ability                                                         | Purchase Cost (Approx.) |
-| ----------------------------------------------------------------------- | ----------------- |
-| Enhanced Attack (e.g., +1 Attack)                                       | 2              |
-| Enhanced Defense (e.g., +1 Defense)                                     | 2              |
-| Enhanced Range (e.g., +1 Range for ranged units)                        |              |
-| Card Draw (e.g., Draw 1 card at the start of your turn)                 | 4              |
-| Resource Generation (e.g., Gain 1 CP at the start of your turn)         | 3              |
-| Damage Reduction (e.g., Reduce incoming damage by 1)                    | 4              |
-| Status Effect Immunity (e.g., Immune to poison, stun, etc.)             | 5              |
-| Retaliation (e.g., Deal 1 damage to attackers)                          | 4              |
-| Bonus Damage (e.g., +1 damage to specific types of units)               | 3              |
-| Resource Cost Reduction (e.g., Reduce CP cost of abilities by 1)        | 5              |
-| Critical Hit Bonus (e.g., Deal double damage on critical hits)          | 6              |
-| Debuff Infliction (e.g., Apply a debuff on hit)                         | 4              |
-| Buff Dispelling (e.g., Remove one enemy buff at the start of your turn) | 6              |
-| Terrain Interaction (e.g., Gain bonuses from specific terrains)         | 4              |
+| Keyword             | Effect                                           | Cost |
+| ------------------- | ------------------------------------------------ | ---- |
+| **Attack Boost**    | Increases a unit's attack damage.                | 4    |
+| **Defense Boost**   | Enhances a unit's defensive capabilities.         | 4    |
+| **Speed Boost**     | Accelerates a unit's movement and attacks.       | 5    |
+| **Regeneration**    | Gradually restores a unit's health.              | 5    |
+| **Evasion**         | Grants a chance to dodge enemy attacks.          | 4    |
+| **Critical Strike** | Increases the chance of landing critical hits.  | 4    |
+| **Counterattack**   | Enables a unit to retaliate when attacked.       | 4    |
+| **Elemental Resistance** | Provides protection against specific elemental damage. | 4    |
+| **Status Immunity** | Grants immunity to status effects.               | 4    |
+| **Double Attack**   | Allows a unit to attack twice in a turn.         | 5    |
+| **Ranged Accuracy** | Improves accuracy for ranged attacks.            | 4    |
+| **Aura of Protection** | Extends buffs to nearby allied units.          | 5    |
+| **Life Steal**      | Drains health from enemies with each attack.     | 5    |
+| **Barrier**         | Creates a temporary shield that absorbs damage.  | 5    |
+| **Invisibility**    | Renders a unit invisible and immune to targeting for a duration. | 6 |
+| **Attack Reduction** | Lowers a unit's attack power.                   | 4    |
+| **Defense Reduction** | Weakens a unit's defensive capabilities.        | 4    |
+| **Slow**            | Reduces a unit's movement and attack speed.      | 5    |
+| **Silence**         | Prevents the use of abilities or spells.         | 5    |
+| **Poison**          | Inflicts damage over time to the affected unit.  | 4    |
+| **Stun**            | Temporarily incapacitates a unit, preventing actions. | 5    |
+| **Fear**            | Causes a unit to move away from the source of fear. | 5    |
+| **Blindness**       | Reduces accuracy, increasing the chance to miss attacks. | 4    |
+| **Confusion**       | Randomizes a unit's actions, potentially targeting allies. | 5    |
+| **Debuff Transfer** | Moves a debuff from one unit to another.         | 6    |
+| **Elemental Vulnerability** | Increases damage from specific elemental attacks. | 4    |
+| **Disarm**          | Prevents a unit from attacking for a duration.   | 5    |
+| **Freeze**          | Immobilizes a unit, rendering it unable to move or act. | 6    |
+| **Cursed**          | Inflicts a long-lasting debuff with various negative effects. | 7 |
+| **Mind Control**    | Takes control of an enemy unit, making it fight for the controller. | 7 |
 
 ## Flavor Attributes
 
@@ -235,7 +255,7 @@ Second, we determine Domain Points; for this example, we will allocate 1 point t
 
 We can select one discipline from technology and divinity each. In this case, we will use Nano-technology and Divine Aura.
 
-We have two total domain points, so we have between 4 and 10 CP available. Let's start at 6 CP for the deployment cost.
+We have two total domain points, so we have between 4 and 10 CP available. Let's start at 10 CP for the deployment cost.
 
 For the general feel, we will select the following values:
 
@@ -243,9 +263,9 @@ For the general feel, we will select the following values:
 - Utility: Neutral
 - Impact: Destructive
 
-We will assign 1 defence and 2 attack to the card. This will use about 1 CP. We are leaving 5 for the rule box effects.
+We will assign 1 defense and 2 attack to the card. This will use 2 CP. We are leaving 5 for the rule box effects.
 
-For the rule box effects, we will assign an interrupt of `this - deploy,` triggering every time this specific unit enters play. This interrupt will cause the player to pick up a card. This equals about 2 CP, with the interrupt type providing a 1x multiplier. That is three CP used so far. For the last three, we will use the `this - discard` interrupt and assign the effect: Opponent discards one card from the top of their deck. This costs about 3 CP.
+For the rule box effects, we will assign an interrupt of `this - deploy,` triggering every time this specific unit enters play. This interrupt will cause the player to pick up a card. This equals about 4 CP, with the interrupt type providing a 1x multiplier. That is three CP used so far. For the last three, we will use the `this - discard` interrupt and assign the effect: Opponent discards one card from the top of their deck. This costs about 4 CP.
 
 This will be a close ranged terrestrial unit.
 

@@ -1,5 +1,15 @@
 # Card Creation Guidelines for Quantum Nexus
 
+## Introduction
+
+Quantum Nexus is a trading card game that adheres to the following tenants of design.
+
+1. Cards will never cross the table to an opponent's side. Every player will always be in full possession of their cards.
+
+2. No randomness, ever. There will never be any randomness except for the card shuffle. There will never be dice rolls, coin flips, or card flips. The only exception is when the first player is selected through card flips at the start.
+
+3. There are no health points, defense is not a measure of health, and players should not have to bookkeep health on their units.
+
 ## General Info
 
 ### Battlefield

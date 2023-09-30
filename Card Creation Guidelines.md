@@ -1,5 +1,15 @@
 # Card Creation Guidelines for Quantum Nexus
 
+## Introduction
+
+Quantum Nexus is a trading card game that adheres to the following tenants of design.
+
+1. Cards will never cross the table to an opponent's side. Every player will always be in full possession of their cards.
+
+2. No randomness, ever. There will never be any randomness except for the card shuffle. There will never be dice rolls, coin flips, or card flips. The only exception is when the first player is selected through card flips at the start.
+
+3. There are no health points, defense is not a measure of health, and players should not have to bookkeep health on their units.
+
 ## General Info
 
 ### Battlefield
@@ -170,6 +180,7 @@ Targets are the things that can trigger an interrupt.
 | Player      | The player that played this card.                    |
 | Opponent    | An opposing player                                   |
 | Unit        | A unit in play                                       |
+| Leader | A leader in play |
 | Event       | An event currently in play                           |
 | Terrain     | A terrain card currently in play                     |
 | Deck        | One of the players deck of cards                     |
@@ -211,16 +222,13 @@ These are some examples of abilities and base costs associated with them.
 | **Attack Boost**    | Increases a unit's attack damage.                | 4    |
 | **Defense Boost**   | Enhances a unit's defensive capabilities.         | 4    |
 | **Speed Boost**     | Accelerates a unit's movement and attacks.       | 5    |
-| **Regeneration**    | Gradually restores a unit's health.              | 5    |
 | **Evasion**         | Grants a chance to dodge enemy attacks.          | 4    |
 | **Critical Strike** | Increases the chance of landing critical hits.  | 4    |
 | **Counterattack**   | Enables a unit to retaliate when attacked.       | 4    |
 | **Elemental Resistance** | Provides protection against specific elemental damage. | 4    |
 | **Status Immunity** | Grants immunity to status effects.               | 4    |
 | **Double Attack**   | Allows a unit to attack twice in a turn.         | 5    |
-| **Ranged Accuracy** | Improves accuracy for ranged attacks.            | 4    |
 | **Aura of Protection** | Extends buffs to nearby allied units.          | 5    |
-| **Life Steal**      | Drains health from enemies with each attack.     | 5    |
 | **Barrier**         | Creates a temporary shield that absorbs damage.  | 5    |
 | **Invisibility**    | Renders a unit invisible and immune to targeting for a duration. | 6 |
 | **Attack Reduction** | Lowers a unit's attack power.                   | 4    |
@@ -231,7 +239,6 @@ These are some examples of abilities and base costs associated with them.
 | **Stun**            | Temporarily incapacitates a unit, preventing actions. | 5    |
 | **Fear**            | Causes a unit to move away from the source of fear. | 5    |
 | **Blindness**       | Reduces accuracy, increasing the chance to miss attacks. | 4    |
-| **Confusion**       | Randomizes a unit's actions, potentially targeting allies. | 5    |
 | **Debuff Transfer** | Moves a debuff from one unit to another.         | 6    |
 | **Elemental Vulnerability** | Increases damage from specific elemental attacks. | 4    |
 | **Disarm**          | Prevents a unit from attacking for a duration.   | 5    |

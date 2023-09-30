@@ -1,0 +1,26 @@
+<svg viewBox="0 0 822 1122" xmlns="http://www.w3.org/2000/svg" xmlns:bx="https://boxy-svg.com">
+  <defs>
+    <bx:guide x="36" y="0" angle="0"></bx:guide>
+    <bx:guide x="72" y="0" angle="0"></bx:guide>
+    <bx:guide x="750" y="0" angle="0"></bx:guide>
+    <bx:guide x="786" y="0" angle="0"></bx:guide>
+    <bx:guide x="0" y="36" angle="90"></bx:guide>
+    <bx:guide x="0" y="72" angle="90"></bx:guide>
+    <bx:guide x="0" y="1050" angle="90"></bx:guide>
+    <bx:guide x="0" y="1086" angle="90"></bx:guide>
+    <style bx:fonts="Noto Sans" bx:pinned="true">@import url(https://fonts.googleapis.com/css2?family=Noto+Sans%3Aital%2Cwght%400%2C100%3B0%2C200%3B0%2C300%3B0%2C400%3B0%2C500%3B0%2C600%3B0%2C700%3B0%2C800%3B0%2C900%3B1%2C100%3B1%2C200%3B1%2C300%3B1%2C400%3B1%2C500%3B1%2C600%3B1%2C700%3B1%2C800%3B1%2C900&amp;display=swap);</style>
+  </defs>
+  <ellipse style="fill: rgb(216, 216, 216); stroke: rgb(0, 0, 0);" cx="100.5" cy="100.5" rx="65" ry="65"></ellipse>
+  <text style="fill: rgb(51, 51, 51); font-family: &quot;Noto Sans&quot;; font-size: 60px; white-space: pre;" x="66.162" y="124.171">10</text>
+  <text style="fill: rgb(51, 51, 51); font-family: &quot;Noto Sans&quot;; font-size: 60px; white-space: pre;" x="185.225" y="111.728">Card Name</text>
+  <text style="fill: rgb(51, 51, 51); font-family: &quot;Noto Sans&quot;; font-size: 40px; white-space: pre;" x="185.225" y="143.612">Type - Sub-type</text>
+  <g transform="matrix(1, 0, 0, 1, -9.289406, 0)">
+    <text style="fill: rgb(51, 51, 51); font-family: &quot;Noto Sans&quot;; font-size: 60px; white-space: pre;" x="44.757" y="245.501">🛡️</text>
+    <text style="fill: rgb(51, 51, 51); font-family: &quot;Noto Sans&quot;; font-size: 40px; white-space: pre;" x="147.22" y="236.78">10</text>
+    <text style="fill: rgb(51, 51, 51); font-family: &quot;Noto Sans&quot;; font-size: 60px; white-space: pre;" x="46.717" y="327.726">⚔️</text>
+    <text style="fill: rgb(51, 51, 51); font-family: &quot;Noto Sans&quot;; font-size: 40px; white-space: pre;" x="147.22" y="319.005">10</text>
+    <text style="fill: rgb(51, 51, 51); font-family: &quot;Noto Sans&quot;; font-size: 60px; white-space: pre;" x="42.798" y="409.951">🧭</text>
+    <text style="fill: rgb(51, 51, 51); font-family: &quot;Noto Sans&quot;; font-size: 40px; white-space: pre;" x="147.22" y="401.23">C</text>
+  </g>
+  <rect x="72" y="718" width="675" height="328" style="fill: rgb(216, 216, 216); stroke: rgb(0, 0, 0);"></rect>
+</svg>

@@ -150,6 +150,10 @@ Cards in Quantum Nexus are defined using three axes
 
 Define a card's attributes, such as rule box effects, Rank, and CP, while considering the Domain Points allocated and the chosen disciplines.
 
+### Range
+
+If a card requires a range then the close range value is free, the Mid range value is worth 2 points and the Far range value is worth 4 points.
+
 ### Attack and Defense
 
 Attack and defense will cost a rate of about 1 purchase point for every two Attack and/or Defense rounded down. The Attack and Defense values are summed for the purchase calculation (Ceiling((Attack+Defense)/2)).

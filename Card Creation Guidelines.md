@@ -103,7 +103,7 @@ Divine cards are mostly far-ranged and indirect. They rely on their deities for 
 When creating cards for Quantum Nexus, it's crucial to consider the allocation of Domain Points and how they affect the CP (Command Points) assignment. Domain Points represent the card's proficiency in different domains, and they directly impact the CP cost of the card.
 
 1. Allocate Domain Points: Determine how many to allocate to each domain: Technology, Magic, Psionics, and Divinity. These points reflect the card's thematic and mechanical qualities. Keep in mind that each domain point contributes to the CP cost.
-2. Determine CP Contribution: Understand that each Domain Point allocated to a card adds to its CP cost. The specific CP contribution for each Domain Point can vary but typically falls within the range of 2 to 5 CP. This contribution reflects the card's specialization in a particular domain. For example, if a card has two domain points it would have somewhere between 4 and 10 CP.
+2. Determine CP Contribution: Understand that each Domain Point allocated to a card adds to its CP cost. The specific CP contribution for each Domain Point can vary but typically falls within the range of 2 to 4 CP. This contribution reflects the card's specialization in a particular domain. For example, if a card has two domain points it would have somewhere between 4 and 8 CP.
 3. The actual point value would be up to the designer, but should fall within the values that are calculated in the step above. If in doubt, simply pick a random number within the range of 2 to 4 and multiply by the total number of domain points.
 
 ## Disciplines
@@ -149,6 +149,10 @@ Cards in Quantum Nexus are defined using three axes
 ## Functional Attributes
 
 Define a card's attributes, such as rule box effects, Rank, and CP, while considering the Domain Points allocated and the chosen disciplines.
+
+### Range
+
+If a card requires a range then the close range value is free, the Mid range value is worth 2 points and the Far range value is worth 4 points.
 
 ### Attack and Defense
 

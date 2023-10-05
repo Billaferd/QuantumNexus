@@ -220,6 +220,10 @@ Terrain can be deployed during the deployment phase and may have similar restric
 
 Mission cards are available for each player and have completion conditions. Once the requirements are met, the mission card will start providing a passive effect on the battlefield and count toward the victory condition. Each mission card also has an ability that is triggered immediately upon completion. The player can include no more than six (6) missions in a deck, and a player will be deemed victorious once all missions have been completed. A deck may include any number of missions if there are fewer than six.
 
+### Example
+
+![Card Layout](./CardLayout.svg)
+
 ## How to Play
 
 ### Determining First Turn (Initiative)

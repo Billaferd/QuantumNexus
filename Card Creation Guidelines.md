@@ -256,6 +256,49 @@ A detailed description of the card image needs to be created.
 
 A set of flavour text no longer than 255 characters must also be drafted.
 
+## Synergies
+
+Cards should be cohesive and exhibit some types of synergy.
+
+1. **Theme-Based Synergies**:
+   - Consider the theme or lore of your cards and how they can naturally work together. For example, cards with a "mechanical" theme might have synergies that involve repairing or enhancing each other.
+
+2. **Domain Synergies**:
+   - Cards from the same domain can have built-in synergies. For instance, technology-based cards could synergize by combining their abilities to create powerful tech combos.
+
+3. **Subtype Synergies**:
+   - Subtypes can create natural synergies. Cards with the "Squad" subtype might gain bonuses when played alongside other Squad units, encouraging players to build cohesive teams.
+
+4. **Leader Abilities**:
+   - Leader cards often have abilities that benefit specific types of units or domains. Design leader abilities that enhance the strengths of other cards in your deck.
+
+5. **Upgrade Cards**:
+   - Create upgrades that can be applied to units or assets, boosting their abilities. Players should be able to strategize which upgrades to use on which cards to maximize their effectiveness.
+
+6. **Event and Terrain Synergies**:
+   - Design events and terrain cards that interact with other card types. Events might trigger additional effects when specific units are in play, while terrain cards could grant bonuses to units of a certain domain.
+
+7. **Inter-Domain Synergies**:
+   - Encourage cross-domain synergies where cards from different domains work well together. For example, a magic card could enhance the abilities of a technology-based unit, highlighting the interplay between magic and technology.
+
+8. **Ability Combos**:
+   - Create cards with abilities that naturally combo with other cards. For instance, one card might have an ability that freezes an opponent, and another card has an ability to shatter frozen units, allowing for a powerful synergy.
+
+9. **Balancing Synergies**:
+   - Ensure that synergies are balanced and not overpowered. Synergistic effects should be powerful but not so dominant that they make other strategies obsolete.
+
+10. **Exploration and Discovery**:
+    - Allow players to discover synergies through gameplay. Having hidden or unexpected synergies can add an element of strategy and surprise to the game.
+
+11. **Feedback and Testing**:
+    - Playtest your cards thoroughly to ensure that the synergies work as intended and don't lead to unbalanced gameplay. Be open to feedback from players to refine your designs.
+
+12. **Variety of Synergies**:
+    - Create a variety of synergies, including long-term strategies, short-term combos, and conditional synergies. This diversity keeps gameplay engaging and dynamic.
+
+13. **Communication**:
+    - Ensure that synergies are communicated clearly on the cards themselves. Players should be able to understand how different cards work together without ambiguity.
+
 ## Example
 
 First, we will select the card type. In this case, it will be a Unit type card. The subtype will be Squad because these nano-bots operate as a group even though they are extremely small. This will appear on the card as `Unit - Squad`.

@@ -153,11 +153,11 @@ Define a card's attributes, such as rule box effects, Rank, and CP, while consid
 
 ### Range
 
-If a card requires a range then the close range value is free, the Mid range value is worth 2 points and the Far range value is worth 4 points.
+If a card requires a range then the close range value is free or 0, the Mid range value is worth 2 points and the Far range value is worth 4 points.
 
 ### Attack and Defense
 
-Attack and defense will cost a rate of about 1 purchase point for every two Attack and/or Defense rounded down. The Attack and Defense values are summed for the purchase calculation (Ceiling((Attack+Defense)/2)).
+Attack and defense will cost a rate of about 1 purchase point for every two Attack and/or Defense rounded down. The Attack and Defense values are summed for the purchase calculation Attack+Defense.
 
 ### Rule Box Effects
 
@@ -228,7 +228,6 @@ These are some examples of abilities and base costs associated with them.
 | **Defense Boost**   | Enhances a unit's defensive capabilities.         | 4    |
 | **Speed Boost**     | Accelerates a unit's movement and attacks.       | 5    |
 | **Evasion**         | Grants a chance to dodge enemy attacks.          | 4    |
-| **Critical Strike** | Increases the chance of landing critical hits.  | 4    |
 | **Counterattack**   | Enables a unit to retaliate when attacked.       | 4    |
 | **Elemental Resistance** | Provides protection against specific elemental damage. | 4    |
 | **Status Immunity** | Grants immunity to status effects.               | 4    |
@@ -238,12 +237,10 @@ These are some examples of abilities and base costs associated with them.
 | **Invisibility**    | Renders a unit invisible and immune to targeting for a duration. | 6 |
 | **Attack Reduction** | Lowers a unit's attack power.                   | 4    |
 | **Defense Reduction** | Weakens a unit's defensive capabilities.        | 4    |
-| **Slow**            | Reduces a unit's movement and attack speed.      | 5    |
 | **Silence**         | Prevents the use of abilities or spells.         | 5    |
 | **Poison**          | Inflicts damage over time to the affected unit.  | 4    |
 | **Stun**            | Temporarily incapacitates a unit, preventing actions. | 5    |
 | **Fear**            | Causes a unit to move away from the source of fear. | 5    |
-| **Blindness**       | Reduces accuracy, increasing the chance to miss attacks. | 4    |
 | **Debuff Transfer** | Moves a debuff from one unit to another.         | 6    |
 | **Elemental Vulnerability** | Increases damage from specific elemental attacks. | 4    |
 | **Disarm**          | Prevents a unit from attacking for a duration.   | 5    |

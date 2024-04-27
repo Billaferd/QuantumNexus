@@ -250,15 +250,20 @@ Modifiers add specificity to the target.
 | Discard   | When a card is discarded                         |
 | Destroy   | When a card is destroyed by an ability or attack |
 
-### Card Count
+### Card Count and Ability Points
 
-Some cards can be given greater points totals for abilities by making them more scarce. If there is no count factor than these cards don't have any restrictions. If there is a count allowed than this number is used in the following formula to add additional points available for abilities, but will not add to the CP cost of the card. In essence, the fewer copies allowed in the hand, the more powerful it is.
+The scarcity of a card is represented by its count, which also influences the additional points available for abilities. This does not affect the CP cost of the card. The formula to calculate the additional points is as follows:
 
-```
-0.8 * (1 / count)
-```
+$$
+\text{Additional Ability Points %} = 0.8 \times \left(\frac{1}{\text{count}}\right)
+$$
 
-If a card has a count of 1 it gains an extra 80% for abilities. If it has no count, it adds 0% to the points available for abilities.
+For example:
+- A card with a count of 1 (only one copy allowed in a deck) gains an extra 80% of points for abilities.
+- A card with a count of 2 (two copies allowed in a deck) gains an extra 40% of points for abilities.
+- A card with no count restriction gains no additional points for abilities.
+
+This bonus is applied to the points available for abilities, providing more flexibility in designing powerful cards with limited availability.
 
 ### Examples
 

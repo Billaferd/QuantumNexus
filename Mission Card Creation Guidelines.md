@@ -6,15 +6,15 @@ Quantum Nexus is a trading card game that adheres to the following tenants of de
 
 1. Cards will never cross the table to an opponent's side. Every player will always be in full possession of their cards.
 
-2. No randomness, ever. There will never be any randomness except for the card shuffle. There will never be dice rolls, coin flips, or card flips. The only exception is when the first player is selected through card flips at the start.
+2. No randomness, ever. There will never be any randomness except for the card shuffle. There will never be dice rolls or coin flips. The only exception is when the first player is selected through card flips at the start. See below.
 
-3. There are no health points, defense is not a measure of health, and players should not have to bookkeep health on their units.
+3. There are no health points, defense is not a measure of health, and players should not have to bookkeep health on their units. A unit is defeated when damage exceeds defense.
 
 ## Domain Points
 
 - Each mission card is associated with one or more domains: Technology, Magic, Psionics, and Divinity.
 - These domains can have a maximum of four points each.
-- A total of 0 points in a domain indicates no skill, while 4 points represent complete mastery.
+- A total of 0 points in a domain indicates no skill, while 4 points represent transcendent mastery.
 
 ## Point Distribution
 

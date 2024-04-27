@@ -64,11 +64,19 @@ All cards have a subtype. Subtypes allow the card's primary type to be more spec
 
 Specify if the card is Terrestrial, Aerial, Orbital, or Interstellar. All cards must have a rank.
 
+### Terrestrial
+
 Terrestrial cards are any card type that can be deployed into the battlefield and typically have close or mid-range attacks and abilities, although they can have a far range at times as well.
+
+### Aerial
 
 Aerial cards can also be any card type deployed on the battlefield; these cards typically have mid to far-range attacks and abilities and have the flying keyword.
 
+### Orbital
+
 Orbital Cards can be any card type that can be deployed to the loadout and typically affect an entire quadrant at a time on the battlefield.
+
+### Interstellar
 
 Interstellar cards can be any card type deployed to the loadout and typically target Orbital type cards or affect entire battlefield sections (Rows or Columns).
 
@@ -146,7 +154,8 @@ Each domain has several associated disciplines, allowing for diverse card abilit
 Cards in Quantum Nexus are defined using three axes
 
 - Malevolence: Cards can be Neutral, Malevolent (evil-themed), or Benevolent (good-themed).
-- Utility: Cards can be Utility-focused (creating order), Neutral, or Disruptive (creating chaos).Combat: Cards can lean towards Offense, Neutrality, or Defense.
+- Utility: Cards can be Utility-focused (creating order), Neutral, or Disruptive (creating chaos).
+- Combat: Cards can lean towards Offense, Neutrality, or Defense.
 - Impact: Cards can be Constructive (focus on creation), Neutral, or Destructive (focus on card removal).
 
 ## Functional Attributes
@@ -240,6 +249,16 @@ Modifiers add specificity to the target.
 | Interrupt | When an interrupt activates                      |
 | Discard   | When a card is discarded                         |
 | Destroy   | When a card is destroyed by an ability or attack |
+
+### Card Count
+
+Some cards can be given greater points totals for abilities by making them more scarce. If there is no count factor than these cards don't have any restrictions. If there is a count allowed than this number is used in the following formula to add additional points available for abilities, but will not add to the CP cost of the card. In essence, the fewer copies allowed in the hand, the more powerful it is.
+
+```
+0.8 * (1 / count)
+```
+
+If a card has a count of 1 it gains an extra 80% for abilities. If it has no count, it adds 0% to the points available for abilities.
 
 ### Examples
 

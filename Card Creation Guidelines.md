@@ -254,9 +254,9 @@ Modifiers add specificity to the target.
 
 The scarcity of a card is represented by its count, which also influences the additional points available for abilities. This does not affect the CP cost of the card. The formula to calculate the additional points is as follows:
 
-$$
+```math
 \text{Additional Ability Points %} = 0.8 \times \left(\frac{1}{\text{count}}\right)
-$$
+```
 
 For example:
 - A card with a count of 1 (only one copy allowed in a deck) gains an extra 80% of points for abilities.

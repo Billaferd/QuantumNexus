@@ -76,11 +76,13 @@ Interstellar cards can be any card type deployed to the loadout and typically ta
 
 In Quantum Nexus, cards are allocated Domain Points from four domains: Technology, Magic, Psionics, and Divinity.
 
-Each card can have between 0 and 6 points across these domains, ensuring a balanced distribution with no domain exceeding 4 points.
+- **Total Domain Points**: Each card can have a **maximum of 6 Domain Points** in total.
+- **Individual Domain Limit**: No single domain can exceed **4 points**.
+- **Balanced Distribution**: Ensure a balanced distribution of points across the domains relevant to the card's theme and abilities.
+- **Minimum Allocation**: Cards must allocate at least 1 point to any domain that is mentioned in their attributes, abilities, name, or description.
+- **Domain Point Representation**: Domain Points represent the card's proficiency and thematic alignment with the respective domain.
 
-Domain Points represent how advanced a card is in a particular domain. Cards must allocate at least 1 point to any domain mentioned in their attributes, abilities, name, or description.
-
-Domains have a certain feel to them, as is described next.
+When creating cards, it's important to balance the Domain Points to reflect the card's capabilities and thematic elements without exceeding the maximum allowed points.
 
 ### Technology
 
@@ -163,17 +165,40 @@ Attack and defense will cost a rate of about 1 purchase point for every two Atta
 
 The rule box holds active abilities, passive abilities, interrupts, and mandatory interrupts. The rule box can hold multiples of these but each rule will add to the purchase cost. The purchase cost of the rule box effects and the attack/defense values should be equal to the numeric value of the deployment cost. The total cost of the attack/defense values and all of the rule box effects must be equal to the numeric value of the deployment cost.
 
-#### Abilities
+## Abilities in Quantum Nexus
 
-A cards abilities will always have a cost, even if that cost is zero. The ability will always have the form `Cost[, Cost] - Ability`. The cost of an ability can be used to partially balance a card by changing it. Abilities can have compound costs and costs don't strictly have to be CP, discarding a card, skipping a turn, and destroying a card are all valid costs. An example ability text would be `3CP - Force an opponent to discard a card`. A more advanced example with a compound cost would be `2CP, Discard 1 - Deal 3 damage to an enemy in Mid-range`. Passive abilities don't have a cost associated, an example would be `P, Other units in this quadrant gain +1 attack.`
+Abilities are a key component of Quantum Nexus cards, providing unique actions and effects that can influence the game. Each ability must adhere to the following structure and rules:
+
+#### Active Abilities
+
+Active abilities require a player’s decision to use and often have a cost associated with them, which may include Command Points (CP), discarding a card, skipping a turn, or destroying a card.
+The format for active abilities is: Cost[, Cost] - Ability. For example, “3CP - Force an opponent to discard a card” or “2CP, Discard 1 - Deal 3 damage to an enemy in Mid-range.”
+
+The cost of an ability is a balancing tool and can be adjusted to ensure fair play.
+
+#### Passive Abilities
+
+Passive abilities are always in effect and do not require a player’s action or cost to activate. They provide ongoing effects such as buffs, debuffs, or status changes, automatically applied based on the card’s presence or certain conditions. Passive abilities do not involve revealing information or performing actions that would normally require a player's decision or input.
+
+Passive abilities are written as a statement of fact without a cost. For example, “Units in this quadrant gain +1 attack.”
 
 #### Interrupts
+
+Interrupts occur automatically when a specific event or condition is met during the game. These abilities do not require a cost to activate but are not always active like passive abilities. They are written with a trigger condition followed by the effect. For example, “When this unit enters the battlefield, reveal the top card of the opponent's deck.”
 
 Interrupts have a specific pattern that is used to describe who and what triggers it. The interrupt text has four parts:
 
 `[Modifier] Target - Action`
 
 Some examples include `Opposing Unit - Attack` and `Event - Deploy`.
+
+#### Designing Abilities
+
+When designing a card, ensure that the abilities align with these definitions.
+
+- Active abilities should involve a strategic choice and a cost, providing players with opportunities to actively influence the game.
+- Passive abilities should offer continuous support or hindrance, enhancing the strategic depth of the game without additional resource expenditure.
+- Triggered abilities should create interactions based on game events, adding layers of strategy without the need for player activation.
 
 ##### Targets
 

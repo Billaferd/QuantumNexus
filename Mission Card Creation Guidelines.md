@@ -4,7 +4,7 @@
 
 Quantum Nexus is a trading card game that adheres to the following tenants of design.
 
-1. Cards will never cross the table to an opponent's side. Every player will always be in full possession of their cards.
+1. Cards will never cross the table to an opponent's side. Every player will always be in full possession of their cards. Effects may allow other players to control a card, but that cars will always stay within the area of the owners control.
 
 2. No randomness, ever. There will never be any randomness except for the card shuffle. There will never be dice rolls or coin flips. The only exception is when the first player is selected through card flips at the start. See below.
 

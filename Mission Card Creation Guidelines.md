@@ -6,9 +6,9 @@ Quantum Nexus is a trading card game that adheres to the following tenants of de
 
 1. Cards will never cross the table to an opponent's side. Every player will always be in full possession of their cards. Effects may allow other players to control a card, but that cars will always stay within the area of the owners control.
 
-2. No randomness, ever. There will never be any randomness except for the card shuffle. There will never be dice rolls or coin flips. The only exception is when the first player is selected through card flips at the start. See below.
+2. No randomness, ever. There will never be any randomness except for the card shuffle. There will never be dice rolls or coin flips. The only exception is card flips, flipping cards from the deck is the only acceptable source of randomness.
 
-3. There are no health points, defense is not a measure of health, and players should not have to bookkeep health on their units. A unit is defeated when damage exceeds defense.
+3. There are no health points, defense is not a measure of health, and players should not have to bookkeep health on their units. A unit is defeated when damage exceeds defense. Although attack and defense stats can have bonuses or negatives, it is treated as a single scalar number that is compared directly to other numbers.
 
 ## Domain Points
 

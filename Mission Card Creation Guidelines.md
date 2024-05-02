@@ -141,19 +141,19 @@ Each mission card comes with a passive ability that activates upon mission compl
 
 ### Passive Ability Examples
 
-- 1 Point - One unit ability per turn costs one less CP than stated
-- 2 Points - one unit deployment and one card ability per turn costs one less CP than stated
-- 3 Points - Discard one card and pick up one card per turn
-- 4 Points - Pick up one extra card per turn
-- 5 Points - Deploy one card with fewer than 5 CP for free per turn
-- 6 Points - Gain 1 CP per turn phase
-- 5 Points - All your units with the 'Mech' subtype cost 1 less Command Point (CP) to deploy
-- 4 Points - Once per turn, you may draw an extra card during your Ready Phase
-- 3 Points - All your units with the 'Specialist' subtype gain +1 Defense
-- 4 Points - Whenever you deploy a 'Tech' unit, draw a card
-- 3 Points - Once per turn, you may discard a card to gain 1 extra Command Point (CP) during your Command Phase
-- 5 Points - At the start of each Battle Phase, you may choose one enemy unit. That unit gains a -1 Attack until the end of the phase
-- 4 Points - Once per turn, you may choose one friendly unit. That unit gains +1 Attack until the end of the turn
+- 1 CP - One unit ability per turn costs one less CP than stated
+- 5 CP - one unit deployment and one card ability per turn costs one less CP than stated
+- 7 CP - Discard one card and pick up one card per turn
+- 9 CP - Pick up one extra card per turn
+- 12 CP - Deploy one card with fewer than 5 CP for free per turn
+- 10 CP - Gain 1 CP per turn phase
+- 8 CP - All your units with the 'Mech' subtype cost 1 less Command Point (CP) to deploy
+- 4 CP - Once per turn, you may draw an extra card during your Ready Phase
+- 6 CP - All your units with the 'Specialist' subtype gain +1 Defense
+- 7 CP - Whenever you deploy a 'Tech' unit, draw a card
+- 5 CP - Once per turn, you may discard a card to gain 1 extra Command Point (CP) during your Command Phase
+- 16 CP - At the start of each Battle Phase, you may choose one enemy unit. That unit gains a -1 Attack until the end of the phase
+- 16 CP - Once per turn, you may choose one friendly unit. That unit gains +1 Attack until the end of the turn
 
 ## Single-Use Ability
 
@@ -161,7 +161,21 @@ In addition to the passive ability, each mission card provides a single-use abil
 
 ### Single-Use Ability Examples
 
-- 1 Point - Gain 1 CP immediately
-- 2 Points - Return one opponent's card to their hand
-- 3 Points - Draw 2 cards immediately
-- 4 Points - play a card with a value of 6 CP or less for free immediately.
+- 3 CP - Gain 1 CP immediately
+- 5 CP - Return one opponent's card to their hand
+- 6 CP - Draw 2 cards immediately
+- 10 CP - play a card with a value of 6 CP or less for free immediately.
+
+## Card Presentation
+
+When presenting cards use the following template for consistency.
+
+*Card Name*
+X CP
+Technology: X
+Magic: X
+Psionics: X
+Divinity: X
+Challenge: Description of challenge.
+One-time ability (CP Cost): Effect Text.
+Passive Ability (CP Cost): Effect Text.

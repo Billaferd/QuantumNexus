@@ -171,7 +171,7 @@ In addition to the passive ability, each mission card provides a single-use abil
 When presenting cards use the following template for consistency.
 
 *Card Name*
-X CP
+X CP (Domain Point Total * 3)
 Technology: X
 Magic: X
 Psionics: X
@@ -179,3 +179,4 @@ Divinity: X
 Challenge: Description of challenge.
 One-time ability (CP Cost): Effect Text.
 Passive Ability (CP Cost): Effect Text.
+I'm

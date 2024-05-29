@@ -5,10 +5,11 @@
 Quantum Nexus is a trading card game that adheres to the following tenants of design.
 
 1. Cards will never cross the table to an opponent's side. Every player will always be in full possession of their cards.
-
 2. No randomness, ever. There will never be any randomness except for the card shuffle. There will never be dice rolls, coin flips, or card flips. The only exception is when the first player is selected through card flips at the start.
+3. Units do not have health points. Instead, a unit's Defense value represents its resilience in combat. When a unit is attacked, its Defense is directly compared to the attacker's Attack value. If the Attack value is higher, the defending unit is discarded. This streamlined system eliminates the need for tracking health points, making gameplay faster and more intuitive.
+  1. No Damage Accumulation: Units do not accumulate damage over multiple attacks. Each attack is a discrete event where Defense and Attack are compared.
+  2. Discarded, Not Destroyed: When a unit's Defense is exceeded, it is removed from play ("discarded"), not destroyed. This distinction is important for card effects that interact with discarded units.
 
-3. There are no health points, defense is not a measure of health, and players should not have to bookkeep health on their units.
 
 ## General Info
 

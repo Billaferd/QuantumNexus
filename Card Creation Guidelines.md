@@ -82,15 +82,37 @@ Interstellar cards can be any card type deployed to the loadout and typically ta
 
 ## Domain Point Allocation
 
-In Quantum Nexus, cards are allocated Domain Points from four domains: Technology, Magic, Psionics, and Divinity.
+In Quantum Nexus, each card is assigned Domain Points from four domains: Technology, Magic, Psionics, and Divinity. These points represent the card's thematic and mechanical connection to these domains, influencing its abilities and overall power level.
 
-- **Total Domain Points**: Each card can have a **maximum of 6 Domain Points** in total.
-- **Individual Domain Limit**: No single domain can exceed **4 points**.
-- **Balanced Distribution**: Ensure a balanced distribution of points across the domains relevant to the card's theme and abilities.
-- **Minimum Allocation**: Cards must allocate at least 1 point to any domain that is mentioned in their attributes, abilities, name, or description.
-- **Domain Point Representation**: Domain Points represent the card's proficiency and thematic alignment with the respective domain.
+- *Total Domain Points:* Each card can have a maximum of 6 Domain Points in total.
+- *Domain Limit:* Each individual domain (Technology, Magic, Psionics, Divinity) can have a maximum of 4 points.
+- *Minimum Allocation:* A card must have at least 1 point in a domain if that domain is mentioned in the card's name, subtype, flavor text, or abilities.
+-A card can have 0 points in a domain if it has no thematic or mechanical connection to that domain.
+- *Balanced Distribution:* Aim for a balanced distribution of points across relevant domains to ensure thematic consistency and avoid overly specialized cards.
+- A card must have at minimum one single point.
 
 When creating cards, it's important to balance the Domain Points to reflect the card's capabilities and thematic elements without exceeding the maximum allowed points.
+
+### CP Cost Calculation
+
+Each Domain Point assigned to a card contributes to its Command Point (CP) cost. The formula for calculating the CP cost is as follows: `Base CP + (Total Domain Points * 2) = Final CP Cost`
+
+#### Example
+
+A card with a Base CP of 3 and 3 Domain Points (2 in Technology, 1 in Divinity) would have a Final CP Cost of 9.
+
+### Domain Point Considerations
+
+*Theme:* The chosen domains should align with the card's overall theme and flavor.
+
+*Mechanics:* Domain Points should reflect the card's abilities and how they interact with the game's mechanics.
+
+*Balance:* The distribution of Domain Points should be balanced to avoid creating overly powerful or underwhelming cards.
+
+*Additional Notes:* The Base CP cost is determined by the card's type, rank, and inherent abilities.
+
+Designers have flexibility in adjusting the Final CP Cost to ensure card balance and playability.
+
 
 ### Technology
 

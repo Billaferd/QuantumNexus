@@ -481,7 +481,7 @@ Terrain cards represent different environments on the battlefield and affect the
 
 Quantum Nexus utilizes several distinct areas where cards are played and interacted with. Understanding these areas and their functions is essential for smooth gameplay and strategic decision-making.
 
-[!Areas Of Play](areasOfPlay.svg)
+![Areas Of Play](areasOfPlay.svg)
 
 ### A. Mission Card Area
 

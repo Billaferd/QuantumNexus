@@ -392,7 +392,7 @@ Additional Notes on Round Two
  * The "Tech Engineer's" "Repair" ability highlights the importance of unit support and maintaining board presence.
  * Bob's decision to pass in the Deployment Phase demonstrates strategic resource management, saving CP for later turns.
 
-###### Round One Sequence
+###### Round Two Sequence
 
 ```mermaid
 sequenceDiagram
@@ -480,6 +480,8 @@ Terrain cards represent different environments on the battlefield and affect the
 ## V. Areas of Play
 
 Quantum Nexus utilizes several distinct areas where cards are played and interacted with. Understanding these areas and their functions is essential for smooth gameplay and strategic decision-making.
+
+[!Areas Of Play](areasOfPlay.svg)
 
 ### A. Mission Card Area
 

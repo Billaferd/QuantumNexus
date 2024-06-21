@@ -18,7 +18,7 @@ To play Quantum Nexus, you will need the following components:
  * Cards: These are the heart of the game, representing units, leaders, assets, events, upgrades, terrain, and missions. Each card has unique abilities and characteristics that contribute to your overall strategy.
  * Mission Card Area: This designated area is where you place your mission cards face-up at the beginning of the game.
  * Deck: This is where you keep your shuffled deck of cards, drawing from it during your turn.
- * Discard Pile: When cards are destroyed or used, they are placed face-up in this pile.
+ * Discard Area: When cards are destroyed or used, they are placed face-up in this area.
  * Loadout Area: This area is specifically for Asset cards, which have persistent effects throughout the game.
  * Battlefield: This is the main playing area where units are deployed and battles take place. The battlefield is divided into quadrants, each with its strategic significance.
 
@@ -323,9 +323,13 @@ sequenceDiagram
     note over Alice, Bob: **Deployment Phase (Alice starts)**
     Alice->>Battlefield: Deploys Psionic Scout (Front Left)
     Bob->>Battlefield: Deploys Divine Acolyte (Front Right)
+    activate Divine Acolyte
     Alice->>Loadout: Deploys Tech Turret
+    activate Tech Turret
     Bob->>Battlefield: Deploys Magical Guardian (Front Center)
+    activate Magical Guardian
     Alice->>Battlefield: Deploys Psionic Scout (Back Left)
+    activate Psionic Scout
     Bob->>Bob: Passes
     Alice->>Alice: Passes
 
@@ -338,9 +342,11 @@ sequenceDiagram
 
     note over Alice, Bob: **Battle Phase (Alice starts)**
     Alice->>Divine Acolyte: Attacks with Psionic Scout (Front Left)
-    destroy Divine Acolyte
+    Divine Acolyte-xDiscard Pile: Defeated
+    deactivate Divine Acolyte
     Bob->>Psionic Scout: Attacks with Magical Guardian
-    destroy Psionic Scout
+    Psionic Scout-xDiscard Pile: Defeated
+    deactivate Psionic Scout
     Alice->>Alice: Passes
     Bob->>Bob: Passes
 
@@ -388,6 +394,7 @@ sequenceDiagram
 
 The second round concludes. Alice has 2 units remaining, and Bob has 2 units remaining. The game would continue in this fashion, with players alternating turns, deploying units, activating abilities, and engaging in battles until one player either depletes their opponent's deck or completes all their mission cards.
 Additional Notes on Round Two
+
  * Notice how the initiative shifted to Bob at the start of the second round because he played fewer cards in the previous Battle Phase.
  * The "Tech Engineer's" "Repair" ability highlights the importance of unit support and maintaining board presence.
  * Bob's decision to pass in the Deployment Phase demonstrates strategic resource management, saving CP for later turns.
@@ -401,9 +408,11 @@ sequenceDiagram
 
     activate Bob
     activate Alice
+    activate Psionic Scout
 
     note over Alice, Bob: **Ready Phase (Simultaneous)**
     Bob->>Bob: Deactivates Blessing of Light
+
     Bob->>Bob: Draws 2 cards
     Alice->>Alice: Deactivates Target Acquisition
     Alice->>Alice: Draws 2 cards
@@ -423,7 +432,8 @@ sequenceDiagram
     note over Alice, Bob: **Battle Phase (Bob starts)**
     Bob->>Tech Engineer: Attacks with Magical Archer
     Alice->>Magical Guardian: Attacks with Psionic Scout (Front Left)
-    destroy Psionic Scout
+    Psionic Scout-xDiscard Pile: Defeated
+    deactivate Psionic Scout
     Bob->>Bob: Passes
     Alice->>Alice: Passes
 

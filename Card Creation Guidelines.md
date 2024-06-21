@@ -46,7 +46,7 @@ Quantum Nexus features a diverse range of card types, each playing a unique role
 
 In Quantum Nexus, each card is intrinsically linked to one or more of four key domains: Technology, Magic, Psionics, and Divinity. These domains represent the fundamental forces and energies that shape the game's universe, and they play a crucial role in defining the abilities and capabilities of each card. 
 
- * A. Domain Points (DP): Domain Points are numerical values assigned to each card, indicating its affinity and mastery of specific domains. They influence a card's power level, abilities, and cost.The total Domain Points (DP) of a card is equal to the sum of points assigned to each domain.
+* A. Domain Points (DP): Domain Points are numerical values assigned to each card, indicating its affinity and mastery of specific domains. They influence a card's power level, abilities, and cost.The total Domain Points (DP) of a card is equal to the sum of points assigned to each domain.
    * Domain Points form the basis of a cards cost, the Base CP of a card is calculated by multiplying the Domain Points used by 2. 
    * Allocation Rules:
      * Total DP: Each card can have a maximum of 6 Domain Points in total.
@@ -57,32 +57,32 @@ In Quantum Nexus, each card is intrinsically linked to one or more of four key d
     * Powerful Units: The more DP a card has, the more powerful a card inherently is. Strive for a mix of low medium and high DP cards.
     * Card Theme: The theme of the card is defined by the domain points. As the domain points increase in a specific domain the card should exhibit more powerful abilities in that domain. 1 DP is basic usage, 2 DP is intermediate usage, 3 DP is Advanced usage, and 4 points is a Mastery in that domain.
    * CP Cost Calculation: The Command Point (CP) cost of a card is directly influenced by its Domain Points. The Calculations is detailed in the Appendix.
- * B. Domain Characteristics: Each domain possesses unique characteristics that shape the cards associated with it. Domain points drive the theme of the card:
-   * Technology: Wields an arsenal of ranged weaponry, devastating area-of-effect attacks, and sophisticated battlefield control systems. Technological prowess enables strategic dominance through calculated strikes and tactical maneuvers. However, close-quarters combat and opponents capable of bypassing or exploiting technological vulnerabilities pose significant challenges.
-  * Magic: Offers unparalleled versatility, precise unit targeting, and arcane spellcasting for close-to-mid-range engagements. Magical prowess allows for devastating offensive and defensive spells, empowering wielders to manipulate the battlefield to their advantage. However, overwhelming numbers or adversaries resistant to magical energies may prove difficult to overcome.
-  * Psionics: Masters of the mind, employing telekinetic manipulation and potent psychic abilities to dominate close-range encounters. Psionic prowess grants unmatched control over the battlefield, bending both allies and enemies to the wielder's will. However, opponents capable of resisting or nullifying mental influence pose a significant threat.
-  * Divinity: Commands divine blessings, holy/unholy powers, and celestial/infernal intervention, impacting the battlefield on a grand scale. Divine prowess allows for miraculous feats, righteous judgment, and otherworldly manifestations. However, the fickle nature of divine forces, potential sacrifices, and specific conditions for wielding such power introduce an element of unpredictability. (Encompasses all deities, celestial, infernal, etc.)
- * C. Disciplines: Each domain is further divided into specific disciplines, allowing for greater specialization within each domain. For each Domain Point allocated to a card, you must select one relevant discipline from that domain.
-Technology:
- * Cybernetics: Biomechanics, Neural Interfaces, AI Integration, Augmentation, Prosthetics, Sensory Enhancement, Brain-Computer Interfaces
- * Energy Weapons: Lasers, Particle Beams, Plasma Cannons, Sonic Disruptors, Railguns, Coilguns, Graviton Weapons
- * Robotics: Autonomous Drones, Industrial Automatons, Mechs, Androids, Nanobots, Swarm Robotics, Synthetic Organisms, Cybernetic Organisms
- * Genetics: Bioengineering, Cloning, Gene Therapy, Chimera Creation, Genetic Modification, Designer Babies, Eugenics, Biological Weapons
-Magic:
- * Elemental Magic: Pyromancy, Hydromancy, Aeromancy, Geomancy, Cryomancy, Electrokinesis, Umbrakinesis, Photokinesis
- * Enchantment: Warding, Curses, Illusions, Charms, Hexes, Jinxes, Glamours, Compulsions
- * Summoning: Conjuration, Necromancy, Demonology, Celestial Beings, Spirit Animals, Familiars, Elementals, Ethereal Entities
- * Alchemy: Transmutation, Potion Brewing, Homunculus Creation, Philosopher's Stone, Elixir of Life, Panacea, Transfiguration, Quintessence
-Psionics:
- * Telekinesis: Object Manipulation, Pyrokinesis, Cryokinesis, Electrokinesis, Teleportation, Levitation, Force Fields, Matter Manipulation
- * Mind Control: Illusion Casting, Suggestion, Domination, Psychic Assault, Mind Reading, Memory Manipulation, Empathy, Telepathy
- * Precognition: Clairvoyance, Divination, Prophecy, Retrocognition, Future Sight, Premonition, Omen Reading, Augury
- * Astral Projection: Out-of-Body Experiences, Dream Walking, Spirit Communication, Plane Shifting, Remote Viewing, Possession, Ethereal Travel, Soul Projection
-Divinity:
- * Divine/Unholy Power: Healing/Harm, Exorcism/Corruption, Sanctification/Desecration, Protection/Curses, Blessing/Blighting, Smiting, Resurrection/Necromancy
- * Divine Wrath/Infernal Rage: Smiting, Banishment, Retribution, Divine Judgment, Heavenly Fire, Infernal Torment, Soul Imprisonment, Damnation
- * Blessings/Curses: Augmentation/Corruption, Fortune/Misfortune, Fertility/Sterility, Resurrection/Necromancy, Divine Favor/Disfavor, Miraculous Healing/Disease, Prosperity/Poverty, Life/Death
- * Divine/Infernal Intervention: Miracles/Chaos, Oracles/False Prophecies, Guidance/Temptation, Fate Manipulation, Angelic/Demonic Aid, Divine Inspiration/Corruption, Prophetic Visions/Nightmares, Heavenly/Hellish Portals
+* B. Domain Characteristics: Each domain possesses unique characteristics that shape the cards associated with it. Domain points drive the theme of the card:
+    * Technology: Wields an arsenal of ranged weaponry, devastating area-of-effect attacks, and sophisticated battlefield control systems. Technological prowess enables strategic dominance through calculated strikes and tactical maneuvers. However, close-quarters combat and opponents capable of bypassing or exploiting technological vulnerabilities pose significant challenges.
+    * Magic: Offers unparalleled versatility, precise unit targeting, and arcane spellcasting for close-to-mid-range engagements. Magical prowess allows for devastating offensive and defensive spells, empowering wielders to manipulate the battlefield to their advantage. However, overwhelming numbers or adversaries resistant to magical energies may prove difficult to overcome.
+    * Psionics: Masters of the mind, employing telekinetic manipulation and potent psychic abilities to dominate close-range encounters. Psionic prowess grants unmatched control over the battlefield, bending both allies and enemies to the wielder's will. However, opponents capable of resisting or nullifying mental influence pose a significant threat.
+    * Divinity: Commands divine blessings, holy/unholy powers, and celestial/infernal intervention, impacting the battlefield on a grand scale. Divine prowess allows for miraculous feats, righteous judgment, and otherworldly manifestations. However, the fickle nature of divine forces, potential sacrifices, and specific conditions for wielding such power introduce an element of unpredictability. (Encompasses all deities, celestial, infernal, etc.)
+* C. Disciplines: Each domain is further divided into specific disciplines, allowing for greater specialization within each domain. For each Domain Point allocated to a card, you must select one relevant discipline from that domain.
+  * Technology:
+    * Cybernetics: Biomechanics, Neural Interfaces, AI Integration, Augmentation, Prosthetics, Sensory Enhancement, Brain-Computer Interfaces
+    * Energy Weapons: Lasers, Particle Beams, Plasma Cannons, Sonic Disruptors, Railguns, Coilguns, Graviton Weapons
+    * Robotics: Autonomous Drones, Industrial Automatons, Mechs, Androids, Nanobots, Swarm Robotics, Synthetic Organisms, Cybernetic Organisms
+    * Genetics: Bioengineering, Cloning, Gene Therapy, Chimera Creation, Genetic Modification, Designer Babies, Eugenics, Biological Weapons
+  * Magic:
+    * Elemental Magic: Pyromancy, Hydromancy, Aeromancy, Geomancy, Cryomancy, Electrokinesis, Umbrakinesis, Photokinesis
+    * Enchantment: Warding, Curses, Illusions, Charms, Hexes, Jinxes, Glamours, Compulsions
+    * Summoning: Conjuration, Necromancy, Demonology, Celestial Beings, Spirit Animals, Familiars, Elementals, Ethereal Entities
+    * Alchemy: Transmutation, Potion Brewing, Homunculus Creation, Philosopher's Stone, Elixir of Life, Panacea, Transfiguration, Quintessence
+  * Psionics:
+    * Telekinesis: Object Manipulation, Pyrokinesis, Cryokinesis, Electrokinesis, Teleportation, Levitation, Force Fields, Matter Manipulation
+    * Mind Control: Illusion Casting, Suggestion, Domination, Psychic Assault, Mind Reading, Memory Manipulation, Empathy, Telepathy
+    * Precognition: Clairvoyance, Divination, Prophecy, Retrocognition, Future Sight, Premonition, Omen Reading, Augury
+    * Astral Projection: Out-of-Body Experiences, Dream Walking, Spirit Communication, Plane Shifting, Remote Viewing, Possession, Ethereal Travel, Soul Projection
+  * Divinity:
+    * Divine/Unholy Power: Healing/Harm, Exorcism/Corruption, Sanctification/Desecration, Protection/Curses, Blessing/Blighting, Smiting, Resurrection/Necromancy
+    * Divine Wrath/Infernal Rage: Smiting, Banishment, Retribution, Divine Judgment, Heavenly Fire, Infernal Torment, Soul Imprisonment, Damnation
+    * Blessings/Curses: Augmentation/Corruption, Fortune/Misfortune, Fertility/Sterility, Resurrection/Necromancy, Divine Favor/Disfavor, Miraculous Healing/Disease, Prosperity/Poverty, Life/Death
+    * Divine/Infernal Intervention: Miracles/Chaos, Oracles/False Prophecies, Guidance/Temptation, Fate Manipulation, Angelic/Demonic Aid, Divine Inspiration/Corruption, Prophetic Visions/Nightmares, Heavenly/Hellish Portals
 
 ## V. Card Feel and Attributes
 
@@ -247,13 +247,13 @@ By crafting cards that synergize effectively with each other, you can create a r
 
 The calculations of the different components for the card are based on several sub-calculations.
 
-  1 * BaseCP: this is calculated by multiplying the assigned Domain Points (DP) by 2.
+  1. BaseCP: this is calculated by multiplying the assigned Domain Points (DP) by 2.
   2. Stat Points: The stats Attack and Defense are purchased at a rate of 2 stat points per CP, purchasing only a single stat point is worth 0.5 CP.
-  3 * AdjustedCP: The adjustedCP is calculated by subtracting the stat points from the BaseCP. `BaseCP - ((Attack + Defense) / 2)`.
-  2 * Card Count factor: The number of identical cards allowed is used to create a factor. We decide 1 by the number of duplicates allowed and then multiply by 0.8, to get the factor. `1 / (duplicates) * 0.8`
-  3 * Leadership Factor: Leadership Factor is used to allow leaders to have better abilities than the average unit. If a card is a leader card it is 1, if the card is not a leader it is 0.
-  4 * Abilities and Keywords: Abilites and Keywords can have bonuses or deficits that are calculated by this formula. `AdjustedCP + (AdjustedCP * (Duplicate Factor)) + AdjustedCP * (0.5 * Leadership Factor)`. These are the number of points that are allowed to be allocated to purchasing abilities/keywords for the card.
-  5 * Final CP: The final CP cost is calculated by adding any leftover points to the BaseCP. If the leftover points from purchasing abilities and keywords is positive, it adds to the cost, if they are negative it subtracts. `BaseCP + Ability Purchase Cost`.
+  3. AdjustedCP: The adjustedCP is calculated by subtracting the stat points from the BaseCP. `BaseCP - ((Attack + Defense) / 2)`.
+  4. Card Count factor: The number of identical cards allowed is used to create a factor. We decide 1 by the number of duplicates allowed and then multiply by 0.8, to get the factor. `1 / (duplicates) * 0.8`
+  5. Leadership Factor: Leadership Factor is used to allow leaders to have better abilities than the average unit. If a card is a leader card it is 1, if the card is not a leader it is 0.
+  6. Abilities and Keywords: Abilites and Keywords can have bonuses or deficits that are calculated by this formula. `AdjustedCP + (AdjustedCP * (Duplicate Factor)) + AdjustedCP * (0.5 * Leadership Factor)`. These are the number of points that are allowed to be allocated to purchasing abilities/keywords for the card.
+  7. Final CP: The final CP cost is calculated by adding any leftover points to the BaseCP. If the leftover points from purchasing abilities and keywords is positive, it adds to the cost, if they are negative it subtracts. `BaseCP + Ability Purchase Cost`.
 
 ## X. Card Creation Example
 
@@ -531,4 +531,5 @@ Each card type in Quantum Nexus serves a distinct purpose and requires specific 
    * Terrain cards should alter the battlefield in meaningful ways, creating strategic advantages or disadvantages for certain units or playstyles.
  * Synergy with Domains and Unit Types:
    * Design terrain cards that interact with specific domains or unit types, encouraging diverse deck-building strategies.
+
 By considering these design considerations for each card type, you can ensure that your creations are balanced, engaging, and contribute to the rich tapestry of Quantum Nexus gameplay.

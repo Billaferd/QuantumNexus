@@ -35,7 +35,7 @@ Quantum Nexus features a diverse range of card types, each playing a unique role
 
  * A. Card Types:
    * Units: The heart of your army, these cards represent characters or creatures that battle on the battlefield. Units possess Attack and Defense values, as well as a defined range (close, mid, or far). Units are deployed to the Battlefield, and must be either Terrestrial or Aerial rank.
-     a. Leaders: These are special, powerful units with enhanced abilities and a significant impact on the battlefield. Due to their strength, only one Leader can be present in a single quadrant at a time.
+     a. Leaders: These are special, powerful units with enhanced abilities and a significant impact on the battlefield. Due to their strength, only one Leader can be present in a single quadrant at a time. Additionally, each deck is limited to a maximum of 25 CP worth of Leader cards.
    * Upgrades: These cards modify other cards (usually units), boosting their stats or granting them additional abilities. Upgrades can be played on units in the battlefield or on other cards in your loadout, depending on their specific effects. Upgrades must declare the type that they augment.
    * Assets: These cards provide ongoing benefits or strategic advantages. They reside in your loadout and are not directly involved in combat, but their effects can significantly influence the course of the game. Assets are either Orbital or Interstellar rank.
    * Events: These powerful cards trigger immediate effects, such as manipulating the battlefield, or drawing additional cards. Events are played during the Command Phase and are discarded afterward. They do not have Passive abilities, but can have both Active Abilities (With no CP Activation Cost, but can have other activation costs) and Interrupts.
@@ -46,157 +46,233 @@ Quantum Nexus features a diverse range of card types, each playing a unique role
 
 In Quantum Nexus, each card is intrinsically linked to one or more of four key domains: Technology, Magic, Psionics, and Divinity. These domains represent the fundamental forces and energies that shape the game's universe, and they play a crucial role in defining the abilities and capabilities of each card. 
 
-* A. Domain Points (DP): Domain Points are numerical values assigned to each card, indicating its affinity and mastery of specific domains. They influence a card's power level, abilities, and cost.The total Domain Points (DP) of a card is equal to the sum of points assigned to each domain.
-   * Domain Points form the basis of a cards cost, the Base CP of a card is calculated by multiplying the Domain Points used by 2. 
-   * Allocation Rules:
-     * Total DP: Each card can have a maximum of 6 Domain Points in total.
-     * Domain Limit: Each individual domain (Technology, Magic, Psionics, Divinity) can have a maximum of 4 points allocated to it.
-     * Minimum Allocation: A card must have at least 1 point in a domain if that domain is mentioned in the card's name, subtype, flavor text, or abilities.
-     * Balanced Distribution: Strive for a balanced distribution of points across relevant domains to ensure thematic consistency and avoid overly specialized cards.
-     * Minimum 1 DP: Each card must have at least one Domain Point to ensure its connection to the game's core mechanics.
-    * Powerful Units: The more DP a card has, the more powerful a card inherently is. Strive for a mix of low medium and high DP cards.
-    * Card Theme: The theme of the card is defined by the domain points. As the domain points increase in a specific domain the card should exhibit more powerful abilities in that domain. 1 DP is basic usage, 2 DP is intermediate usage, 3 DP is Advanced usage, and 4 points is a Mastery in that domain.
-   * CP Cost Calculation: The Command Point (CP) cost of a card is directly influenced by its Domain Points. The Calculations is detailed in the Appendix.
-* B. Domain Characteristics: Each domain possesses unique characteristics that shape the cards associated with it. Domain points drive the theme of the card:
-    * Technology: Wields an arsenal of ranged weaponry, devastating area-of-effect attacks, and sophisticated battlefield control systems. Technological prowess enables strategic dominance through calculated strikes and tactical maneuvers. However, close-quarters combat and opponents capable of bypassing or exploiting technological vulnerabilities pose significant challenges.
-    * Magic: Offers unparalleled versatility, precise unit targeting, and arcane spellcasting for close-to-mid-range engagements. Magical prowess allows for devastating offensive and defensive spells, empowering wielders to manipulate the battlefield to their advantage. However, overwhelming numbers or adversaries resistant to magical energies may prove difficult to overcome.
-    * Psionics: Masters of the mind, employing telekinetic manipulation and potent psychic abilities to dominate close-range encounters. Psionic prowess grants unmatched control over the battlefield, bending both allies and enemies to the wielder's will. However, opponents capable of resisting or nullifying mental influence pose a significant threat.
-    * Divinity: Commands divine blessings, holy/unholy powers, and celestial/infernal intervention, impacting the battlefield on a grand scale. Divine prowess allows for miraculous feats, righteous judgment, and otherworldly manifestations. However, the fickle nature of divine forces, potential sacrifices, and specific conditions for wielding such power introduce an element of unpredictability. (Encompasses all deities, celestial, infernal, etc.)
-* C. Disciplines: Each domain is further divided into specific disciplines, allowing for greater specialization within each domain. For each Domain Point allocated to a card, you must select one relevant discipline from that domain.
-  * Technology:
-    * Cybernetics: Biomechanics, Neural Interfaces, AI Integration, Augmentation, Prosthetics, Sensory Enhancement, Brain-Computer Interfaces
-    * Energy Weapons: Lasers, Particle Beams, Plasma Cannons, Sonic Disruptors, Railguns, Coilguns, Graviton Weapons
-    * Robotics: Autonomous Drones, Industrial Automatons, Mechs, Androids, Nanobots, Swarm Robotics, Synthetic Organisms, Cybernetic Organisms
-    * Genetics: Bioengineering, Cloning, Gene Therapy, Chimera Creation, Genetic Modification, Designer Babies, Eugenics, Biological Weapons
-  * Magic:
-    * Elemental Magic: Pyromancy, Hydromancy, Aeromancy, Geomancy, Cryomancy, Electrokinesis, Umbrakinesis, Photokinesis
-    * Enchantment: Warding, Curses, Illusions, Charms, Hexes, Jinxes, Glamours, Compulsions
-    * Summoning: Conjuration, Necromancy, Demonology, Celestial Beings, Spirit Animals, Familiars, Elementals, Ethereal Entities
-    * Alchemy: Transmutation, Potion Brewing, Homunculus Creation, Philosopher's Stone, Elixir of Life, Panacea, Transfiguration, Quintessence
-  * Psionics:
-    * Telekinesis: Object Manipulation, Pyrokinesis, Cryokinesis, Electrokinesis, Teleportation, Levitation, Force Fields, Matter Manipulation
-    * Mind Control: Illusion Casting, Suggestion, Domination, Psychic Assault, Mind Reading, Memory Manipulation, Empathy, Telepathy
-    * Precognition: Clairvoyance, Divination, Prophecy, Retrocognition, Future Sight, Premonition, Omen Reading, Augury
-    * Astral Projection: Out-of-Body Experiences, Dream Walking, Spirit Communication, Plane Shifting, Remote Viewing, Possession, Ethereal Travel, Soul Projection
-  * Divinity:
-    * Divine/Unholy Power: Healing/Harm, Exorcism/Corruption, Sanctification/Desecration, Protection/Curses, Blessing/Blighting, Smiting, Resurrection/Necromancy
-    * Divine Wrath/Infernal Rage: Smiting, Banishment, Retribution, Divine Judgment, Heavenly Fire, Infernal Torment, Soul Imprisonment, Damnation
-    * Blessings/Curses: Augmentation/Corruption, Fortune/Misfortune, Fertility/Sterility, Resurrection/Necromancy, Divine Favor/Disfavor, Miraculous Healing/Disease, Prosperity/Poverty, Life/Death
-    * Divine/Infernal Intervention: Miracles/Chaos, Oracles/False Prophecies, Guidance/Temptation, Fate Manipulation, Angelic/Demonic Aid, Divine Inspiration/Corruption, Prophetic Visions/Nightmares, Heavenly/Hellish Portals
+### A. Domain Points (DP)
+
+Domain Points are numerical values assigned to each card, indicating its affinity and mastery of specific domains. They influence a card's power level, abilities, and cost.The total Domain Points (DP) of a card is equal to the sum of points assigned to each domain.
+
+* Domain Points form the basis of a cards cost, the Base CP of a card is calculated by multiplying the Domain Points used by 2. 
+* Allocation Rules:
+  * Total DP: Each card can have a maximum of 6 Domain Points in total.
+  * Domain Limit: Each individual domain (Technology, Magic, Psionics, Divinity) can have a maximum of 4 points allocated to it.
+  * Minimum Allocation: A card must have at least 1 point in a domain if that domain is mentioned in the card's name, subtype, flavor text, or abilities.
+  * Balanced Distribution: Strive for a balanced distribution of points across relevant domains to ensure thematic consistency and avoid overly specialized cards.
+  * Minimum 1 DP: Each card must have at least one Domain Point to ensure its connection to the game's core mechanics.
+* Powerful Units: The more DP a card has, the more powerful a card inherently is. Strive for a mix of low medium and high DP cards.
+  * Card Theme: The theme of the card is defined by the domain points. As the domain points increase in a specific domain the card should exhibit more powerful abilities in that domain. 1 DP is basic usage, 2 DP is intermediate usage, 3 DP is Advanced usage, and 4 points is a Mastery in that domain.
+  * CP Cost Calculation: The Command Point (CP) cost of a card is directly influenced by its Domain Points. The Calculations is detailed in the Appendix.
+   
+### B. Domain Characteristics
+
+Each domain possesses unique characteristics that shape the cards associated with it. Domain points drive the theme of the card.
+
+* Technology: Wields an arsenal of ranged weaponry, devastating area-of-effect attacks, and sophisticated battlefield control systems. Technological prowess enables strategic dominance through calculated strikes and tactical maneuvers. However, close-quarters combat and opponents capable of bypassing or exploiting technological vulnerabilities pose significant challenges.
+* Magic: Offers unparalleled versatility, precise unit targeting, and arcane spellcasting for close-to-mid-range engagements. Magical prowess allows for devastating offensive and defensive spells, empowering wielders to manipulate the battlefield to their advantage. However, overwhelming numbers or adversaries resistant to magical energies may prove difficult to overcome.
+* Psionics: Masters of the mind, employing telekinetic manipulation and potent psychic abilities to dominate close-range encounters. Psionic prowess grants unmatched control over the battlefield, bending both allies and enemies to the wielder's will. However, opponents capable of resisting or nullifying mental influence pose a significant threat.
+* Divinity: Commands divine blessings, holy/unholy powers, and celestial/infernal intervention, impacting the battlefield on a grand scale. Divine prowess allows for miraculous feats, righteous judgment, and otherworldly manifestations. However, the fickle nature of divine forces, potential sacrifices, and specific conditions for wielding such power introduce an element of unpredictability. (Encompasses all deities, celestial, infernal, etc.)
+
+### C. Disciplines
+
+Each domain is further divided into specific disciplines, allowing for greater specialization within each domain. For each Domain Point allocated to a card, you must select one relevant discipline from that domain.
+  
+* Technology:
+  * Cybernetics: Biomechanics, Neural Interfaces, AI Integration, Augmentation, Prosthetics, Sensory Enhancement, Brain-Computer Interfaces
+  * Energy Weapons: Lasers, Particle Beams, Plasma Cannons, Sonic Disruptors, Railguns, Coilguns, Graviton Weapons
+  * Robotics: Autonomous Drones, Industrial Automatons, Mechs, Androids, Nanobots, Swarm Robotics, Synthetic Organisms, Cybernetic Organisms
+  * Genetics: Bioengineering, Cloning, Gene Therapy, Chimera Creation, Genetic Modification, Designer Babies, Eugenics, Biological Weapons
+* Magic:
+  * Elemental Magic: Pyromancy, Hydromancy, Aeromancy, Geomancy, Cryomancy, Electrokinesis, Umbrakinesis, Photokinesis
+  * Enchantment: Warding, Curses, Illusions, Charms, Hexes, Jinxes, Glamours, Compulsions
+  * Summoning: Conjuration, Necromancy, Demonology, Celestial Beings, Spirit Animals, Familiars, Elementals, Ethereal Entities
+  * Alchemy: Transmutation, Potion Brewing, Homunculus Creation, Philosopher's Stone, Elixir of Life, Panacea, Transfiguration, Quintessence
+* Psionics:
+  * Telekinesis: Object Manipulation, Pyrokinesis, Cryokinesis, Electrokinesis, Teleportation, Levitation, Force Fields, Matter Manipulation
+  * Mind Control: Illusion Casting, Suggestion, Domination, Psychic Assault, Mind Reading, Memory Manipulation, Empathy, Telepathy
+  * Precognition: Clairvoyance, Divination, Prophecy, Retrocognition, Future Sight, Premonition, Omen Reading, Augury
+  * Astral Projection: Out-of-Body Experiences, Dream Walking, Spirit Communication, Plane Shifting, Remote Viewing, Possession, Ethereal Travel, Soul Projection
+* Divinity:
+  * Divine/Unholy Power: Healing/Harm, Exorcism/Corruption, Sanctification/Desecration, Protection/Curses, Blessing/Blighting, Smiting, Resurrection/Necromancy
+  * Divine Wrath/Infernal Rage: Smiting, Banishment, Retribution, Divine Judgment, Heavenly Fire, Infernal Torment, Soul Imprisonment, Damnation
+  * Blessings/Curses: Augmentation/Corruption, Fortune/Misfortune, Fertility/Sterility, Resurrection/Necromancy, Divine Favor/Disfavor, Miraculous Healing/Disease, Prosperity/Poverty, Life/Death
+  * Divine/Infernal Intervention: Miracles/Chaos, Oracles/False Prophecies, Guidance/Temptation, Fate Manipulation, Angelic/Demonic Aid, Divine Inspiration/Corruption, Prophetic Visions/Nightmares, Heavenly/Hellish Portals
+
+### D. Domain Point Allocation Example
+
+Let's create a high-tech battle mech with psionic capabilities:
+
+Technology: 3 DP (Primary domain)
+Robotics: 2 DP
+Energy Weapons: 1 DP
+
+Psionics: 1 DP
+Mind Control: 1 DP
+
+This allocation reflects a primarily technological unit with a minor psionic element, totaling 4 DP.
 
 ## V. Card Feel and Attributes
 
 Every card in Quantum Nexus should have a unique personality and impact on the game. Defining the card feel helps establish its role and how it contributes to the overall gameplay experience.
- * A. Card Feel Axes:
-   * Malevolence: This axis describes the card's moral alignment.
-     * Neutral: Neither good nor evil, focused on achieving objectives through any means necessary.
-     * Malevolent: Embraces dark powers, destructive tactics, and manipulation.
-     * Benevolent: Upholds virtues, utilizes protective abilities, and focuses on healing or support.
-   * Utility: This axis indicates the card's strategic purpose.
-     * Utility-focused: Creates order on the battlefield, disrupts enemy strategies, or provides tactical advantages.
-     * Neutral: Possesses a balanced mix of utility and raw power.
-     * Disruptive: Specializes in disrupting enemy plans, causing chaos, or creating unexpected situations.
-   * Combat: This axis reflects the card's role in battle.
-     * Offense: Aggressive, focused on dealing eliminating enemy units.
-     * Neutral: Balanced between offense and defense, adaptable to different situations.
-     * Defense: Resilient, focused on protecting allies, and stalling enemy advances.
-   * Impact: This axis describes the card's overall effect on the game state.
-     * Constructive: Creates new units, strengthens allies, or generates resources.
-     * Neutral: Primarily focuses on direct interaction with enemy units or assets.
-     * Destructive: Specializes in removing enemy units, destroying assets, or disrupting enemy plans.
- * B. Functional Attributes:
-   Each card possesses specific attributes that define its capabilities and interactions in the game:
-   * Rank: Determines where the card can be deployed and influences its range options. Rank is used heavily in the thematic descriptions of the card and needs to be considered carefully.
-     * Terrestrial: Can be deployed to the battlefield and typically has close or mid-range abilities.
-     * Aerial: Can be deployed to the battlefield, often possesses the "Flying" keyword, and usually has mid to far-range abilities.
-     * Orbital: Deployed to the loadout, affects entire quadrants on the battlefield.
-     * Interstellar: Deployed to the loadout, affects entire battlefield sections (rows or columns) or targets other Orbital / Interstellar cards.
-   * Range (If Applicable):
-     * Close: Can target adjacent quadrants.
-     * Mid: Can target adjacent and diagonal quadrants.
-     * Far: Can target two rows away. If the unit is in the back row it can target the opponents front row and if it is in the front row, it can target the opponent's back row.
-   * Attack: The offensive strength of a unit, used to determine the outcome of battles.
-   * Defense: A unit's resilience against attacks. When a unit's Defense is exceeded by an attacker's Attack, it is discarded.
-   * Rule Box: This section contains the card's abilities, including active, passive, and interrupts. The rule box is crucial for understanding how a card functions and interacts with other cards and the game state.
-     * Active Abilities: These abilities require a player to activate them, often at a CP cost. They provide strategic choices and allow players to influence the game's flow.
-     * Passive Abilities: These abilities are always in effect and do not require activation. They provide continuous benefits or drawbacks, shaping the card's overall impact on the game.
-     * Interrupts: These abilities trigger automatically when specific events occur, adding dynamic reactions and strategic depth to gameplay.
-   * Ability Costs: Each ability, whether active or interrupt, has a cost associated with it. The cost reflects the ability's power and impact on the game. Stronger abilities generally have higher costs. The abilities available are calculated using the AP system detailed below, and active abilities have an activation cost in ether CP, resources (Discards, Unit Sacrifice, etc), or a combination of both.
+
+### A. Card Feel Axes
+
+* Malevolence: This axis describes the card's moral alignment.
+  * Neutral: Neither good nor evil, focused on achieving objectives through any means necessary.
+  * Malevolent: Embraces dark powers, destructive tactics, and manipulation.
+  * Benevolent: Upholds virtues, utilizes protective abilities, and focuses on healing or support.
+* Utility: This axis indicates the card's strategic purpose.
+  * Utility-focused: Creates order on the battlefield, disrupts enemy strategies, or provides tactical advantages.
+  * Neutral: Possesses a balanced mix of utility and raw power.
+  * Disruptive: Specializes in disrupting enemy plans, causing chaos, or creating unexpected situations.
+* Combat: This axis reflects the card's role in battle.
+  * Offense: Aggressive, focused on dealing eliminating enemy units.
+  * Neutral: Balanced between offense and defense, adaptable to different situations.
+  * Defense: Resilient, focused on protecting allies, and stalling enemy advances.
+* Impact: This axis describes the card's overall effect on the game state.
+  * Constructive: Creates new units, strengthens allies, or generates resources.
+  * Neutral: Primarily focuses on direct interaction with enemy units or assets.
+  * Destructive: Specializes in removing enemy units, destroying assets, or disrupting enemy plans.
+
+#### Card Feel Example
+
+Consider a 'Corrupted AI' card:
+
+Malevolence: Malevolent (AI gone rogue, causing harm)
+Utility: Disruptive (interferes with opponent's strategies)
+Combat: Offense (focuses on dealing damage)
+Impact: Destructive (removes enemy units or resources)
+
+This combination creates a threatening, aggressive card that disrupts the opponent's plans.
+
+### B. Card Calculations
+
+Card calculations involve several steps to determine the final CP cost and available Ability Points (AP):
+
+1. Base CP: Multiply the assigned Domain Points (DP) by 2.
+2. Stat Points: Attack and Defense cost 0.5 CP per point. Calculate the total stat point cost by adding Attack and Defense, then dividing by 2.
+3. Adjusted CP: Subtract half of the sum of the stat point cost from the Base CP. `BaseCP - ((Attack + Defense) / 2)`.
+4. Card Count Factor: Divide 1 by the number of duplicates allowed, then multiply by 0.8.
+5. Leadership Factor: If the card is a Leader, the factor is 1; otherwise, it's 0.
+6. Ability Points (AP): Calculate AP using the following formula: `AdjustedCP + (AdjustedCP * Card Count Factor) + (AdjustedCP * 0.5 * Leadership Factor)`.
+7. Final CP: Add any remaining AP (from ability purchases) to the Base CP to get the final cost. If the remaining AP is negative, subtract it from the Base CP. `BaseCP + Ability Purchase Cost`.
+
+#### Card Calculation Example
+
+Let's calculate the AP for our battle mech:
+
+Base CP: 4 DP * 2 = 8 CP
+Stats: Attack 3, Defense 2 (2.5 CP)
+Adjusted CP: 8 - 2.5 = 5.5 CP
+Card Count: 2 (duplicate factor: 0.4)
+Not a Leader (Leadership Factor: 0)
+
+AP = 5.5 + (5.5 * 0.4) + 0 = 7.7 AP
+This gives us 7.7 AP to spend on abilities and keywords.
+
+### C. Functional Attributes
+
+Each card possesses specific attributes that define its capabilities and interactions in the game:
+
+* Rank: Determines where the card can be deployed and influences its range options. Rank is used heavily in the thematic descriptions of the card and needs to be considered carefully.
+  * Terrestrial: Can be deployed to the battlefield and typically has close or mid-range abilities.
+  * Aerial: Can be deployed to the battlefield, often possesses the "Flying" keyword, and usually has mid to far-range abilities.
+  * Orbital: Deployed to the loadout, affects entire quadrants on the battlefield.
+  * Interstellar: Deployed to the loadout, affects entire battlefield sections (rows or columns) or targets other Orbital / Interstellar cards.
+* Range (If Applicable):
+  * Close: Can target adjacent quadrants.
+  * Mid: Can target adjacent and diagonal quadrants.
+  * Far: Can target two rows away. If the unit is in the back row it can target the opponents front row and if it is in the front row, it can target the opponent's back row.
+* Attack: The offensive strength of a unit, used to determine the outcome of battles.
+* Defense: A unit's resilience against attacks. When a unit's Defense is exceeded by an attacker's Attack, it is discarded.
+* Rule Box: This section contains the card's abilities, including active, passive, and interrupts. The rule box is crucial for understanding how a card functions and interacts with other cards and the game state.
+  * Active Abilities: These abilities require a player to activate them, often at a CP cost. They provide strategic choices and allow players to influence the game's flow.
+  * Passive Abilities: These abilities are always in effect and do not require activation. They provide continuous benefits or drawbacks, shaping the card's overall impact on the game.
+  * Interrupts: These abilities trigger automatically when specific events occur, adding dynamic reactions and strategic depth to gameplay.
+* Ability Costs: Each ability, whether active or interrupt, has a cost associated with it. The cost reflects the ability's power and impact on the game. Stronger abilities generally have higher costs. The abilities available are calculated using the AP system detailed below, and active abilities have an activation cost in ether CP, resources (Discards, Unit Sacrifice, etc), or a combination of both.
 
 ## VI. Card Count Limits
 
 In Quantum Nexus, the scarcity of a card plays a significant role in its power level and strategic value. This scarcity is represented by the card count, which dictates how many copies of a particular card can be included in a player's deck. This number ranges from 1 to 10.
- * A. Card Count:
-   * 1: Unique cards, allowing only one copy in a deck. These cards often possess powerful effects and are highly sought after.
-   * 2: Limited cards, allowing two copies in a deck. These cards offer valuable abilities while maintaining some level of scarcity.
-   * 3 or more: Common cards with no strict limit on copies in a deck. These cards form the backbone of many strategies and provide essential functions.
- * B. Card Count and Ability Points (AP):
-   Card Count directly influences a card's ability points (AP), which determine the strength and flexibility of its abilities. The fewer cards allowed, the more AP it receives, allowing for more potent effects or a wider range of abilities. The formula for calculating additional AP based on card count is as follows:
-   Bonus AP = 0.8 * (1 / Card Count)
 
-   * Example: A card with a count of 1 receives an 80% bonus to its base AP, while a card with a count of 2 receives a 40% bonus. Cards with no count limit receive no bonus AP.
+### A. Card Count
+
+* 1: Unique cards, allowing only one copy in a deck. These cards often possess powerful effects and are highly sought after.
+* 2: Limited cards, allowing two copies in a deck. These cards offer valuable abilities while maintaining some level of scarcity.
+* 3 or more: Common cards with no strict limit on copies in a deck. These cards form the backbone of many strategies and provide essential functions.
+
+### B. Card Count and Ability Points (AP)
+
+Card Count directly influences a card's ability points (AP), which determine the strength and flexibility of its abilities. The fewer cards allowed, the more AP it receives, allowing for more potent effects or a wider range of abilities. The formula for calculating additional AP based on card count is as follows:
+Bonus AP = 0.8 * (1 / Card Count)
+
+### C. Example
+
+A card with a count of 1 receives an 80% bonus to its base AP, while a card with a count of 2 receives a 40% bonus. Cards with no count limit receive no bonus AP.
 
 This system ensures that rare and powerful cards remain balanced while providing players with incentives to experiment with different deck compositions and explore unique strategies.
 
 ## VII. Abilities
 
 Abilities are the core of what makes each Quantum Nexus card unique and strategically interesting. They define how a card interacts with the battlefield, other cards, and the overall game state. Abilities  can be Active (triggered by the player), Passive (always in effect), or Interrupts (triggered in response to specific events). Abilities and Keywords are purchased by using the AP system. This system is used exclusively for determining which abilities and keywords a card may have. It is never used outside of card creation.
-A. Types of Abilities:
- * Active Abilities:
-   * Require the player to consciously activate them, often during their turn.
-   * Must have a Command Point (CP) cost associated for activation.
-   * May include other activation costs such as Discard, Sacrifice, etc.
-   * Never mentions AP when it is written on the card.
-   * Offer a wide range of effect
-     * Healing or buffing allies
-     * Drawing cards
-     * Manipulating the battlefield (moving units, altering terrain)
- * Passive Abilities:
-   * Never mentions AP when it is written on the card.
-   * Always in effect, requiring no activation.
-   * Provide ongoing benefits or sometimes drawbacks:
-     * Increased Attack or Defense
-     * Immunity to certain effects
-     * Conditional triggers (e.g., "When this unit is attacked...")
- * Interrupts:
-   * Trigger automatically in response to specific events or actions.
-   * Do not have a CP cost.
-   * Offer reactive counterplay or unexpected twists:
-     * Canceling an opponent's ability
-     * Modifying an attack
-B. Ability Design and Costing:
- * Concept and Theme:
-   * Abilities should align with the card's overall theme and flavor.
-   * All abilities need to be named 
-   * Start with a clear idea of what the ability should do.
-   * Ensure it aligns with the card's domain (Technology, Magic, Psionics, Divinity), subtype, and overall flavor.
- * Power Level and Balance:
-   * Consider the impact the ability will have on the game.
-   * More powerful or versatile abilities should have higher costs.
- * Ability Point (AP) System:
-   * Each ability has an AP cost based on its complexity and power level. After calculating the Total CP for a card (including the cost of Attack and Defense), the remaining CP is converted into AP. This AP pool is then used to select and add abilities to the card.
-   * Each card has a pool of Ability Points (AP) determined by its Domain Points, rarity, and whether it's a Leader.
-   * Each ability uses up AP from the pool, the number of points is based on:
-     * Its strength and complexity.
-     * Its CP activation cost (for active abilities).
-     * Any additional costs or sacrifices (e.g., discarding cards).
-   * The total AP used to purchase a card's abilities cannot exceed its available AP.
- * Ability Cost Reference Table: (See Appendix D for a detailed table)
-   * This table provides guidelines for assigning AP costs based on the type and power of the ability, as well as additional factors like CP cost and sacrifices.
-   * Remember that AP is only used to determine the abilities available in the card. AP should not be mentioned in any part of the game. It is only relevant to the creation of cards as a balancing factor.
-   * It's a starting point; adjust costs during playtesting for balance.
+
+### A. Types of Abilities
+
+* Active Abilities:
+  * Require the player to consciously activate them, often during their turn.
+  * Must have a Command Point (CP) cost associated for activation.
+  * May include other activation costs such as Discard, Sacrifice, etc.
+  * Never mentions AP when it is written on the card.
+  * Offer a wide range of effect
+    * Healing or buffing allies
+    * Drawing cards
+    * Manipulating the battlefield (moving units, altering terrain)
+* Passive Abilities:
+  * Never mentions AP when it is written on the card.
+  * Always in effect, requiring no activation.
+  * Provide ongoing benefits or sometimes drawbacks:
+    * Increased Attack or Defense
+    * Immunity to certain effects
+    * Conditional triggers (e.g., "When this unit is attacked...")
+* Interrupts:
+  * Trigger automatically in response to specific events or actions.
+  * Do not have a CP cost.
+  * Offer reactive counterplay or unexpected twists:
+    * Canceling an opponent's ability
+    * Modifying an attack
+
+### B. Ability Design and Costing
+
+* Concept and Theme:
+  * Abilities should align with the card's overall theme and flavor.
+  * All abilities need to be named 
+  * Start with a clear idea of what the ability should do.
+  * Ensure it aligns with the card's domain (Technology, Magic, Psionics, Divinity), subtype, and overall flavor.
+* Power Level and Balance:
+  * Consider the impact the ability will have on the game.
+  * More powerful or versatile abilities should have higher costs.
+* Ability Point (AP) System:
+  * Each ability has an AP cost based on its complexity and power level, which is like a budget for its abilities. After calculating the Total CP for a card (including the cost of Attack and Defense), the remaining CP is converted into AP. This AP pool is then used to select and add abilities to the card.
+  * Each card has a pool of Ability Points (AP) determined by its Domain Points, rarity, and whether it's a Leader.
+  * Each ability uses up AP from the pool, the number of points is based on:
+    * Its strength and complexity.
+    * Its CP activation cost (for active abilities).
+    * Any additional costs or sacrifices (e.g., discarding cards).
+  * The total AP used to purchase a card's abilities cannot exceed its available AP.
+* Ability Cost Reference Table: (See Appendix D for a detailed table)
+  * This table provides guidelines for assigning AP costs based on the type and power of the ability, as well as additional factors like CP cost and sacrifices.
+  * Remember that AP is only used to determine the abilities available in the card. AP should not be mentioned in any part of the game. It is only relevant to the creation of cards as a balancing factor.
+  * It's a starting point; adjust costs during playtesting for balance.
 
 ## VIII. Keywords and Their Impact on Gameplay
 
 Keywords are special designations given to cards or abilities that have specific meanings and effects within the game. These keywords can significantly impact gameplay by enhancing a card's power, introducing strategic trade-offs, or creating unique interactions.
 
-Types of Keywords:
+### Types of Keywords
 
- * Positive Keywords: These keywords grant beneficial effects to the card they are associated with. Examples include "Flying," which allows a unit to avoid ground attacks, or "Regeneration," which heals the unit each turn.
- * Negative Keywords: These keywords impose drawbacks or limitations on the card they are associated with. Examples include "Vulnerable," which increases the damage a unit takes, or "Cursed," which weakens its abilities.
- * Neutral Keywords: These keywords introduce unique mechanics or interactions without inherently benefiting or hindering the card. Examples include "Echo," which allows a card to be played twice, or "Transmute," which transforms a card into another.
+* Positive Keywords: These keywords grant beneficial effects to the card they are associated with. Examples include "Flying," which allows a unit to avoid ground attacks, or "Regeneration," which heals the unit each turn.
+* Negative Keywords: These keywords impose drawbacks or limitations on the card they are associated with. Examples include "Vulnerable," which increases the damage a unit takes, or "Cursed," which weakens its abilities.
+* Neutral Keywords: These keywords introduce unique mechanics or interactions without inherently benefiting or hindering the card. Examples include "Echo," which allows a card to be played twice, or "Transmute," which transforms a card into another.
 
-Ability Points (AP) and Keywords:
+### Ability Points (AP) and Keywords
+
 Each keyword has an associated AP cost, which is added or subtracted from the card's total AP pool depending on the keyword's effect.
 
  * Positive keywords add their AP cost to the card's AP pool, making the card more powerful but potentially more expensive to play. There cost can be subtracted if an ability or attack results in this ability being applied to an offensive unit.
@@ -205,136 +281,190 @@ Each keyword has an associated AP cost, which is added or subtracted from the ca
 
 Important Note: The AP costs listed in Appendix E are just examples. The actual AP cost of a keyword may vary depending on its specific effect and the overall balance of the game.
 
+### Ability Assignment Example
+
+Using our 7.7 AP, let's design abilities for the battle mech:
+
+Active Ability (4 AP): Psionic Overload (2 CP) - Deal 2 damage to a target unit and reduce its Attack by 1 until your next turn.
+Passive Ability (2 AP): Adaptive Armor - This unit gains +1 Defense against Technology domain attacks.
+Keyword (1 AP): Sturdy - This unit cannot be moved by opponent's abilities.
+
+Total AP used: 7, leaving 0.7 AP unused (which is fine, as we don't need to use every fraction of an AP).
+
 ## VIII. Flavor Attributes
 
 Beyond the mechanical aspects of a card, its flavor attributes are crucial for creating an immersive and engaging experience for players.
- * A. Name:
-   * The name of a card should be evocative, memorable, and reflect its thematic essence.
-   * It should provide a hint about the card's abilities, domain, or role in the game.
-   * Consider using names that are unique, catchy, and relevant to the Quantum Nexus universe.
- * B. Image:
-   * A detailed description of the card's artwork is essential for conveying its visual identity.
-   * The image should capture the card's theme, mood, and overall feel.
-   * Consider using elements that evoke the card's domain, such as technological gadgets, magical symbols, psionic auras, or divine iconography.
-   * Ensure that the image is visually appealing, well-composed, and complements the card's mechanical attributes.
- * C. Flavor Text:
-   * Flavor text is a short quote or description that adds personality and lore to the card.
-   * It can provide insights into the card's backstory, abilities, or significance within the Quantum Nexus universe.
-   * Keep the flavor text concise and impactful, using evocative language and imagery.
+
+* A. Name:
+  * The name of a card should be evocative, memorable, and reflect its thematic essence.
+  * It should provide a hint about the card's abilities, domain, or role in the game.
+  * Consider using names that are unique, catchy, and relevant to the Quantum Nexus universe.
+* B. Image:
+  * A detailed description of the card's artwork is essential for conveying its visual identity.
+  * The image should capture the card's theme, mood, and overall feel.
+  * Consider using elements that evoke the card's domain, such as technological gadgets, magical symbols, psionic auras, or divine iconography.
+  * Ensure that the image is visually appealing, well-composed, and complements the card's mechanical attributes.
+* C. Flavor Text:
+  * Flavor text is a short quote or description that adds personality and lore to the card.
+  * It can provide insights into the card's backstory, abilities, or significance within the Quantum Nexus universe.
+  * Keep the flavor text concise and impactful, using evocative language and imagery.
+
+### Flavor Example
+
+Name: Mindshatter Juggernaut
+
+Flavor Text: 'Its thunderous steps herald not just physical destruction, but the unraveling of minds.'
+
+This name and flavor text reinforce the mech's combination of technological might and psionic abilities.
 
 ## IX. Synergies
 
 Synergies are the backbone of strategic deck-building in Quantum Nexus. They encourage players to discover and create powerful combinations of cards that work together to achieve specific goals or unleash devastating effects.
 
- * A. Types of Synergies:
-   * Theme-Based Synergies: Cards with similar themes or lore can naturally complement each other's abilities, creating cohesive and thematic decks.
-   * Domain Synergies: Cards from the same domain often share synergies that enhance their individual strengths or create powerful combined effects.
-   * Subtype Synergies: Cards with the same subtype may benefit from playing alongside each other, encouraging players to build focused decks around specific unit types.
-   * Leader Abilities: Leader cards often possess abilities that synergize with specific unit types or domains, incentivizing players to build decks that maximize the leader's potential.
-   * Upgrade Interactions: Upgrades can be tailored to specific units or abilities, creating potent combinations that enhance a deck's overall effectiveness.
-   * Event and Terrain Interactions: Events can trigger additional effects when certain units or terrain are in play, while terrain cards can grant bonuses to specific domains or unit types.
-   * Inter-Domain Synergies: Some cards transcend their primary domain and synergize effectively with cards from other domains, creating unexpected and powerful interactions.
-   * Ability Combos: Certain card abilities can be combined to create devastating combos that can quickly swing the tide of battle.
- * B. Balancing Synergies:
-   It is crucial to balance synergies carefully to prevent them from becoming too overpowered or overshadowing other strategies. Synergistic effects should be strong but not so dominant that they make other approaches unviable.
- * C. Discovery and Exploration:
-   Quantum Nexus encourages players to discover and explore synergies through experimentation and gameplay. Hidden or unexpected synergies can add an element of surprise and excitement to the game, rewarding creative deck-building and strategic thinking.
- * D. Playtesting and Feedback:
-   Thorough playtesting is essential to ensure that synergies work as intended and do not create unbalanced scenarios. Gathering feedback from players can help identify potential issues and refine card designs for optimal gameplay.
+ ### A. Types of Synergies
+
+* Theme-Based Synergies: Cards with similar themes or lore can naturally complement each other's abilities, creating cohesive and thematic decks.
+* Domain Synergies: Cards from the same domain often share synergies that enhance their individual strengths or create powerful combined effects.
+* Subtype Synergies: Cards with the same subtype may benefit from playing alongside each other, encouraging players to build focused decks around specific unit types.
+* Leader Abilities: Leader cards often possess abilities that synergize with specific unit types or domains, incentivizing players to build decks that maximize the leader's potential.
+* Upgrade Interactions: Upgrades can be tailored to specific units or abilities, creating potent combinations that enhance a deck's overall effectiveness.
+* Event and Terrain Interactions: Events can trigger additional effects when certain units or terrain are in play, while terrain cards can grant bonuses to specific domains or unit types.
+* Inter-Domain Synergies: Some cards transcend their primary domain and synergize effectively with cards from other domains, creating unexpected and powerful interactions.
+* Ability Combos: Certain card abilities can be combined to create devastating combos that can quickly swing the tide of battle.
+
+ ### B. Balancing Synergies
+
+  It is crucial to balance synergies carefully to prevent them from becoming too overpowered or overshadowing other strategies. Synergistic effects should be strong but not so dominant that they make other approaches unviable.
+
+ ### C. Discovery and Exploration
+
+  Quantum Nexus encourages players to discover and explore synergies through experimentation and gameplay. Hidden or unexpected synergies can add an element of surprise and excitement to the game, rewarding creative deck-building and strategic thinking.
+
+### D. Playtesting and Feedback
+
+  Thorough playtesting is essential to ensure that synergies work as intended and do not create unbalanced scenarios. Gathering feedback from players can help identify potential issues and refine card designs for optimal gameplay.
+
 By crafting cards that synergize effectively with each other, you can create a rich and engaging gameplay experience where players are constantly discovering new strategies and combos to master.
 
-## IX. Card Calculations
+### Synergy Example
 
-The calculations of the different components for the card are based on several sub-calculations.
+Our battle mech could synergize well with:
 
-  1. BaseCP: this is calculated by multiplying the assigned Domain Points (DP) by 2.
-  2. Stat Points: The stats Attack and Defense are purchased at a rate of 2 stat points per CP, purchasing only a single stat point is worth 0.5 CP.
-  3. AdjustedCP: The adjustedCP is calculated by subtracting the stat points from the BaseCP. `BaseCP - ((Attack + Defense) / 2)`.
-  4. Card Count factor: The number of identical cards allowed is used to create a factor. We decide 1 by the number of duplicates allowed and then multiply by 0.8, to get the factor. `1 / (duplicates) * 0.8`
-  5. Leadership Factor: Leadership Factor is used to allow leaders to have better abilities than the average unit. If a card is a leader card it is 1, if the card is not a leader it is 0.
-  6. Abilities and Keywords: Abilites and Keywords can have bonuses or deficits that are calculated by this formula. `AdjustedCP + (AdjustedCP * (Duplicate Factor)) + AdjustedCP * (0.5 * Leadership Factor)`. These are the number of points that are allowed to be allocated to purchasing abilities/keywords for the card.
-  7. Final CP: The final CP cost is calculated by adding any leftover points to the BaseCP. If the leftover points from purchasing abilities and keywords is positive, it adds to the cost, if they are negative it subtracts. `BaseCP + Ability Purchase Cost`.
+- Technology cards that buff mechanical units
+- Psionic cards that enhance mind control abilities
+- Cards that benefit from or trigger off damage dealt to enemy units
+
+For instance, a 'Psionic Amplifier' upgrade could enhance the 'Psionic Overload' ability, increasing its damage and Attack reduction.
 
 ## X. Card Creation Example
 
-  Concept:
+*Concept*:
+
 A high-tech aerial unit that specializes in long-range attacks and reconnaissance, equipped with advanced scanning technology and powerful weaponry.
-Card Type and Subtype:
+
+*Card Type and Subtype*:
+
 Unit - Drone
-Domain Points (DP):
- * Technology (4): This unit heavily relies on advanced technology for its capabilities.
-   * Disciplines:
-     * Energy Weapons (2): Focuses on its long-range energy-based attacks.
-     * Robotics (2): Reflects its autonomous nature and advanced systems.
-Base CP Cost:
- * 8 (4 DP * 2)
-Card Feel:
- * Malevolence: Neutral (a tool, not inherently good or evil).
- * Utility: Utility-focused (provides reconnaissance and tactical advantage).
- * Combat: Offense (prioritizes dealing damage from afar).
- * Impact: Neutral (primarily focused on direct interaction with enemy units).
-Attributes:
- * Rank: Aerial (can be deployed to the battlefield or remain in the air).
- * Range: Far (targets the opposing row from a safe distance).
- * Attack: 4 (high offensive power, specializing in long-range attacks).
- * Defense: 1 (low defense due to its fragile nature).
- * Keyword: Flying (cannot be targeted by units without the "Flying" keyword).
-Adjusted CP:
- * Adjusted CP = Base CP - ((Attack + Defense) / 2) = 8 - (5 / 2) = 5.5
-Ability Points (AP):
- * Duplicate Factor: Let's assume a duplicate count of 3, so the factor is (1 / 3) * 0.8 = 0.2667 (approximately).
- * Leadership Factor: 0 (not a Leader card)
- * Ability Points = 5.5 + (5.5 * 0.2667) + 0 = 6.967 (approximately)
-Abilities:
- * Passive Ability (Purchased for 2 AP):
-   * *Scan*: At the start of your turn, reveal a random card from your opponent's hand. (Provides valuable information and fits the reconnaissance theme)
- * Active Ability (Purchased for 5 AP):
-   * *Precision Strike (2 CP)*: Reduce a unit in the opposing front row's Defense to 0.
-Final CP Cost:
- * We used 7 AP, slightly under the limit. The final CP cost remains the same as the Base CP, which is 8.
-Name:
+
+*Domain Points (DP)*:
+
+* Technology (4): This unit heavily relies on advanced technology for its capabilities.
+  * Disciplines:
+    * Energy Weapons (2): Focuses on its long-range energy-based attacks.
+    * Robotics (2): Reflects its autonomous nature and advanced systems.
+
+*Base CP Cost*:
+
+* 8 (4 DP * 2)
+
+*Card Feel*:
+
+* Malevolence: Neutral (a tool, not inherently good or evil).
+* Utility: Utility-focused (provides reconnaissance and tactical advantage).
+* Combat: Offense (prioritizes dealing damage from afar).
+* Impact: Neutral (primarily focused on direct interaction with enemy units).
+
+*Attributes*:
+
+* Rank: Aerial (can be deployed to the battlefield or remain in the air).
+* Range: Far (targets the opposing row from a safe distance).
+* Attack: 4 (high offensive power, specializing in long-range attacks).
+* Defense: 1 (low defense due to its fragile nature).
+* Keyword: Flying (cannot be targeted by units without the "Flying" keyword).
+
+*Adjusted CP*:
+
+* Adjusted CP = Base CP - ((Attack + Defense) / 2) = 8 - (5 / 2) = 5.5
+
+*Ability Points (AP)*:
+
+* Duplicate Factor: Let's assume a duplicate count of 3, so the factor is (1 / 3) * 0.8 = 0.2667 (approximately).
+* Leadership Factor: 0 (not a Leader card)
+* Ability Points = 5.5 + (5.5 * 0.2667) + 0 = 6.967 (approximately)
+
+*Abilities*:
+
+* Passive Ability (Purchased for 2 AP):
+  * *Scan*: At the start of your turn, reveal a random card from your opponent's hand. (Provides valuable information and fits the reconnaissance theme)
+* Active Ability (Purchased for 5 AP):
+  * *Precision Strike (2 CP)*: Reduce a unit in the opposing front row's Defense to 0.
+
+*Final CP Cost*:
+
+* We used 7 AP, slightly under the limit. The final CP cost remains the same as the Base CP, which is 8.
+
+*Name*:
+
 Sky Sentinel (Evokes its aerial nature and protective role)
-Image Description:
+
+*Image Description*:
+
 A sleek, metallic drone with glowing energy cannons mounted on its wings. It hovers above the battlefield, scanning the terrain with its sensors.
-Flavor Text:
+
+*Flavor Text*:
+
 "Its unblinking eye sees all, its silent wings bring swift retribution."
-Key Design Considerations:
- * Balance: The Sky Sentinel's high attack and "Flying" keyword are balanced by its low defense and vulnerability to cards that can target flying units.
- * Synergy: This card could synergize well with other Technology cards that buff attack power or provide additional reconnaissance capabilities.
- * Flavor: The name, image, and flavor text all reinforce the card's theme of a high-tech, aerial guardian.
-Feel free to ask if you have any other questions or would like more examples!
+
+*Key Design Considerations*:
+
+* Balance: The Sky Sentinel's high attack and "Flying" keyword are balanced by its low defense and vulnerability to cards that can target flying units.
+* Synergy: This card could synergize well with other Technology cards that buff attack power or provide additional reconnaissance capabilities.
+* Flavor: The name, image, and flavor text all reinforce the card's theme of a high-tech, aerial guardian.
 
 ## XI. Advanced Card Mechanics
 
 Beyond the basic abilities outlined in Section IV, Quantum Nexus allows for more sophisticated card mechanics that can create unique and engaging gameplay experiences.
 
- * Keywords and Status Effects:
-   * Keywords like "Flying," "Haste," or "Stealth" can be used to define special abilities or traits for units.
-   * Status effects like "Poisoned," "Stunned," or "Blessed" can temporarily alter a unit's stats or behavior.
- * Combo Potential:
-   * Consider how your card might synergize with other cards in unexpected ways, creating powerful combos that reward strategic thinking and deck-building prowess.
-   * Think about how your card might counter or disrupt common strategies, adding an element of surprise and counterplay to the game.
- * Conditional Effects:
-   * Abilities that trigger under specific conditions can add a layer of complexity and decision-making to gameplay.
-   * Examples include effects that activate when a certain number of units are on the battlefield, when a specific card is played, or when a certain attack is executedt.
- * Transforming Cards:
-   * Some cards might transform into different forms under certain conditions, adding a dynamic element to gameplay and creating opportunities for unexpected twists.
+* Keywords and Status Effects:
+  * Keywords like "Flying," "Haste," or "Stealth" can be used to define special abilities or traits for units.
+  * Status effects like "Poisoned," "Stunned," or "Blessed" can temporarily alter a unit's stats or behavior.
+* Combo Potential:
+  * Consider how your card might synergize with other cards in unexpected ways, creating powerful combos that reward strategic thinking and deck-building prowess.
+  * Think about how your card might counter or disrupt common strategies, adding an element of surprise and counterplay to the game.
+* Conditional Effects:
+  * Abilities that trigger under specific conditions can add a layer of complexity and decision-making to gameplay.
+  * Examples include effects that activate when a certain number of units are on the battlefield, when a specific card is played, or when a certain attack is executedt.
+* Transforming Cards:
+  * Some cards might transform into different forms under certain conditions, adding a dynamic element to gameplay and creating opportunities for unexpected twists.
 
 ## XII. Design Considerations
 
 When crafting your cards, keep these key design considerations in mind:
- * Balance: Strive for a balance of power between different card types, domains, and abilities. No single card or strategy should be overwhelmingly dominant.
- * Originality: Aim for unique and innovative card concepts that stand out from existing cards.
- * Flavor: Ensure that the card's mechanics and flavor attributes align seamlessly, creating a cohesive and immersive experience.
- * Engagement: Design cards that are fun and engaging to play, offering interesting choices and interactions.
- * Accessibility: Make sure that the card's mechanics are easy to understand and that the card's overall design is visually appealing.
+
+* Balance: Strive for a balance of power between different card types, domains, and abilities. No single card or strategy should be overwhelmingly dominant.
+* Originality: Aim for unique and innovative card concepts that stand out from existing cards.
+* Flavor: Ensure that the card's mechanics and flavor attributes align seamlessly, creating a cohesive and immersive experience.
+* Engagement: Design cards that are fun and engaging to play, offering interesting choices and interactions.
+* Accessibility: Make sure that the card's mechanics are easy to understand and that the card's overall design is visually appealing.
 
 ## XIII. Playtesting and Iteration
 
 Playtesting is a crucial step in the card creation process. It allows you to test your designs in a real-world environment, gather feedback, and refine your cards to achieve optimal balance and playability.
- * Internal Playtesting: Test your cards with a small group of players to identify any obvious issues or imbalances.
- * Public Playtesting: If possible, share your card designs with a wider audience to gather more diverse feedback.
- * Iterative Refinement: Use the feedback you receive to iterate on your designs, adjusting CP costs, ability effects, and flavor attributes as needed.
+
+* Internal Playtesting: Test your cards with a small group of players to identify any obvious issues or imbalances.
+* Public Playtesting: If possible, share your card designs with a wider audience to gather more diverse feedback.
+* Iterative Refinement: Use the feedback you receive to iterate on your designs, adjusting CP costs, ability effects, and flavor attributes as needed.
+
 By embracing playtesting and iteration, you can ensure that your cards contribute to a vibrant and balanced gameplay experience in Quantum Nexus.
 
 ## XIV. Conclusion
@@ -344,31 +474,43 @@ The Quantum Nexus card creation process is a journey of creativity, strategy, an
 ## Appendix
 
 ### A. Glossary of Terms
- * Attack: A unit's offensive strength, used to determine the outcome of battles.
- * CP (Command Points): The cost to play a card, determined by its Domain Points and additional ability costs.
- * Defense: A unit's resilience against attacks.
- * Disciplines: Specialized areas within each domain that grant specific abilities.
- * Domain Points (DP): Numerical values that represent a card's connection to Technology, Magic, Psionics, or Divinity.
- * Interrupt: An ability that triggers automatically when a specific condition is met.
- * Loadout: The area where Asset cards are played.
- * Malevolence: A card feel axis describing the card's moral alignment (Neutral, Malevolent, or Benevolent).
- * Passive Ability: An ability that is always in effect and does not require activation.
- * Quadrant: One of six sections on the battlefield where units can be deployed.
- * Rank: Determines where a card can be played (Terrestrial, Aerial, Orbital, or Interstellar).
- * Range: The distance a unit or ability can target (Close, Mid, or Far).
- * Rule Box: The area on a card that contains its abilities, effects, and keywords.
- * Subtype: A more specific classification within a card type (e.g., Mech, Squad, Specialist).
- * Synergy: The interaction between two or more cards that creates a combined effect greater than the sum of their parts.
- * Utility: A card feel axis describing the card's strategic purpose (Utility-focused, Neutral, or Disruptive).
+* Attack: A unit's offensive strength, used to determine the outcome of battles.
+* Command Points (CP): CP represent the resource cost required to play a card from your hand onto the battlefield or into your loadout.
+* Defense: A unit's resilience against attacks.
+* Disciplines: Specialized areas within each domain that grant specific abilities.
+* Domain Points (DP): DP represent a card's inherent connection and mastery of the four domains: Technology, Magic, Psionics, and Divinity. They determine the card's theme, flavor, and potential abilities.
+* Interrupt: An ability that triggers automatically when a specific condition is met.
+* Loadout: The area where Asset cards are played.
+* Malevolence: A card feel axis describing the card's moral alignment (Neutral, Malevolent, or Benevolent).
+* Passive Ability: An ability that is always in effect and does not require activation.
+* Quadrant: One of six sections on the battlefield where units can be deployed.
+* Rank: Determines where a card can be played (Terrestrial, Aerial, Orbital, or Interstellar).
+* Range: The distance a unit or ability can target (Close, Mid, or Far).
+* Rule Box: The area on a card that contains its abilities, effects, and keywords.
+* Subtype: A more specific classification within a card type (e.g., Mech, Squad, Specialist).
+* Synergy: The interaction between two or more cards that creates a combined effect greater than the sum of their parts.
+* Utility: A card feel axis describing the card's strategic purpose (Utility-focused, Neutral, or Disruptive).
+* Activation Cost: The cost (usually in CP, but can also include discarding cards, sacrificing units, etc.) that a player must pay to activate an active ability.
+* Card Advantage: The strategic advantage gained by having more cards in hand or on the battlefield than your opponent.
+Combo: A powerful combination of two or more cards that create a synergistic effect greater than the sum of their parts.
+* Exile: To remove a card from the game entirely, usually face down and unable to be interacted with further.
+* Face Down: A card that is not visible to either player, often used for hidden effects or randomization.
+* Flying: A keyword that allows a unit to avoid ground attacks and only be blocked by other units with the Flying keyword.
+* Haste: A keyword that allows a unit to attack or use activated abilities during the same phase it was deployed on.
+* Mill: An ability or effect that forces a player to discard cards from their deck.
+* Ramp: Strategies or cards that accelerate a player's resource generation (CP) to enable playing more powerful cards earlier in the game.
+* Stealth: A keyword that makes a unit unblockable unless the defending player controls a unit with the "Detector" keyword.
+* Token: A temporary unit created by a card effect, usually with lower stats and simpler abilities than regular units.
+* Tutor: An ability or effect that allows a player to search their deck for a specific card and add it to their hand.
 
 ### B. Design Tips
 
- * Start with a Concept: Begin with a clear idea of the card's theme, mechanics, and role in the game.
- * Balance Power and Cost: Ensure that the card's CP cost is appropriate for its overall power level.
- * Consider Synergies: Design cards that interact with other cards in your set or existing cards.
- * Embrace Flavor: Use evocative names, images, and flavor text to bring your card to life.
- * Playtest Thoroughly: Test your cards against various opponents and strategies to ensure balance and fun.
- * Iterate and Refine: Be open to feedback and make adjustments to your designs as needed.
+* Start with a Concept: Begin with a clear idea of the card's theme, mechanics, and role in the game.
+* Balance Power and Cost: Ensure that the card's CP cost is appropriate for its overall power level.
+* Consider Synergies: Design cards that interact with other cards in your set or existing cards.
+* Embrace Flavor: Use evocative names, images, and flavor text to bring your card to life.
+* Playtest Thoroughly: Test your cards against various opponents and strategies to ensure balance and fun.
+* Iterate and Refine: Be open to feedback and make adjustments to your designs as needed.
 
 By combining creativity with a solid understanding of the Quantum Nexus guidelines, you can create compelling and memorable cards that will enrich the game's universe and provide endless hours of strategic fun for players.
 
@@ -428,7 +570,7 @@ Important Note: This table is still a guideline. The final AP cost for an abilit
 | Chrono-Lock | This unit cannot be targeted by abilities that would alter its power or toughness. | 1-2 | Positive | Protects against common removal or weakening effects. |
 | Domain Expertise | This unit gains +1/+1 for each domain among cards in your graveyard. | 2-3 | Positive | Rewards diverse deck building and graveyard manipulation. |
 | Quantum Overload | This unit deals damage to itself equal to its power at the end of each turn. | 3-4 | Negative | High-risk, high-reward effect that requires careful management. |
-| Time Dilation | This unit's activated abilities cost 1 more AP to activate. | 2-3 | Negative | Balances powerful abilities by increasing their activation cost. |
+| Time Dilation | This unit's activate abilities cost 1 more AP to activate. | 2-3 | Negative | Balances powerful abilities by increasing their activation cost. |
 | Domain Disruption | Choose a domain. Units of the chosen domain cannot activate their abilities this turn. | 2-3 | Negative | Disruptive effect that can swing the tide of battle. |
 | Temporal Distortion | Whenever a unit with the same domain as this unit enters the battlefield under your control, exile it. | 3-4 | Negative | Punishes playing multiple units of the same domain. |
 | Etherial Weakness | This unit takes double damage from sources with the "Etherial" subtype. | 1-2 | Negative | Weakness to a specific subtype, creates strategic counterplay opportunities. |

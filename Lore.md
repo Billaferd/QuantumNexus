@@ -64,3 +64,11 @@ The combination of these factors led to a catastrophic series of events that res
 5. **Ecological Devastation**: Many worlds suffered catastrophic environmental changes as the balance of energies that sustained them was disrupted.
 
 In this chaotic, ever-shifting landscape, players take on the roles of Nexus Guild Leaders, each striving to build their power, uncover ancient secrets, and perhaps - ultimately - forge a new galactic order.
+
+## The Splintering
+
+The Great Fracture shattered not only the physical galaxy but also the alliances and empires that once held sway. The Zenobian Empire, its grand vision of unity in ruins, fragmented into warring factions. The Fringe Worlds Alliance, weakened by internal strife and the loss of key worlds, dissolved into a loose confederation of survivalist states.
+
+Across the galaxy, countless smaller groups emerged, each vying for control of resources and territory. Pirate bands, religious cults, mercenary companies, and renegade scientists carved out their own domains amidst the chaos. Even the Nexus Guilds, once neutral brokers of knowledge and power, found themselves drawn into the conflicts, their members divided by allegiance and ambition.
+
+In this new era of fragmented reality, the lines between friend and foe blurred, and trust became a precious commodity. Ancient rivalries resurfaced, fueled by desperation and the struggle for survival. The stage was set for a new kind of conflict, one fought not for dominance or ideology, but for the very right to exist.

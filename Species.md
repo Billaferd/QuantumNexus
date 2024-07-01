@@ -79,3 +79,8 @@
 **Type**: Information-based Entities
 **Domain Focus**: Technology (3), Psionics (3)
 **Description**: Evolved from pure data, the Axiom Network exists within the flow of information itself. Their hyper-advanced technology allows them to manipulate data streams and energy patterns as easily as physical beings manipulate matter. Powerful psionic abilities let them process and analyze vast amounts of information instantaneously, making them unparalleled strategists and problem-solvers. They manifest in the physical world through holographic projections and energy constructs.
+
+## 17. Voidborn
+**Type**: Dark Matter Entities
+**Domain Focus**: Magic (3), Psionics (2), Divinity (1)
+**Description**: Born from the chaotic energies of the cosmic void, the Voidborn are enigmatic entities composed of dark matter. They wield powerful dark magic, capable of manipulating reality, warping minds, and consuming life force. Their psionic abilities allow them to communicate across vast distances and infiltrate the thoughts of sentient beings. They are drawn to negative emotions, feeding on fear, anger, and despair. Some believe they are manifestations of a dark cosmic force, while others see them as a symptom of the universe's inherent entropy.

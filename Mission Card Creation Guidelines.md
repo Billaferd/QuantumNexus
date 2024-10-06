@@ -104,27 +104,17 @@ The strength of these abilities scales with the difficulty of the challenge, whi
 
 In Quantum Nexus, challenges are the heart of every mission card, testing your strategic acumen and rewarding your success with powerful abilities. These challenges vary in difficulty, requiring you to demonstrate your mastery of the chosen domains and your ability to adapt to the ever-changing battlefield.
 
-### Understanding Challenge Difficulty
-
-The difficulty of a mission card's challenge directly affects the abilities and powers of that card. the more difficult the challenge, the more powerful the abilities and CP available. The challenges can be broken down into 3 broad categories:
-
-  * **Simple (1-2 CP):** Straightforward actions within a turn, like deploying a specific unit type, activating a basic ability, or briefly controlling a quadrant.
-  * **Intermediate (3-4 CP):** More intricate objectives, perhaps requiring specific card combinations, achieving a short-term combat goal (destroying X units), or maintaining board control for a longer duration.
-  * **Advanced (5+ CP):**  Difficult-to-achieve goals that might span multiple turns, necessitate specific synergies, or impose drawbacks on the player pursuing them.
-
-By making the challenges harder, the card can provide either more CP or better Abilities. Consider over and under shooting the Challenges compared to the BaseCP.
-
 ### Challenge Design: Variety and Depth
 
 Ensuring that challenges are fair and balanced within a mission cards context is important and should follow these steps.
 
 **1. Use the Difficulty Scale**
 
-*   **Level 1 (1-2 CP):** Straightforward actions achievable within a turn, like deploying a specific unit type or activating a basic ability (inspired by ). 
-*   **Level 2 (2-3 CP):**  Slightly more involved, potentially requiring specific card combinations, achieving a short-term goal (e.g., controlling a quadrant for a turn), or brief resource management.
-*   **Level 3 (3-4 CP):**  More intricate objectives, demanding specific card synergies, achieving a more challenging combat goal, or sustained board control over multiple turns. 
-*   **Level 4 (4-5 CP):** Difficult goals that might span multiple turns, necessitate complex synergies, or impose minor drawbacks on the player pursuing them.
-*   **Level 5 (5+ CP):**  The most challenging, potentially game-changing objectives requiring long-term planning, significant synergies, or substantial drawbacks as trade-offs for powerful rewards.
+*   **Level 1 (1-3 CP):** Straightforward actions achievable within a turn, like deploying a specific unit type or activating a basic ability (inspired by ). 
+*   **Level 2 (4-6 CP):**  Slightly more involved, potentially requiring specific card combinations, achieving a short-term goal (e.g., controlling a quadrant for a turn), or brief resource management.
+*   **Level 3 (7-9 CP):**  More intricate objectives, demanding specific card synergies, achieving a more challenging combat goal, or sustained board control over multiple turns. 
+*   **Level 4 (10-12 CP):** Difficult goals that might span multiple turns, necessitate complex synergies, or impose minor drawbacks on the player pursuing them.
+*   **Level 5 (13+ CP):**  The most challenging, potentially game-changing objectives requiring long-term planning, significant synergies, or substantial drawbacks as trade-offs for powerful rewards.
 
 Designers should assign a difficulty level to each new challenge based on this scale.
 

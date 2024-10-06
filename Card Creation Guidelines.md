@@ -131,6 +131,72 @@ Every card in Quantum Nexus should have a unique personality and impact on the g
   * Neutral: Primarily focuses on direct interaction with enemy units or assets.
   * Destructive: Specializes in removing enemy units, destroying assets, or disrupting enemy plans.
 
+#### Translating Card Feel into Mechanics
+
+Card feel is an important part of Quantum Nexus and needs to be integrated into the creation of each card. 
+
+##### 1. Malevolence
+
+*   **Benevolent:**
+    *   **Abilities:** Focus on healing, protection (e.g., granting shields or defensive buffs), unit enhancement, resource generation for the player, or effects that benefit both players.
+    *   **Stats:** Could have balanced or even defensively-oriented stats, emphasizing resilience over aggression.
+    *   **Keywords:** "Defender" (must be attacked if able), "Lifelink" (player gains CP equal to damage dealt by this unit), "Regeneration" (restores Defense at the start of the turn).
+*   **Malevolent:**
+    *   **Abilities:** Emphasize direct damage, unit destruction, opponent resource denial, forcing discards, negative status effects, or control over opponent's units/actions.
+    *   **Stats:** Might favor high Attack over Defense, reflecting an aggressive nature. 
+    *   **Keywords:** "Berserk" (gains Attack when damaged), "Life Drain" (player gains CP equal to damage dealt), "Poison" (deals damage over time).
+*   **Neutral:**
+    *   **Abilities:**  Offer a mix of beneficial and detrimental effects, focused on achieving objectives regardless of moral alignment.
+    *   **Stats:**  Could be balanced or specialized depending on the card's role.
+    *   **Keywords:** Adapt keywords from either Benevolent or Malevolent categories to fit the specific card's function.
+
+##### 2. Utility
+
+*   **Utility-Focused:**
+    *   **Abilities:** Centered around card draw, battlefield manipulation (e.g., moving units, returning units to hand), resource acceleration, or disrupting opponent's plans through counterplay or denial.
+    *   **Stats:** Might be less important than abilities for this category, potentially having lower stats to compensate for strong utility.
+    *   **Keywords:**  "Scout" (reveal cards from the opponent's deck), "Teleport" (move to another quadrant), "Phase Shift" (cannot be targeted).
+*   **Disruptive:**
+    *   **Abilities:**  Focus on disrupting opponent's strategies, forcing suboptimal plays, or creating chaos. Examples include discarding cards from the opponent's hand, negating abilities, or introducing random elements.
+    *   **Stats:**  Similar to Utility-Focused, stats might be secondary to disruptive effects.
+    *   **Keywords:**  "Chaos" (randomizes targets or effects), "Silence" (prevents abilities from activating).
+*   **Neutral:**
+    *   **Abilities:**  Offer a balance between direct power and strategic utility.
+    *   **Stats:**  Could have a mix of stats, adaptable to various situations.
+    *   **Keywords:** Can use keywords from either Utility-Focused or Disruptive categories, depending on the card's design.
+
+##### 3. Combat
+
+*   **Offensive:**
+    *   **Abilities:** Prioritize dealing damage, destroying units, or enhancing attack capabilities.
+    *   **Stats:** Typically have high Attack values, possibly at the expense of Defense. 
+    *   **Keywords:** "Double Strike" (attacks twice), "First Strike" (attacks before the defender), "Pierce" (ignores some Defense).
+*   **Defensive:**
+    *   **Abilities:**  Focus on protecting themselves or other units, mitigating damage, or hindering enemy attacks.
+    *   **Stats:** Usually have high Defense, potentially with lower Attack.
+    *   **Keywords:**  "Provoke" (forces enemies to attack this unit), "Shield" (absorbs damage), "Guardian" (protects adjacent units). 
+*   **Neutral:**
+    *   **Abilities:**  Have a mix of offensive and defensive capabilities or abilities that adapt to the situation. 
+    *   **Stats:**  Balanced or specialized stats depending on the intended role.
+    *   **Keywords:** Could use keywords from either Offensive or Defensive categories as appropriate.
+
+##### 4. Impact
+
+*   **Constructive:**
+    *   **Abilities:**  Generate resources (e.g., CP), create new units (e.g., tokens), buff allies, heal, or otherwise contribute to a positive game state.
+    *   **Stats:**  Stats could be secondary to the card's constructive effects.
+    *   **Keywords:**  "Inspire" (grants buffs to allies when played), "Resourceful" (generates additional CP).
+*   **Destructive:**
+    *   **Abilities:** Focus on removing enemy units from play, destroying assets, or otherwise hindering the opponent's game plan.
+    *   **Stats:** High Attack or abilities that compensate for lower stats to ensure destructive potential.
+    *   **Keywords:**  "Destroy" (removes a unit or asset from the game), "Wither" (reduces enemy Attack), "Curse" (applies negative effects).
+*   **Neutral:**
+    *   **Abilities:**  Have a balance between constructive and destructive elements or effects that interact directly with the current game state.
+    *   **Stats:** Stats could vary based on the card's intended function.
+    *   **Keywords:** Can utilize keywords from either Constructive or Destructive categories as needed.
+
+These examples are not exhaustive, and creativity in combining mechanics is encouraged. The sources emphasize the importance of playtesting and iteration, suggesting that card feel should be a guiding principle throughout the design process, subject to refinement based on actual gameplay experience.
+
 #### Card Feel Example
 
 Consider a 'Corrupted AI' card:

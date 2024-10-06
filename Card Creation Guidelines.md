@@ -271,7 +271,7 @@ Bonus AP = 0.8 * (1 / Card Count)
 
 ### C. Example
 
-A card with a count of 1 receives an 80% bonus to its base AP, while a card with a count of 2 receives a 40% bonus. Cards with no count limit receive no bonus AP.
+A card with a count of 1 receives an 80% bonus to its base AP, while a card with a count of 2 receives a 40% bonus, and so on.
 
 This system ensures that rare and powerful cards remain balanced while providing players with incentives to experiment with different deck compositions and explore unique strategies.
 

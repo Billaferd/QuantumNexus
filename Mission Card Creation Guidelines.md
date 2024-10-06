@@ -116,14 +116,60 @@ By making the challenges harder, the card can provide either more CP or better A
 
 ### Challenge Design: Variety and Depth
 
-Quantum Nexus challenges are designed to be diverse and engaging, incorporating various elements to keep you on your toes
+Ensuring that challenges are fair and balanced within a mission cards context is important and should follow these steps.
 
- * Domain-Specific Challenges: Challenges often revolve around the thematic elements of the chosen domains. For example, a Technology challenge might involve deploying specific types of tech units, while a Magic challenge could require you to cast spells or enchantments.
- * Multi-Step Challenges: Some challenges may involve multiple steps or conditions that must be met in a specific order. This adds complexity and requires careful planning to achieve victory.
- * Resource Management: Many challenges will test your ability to manage resources, such as Command Points (CP) or specific card types. Efficiently utilizing your resources is key to overcoming these challenges.
- * Adaptability:  The battlefield is constantly evolving, and challenges may require you to adapt your strategies on the fly to overcome unexpected obstacles.
+**1. Use the Difficulty Scale**
 
-When creating challenges don't be afraid to group several challenges together to create a unique challenge. Also remember that the challenges in the Appendix are simply guides, and you are free to create your own.
+*   **Level 1 (1-2 CP):** Straightforward actions achievable within a turn, like deploying a specific unit type or activating a basic ability (inspired by ). 
+*   **Level 2 (2-3 CP):**  Slightly more involved, potentially requiring specific card combinations, achieving a short-term goal (e.g., controlling a quadrant for a turn), or brief resource management.
+*   **Level 3 (3-4 CP):**  More intricate objectives, demanding specific card synergies, achieving a more challenging combat goal, or sustained board control over multiple turns. 
+*   **Level 4 (4-5 CP):** Difficult goals that might span multiple turns, necessitate complex synergies, or impose minor drawbacks on the player pursuing them.
+*   **Level 5 (5+ CP):**  The most challenging, potentially game-changing objectives requiring long-term planning, significant synergies, or substantial drawbacks as trade-offs for powerful rewards.
+
+Designers should assign a difficulty level to each new challenge based on this scale.
+
+**2. Apply a Domain Point Modifier**
+
+To account for the impact of domain alignment on challenge difficulty, implement a modifier based on the mission card's DP distribution:
+
+*   **+1 CP Modifier:** Challenges directly aligned with a domain where the mission card has 4 DP.
+*   **0 CP Modifier:** Challenges aligned with a domain where the mission card has 2-3 DP. 
+*   **-1 CP Modifier:** Challenges aligned with a domain where the mission card has 1 DP.
+
+This modifier acknowledges that challenges tied to higher DP domains are inherently more potent due to the power level associated with those domains on the mission card.
+
+**3. Calculate Preliminary Challenge CP**
+
+Based on the difficulty level and domain modifier, calculate the Preliminary Challenge CP:
+
+```
+Preliminary Challenge CP = Difficulty Level + Domain Point Modifier 
+```
+
+**4.  Consider Ability Strength and Adjust**
+
+The Preliminary Challenge CP serves as a starting point.  Designers would then evaluate the strength of the mission card's passive and one-time abilities in conjunction with the challenge's Preliminary CP cost. This step involves subjective judgment and playtesting:
+
+*   **Powerful Abilities:** If the mission card grants very strong abilities, the Preliminary Challenge CP might be reduced by 1-2 CP to compensate, ensuring the mission card's overall power level remains balanced. 
+*   **Weaker Abilities:** If the abilities are less impactful, the Preliminary Challenge CP could be left as is or potentially increased by 1 CP to reflect the easier path to achieving those benefits.
+
+This step ensures alignment with the principle of balancing challenge difficulty with ability strength.
+
+**5. Determine Final Challenge CP**
+
+After considering ability strength, the Preliminary Challenge CP is finalized. This Final Challenge CP is then used in the Adjusted CP formula: `AdjustedCP = BaseCP + (ChallengeCP - AbilityCP)`.
+
+**Example Application**
+
+Let's say we're designing a mission card with 3 DP in Technology and 1 DP in Divinity. The challenge involves deploying a Technology unit with a specific keyword and then using that unit to destroy an opponent's unit.
+
+1.  **Difficulty Level:** This challenge seems moderately difficult, potentially a Level 3 (3-4 CP).
+2.  **Domain Point Modifier:** The challenge is primarily aligned with Technology (3 DP), so it receives a 0 CP modifier.
+3.  **Preliminary Challenge CP:** 3 (Difficulty Level) + 0 (Domain Modifier) = 3 CP
+4.  **Ability Strength and Adjustment:**  Let's assume the mission card's abilities are relatively powerful. To compensate, the Preliminary Challenge CP is reduced by 1 CP.
+5.  **Final Challenge CP:** 3 CP - 1 CP = 2 CP
+
+This 2 CP value would then be used in the Adjusted CP calculation for the mission card.
 
 #### Example Challenges
 
@@ -349,6 +395,9 @@ Mission cards have several calculations to create some balance. The mission card
     * Determine if the combined CP value of the abilities (AbilityCP) and challenges (ChallengeCP) is higher or lower than the Base CP.
     * Calculate the difference between the ChallengeCP and AbilityCP.
     * Add this difference to the Base CP to determine the final Adjusted CP of the mission card: `AdjustedCP = BaseCP + (ChallengeCP - AbilityCP)`
+
+6. **Minimum Adjusted CP:**
+The Adjusted CP of a mission card cannot be less than 0. If the Adjusted CP calculation results in a value less than 0, the mission card's Adjusted CP is set to 0.
 
 these calculations are here to ensure that the mission cards are developed in a way that is fair and balanced. the calculations strive to ensure that a balance is struck between all parts of the mission card.
 

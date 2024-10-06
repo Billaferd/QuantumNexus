@@ -596,6 +596,7 @@ To help you fully grasp the intricacies of Quantum Nexus, here is a glossary of 
 
  * Activate: To use a card's ability or effect by paying its cost or meeting its trigger condition.
  * Active Ability: An ability that requires a cost to activate and usually consumes the card's action for the turn.
+ * Asset: A card type that can be deployed into the loadout and grants effects from outside of the battlefield.
  * Attack Value: A numerical value representing the amount of damage a unit inflicts when attacking.
  * Battlefield: The central playing area where units are deployed and battles take place.
  * Close Range: An attack range allowing a unit to target units directly in front or to its immediate sides.

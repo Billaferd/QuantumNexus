@@ -36,6 +36,10 @@ By familiarizing yourself with these components and card attributes, you'll be w
 
 ## II. Deck Construction
 
+### Construction Basics
+
+In Quantum Nexus, there are several rules to deck construction that must all be adhered to. The deck size must not exceed 200 CP, the domain points on all mission points must not total more than 6 and no single domain can total more than 4, the cards in the deck must adhere to the duplicate attributes printed as well as ensure that the specified domain points on a card are equal to or below the total domain points on the mission cards.
+
 ### A. Deck Size
 
 In Quantum Nexus, deck construction is a critical aspect of gameplay. The first rule to remember is that your deck must contain exactly 200 Command Points (CP). Each card in the game has a CP value displayed in the top left corner. When selecting cards for your deck, you must ensure the total CP value of all cards adds up to exactly 200. 
@@ -56,6 +60,7 @@ Mission cards play a significant role in Quantum Nexus, representing your object
 Unit cards form the core of your army in Quantum Nexus. They are the ones that engage in combat and fulfill mission objectives. When selecting unit cards for your deck, it's crucial to align them with the domains represented on your mission cards.
 
  * Matching or Lower Domain Values: The domain values on your unit cards must either match or be lower than the corresponding domain values on your mission cards. For instance, if your mission cards have 3 points in Technology, your unit cards cannot have more than 3 points in Technology.
+ * There are duplicate limits printed on each card, no card may ever break these limits. They can have an amount of cards lower than the limit, but never higher.
 
 By carefully selecting mission cards and aligning your unit cards with their domains, you can create a cohesive and powerful deck that maximizes your chances of victory in Quantum Nexus.
 

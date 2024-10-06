@@ -315,7 +315,7 @@ Abilities are the core of what makes each Quantum Nexus card unique and strategi
   * Consider the impact the ability will have on the game.
   * More powerful or versatile abilities should have higher costs.
 * Ability Point (AP) System:
-  * Each ability has an AP cost based on its complexity and power level, which is like a budget for its abilities. After calculating the Total CP for a card (including the cost of Attack and Defense), the remaining CP is converted into AP. This AP pool is then used to select and add abilities to the card.
+  * Each ability has an AP cost based on its complexity and power level, which is like a budget for its abilities. After calculating the Final CP for a card (including the cost of Attack and Defense), the remaining CP is converted into AP. This AP pool is then used to select and add abilities to the card.
   * Each card has a pool of Ability Points (AP) determined by its Domain Points, rarity, and whether it's a Leader.
   * Each ability uses up AP from the pool, the number of points is based on:
     * Its strength and complexity.

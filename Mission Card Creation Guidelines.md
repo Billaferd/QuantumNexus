@@ -74,7 +74,7 @@ Mission cards are the cornerstone of your Quantum Nexus deck, shaping your strat
 
 #### Domain Points: Your Path to Mastery
 
- * Allocation: Mission cards distribute points among the four domains, with a maximum of 4 points per domain and mission card and a total of 6 points across all mission cards.
+ * Allocation: Mission cards distribute points among the four domains. A Mission Card can have a maximum of 4 points per domain. A player must have a total of 6 points across all mission cards.
  * Significance:
    * 0 points in a domain indicate no proficiency.
    * 4 points represent transcendent mastery in that domain.

@@ -352,6 +352,46 @@ Mission cards have several calculations to create some balance. The mission card
     * Calculate the difference between the ChallengeCP and AbilityCP.
     * Add this difference to the Base CP to determine the final Adjusted CP of the mission card: `AdjustedCP = BaseCP + (ChallengeCP - AbilityCP)`
 
+### Balancing CP, Challenges, and Abilities
+
+The sources provide a framework for creating Quantum Nexus mission cards, but they lack specific guidance on balancing CP costs with the power levels of challenges and abilities. Here's a suggested approach to address this:
+
+#### 1. Establishing a CP Cost Framework for Challenges and Abilities
+
+The sources provide tables of example challenges and abilities but don't assign specific CP values to many of them.  To create a more balanced system, you could develop a  CP cost framework with these factors in mind:
+
+* **Domain:** Some domains, like Technology or Divinity, might inherently lend themselves to more powerful effects. You could adjust CP costs accordingly, with more potent domains having slightly higher costs for comparable effects. 
+
+* **Challenge Complexity:** 
+    * **Simple Challenges (1-2 CP):** These could involve deploying a specific unit type, activating a basic ability, or controlling a single quadrant for a short duration.
+    * **Intermediate Challenges (3-4 CP):**  These might require specific card combinations, achieving a combat objective (like destroying a certain number of units), or maintaining board control for a longer time.
+    * **Advanced Challenges (5+ CP):**  These would involve difficult-to-achieve objectives, potentially spanning multiple turns, requiring specific synergies, or offering significant drawbacks to the player attempting them.
+
+* **Ability Strength and Duration:**
+    * **Minor Abilities (1-3 CP):** Grant small stat boosts, minor card draw, or limited-duration effects.
+    * **Moderate Abilities (4-6 CP):** Offer more significant stat boosts, better card draw, more potent one-time effects, or longer-duration benefits.
+    * **Major Abilities (7+ CP):** Provide game-changing effects, potentially impacting multiple units or game aspects, offering significant card advantage, or enabling unique strategic options.
+
+**Example:**
+
+*  The "Technology" challenge "Deploy a Tech Unit with a specific keyword (e.g., "Drone")" could be considered a Simple Challenge (1 CP) due to its relatively easy completion requirement. 
+
+* The "Technology" passive ability "Tech Efficiency," which reduces the CP cost of Tech Unit deployments or abilities, could be further categorized:
+    * **Minor Tech Efficiency (3 CP):** Reduces cost by 1.
+    * **Moderate Tech Efficiency (4 CP):** Reduces cost by 2.
+    * **Major Tech Efficiency (5 CP):** Reduces cost by 3.
+
+#### 2. Balancing Adjusted CP with Mission Card Power Level
+
+Once you've established CP costs for challenges and abilities, you can refine the Adjusted CP calculation for mission cards with power level in mind:
+
+* **Low-Impact Mission Card (Base CP - 2 to Base CP):** Features a combination of relatively simple challenges and minor abilities.
+
+* **Moderate-Impact Mission Card (Base CP - 1 to Base CP + 1):**  Offers a mix of simple and intermediate challenges with minor to moderate abilities.
+
+* **High-Impact Mission Card (Base CP + 2 to Base CP + 4):**  Presents more challenging objectives, potentially requiring multiple steps or specific synergies, and rewards players with moderate to major abilities upon completion. 
+
+By aligning Adjusted CP with the overall power level and difficulty of the mission card, you can create a more balanced and engaging gameplay experience. 
 
 ## X. Putting it All Together: Creating a Quantum Nexus Mission Card
 

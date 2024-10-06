@@ -50,7 +50,7 @@ This restriction ensures balance and prevents players from overwhelming their op
 
 Mission cards play a significant role in Quantum Nexus, representing your objectives during the game. Your deck can include a maximum of six mission cards. These cards not only grant victory points upon completion but also offer passive effects or powerful abilities.
 
- * Total Domain Points: Mission cards are associated with four domains: Technology, Magic, Psionics, and Divinity. The total points across all domains on your mission cards cannot exceed 6. This ensures a diverse set of objectives and prevents focusing on a single domain.
+ * Total Domain Points: Mission cards are associated with four domains: Technology, Magic, Psionics, and Divinity. The total points across all domains on your mission cards must equal exactly 6. This ensures a diverse set of objectives and prevents focusing on a single domain.
  * Single Domain Limit: No single domain on your mission cards can have more than 4 points. This further promotes balance and encourages players to explore different strategies.
  * Zero Points Allowed: It is acceptable to have a domain with 0 points on your mission cards. This allows flexibility in deck building and caters to different playstyles.
  * Starting Command Points: The total CP value of your chosen mission cards determines your starting CP for the game. For example, if your mission cards have a combined CP value of 18, you will begin the game with 18 CP to spend on deploying units and activating abilities.

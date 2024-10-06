@@ -581,11 +581,9 @@ A game of Quantum Nexus concludes when one of the victory conditions is met:
  * Deck Depletion: If a player is unable to draw a card when required, their deck is considered empty, and they lose the game.
  * Mission Completion: If a player completes all of their mission cards, they immediately win the game, regardless of the state of their opponent's deck.
 
-### D. Rule Clarifications
+### D. Card Type Counts
 
-Quantum Nexus has a comprehensive rulebook that addresses specific scenarios, card interactions, and edge cases. If any confusion or disagreement arises during gameplay, consult the official rulebook for clarification.
-
-By delving into these additional rules and clarifications, you'll gain a deeper understanding of the intricacies of Quantum Nexus. This knowledge will empower you to make informed decisions, execute clever strategies, and outwit your opponents on the battlefield.
+Aside from the limit imposed per card by the Duplicates attribute or from the 200 CP limit of the deck, there are no other restrictions on the types of cards a player must have in their deck. Each card type has very specific strengths and weaknesses that can only be balanced with a thought-out and diverse army.
 
 ## VIII. Glossary of Terms
 

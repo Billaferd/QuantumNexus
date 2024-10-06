@@ -285,13 +285,13 @@ Abilities are the core of what makes each Quantum Nexus card unique and strategi
   * Require the player to consciously activate them, often during their turn.
   * Must have a Command Point (CP) cost associated for activation.
   * May include other activation costs such as Discard, Sacrifice, etc.
-  * Never mentions AP when it is written on the card.
+  * Although AP is integral to the creation of cards, but it must never be discussed or revealed on the card itself.
   * Offer a wide range of effect
     * Healing or buffing allies
     * Drawing cards
     * Manipulating the battlefield (moving units, altering terrain)
 * Passive Abilities:
-  * Never mentions AP when it is written on the card.
+  * Although AP is integral to the creation of cards, but it must never be discussed or revealed on the card itself.
   * Always in effect, requiring no activation.
   * Provide ongoing benefits or sometimes drawbacks:
     * Increased Attack or Defense

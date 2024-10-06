@@ -329,20 +329,29 @@ By carefully designing one-time abilities that are impactful, strategic, and uni
 
 Mission cards have several calculations to create some balance. The mission cards create the basis for the amount of CP that a player has during their turn. This CP value is determined by several interconnected formulas. The fomelas are designed to balance the Abilities, Challenges, and CP. You should be adventurous to see what combinations can be achieved.
 
-Assign Total Domain Points
-Each domain may have a maximum of 4 points assigned.
-Each Mission Card may have a minimum of 1 points and a maximum of 4 points.
-Calculate Base CP
-`BaseCP = Domain Points (DP) * 3`
-Create a passive and active ability
-Using the table for Active and Passive abilities select two that have CP values that is double the cards BaseCP.
-For example if there were 2 Domain points then the Abilites should equal roughly 8 CP when summed.
-AbilityCP = (ActiveCP + PassiveCP) / 2
-Create the missions challenge
-Select a combination of challenges in the challenge table that equals the cards BaseCP.
-Adjust the CP levels
-If the Abilities and/or Challenges are either above or below the BaseCP add the difference to the CP.
-`AdjustedCP = BaseCP + (ChallengeCP - AbilityCP)`
+### Mission Card Creation Formulas
+
+1. **Assign Total Domain Points**:
+    * Each mission card can have a maximum of **4 points** assigned to a single domain.
+    * Each mission card must have a minimum of **1 point** and a maximum of **4 points** assigned across all domains. 
+    * Players must create a set of mission cards that total **6 points** across all domains.
+
+2. **Calculate Base CP**:
+    *  Multiply the total Domain Points (DP) assigned to the mission card by 3: `BaseCP = Domain Points (DP) * 3`
+
+3. **Create Abilities**:
+    * Design one passive and one active ability for the mission card.
+    * Choose abilities with CP values that, when combined, are approximately double the card's Base CP. 
+    * For example, if a mission card has a Base CP of 6, the combined value of its passive and active abilities should be around 12.
+
+4. **Create the Mission Challenge**:
+    * Select a combination of challenges from the challenge table in the sources, ensuring their total CP value equals the card's Base CP.
+
+5. **Adjust CP Levels**:
+    * Determine if the combined CP value of the abilities (AbilityCP) and challenges (ChallengeCP) is higher or lower than the Base CP.
+    * Calculate the difference between the ChallengeCP and AbilityCP.
+    * Add this difference to the Base CP to determine the final Adjusted CP of the mission card: `AdjustedCP = BaseCP + (ChallengeCP - AbilityCP)`
+
 
 ## X. Putting it All Together: Creating a Quantum Nexus Mission Card
 

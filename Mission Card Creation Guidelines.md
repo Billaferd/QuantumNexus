@@ -106,13 +106,11 @@ In Quantum Nexus, challenges are the heart of every mission card, testing your s
 
 ### Understanding Challenge Difficulty
 
-The difficulty of a mission card's challenge is directly linked to the total number of domain points allocated to the card
+The difficulty of a mission card's challenge directly affects the abilities and powers of that card. the more difficult the challenge, the more powerful the abilities and CP available. The challenges can be broken down into 3 broad categories:
 
- * 1 Point: Easy challenges that can be completed with basic tactics and minimal resources.
- * 2 Points: Intermediate challenges that require more deliberate planning and resource management.
- * 3-4 Points: Advanced challenges that demand a deep understanding of the game's mechanics and skillful execution of complex strategies.
-
-By carefully selecting mission cards with challenges that align with your deck's strengths, you can maximize your chances of success and unlock powerful rewards.
+  * **Simple (1-2 CP):** Straightforward actions within a turn, like deploying a specific unit type, activating a basic ability, or briefly controlling a quadrant.
+  * **Intermediate (3-4 CP):** More intricate objectives, perhaps requiring specific card combinations, achieving a short-term combat goal (destroying X units), or maintaining board control for a longer duration.
+  * **Advanced (5+ CP):**  Difficult-to-achieve goals that might span multiple turns, necessitate specific synergies, or impose drawbacks on the player pursuing them.
 
 By making the challenges harder, the card can provide either more CP or better Abilities. Consider over and under shooting the Challenges compared to the BaseCP.
 
@@ -345,53 +343,14 @@ Mission cards have several calculations to create some balance. The mission card
     * For example, if a mission card has a Base CP of 6, the combined value of its passive and active abilities should be around 12.
 
 4. **Create the Mission Challenge**:
-    * Select a combination of challenges from the challenge table in the sources, ensuring their total CP value equals the card's Base CP.
+    * Select one or more challenges from the challenge table in the sources, 
 
 5. **Adjust CP Levels**:
     * Determine if the combined CP value of the abilities (AbilityCP) and challenges (ChallengeCP) is higher or lower than the Base CP.
     * Calculate the difference between the ChallengeCP and AbilityCP.
     * Add this difference to the Base CP to determine the final Adjusted CP of the mission card: `AdjustedCP = BaseCP + (ChallengeCP - AbilityCP)`
 
-### Balancing CP, Challenges, and Abilities
-
-The sources provide a framework for creating Quantum Nexus mission cards, but they lack specific guidance on balancing CP costs with the power levels of challenges and abilities. Here's a suggested approach to address this:
-
-#### 1. Establishing a CP Cost Framework for Challenges and Abilities
-
-The sources provide tables of example challenges and abilities but don't assign specific CP values to many of them.  To create a more balanced system, you could develop a  CP cost framework with these factors in mind:
-
-* **Domain:** Some domains, like Technology or Divinity, might inherently lend themselves to more powerful effects. You could adjust CP costs accordingly, with more potent domains having slightly higher costs for comparable effects. 
-
-* **Challenge Complexity:** 
-    * **Simple Challenges (1-2 CP):** These could involve deploying a specific unit type, activating a basic ability, or controlling a single quadrant for a short duration.
-    * **Intermediate Challenges (3-4 CP):**  These might require specific card combinations, achieving a combat objective (like destroying a certain number of units), or maintaining board control for a longer time.
-    * **Advanced Challenges (5+ CP):**  These would involve difficult-to-achieve objectives, potentially spanning multiple turns, requiring specific synergies, or offering significant drawbacks to the player attempting them.
-
-* **Ability Strength and Duration:**
-    * **Minor Abilities (1-3 CP):** Grant small stat boosts, minor card draw, or limited-duration effects.
-    * **Moderate Abilities (4-6 CP):** Offer more significant stat boosts, better card draw, more potent one-time effects, or longer-duration benefits.
-    * **Major Abilities (7+ CP):** Provide game-changing effects, potentially impacting multiple units or game aspects, offering significant card advantage, or enabling unique strategic options.
-
-**Example:**
-
-*  The "Technology" challenge "Deploy a Tech Unit with a specific keyword (e.g., "Drone")" could be considered a Simple Challenge (1 CP) due to its relatively easy completion requirement. 
-
-* The "Technology" passive ability "Tech Efficiency," which reduces the CP cost of Tech Unit deployments or abilities, could be further categorized:
-    * **Minor Tech Efficiency (3 CP):** Reduces cost by 1.
-    * **Moderate Tech Efficiency (4 CP):** Reduces cost by 2.
-    * **Major Tech Efficiency (5 CP):** Reduces cost by 3.
-
-#### 2. Balancing Adjusted CP with Mission Card Power Level
-
-Once you've established CP costs for challenges and abilities, you can refine the Adjusted CP calculation for mission cards with power level in mind:
-
-* **Low-Impact Mission Card (Base CP - 2 to Base CP):** Features a combination of relatively simple challenges and minor abilities.
-
-* **Moderate-Impact Mission Card (Base CP - 1 to Base CP + 1):**  Offers a mix of simple and intermediate challenges with minor to moderate abilities.
-
-* **High-Impact Mission Card (Base CP + 2 to Base CP + 4):**  Presents more challenging objectives, potentially requiring multiple steps or specific synergies, and rewards players with moderate to major abilities upon completion. 
-
-By aligning Adjusted CP with the overall power level and difficulty of the mission card, you can create a more balanced and engaging gameplay experience. 
+these calculations are here to ensure that the mission cards are developed in a way that is fair and balanced. the calculations strive to ensure that a balance is struck between all parts of the mission card.
 
 ## X. Putting it All Together: Creating a Quantum Nexus Mission Card
 

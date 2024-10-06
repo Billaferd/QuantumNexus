@@ -20,7 +20,7 @@ Understanding the battlefield and the mechanics of card range is crucial for eff
    * Mid Range: Units can target adjacent and diagonal quadrants on their own side, as well as any quadrant in the opponent's front row.
    * Far Range: Units can only target quadrants that are 2 rows away from its current position. If a unit is in the back row, it can only attack the enemies front row, if the unit is in the front row, it can attack the enemies back row. This range system adds a layer of tactical depth to the game, forcing players to carefully consider unit placement and movement to maximize their offensive and defensive capabilities.
  * C. Movement: Every terrestrial and aerial unit may choose to attack or move during the Combat Phase, it can move to any adjacent quadrant, but not diagonally.
- * D. Card Ranks: Each Card has one of 4 ranks, terrestrial, aerial, orbital, and interstellar. Terrestrial and aerial units are deployed to the battle field. Orbital and Interstellar units are deployed to the Load out. Events and Upgrades do not have a rank.
+ * D. Card Ranks: Each Unit, Leader, and Asset card has one of 4 ranks. Terrestrial and aerial are assigned to Units and Leaders. Orbital, and interstellar are assigned to Assets. Terrestrial and aerial units are deployed to the battle field. Orbital and Interstellar units are deployed to the Load out. Events and Upgrades do not have a rank.
  * E. Turn Sequence: Each turn has four phases: Ready, Deployment, Command, and Battle.
   1. The Ready Phase sets the stage for your turn. CP resets, players draw cards, units deactivate.
   2. During the Deployment Phase, players play their units, upgrades, and other permanent cards from their hand.

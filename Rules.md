@@ -143,7 +143,7 @@ graph TD;
    * Alternate Placement: Players take turns placing one card at a time from their hand onto the battlefield. Each card has a CP cost, and players must have enough CP to deploy it.
    * Passing: A player can choose to pass their turn, indicating they have finished deploying cards for this phase.
    * Simultaneous Passing: If both players pass consecutively, the phase ends, and the next phase begins.
-   * Initiative: The initiative of the Deployment Phase is won by the player who played the fewest cards in the previous Battle Phase, or if this is the first turn the player who won the card flip. If all players played the same number of cards, then the player that spent the fewest CP in the Battle Phase wins. Finally if all players spent the same CP, the next player to the left takes initiative..
+   * Initiative: The initiative of the Deployment Phase is won by the player who played the fewest cards in the previous Battle Phase, or if this is the first turn the player who won the card flip. If all players played the same number of cards, then the player that spent the fewest CP in the Battle Phase wins. Finally, if all players spent the same CP, the player seated to the left of the current player takes initiative.
 
 ##### Deployment Phase Diagram
 

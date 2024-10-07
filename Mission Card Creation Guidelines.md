@@ -163,7 +163,7 @@ This step ensures alignment with the principle of balancing challenge difficulty
 
 **5. Determine Final Challenge CP**
 
-After considering ability strength, the Preliminary Challenge CP is finalized. This Final Challenge CP is then used in the Adjusted CP formula: `AdjustedCP = BaseCP + (ChallengeCP - AbilityCP)`.
+After considering ability strength, the Preliminary Challenge CP is finalized. This Final Challenge CP is then used in the Adjusted CP formula: `Adjusted CP = Base CP + (Challenge CP - (Ability CP * Sign(Challenge CP))`.
 
 **Example Application**
 

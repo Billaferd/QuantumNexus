@@ -7,7 +7,7 @@ Quantum Nexus is a strategic trading card game (TCG) that immerses players in a 
 ### A. Core Design Principles
 
  * Card Control: Each player retains complete ownership and control of their cards throughout the game. Players are not allowed to touch any other players cards and a players cards are not allowed to leave that players play area.
- * Predictable Gameplay: The only random element in Quantum Nexus is the initial card shuffle. This design choice eliminates luck-based mechanics like dice rolls, coin flips, or random card draws, ensuring that strategic decision-making and tactical planning are the primary factors that determine the outcome of battles.
+ * Predictable Gameplay: The only random element in Quantum Nexus is initial card shuffles and the card draw. This design choice eliminates luck-based mechanics like dice rolls, coin flips, or other random elements not inherit to cards, ensuring that strategic decision-making and tactical planning are the primary factors that determine the outcome of battles.
  * Streamlined Combat: Units in Quantum Nexus do not have health points. Instead, their resilience is represented by a Defense value. When a unit is attacked, its Defense is compared directly to the attacker's Attack value. If the Attack exceeds the Defense, the defending unit is discarded. This streamlined system simplifies combat, reduces bookkeeping, and accelerates gameplay.
 
 ## II. Battlefield and Tactical Maneuvers

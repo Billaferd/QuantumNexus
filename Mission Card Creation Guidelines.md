@@ -337,6 +337,43 @@ When designing challenges, think about when you want players to complete them. T
    * Examples: Have 5 Units on the battlefield, have 2 upgraded Units, activate 5 abilities of a specific domain.
 Varying the pacing of challenges within a set of mission cards creates dynamic gameplay and allows for different playstyles to thrive. Consider including a mix of early, mid, and late-game challenges to cater to different strategic preferences and keep players engaged throughout the match.
 
+### Negative Challenges
+
+* Player-Driven Action: The challenge must require the player to perform a specific action that has a detrimental effect on their own game state.
+ * Achievable Objective: The challenge must be a clear and attainable goal that the player can actively pursue through their card choices and strategy.
+ * Detrimental Consequence: Completing the challenge must result in a negative outcome for the player, such as losing resources, discarding cards, or weakening their units.
+ * Balanced Cost: The negative consequence of the challenge should be proportional to the rewards offered by the mission card (CP value and abilities).
+ * Concise Wording: The challenge should be worded clearly and unambiguously, focusing on the result of the action rather than the action itself.
+Examples of Well-Worded Negative Challenges:
+ * "You have discarded cards with a total CP of 5 or more."
+ * "You have lost Divinity Units with a combined CP of 3."
+ * "All units in your front row were destroyed last turn."
+ * "You had 3 units that could not activate their abilities last turn."
+Key Takeaways:
+ * Focus on the Outcome: Frame the challenge in terms of the end result the player needs to achieve.
+ * Avoid Automatic Effects:  The challenge should not be an automatic effect or rely on the opponent's actions.
+ * Maintain Clarity:  Use clear and concise language to avoid ambiguity.
+
+#### Negative Challenge Examples
+
+| Challenge | CP Value | Description | Example |
+|---|---|---|---|
+| Discard Power | -3 to -8 | Discard cards with a total CP value meeting a certain threshold. | "Discard cards with a total CP of 5 or more." |
+| Sacrificial Offering | -3 to -8 | Destroy a unit with a specific keyword, subtype, or CP cost. | "Destroy one of your Units with a Divinity value of 3 or more." |
+| Knowledge Denial | -2 to -5 | Shuffle cards from your hand into your deck. | "Shuffle 3 cards from your hand into your deck." |
+| Weakened Defenses | -3 to -6 | All your units have reduced defense for a certain duration. | "All your units have -1 Defense until the end of your next turn." |
+| Delayed Deployment | -2 to -5 | Restrictions on deploying units with certain CP costs or attributes for a specific duration. | "You cannot deploy Units with a CP cost of 4 or more on your next turn." |
+| Resource Depletion | -2 to -5 | Lose a certain amount of CP. | "Lose 3 CP." |
+| Battlefield Disruption | -4 to -8 | Remove units from the battlefield. | "Return all Units in your front row to your hand." |
+| Ability Lockdown | -3 to -6 | Prevent units from using their abilities for a specific duration. | "Choose one of your Units. It cannot activate its abilities until the end of your next turn." |
+| Limited Options | -2 to -5 | Restrict the types of units you can deploy or abilities you can activate for a specific duration. | "You cannot play Event cards on your next turn." |
+| Self-Inflicted Effects | -3 to -7 | Apply negative effects to your own units or resources. | "Your starting hand size is reduced by 2 for the rest of the game." |
+
+Notes:
+ * CP Value: The CP value represents the impact of the challenge on the Adjusted CP calculation. Remember that negative challenges increase the Adjusted CP.
+ * Description: Provides a general explanation of the challenge type.
+ * Example:  Gives a specific example of how the challenge could be worded on a mission card.
+
 ### Design Considerations
 
 When crafting mission challenges, consider the following:
@@ -417,7 +454,40 @@ Divinity (Passive):
 
 By carefully crafting passive abilities that are balanced, synergistic, and impactful, you can create mission cards that offer rewarding and engaging gameplay experiences for Quantum Nexus players.
 
+### Negative Passive Abilities
+
+ * Detrimental Effect: The ability must have a clear negative impact on the player's own game state. This could include:
+   * Discarding cards
+   * Destroying or weakening their own units
+   * Giving the opponent an advantage (with careful consideration)
+   * Limiting their own options or actions
+ * Optional or Conditional: Whenever possible, design the negative effect to be optional or conditional, allowing the player to choose when to activate it strategically. This adds depth and decision-making.
+ * Balanced Cost:  The negative effect should be balanced with the overall power level of the card and its other abilities. Consider:
+   * CP cost of the ability
+   * Activation conditions
+   * Potential impact on the game
+ * Clear Wording:  The ability should be worded clearly and concisely, leaving no ambiguity about its negative consequences.
+ * Strategic Purpose: The negative ability should serve a strategic purpose within the context of the card and the game, such as:
+   * Enabling a powerful combo
+   * Disrupting the opponent
+   * Creating a unique playstyle
+   * Offering a risk/reward trade-off
+ * Emphasis on Clarity:  The focus is on clear, detrimental effects with unambiguous wording.
+ * Strategic Depth: Negative abilities should offer interesting choices and trade-offs for the player.
+ * Balanced Design:  The negative aspects must be balanced with the overall power level of the card.
+
+#### Negative Passive Ability Examples
+
+| Ability Name | CP Cost | Description |
+|---|---|---|
+| Vulnerability | -4 CP | At the start of each turn, one of your units gains -2 Defense. |
+| Cursed Hand | -6 CP | Whenever you draw a card, discard a card. |
+| Feedback Loop | -5 CP | Whenever you activate an ability, you lose 1 CP. |
+| Unstable Power | -7 CP | At the end of each turn, discard a card from your hand. |
+| Shared Fate | -3 CP | Whenever an enemy unit is destroyed, discard a card from your hand. |
+
 ### Scaling Passive Abilities
+
 The strength of a passive ability should be proportional to the difficulty of the mission's challenge and the overall CP cost of the mission card. Here's how to scale passive abilities effectively:
  * CP Cost: A passive ability on a 3 CP mission card should be less powerful than one on a 9 CP card. Scale effects accordingly. For example:
    * Low CP: +1 Attack, draw 1 card, reduce ability cost by 1.
@@ -487,6 +557,38 @@ Divinity (One-Time):
  * Uniqueness: Strive to create unique and interesting effects that add flavor and diversity to the game.
 
 By carefully designing one-time abilities that are impactful, strategic, and unique, you can create mission cards that offer rewarding and memorable moments for Quantum Nexus players.
+
+### Negative One-Time Abilities
+
+ * Detrimental Effect: The ability must have a clear negative impact on the player's own game state. This could include:
+   * Discarding cards
+   * Destroying or weakening their own units
+   * Giving the opponent an advantage (with careful consideration)
+   * Limiting their own options or actions
+ * Optional or Conditional: Whenever possible, design the negative effect to be optional or conditional, allowing the player to choose when to activate it strategically. This adds depth and decision-making.
+ * Balanced Cost:  The negative effect should be balanced with the overall power level of the card and its other abilities. Consider:
+   * CP cost of the ability
+   * Activation conditions
+   * Potential impact on the game
+ * Clear Wording:  The ability should be worded clearly and concisely, leaving no ambiguity about its negative consequences.
+ * Strategic Purpose: The negative ability should serve a strategic purpose within the context of the card and the game, such as:
+   * Enabling a powerful combo
+   * Disrupting the opponent
+   * Creating a unique playstyle
+   * Offering a risk/reward trade-off
+ * Emphasis on Clarity:  The focus is on clear, detrimental effects with unambiguous wording.
+ * Strategic Depth: Negative abilities should offer interesting choices and trade-offs for the player.
+ * Balanced Design:  The negative aspects must be balanced with the overall power level of the card.
+
+#### Negative One-Time Abilities
+
+| Ability Name | CP Cost | Description |
+|---|---|---|
+| Desperate Sacrifice | -3 CP | Destroy one of your units with a CP cost of 3 or less. |
+| Overload | -5 CP | Choose one of your units. It gains +3 Attack but is destroyed at the end of your turn. |
+| Dark Pact | -7 CP | Gain 5 CP, but your opponent may draw 3 cards. |
+| Temporal Distortion | -4 CP | Take an extra turn after this one, but then skip your next 2 turns. |
+| Dimensional Exile | -6 CP | Choose one of your units. Exile it from the game. |
 
 ### Scaling One-Time Abilities
 

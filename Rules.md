@@ -38,7 +38,7 @@ By familiarizing yourself with these components and card attributes, you'll be w
 
 ### Construction Basics
 
-In Quantum Nexus, there are several rules to deck construction that must all be adhered to. The deck size must not exceed 200 CP, the domain points on all mission points must not total more than 6 and no single domain can total more than 4, the cards in the deck must adhere to the duplicate attributes printed as well as ensure that the specified domain points on a card are equal to or below the total domain points on the mission cards.
+In Quantum Nexus, there are several rules to deck construction that must all be adhered to. The deck size must not exceed 200 CP and no more than 25 CP can be dedicated to Leader type units, the domain points on all mission points must not total more than 6 and no single domain can total more than 4, the cards in the deck must adhere to the duplicate attributes printed as well as ensure that the specified domain points on a card are equal to or below the total domain points on the mission cards.
 
 ### A. Deck Size
 
@@ -460,7 +460,7 @@ Units are the backbone of your forces in Quantum Nexus. They engage in combat, d
  * Defense Value: This number, typically found on the right side of the card, represents how much damage a unit can withstand before being destroyed.
  * Deployment Phase: Units are deployed onto the battlefield during the Deployment Phase, strategically positioning them for future attacks and defense.
  * Attack Range: Each unit has an attack range (Close, Mid, or Far) that dictates which quadrants on the battlefield they can target.
- * Leaders: Some units are designated as Leaders, possessing enhanced abilities and stats. Only one Leader can occupy a quadrant at a time, making them valuable assets.
+ * Leaders: Some units are designated as Leaders, possessing enhanced abilities and stats. Only one Leader can occupy a quadrant at a time, no other leader may be moved or deployed into a quadrant that already has a leader. Leaders cards are also limited to only 25 CP of the overall deck cost.
 
 ### B. Assets
 
@@ -588,7 +588,7 @@ A game of Quantum Nexus concludes when one of the victory conditions is met:
 
 ### D. Card Type Counts
 
-Aside from the limit imposed per card by the Duplicates attribute or from the 200 CP limit of the deck, there are no other restrictions on the types of cards a player must have in their deck. Each card type has very specific strengths and weaknesses that can only be balanced with a thought-out and diverse army.
+Aside from the limit imposed per card by the Duplicates attribute or from the 200 CP limit of the deck, there is one other restriction on the types of cards a player must have in their deck. Each deck cant have any more then 25 CP worth of Leader Unit carda. Each card type has very specific strengths and weaknesses that can only be balanced with a thought-out and diverse army.
 
 ## VIII. Glossary of Terms
 

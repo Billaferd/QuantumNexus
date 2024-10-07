@@ -610,7 +610,7 @@ To help you fully grasp the intricacies of Quantum Nexus, here is a glossary of 
  * Domain: A thematic category associated with mission cards and unit cards (Technology, Magic, Psionics, Divinity).
  * Event: A card type that provides a powerful one-time effect when played during the Command Phase.
  * Far Range: An attack range allowing a unit to target units in the opposite row.
- * Flank: The left and right sides of the battlefield.
+ * Flank: The left and right quadrants of the battlefield.
  * Front Row: The row of quadrants closest to the opponent on the battlefield.
  * Interrupt: A card ability that triggers in response to a specific event, either mandatory or optional.
  * Leader: A powerful unit card, limited to one per quadrant.

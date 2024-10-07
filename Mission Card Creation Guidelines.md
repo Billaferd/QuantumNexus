@@ -678,15 +678,15 @@ Mission cards have several calculations to create some balance. The mission card
     * Players must create a set of mission cards that total **6 points** across all domains.
 
 2. **Calculate Base CP**:
-    *  Multiply the total Domain Points (DP) assigned to the mission card by 3: `BaseCP = Domain Points (DP) * 3`
+    *  Multiply the total Domain Points (DP) assigned to the mission card by 2: `BaseCP = Domain Points (DP) * 2`
 
 3. **Create Abilities**:
     * Design one passive and one active ability for the mission card.
-    * Choose abilities with CP values that, when combined, are approximately double the card's Base CP. 
-    * For example, if a mission card has a Base CP of 6, the combined value of its passive and active abilities should be around 12.
+    * These abilities should roughly offset the challenge to make a balanced card with an expected CP amount, but a discrepancy in values can make a card with a lot of a little Adjusted CP depending on the offset between challenges and Abilities.
 
 4. **Create the Mission Challenge**:
-    * Select one or more challenges from the challenge table in the sources, 
+    * Select one or more challenges from the challenge table in the sources.
+    * These challenges should roughly offset the abilities to make a balanced card with an expected CP amount, but a discrepancy in values can make a card with a lot of a little Adjusted CP depending on the offset between challenges and Abilities.
 
 5. **Adjust CP Levels**:
     * Determine if the combined CP value of the abilities (AbilityCP) and challenges (ChallengeCP) is higher or lower than the Base CP.
@@ -694,7 +694,7 @@ Mission cards have several calculations to create some balance. The mission card
     * Add this difference to the Base CP to determine the final Adjusted CP of the mission card: `AdjustedCP = BaseCP + (ChallengeCP - AbilityCP)`
 
 6. **Minimum Adjusted CP:**
-The Adjusted CP of a mission card cannot be less than 0. If the Adjusted CP calculation results in a value less than 0, the mission card's Adjusted CP is set to 0.
+The Adjusted CP of a mission card cannot be less than 0. If the Adjusted CP calculation results in a value less than 0, the challenges and abilities need to be adjusted.
 
 these calculations are here to ensure that the mission cards are developed in a way that is fair and balanced. the calculations strive to ensure that a balance is struck between all parts of the mission card.
 

@@ -691,7 +691,7 @@ Mission cards have several calculations to create some balance. The mission card
 5. **Adjust CP Levels**:
     * Determine if the combined CP value of the abilities (AbilityCP) and challenges (ChallengeCP) is higher or lower than the Base CP.
     * Calculate the difference between the ChallengeCP and AbilityCP.
-    * Add this difference to the Base CP to determine the final Adjusted CP of the mission card: `AdjustedCP = BaseCP + (ChallengeCP - AbilityCP)`
+    * Add this difference to the Base CP to determine the final Adjusted CP of the mission card: `Adjusted CP = Base CP + (Challenge CP - (Ability CP * Sign(Challenge CP))`
 
 6. **Minimum Adjusted CP:**
 The Adjusted CP of a mission card cannot be less than 0. If the Adjusted CP calculation results in a value less than 0, the challenges and abilities need to be adjusted.

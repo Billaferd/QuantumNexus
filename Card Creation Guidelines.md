@@ -1,5 +1,9 @@
 # Quantum Nexus Card Creation Guidelines: In-Depth Guide
 
+## Note to the Reader
+
+This is the Quantum Nexus: Card Creation Guidelines, this document is not meant to explain any rules that a player would need, it is solely intended to aid designers in creating captivating and interesting cards for Quantum Nexus. Players are welcome to read this documents, but please know that these rules are not applied to any in-game scenario, they Re solely for creating cards for Quantum Nexus.
+
 ## I. Introduction
 
 Quantum Nexus is a strategic trading card game (TCG) that immerses players in a captivating sci-fi universe filled with advanced technology, mystical magic, potent psionics, and divine intervention. To contribute to this dynamic world, card creators must adhere to a set of core design principles and understand the fundamental building blocks of card creation.

@@ -1,5 +1,9 @@
 # Quantum Nexus Rules: Detailed Guide
 
+## Note to Players
+
+this rulebook is a comprehensive guide to playing Quantum Nexus. This is the only resource required to learn and understand all of the rules of the game. Quantum Nexus is made of many interconnected systems and it may take a while to learn it. there is a Quantum Nexus Quick Start Guide, to ease new players into the game with a limited rule set. when those are understood, we recommend moving on to this rule book for the full experience.
+
 ## I. Introduction to Quantum Nexus
 
 ### A. Game Overview

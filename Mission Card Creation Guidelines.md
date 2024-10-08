@@ -1,4 +1,8 @@
-# Quantum Nexus Mission Card Creation Guidelines
+# Quantum Nexus: Mission Card Creation Guidelines
+
+## Note to the Reader
+
+This is the Quantum Nexus: Mission Card Creation Guidelines, this document is not meant to explain any rules that a player would need, it is solely intended to aid designers in creating captivating and interesting mission cards for Quantum Nexus. Players are welcome to read this document, but please know that these rules are not applied to any in-game scenario, they are solely used for creating cards for Quantum Nexus.
 
 ## I. Introduction
 

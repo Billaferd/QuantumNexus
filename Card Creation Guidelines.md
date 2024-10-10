@@ -682,9 +682,9 @@ Rule Box:
 - CP X - Ability 2
 - ...
 
-Flavor Text:
+Flavor Text: A short 1 sentence quote, proverb, interesting fact, etc...
 
-Image Description:
+Image Description: A vivid description of the card image. 3 sentences about the action, 3 sentences about the subject(s), 2 sentences about the setting and/or background.
 
 Design Considerations:
 

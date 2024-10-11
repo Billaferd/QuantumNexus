@@ -89,7 +89,7 @@ By prioritizing uniqueness in mission card design, you create a more engaging an
    * 0 points in a domain indicate no proficiency.
    * 4 points represent transcendent mastery in that domain.
    * The points you allocate to each domain on your mission cards determine the maximum domain values allowed on other cards in your deck.
-   * The number of domain points assigned should vary between 1 and 4. The player will need to create a set (more than one) of mission cards that total 6 points. A player may use 6, 1 points cards, or 2, 3 point cards, or any other combination to equal 6. The more choice they have, the more interesting the choices are.
+   * The number of domain points assigned to a single Mission Card should vary between 1 and 4.
 
 ##### Example
 

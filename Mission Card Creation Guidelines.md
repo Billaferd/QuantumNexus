@@ -682,7 +682,7 @@ Mission cards have several calculations to create some balance. The mission card
     * Players must create a set of mission cards that total **6 points** across all domains.
 
 2. **Calculate Base CP**:
-    *  Multiply the total Domain Points (DP) assigned to the mission card by 2: `BaseCP = Domain Points (DP) * 2`
+    *  Multiply the total Domain Points (DP) assigned to the mission card by 3: `BaseCP = Domain Points (DP) * 3`
 
 3. **Create Abilities**:
     * Design one passive and one active ability for the mission card.

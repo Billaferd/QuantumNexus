@@ -677,7 +677,7 @@ Mission cards have several calculations to create some balance. The mission card
 ### Mission Card Creation Formulas
 
 1. **Assign Total Domain Points**:
-    * The maximum number of domain points that can be assigned to a single mission card is 4. The 4 domain points can be distributed across domains as desired. Each mission card must have at minimum 1 domain point assigned.
+    * Each mission card must have at least 1 domain point and no more than 4 domain points in total, distributed across the domains as you choose.
     * Players must create a set of at least 2 mission cards, with no mission card having more than 4 domain points assigned.
     * Players must have a total of 6 domain points totaled across all mission cards.
 

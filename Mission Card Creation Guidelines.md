@@ -84,7 +84,7 @@ By prioritizing uniqueness in mission card design, you create a more engaging an
 
 #### Domain Points: Your Path to Mastery
 
- * Allocation: Mission cards distribute points among the four domains. Each Mission Card must have at least 1 domain point and a maximum of 4 domain points distributed across the four domains.
+ * Allocation: Mission cards distribute points among the four domains. Each Mission Card must have at least 1 domain point and a maximum of 4 domain points.
  * Significance:
    * 0 points in a domain indicate no proficiency.
    * 4 points represent transcendent mastery in that domain.

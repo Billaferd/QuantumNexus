@@ -753,6 +753,8 @@ For consistency, the following template should be used when dealing with multipl
 
 These prices are guidelines and may be altered to include any variations. Simply be mindful that it is priced appropriately.
 
+ Domain | Ability | CP Cost | Description |
+|---|---|---|---|
 | Technology | Overclock | 4-6 | Target Tech unit gains +2 Attack this turn but is discarded at the end of your turn. |
 | Technology | Nanite Swarm | 5-7 | Deal 1 damage to all enemy units in a chosen row. |
 | Technology | Energy Transfer | 6-8 | Target a friendly Tech unit. It gains Attack and Defense equal to another target Tech unit's, which is then discarded. |

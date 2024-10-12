@@ -360,18 +360,16 @@ Key Takeaways:
 
 #### Negative Challenge Examples
 
-| Challenge | CP Value | Description | Example |
-|---|---|---|---|
-| Discard Power | -3 to -8 | Discard cards with a total CP value meeting a certain threshold. | "Discard cards with a total CP of 5 or more." |
-| Sacrificial Offering | -3 to -8 | Destroy a unit with a specific keyword, subtype, or CP cost. | "Destroy one of your Units with a Divinity value of 3 or more." |
-| Knowledge Denial | -2 to -5 | Shuffle cards from your hand into your deck. | "Shuffle 3 cards from your hand into your deck." |
-| Weakened Defenses | -3 to -6 | All your units have reduced defense for a certain duration. | "All your units have -1 Defense until the end of your next turn." |
-| Delayed Deployment | -2 to -5 | Restrictions on deploying units with certain CP costs or attributes for a specific duration. | "You cannot deploy Units with a CP cost of 4 or more on your next turn." |
-| Resource Depletion | -2 to -5 | Lose a certain amount of CP. | "Lose 3 CP." |
-| Battlefield Disruption | -4 to -8 | Remove units from the battlefield. | "Return all Units in your front row to your hand." |
-| Ability Lockdown | -3 to -6 | Prevent units from using their abilities for a specific duration. | "Choose one of your Units. It cannot activate its abilities until the end of your next turn." |
-| Limited Options | -2 to -5 | Restrict the types of units you can deploy or abilities you can activate for a specific duration. | "You cannot play Event cards on your next turn." |
-| Self-Inflicted Effects | -3 to -7 | Apply negative effects to your own units or resources. | "Your starting hand size is reduced by 2 for the rest of the game." |
+Challenge              | CP Value                                                        | Description                                                                               | Example                                                                                                   |
+| ------------------------ | --------------------------------------------------------------- | ----------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------- |
+| Discard Power           | `- (Total CP of Discarded Cards / 2) + 1`                    | Discard cards to reach a specific total CP value.                                       | "You have discarded cards with a total CP of 5 or more."                                                   |
+| Sacrificial Offering  | `- (Combined CP of Lost Divinity Units / 2) + 1`            | Lose Divinity Units with a specific combined CP cost.                                 | "You have lost Divinity Units with a combined CP of 3."                                                   |
+| Knowledge Denial        | `- (3 - Current Number of Cards in Hand)`                       | Reduce your hand size below a certain threshold.                                      | "You have fewer than 3 cards in your hand."                                                              |
+| Weakened Defenses       | `- (Number of Units Destroyed in the Front Row Last Turn)`     | Have all units in your front row destroyed during the previous turn.                     | "All units in your front row were destroyed last turn."                                                  |
+| Delayed Deployment      | `- (Number of Units Unable to Activate Abilities Last Turn)` | Have a certain number of units unable to activate their abilities during the previous turn. | "You have 3 units that could not activate their abilities last turn."                                   |
+| Resource Drain       | `- (Amount of Resource Lost / Divisor) + Constant` | Depleting a specific resource tied to the player's chosen domains.                                                                                             | "You have lost at least 3 Technology domain points across all of your units." (This would reflect units being destroyed or effects that reduce domain values.) | This challenge aligns with the concept of domain points as a core resource in Quantum Nexus and introduces a consequence related to losing those points.                                                                                                |
+| Battlefield Disruption | `- (# of disruptive elements)`      | A disadvantageous alteration of the battlefield from the player's perspective.                                                                                  | "Two terrain cards that benefit your opponent are in play."                                                              | This links to the concepts of terrain cards and their impact on gameplay, as described in the sources.                                                                                                                                                                 |
+| Ability Lockdown       | `- (Number of Abilities Locked Down)` | Limits a player's ability to use card abilities for a duration.                                                                                               | **Revised Example:** "You have 3 or more units that were unable to activate their abilities last turn."                 | This connects to the importance of card abilities and their CP costs, which are core aspects of Quantum Nexus.  It introduces a strategic decision: whether to complete the challenge early and suffer the lockdown or try to manage without those abilities. |
 
 Notes:
  * CP Value: The CP value represents the impact of the challenge on the Adjusted CP calculation. Remember that negative challenges increase the Adjusted CP.

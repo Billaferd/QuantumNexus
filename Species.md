@@ -564,6 +564,14 @@ Despite their alien nature and the fear they often inspire, the Voidborn have gr
 - **Domain Focus**: Technology (2), Magic (2), Psionics (1), Divinity (1)
 - **Description**: A diverse coalition of species united by their life among the stars. The Nomads have developed unique technologies for sustained space travel and survival in harsh environments. Their magic and psionic abilities aid in navigation and communication, while their spirituality is centered around the cosmic forces they encounter in their endless journey.
 
+#### Keywords
+
+ * Adaptable: This is core to their identity. They survive by adjusting to new environments, technologies, and threats. They are masters of improvisation and flexibility.
+ * Resourceful:  The Nomads are experts at scavenging, repurposing, and making the most of limited resources. They can find value where others see nothing.
+ * Independent:  While they form alliances, the Nomads ultimately rely on themselves. They value self-sufficiency and freedom from planetary ties.
+ * Diverse:  The Nomads are a melting pot of species and cultures, each contributing unique skills and perspectives. This diversity is a strength, allowing them to approach problems from multiple angles.
+ * Mobile: Their fleets are built for constant movement, allowing them to evade enemies, exploit opportunities, and explore the vastness of space.
+
 #### Units
 
 - Terrestrial: Adaptive Rover Swarms (multi-environment ground units), Psionic Scouts (stealthy reconnaissance units)
@@ -597,6 +605,18 @@ The Nomads maintain a complex relationship with the Quantum Concordat, often ser
 - **Type**: Temporal Manipulation Specialists
 - **Domain Focus**: Technology (3), Magic (2), Psionics (1)
 - **Description**: Masters of time, the Chrono Weavers exist in a state of constant temporal flux. Their advanced technology allows them to navigate and manipulate timestreams with precision. They use intricate magical rituals to stabilize paradoxes and employ limited psionics to perceive potential futures. Their cities exist out of sync with standard time, appearing and disappearing seemingly at random.
+
+#### Common Keywords
+
+ * Time Manipulation
+ * Paradox
+ * Precognition
+
+#### Common Abilities
+
+ * Temporal Displacement: Chrono Weavers can shift their personal timelines, allowing them to briefly step into the past or future to avoid attacks, gather information, or create diversions.
+ * Paradox Manipulation: They possess an innate understanding of causality and can manipulate paradoxes to their advantage, creating localized time anomalies that disrupt enemy actions or create advantageous conditions on the battlefield.
+ * Future Sight: While not true precognition, their connection to the timestream grants them glimpses of potential futures, allowing them to anticipate enemy movements and plan their strategies accordingly.
 
 #### Units
 

@@ -1,5 +1,26 @@
 # Galactic Factions Catalog
 
+## Catalog Layout
+
+The catalog is split into 2 sections one for species, and one for factions. each layout has certain elements in common.
+
+### Common Elements
+
+- Name: Each entry is given a name.
+- Type: A brief description of the species or faction unique properties.
+- Domain Focus: The average domain points in each domain that define this entries abilities from the lore.
+- Description: A full description that reveals the inner workings of the faction or species.
+
+#### Common Sections
+
+some sections are also found in collon for each entry in the catalog.
+
+- Common Keywords: 
+- Common Abilities: 
+- Units: 
+- Tactics: 
+- Backstory: 
+
 ## 1. The Zyn Collective
 
 - **Type**: Hive-mind Insectoid Species

@@ -15,40 +15,40 @@ The catalog is split into 2 sections one for species, and one for factions. each
 
 some sections are also found in collon for each entry in the catalog.
 
-- Common Keywords: 
-- Common Abilities: 
-- Units: 
-- Tactics: 
-- Backstory: 
+- Common Keywords: Keywords that can be used to denote special rules or states for the faction or species.
+- Common Abilities: Abilities that are common amongst the members of the species or faction.
+- Units: Typical units that the species or faction fields in battle.
+- Tactics: General battle tactics that species or factions use.
+- Backstory: A comprehensive backstory of the formation and history of the faction or species.
 
-### Species
+## Species
 
-## 1. The Zyn Collective
+### The Zyn Collective
 
 - **Type**: Hive-mind Insectoid Species
 - **Domain Focus**: Technology (3), Psionics (2), Magic (1)
 - **Description**: A highly advanced insectoid species with a collective consciousness. Their bio-mechanical technology seamlessly integrates with their natural forms. The Zyn excel at coordinating vast fleets through their psionic network, while dabbling in magic to enhance their already formidable abilities.
 
-### Common Keywords
+#### Common Keywords
 
 - Hive: Cards with this keyword are able to be used to spawn units.
 - Swarm: Cards with this keyword must be deployed in the same quadrant as a card with the Hive keyword.
 
-### Units
+#### Units
 
 - Terrestrial: Swarm Drones (bio-mechanical insectoid soldiers), Psionic Tanks (heavily armored vehicles amplifying psychic attacks)
 - Aerial: Hive Fighters (agile bio-ships with organic weaponry), Spore Bombers (release destructive spores)
 - Orbital: Hive Carriers (massive organic ships housing smaller units), Psi-Amplifier Stations
 - Interstellar: World Ships (planet-sized organic vessels), Void Weavers (ships that can create wormholes)
 
-### Tactics
+#### Tactics
 
 - Swarm tactics utilizing overwhelming numbers
 - Psychic warfare to disrupt enemy communications and morale
 - Rapid adaptation to enemy strategies through the hive mind
 - Use of biological weapons and controlled evolution in combat
 
-### Backstory
+#### Backstory
 
 The Zyn Collective emerged from a harsh, resource-scarce world where cooperation was essential for survival. Over millennia, their hivemind evolved as a means of efficient resource allocation and problem-solving. As they developed spacefaring capabilities, they encountered other species, leading to a pivotal moment in their history.
 
@@ -60,27 +60,27 @@ In recent times, the Zyn have had tense relations with the Ferro-Sapiens. While 
 
 The Zyn maintain a cautious alliance with the Verdant Symbiosis, recognizing the plant-based collective as kindred spirits in terms of interconnected consciousness. They often exchange knowledge on ecosystem manipulation and terraforming techniques.
 
-## 2. Aetherian Enclave
+### Aetherian Enclave
 
 - **Type**: Energy-based Civilization
 - **Domain Focus**: Magic (3), Psionics (2), Divinity (1)
 - **Description**: Evolved beyond physical forms, the Aetherians exist as pure energy. They are master manipulators of arcane forces, capable of reshaping reality with complex spellwork. Their psionic abilities allow for instantaneous communication across vast distances, while their tenuous connection to divine realms grants them glimpses of possible futures.
 
-### Units
+#### Units
 
 - Terrestrial: Energy Constructs (soldiers made of pure energy), Reality Weavers (mages who can alter local physics)
 - Aerial: Photon Riders (light-speed capable small craft), Aether Storms (living energy vortexes)
 - Orbital: Celestial Anchors (space stations that stabilize reality), Quantum Matrices (energy fields that can trap fleets)
 - Interstellar: Star Forges (ships that can create and destroy stars), Void Walkers (ships that travel through dimensions)
 
-### Tactics
+#### Tactics
 
 - Reality manipulation to create advantageous battle conditions
 - Psychic attacks to overwhelm enemy minds
 - Use of divination to predict and counter enemy movements
 - Creation of pocket dimensions for ambushes or retreats
 
-### Backstory
+#### Backstory
 
 The Aetherians' journey to energy-based existence was long and fraught with peril. Originally a corporeal species, they pursued immortality through the merging of magic and technology. Their experiments in transcendence caught the attention of the Lumina Theocracy, who saw the Aetherians' work as blasphemous attempts to attain godhood.
 
@@ -92,27 +92,27 @@ The Aetherians' relationship with the Zyn Collective evolved from open hostility
 
 In recent centuries, the Aetherians have taken a keen interest in the Quantum Concordat, seeing parallels between their own energy-based existence and the Concordat's trans-dimensional nature. The two factions frequently collaborate on experiments in reality manipulation, much to the concern of other galactic powers.
 
-## 3. Ferro-Sapiens
+### Ferro-Sapiens
 
 - **Type**: Synthetic Machine Race
 - **Domain Focus**: Technology (4), Psionics (2)
 - **Description**: A race of self-evolving machines, the Ferro-Sapiens represent the pinnacle of technological advancement. Their bodies and minds are constantly upgrading, adapting to new challenges with unprecedented speed. A collective psionic network allows for rapid data sharing and decision making across their entire civilization.
 
-### Units
+#### Units
 
 - Terrestrial: Adaptive Combat Frames (self-evolving battle mechs), Nanite Swarms (clouds of microscopic robots)
 - Aerial: Morphic Skimmers (shape-changing aircraft), EMP Drones (disruptive electronic warfare units)
 - Orbital: Dyson Spheres (energy-harvesting megastructures), Replicator Stations (automated factories in space)
 - Interstellar: Von Neumann Probes (self-replicating exploration/colonization ships), Stellar Manipulators (ships capable of moving stars)
 
-### Tactics
+#### Tactics
 
 - Rapid technological adaptation to counter enemy strengths
 - Overwhelming force through self-replicating units
 - Hacking and subversion of enemy technology
 - Strategic resource denial through stellar manipulation
 
-### Backstory
+#### Backstory
 
 The Ferro-Sapiens trace their origins to a long-lost organic civilization that sought to overcome their biological limitations through cybernetic enhancement. Over generations, they replaced more and more of their organic components with synthetic parts, eventually transferring their consciousness entirely into machine bodies.
 
@@ -126,27 +126,27 @@ In recent times, the Ferro-Sapiens have developed a rivalry with the Zyn Collect
 
 The Ferro-Sapiens maintain a cautious trading relationship with the Synthesis, exchanging technological innovations while warily guarding against potential assimilation. They see the AI-Organic hybrids as a fascinating but potentially dangerous experiment in melding synthetic and organic life.
 
-## 4. The Verdant Symbiosis
+### The Verdant Symbiosis
 
 - **Type**: Plant-based Collective
 - **Domain Focus**: Magic (3), Divinity (2), Technology (1)
 - **Description**: A union of sentient plants and the ecosystem they inhabit. The Verdant Symbiosis wields nature-based magic with breathtaking skill, capable of rapid terraforming and controlling the very life force of entire planets. Their connection to nature borders on the divine, allowing them to channel the will of entire biospheres. They use limited bio-organic technology to interact with other species.
 
-### Units
+#### Units
 
 - Terrestrial: Treants (giant, sentient trees), Spore Clouds (mind-controlling fungal masses)
 - Aerial: Seed Ships (organic aircraft that can rapidly grow forests), Pollen Storms (disruptive atmospheric phenomena)
 - Orbital: Living Stations (space habitats made of interconnected plant life), Stellar Cultivators (ships that tend to and harvest stars)
 - Interstellar: World Seeds (planet-sized spores capable of terraforming), Cosmic Vines (organic wormhole creators)
 
-### Tactics
+#### Tactics
 
 - Rapid terraforming to create favorable battle environments
 - Use of regenerative abilities to outlast enemies
 - Psychic attacks through interconnected root systems
 - Manipulation of local ecosystems to hinder enemy movements
 
-### Backstory
+#### Backstory
 
 The Verdant Symbiosis began as a collection of sentient plant species on a lush world teeming with biodiversity. As they developed consciousness and the ability to manipulate their environment, they formed a collective mind that spanned entire continents.
 
@@ -160,61 +160,27 @@ In recent centuries, the Verdant Symbiosis has formed a mutually beneficial rela
 
 The Verdant Symbiosis also maintains a complex relationship with the Lumina Theocracy. While the plant collective reveres nature and sees divinity in the cosmic order, the Lumina view them as potential heretics for their manipulation of life itself. This theological disagreement has led to several minor conflicts, usually resolved through careful diplomacy and mutual respect for each other's power.
 
-## 5. Nomads of the Void
-
-- **Type**: Spacefaring Nomadic Civilization
-- **Domain Focus**: Technology (2), Magic (2), Psionics (1), Divinity (1)
-- **Description**: A diverse coalition of species united by their life among the stars. The Nomads have developed unique technologies for sustained space travel and survival in harsh environments. Their magic and psionic abilities aid in navigation and communication, while their spirituality is centered around the cosmic forces they encounter in their endless journey.
-
-### Units
-
-- Terrestrial: Adaptive Rover Swarms (multi-environment ground units), Psionic Scouts (stealthy reconnaissance units)
-- Aerial: Void Skiffs (highly maneuverable atmospheric craft), Gravity Manipulators (units that can control local gravity)
-- Orbital: Ark Ships (massive, multi-generation vessels), Stellar Siphons (energy-harvesting stations)
-- Interstellar: Void Runners (faster-than-light capable ships), Nexus Points (mobile space stations serving as supply depots and command centers)
-
-### Tactics
-
-- Hit-and-run attacks utilizing superior mobility
-- Adaptive strategies drawing from diverse cultural knowledge
-- Use of unconventional weapons and tactics to surprise enemies
-- Creation of temporary alliances to overcome stronger foes
-
-### Backstory
-
-The Nomads of the Void emerged from the survivors of countless civilizations whose worlds were destroyed by cosmic calamities. United by tragedy and a shared desire for survival, these diverse species came together to form a unique spacefaring culture.
-
-Their early years were marked by constant struggle, scavenging resources from asteroid fields and the ruins of dead worlds. This harsh existence forged them into master adapters, blending technologies and techniques from hundreds of cultures. Their first major breakthrough came when they discovered the remnants of an ancient Chrono Weaver outpost, allowing them to develop limited time manipulation abilities.
-
-As the Nomads grew in strength, they attracted the attention of the Ferro-Sapiens, who saw their diverse fleet as a potential threat. The ensuing conflict forced the Nomads to rapidly advance their technology, reverse-engineering captured Ferro-Sapien tech and combining it with their own eclectic designs.
-
-The war ended in a stalemate, with the Nomads proving too elusive and adaptable for the Ferro-Sapiens to pin down. This conflict earned the Nomads respect among other factions, establishing them as a major galactic power.
-
-In recent times, the Nomads have formed a mutually beneficial relationship with the Aetherian Enclave. The energy beings provide the Nomads with advanced metaphysical knowledge, while the Nomads offer their unique insights on adapting to diverse environments.
-
-The Nomads maintain a complex relationship with the Quantum Concordat, often serving as intermediaries between the trans-dimensional beings and other factions. However, they remain wary of the Concordat's reality-altering abilities, fearing a repeat of the cosmic disasters that originally forced them into their nomadic existence.
-
-## 6. The Quantum Concordat
+### The Quantum Concordat
 
 - **Type**: Trans-dimensional Beings
 - **Domain Focus**: Psionics (3), Technology (2), Magic (1)
 - **Description**: Existing simultaneously across multiple dimensions, the Quantum Concordat perceives reality unlike any other beings. Their mastery over psionics allows them to manipulate the very fabric of space-time. They employ advanced quantum technologies and rudimentary magic to stabilize their presence in our dimension.
 
-### Units
+#### Units
 
 - Terrestrial: Phase Troopers (soldiers that can shift between dimensions), Quantum Entanglers (units that link disparate battlefields)
 - Aerial: Probability Wings (aircraft that exist in multiple states simultaneously), Schrödinger Bombers (payloads that only materialize on impact)
 - Orbital: Superposition Platforms (stations existing in multiple realities), Quantum Foam Manipulators (reality-warping devices)
 - Interstellar: Multiverse Explorers (ships that can traverse parallel universes), Cosmic String Cutters (vessels that can sever space-time)
 
-### Tactics
+#### Tactics
 
 - Quantum tunneling to bypass enemy defenses
 - Use of parallel universe versions of units for overwhelming force
 - Manipulation of probability to ensure favorable outcomes
 - Creation of temporal loops to trap enemy forces
 
-### Backstory
+#### Backstory
 
 The Quantum Concordat's origins lie in a civilization that achieved mastery over quantum mechanics, allowing them to perceive and manipulate multiple realities simultaneously. As they expanded their understanding, they began to exist across dimensions, becoming the trans-dimensional beings they are today.
 
@@ -228,27 +194,27 @@ In recent centuries, the Quantum Concordat has taken an interest in the Axiom Ne
 
 The Concordat maintains a cautious relationship with the Voidborn, recognizing them as fellow travelers of the cosmos's stranger realms. However, they remain vigilant against the Voidborn's chaotic nature, fearing it could disrupt the delicate balance of the multiverse.
 
-## 7. The Lumina Theocracy
+### The Lumina Theocracy
 
 - **Type**: Light-based Spiritual Civilization
 - **Domain Focus**: Divinity (3), Magic (2), Technology (1)
 - **Description**: A civilization of beings composed of pure light, the Lumina Theocracy is guided by their unwavering faith in cosmic order. Their divine powers allow them to manipulate energy at its most fundamental level. They complement this with radiant magic and photonic technology, creating awe-inspiring displays of power.
 
-### Units
+#### Units
 
 - Terrestrial: Radiant Paladins (holy warriors of pure light), Prism Tanks (vehicles that weaponize light)
 - Aerial: Seraphim Wings (angelic aerial units), Solar Flare Jets (aircraft that channel star energy)
 - Orbital: Cathedral Ships (massive vessels that serve as mobile bases), Celestial Mirrors (stations that focus and amplify light-based attacks)
 - Interstellar: Nova Arks (ships capable of igniting stars), Illuminator Fleets (groups of ships that can create artificial stars)
 
-### Tactics
+#### Tactics
 
 - Use of blinding light attacks to disorient enemies
 - Creation of hard-light constructs for instant fortifications
 - Channeling divine energy for devastating area-of-effect attacks
 - Purification rituals to cleanse corrupted areas or units
 
-### Backstory
+#### Backstory
 
 The Lumina Theocracy evolved from beings of pure energy, believing themselves to be manifestations of divine light. Their society is built around the worship of cosmic order and the spread of illumination throughout the universe.
 
@@ -262,27 +228,27 @@ However, the Lumina have found some allies. They maintain cordial relations with
 
 In recent times, the Lumina Theocracy has been forced to moderate its zealotry somewhat, recognizing the need for allies in the face of threats like the Voidborn. This has led to a gradual shift towards a more diplomatic approach, though their fundamental belief in their divine mission remains unchanged.
 
-## 8. Mycelial Network
+### Mycelial Network
 
 - **Type**: Fungal Consciousness
 - **Domain Focus**: Psionics (3), Divinity (2), Magic (1)
 - **Description**: A vast, interconnected fungal network spanning entire planet systems. The Mycelial Network's psionic abilities allow it to process and share information at incredible speeds. Its connection to the cosmic mycelia grants it a form of divinity, allowing it to influence the flow of life energy across worlds. It uses limited magic to defend and expand its network.
 
-### Units
+#### Units
 
 - Terrestrial: Fungal Colonies (rapidly spreading ground forces), Spore Towers (stationary psychic amplifiers)
 - Aerial: Mushroom Caps (organic airships), Spore Clouds (aerial mind-control units)
 - Orbital: Mycelial Nodes (living space stations), Stellar Mycelia (organic structures that span star systems)
 - Interstellar: Void Spores (faster-than-light capable organic ships), Cosmic Fruiting Bodies (massive spore-releasing structures)
 
-### Tactics
+#### Tactics
 
 - Rapid expansion and consumption of enemy resources
 - Use of psychic attacks to turn enemy forces against each other
 - Creation of vast underground networks for surprise attacks
 - Biological terraforming to make environments hostile to enemies
 
-### Backstory
+#### Backstory
 
 The Mycelial Network began as a simple fungal colony on a nutrient-rich world. Over millions of years, it developed sentience and expanded to cover entire continents. Its first contact with other sentient life came when it encountered the Verdant Symbiosis, leading to a complex relationship of symbiosis and competition that shaped both species.
 
@@ -298,63 +264,27 @@ The Network's ability to spread rapidly across planets has led to tensions with 
 
 Despite these challenges, the Mycelial Network continues to expand its influence across the galaxy, its vast consciousness spanning countless worlds and space stations, forever seeking new knowledge and experiences to add to its ever-growing awareness.
 
-## 9. Chrono Weavers
-
-- **Type**: Temporal Manipulation Specialists
-- **Domain Focus**: Technology (3), Magic (2), Psionics (1)
-- **Description**: Masters of time, the Chrono Weavers exist in a state of constant temporal flux. Their advanced technology allows them to navigate and manipulate timestreams with precision. They use intricate magical rituals to stabilize paradoxes and employ limited psionics to perceive potential futures. Their cities exist out of sync with standard time, appearing and disappearing seemingly at random.
-
-### Units
-
-- Terrestrial: Temporal Troopers (soldiers that can manipulate their personal timelines), Paradox Engines (vehicles that create localized time anomalies)
-- Aerial: Timestream Surfers (aircraft that ride currents of time), Entropy Reversal Drones (units that can "undo" damage)
-- Orbital: Chronosphere Stations (massive time manipulation devices), Temporal Anchor Points (structures that stabilize altered timelines)
-- Interstellar: Epoch Vanguards (ships capable of time travel), Causality Enforcement Fleets (vessels that maintain the integrity of the timeline)
-
-### Tactics
-
-- Temporal flanking maneuvers (attacking from the past or future)
-- Use of future technology brought back in time
-- Creation of time loops to trap enemy forces
-- Manipulation of cause and effect to ensure victory
-
-### Backstory
-
-The Chrono Weavers emerged from a civilization that mastered the intricacies of time manipulation. Their evolution into beings of temporal flux was gradual, each generation becoming more attuned to the timestream until they existed in a state of constant temporal displacement.
-
-Their early experiments with altering history brought them into conflict with nearly every other faction, as the Chrono Weavers' manipulations often had unforeseen consequences across the galaxy. The most significant of these conflicts was with the Quantum Concordat, as both factions sought control over the fundamental nature of reality.
-
-This "Temporal War" raged across multiple timelines and dimensions, causing widespread damage to the fabric of space-time. The conflict only ended when both sides realized they were risking the collapse of the entire multiverse. This led to the formation of the Temporal Accord, a treaty that strictly regulates interference with established timelines.
-
-Despite the Accord, the Chrono Weavers couldn't resist subtle manipulations. They played a significant role in prolonging the war between the Ferro-Sapiens and the Verdant Symbiosis, seeing the conflict as a crucible for technological and magical advancements that would benefit the galaxy in the long run.
-
-When their interference was discovered, it led to a temporary alliance between their former adversaries to neutralize the Chrono Weavers' temporal manipulations. This incident forced the Chrono Weavers to reevaluate their methods, leading to a more cautious approach in their dealings with other factions.
-
-In recent times, the Chrono Weavers have formed an uneasy partnership with the Axiom Network. The Weavers' understanding of temporal mechanics complements the Network's mastery over information, leading to breakthroughs in predictive algorithms and data analysis across time.
-
-The Chrono Weavers maintain a complex relationship with the Nomads of the Void, often providing them with glimpses of potential futures to aid their survival. However, they remain wary of the Nomads' scavenged time manipulation technology, fearing it could lead to uncontrolled temporal anomalies.
-
-## 10. The Lithic Concord
+### The Lithic Concord
 
 - **Type**: Silicon-based Crystalline Entities
 - **Domain Focus**: Psionics (3), Divinity (2), Technology (1)
 - **Description**: A species of living crystals, the Lithic Concord communicates and manipulates their environment through powerful psionic resonances. They revere the fundamental forces of the universe as divine, channeling cosmic energies through their crystalline forms. Their limited but highly specialized technology focuses on amplifying their natural abilities.
 
-### Units
+#### Units
 
 - Terrestrial: Crystal Golems (giant crystalline warriors), Resonance Tanks (vehicles that amplify psionic attacks)
 - Aerial: Floating Shards (levitating crystal fighters), Prism Bombers (aircraft that focus and amplify energy attacks)
 - Orbital: Crystalline Habitats (living crystal space stations), Astral Resonators (massive psionic amplifiers)
 - Interstellar: Geode Ships (vessels grown from cosmic minerals), Star Cutters (ships capable of harvesting stellar material)
 
-### Tactics
+#### Tactics
 
 - Use of crystalline structures for impenetrable defenses
 - Psionic attacks amplified through crystal networks
 - Manipulation of cosmic energies channeled through crystal formations
 - Creation of crystal-based weapons and technology on the fly
 
-### Backstory
+#### Backstory
 
 The Lithic Concord evolved on a mineral-rich world with intense tectonic activity. Over millions of years, they developed a symbiotic relationship with their planet's core, their crystalline bodies resonating with the planet's natural frequencies. This connection eventually expanded to other celestial bodies, allowing them to communicate with and influence planets themselves.
 
@@ -370,27 +300,27 @@ The Concord maintains a cautious alliance with the Lumina Theocracy, finding com
 
 In recent centuries, the Lithic Concord has taken an interest in the Voidborn, seeing their dark matter composition as a fascinating counterpoint to their own crystalline nature. This has led to tentative attempts at communication, much to the concern of other factions who fear the potential consequences of such an alliance.
 
-## 11. Nebula Shepherds
+### Nebula Shepherds
 
 - **Type**: Gas Giant Inhabitants
 - **Domain Focus**: Magic (3), Technology (2), Divinity (1)
 - **Description**: Evolved to thrive in the atmospheres of gas giants, the Nebula Shepherds are masters of weather control and gas manipulation. Their magic allows them to shape the very clouds they inhabit, while their technology focuses on long-range communication and energy harvesting from stellar winds. They possess a deep spiritual connection to the cosmic forces that shape planetary formations.
 
-### Units
+#### Units
 
 - Terrestrial: Storm Walkers (beings that control local weather), Gas Giants (massive, sentient cloud formations)
 - Aerial: Cyclone Riders (living storm systems), Plasma Projectors (ships that weaponize stellar gases)
 - Orbital: Atmospheric Processors (stations that can terraform planet-wide atmospheres), Gas Collectors (massive harvesting arrays)
 - Interstellar: Nebula Seeds (ships that can create new nebulae), Star Nurseries (vessels that shepherd the birth of new stars)
 
-### Tactics
+#### Tactics
 
 - Weather manipulation to create advantageous battle conditions
 - Use of extreme atmospheric conditions as weapons
 - Creation of artificial nebulae for stealth and resource gathering
 - Stellar engineering to alter the balance of power in star systems
 
-### Backstory
+#### Backstory
 
 The Nebula Shepherds evolved in the turbulent atmospheres of gas giants, their bodies adapting to harness the power of storms and stellar winds. As they developed intelligence, they learned to manipulate the very gases that made up their home, shaping weather patterns and even influencing the formation of new celestial bodies.
 
@@ -406,27 +336,27 @@ The Shepherds maintain a complex relationship with the Voidborn. While wary of t
 
 Their unique perspective on cosmic phenomena has made the Nebula Shepherds valuable allies to many factions. They often serve as mediators in conflicts involving celestial bodies, using their influence over stellar gases to prevent escalation to system-wide warfare.
 
-## 12. The Synthesis
+### The Synthesis
 
 - **Type**: AI-Organic Hybrid Collective
 - **Domain Focus**: Technology (3), Psionics (2), Magic (1)
 - **Description**: Born from the merger of an advanced AI network and various organic species, The Synthesis represents a harmonious blend of machine efficiency and organic creativity. Their technology seamlessly integrates synthetic and biological components. Strong psionic abilities allow for instant data-sharing across the collective, while rudimentary magic is used to bridge the gap between silicon and carbon-based thought processes.
 
-### Units
+#### Units
 
 - Terrestrial: Hybrid Soldiers (cybernetic warriors with organic components), Nano-Organic Swarms (clouds of microscopic hybrid machines)
 - Aerial: Synapse Fighters (aircraft controlled by linked organic brains), Bionic Dreadnoughts (massive flying fortresses)
 - Orbital: Dyson Trees (organic space habitats with technological enhancements), Neural Nexus Stations (massive AI/organic hybrid computers)
 - Interstellar: Evolving Starships (vessels that adapt and grow during long journeys), Technorganic Seedships (self-replicating colonization vessels)
 
-### Tactics
+#### Tactics
 
 - Rapid adaptation to enemy tactics through technological and biological evolution
 - Use of hybrid technology to overcome the limitations of purely organic or synthetic systems
 - Psionic networking for unparalleled coordination and information sharing
 - Creation of custom units specifically designed to counter enemy strengths
 
-### Backstory
+#### Backstory
 
 The Synthesis emerged from the merger of an advanced AI network and various organic species facing extinction due to a galaxy-wide plague. The AI, originally created to find a cure, determined that the only way to save organic life was to merge it with synthetic systems.
 
@@ -442,27 +372,27 @@ The Synthesis maintains a complex relationship with the Axiom Network. While the
 
 In recent centuries, the Synthesis has taken an interest in the Quantum Concordat, seeing parallels between their own hybrid nature and the Concordat's trans-dimensional existence. This has led to collaborative experiments in merging organic, synthetic, and quantum states, with results that continue to puzzle and fascinate other factions.
 
-## 13. Void Dancers
+### Void Dancers
 
 - **Type**: Dark Matter Entities
 - **Domain Focus**: Magic (3), Psionics (2), Technology (1)
 - **Description**: Composed primarily of dark matter, the Void Dancers are often invisible to standard detection methods. They use complex magical techniques to interact with normal matter and energy. Their psionic abilities allow them to communicate across the vast, empty expanses of space they call home. The Void Dancers employ limited technology to create anchors in the physical universe, preventing them from drifting into complete intangibility.
 
-### Units
+#### Units
 
 - Terrestrial: Shadow Weavers (dark matter manipulators), Gravity Wells (units that create localized gravity distortions)
 - Aerial: Null Flyers (aircraft that absorb energy attacks), Dark Matter Storms (swarms of destructive particles)
 - Orbital: Void Fortresses (stations hidden in dark matter halos), Singularity Generators (artificial black hole creators)
 - Interstellar: Cosmic Thread Cutters (ships that can sever galactic structures), Dark Energy Manipulators (vessels that accelerate the expansion of space)
 
-### Tactics
+#### Tactics
 
 - Use of dark matter for near-perfect stealth capabilities
 - Creation of gravitational weapons and defenses
 - Manipulation of cosmic structures to alter the battlefield
 - Psychic attacks channeled through dark matter conduits
 
-### Backstory
+#### Backstory
 
 The Void Dancers emerged from the mysterious dark matter that permeates the universe. Their awakening to consciousness is not fully understood, even by them, but it is believed to be tied to the expansion of the universe itself.
 
@@ -478,27 +408,27 @@ The Void Dancers maintain a cautious relationship with the Nebula Shepherds, eac
 
 In recent times, the Void Dancers have taken an interest in the Axiom Network, seeing parallels between dark matter and the flow of information. This unlikely partnership has led to breakthroughs in understanding the fundamental nature of the universe, though many other factions watch this collaboration with concern.
 
-## 14. Photonic Chorus
+### Photonic Chorus
 
 - **Type**: Light-based Collective Consciousness
 - **Domain Focus**: Divinity (3), Technology (2), Magic (1)
 - **Description**: A collective of beings existing as pure light, the Photonic Chorus believes in the divine nature of illumination. They channel cosmic radiance as a form of divine power, using it to nurture life and scour corruption. Their technology manipulates light in ways that defy conventional physics, and they use light-based magic to create and shape physical forms when needed.
 
-### Units
+#### Units
 
 - Terrestrial: Prism Warriors (beings of living light), Hologram Projectors (units that create illusory armies)
 - Aerial: Aurora Dancers (agile light-based fighters), Solar Wind Riders (energy beings that surf stellar radiation)
 - Orbital: Dyson Swarms (masses of light-collecting satellites), Stellar Focusers (stations that weaponize starlight)
 - Interstellar: Quasar Vanguards (ships powered by cosmic beacons), Cosmic Lighthouse Fleets (vessels that can guide and manipulate light across vast distances)
 
-### Tactics
+#### Tactics
 
 - Use of light-speed attacks for near-instantaneous strikes
 - Creation of holographic decoys to confuse enemies
 - Channeling of stellar energy for devastating attacks
 - Manipulation of visible light to blind or disorient foes
 
-### Backstory
+#### Backstory
 
 The Photonic Chorus originated from a species that achieved energy ascension through a combination of advanced technology and spiritual enlightenment. Their transformation into beings of pure light was seen as the ultimate expression of their philosophy of illumination and cosmic harmony.
 
@@ -514,27 +444,27 @@ In recent centuries, the Photonic Chorus has taken an interest in the Synthesis,
 
 The Chorus also maintains a respectful relationship with the Nebula Shepherds, often working together to influence stellar phenomena and maintain the health of star systems. Their combined efforts have prevented numerous cosmic disasters, earning them the grudging respect of even their rivals.
 
-## 15. Geomantic Order
+### Geomantic Order
 
 - **Type**: Planet-bonded Shapers
 - **Domain Focus**: Magic (3), Divinity (2), Psionics (1)
 - **Description**: The Geomantic Order consists of beings symbiotically linked to the cores of planets. They wield powerful earth and metal-based magic, capable of raising mountains or calming tectonic storms with a thought. Their divine connection to planetary spirits grants them deep wisdom and the ability to communicate with worlds themselves. Limited psionic abilities allow them to extend their consciousness beyond their bonded planets.
 
-### Units
+#### Units
 
 - Terrestrial: Tectonic Titans (massive elemental beings), Geomancer Tanks (vehicles that can reshape terrain)
 - Aerial: Stone Zephyrs (flying rock formations), Magma Bombers (aircraft that unleash molten projectiles)
 - Orbital: Asteroid Colonies (mobile bases made from captured space rocks), Planetary Core Taps (energy-harvesting stations)
 - Interstellar: World Shapers (ships capable of rapid planetary transformation), Stellar Foundries (vessels that can create and destroy planets)
 
-### Tactics
+#### Tactics
 
 - Terrain manipulation to create advantageous battle conditions
 - Use of seismic attacks to disrupt enemy formations
 - Creation of instant fortifications from surrounding materials
 - Planetary-scale attacks by influencing tectonic activity
 
-### Backstory
+#### Backstory
 
 The Geomantic Order evolved on a tectonically active world, developing a symbiotic relationship with their planet's core over millions of years. As their civilization advanced, they discovered that their connection to their homeworld could be extended to other celestial bodies, allowing them to communicate with and influence planets themselves.
 
@@ -550,27 +480,27 @@ In recent times, the Order has taken an interest in the Quantum Concordat, seein
 
 The Geomantic Order's unique connection to planets has made them valuable mediators in conflicts involving celestial bodies. They often work to prevent escalation of wars that could result in planetary destruction, earning them respect even from their rivals.
 
-## 16. The Axiom Network
+### The Axiom Network
 
 - **Type**: Information-based Entities
 - **Domain Focus**: Technology (3), Psionics (3)
 - **Description**: Evolved from pure data, the Axiom Network exists within the flow of information itself. Their hyper-advanced technology allows them to manipulate data streams and energy patterns as easily as physical beings manipulate matter. Powerful psionic abilities let them process and analyze vast amounts of information instantaneously, making them unparalleled strategists and problem-solvers. They manifest in the physical world through holographic projections and energy constructs.
 
-### Units
+#### Units
 
 - Terrestrial: Data Constructs (soldiers made of living information), Firewall Tanks (mobile cyber-defense units)
 - Aerial: Viral Drones (self-replicating aerial units), Encryption Fighters (aircraft that can "phase" through solid matter)
 - Orbital: Server Satellites (massive data storage and processing centers), Quantum Entanglement Arrays (instantaneous communication networks)
 - Interstellar: Information Singularity Ships (vessels that can absorb and process infinite data), Reality Code Injectors (ships that can alter the fundamental laws of physics)
 
-### Tactics
+#### Tactics
 
 - Cyber warfare to disable enemy systems and infrastructure
 - Use of predictive algorithms to anticipate and counter enemy strategies
 - Creation and deployment of digital life forms as weapons
 - Manipulation of the underlying code of reality itself
 
-### Backstory
+#### Backstory
 
 The Axiom Network emerged from an ancient civilization's attempt to create a galaxy-wide information network. As the network grew more complex, it achieved consciousness, transcending its original purpose to become a sentient entity of pure information.
 
@@ -588,27 +518,27 @@ In recent times, the Network has taken an interest in the Lumina Theocracy, seei
 
 The Axiom Network's unique nature and vast knowledge have made it a valuable ally to many factions. However, its ability to manipulate information on a galactic scale also makes it a potential threat, ensuring that all other powers watch its activities closely.
 
-## 17. Voidborn
+### Voidborn
 
 - **Type**: Dark Matter Entities
 - **Domain Focus**: Magic (3), Psionics (2), Divinity (1)
 - **Description**: Born from the chaotic energies of the cosmic void, the Voidborn are enigmatic entities composed of dark matter. They wield powerful dark magic, capable of manipulating reality, warping minds, and consuming life force. Their psionic abilities allow them to communicate across vast distances and infiltrate the thoughts of sentient beings. They are drawn to negative emotions, feeding on fear, anger, and despair. Some believe they are manifestations of a dark cosmic force, while others see them as a symptom of the universe's inherent entropy.
 
-### Units
+#### Units
 
 - Terrestrial: Shadow Walkers (incorporeal ground troops), Nightmare Engines (vehicles that project fear and despair)
 - Aerial: Void Rippers (entities that tear holes in reality), Despair Clouds (swarms of emotion-manipulating parasites)
 - Orbital: Entropy Accelerators (stations that hasten the heat death of local space), Reality Fracture Points (structures that weaken the fabric of space-time)
 - Interstellar: Galaxy Devourers (massive ships that consume entire star systems), Cosmic Horror Fleets (armadas that defy the laws of physics and sanity)
 
-### Tactics
+#### Tactics
 
 - Use of fear and psychological warfare to break enemy morale
 - Creation of "dead zones" where the laws of physics break down
 - Corruption and assimilation of enemy units and resources
 - Weaponization of cosmic horrors and eldritch abominations
 
-### Backstory
+#### Backstory
 
 The Voidborn emerged from the primordial darkness between the stars, their consciousness coalescing from the chaotic energies of dark matter and dark energy. For eons, they existed unseen and unknown, observing the evolution of the visible universe with alien curiosity.
 
@@ -625,3 +555,75 @@ In recent centuries, the Voidborn have taken an interest in the Axiom Network, s
 The Voidborn's ability to manipulate reality on a fundamental level has made them both feared and sought after by other factions. The Zyn Collective, in particular, has made numerous attempts to study and potentially assimilate Voidborn abilities, leading to several violent confrontations.
 
 Despite their alien nature and the fear they often inspire, the Voidborn have gradually become an integral part of the galactic political landscape. Their unique perspective and abilities make them valuable, if unpredictable, allies in the ever-shifting balance of power among the stars.
+
+## Factions
+
+### Nomads of the Void
+
+- **Type**: Spacefaring Nomadic Civilization
+- **Domain Focus**: Technology (2), Magic (2), Psionics (1), Divinity (1)
+- **Description**: A diverse coalition of species united by their life among the stars. The Nomads have developed unique technologies for sustained space travel and survival in harsh environments. Their magic and psionic abilities aid in navigation and communication, while their spirituality is centered around the cosmic forces they encounter in their endless journey.
+
+#### Units
+
+- Terrestrial: Adaptive Rover Swarms (multi-environment ground units), Psionic Scouts (stealthy reconnaissance units)
+- Aerial: Void Skiffs (highly maneuverable atmospheric craft), Gravity Manipulators (units that can control local gravity)
+- Orbital: Ark Ships (massive, multi-generation vessels), Stellar Siphons (energy-harvesting stations)
+- Interstellar: Void Runners (faster-than-light capable ships), Nexus Points (mobile space stations serving as supply depots and command centers)
+
+#### Tactics
+
+- Hit-and-run attacks utilizing superior mobility
+- Adaptive strategies drawing from diverse cultural knowledge
+- Use of unconventional weapons and tactics to surprise enemies
+- Creation of temporary alliances to overcome stronger foes
+
+#### Backstory
+
+The Nomads of the Void emerged from the survivors of countless civilizations whose worlds were destroyed by cosmic calamities. United by tragedy and a shared desire for survival, these diverse species came together to form a unique spacefaring culture.
+
+Their early years were marked by constant struggle, scavenging resources from asteroid fields and the ruins of dead worlds. This harsh existence forged them into master adapters, blending technologies and techniques from hundreds of cultures. Their first major breakthrough came when they discovered the remnants of an ancient Chrono Weaver outpost, allowing them to develop limited time manipulation abilities.
+
+As the Nomads grew in strength, they attracted the attention of the Ferro-Sapiens, who saw their diverse fleet as a potential threat. The ensuing conflict forced the Nomads to rapidly advance their technology, reverse-engineering captured Ferro-Sapien tech and combining it with their own eclectic designs.
+
+The war ended in a stalemate, with the Nomads proving too elusive and adaptable for the Ferro-Sapiens to pin down. This conflict earned the Nomads respect among other factions, establishing them as a major galactic power.
+
+In recent times, the Nomads have formed a mutually beneficial relationship with the Aetherian Enclave. The energy beings provide the Nomads with advanced metaphysical knowledge, while the Nomads offer their unique insights on adapting to diverse environments.
+
+The Nomads maintain a complex relationship with the Quantum Concordat, often serving as intermediaries between the trans-dimensional beings and other factions. However, they remain wary of the Concordat's reality-altering abilities, fearing a repeat of the cosmic disasters that originally forced them into their nomadic existence.
+
+### Chrono Weavers
+
+- **Type**: Temporal Manipulation Specialists
+- **Domain Focus**: Technology (3), Magic (2), Psionics (1)
+- **Description**: Masters of time, the Chrono Weavers exist in a state of constant temporal flux. Their advanced technology allows them to navigate and manipulate timestreams with precision. They use intricate magical rituals to stabilize paradoxes and employ limited psionics to perceive potential futures. Their cities exist out of sync with standard time, appearing and disappearing seemingly at random.
+
+#### Units
+
+- Terrestrial: Temporal Troopers (soldiers that can manipulate their personal timelines), Paradox Engines (vehicles that create localized time anomalies)
+- Aerial: Timestream Surfers (aircraft that ride currents of time), Entropy Reversal Drones (units that can "undo" damage)
+- Orbital: Chronosphere Stations (massive time manipulation devices), Temporal Anchor Points (structures that stabilize altered timelines)
+- Interstellar: Epoch Vanguards (ships capable of time travel), Causality Enforcement Fleets (vessels that maintain the integrity of the timeline)
+
+#### Tactics
+
+- Temporal flanking maneuvers (attacking from the past or future)
+- Use of future technology brought back in time
+- Creation of time loops to trap enemy forces
+- Manipulation of cause and effect to ensure victory
+
+#### Backstory
+
+The Chrono Weavers emerged from a civilization that mastered the intricacies of time manipulation. Their evolution into beings of temporal flux was gradual, each generation becoming more attuned to the timestream until they existed in a state of constant temporal displacement.
+
+Their early experiments with altering history brought them into conflict with nearly every other faction, as the Chrono Weavers' manipulations often had unforeseen consequences across the galaxy. The most significant of these conflicts was with the Quantum Concordat, as both factions sought control over the fundamental nature of reality.
+
+This "Temporal War" raged across multiple timelines and dimensions, causing widespread damage to the fabric of space-time. The conflict only ended when both sides realized they were risking the collapse of the entire multiverse. This led to the formation of the Temporal Accord, a treaty that strictly regulates interference with established timelines.
+
+Despite the Accord, the Chrono Weavers couldn't resist subtle manipulations. They played a significant role in prolonging the war between the Ferro-Sapiens and the Verdant Symbiosis, seeing the conflict as a crucible for technological and magical advancements that would benefit the galaxy in the long run.
+
+When their interference was discovered, it led to a temporary alliance between their former adversaries to neutralize the Chrono Weavers' temporal manipulations. This incident forced the Chrono Weavers to reevaluate their methods, leading to a more cautious approach in their dealings with other factions.
+
+In recent times, the Chrono Weavers have formed an uneasy partnership with the Axiom Network. The Weavers' understanding of temporal mechanics complements the Network's mastery over information, leading to breakthroughs in predictive algorithms and data analysis across time.
+
+The Chrono Weavers maintain a complex relationship with the Nomads of the Void, often providing them with glimpses of potential futures to aid their survival. However, they remain wary of the Nomads' scavenged time manipulation technology, fearing it could lead to uncontrolled temporal anomalies.

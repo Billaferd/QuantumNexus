@@ -627,3 +627,8 @@ When their interference was discovered, it led to a temporary alliance between t
 In recent times, the Chrono Weavers have formed an uneasy partnership with the Axiom Network. The Weavers' understanding of temporal mechanics complements the Network's mastery over information, leading to breakthroughs in predictive algorithms and data analysis across time.
 
 The Chrono Weavers maintain a complex relationship with the Nomads of the Void, often providing them with glimpses of potential futures to aid their survival. However, they remain wary of the Nomads' scavenged time manipulation technology, fearing it could lead to uncontrolled temporal anomalies.
+
+### Concord of the Cosmos
+
+### Guardians of the Veil
+

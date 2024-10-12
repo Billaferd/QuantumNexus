@@ -21,11 +21,18 @@ some sections are also found in collon for each entry in the catalog.
 - Tactics: 
 - Backstory: 
 
+### Species
+
 ## 1. The Zyn Collective
 
 - **Type**: Hive-mind Insectoid Species
 - **Domain Focus**: Technology (3), Psionics (2), Magic (1)
 - **Description**: A highly advanced insectoid species with a collective consciousness. Their bio-mechanical technology seamlessly integrates with their natural forms. The Zyn excel at coordinating vast fleets through their psionic network, while dabbling in magic to enhance their already formidable abilities.
+
+### Common Keywords
+
+- Hive: Cards with this keyword are able to be used to spawn units.
+- Swarm: Cards with this keyword must be deployed in the same quadrant as a card with the Hive keyword.
 
 ### Units
 

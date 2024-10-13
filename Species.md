@@ -68,6 +68,10 @@ The Zyn maintain a cautious alliance with the Verdant Symbiosis, recognizing the
 - **Domain Focus**: Magic (3), Psionics (2), Divinity (1)
 - **Description**: Evolved beyond physical forms, the Aetherians exist as pure energy. They are master manipulators of arcane forces, capable of reshaping reality with complex spellwork. Their psionic abilities allow for instantaneous communication across vast distances, while their tenuous connection to divine realms grants them glimpses of possible futures.
 
+#### Common Keywords
+
+Ethereal: During the Command Phase this unit can "phase-out". Once a unit is phased out it can no longer attack or be attacked until the next command phase.
+
 #### Units
 
 - Terrestrial: Energy Constructs (soldiers made of pure energy), Reality Weavers (mages who can alter local physics)

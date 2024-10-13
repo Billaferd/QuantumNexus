@@ -33,6 +33,8 @@ some sections are also found in collon for each entry in the catalog.
 
 - Hive: Cards with this keyword are able to be used to spawn units.
 - Swarm: Cards with this keyword must be deployed in the same quadrant as a card with the Hive keyword.
+- Adapt: Pay X CP to increase Attack *OR* Defense an equal amount until the next ready phase.
+- Augment: When a unit is defeated, you may choose to copy an ability from the defeated unit until the end of the next battle phase.
 
 #### Units
 

@@ -15,12 +15,14 @@ Before building a deck, it's crucial to have a solid grasp of the basic game mec
 Quantum Nexus has specific rules for building decks:
 
 *   **Deck Size:** Your deck must contain exactly 200 CP. This ensures a balanced game and prevents players from overwhelming opponents with too many powerful cards.
-*   **Mission Cards:** You can include up to six mission cards, and the total domain points across all your mission cards must equal exactly 6. Additionally, no single domain can have more than 4 points. The total CP of all of your Mission Cards is the amount of CP available each turn.
-*   **Leader Limit:** Only one Leader unit is allowed per quadrant, and the total CP of all Leader units in your deck cannot exceed 25.
+*   **Mission Cards:** You can include up to six mission cards, and the total domain points across all your mission cards must equal exactly 6. Additionally, no single domain can have more than 4 points. The total CP of all of your Mission Cards is the amount of CP available to the player each turn.
+*   **Leader Limit:** Only one Leader unit is allowed per quadrant, and the total CP of all Leader units in your deck cannot exceed 25. Leader suits are played just like other units and their CP also counts towards the 200 point limit.
 *   **Domain Alignment:** The domain points on each unit card must match or be lower than the corresponding values on your chosen mission cards. For example, if a mission card requires 2 Technology points, your deck can only include unit cards with 2 or fewer Technology points.
 *   **Duplicate Limits:** Each card has a duplicate limit. You cannot exceed this limit in your deck. 
 
 ## **Step-by-Step Deck Creation Process**
+
+** Note: ** these steps are presented sequentially for ease of understanding. generally though these steps are more fluid and considered simultaneously.
 
 1.  **Choose a Faction:**  Select a faction based on its playstyle and card synergies. 
 2.  **Select Mission Cards:** Choose up to six mission cards that represent your objectives and offer desirable passive effects or abilities. Ensure that the total domain points across the mission cards equal 6 and no single domain has more than 4 points.

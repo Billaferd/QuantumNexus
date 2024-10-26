@@ -725,25 +725,29 @@ With creativity and careful design, you can craft mission cards that will elevat
 
 For consistency, the following template should be used to show the details of a single Mission Card.
 
-Name: Name of Card
-CP: # of CP awarded
-Technology: 1-4
-Magic: 1-4
-Psionics: 1-4
-Divinity: 1-4
-Challenge: The challenge that this card presents
-Passive Ability: The activated passive ability
-One-Time Ability: The activated one-time ability
-Flavor Text: 1 or 2 short sentences that hints at the lore behind the card.
-Image Description : 3 sentences to describe the action, 3 sentences to describe the subject, and 2 sentences to describe the background/setting.
-Faction: The faction this Mission Card was sourced from
+- Name: Name of Card
+- CP: # of CP awarded
+- Malevolence: Malevolence Axis
+- Combat: Combat Axis
+- Utility: Utility Axis
+- Impact: Impact Axis
+- Technology: 1-4
+- Magic: 1-4
+- Psionics: 1-4
+- Divinity: 1-4
+- Challenge: The challenge that this card presents
+- Passive Ability: The activated passive ability
+- One-Time Ability: The activated one-time ability
+- Flavor Text: 1 or 2 short sentences that hints at the lore behind the card.
+- Image Description : 3 sentences to describe the action, 3 sentences to describe the subject, and 2 sentences to describe the background/setting.
+- Faction: The faction this Mission Card was sourced from
 
 #### Multi-Card
 
 For consistency, the following template should be used when dealing with multiple Mission Cards.
 
-| Name | CP | Technology | Magic | Psionics | Divinity | Challange | Passive Ability | One-Time Ability | Flavor Text | Image Description | Faction |
-|---|---|--|---|---|--|--|--|--|--|--|--|
+| Name | CP | Malevolence | Combat | Utility | Impact | Technology | Magic | Psionics | Divinity | Challange | Passive Ability | One-Time Ability | Flavor Text | Image Description | Faction |
+|---|---|-|-|-|-|--|---|---|--|--|--|--|--|--|--|-|
 
 ## Appendix
 

@@ -32,3 +32,14 @@ Remember, this table is a starting point and may need adjustments based on playt
 | Special Effects | Minor effects | +1 if player, -1 if opponent | -1 if player, +1 if opponent | N/A | Examples: looking at top card of deck |
 | Special Effects | Moderate effects | +2 if player, -2 if opponent | -2 if player, +2 if opponent | N/A | Examples: summoning a small creature |
 | Special Effects | Major effects | +5 if player, -5 if opponent | -5 if player, +5 if opponent | N/A | Examples: destroying all units in a row |
+| **Transformations** | Transform target "Magic" unit into a "Divinity" unit. | 3 | -3 | N/A | Moderate transformation, changing domain. |
+| **Transformations** | Transform target unit into a unit with +3 Attack, +2 Defense, and "Flying." | 5 | -5 | N/A | Major transformation, significant stat and ability changes. |
+| **Terrain Interaction** | Deploy a "Forest" Terrain card to a target quadrant. | 2 | -2 | N/A | Terrain creation. |
+| **Terrain Interaction** | Destroy target "Mountain" Terrain card. | 1 | -1 | N/A | Terrain destruction. |
+| **Terrain Interaction** | Units gain +1 Attack while on "Desert" Terrain. | 3 | -3 | N/A | Terrain interaction, granting a bonus. |
+| **Expanded Conditional Triggers** | When this unit is attacked, deal 1 damage to the attacker. | 2 | -2 | N/A | Common trigger, reactive effect. |
+| **Expanded Conditional Triggers** | If you control three or more "Mech" units, draw a card. | 3 | -3 | N/A | Uncommon trigger, requires specific board state. |
+| **Combination Effects** | Deal damage to a target unit equal to the number of cards in your hand. | 4 | -4 | N/A | Combines damage and hand size. |
+| **Combination Effects** | Draw a card for each "Technology" unit you control. | 3 | -3 | N/A | Combines card draw and unit type. |
+| **Delayed Effects** | At the start of your next turn, this unit gains +2 Attack. | 1 | -1 | N/A | Short delay, temporary boost. |
+| **Delayed Effects** | This unit gains "Flying" after it has been on the battlefield for three turns. | 4 | -4 | N/A | Medium delay, permanent change. |

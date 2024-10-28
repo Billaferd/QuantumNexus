@@ -6,13 +6,13 @@ Abilities are used throughout Quantum Nexus, they are used as mission card abili
 
 Abilities are made up of several parts:
 
-Effects: Effects are the parts of the ability that do something. They change the state of the game in some way, removing a card, adding CP, dealing damage. Effects are required and have the largest effect on an abilities cost. Effects are also categorized into Beneficial or Detrimental. The categorization is based on a friendly target, if a detrimental effect targets an opponent, then the effect becomes beneficial.
+- Effects: Effects are the parts of the ability that do something. They change the state of the game in some way, removing a card, adding CP, dealing damage. Effects are required and have the largest effect on an abilities cost. Effects are also categorized into Beneficial or Detrimental. The categorization is based on a friendly target, if a detrimental effect targets an opponent, then the effect becomes beneficial.
 
-Targets: Each ability must have a target, That target can be literally anything in the game. Decks, Cards, Stats, these and more can all be targets in the game. The target is what an effect is applied to. Targets determine whether the ability is helpful or detrimental. if the effect is beneficial and it targets an opponent, then the ability would be a negative ability.
+- Targets: Each ability must have a target, That target can be literally anything in the game. Decks, Cards, Stats, these and more can all be targets in the game. The target is what an effect is applied to. Targets determine whether the ability is helpful or detrimental. if the effect is beneficial and it targets an opponent, then the ability would be a negative ability.
 
-Triggers: Triggers may be necessary for an ability for thematic or balancing reasons. Triggers make the ability harder to use by limiting the times that it can be used. Some triggers are active, requiring a player to make a conscious choice to activate it, or passive, meaning an ability would be triggered as long as the condition is met. Triggers have their own targets and condition. For instance, Pay 2 CP, Activate this card, and Discard a card are all active triggers. CP, 'this' card, and 'a' card are all the targets. Some passive triggers would be: When this unit is attacked, when an opposing unit is deployed, and when any card is exiled.
+- Triggers: Triggers may be necessary for an ability for thematic or balancing reasons. Triggers make the ability harder to use by limiting the times that it can be used. Some triggers are active, requiring a player to make a conscious choice to activate it, or passive, meaning an ability would be triggered as long as the condition is met. Triggers have their own targets and condition. For instance, Pay 2 CP, Activate this card, and Discard a card are all active triggers. CP, 'this' card, and 'a' card are all the targets. Some passive triggers would be: When this unit is attacked, when an opposing unit is deployed, and when any card is exiled.
 
-Conditions: Conditions can be applied to make the effects, targets, and triggers more interesting and apply boolean logic to the ability. And, Or, Not, and Xor can all be used to add new depth.
+- Conditions: Conditions can be applied to make the effects, targets, and triggers more interesting and apply boolean logic to the ability. And, Or, Not, and Xor can all be used to add new depth.
 
 ### Effects
 

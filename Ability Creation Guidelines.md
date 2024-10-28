@@ -275,6 +275,8 @@ Keywords in Quantum Nexus can be broadly classified into three types:
 
 ##$ Keywords and the AP System
 
+Keywords are in essence an ability that has a specific, well-known name. An ability can be made and then given a name to create new keywords.
+
 Just like other abilities, keywords also have an associated AP cost. This cost is factored into the card's overall AP pool, ensuring that keywords are balanced within the card's design.
 
  * Positive Keywords: The AP cost of positive keywords is added to the card's total AP cost, reflecting the added power or versatility they provide.

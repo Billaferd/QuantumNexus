@@ -203,6 +203,19 @@ In Quantum Nexus, the AP cost of an ability isn't simply a fixed value; it's a d
 
 Think of it like constructing a powerful artifact in the Quantum Nexus universe. Each component you add, each enchantment you weave, and each safeguard you put in place increases the artifact's value and, consequently, its cost. Similarly, the more intricate and potent your ability becomes with the addition of specific effects, targets, triggers, and conditions, the higher its AP cost will be.
 
+### Understanding the AP Cost Columns
+
+Appendices A and B provide reference tables for the AP costs of various effects and triggers. These tables include two AP Cost columns: "AP Cost (Player)" and "AP Cost (Opponent)." These columns represent the cost of an effect from the perspective of the player using the ability:
+
+*   **AP Cost (Player):**  This column indicates the AP cost when the effect targets the player who owns the card. A negative value signifies a detrimental effect to the player, while a positive value represents a beneficial effect.
+*   **Example:** The "Discard a Card" effect has an "AP Cost (Player)" of -1, reflecting the disadvantage of discarding a card from the player's hand.
+*   **AP Cost (Opponent):** This column shows the AP cost when the effect impacts the opponent. Similar to the "AP Cost (Player)" column, a negative value denotes a harmful effect for the opponent, while a positive value indicates a beneficial effect for the opponent (and a detriment to the player).
+*   **Example:** The "Deal Damage" effect has an "AP Cost (Opponent)" of +3, signifying the advantage gained by the player when dealing damage to the opponent.
+
+This dual-column approach ensures that abilities are balanced and accurately reflect their impact on both players.  Designers can use these values as guidelines when determining the overall AP cost of an ability and balancing the cost of different abilities on a card. 
+
+For example, if a card has an ability that deals damage to the opponent, the positive AP cost in the "AP Cost (Opponent)" column would be offset by the negative AP cost associated with any detrimental effects the ability might have on the player, such as discarding a card or losing CP. This approach encourages strategic decision-making, as players must weigh the potential benefits of an ability against the costs involved.
+ 
 ### Breakdown of AP Cost Factors
 
 Here's how each component contributes to the overall AP cost:

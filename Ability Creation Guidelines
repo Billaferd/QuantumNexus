@@ -68,11 +68,11 @@ Conditions: Conditions can be applied to make the effects, targets, and triggers
 | **Unspecified (Thematic)** | Triggers likely tied to unique card mechanics or lore, often with a more nuanced or less defined activation condition.                                                                                              | Passive          | Whispers of the Void: Thematic link between discarding a card and the flavor of drawing power from the void at a price.                                                        | Interpretation may be subjective; thematic triggers could lead to surprising plays and add flavor to the game.                           | None                                                                                       |
 | **Card-Specific Triggers** | Unique triggers inherent to individual cards, with specific conditions or effects related to the card's design.                                                                                                 | Passive          | Numerous examples throughout the "Card Ideas" source, each with unique triggers tied to their specific mechanics.                                                            | Understanding each card's unique function is essential for utilizing card-specific triggers.                                              | None                                                                                       |
 
-## Conditionals
+### Conditionals
 
 Conditionals allow for modifications to how the Effects, Targets, and Triggers operate by allowing them to be used in unison, or force a decision between them.
 
-### Common Conditionals
+#### Common Conditionals
 
 | Conditional  | Common Phrasing  | Description                                                                                                                                            | Example                                                                                                                                                      | Source(s)  |
 | :----------- | :--------------- | :----------------------------------------------------------------------------------------------------------------------------------------------------- | :--------------------------------------------------------------------------------------------------------------------------------------------------------------- | :----------- |
@@ -82,7 +82,7 @@ Conditionals allow for modifications to how the Effects, Targets, and Triggers o
 | **After**    | After           | Triggers the ability **after** a specific action or event has been resolved.                                                                          | "**After** destroying an enemy unit, this unit gains +1 Attack." [previous response] **Note:** This assumes the game tracks previous actions, not confirmed by sources. |             |
 | **Unless**  | Unless          |  Reverses the typical conditional logic. The ability activates **unless** the specified condition is met.                                         |  "Discard a card. **Unless** you do, lose 2 CP." This example is not from the sources, but illustrates the concept.                                               |             |
 
-###  Boolean Operators for Complex Conditions
+####  Boolean Operators for Complex Conditions
 
 | Boolean Operator | Description                                                                                                                | Example                                                                                                                                                                   | Source(s) |
 | :--------------- | :------------------------------------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | :---------- |
@@ -91,7 +91,7 @@ Conditionals allow for modifications to how the Effects, Targets, and Triggers o
 | **Not**          | The ability activates only if the condition following "Not" is **false**.                                                 |  "Draw a card. **Not** if you have 5 or more cards in hand." This example is not from the sources but illustrates the concept.                                               |         |
 | **Xor**          | (Exclusive Or) The ability activates if **exactly one** of the conditions connected by "Xor" is true, but not both.      | "**Xor**: If this unit is in the front row, it gains +2 Attack. If this unit is in the back row, it gains +2 Defense." This example is not from the sources, but illustrates the concept. |         | 
 
-### Key Points about Conditionals
+#### Key Points about Conditionals
 
 * **Conditional Specificity:** Conditionals provide crucial context for triggers, defining the precise circumstances under which a triggered ability can activate.
 * **Strategic Depth:**  The combination of triggers, conditions, and boolean operators allows for a wide array of complex and nuanced abilities.

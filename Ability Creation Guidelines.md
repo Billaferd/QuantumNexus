@@ -1,4 +1,10 @@
-# Quantum Nexus Ability Creation Guidelines
+# Quantum Nexus: Ability Creation Guidelines
+
+## Note to the Reader
+
+This is the Quantum Nexus: Ability Creation Guidelines, this document is not meant to explain any rules that a player would need, it is solely intended to aid designers in creating captivating and interesting card abilities and keywords for Quantum Nexus. Players are welcome to read this document, but please know that these rules are not applied to any in-game scenarios, they are solely intended for creating cards for Quantum Nexus.
+
+This document is meant to be used in conjunction with the Quantum Nexus: Card Creation Guidelines and the Quantum Nexus: Mission Card Creation Guidelines. When designing cards the abilities are created using this document and then applied to the cards being designed.
 
 ## I. Introduction
 

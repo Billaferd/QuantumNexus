@@ -53,7 +53,9 @@ Quantum Nexus offers a diverse array of effects, each with its own unique impact
  * Grant Keyword: This effect adds a keyword to a target card, granting it a special ability or modifying its existing abilities.
  * Remove Keyword: This effect removes a keyword from a target card, negating its special ability or altering its existing abilities.
  * Change Attack Range: This effect modifies a unit's attack range, potentially allowing it to attack from farther away or restricting its range.
-Examples of Effects in Action
+
+#### Examples of Effects in Action
+
  * "Psionic Blast" deals 3 damage to a target unit.
  * "Healing Touch" restores 2 Defense to a target unit or Asset.
  * "Blessing of Light" gives a target unit +1 Attack.
@@ -290,6 +292,68 @@ The ability now looks like this:
 *Orbital Laser* - Activate, (X) CP - Activate this ability and select a quadrant. Deal 3 + (X) CP damage to all units in the quadrant.
 
 This is an expensive ability which will most likely require a lot of CP to balance it out.
+
+#### Create a New Mechanic with Keywords and Abilities
+
+In this example we will create a new mechanic by creating a synergistic set of keywords and abilities. For this example we will use the Divinity domain for inspiration. I want to create a new mechanic that allows for Divinity units to bypass some or all of the CP requirements, but also have the deployment phase skipped for some units. This will need to be broken into several steps.
+
+1. Define keyword to denote a summoned unit
+2. Define Abilities for summoning units
+3. Define rituals for these summons
+
+##### Creating the *Invoke* Keyword
+
+The invoke keyword will do two things, it will remove the ability to be deployed, and it will add an alternative deployment cost.
+
+To remove the deployment ability we will use the following entries from the tables.
+
+| Part | Name | AP Cost | Description |
+|-|-|-|-|
+| Effect | Deploy Card | -2 | The effect we are interested in. |
+| Effect | Prevent [Effect] | -2 | This will prevent deployment. |
+| Target | This | -3 | Applies to the card with the ability. |
+| Conditional | Unless | 1 | Will only allow deployment when conditions are met. |
+| Target | Conditional Target | 2 | Units Complete the ritual. |
+
+Some of these are detrimental to the Player (Prevent Deploy, Targeting itself), and some of these are beneficial (Unless, Conditional Target). This helps capture the essence of the keyword. With this we can finally define the Keyword.
+
+*Invoke* - This unit can't be deployed unless the ritual is completed. -4 AP.
+
+This keyword would in fact give our unit 4 extra AP to spend on it's other abilities. This will allow our unit to be a bit stronger given the harsh less of the deployment not being a simple CP cost.
+
+##### Creating Ritualistic Keywords
+
+Now we need to create a few keywords specific for rituals, this step is optional, but can add a real sense of depth if done properly. There is nothing stopping you from simply using existing abilities though.
+
+For now we will use a basic Keyword that will add a small cost to the unit, but be paid off when the unit gets summoned.
+
+We will be making an ability called Chant. Chant will be used in our ritual for Summoning.
+
+| Part | Name | AP Cost | Description |
+|-|-|-|-|
+| Effect | Activate Ability | 1 | The effect we are interested in. |
+| Target | This | 3 | Applies to the card with the ability. |
+
+This creates Chant as:
+
+*Chant* - Activate this card to perform a ritualistic chant. 4 AP
+
+This will allow our cards to activate with the only effect being to perform the chant.
+
+##### Defining the ritual
+
+Now we need an actual ritual to be able to do the summon, this will need to go on the Summoned card as the ritual.
+
+| Part | Name | AP Cost | Description |
+|-|-|-|-|
+| Effect | Activate Ability | -3 | Activate chant 3 times simultaneously. |
+| Target | Unit | -4 | Cards must be units |
+
+With that we have our ritual:
+
+*Gregorian Chant* - Have 3 units chanting at the same time. -7 AP
+
+Again this would give even more AP to the summoned unit, but with everything required it should be fairly well balanced.
 
 ## VII. Keywords
 

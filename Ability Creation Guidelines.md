@@ -265,6 +265,32 @@ Let's illustrate how the AP system integrates with the card and mission card cre
 
 The Ability Creation Guidelines, along with the AP system, are indispensable tools for crafting the intricate components that power Quantum Nexus cards. By understanding the interplay between abilities, cards, and mission cards, and by applying the AP system thoughtfully, you can create cards that are balanced, engaging, and contribute to a dynamic and strategically rich gameplay experience.
 
+### Creating an Ability
+
+When creating an ability, we want to keep with the theme of the card. Just like flavour text and card images, abilities also provide a narrative for the player to engage with. The ability being created needs to be consistent with the cards feel and the other factors outlined in the Card Creation Guidelines and the Mission Card Creation Guidelines. We will start with a simple ability and then create a new mechanic using our ability system.
+
+#### Creating a Simple Ability
+
+In this example we have a basic card that requires an ability, so we will create one that is fitting. First of all we need to define the type of card, in our case it is an Asset card. Asset cards have no way to attack directly, but will rely on abilities for that. Because this asset card is an Orbital rank, it is capable of affecting an entire quadrant. The card feel specifies an Attack Combat rating, so we will create something that will deal damage directly.
+
+Let's build an *Orbital Laser* ability. It will deal damage to a quadrant of units.
+
+We will have the following parts:
+
+| Part | Name | AP Cost | Description |
+|-|-|-|-|
+| Effect | Deal Damage | 3 | There will be a variable portion payed by the player |
+| Trigger | Activate | 1 | No CP, just activate the ability |
+| Target | Quadrant | 3 | Applies to an entire quadrant |
+
+So far this card will cost 7 AP, which is a lot, but it is definitely a powerful effect. Next we will add a variable to allow the laser to be pumped. We will allow the player to pay 1 CP per extra point of damage.
+
+The ability now looks like this:
+
+*Orbital Laser* - Activate, (X) CP - Activate this ability and select a quadrant. Deal 3 + (X) CP damage to all units in the quadrant.
+
+This is an expensive ability which will most likely require a lot of CP to balance it out.
+
 ## VII. Keywords
 
 Keywords in Quantum Nexus are like special tags or labels attached to cards and abilities, giving them additional powers or modifying how they function. They add a layer of strategic depth and complexity to the game, creating unique interactions and opening up a world of tactical possibilities.

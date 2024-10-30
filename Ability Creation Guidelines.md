@@ -251,7 +251,7 @@ Total AP Cost: 3 + 1 + 2 + 1 = 7 AP
 
 Important Notes:
 
- * The AP costs are guidelines. The exact values can be adjusted based on the specific needs of your ability and the overall balance of the game.
+ * The AP costs are guidelines. The exact values can be adjusted based on the specific needs of your ability and the overall balance of the game. This should only be performed after playtesting, attempting to balance a card without playtesting is not at all recommended.
  * Playtesting is crucial. Observe how the ability performs in actual gameplay and fine-tune the AP cost as needed to achieve the desired level of balance and strategic depth.
 
 ### The AP System in Action
@@ -321,9 +321,9 @@ Some of these are detrimental to the Player (Prevent Deploy, Targeting itself), 
 
 This keyword would in fact give our unit 4 extra AP to spend on it's other abilities. This will allow our unit to be a bit stronger given the harsh less of the deployment not being a simple CP cost.
 
-##### Creating Ritualistic Keywords
+##### Creating Ritualistic Abilities
 
-Now we need to create a few keywords specific for rituals, this step is optional, but can add a real sense of depth if done properly. There is nothing stopping you from simply using existing abilities though.
+Now we need to create a few abilities specific for rituals, this step is optional, but can add a real sense of depth if done properly. There is nothing stopping you from simply using existing abilities though.
 
 For now we will use a basic Keyword that will add a small cost to the unit, but be paid off when the unit gets summoned.
 

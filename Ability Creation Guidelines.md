@@ -279,7 +279,7 @@ Keywords in Quantum Nexus can be broadly classified into three types:
  * Negative Keywords: These keywords impose drawbacks or limitations on the card or ability. They might weaken a card's stats, restrict its actions, or make it vulnerable to certain effects.
  * Neutral Keywords: These keywords introduce unique mechanics or interactions without inherently benefiting or hindering the card or ability. They add a layer of complexity and strategic depth, creating interesting possibilities and tactical considerations.
 
-##$ Keywords and the AP System
+### Keywords and the AP System
 
 Keywords are in essence an ability that has a specific, well-known name. An ability can be made and then given a name to create new keywords.
 
@@ -289,23 +289,23 @@ Just like other abilities, keywords also have an associated AP cost. This cost i
  * Negative Keywords: The AP cost of negative keywords is subtracted from the card's total AP cost, balancing out the drawbacks or limitations they impose.
  * Neutral Keywords: Neutral keywords always add to the AP cost, as they introduce unique mechanics that can influence the game's strategic landscape.
 
-### Examples of Keywords
-
-Here are a few examples of keywords and their effects:
-
- * Flying: This unit cannot be blocked by units without Flying.
- * Barrier: The first time this unit would be discarded each turn, prevent that discard.
- * First Strike: This unit deals damage before units without First Strike.
- * Overload: When you activate this ability, you may pay X additional CP. This ability gains additional effects based on the amount of CP paid.
- * Syphon Power: Whenever a unit you control with a higher rank than this unit is destroyed, this unit gains a +1/+1 counter.
-
-Important Note: The AP costs for keywords are guidelines, and the actual cost may vary depending on the specific effect and overall balance of the game.
-
 ### Keywords and Strategic Depth
 
 Keywords add a significant layer of strategic depth to Quantum Nexus. They encourage players to consider card interactions, build decks with specific synergies, and adapt their tactics based on the keywords present on both their own cards and their opponent's cards.
 
 By understanding the different types of keywords and their impact on gameplay, you can create cards that are not only powerful and versatile but also strategically interesting and contribute to the rich tapestry of the Quantum Nexus universe.
+
+### Creating a Simple Keyword
+
+Consider the following simple keyword:
+
+```
+*First-Strike* - This unit resolves its attack before units without First-Strike.
+```
+
+The keyword is relatively simple but shows how we can use the guidelines to create an AP cost for use on other cards.
+
+First of all the effect is a preemptive action which Costs 3 AP because it benefits the player using it. Second, it targets the unit card it is on so we use 
 
 ## VIII. Additional Considerations
 
@@ -387,6 +387,7 @@ This appendix provides a comprehensive reference for AP costs associated with va
 | Target Category | Target               | AP Cost (Player) | AP Cost (Opponent) | Additional Cost Modifiers                                                                                                                                                                  | Notes                                                                                                                                                                                                                                                                                                                                                                                      |
 | :-------------- | :-------------------- | :--------------- | :---------------- | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | Card            | Any Card              | 3                 | -3                 |                                                                                                                                                                                                   | Refers to any card in play, regardless of type.                                                                                                                                                                                                                                                                                                                                                          |
+| | This (Current Card) | 1 | -1 | | The current card that is using the effect. |
 |                 | Unit                  | 2                 | -2                 | +1 AP per additional unit targeted                                                                                                                                                              | A card representing a character or vehicle used for attacking and defending.                                                                                                                                                                                                                                                                                                                                  |
 |                 | Leader                | 4                 | -4                 |                                                                                                                                                                                                   | A powerful unit card with enhanced abilities.                                                                                                                                                                                                                                                                                                                                                               |
 |                 | Asset                 | 3                 | -3                 |                                                                                                                                                                                                   | A persistent card that provides ongoing benefits or activates special abilities.                                                                                                                                                                                                                                                                                                                                |

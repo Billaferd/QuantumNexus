@@ -305,7 +305,7 @@ Consider the following simple keyword:
 
 The keyword is relatively simple but shows how we can use the guidelines to create an AP cost for use on other cards.
 
-First of all the effect is a preemptive action which Costs 3 AP because it benefits the player using it. Second, it targets the unit card it is on so we use 
+First of all the effect is a preemptive action which Costs 3 AP because it benefits the player using it. Second, it targets the unit card it is on so we use the Self target for 1 AP. There are no conditions or activations, so we can consider the Keyword to be finished.
 
 ## VIII. Additional Considerations
 

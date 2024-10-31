@@ -397,7 +397,62 @@ The keyword is relatively simple but shows how we can use the guidelines to crea
 
 First of all the effect is a preemptive action which Costs 3 AP because it benefits the player using it. Second, it targets the unit card it is on so we use the Self target for 1 AP. Finally there is an activation of when the battle phase starts, so we add another 2 AP for a total of 6 AP. First Strike is very beneficial and as a result is set with an AP cost of 6. Once playtesting commences this may be changed depending on how the card does overall.
 
-## VIII. Additional Considerations
+## VIII. Mission Challenges
+
+Mission challenges are the heart of every Quantum Nexus mission card, defining the objectives players must strive to achieve to unlock the card's powerful abilities.  Designing compelling and balanced challenges is essential for creating an engaging and strategic gameplay experience.  This section will guide you through the process of crafting mission challenges that are not only thematically appropriate but also mechanically sound.
+
+### Challenge Design:  Balancing Difficulty and Reward
+
+The challenge you design sets the difficulty level for achieving the mission card's rewards (passive and one-time abilities). It's crucial to strike a balance between challenge and reward, ensuring that the effort required to complete the challenge aligns with the potency of the benefits gained.  
+
+To achieve this balance, the AP system used for costing abilities will be adapted to assess the inherent value of a mission challenge. By analyzing the core components of a challenge—effect, target, trigger, and condition—designers can determine a Preliminary Challenge AP cost.  This cost will then be factored into the overall CP calculation for the mission card, ensuring that the combined cost of the challenge and the card's abilities aligns with the desired power level and strategic impact.
+
+### Challenge Costing:  A Breakdown Approach
+
+Similar to costing an ability, mission challenges can be analyzed in terms of their core components:
+
+*   **Effect:**  What is the primary effect or outcome of the challenge? Does it focus on deploying units, activating abilities, controlling specific areas of the battlefield, or achieving a specific game state?  The Effect Cost Reference Table in the Ability Creation Guidelines can be used as a reference point. However, unlike abilities that primarily have detrimental effects on the opponent, challenges often focus on actions the player must take.  Therefore, the AP costs for effects will likely be positive, reflecting the effort required to achieve the challenge.
+
+*   **Target:**  Does the challenge involve specific targets, such as units, assets, quadrants, or card types? The Target Cost Reference Table can be adapted to assess the cost based on the specificity of the target.  More restrictive targets, like those requiring specific subtypes or keywords, will contribute to a higher cost.
+
+*   **Trigger:**  When or how does the challenge trigger? Does it activate at the start of a turn, during a specific phase, or in response to certain actions? The Trigger Cost Reference Table can guide the cost assignment, considering the timing and frequency of the trigger.  Challenges that involve recurring triggers or require actions over multiple turns will generally have higher costs.
+
+*   **Condition:**  What are the specific conditions that must be met to complete the challenge? Are there additional requirements beyond the primary effect? The Conditional Cost Reference Table can be used to assess the cost based on the complexity and restrictiveness of the conditions. Challenges with multiple conditions or those that require specific combinations of cards or game states will contribute to a higher cost.
+
+### Determining the Final Challenge CP
+
+After analyzing these components and assigning an AP cost to each, add the individual costs to determine the **Preliminary Challenge AP Cost**. This cost represents the inherent value of the challenge within the AP system framework. 
+
+However, the actual CP cost of the challenge within the mission card will be determined using the **Adjusted CP formula** as outlined in the Mission Card Creation Guidelines. This formula takes into account the Preliminary Challenge AP Cost, the cost of the mission's abilities, and the Base CP derived from the assigned domain points:
+
+```
+Adjusted CP = Base CP + (Challenge AP Cost - (Ability AP Cost * Sign(Challenge AP Cost))
+```
+
+This final calculation ensures that the overall cost of the mission card reflects the balance between the difficulty of the challenge, the strength of the card's abilities, and the desired overall power level.
+
+### Example: Costing a Divinity Challenge
+
+Let's apply this breakdown approach to the Divinity challenge from our conversation history: "Have 3 Divinity units you control survive for 2 consecutive turns."
+
+*   **Effect:** The effect focuses on preventing unit destruction ("Prevent [Effect]").  A base cost of **+4 AP** is assigned, mirroring the positive counterpart of the "Destroy Card" effect.
+
+*   **Target:** The challenge targets "Unit" with the specific "Divinity" subtype.  This results in a cost of **-2 AP** (-4 AP for "Unit" + 2 AP for the "Divinity" condition).
+
+*   **Trigger:** The trigger is time-based, requiring survival for "2 consecutive turns." Given the recurring nature and strategic importance of unit survival, a cost of **+3 AP** is assigned.
+
+*   **Condition:** The challenge has the inherent condition of "survival." Using the "Based on Location" entry as a guide, a cost of **+1 AP** is assigned for this condition.
+
+**Preliminary Challenge AP Cost = +4 AP - 2 AP + 3 AP + 1 AP = +6 AP**
+
+This **+6 AP** cost would then be plugged into the **Adjusted CP formula** to determine the mission card's final CP cost.
+
+### Conclusion
+
+This approach adapts the existing AP system to provide a more structured and transparent process for costing mission challenges. It allows designers to assess the inherent value of a challenge based on its specific components and ensures that the final CP cost assigned to the mission card reflects a balance between the challenge, the card's abilities, and the desired overall power level.  Playtesting remains essential for fine-tuning the balance and confirming that the challenge provides the intended level of difficulty and strategic depth. 
+
+
+## IX. Additional Considerations
 
 When crafting abilities in Quantum Nexus, it's essential to consider how they interact with the broader game mechanics and strategic landscape. Here are some key factors to keep in mind:
 
@@ -408,7 +463,7 @@ When crafting abilities in Quantum Nexus, it's essential to consider how they in
 
 By keeping these additional considerations in mind, you can create abilities that are not only mechanically sound but also thematically integrated and contribute to the rich tapestry of the Quantum Nexus universe.
 
-## IX. Appendix
+## X. Appendix
 
 This appendix provides a comprehensive reference for AP costs associated with various ability types, activation costs, and additional factors. Use this table as a guide when designing your cards, but remember that playtesting and balance adjustments are always crucial.
 

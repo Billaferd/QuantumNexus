@@ -5,10 +5,12 @@
 *   **100.1.** These Quantum Nexus rules apply to any Quantum Nexus game with two or more players. 
 *   **100.2a** In constructed play (a way of playing in which each player creates their own deck ahead of time), each deck has a minimum deck size of **200 CP**. 
 *   **100.2b** No more than **25 CP** can be dedicated to Leader type units.
-*   **100.2c** The domain points on all mission cards must not total more than 6, and no single domain can total more than 4. 
-*   **100.2d** The cards in the deck must adhere to the duplicate attributes printed on each card. 
-*   **100.2e** The specified domain points on a card must be equal to or less than the total domain points on the mission cards.
-*   **100.3.** Some cards and casual variants require additional items, such as specialized dice.
+*   **100.2c** The CP of the Leader cards count towards the 200 CP limit.
+*   **100.2d** The domain points on all mission cards must not total more than 6, and no single domain can total more than 4. 
+*   **100.2e** The cards in the deck must adhere to the duplicate attributes printed on each card. 
+*   **100.2f** The specified domain points on a card must be equal to or less than the total domain points on the mission cards.
+*   **100.2g** The sum of the CP values on the Mission Cards are the CP points available to the player during each game turn.
+*   **100.2h** The CP values of the Mission Cards do not count toward the 200 CP limit.
 
 ## 101. The Quantum Nexus Golden Rules
 

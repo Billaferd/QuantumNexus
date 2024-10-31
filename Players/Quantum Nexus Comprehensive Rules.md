@@ -1,4 +1,4 @@
-# Enhanced Quantum Nexus Comprehensive Rules
+# Quantum Nexus: Comprehensive Rules
 
 ## 100. General
 
@@ -124,9 +124,8 @@
 
 * **120.1. Attack Range:** Each Unit card has a defined attack range (Close, Mid, or Far), indicating the quadrants from which it can attack. A unit can only attack units within its range. 
 * **120.2. Attacking:** During the Battle Phase, a player can choose to attack with any of their ready units. The player declares the attacking unit and the target unit they wish to attack. 
-* **120.3. Blocking:** The defending player can choose to block the attack with one of their own ready units in the same quadrant as the attacking unit. If no block is declared, the attacking unit deals damage to the defending player directly. 
-* **120.4. Damage Calculation:** When a unit attacks, it deals damage equal to its Attack value to the defending unit or player. If blocked, the defending unit also deals damage equal to its Attack value to the attacking unit. 
-* **120.5. Defeat:** A unit is defeated if its Health is reduced to 0 or less. Defeated units are removed from the battlefield. 
+* **120.3. Damage Calculation:** When a unit attacks, it deals damage equal to its Attack value to the defending unit or player. If blocked, the defending unit also deals damage equal to its Attack value to the attacking unit. 
+* **120.4. Defeat:** A unit is defeated if its Health is reduced to 0 or less. Defeated units are removed from the battlefield. 
 
 ## 121. Terrain
 

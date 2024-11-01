@@ -81,38 +81,39 @@
 *   **101.7b. Mission Card Limit:** You can include up to six mission cards in your deck.
 *   **101.7c. Duplicate Limits:** Each individual card has a specific duplicate limit, which determines how many copies of that card you can have in your deck.
 
-## **102. Areas of Play**
+## Section 102: Areas of Play
 
-*   **102.1 Mission Card Area:** 
-    *   **102.1a Location and Purpose:** Situated prominently above the main playing area, the Mission Card Area provides a dedicated space for players to display their chosen mission cards face-up. 
-    *   **102.1b Visibility and Reference:** The face-up placement of mission cards allows for transparency, enabling both players to readily see each other's objectives and strategize accordingly.  Players can refer to these cards throughout the game to track their progress and make informed decisions aligned with their victory goals.
+**102. Areas of Play**: Defining play zones.
 
-*   **102.2 Deck:**
-    *   **102.2a Starting Point:**  The Deck represents each player's personalized arsenal, containing a carefully constructed set of cards shuffled and placed face-down in a designated area at the game's start.
-    *   **102.2b Drawing Cards:**  Players draw cards from their Deck throughout the game, primarily during the Ready Phase, to replenish their hand and access new tactical options.
-    *   **102.2c Deck Depletion:** Running out of cards carries significant consequences in Quantum Nexus. If a player is unable to draw a card when required, their Deck is considered empty, and they lose the game.  This mechanic highlights the importance of resource management, strategic card usage, and planning for long-term sustainability.
+*   **102.1. Mission Card Area:**
 
-*   **102.3 Discard Pile:**
-    *   **102.3a Repository for Used Cards:** The Discard Pile acts as a repository for cards that are no longer active in the game. 
-    *   **102.3b Reasons for Discarding:** Cards are typically sent to the Discard Pile when they are destroyed in battle, their effects have been used, or specific game mechanics necessitate their removal.
-    *   **102.3c Face-Up Placement:** Cards in the Discard Pile are placed face-up, allowing both players to see which cards have been used, eliminated, and are potentially out of circulation. This open visibility contributes to strategic awareness and informed decision-making for both players. 
+    *   **102.1a. Location and Purpose:** Situated prominently above the main playing area, the Mission Card Area provides a dedicated space for players to display their chosen mission cards face-up. The face-up placement allows for transparency, enabling both players to readily see each other's objectives and strategize accordingly. Players can refer to these cards throughout the game to track their progress and make informed decisions aligned with their victory goals.
+*   **102.2. Deck:**
 
-*   **102.4 Loadout Area:**
-    *   **102.4a Dedicated Asset Zone:** The Loadout Area is a specialized zone outside the main battlefield designated for placing Asset cards.
-    *   **102.4b Asset Protection:** Unlike Units deployed directly onto the battlefield, Assets placed in the Loadout Area enjoy a degree of protection from direct attacks by enemy Units.   This strategic positioning makes them valuable assets capable of providing sustained benefits throughout the game.
-    *   **102.4c Vulnerability to Specific Effects:**  While safe from direct Unit attacks, it's important to note that Assets in the Loadout Area can still be targeted and affected by certain card abilities or effects explicitly designed to interact with this zone.
-    *   **102.4d Ongoing Effects and Abilities:**  Assets often provide continuous passive effects or activate powerful abilities that can significantly impact the game state, making them valuable strategic components within a player's overall strategy. 
+    *   **102.2a. Starting Point:** The Deck represents each player's personalized arsenal, containing a carefully constructed set of cards shuffled and placed face-down in a designated area at the game's start.
+    *   **102.2b. Drawing Cards:**  Cards are drawn from the top of the Deck, typically one at a time, and added to the player's hand. The specific rules for drawing cards may vary depending on the game phase or card effects.
+    *   **102.2c. Deck Depletion:** If a player is required to draw a card and their Deck is empty, they cannot draw a card and lose the game. This situation is often referred to as "decking out".
+*   **102.3. Discard Pile:**
 
-*   **102.5 Battlefield:**
-    *   **102.5a Central Arena for Conflict:**  The Battlefield is the central playing area where Units are strategically deployed, maneuvered, and engage in direct combat.  It's a dynamic space where tactical decisions and card interactions play out, shaping the course of the game.
-    *   **102.5b Quadrant Divisions:**  For strategic depth and tactical considerations, the Battlefield is subdivided into six distinct quadrants: Front Left, Front Center, Front Right, Back Left, Back Center, and Back Right.
-    *   **102.5c Front Row and Back Row:**  The battlefield is also split horizontally. The Front left, front center, and front right quadrants make up the front row. The back row is made up of the back left, back center, and back right quadrants.
-    *   **102.5d Flanks and Center:** The Battlefield layout is also strategically categorized into flanks and the center. The Front Left and Back Left quadrants form the left flank, the Front Right and Back Right constitute the right flank, and the Front Center and Back Center represent the central area of the battlefield.  This division adds another layer of tactical thinking, encouraging players to consider flank attacks, central control, and defensive formations. 
-    *   **102.5e Attack Ranges and Positioning:**  Each Unit card has a designated range—Close, Mid, or Far—which dictates the specific quadrants it can attack from its current position.   Strategic positioning, understanding attack ranges, and anticipating opponent's movements are key to successful combat on the Quantum Nexus battlefield. 
-*  **102.6 Ranges:**
-    *  **102.6a Close Range:** Close Range units can attack in the cardinal directions (Up, Down,Left, and right), so long as there is a quadrant there.
-    *  **102.6b Mid Range:** Mid range units includes all close range targets plus the quadrants that are on the diagonal from the unit as long as there is a quadrant there.
-    *  **102.6c Far Range:** Far Range can target  all quadrants that are one quadrant away. If the unit is in the back left quadrant then it can target the back right, front right, the opponent's front left, front center, and front right.
+    *   **102.3a. Repository for Used Cards:** The Discard Pile acts as a repository for cards that are no longer active in the game.
+    *   **102.3b. Reasons for Discarding:** Cards are typically sent to the Discard Pile when they are destroyed in battle, their effects have been used, or specific game mechanics necessitate their removal.
+    *   **102.3c. Face-Up Placement:** Cards in the Discard Pile are placed face-up, allowing both players to see which cards have been used.
+*   **102.4. Loadout Area:**
+
+    *   **102.4a. Dedicated Asset Zone:** The Loadout Area is a specialized zone outside the main battlefield designated for placing Asset cards.
+    *   **102.4b. Asset Protection:** Assets placed in the Loadout Area are protected from direct attacks by enemy Units. 
+    *   **102.4c. Vulnerability to Specific Effects:**  Assets in the Loadout Area can still be targeted and affected by specific card abilities or effects explicitly designed to interact with this zone.
+    *   **102.4d. Ongoing Effects and Abilities:**  Assets often provide continuous passive effects or activate powerful abilities that impact the game state.
+*   **102.5. Battlefield:**
+
+    *   **102.5a. Central Arena for Conflict:**  The Battlefield is the central playing area where Units are strategically deployed, maneuvered, and engage in direct combat.
+    *   **102.5b. Quadrants:** The Battlefield is divided into a grid of quadrants where units are placed and combat takes place. The specific layout and number of quadrants may vary depending on the game scenario or variant.
+    *   **102.5c. Front Row, Back Row, Flanks, Center:** The Battlefield is typically arranged with a Front Row and a Back Row of quadrants for each player. The Flanks refer to the leftmost and rightmost quadrants of each row, while the Center refers to the quadrants in the middle. These designations can be strategically important for unit placement and attack ranges.
+    *   **102.5d Attack Ranges:**  A visual aid, such as a diagram, is recommended to illustrate the different attack ranges and how they interact with the Battlefield's quadrant layout.  There are three distinct attack ranges: Close, Mid, and Far.
+
+        *   **102.5d(i). Close Range:** Units with Close Range can attack adjacent quadrants in the four cardinal directions (Up, Down, Left, and Right).
+        *   **102.5d(ii). Mid Range:** Mid Range encompasses all Close Range targets plus the diagonally adjacent quadrants. 
+        *   **102.5d(iii). Far Range:** Far Range units have the most extensive reach, able to target any quadrant one space away from their current position.
 
 ## 103. Setting up the Game
 

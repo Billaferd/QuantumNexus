@@ -1,48 +1,41 @@
 # Quantum Nexus: Comprehensive Rules
 
-## 100. General
+## **100. General**
 
-*   **100.1 Game Objective.** The objective of Quantum Nexus is to **defeat your opponent** by achieving one of the following conditions:
+**100.1. Game Objective.** The objective of Quantum Nexus is to **defeat your opponent** by achieving one of the following conditions:
 
-    *   **100.1a Deck Depletion:** Forcing your opponent to attempt to draw a card when their deck is empty.
-    *   **100.1b Mission Completion:** Completing all of the mission cards in your deck.
+*   **100.1a. Deck Depletion:** Forcing your opponent to attempt to draw a card when their deck is empty.
+*   **100.1b. Mission Completion:** Completing all of the mission cards in your deck.
 
-*   **100.2 Deck Construction Rules.**  Players must construct their decks according to these rules before the game begins.
+**100.2. Deck Construction Rules.** Players must construct their decks according to these rules before the game begins.
 
-    *   **100.2a Deck Size:** Constructed decks must contain exactly **200 CP**. This limit includes only Unit, Asset, Upgrade, Leader, and Event cards. 
-    *   **100.2b Mission Card Quantity:** You can include up to **six** mission cards in your deck.
-    *   **100.2c Total Domain Points:** The total domain points across all mission cards must equal **exactly 6**. 
-    *   **100.2d Single Domain Limit:** No single domain can have more than **4 points** across all mission cards.
-    *   **100.2e Domain Alignment and Duplicate Limits:** The sum of the domain points on each unit card must **match or be lower** than the total domain points on your chosen mission cards.
-    *  **100.2f Card Duplicates:** Every card has a duplicate count printed on it. players cannot exceed the duplicate limits printed on each card. 
-    *   **100.2g CP:** CP (Command Points) is the resource used to play cards from your hand. Each card has a specific CP cost.
-    *   **100.2h Mission Card CP:** The CP values printed on mission cards do not count toward the 200 CP deck limit.
-    * **100.2i CP Budget:** The sum of the CP values of all mission cards in the deck represents the starting CP the player has available each turn.
+*   **100.2a. Deck Size:** Constructed decks must contain exactly **200 CP**. This limit includes only Unit, Asset, Upgrade, Leader, and Event cards.
+*   **100.2b. Mission Card Quantity:** You can include up to **six** mission cards in your deck.
+*   **100.2c. Total Domain Points:** The total domain points across all mission cards must equal **exactly 6**.
+*   **100.2d. Single Domain Limit:** No single domain can have more than **4 points** across all mission cards.
+*   **100.2e. Domain Alignment and Duplicate Limits:** The sum of the domain points on each unit card must **match or be lower** than the total domain points on your chosen mission cards.
+*   **100.2f. Card Duplicates:** Every card has a duplicate count printed on it. players cannot exceed the duplicate limits printed on each card.
+*   **100.2g. CP:** CP (Command Points) is the resource used to play cards from your hand. Each card has a specific CP cost.
+*   **100.2h. Mission Card CP:** The CP values printed on mission cards do not count toward the 200 CP deck limit.
+*   **100.2i. CP Budget:** The sum of the CP values of all mission cards in the deck represents the starting CP the player has available each turn.
 
-*   **100.3 Leader Unit Restrictions.**
+**100.3. Leader Unit Restrictions.**
 
-    *   **100.3a Quadrant Limits:** Only **one** Leader unit is allowed **per quadrant**.
-    *   **100.3b Deployment Restriction:** No other Leader unit may be moved or deployed into a quadrant that already contains a Leader unit.
-    *   **100.3c CP Limits:** The total CP of all Leader units in your deck cannot exceed **25**. This CP total counts toward the 200 CP deck limit.
+*   **100.3a. Quadrant Limits:** Only **one** Leader unit is allowed **per quadrant**.
+*   **100.3b. Deployment Restriction:** No other Leader unit may be moved or deployed into a quadrant that already contains a Leader unit.
+*   **100.3c. CP Limits:** The total CP of all Leader units in your deck cannot exceed **25**. This CP total counts toward the 200 CP deck limit.
 
-*   **100.4 Terrain Card Limits.**  Only **two Terrain cards** can occupy a single quadrant at any given time.
+**100.4. Terrain Card Limits.** Only **two Terrain cards** can occupy a single quadrant at any given time.
 
-*   **100.5 Deactivation.** Deactivation refers to resetting a card's abilities and effects, rendering them inactive.
+**100.5. Card Ownership:** Each player owns and controls the cards in their deck, discard pile, and loadout area.
 
-    *   **100.5a Ready Phase Deactivation:** During the **Ready Phase**, all cards that were activated during a previous turn are deactivated.
+**100.6. Terminology:**
 
-*   **100.6 Deactivation Exceptions.**  A card will not deactivate during the Ready Phase if:
+*   **100.6a. Defeat/Destroy:** The terms "defeat" and "destroy" both mean that a unit is removed from the battlefield.
 
-    *   **100.6a Not Previously Activated:** The card was not activated in the previous turn.
-    *   **100.6b Ability Prevention:** An ability on the card or another card prevents it from deactivating.
+**100.7. Mulligan Rule:** There are no mulligans in Quantum Nexus.
 
-*   **100.7 Mulligan Rule.** There are no mulligans in Quantum Nexus.
-
-*   **100.8 Simultaneous Actions.** When multiple players are instructed to perform actions simultaneously, each player performs their actions at the same time.
-
-*   **100.9 Card Ownership.** Each player owns and controls the cards in their deck, discard pile, and loadout area.
-
-*   **100.10 "Defeat" and "Destroy":**  The terms "defeat" and "destroy" both mean that a unit is removed from the battlefield
+**100.8. Simultaneous Actions:** When multiple players are instructed to perform actions simultaneously, each player performs their actions at the same time. 
 
 *   **101.1 Unit Cards:** Unit cards represent the characters, creatures, or machines that players use in combat. 
 

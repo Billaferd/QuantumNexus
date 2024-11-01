@@ -37,47 +37,49 @@
 
 **100.8. Simultaneous Actions:** When multiple players are instructed to perform actions simultaneously, each player performs their actions at the same time. 
 
-*   **101.1 Unit Cards:** Unit cards represent the characters, creatures, or machines that players use in combat. 
+## **101. Card Types**
 
-    *   **101.1a Attack and Defense:** Unit cards have Attack and Defense values, which determine how much damage they deal and how much damage they can withstand. 
-    *   **101.1b Deployment:**  Unit cards are deployed onto the battlefield during the **Deployment Phase**. 
-    *   **101.1c Attack Range:** Each Unit card has a defined attack range: Close, Mid, or Far.  This range determines which quadrants the unit can attack.
-    *   **101.1d Leader Units:**  Leader units are a special type of unit card with unique abilities.   They are subject to specific deck construction restrictions and placement rules on the battlefield. 
+**101.1. Unit Cards:** Unit cards represent the characters, creatures, or machines players use in combat.
 
-*   **101.2 Asset Cards:** Asset cards provide ongoing benefits or special abilities throughout the game.  They do not participate in combat directly.
+*   **101.1a. Attack and Defense:** Unit cards have Attack and Defense values, which determine how much damage they deal and withstand.
+*   **101.1b. Deployment:** Unit cards are deployed onto the battlefield during the **Deployment Phase**.
+*   **101.1c. Attack Range:** Each Unit card has a defined attack range: Close, Mid, or Far. This range determines which quadrants the unit can attack.
+*   **101.1d. Leader Units:** Leader units are a special type of unit card with unique abilities and are subject to specific deck construction restrictions and placement rules on the battlefield.
 
-    *   **101.2a Defense:**  Asset cards have a Defense value, but they do not have an Attack value.
-    *   **101.2b Loadout Area:**  Assets are played into the **Loadout Area**, a designated zone separate from the battlefield.
-    *   **101.2c Activation:** Many Asset cards have abilities that players can activate during the **Command Phase**. 
-    *   **101.2d Persistent Effects:** Some Assets provide continuous effects that are always active while the Asset is in play.
+**101.2. Asset Cards:** Asset cards provide ongoing benefits or special abilities throughout the game but don't participate in combat directly.
 
-*   **101.3 Event Cards:** Event cards represent one-time actions or effects that have an immediate impact on the game. 
+*   **101.2a. Defense:** Asset cards have a Defense value but no Attack value.
+*   **101.2b. Loadout Area:** Assets are played into the **Loadout Area**, a designated zone separate from the battlefield.
+*   **101.2c. Activation:** Many Asset cards have abilities players can activate during the **Command Phase**.
+*   **101.2d. Persistent Effects:** Some Assets provide continuous effects that are always active while in play.
 
-    *   **101.3a One-Time Use:** Event cards are played from the player's hand and are discarded after their effect resolves. 
-    *   **101.3b Powerful Effects:** Event cards can have a variety of effects, including dealing damage, manipulating cards, or providing temporary bonuses. 
+**101.3. Event Cards:** Event cards represent one-time actions or effects that immediately impact the game.
 
-*   **101.4 Upgrade Cards:** Upgrade cards are attached to other cards, usually units, to enhance their abilities or provide additional effects. 
+*   **101.3a. One-Time Use:** Event cards are played from the player's hand and discarded after their effect resolves.
+*   **101.3b. Powerful Effects:** Event cards can have a variety of effects, including dealing damage, manipulating cards, or providing temporary bonuses.
 
-    *   **101.4a Modifying Attack and Defense:** Upgrades can modify the Attack and Defense values of the card they are attached to.
-    *   **101.4b Additional Effects:** Upgrades can also grant new abilities or effects to the attached card. 
+**101.4. Upgrade Cards:** Upgrade cards are attached to other cards, usually units, to enhance their abilities or provide additional effects.
 
-*   **101.5 Terrain Cards:**  Terrain cards represent different environments on the battlefield and can affect units in specific quadrants.
+*   **101.4a. Modifying Attack and Defense:** Upgrades can modify the Attack and Defense values of the card they are attached to.
+*   **101.4b. Additional Effects:** Upgrades can also grant new abilities or effects to the attached card.
 
-    *   **101.5a Quadrant Effects:** Each Terrain card has an effect that applies to all units within the quadrant where it is placed.
-    *   **101.5b Limited Placement:** Only two Terrain cards can be placed in a single quadrant.
+**101.5. Terrain Cards:** Terrain cards represent different environments on the battlefield and can affect units in specific quadrants.
 
-*   **101.6 Mission Cards:**  Mission cards represent the player's objectives for the game.
+*   **101.5a. Quadrant Effects:** Each Terrain card has an effect that applies to all units within the quadrant where it is placed.
+*   **101.5b. Limited Placement:** Only two Terrain cards can be placed in a single quadrant.
 
-    *   **101.6a Objectives:** Each mission card has a specific objective that the player must complete.  These objectives often involve combat, controlling quadrants, or deploying specific types of units.
-    *   **101.6b Passive Effects:**  Some mission cards provide passive effects or abilities that benefit the player as long as the mission card is in play. 
-    *   **101.6c  Activated Abilities:** Some mission cards may have powerful abilities that can be activated upon the completion of their objective. 
-    *   **101.6d Completion and Victory:** Completing all of your mission cards is one way to win the game. 
+**101.6. Mission Cards:** Mission cards represent the player's objectives for the game.
 
-*   **101.7 Card Type Counts:** Quantum Nexus has rules that limit how many of certain card types you can have in your deck:
+*   **101.6a. Objectives:** Each mission card has a specific objective that the player must complete. These objectives often involve combat, controlling quadrants, or deploying specific unit types.
+*   **101.6b. Passive Effects:** Some mission cards provide passive effects or abilities that benefit the player as long as the mission card is in play.
+*   **101.6c. Activated Abilities:** Some mission cards may have powerful abilities that can be activated upon completing their objective.
+*   **101.6d. Completion and Victory:** Completing all of your mission cards is one way to win the game.
 
-    *   **101.7a Leader CP Limit:**  The total CP of all Leader units in your deck cannot exceed 25.
-    *   **101.7b Mission Card Limit:** You can include up to six mission cards in your deck.
-    *   **101.7c Duplicate Limits:** Each individual card has a specific duplicate limit, which determines how many copies of that card you can have in your deck. 
+**101.7. Card Type Counts:** Quantum Nexus has rules that limit how many of certain card types you can have in your deck:
+
+*   **101.7a. Leader CP Limit:**  The total CP of all Leader units in your deck cannot exceed 25.
+*   **101.7b. Mission Card Limit:** You can include up to six mission cards in your deck.
+*   **101.7c. Duplicate Limits:** Each individual card has a specific duplicate limit, which determines how many copies of that card you can have in your deck.
 
 ## **102. Areas of Play**
 

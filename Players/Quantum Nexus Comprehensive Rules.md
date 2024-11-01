@@ -2,39 +2,89 @@
 
 ## 100. General
 
-*   **100.1.** These Quantum Nexus rules apply to any Quantum Nexus game with two or more players.
+*   **100.1 Game Objective.** The objective of Quantum Nexus is to **defeat your opponent** by achieving one of the following conditions:
 
-*   **100.2a.** In constructed play, a format where each player creates their own deck ahead of time, each deck has a minimum deck size of **200 CP**.
+    *   **100.1a Deck Depletion:** Forcing your opponent to attempt to draw a card when their deck is empty.
+    *   **100.1b Mission Completion:** Completing all of the mission cards in your deck.
 
-*   **100.2b.** No more than **25 CP** can be dedicated to Leader type units.
+*   **100.2 Deck Construction Rules.**  Players must construct their decks according to these rules before the game begins.
 
-*   **100.2c.** The CP of the Leader cards counts towards the 200 CP limit.
+    *   **100.2a Deck Size:** Constructed decks must contain exactly **200 CP**. This limit includes only Unit, Asset, Upgrade, Leader, and Event cards. 
+    *   **100.2b Mission Card Quantity:** You can include up to **six** mission cards in your deck.
+    *   **100.2c Total Domain Points:** The total domain points across all mission cards must equal **exactly 6**. 
+    *   **100.2d Single Domain Limit:** No single domain can have more than **4 points** across all mission cards.
+    *   **100.2e Domain Alignment and Duplicate Limits:** The sum of the domain points on each unit card must **match or be lower** than the total domain points on your chosen mission cards.
+    *  **100.2f Card Duplicates:** Every card has a duplicate count printed on it. players cannot exceed the duplicate limits printed on each card. 
+    *   **100.2g CP:** CP (Command Points) is the resource used to play cards from your hand. Each card has a specific CP cost.
+    *   **100.2h Mission Card CP:** The CP values printed on mission cards do not count toward the 200 CP deck limit.
+    * **100.2i CP Budget:** The sum of the CP values of all mission cards in the deck represents the starting CP the player has available each turn.
 
-*   **100.2d.** The domain points on all mission cards must not total more than 6, and no single domain can total more than 4.
+*   **100.3 Leader Unit Restrictions.**
 
-*   **100.2e.** The cards in the deck must adhere to the duplicate attributes printed on each card.
+    *   **100.3a Quadrant Limits:** Only **one** Leader unit is allowed **per quadrant**.
+    *   **100.3b Deployment Restriction:** No other Leader unit may be moved or deployed into a quadrant that already contains a Leader unit.
+    *   **100.3c CP Limits:** The total CP of all Leader units in your deck cannot exceed **25**. This CP total counts toward the 200 CP deck limit.
 
-*   **100.2f.** The specified domain points on a card must be equal to or less than the total domain points on the mission cards.
+*   **100.4 Terrain Card Limits.**  Only **two Terrain cards** can occupy a single quadrant at any given time.
 
-*   **100.2g.** The sum of the CP values on the Mission Cards are the CP points available to the player during each game turn.
+*   **100.5 Deactivation.** Deactivation refers to resetting a card's abilities and effects, rendering them inactive.
 
-*   **100.2h.** The CP values of the Mission Cards do not count toward the 200 CP limit.
+    *   **100.5a Ready Phase Deactivation:** During the **Ready Phase**, all cards that were activated during a previous turn are deactivated.
 
-*   **100.3a. Deactivation.**  Deactivation refers to resetting a card's abilities and effects, rendering them inactive. During the **Ready Phase**, all cards that were activated during a previous turn are deactivated. 
+*   **100.6 Deactivation Exceptions.**  A card will not deactivate during the Ready Phase if:
 
-*   **100.3b. Deactivation Exceptions.**  A card will not deactivate during the Ready Phase if:
-    *   The card was not activated in the previous turn.
-    *   An ability on the card or another card prevents it from deactivating. 
+    *   **100.6a Not Previously Activated:** The card was not activated in the previous turn.
+    *   **100.6b Ability Prevention:** An ability on the card or another card prevents it from deactivating.
 
-*   **100.4.** Only  **two Terrain cards**  can be active in a single quadrant at any given time.
+*   **100.7 Mulligan Rule.** There are no mulligans in Quantum Nexus.
 
-*   **100.5.** Only one Leader unit is allowed per quadrant, and no other Leader unit may be moved or deployed into a quadrant that already contains a Leader unit. 
+*   **100.8 Simultaneous Actions.** When multiple players are instructed to perform actions simultaneously, each player performs their actions at the same time.
 
+*   **100.9 Card Ownership.** Each player owns and controls the cards in their deck, discard pile, and loadout area.
 
-## 101. The Quantum Nexus Golden Rules
+*   **100.10 "Defeat" and "Destroy":**  The terms "defeat" and "destroy" both mean that a unit is removed from the battlefield
 
-*   **101.1.** Whenever a card's text directly contradicts these rules, the card takes precedence.
-*   **101.2.** If multiple players would make choices and/or take actions at the same time, the active player (the player whose turn it is) makes any choices required, then the next player in turn order makes any choices required, followed by the remaining nonactive players in turn order. Then the actions happen simultaneously.
+*   **101.1 Unit Cards:** Unit cards represent the characters, creatures, or machines that players use in combat. 
+
+    *   **101.1a Attack and Defense:** Unit cards have Attack and Defense values, which determine how much damage they deal and how much damage they can withstand. 
+    *   **101.1b Deployment:**  Unit cards are deployed onto the battlefield during the **Deployment Phase**. 
+    *   **101.1c Attack Range:** Each Unit card has a defined attack range: Close, Mid, or Far.  This range determines which quadrants the unit can attack.
+    *   **101.1d Leader Units:**  Leader units are a special type of unit card with unique abilities.   They are subject to specific deck construction restrictions and placement rules on the battlefield. 
+
+*   **101.2 Asset Cards:** Asset cards provide ongoing benefits or special abilities throughout the game.  They do not participate in combat directly.
+
+    *   **101.2a Defense:**  Asset cards have a Defense value, but they do not have an Attack value.
+    *   **101.2b Loadout Area:**  Assets are played into the **Loadout Area**, a designated zone separate from the battlefield.
+    *   **101.2c Activation:** Many Asset cards have abilities that players can activate during the **Command Phase**. 
+    *   **101.2d Persistent Effects:** Some Assets provide continuous effects that are always active while the Asset is in play.
+
+*   **101.3 Event Cards:** Event cards represent one-time actions or effects that have an immediate impact on the game. 
+
+    *   **101.3a One-Time Use:** Event cards are played from the player's hand and are discarded after their effect resolves. 
+    *   **101.3b Powerful Effects:** Event cards can have a variety of effects, including dealing damage, manipulating cards, or providing temporary bonuses. 
+
+*   **101.4 Upgrade Cards:** Upgrade cards are attached to other cards, usually units, to enhance their abilities or provide additional effects. 
+
+    *   **101.4a Modifying Attack and Defense:** Upgrades can modify the Attack and Defense values of the card they are attached to.
+    *   **101.4b Additional Effects:** Upgrades can also grant new abilities or effects to the attached card. 
+
+*   **101.5 Terrain Cards:**  Terrain cards represent different environments on the battlefield and can affect units in specific quadrants.
+
+    *   **101.5a Quadrant Effects:** Each Terrain card has an effect that applies to all units within the quadrant where it is placed.
+    *   **101.5b Limited Placement:** Only two Terrain cards can be placed in a single quadrant.
+
+*   **101.6 Mission Cards:**  Mission cards represent the player's objectives for the game.
+
+    *   **101.6a Objectives:** Each mission card has a specific objective that the player must complete.  These objectives often involve combat, controlling quadrants, or deploying specific types of units.
+    *   **101.6b Passive Effects:**  Some mission cards provide passive effects or abilities that benefit the player as long as the mission card is in play. 
+    *   **101.6c  Activated Abilities:** Some mission cards may have powerful abilities that can be activated upon the completion of their objective. 
+    *   **101.6d Completion and Victory:** Completing all of your mission cards is one way to win the game. 
+
+*   **101.7 Card Type Counts:** Quantum Nexus has rules that limit how many of certain card types you can have in your deck:
+
+    *   **101.7a Leader CP Limit:**  The total CP of all Leader units in your deck cannot exceed 25.
+    *   **101.7b Mission Card Limit:** You can include up to six mission cards in your deck.
+    *   **101.7c Duplicate Limits:** Each individual card has a specific duplicate limit, which determines how many copies of that card you can have in your deck. 
 
 ## 102. Players
 

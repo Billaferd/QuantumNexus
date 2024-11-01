@@ -86,16 +86,42 @@
     *   **101.7b Mission Card Limit:** You can include up to six mission cards in your deck.
     *   **101.7c Duplicate Limits:** Each individual card has a specific duplicate limit, which determines how many copies of that card you can have in your deck. 
 
-## 102. Players
+## **102. Areas of Play**
 
-*   **102.1 Number of Players:** Quantum Nexus is designed for two or more players.
-*   **102.2 Opponents:** In a Quantum Nexus game, every player is an opponent of every other player. This means that each player is trying to defeat all the other players in the game.
-*   **102.3 Constructed Decks:**  In *constructed play*, each player creates their own deck in advance according to the deck construction rules outlined in **Section 100.**
-*   **102.4 Starting Player:** Before the game begins, players determine the starting player randomly. This player will take the first turn.
-*   **102.5 Shuffling:** Each player shuffles their own deck to ensure the cards are in random order. Each player may then have the option to shuffle or cut their opponent's deck.  A player's deck is then referred to as their *library*.
-*   **102.6 Actions and Choices:**  If a rule or card effect requires multiple players to make choices or take actions at the same time, the active player (the player whose turn it is) makes their choices first, then the next player in turn order makes their choices, and so on. After all choices have been made, the actions are resolved simultaneously.
+This section defines the distinct zones where cards are played, interacted with, and managed during a Quantum Nexus game. Understanding these areas and their functions is crucial for a smooth and strategic gameplay experience.
 
-## 103. Starting the Game
+*   **102.1 Mission Card Area:** 
+    *   **102.1a Location and Purpose:** Situated prominently above the main playing area, the Mission Card Area provides a dedicated space for players to display their chosen mission cards face-up. 
+    *   **102.1b Visibility and Reference:** The face-up placement of mission cards allows for transparency, enabling both players to readily see each other's objectives and strategize accordingly.  Players can refer to these cards throughout the game to track their progress and make informed decisions aligned with their victory goals.
+
+*   **102.2 Deck:**
+    *   **102.2a Starting Point:**  The Deck represents each player's personalized arsenal, containing a carefully constructed set of cards shuffled and placed face-down in a designated area at the game's start.
+    *   **102.2b Drawing Cards:**  Players draw cards from their Deck throughout the game, primarily during the Ready Phase, to replenish their hand and access new tactical options.
+    *   **102.2c Deck Depletion:** Running out of cards carries significant consequences in Quantum Nexus. If a player is unable to draw a card when required, their Deck is considered empty, and they lose the game.  This mechanic highlights the importance of resource management, strategic card usage, and planning for long-term sustainability.
+
+*   **102.3 Discard Pile:**
+    *   **102.3a Repository for Used Cards:** The Discard Pile acts as a repository for cards that are no longer active in the game. 
+    *   **102.3b Reasons for Discarding:** Cards are typically sent to the Discard Pile when they are destroyed in battle, their effects have been used, or specific game mechanics necessitate their removal.
+    *   **102.3c Face-Up Placement:** Cards in the Discard Pile are placed face-up, allowing both players to see which cards have been used, eliminated, and are potentially out of circulation. This open visibility contributes to strategic awareness and informed decision-making for both players. 
+
+*   **102.4 Loadout Area:**
+    *   **102.4a Dedicated Asset Zone:** The Loadout Area is a specialized zone outside the main battlefield designated for placing Asset cards.
+    *   **102.4b Asset Protection:** Unlike Units deployed directly onto the battlefield, Assets placed in the Loadout Area enjoy a degree of protection from direct attacks by enemy Units.   This strategic positioning makes them valuable assets capable of providing sustained benefits throughout the game.
+    *   **102.4c Vulnerability to Specific Effects:**  While safe from direct Unit attacks, it's important to note that Assets in the Loadout Area can still be targeted and affected by certain card abilities or effects explicitly designed to interact with this zone.
+    *   **102.4d Ongoing Effects and Abilities:**  Assets often provide continuous passive effects or activate powerful abilities that can significantly impact the game state, making them valuable strategic components within a player's overall strategy. 
+
+*   **102.5 Battlefield:**
+    *   **102.5a Central Arena for Conflict:**  The Battlefield is the central playing area where Units are strategically deployed, maneuvered, and engage in direct combat.  It's a dynamic space where tactical decisions and card interactions play out, shaping the course of the game.
+    *   **102.5b Quadrant Divisions:**  For strategic depth and tactical considerations, the Battlefield is subdivided into six distinct quadrants: Front Left, Front Center, Front Right, Back Left, Back Center, and Back Right.
+    *   **102.5c Front Row and Back Row:**  The battlefield is also split horizontally. The Front left, front center, and front right quadrants make up the front row. The back row is made up of the back left, back center, and back right quadrants.
+    *   **102.5d Flanks and Center:** The Battlefield layout is also strategically categorized into flanks and the center. The Front Left and Back Left quadrants form the left flank, the Front Right and Back Right constitute the right flank, and the Front Center and Back Center represent the central area of the battlefield.  This division adds another layer of tactical thinking, encouraging players to consider flank attacks, central control, and defensive formations. 
+    *   **102.5e Attack Ranges and Positioning:**  Each Unit card has a designated range—Close, Mid, or Far—which dictates the specific quadrants it can attack from its current position.   Strategic positioning, understanding attack ranges, and anticipating opponent's movements are key to successful combat on the Quantum Nexus battlefield. 
+*  **102.6 Ranges:**
+    *  **102.6a Close Range:** Close Range units can attack in the cardinal directions (Up, Down,Left, and right), so long as there is a quadrant there.
+    *  **102.6b Mid Range:** Mid range units includes all close range targets plus the quadrants that are on the diagonal from the unit as long as there is a quadrant there.
+    *  **102.6c Far Range:** Far Range can target  all quadrants that are one quadrant away. If the unit is in the back left quadrant then it can target the back right, front right, the opponent's front left, front center, and front right.
+
+## 103. Setting up the Game
 
 *   **103.1 Constructed Decks:** Before the game begins, players must construct their decks according to the rules in **Section 100**. This ensures a fair and balanced game.
 

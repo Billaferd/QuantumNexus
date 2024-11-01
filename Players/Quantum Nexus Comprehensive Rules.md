@@ -95,11 +95,26 @@
 *   **102.5 Shuffling:** Each player shuffles their own deck to ensure the cards are in random order. Each player may then have the option to shuffle or cut their opponent's deck.  A player's deck is then referred to as their *library*.
 *   **102.6 Actions and Choices:**  If a rule or card effect requires multiple players to make choices or take actions at the same time, the active player (the player whose turn it is) makes their choices first, then the next player in turn order makes their choices, and so on. After all choices have been made, the actions are resolved simultaneously.
 
-## 103. Starting the Game 
+## 103. Starting the Game
 
-*   **103.1.** Before the game begins, players construct their decks according to the deck construction rules (see 100.2). 
-*   **103.2.** Players determine the starting player randomly. This player takes the first turn.
-*   **103.3** Each player shuffles their deck so the cards are in random order. Each player may then shuffle or cut their opponent's decks. The players' decks become their libraries. 
+*   **103.1 Constructed Decks:** Before the game begins, players must construct their decks according to the rules in **Section 100**. This ensures a fair and balanced game.
+
+*   **103.2 Determining the Starting Player:**
+    *   **103.2a Card Comparison:** This can be done by having each player draw a card from their shuffled deck and comparing their CP values. The player with the lower CP value chooses who goes first. 
+        *   **103.2b Tiebreaker:** If the CP values are equal, players draw additional cards until a lower value is revealed.
+
+*   **103.3 Shuffling and Cutting Decks:** 
+    *   **103.3a Shuffling:** Each player shuffles their deck so that the cards are in random order.
+    *   **103.3b Cutting:** Players may then shuffle or cut their opponent's decks.
+    *   **103.3c Libraries:** The shuffled decks become each player's army.
+
+*   **103.4 Mission Card Placement:**
+    *   **103.4a Selection:** Each player selects their chosen mission cards from their deck.
+    *   **103.4b Placement:** Players place their mission cards face-up in the designated Mission Card Area. This makes the objectives visible to both players.
+
+*   **103.5 Starting Command Points:**
+    *   **103.5a Calculation:** Players determine their starting Command Points (CP) based on the total CP value of their chosen mission cards. 
+    *   **103.5b Total CP:** Add the CP values of all mission cards together.  This sum is the player's starting CP. 
 
 ## 104. Ending the Game
 

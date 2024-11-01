@@ -88,8 +88,6 @@
 
 ## **102. Areas of Play**
 
-This section defines the distinct zones where cards are played, interacted with, and managed during a Quantum Nexus game. Understanding these areas and their functions is crucial for a smooth and strategic gameplay experience.
-
 *   **102.1 Mission Card Area:** 
     *   **102.1a Location and Purpose:** Situated prominently above the main playing area, the Mission Card Area provides a dedicated space for players to display their chosen mission cards face-up. 
     *   **102.1b Visibility and Reference:** The face-up placement of mission cards allows for transparency, enabling both players to readily see each other's objectives and strategize accordingly.  Players can refer to these cards throughout the game to track their progress and make informed decisions aligned with their victory goals.

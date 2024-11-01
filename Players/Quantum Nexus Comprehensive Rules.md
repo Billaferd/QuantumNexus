@@ -146,11 +146,24 @@
     *   **104.1a** An opponent is unable to draw a card when required (Deck Depletion).
     *   **104.1b** The player completes all of their mission cards (Mission Completion).
 
-## 105. Domains
+## 105. Combat
 
-*   **105.1** There are four domains in Quantum Nexus: Technology, Magic, Psionics, and Divinity. 
-*   **105.2** Unit cards can be associated with one or more domains. 
-*   **105.3** Mission cards are associated with the four domains, and the total domain points on a player's mission cards must equal 6.
+*   **105.1 Attack Range**: Each Unit card has a defined attack range: Close, Mid, or Far. A unit can only attack units within its range. Attack range dictates the quadrants a unit can attack from its current position.
+
+    *   **105.1a Close Range**: Close Range units can attack in the cardinal directions (Up, Down, Left, and Right), so long as there is a quadrant there.
+    *   **105.1b Mid Range**: Mid Range units can attack all Close Range targets, plus the quadrants that are diagonal to the unit, as long as there is a quadrant there.
+    *   **105.1c Far Range**: Far Range units can target all quadrants that are one quadrant away. If the unit is in the back left quadrant, then it can target the back right, front right, the opponent's front left, front center, and front right.
+*   **105.2 Attacking**: During the Battle Phase, a player can choose to attack with any of their ready units. The player declares the attacking unit and the target unit they wish to attack. Units in the front row must be targeted and defeated before attacking units in the back row.
+
+*   **105.3a Damage Resolution:** When a unit attacks, it deals damage equal to its Attack value to the defending unit.
+
+*   **105.3b Attack Comparison:** The attacker's Attack value is compared to the defender's Defense value.
+
+*   **105.3c Defender's Defeat**: If the attacker's Attack value is higher than the defender's Defense value, the defender is destroyed.
+*   **105.3d Attacker's Defeat:** If the defender's Defense value is higher than the attacker's Attack value, the attacker is destroyed.
+*   **105.3e Draw:** If the Attack and Defense values are equal, both units remain on the battlefield.
+
+*   **105.4 Defeat:** "Defeat" and "Destroy" both mean that a unit is removed from the battlefield. A unit is defeated if the attacker's attack value is greater than the unit's defense value. Defeated units are removed from the battlefield. [100.10, 122.1] 
 
 ## 106. Command Points (CP)
 

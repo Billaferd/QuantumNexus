@@ -165,27 +165,74 @@
 
 *   **105.4 Defeat:** "Defeat" and "Destroy" both mean that a unit is removed from the battlefield. A unit is defeated if the attacker's attack value is greater than the unit's defense value. Defeated units are removed from the battlefield. [100.10, 122.1] 
 
-## 106. Abilities
+## **106. Abilities**
 
-*   **106.1 Activated Abilities:** Activated abilities require a cost to be paid to activate them. The costs associated with activating an ability may include: spending CP, discarding cards, or tapping units. These abilities are put into effect once the cost is paid and they follow a specific set of instructions. Activated Abilities can target objects or players, depending on how the text is written.
+106.1. An **ability** is a characteristic of an object that may allow it to affect the game. Abilities can affect the game in a variety of ways, from modifying the characteristics of objects to creating new objects or players.
 
-    *   **106.1a Activation Costs:** The specific costs for activating an ability are outlined in the card's text. These costs can vary widely and may involve a combination of resources or actions. Understanding these costs is crucial for effectively utilizing activated abilities. 
-    *   **106.1b Targeting:** When an activated ability targets an object or player, the player activating the ability must choose a valid target that meets the requirements specified in the ability's text. Proper targeting is essential for executing desired outcomes.
-    *   **106.1c Resolution:** Once the activation cost is paid and a valid target is chosen (if applicable), the activated ability's effect resolves according to its instructions. This could involve dealing damage, modifying stats, drawing cards, or other game actions.
+106.2. There are three general categories of abilities:
 
-*   **106.2 Triggered Abilities:** Triggered abilities automatically activate when specific trigger conditions are met. These conditions often involve events on the battlefield, actions taken by players, or achieving specific game states. Once the specific condition is met, the triggered ability's effect will be resolved, enacting whatever benefit or detriment is described on the card.
+*   **106.2a. Activated abilities**
+*   **106.2b. Triggered abilities**
+*   **106.2c. Passive abilities**
 
-    *   **106.2a Trigger Conditions:** Each triggered ability has a specific trigger condition that must be met for the ability to activate. These conditions are clearly defined in the card's text. Recognizing these triggers is crucial for anticipating and responding to their activation.
-    *   **106.2b Timing:** The timing of a triggered ability's activation is important. Some abilities trigger immediately when the condition is met, while others may trigger at a specific point in the game, such as at the start or end of a phase.
-    *   **106.2c Resolution:** Once a triggered ability's condition is met, its effect resolves as instructed by the card's text. This could involve various game actions, similar to activated abilities.
+### 106.3. Activated Abilities
 
-*   **106.3 Passive Abilities:** Passive abilities are continuously active without requiring any activation. These abilities provide ongoing benefits or modifiers to the card they are associated with or affect other game elements as outlined in their text.
+106.3a. An **activated ability** is an ability that requires a cost to be paid to activate it. The cost associated with activating an ability may include:
 
-    *   **106.3a Continuous Effects:** Passive abilities create continuous effects that persist as long as the card with the ability remains in play. These effects can range from stat modifications to special rules that alter game interactions.
-    *   **106.3b No Activation Cost:** Passive abilities do not have activation costs and do not consume a player's actions during their turn. They function automatically and constantly, shaping the game state without requiring player intervention.
+*   Spending CP
+*   Discarding cards
+*   Tapping units
 
-*   **106.4 Interrupts:** An interrupt is a card ability that activates in response to a specific event, either mandatory or optional.
+106.3b. Activated abilities are put into effect once the cost is paid, and they follow a specific set of instructions.
 
-    *   **106.4a Mandatory Interrupts:**  Some abilities are mandatory interrupts, meaning players must activate them if their trigger condition is met. These interrupts take precedence over other actions and must be resolved before the triggering event continues. 
-    *   **106.4b Optional Interrupts:** Other interrupts are optional, giving players the choice to activate them by paying a specified cost. Players can strategically choose whether to activate an optional interrupt based on the game situation and their desired outcome.
+106.3c. Activated abilities can target objects or players, depending on how the text is written.
 
+#### 106.3d. Activation Costs
+
+106.3d.i. The specific costs for activating an ability are outlined in the card's text.
+
+106.3d.ii. These costs can vary widely and may involve a combination of resources or actions. Understanding these costs is crucial for effectively utilizing activated abilities.
+
+#### 106.3e. Targeting
+
+106.3e.i. When an activated ability **targets** an object or player, the player activating the ability must choose a valid target that meets the requirements specified in the ability's text. Proper targeting is essential for executing desired outcomes.
+
+#### 106.3f. Resolution
+
+106.3f.i. Once the activation cost is paid and a valid target is chosen (if applicable), the activated ability's effect resolves according to its instructions.
+
+106.3f.ii. This could involve dealing damage, modifying stats, drawing cards, or other game actions.
+
+### 106.4. Triggered Abilities
+
+106.4a. A **triggered ability** automatically activates when specific trigger conditions are met.
+
+106.4b. These conditions often involve events on the battlefield, actions taken by players, or achieving specific game states.
+
+106.4c. Once the specific condition is met, the triggered ability's effect will be resolved, enacting whatever benefit or detriment is described on the card.
+
+#### 106.4d. Trigger Conditions
+
+106.4d.i. Each triggered ability has a specific **trigger condition** that must be met for the ability to activate.
+
+106.4d.ii. These conditions are clearly defined in the card's text.
+
+106.4d.iii. Recognizing these triggers is crucial for anticipating and responding to their activation.
+
+#### 106.4e. Timing
+
+106.4e.i The timing of a triggered ability's activation is important.
+
+106.4e.ii. Some abilities trigger immediately when the condition is met, while others may trigger at a specific point in the game, such as at the start or end of a phase.
+
+#### 106.4f. Resolution
+
+106.4f.i. Once a triggered ability's condition is met, its effect resolves as instructed by the card's text.
+
+106.4f.ii. This could involve various game actions, similar to activated abilities.
+
+### 106.5. Passive Abilities
+
+106.5a. **Passive abilities** are continuously active without requiring any activation.
+
+106.5b. These abilities provide ongoing benefits or modifiers to the card they are associated with or affect other game elements as outlined in their text.

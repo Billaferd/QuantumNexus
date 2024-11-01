@@ -88,8 +88,12 @@
 
 ## 102. Players
 
-*   **102.1.** Quantum Nexus games involve two or more players.
-*   **102.2.** Each player is an opponent of all other players.
+*   **102.1 Number of Players:** Quantum Nexus is designed for two or more players.
+*   **102.2 Opponents:** In a Quantum Nexus game, every player is an opponent of every other player. This means that each player is trying to defeat all the other players in the game.
+*   **102.3 Constructed Decks:**  In *constructed play*, each player creates their own deck in advance according to the deck construction rules outlined in **Section 100.**
+*   **102.4 Starting Player:** Before the game begins, players determine the starting player randomly. This player will take the first turn.
+*   **102.5 Shuffling:** Each player shuffles their own deck to ensure the cards are in random order. Each player may then have the option to shuffle or cut their opponent's deck.  A player's deck is then referred to as their *library*.
+*   **102.6 Actions and Choices:**  If a rule or card effect requires multiple players to make choices or take actions at the same time, the active player (the player whose turn it is) makes their choices first, then the next player in turn order makes their choices, and so on. After all choices have been made, the actions are resolved simultaneously.
 
 ## 103. Starting the Game 
 

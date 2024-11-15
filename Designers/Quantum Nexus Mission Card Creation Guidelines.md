@@ -24,7 +24,7 @@ Understanding the battlefield and the mechanics of card range is crucial for eff
    * Mid Range: Units can target adjacent and diagonal quadrants on their own side, as well as any quadrant in the opponent's front row.
    * Far Range: Units can only target quadrants that are 2 rows away from its current position. If a unit is in the back row, it can only attack the enemies front row, if the unit is in the front row, it can attack the enemies back row. This range system adds a layer of tactical depth to the game, forcing players to carefully consider unit placement and movement to maximize their offensive and defensive capabilities.
  * C. Movement: Every terrestrial and aerial unit may choose to attack or move during the Combat Phase, it can move to any adjacent quadrant, but not diagonally.
- * D. Card Ranks: Each Unit, Leader, and Asset card has one of 4 ranks. Terrestrial and aerial are assigned to Units and Leaders. Orbital, and interstellar are assigned to Assets. Terrestrial and aerial units are deployed to the battle field. Orbital and Interstellar units are deployed to the Load out. Events and Upgrades do not have a rank.
+ * D. Card Ranks: Each Unit, Leader, and Asset card has one of 4 ranks. Terrestrial and aerial are assigned to Units and Leaders. Orbital, and interstellar are assigned to Assets. Terrestrial and aerial units are deployed to the battlefield. Orbital and Interstellar units are deployed to the Loadout. Events and Upgrades do not have a rank.
  * E. Turn Sequence: Each turn has four phases: Ready, Deployment, Command, and Battle.
   1. The Ready Phase sets the stage for your turn. CP resets, players draw cards, units deactivate.
   2. During the Deployment Phase, players play their units, upgrades, and other permanent cards from their hand.
@@ -128,27 +128,7 @@ In Quantum Nexus, challenges are the heart of every mission card, testing your s
 
 Ensuring that challenges are fair and balanced within a mission cards context is important and should follow these steps.
 
-**1. Use the Difficulty Scale**
-
-*   **Level 1 (1-3 CP):** Straightforward actions achievable within a turn, like deploying a specific unit type or activating a basic ability (inspired by ). 
-*   **Level 2 (4-6 CP):**  Slightly more involved, potentially requiring specific card combinations, achieving a short-term goal (e.g., controlling a quadrant for a turn), or brief resource management.
-*   **Level 3 (7-9 CP):**  More intricate objectives, demanding specific card synergies, achieving a more challenging combat goal, or sustained board control over multiple turns. 
-*   **Level 4 (10-12 CP):** Difficult goals that might span multiple turns, necessitate complex synergies, or impose minor drawbacks on the player pursuing them.
-*   **Level 5 (13+ CP):**  The most challenging, potentially game-changing objectives requiring long-term planning, significant synergies, or substantial drawbacks as trade-offs for powerful rewards.
-
-Designers should assign a difficulty level to each new challenge based on this scale.
-
-**2. Apply a Domain Point Modifier**
-
-To account for the impact of domain alignment on challenge difficulty, implement a modifier based on the mission card's DP distribution:
-
-*   **+1 CP Modifier:** Challenges directly aligned with a domain where the mission card has 4 DP.
-*   **0 CP Modifier:** Challenges aligned with a domain where the mission card has 2-3 DP. 
-*   **-1 CP Modifier:** Challenges aligned with a domain where the mission card has 1 DP.
-
-This modifier acknowledges that challenges tied to higher DP domains are inherently more potent due to the power level associated with those domains on the mission card.
-
-**3. Calculate Preliminary Challenge CP**
+**1. Calculate Preliminary Challenge CP**
 
 Based on the difficulty level and domain modifier, calculate the Preliminary Challenge CP:
 
@@ -156,7 +136,7 @@ Based on the difficulty level and domain modifier, calculate the Preliminary Cha
 Preliminary Challenge CP = Difficulty Level + Domain Point Modifier 
 ```
 
-**4.  Consider Ability Strength and Adjust**
+**2.  Consider Ability Strength and Adjust**
 
 The Preliminary Challenge CP serves as a starting point.  Designers would then evaluate the strength of the mission card's passive and one-time abilities in conjunction with the challenge's Preliminary CP cost. This step involves subjective judgment and playtesting:
 
@@ -165,7 +145,7 @@ The Preliminary Challenge CP serves as a starting point.  Designers would then e
 
 This step ensures alignment with the principle of balancing challenge difficulty with ability strength.
 
-**5. Determine Final Challenge CP**
+**3. Determine Final Challenge CP**
 
 After considering ability strength, the Preliminary Challenge CP is finalized. This Final Challenge CP is then used in the Adjusted CP formula: `Adjusted CP = Base CP + (Challenge CP - (Ability CP * Sign(Challenge CP))`.
 
@@ -173,23 +153,20 @@ After considering ability strength, the Preliminary Challenge CP is finalized. T
 
 Let's say we're designing a mission card with 3 DP in Technology and 1 DP in Divinity. The challenge involves deploying a Technology unit with a specific keyword and then using that unit to destroy an opponent's unit.
 
-1.  **Difficulty Level:** This challenge seems moderately difficult, potentially a Level 3 (3-4 CP).
-2.  **Domain Point Modifier:** The challenge is primarily aligned with Technology (3 DP), so it receives a 0 CP modifier.
-3.  **Preliminary Challenge CP:** 3 (Difficulty Level) + 0 (Domain Modifier) = 3 CP
-4.  **Ability Strength and Adjustment:**  Let's assume the mission card's abilities are relatively powerful. To compensate, the Preliminary Challenge CP is reduced by 1 CP.
-5.  **Final Challenge CP:** 3 CP - 1 CP = 2 CP
+1.  **Preliminary Challenge CP:** 4 (Domain Points) = 4 CP
+3.  **Final Challenge CP:** 4 CP * 3 CP = 12 CP
 
-This 2 CP value would then be used in the Adjusted CP calculation for the mission card.
+This 12 CP value would then be used in the Adjusted CP calculation for the mission card.
 
 #### Example Challenges
 
 To give you a taste of the challenges that await, here are a few examples from different domains
 
- * Generic (1 point): Play three cards of a specific type (e.g., Unit, Event) in a single turn.
- * Technology (2 points): Activate a tech device that temporarily disables all of your opponent's assets for one turn.
- * Magic (3 points): Channel elemental forces to cast a spell that removes all enemy units in a chosen row from the battlefield.
- * Psionics (4 points): Create a psychic barrier that renders your units immune to all forms of attack for one turn.
- * Divinity (2 points): Receive a divine blessing that doubles the strength of one of your units for a turn.
+ * 9 points: Deploy three mech cards in a single turn.
+ * 15 points: Activate a tech device that temporarily disables all of your opponent's assets for one turn.
+ * 12 points: Channel elemental forces to cast a spell that removes all enemy units in a chosen row from the battlefield.
+ * 23 points: Create a psychic barrier that renders your units immune to all forms of attack for one turn.
+ * 6 points: Receive a divine blessing that doubles the strength of one of your units for a turn.
 
 These are just a few examples, and the possibilities for challenge design are vast. As you explore Quantum Nexus, you'll encounter a wide range of challenges that will test your strategic skills and reward your ingenuity.
 
@@ -265,44 +242,44 @@ By incorporating narrative elements, you not only create more engaging challenge
  * Domain-Specific Challenges: These challenges are tailored to the unique themes and mechanics of each domain, encouraging specialization and strategic deck building.
    * Technology:
      * Deploy a Tech Unit with at least 5 Attack and "Flying."
- * Have a Tech Unit with "Barrier" survive 3 turns.
- * Destroy 3 opponent Assets.
- * Have a Tech Unit with at least 7 Attack and "Drone" subtype.
- * Activate 3 different "Device" abilities in a single game.
- * Have 4 Tech Units with different subtypes on the battlefield at once.
+     * Have a Tech Unit with "Barrier" survive 3 turns.
+     * Destroy 3 opponent Assets.
+     * Have a Tech Unit with at least 7 Attack and "Drone" subtype.
+     * Activate 3 different "Device" abilities in a single game.
+     * Have 4 Tech Units with different subtypes on the battlefield at once.
      * Deploy a specific number of technology-based units with unique abilities.
      * Activate tech devices that disable opponent's assets or units.
      * Initiate a sequence of actions with multiple tech units in a single turn.
      * Destroy a certain number of cards in your opponent's loadout.
    * Magic:
      * Cast a spell that returns an enemy Unit to its owner's hand.
- * Have a Magic Unit with "Lifelink" deal damage 3 times.
- * Have a Magic Unit with both "Flying" and "First Strike."
- * Cast a spell that creates a Terrain card.
- * Have 3 Magic Units with "Enchantment" subtype on the battlefield at once.
- * Cast a spell that discards 2 cards from your opponent's hand.
+     * Have a Magic Unit with "Lifelink" deal damage 3 times.
+     * Have a Magic Unit with both "Flying" and "First Strike."
+     * Cast a spell that creates a Terrain card.
+     * Have 3 Magic Units with "Enchantment" subtype on the battlefield at once.
+     * Cast a spell that discards 2 cards from your opponent's hand.
      * Enchant units with specific buffs or debuffs.
      * Summon magical creatures or guardians with varying abilities.
      * Cast powerful spells that affect the entire battlefield or specific rows/columns.
      * Manipulate the elemental forces to create advantageous situations.
    * Psionics:
       * Take control of an opponent's Unit with at least 4 Attack.
- * Have a Psionic Unit with "Immunity" deal damage 4 times.
- * Use a Psionic ability to make an opponent discard their entire hand.
- * Have 3 Psionic Units with different subtypes on the battlefield at once.
- * Activate a Psionic ability that forces your opponent to skip their next turn.
- * Have a Psionic Unit with at least 6 Attack and "Telekinesis" subtype.
+     * Have a Psionic Unit with "Immunity" deal damage 4 times.
+     * Use a Psionic ability to make an opponent discard their entire hand.
+     * Have 3 Psionic Units with different subtypes on the battlefield at once.
+     * Activate a Psionic ability that forces your opponent to skip their next turn.
+     * Have a Psionic Unit with at least 6 Attack and "Telekinesis" subtype.
      * Control or manipulate opponent's units' actions or minds.
      * Foresee opponent's moves or gain knowledge of their cards.
      * Create psychic barriers or shields to protect your units.
      * Use telekinetic powers to move or rearrange units on the battlefield.
    * Divinity:
      * Have a Divinity Unit with "Ascended" destroy 3 enemy Units.
- * Deploy a Divinity Unit with both "Flying" and "Lifelink."
- * Activate a Divinity ability that heals all friendly Units.
- * Have 3 Divinity Units with "Angel" subtype on the battlefield at once.
- * Deploy a Divinity Leader Unit with at least 6 Attack.
- * Activate a Divinity ability that banishes an enemy Unit from the game.
+     * Deploy a Divinity Unit with both "Flying" and "Lifelink."
+     * Activate a Divinity ability that heals all friendly Units.
+     * Have 3 Divinity Units with "Angel" subtype on the battlefield at once.
+     * Deploy a Divinity Leader Unit with at least 6 Attack.
+     * Activate a Divinity ability that banishes an enemy Unit from the game.
      * Receive divine blessings that enhance your units or weaken opponents.
      * Invoke celestial interventions to revive, or protect your forces.
      * Lead crusades or holy wars that impact specific unit types.
@@ -312,7 +289,9 @@ By incorporating narrative elements, you not only create more engaging challenge
      * Deploy a unit with attributes from two or more domains to trigger a specific effect.
      * Activate a combination of abilities from different domains to achieve a unique outcome.
      * Combine technological advancements with magical enhancements for a synergistic advantage.
+
 In addition to these, consider these broader challenge categories:
+
  * Resource Management:
    * Accumulate a certain amount of CP within a specific number of turns.
    * Spend a certain amount of CP on deployments or abilities of a specific domain.
@@ -328,6 +307,7 @@ In addition to these, consider these broader challenge categories:
    * Have units with specific range advantages in specific positions.
    * Manipulate terrain to your advantage by placing or altering terrain cards.
    * Control a certain number of units with specific keywords or abilities.
+
 These broader categories, combined with the domain-specific and mixed-domain challenges, provide a wider range of options for mission card design, encouraging creativity and diversity in Quantum Nexus gameplay.
 
 ### Challenge Pacing

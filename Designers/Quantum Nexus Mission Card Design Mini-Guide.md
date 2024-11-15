@@ -19,16 +19,6 @@ The sources offer a detailed framework for designing mission cards, which are cr
 **3. Challenge: Testing Your Strategic Prowess**
 
 *   Each mission card has a unique challenge that players must strive to complete to unlock the card's abilities.
-*   Use the **Difficulty Scale** to determine a preliminary CP cost for the challenge based on how demanding it is:
-    *   **Level 1 (1-3 CP):** Simple, achievable within a turn.
-    *   **Level 2 (4-6 CP):** More involved, may require specific card combinations or short-term goals.
-    *   **Level 3 (7-9 CP):** Complex, may require specific synergies or sustained board control.
-    *   **Level 4 (10-12 CP):** Difficult, may span multiple turns or impose drawbacks on the player.
-    *   **Level 5 (13+ CP):** The most challenging, may require long-term planning or significant drawbacks.
-*   Apply a **Domain Point Modifier** to the challenge's CP cost based on the mission card's DP distribution to account for domain strength:
-    *   **+1 CP:** If the challenge aligns with a 4 DP domain on the mission card.
-    *   **0 CP:** If the challenge aligns with a 2-3 DP domain on the mission card.
-    *   **-1 CP:** If the challenge aligns with a 1 DP domain on the mission card.
 *   Consider various types of challenges: Domain-Specific, Generic (not tied to any specific domain), Resource Management, Deck Manipulation, Battlefield Control.
 *   Think about **Challenge Pacing:** Early-Game (easy, achievable in the first few turns), Mid-Game (more setup required), Late-Game (difficult, may require multiple turns).
 *   **Negative Challenges** are also an option. These require the player to perform an action that has a detrimental effect on their own game state, increasing the Adjusted CP of the mission card.

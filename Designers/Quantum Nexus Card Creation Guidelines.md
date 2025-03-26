@@ -216,13 +216,54 @@ This combination creates a threatening, aggressive card that disrupts the oppone
 
 Card calculations involve several steps to determine the final CP cost and available Ability Points (AP):
 
-1. Base CP: Multiply the assigned Domain Points (DP) by 2.
-2. Stat Points: Attack and Defense cost 0.5 CP per point. Calculate the total stat point cost by adding Attack and Defense, then dividing by 2.
-3. Adjusted CP: Subtract half of the sum of the stat point cost from the Base CP. `BaseCP - ((Attack + Defense) / 2)`.
-4. Card Count Factor: Divide 1 by the number of duplicates allowed, then multiply by 0.8.
-5. Leadership Factor: If the card is a Leader, the factor is 1; otherwise, it's 0.
-6. Ability Points (AP): Calculate AP using the following formula: `AdjustedCP + (AdjustedCP * Card Count Factor) + (AdjustedCP * 0.5 * Leadership Factor)`.
-7. Final CP: Add any remaining AP (from ability purchases) to the Base CP to get the final cost. If the remaining AP is negative, subtract it from the Base CP. `BaseCP + Ability Purchase Cost`.
+Here's where we turn your card ideas into real numbers! Follow these steps to figure out your card's budgets and its final Command Point (CP) cost. It might look like a lot, but we'll go step-by-step!
+
+1.  **Base CP: Your Card's Starting Power.** Every card belongs to Domains, right? Those **Domain Points (DP)** tell us the card's basic potential or starting energy level. Let's turn that potential into Command Points (CP)! It's super simple: Just take the card's total Domain Points and multiply by 2.
+
+    **Base CP = Total Domain Points (DP) x 2**
+
+    Think of **Base CP** as the card's starting power level before we account for its specific stats and abilities. A higher Base CP means the card starts with more potential.
+
+2.  **Stat Cost: Paying for Punch and Protection!** Your card needs Attack and Defense stats to interact on the battlefield! But having strong stats uses up some of the card's power budget. Let's see how much CP your card spends just on its stats. First, add the Attack number and the Defense number together. Then, divide that total by 2.
+
+    **Stat Cost = (Attack + Defense) / 2**
+
+    This **Stat Cost** tells you how many Command Points are used up just for the card's basic combat values. Remember, this might give you a number with a `.5` decimal, and that's okay!
+
+3.  **Adjusted CP: Power Left Over for Abilities.** Okay, your card started with a certain amount of power (**Base CP** in Step 1) and then spent some of it on its stats (**Stat Cost** in Step 2). How much power is left over? That's the **Adjusted CP**! Just subtract the Stat Cost from the Base CP.
+
+    **Adjusted CP = Base CP - Stat Cost**
+
+    This **Adjusted CP** is really important! Think of it as the main chunk of power your card has left, which it can now use to budget for all its cool abilities and keywords.
+
+4.  **Card Count Factor: A Boost for Unique Cards!** Some cards feel rarer or more special within their Domains, right? Cards from Domains with fewer members get a little bonus added to their ability budget! This helps make those unique cards feel extra cool. We use a **Card Count Factor** to figure out this bonus. You can find this number in Appendix [Insert Correct Appendix Letter Here, e.g., G]. Look up your card's main Domain in the table to find its factor.
+
+    *(Designer Note: This factor is calculated using a special formula based on how many cards are planned for the Domain. If you're curious about the math, see Appendix [X]. For designing, just use the value from the Appendix table!)*
+
+    Write down this factor – we'll need it in Step 6!
+
+5.  **Leadership Bonus: Extra Power for Leaders!** Is your card a mighty Leader unit? Leaders are super important in Quantum Nexus, so they get an extra boost to their ability budget! We use the **Leadership Factor** for this.
+    * If your card **IS** a Leader, the Leadership Factor is **1**.
+    * If your card **IS NOT** a Leader, the Leadership Factor is **0**.
+
+6.  **Ability Points (AP) Pool: Your Total Ability Budget!** Now let's figure out the *total* budget your card has for buying awesome abilities and keywords! This budget uses special points called **Ability Points (AP)**, which are different from CP. We start with the power left over after stats (your **Adjusted CP** from Step 3). Then, we add bonus AP based on how rare the card is and if it's a Leader. You add the Adjusted CP, the Rarity Bonus AP (Adjusted CP multiplied by the **Card Count Factor** from Step 4), and the Leader Bonus AP (Adjusted CP multiplied by 0.5, then multiplied by the **Leadership Factor** from Step 5).
+
+    **AP Pool = Adjusted CP + Rarity Bonus AP + Leader Bonus AP**
+
+    *(Designer Note: The full formula might look a bit fancier: `AP Pool = Adjusted CP + (Adjusted CP * Card Count Factor) + (Adjusted CP * 0.5 * Leadership Factor)`. But breaking it down makes it easier!)*
+
+    This **AP Pool** is the maximum amount of Ability Points you can spend using the Ability and Keyword cost tables (Appendices C & D). Keep track of the **Total AP Spent**!
+
+7.  **Final CP: Calculating Your Card's Play Cost.** Alright, Designer! You've calculated your card's stats, figured out its special Ability Point (AP) budget (the **AP Pool**!), and picked out all the cool abilities using that budget (**Total AP Spent**). Now for the final important step: determining the **Command Point (CP)** cost that gets printed right on the card! Think of this like the card's final price tag. It tells players how much in-game energy they need to spend to bring your creation into play. This cost makes sense because it's based *directly* on how useful the card is – combining the power from its Attack and Defense stats, and the power from all the abilities you gave it. Here’s how simple it is: you just add the cost of the abilities (remembering 1 AP equals 1 CP here) to the cost of the stats.
+
+    **Final CP = Total AP Spent + ( (Attack + Defense) / 2 )**
+
+    **Don't Forget to Round Up!** Math can sometimes give you numbers that aren't whole, like 7.5 or 9.5. Since CP costs in Quantum Nexus should be clean whole numbers printed on the card, just **round your final result UP** to the next whole number *if it has any decimal part*.
+    * *Example:* If your calculation gives you `9.5`, you round it up to **10 CP**.
+    * *Example:* If your calculation gives you `6.1`, you round it up to **7 CP**.
+    * *Example:* If your calculation gives you exactly `6.0`, it stays **6 CP**.
+
+    And that's the magic number! The number you get after rounding is the official **Final CP** cost for your card. It perfectly shows players the power packed into its stats and abilities, ready for awesome gameplay!
 
 #### Card Calculation Example
 

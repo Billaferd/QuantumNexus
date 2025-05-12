@@ -306,7 +306,7 @@ They shuffle their decks and each draw the top card to determine who goes first.
 
 ##### End of Round One
 
-The first round ends. Alice has 3 units remaining, and Bob has 1 unit remaining. They proceed to the Ready Phase for Round 2, with Bob having the initiative this time as he played fewer cards in the Battle Phase.
+The first round ends. Alice has 3 units remaining, and Bob has 1 unit remaining. They proceed to the Ready Phase for Round 2, with Bob having the initiative this time, Bob and Alice played the same number of cards, and spent the same amount of CP (0), Bob was the last to take an action (Pass), and so Alice wins initiative for the next deploy phase.
 
 ###### Round One Sequence
 

@@ -42,7 +42,7 @@ By familiarizing yourself with these components and card attributes, you'll be w
 
 ### Construction Basics
 
-In Quantum Nexus, there are several rules to deck construction that must all be adhered to. The deck size must be exactly 200 CP and no more than 25 CP can be dedicated to Leader type units, the domain points on all mission points must total exactly 6 and no single domain can total more than 4, the cards in the deck must adhere to the duplicate attributes printed as well as ensure that the specified domain points on a card are equal to or below the corresponding domain points on the mission cards.
+In Quantum Nexus, several rules govern deck construction and must all be adhered to. Key constraints include: the deck's total Command Point (CP) value must be exactly 200; no more than 25 CP can be dedicated to Leader type units; the domain points on all Mission cards must total exactly 6, with no single domain exceeding 4 points; and all cards must respect their printed duplicate limits. The following subsections provide further details on these requirements, including specific conditions for Unit cards in relation to Mission cards.
 
 ### A. Deck Size
 

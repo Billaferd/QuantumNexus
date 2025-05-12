@@ -614,6 +614,7 @@ To help you fully grasp the intricacies of Quantum Nexus, here is a glossary of 
  * Far Range: An attack range allowing a unit to target units in the opposite row.
  * Flank: The left and right quadrants of the battlefield.
  * Front Row: The row of quadrants closest to the opponent on the battlefield.
+ * Initiative: The process that determines which player is to go first within a phase or turn. It is awarded to the player that played the fewest cards, or if there is a tie, the player that spent the least amount of CP, or if there is a tie, the player directly to the left of the last player to play.
  * Interrupt: A card ability that triggers in response to a specific event, either mandatory or optional.
  * Leader: A powerful unit card, limited to one per quadrant.
  * Loadout Area: A designated area for placing Asset cards.

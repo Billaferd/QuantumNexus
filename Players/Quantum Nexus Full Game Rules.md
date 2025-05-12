@@ -236,7 +236,7 @@ Each player takes turns in Quantum Nexus, progressing through four distinct phas
 
 #### Initiative: Determining Turn Order within Phases
 
-Initiative determines which player acts first within each phase of a turn. It is important to note that initiative can change between phases based on the actions taken in the previous phase.
+Initiative determines which player acts first within the alternating phases (Deployment, Command, Battle). It is generally awarded based on efficiency in a previous phase (fewest actions or Command Points spent). However, the specific actions counted and the relevant preceding phase depend on the current phase. Please consult the detailed initiative rules provided in the description of each phase below for precise determination.
 
 ##### General Rule
 

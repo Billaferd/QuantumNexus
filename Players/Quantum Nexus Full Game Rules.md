@@ -125,6 +125,7 @@ BattlePhase --> ReadyPhase
    * Draw Cards: Players draw cards from their deck until they have five cards in hand. This replenishes their options for the upcoming turn.
    * Reset CP: The CP pool is reset to the starting value determined by the mission cards.
    * Add Extra CP: If any card effects or abilities grant additional CP at the start of the turn, they are added to the CP pool.
+ * Resolve Effects: If any effects were activated/triggered during the ready phase they will be resolved once all players are ready and before the Deployment phase is started. Initiative from the Deployment phase will be used.
 
 ##### Ready Phase Diagram
 
@@ -207,7 +208,7 @@ graph TD;
  * Battle Phase (Declaring Attacks): The Battle Phase is where conflicts erupt as players direct their units to attack their opponent's units.
    * Declare Attacks: Players take turns declaring attacks, choosing both an attacker and a defender for each attack.
    * Front-row Priority: Units in the front row must be targeted and defeated before attacking units in the back row.
-   * Compare Attack and Defense: The attacker's Attack value is compared to the defender's Defense value. If the attacker's value is higher, the defender is destroyed. If the defender's value is higher, the attacker is destroyed. If the values are equal, both units remain on the battlefield.
+   * Compare Attack and Defense: The attacker's Attack value is compared to the defender's Defense value. If the attacker's attack value is higher, the defender is destroyed. If the defender's defense value is higher, the attacker is destroyed. If the values are equal, both units remain on the battlefield.
    * Iniative: The initiative of the Battle Phase is won by the player who activated/played the fewest cards (Abilities, Events) in the Command Phase. If all players played the same number of cards, then the player that spent the fewest CP wins. Finally if all players spent the same CP, the next player to the left of the last player to take action takes initiative.
 
 ##### Battle Phase Diagram
@@ -568,6 +569,7 @@ Quantum Nexus features a dynamic interplay between different card types and abil
  * Triggered Abilities: Many cards possess triggered abilities that activate in response to specific events, such as deploying a unit, attacking, or being attacked. These abilities can create powerful chain reactions and turn the tide of battle.
  * Mandatory and Optional Interrupts: Some abilities are mandatory interrupts, meaning they must be activated if their trigger condition is met. Others are optional interrupts, giving you the choice to activate them by paying a specified cost.
  * Stacking Effects: Multiple card effects can interact and stack with each other. Understanding the order in which effects resolve and how they modify each other is essential for accurate gameplay.
+ * Resolution Order: All interrupts, effects, and triggered abilities are resolved in turn-order starting with the currently active player.
 
 ### B. Changing the Order of Play
 

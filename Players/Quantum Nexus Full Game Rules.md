@@ -382,12 +382,12 @@ sequenceDiagram
  * Alice: Passes (15 CP remaining)
  * Bob: Passes (13 CP remaining)
 
-##### Command Phase (Bob Starts)
+##### Command Phase (Alice Starts)
 
- * Bob: Activates "Magical Guardian's" ability "Arcane Shield," adding 2 Defense. (11 CP remaining)
  * Alice: Activates "Tech Engineer's" ability "Repair," adding 2 Defense to her Front Left "Psionic Scout." (12 CP remaining)
- * Bob: Passes (11 CP remaining)
+ * Bob: Activates "Magical Guardian's" ability "Arcane Shield," adding 2 Defense. (11 CP remaining)
  * Alice: Passes (12 CP remaining)
+ * Bob: Passes (11 CP remaining)
 
 ##### Battle Phase (Bob Starts)
 
@@ -424,11 +424,11 @@ sequenceDiagram
     Alice->>Alice: Deactivates Target Acquisition
     Alice->>Alice: Draws 2 cards
 
-    note over Alice, Bob: **Deployment Phase (Bob starts)**
-    Bob->>Battlefield: Deploys Magical Archer (Back Right)
+    note over Alice, Bob: **Deployment Phase (Alice starts)**
     Alice->>Battlefield: Deploys Tech Engineer (Back Center)
-    Bob->>Bob: Passes
+    Bob->>Battlefield: Deploys Magical Archer (Back Right)
     Alice->>Alice: Passes
+    Bob->>Bob: Passes
 
     note over Alice, Bob: **Command Phase (Alice starts)**
     Alice->>Psionic Scout: Activates Repair (+2 Defense)
@@ -458,8 +458,8 @@ Quantum Nexus boasts a diverse range of card types, each playing a unique role i
 
 Units are the backbone of your forces in Quantum Nexus. They engage in combat, defend your territory, and complete mission objectives. These cards have both Attack and Defense values, determining their offensive and defensive capabilities in battles.
 
- * Attack Value: This number, usually located on the left side of the card, indicates how much damage a unit inflicts when attacking.
- * Defense Value: This number, typically found on the right side of the card, represents how much damage a unit can withstand before being destroyed.
+ * Attack Value: This number, located on the left side of the card, indicates how much damage a unit inflicts when attacking.
+ * Defense Value: This number, located on the right side of the card, represents how much damage a unit can withstand before being destroyed.
  * Deployment Phase: Units are deployed onto the battlefield during the Deployment Phase, strategically positioning them for future attacks and defense.
  * Attack Range: Each unit has an attack range (Close, Mid, or Far) that dictates which quadrants on the battlefield they can target.
  * Leaders: Some units are designated as Leaders, possessing enhanced abilities and stats. Only one Leader can occupy a quadrant at a time, no other leader may be moved or deployed into a quadrant that already has a leader. Leaders cards are also limited to only 25 CP of the overall deck cost.

@@ -375,26 +375,26 @@ sequenceDiagram
  * Bob: Deactivates "Blessing of Light." Draws two cards. (16 CP)
  * Alice: Deactivates "Target Acquisition." Draws two cards. (18 CP)
 
-##### Deployment Phase (Bob Starts)
+##### Deployment Phase (Alice Starts)
 
- * Bob: Deploys a "Magical Archer" unit (3 CP) to the Back Right quadrant. (13 CP remaining)
  * Alice: Deploys a "Tech Engineer" unit (3 CP) to the Back Center quadrant. (15 CP remaining)
- * Bob: Passes (13 CP remaining)
- * Alice: Passes (15 CP remaining)
-
-##### Command Phase (Alice Starts)
-
- * Alice: Activates "Tech Engineer's" ability "Repair," adding 2 Defense to her Front Left "Psionic Scout." (15 CP remaining)
- * Bob: Activates "Magical Guardian's" ability "Arcane Shield," adding 2 Defense. (13 CP remaining)
+ * Bob: Deploys a "Magical Archer" unit (3 CP) to the Back Right quadrant. (13 CP remaining)
  * Alice: Passes (15 CP remaining)
  * Bob: Passes (13 CP remaining)
+
+##### Command Phase (Bob Starts)
+
+ * Bob: Activates "Magical Guardian's" ability "Arcane Shield," adding 2 Defense. (11 CP remaining)
+ * Alice: Activates "Tech Engineer's" ability "Repair," adding 2 Defense to her Front Left "Psionic Scout." (12 CP remaining)
+ * Bob: Passes (11 CP remaining)
+ * Alice: Passes (12 CP remaining)
 
 ##### Battle Phase (Bob Starts)
 
- * Bob: Declares an attack with "Magical Archer" (Attack 2) against Alice's "Tech Engineer" (Defense 2). Both units survive. (13 CP remaining)
- * Alice: Declares an attack with her Front Left "Psionic Scout" (Attack 2) against Bob's "Magical Guardian" (Defense 3). The "Psionic Scout" is destroyed. (15 CP remaining)
- * Bob: Passes (13 CP remaining)
- * Alice: Passes (15 CP remaining)
+ * Bob: Declares an attack with "Magical Archer" (Attack 2) against Alice's "Tech Engineer" (Defense 2). Both units survive. (11 CP remaining)
+ * Alice: Declares an attack with her Front Left "Psionic Scout" (Attack 2) against Bob's "Magical Guardian" (Defense 3). The "Psionic Scout" is destroyed. (12 CP remaining)
+ * Bob: Passes (11 CP remaining)
+ * Alice: Passes (12 CP remaining)
 
 ##### End of Round Two
 

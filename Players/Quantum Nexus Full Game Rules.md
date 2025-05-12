@@ -63,7 +63,7 @@ Mission cards play a significant role in Quantum Nexus, representing your object
 
 Unit cards form the core of your army in Quantum Nexus. They are the ones that engage in combat and fulfill mission objectives. When selecting unit cards for your deck, it's crucial to align them with the domains represented on your mission cards.
 
- * Matching or Lower Domain Values: The domain values on your unit cards must either match or be lower than the corresponding domain values on your mission cards. For instance, if your mission cards have 3 points in Technology, your unit cards cannot have more than 3 points in Technology.
+ * Matching or Lower Domain Values: The domain values on your unit cards must either match or be lower than all of the corresponding domain values on your mission cards. For instance, if your mission cards have 3 points in Technology, your unit cards cannot have more than 3 points in Technology.
  * There are duplicate limits printed on each card, no card may ever break these limits. They can have an amount of cards lower than the limit, but never higher.
 
 By carefully selecting mission cards and aligning your unit cards with their domains, you can create a cohesive and powerful deck that maximizes your chances of victory in Quantum Nexus.

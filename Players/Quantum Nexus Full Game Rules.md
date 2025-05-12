@@ -152,7 +152,7 @@ graph TD;
    * Alternate Placement: Players take turns placing one card at a time from their hand onto the battlefield. Each card has a CP cost, and players must have enough CP to deploy it.
    * Passing: A player can choose to pass their turn, indicating they have finished deploying cards for this phase.
    * Simultaneous Passing: If both players pass consecutively, the phase ends, and the next phase begins.
-   * Initiative: The initiative of the Deployment Phase is won by the player who played the fewest cards in the previous Battle Phase, or if this is the first turn the player who won the card flip. If all players played the same number of cards, then the player that spent the fewest CP in the Battle Phase wins. Finally, if all players spent the same CP, the player seated to the left of the current player takes initiative.
+   * Initiative: The initiative of the Deployment Phase is won by the player who activates the fewest cards (attacks, abilities, interrupts, deployments), or if there is a tie, the player that spent the fewest CP, or if there is a tie, the player to the left of the last player to go in the previous Battle Phase. If this is the first turn, the player who won the card flip.
 
 ##### Deployment Phase Diagram
 
@@ -180,7 +180,7 @@ graph TD;
    * Activate Abilities: Players take turns activating the abilities of their deployed cards. Each card may have multiple abilities with varying costs and effects.
    * Deploy Events: Event cards can be played during this phase for one-time powerful effects. These cards are discarded after use.
    * Passing: If a player has no more abilities to activate or Events to play, they can pass their turn.
-   * Iniative: The initiative of the Command Phase is won by the player who played the fewest cards in the Deployment Phase. If all players played the same number of cards, then the player that spent the fewest CP wins. Finally if all players spent the same CP, the next player to the left takes initiative.
+   * Iniative: The initiative of the Command Phase is won by the player who deployed the fewest cards in the Deployment Phase. If all players played the same number of cards, then the player that spent the fewest CP wins. Finally if all players spent the same CP, the next player to the left takes initiative.
 
 ##### Command Phase Diagram
 
@@ -254,7 +254,7 @@ Example:
 
 ##### Important Note
 
-The Battle Phase determines initiative for the next turn's Deploy Phase. The player who activates the fewest cards (attacks, abilities, interrupts) in the Battle Phase has the initiative in the next Deploy Phase. If there's a tie, the player who spent the fewest CP in the Battle Phase gets the initiative. If the players spent the same CP, then the next player to the left gains initiative.
+The Battle Phase determines initiative for the next turn's Deploy Phase. The player who activates the fewest cards (attacks, abilities, interrupts, deployments) in the Battle Phase has the initiative in the next Deploy Phase. If there's a tie, the player who spent the fewest CP in the Battle Phase gets the initiative. If the players spent the same CP, then the next player to the left gains initiative.
 
 #### Additional Notes
  

@@ -180,7 +180,7 @@ graph TD;
    * Activate Abilities: Players take turns activating the abilities of their deployed cards. Each card may have multiple abilities with varying costs and effects.
    * Deploy Events: Event cards can be played during this phase for one-time powerful effects. These cards are discarded after use.
    * Passing: If a player has no more abilities to activate or Events to play, they can pass their turn.
-   * Iniative: The initiative of the Command Phase is won by the player who deployed the fewest cards (Units, Assets, Terrain, Upgrades) in the Deployment Phase. If all players played the same number of cards, then the player that spent the fewest CP wins. Finally if all players spent the same CP, the next player to the left takes initiative.
+   * Iniative: The initiative of the Command Phase is won by the player who deployed the fewest cards (Units, Assets, Terrain, Upgrades) in the Deployment Phase. If all players played the same number of cards, then the player that spent the fewest CP wins. Finally if all players spent the same CP, the next player to the left of the last player to take action takes initiative.
 
 ##### Command Phase Diagram
 
@@ -208,7 +208,7 @@ graph TD;
    * Declare Attacks: Players take turns declaring attacks, choosing both an attacker and a defender for each attack.
    * Front-row Priority: Units in the front row must be targeted and defeated before attacking units in the back row.
    * Compare Attack and Defense: The attacker's Attack value is compared to the defender's Defense value. If the attacker's value is higher, the defender is destroyed. If the defender's value is higher, the attacker is destroyed. If the values are equal, both units remain on the battlefield.
-   * Iniative: The initiative of the Battle Phase is won by the player who activated/played the fewest cards (Abilities, Events) in the Command Phase. If all players played the same number of cards, then the player that spent the fewest CP wins. Finally if all players spent the same CP, the next player to the left takes initiative.
+   * Iniative: The initiative of the Battle Phase is won by the player who activated/played the fewest cards (Abilities, Events) in the Command Phase. If all players played the same number of cards, then the player that spent the fewest CP wins. Finally if all players spent the same CP, the next player to the left of the last player to take action takes initiative.
 
 ##### Battle Phase Diagram
 

@@ -399,9 +399,10 @@ sequenceDiagram
 ##### End of Round Two
 
 The second round concludes. Alice has 2 units remaining, and Bob has 2 units remaining. The game would continue in this fashion, with players alternating turns, deploying units, activating abilities, and engaging in battles until one player either depletes their opponent's deck or completes all their mission cards.
-Additional Notes on Round Two
 
- * Notice how the initiative shifted to Bob at the start of the second round because he played fewer cards in the previous Battle Phase.
+###### Additional Notes on Round Two
+
+ * Notice how the initiative shifted to Alice at the start of the second round because she ties with Bob for both cards played and CP spent. Since Bob was last to go, she is the next in line for initiative.
  * The "Tech Engineer's" "Repair" ability highlights the importance of unit support and maintaining board presence.
  * Bob's decision to pass in the Deployment Phase demonstrates strategic resource management, saving CP for later turns.
 

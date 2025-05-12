@@ -42,11 +42,11 @@ By familiarizing yourself with these components and card attributes, you'll be w
 
 ### Construction Basics
 
-In Quantum Nexus, several rules govern deck construction and must all be adhered to. Key constraints include: the deck's total Command Point (CP) value must be exactly 200; no more than 25 CP can be dedicated to Leader type units; the domain points on all Mission cards must total exactly 6, with no single domain exceeding 4 points; and all cards must respect their printed duplicate limits. The following subsections provide further details on these requirements, including specific conditions for Unit cards in relation to Mission cards.
+In Quantum Nexus, several rules govern deck construction and must all be adhered to. Key constraints include: the deck's total Command Point (CP) value must be exactly 200 CP, ignoring mission cards; no more than 25 CP can be dedicated to Leader type units; the domain points on all Mission cards must total exactly 6, with no single domain exceeding 4 points; and all cards must respect their printed duplicate limits. The following subsections provide further details on these requirements, including specific conditions for Unit cards in relation to Mission cards.
 
 ### A. Deck Size
 
-In Quantum Nexus, deck construction is a critical aspect of gameplay. The first rule to remember is that your deck must contain exactly 200 Command Points (CP). Each card in the game has a CP value displayed in the top left corner. When selecting cards for your deck, you must ensure the total CP value of all cards adds up to exactly 200. 
+In Quantum Nexus, deck construction is a critical aspect of gameplay. The first rule to remember is that your deck must contain exactly 200 Command Points (CP), ignoring Mission Cards. Each card in the game has a CP value displayed in the top left corner. When selecting cards for your deck, you must ensure the total CP value of all cards adds up to exactly 200. 
 
 This restriction ensures balance and prevents players from overwhelming their opponents with too many powerful cards.
 

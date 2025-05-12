@@ -248,12 +248,9 @@ If all players activated/deployed the same number of cards in the previous phase
 
 ##### Exceptions
 
- * Ready Phase: On the first turn, the player who reveals a card with a lower CP value has the initiative. In subsequent turns, initiative is determined by the actions taken in the previous Battle Phase.
  * Simultaneous Actions: In phases where both players act simultaneously (like the Ready Phase), there is no initiative.
 Example:
- * Deployment Phase: Bob deploys two units, and Alice deploys one unit. Alice has the initiative in the following Command Phase.
- * Command Phase: Bob activates two card abilities, and Alice activates one. Alice maintains the initiative in the following Battle Phase.
- * Battle Phase: Bob attacks with one unit, and Alice attacks with two. Bob gains the initiative for the Ready Phase of the next turn.
+ * Deployment Phase: On the first turn, the player who reveals a card with a lower CP value has the initiative. In subsequent turns, initiative is determined by the actions taken in the previous Battle Phase.
 
 ##### Important Note
 
@@ -581,7 +578,7 @@ While the phases of a turn follow a set sequence, certain game mechanics can alt
 
  * Simultaneous Actions: In some phases, like the Ready Phase, both players act simultaneously. This ensures a fair and balanced start to each turn.
  * Passing Turns: Players can pass their turn during the Deployment and Command Phases if they have no more cards to play or abilities to activate.
- * Lowest CP Goes First: If multiple players pass consecutively, the player with the lowest CP for that turn goes first in the subsequent phase. This prevents stalemates and keeps the game flowing.
+ * Lowest CP Goes First: If multiple players pass consecutively, the player that activated/deployed the fewest cards goes first next. If there is a tie, the player that spent the lowest CP for that phase goes first in the subsequent phase. If the lowest players spent the same amount of CP then the next player to the left of the last player to go has initiative in the next phase. This prevents stalemates and keeps the game flowing.
 
 ### C. Ending the Game
 

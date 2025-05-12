@@ -588,7 +588,7 @@ A game of Quantum Nexus concludes when one of the victory conditions is met:
 
 ### D. Card Type Counts
 
-Aside from the limit imposed per card by the Duplicates attribute or from the 200 CP limit of the deck, there is one other restriction on the types of cards a player must have in their deck. Each deck cant have any more then 25 CP worth of Leader Unit carda. Each card type has very specific strengths and weaknesses that can only be balanced with a thought-out and diverse army.
+Aside from the limit imposed per card by the Duplicates attribute or from the 200 CP limit of the deck, there is one other restriction on the types of cards a player must have in their deck. Each deck can't have any more then 25 CP worth of Leader Unit cards. Each card type has very specific strengths and weaknesses that can only be balanced with a thought-out and diverse army.
 
 ## VIII. Glossary of Terms
 

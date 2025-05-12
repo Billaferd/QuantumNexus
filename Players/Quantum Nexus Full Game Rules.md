@@ -238,10 +238,6 @@ Each player takes turns in Quantum Nexus, progressing through four distinct phas
 
 Initiative determines which player acts first within the alternating phases (Deployment, Command, Battle). It is generally awarded based on efficiency in a previous phase (fewest actions or Command Points spent). However, the specific actions counted and the relevant preceding phase depend on the current phase. Please consult the detailed initiative rules provided in the description of each phase below for precise determination.
 
-##### General Rule
-
-The player who activates/deploys the fewest cards in the previous phase has the initiative in the current phase.
-
 ##### Tiebreaker
 
 If all players activated/deployed the same number of cards in the previous phase, then the player who spent the fewest Command Points (CP) in that phase has the initiative. If all players spent the same CP then the next player to the left of the last player to perform an action takes initiative.

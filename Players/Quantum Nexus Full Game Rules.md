@@ -42,7 +42,7 @@ By familiarizing yourself with these components and card attributes, you'll be w
 
 ### Construction Basics
 
-In Quantum Nexus, several rules govern deck construction and must all be adhered to. Key constraints include: the deck's total Command Point (CP) value must be exactly 200 CP, ignoring mission cards; no more than 25 CP can be dedicated to Leader type units; the domain points on all Mission cards must total exactly 6, with no single domain exceeding 4 points; and all cards must respect their printed duplicate limits. The following subsections provide further details on these requirements, including specific conditions for Unit cards in relation to Mission cards.
+In Quantum Nexus, deck construction is a critical aspect of gameplay. The first rule to remember is that your deck must contain exactly 200 Command Points (CP) worth of cards, ignoring Mission Cards. This total includes the CP cost of all Unit, Leader, Asset, Event, Upgrade, and Terrain cards in your deck. Each such card has a CP value displayed in the top left corner. When selecting these cards for your deck, you must ensure their total CP value adds up to exactly 200. Mission cards do not count towards this limit; their CP values are used only to determine starting CP (see Section II.B). This restriction ensures balance and prevents players from overwhelming their opponents with too many powerful cards.
 
 ### A. Deck Size
 
@@ -317,7 +317,7 @@ They shuffle their decks and each draw the top card to determine who goes first.
 
 ##### End of Round One
 
-The first round ends. Alice has 3 units remaining, and Bob has 1 unit remaining. They proceed to the Ready Phase for Round 2, with Alice having the initiative this time, Bob and Alice played the same number of cards, and spent the same amount of CP (0), Bob was the last to take an action (Pass), and so Alice wins initiative for the next deploy phase.
+The first round ends. Alice has 3 units remaining, and Bob has 1 unit remaining. They proceed to the Ready Phase for Round 2, Alice having the initiative for the next Deployment phase. This is determined by actions in the Battle Phase: Both players declared 1 attack (tying the count for relevant actions: attacks, abilities, interrupts). Both players spent 0 CP on those actions (tying CP). Bob was the last player to take an action (Pass). Therefore, the next player in clockwise order, Alice, wins initiative.
 
 ###### Round One Sequence
 
@@ -413,7 +413,7 @@ The second round concludes. Alice has 2 units remaining, and Bob has 2 units rem
 
 ###### Additional Notes on Round Two
 
- * Notice how the initiative shifted to Alice at the start of the second round because she ties with Bob for both cards played and CP spent. Since Bob was last to go, she is the next in line for initiative.
+ * Notice how initiative for the Deployment Phase shifted to Alice at the start of Round Two. This followed the Battle Phase initiative rules detailed in Section III.C: Both players tied with 1 relevant action (attack), tied with 0 CP spent on those actions, and Bob took the last action (Pass), giving initiative to Alice as the next player in order.
  * The "Tech Engineer's" "Repair" ability highlights the importance of unit support and maintaining board presence.
  * Bob's decision to pass in the Deployment Phase demonstrates strategic resource management, saving CP for later turns.
 

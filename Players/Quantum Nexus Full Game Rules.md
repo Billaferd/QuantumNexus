@@ -215,7 +215,7 @@ graph TD;
 The Battle Phase is where units engage in combat. When declaring an attack, players must adhere to several key principles:
 
    * Target Selection: The attacking player chooses one of their units to attack and an eligible opposing unit as the defender. The eligibility of a defender is determined by the attacker's range (Close, Mid, Far) and the Front-Row Priority rule.
-   * Front-Row Priority: Units in an opponent's front row must generally be targeted and defeated before units in that opponent's back row (in the same column/flank) can be targeted by attacks. Specific card abilities might override this.
+   * Front-Row Priority: Units in an opponent's front row must generally be targeted and destroyed (or otherwise removed from the battlefield) before units in that opponent's back row (in the same column/flank) can be targeted by direct attacks originating from units. If an attack targets a front-row unit but does not result in its destruction or removal (e.g., if Attack equals Defense), that front-row unit continues to protect the back row according to this rule. Specific card abilities might override this priority.
    * Range and Line of Sight: Each unit's Attack Range (see Glossary and Card Attributes) dictates which quadrants it can target.
    * Player Areas: Attacks are always directed at opposing units in the opponent's play area, respecting the specific range definitions.
    * Declare Attacks: Players take turns declaring attacks, choosing both an attacker and a defender for each attack. When a unit declares an attack, it becomes exhausted (turned sideways).

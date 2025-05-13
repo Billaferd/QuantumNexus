@@ -262,7 +262,7 @@ Example:
 
 ##### Important Note
 
-The Battle Phase determines initiative for the next turn's Deploy Phase. The player who activates the fewest cards (attacks, abilities, interrupts) in the Battle Phase has the initiative in the next Deploy Phase. If there's a tie, the player who spent the fewest CP in the Battle Phase gets the initiative. If the players spent the same CP, then the next player to the left gains initiative.
+The Battle Phase determines initiative for the next turn's Deploy Phase. The player who activates the fewest cards (attacks, abilities, interrupts) in the Battle Phase has the initiative in the next Deploy Phase. If there's a tie, the player who spent the fewest CP in the Battle Phase gets the initiative. If the players spent the same CP, then the next player in clockwise order gains initiative.
 
 #### Additional Notes
  

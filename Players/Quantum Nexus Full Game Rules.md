@@ -63,7 +63,7 @@ Mission cards play a significant role in Quantum Nexus, representing your object
 
 Unit cards form the core of your army in Quantum Nexus. They are the ones that engage in combat and fulfill mission objectives. When selecting unit cards for your deck, it's crucial to align them with the domains represented on your mission cards.
 
- * Matching or Lower Domain Values: Unit cards have domain values associated with them (Technology, Magic, Psionics, Divinity). When including a unit card in your deck, its domain value for any given domain (e.g., Technology) must be equal to or lower than the total number of points assigned to that same domain across all of your chosen Mission cards. For instance, if your collective Mission cards grant a total of 3 points in the Technology domain, any Unit card in your deck cannot have more than 3 points in its Technology domain value. If a Unit card has values in multiple domains, this check must be satisfied for each of those domains against the corresponding total from your Mission
+ * Matching or Lower Domain Values: Unit cards have domain values associated with them (Technology, Magic, Psionics, Divinity). When including a unit card in your deck, its domain value for any given domain (e.g., Technology) must be equal to or lower than the total number of points assigned to that same domain across all of your chosen Mission cards. For instance, if your collective Mission cards grant a total of 3 points in the Technology domain, any Unit card in your deck cannot have more than 3 points in its Technology domain value. If a Unit card has values in multiple domains, this check must be satisfied for each of those domains against the corresponding total from your Mission Cards. Crucially, this means if your Mission cards provide a total of 0 points for a specific domain, you cannot include any Unit card in your deck that has a value greater than 0 in that same domain.
  * There are duplicate limits printed on each card, no card may ever break these limits. They can have an amount of cards lower than the limit, but never higher.
 
 By carefully selecting mission cards and aligning your unit cards with their domains, you can create a cohesive and powerful deck that maximizes your chances of victory in Quantum Nexus.
@@ -219,7 +219,10 @@ The Battle Phase is where units engage in combat. When declaring an attack, play
    * Range and Line of Sight: Each unit's Attack Range (see Glossary and Card Attributes) dictates which quadrants it can target.
    * Player Areas: Attacks are always directed at opposing units in the opponent's play area, respecting the specific range definitions.
    * Declare Attacks: Players take turns declaring attacks, choosing both an attacker and a defender for each attack. When a unit declares an attack, it becomes exhausted (turned sideways).
-   * Compare Attack and Defense: The attacker's Attack value is compared to the defender's Defense value. If the attacker's attack value is higher, the defender is destroyed. If the defender's defense value is higher, the attacker is destroyed. If the values are equal, both units remain on the battlefield.
+   * Compare Attack and Defense: The attacking unit's Attack value (A) is compared to the defending unit's Defense value (D). Combat resolves as follows:
+     * If A>D: The defending unit is destroyed. The attacking unit survives.
+     * If D>A: The attacking unit is destroyed. The defending unit survives.
+     * If A=D: Neither unit is destroyed; both remain on the battlefield.
    * Iniative: The initiative of the Battle Phase is won by the player who activated/played the fewest cards (Abilities, Events) in the Command Phase. If all players played the same number of cards, then the player that spent the fewest CP wins. Finally, if all players spent the same CP, the next player in clockwise order from the last player to take action takes initiative.
 
 ##### Battle Phase Diagram
@@ -623,7 +626,10 @@ To help you fully grasp the intricacies of Quantum Nexus, here is a glossary of 
  * Command Points (CP): A resource used to deploy units and activate abilities. Each card has a CP cost, and players have a limited amount of CP each turn.
  * Deactivate: The action of returning an exhausted card to its ready (upright) state, typically performed during the Ready Phase. This allows the card to potentially perform actions requiring it to be ready later in the turn.
  * Deck: A player's collection of cards, from which they draw during their turn.
- * Defense Value: This number represents the unit's resilience. If a unit's Defense Value is greater than or equal to the opposing unit's Attack Value during combat comparison, this unit survives the combat; if it is lower, this unit is destroyed.
+ * Defense Value: This number represents the unit's resilience in combat. When comparing an attacking unit's Attack Value (A) to the defending unit's Defense Value (D):
+   * If D>A: The defending unit survives the combat. The attacking unit is destroyed.
+   * If D=A: The defending unit survives the combat. The attacking unit also survives. (Neither unit is destroyed).
+   * If D<A: The defending unit is destroyed. The attacking unit survives.
  * Deployment Phase: The phase in which players alternately deploy units and terrain cards onto the battlefield.
  * Discard Pile: A pile where destroyed or used cards are placed.
  * Domain: A thematic category associated with mission cards and unit cards (Technology, Magic, Psionics, Divinity).
@@ -632,7 +638,7 @@ To help you fully grasp the intricacies of Quantum Nexus, here is a glossary of 
  * Far Range: An attack range allowing a unit to target all quadrants located exactly two rows ahead of its current row. Units in a player's Front Row target all quadrants in the opponent's Back Row. Units in a player's Back Row target all quadrants in the opponent's Front Row.
  * Flank: The left and right quadrants of the battlefield.
  * Front Row: The row of quadrants closest to the opponent on the battlefield.
- * Initiative: The process that determines which player is to go first within a phase or turn. It is awarded to the player that played the fewest cards, or if there is a tie, the player that spent the least amount of CP, or if there is a tie, the next player in clockwise order from the last player to play. Passing does not count towards the number of cards activated or deployed for initiative determination but does establish which player took the last action for the final initiative tiebreaker.
+ * Initiative: The process that determines which player is to go first within a phase or turn. It is awarded to the player that performed the fewest actions, or if there is a tie, the player that spent the least amount of CP, or if there is a tie, the next player in clockwise order from the last player to play. Passing does not count towards the number of cards activated or deployed for initiative determination but does establish which player took the last action for the final initiative tiebreaker.
  * Interrupt: A card ability that triggers in response to a specific event, either mandatory or optional.
  * Leader: A powerful unit card, limited to one per quadrant.
  * Loadout Area: A designated area for placing Asset cards.

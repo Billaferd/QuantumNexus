@@ -156,7 +156,7 @@ graph TD;
    * Alternate Placement: Players take turns placing one card at a time from their hand onto the battlefield. Each card has a CP cost, and players must have enough CP to deploy it.
    * Passing: A player can choose to pass their turn, indicating they have finished deploying cards for this phase.
    * Simultaneous Passing: If both players pass consecutively, the phase ends, and the next phase begins.
-   * Initiative: The initiative of the Deployment Phase is won by the player who activates the fewest cards (attacks, abilities, interrupts) in the previous Battle Phase, or if there is a tie, the player that spent the fewest CP, or if there is a tie, the player to the left of the last player to go in the previous Battle Phase. If this is the first turn, the player who won the card flip.
+   * Initiative: The initiative of the Deployment Phase is won by the player who activates the fewest cards (attacks, abilities, interrupts) in the previous Battle Phase, or if there is a tie, the next player in clockwise order from the last player to take action in the previous Battle Phase. If this is the first turn, the player who won the card flip.
 
 ##### Deployment Phase Diagram
 
@@ -184,7 +184,7 @@ graph TD;
    * Activate Abilities: Players take turns activating the abilities of their deployed cards. Each card may have multiple abilities with varying costs and effects. Activating an Active Ability requires paying its specified costs (like CP) and also requires exhausting the card (turning it sideways), unless the ability explicitly states otherwise. A card must be in a ready state to activate an ability that requires it to be exhausted.
    * Play Events: Event cards can be played during this phase for one-time powerful effects. These cards are discarded after use.
    * Passing: If a player has no more abilities to activate or Events to play, they can pass their turn.
-   * Iniative: The initiative of the Command Phase is won by the player who deployed the fewest cards (Units, Assets, Terrain, Upgrades) in the Deployment Phase. If all players played the same number of cards, then the player that spent the fewest CP wins. Finally if all players spent the same CP, the next player to the left of the last player to take action takes initiative.
+   * Iniative: The initiative of the Command Phase is won by the player who deployed the fewest cards (Units, Assets, Terrain, Upgrades) in the Deployment Phase. If all players played the same number of cards, then the player that spent the fewest CP wins. Finally, if all players spent the same CP, the next player in clockwise order from the last player to take action takes initiative.
 
 ##### Command Phase Diagram
 
@@ -220,7 +220,7 @@ The Battle Phase is where units engage in combat. When declaring an attack, play
    * Player Areas: Attacks are always directed at opposing units in the opponent's play area, respecting the specific range definitions.
    * Declare Attacks: Players take turns declaring attacks, choosing both an attacker and a defender for each attack. When a unit declares an attack, it becomes exhausted (turned sideways).
    * Compare Attack and Defense: The attacker's Attack value is compared to the defender's Defense value. If the attacker's attack value is higher, the defender is destroyed. If the defender's defense value is higher, the attacker is destroyed. If the values are equal, both units remain on the battlefield.
-   * Iniative: The initiative of the Battle Phase is won by the player who activated/played the fewest cards (Abilities, Events) in the Command Phase. If all players played the same number of cards, then the player that spent the fewest CP wins. Finally if all players spent the same CP, the next player to the left of the last player to take action takes initiative.
+   * Iniative: The initiative of the Battle Phase is won by the player who activated/played the fewest cards (Abilities, Events) in the Command Phase. If all players played the same number of cards, then the player that spent the fewest CP wins. Finally, if all players spent the same CP, the next player in clockwise order from the last player to take action takes initiative.
 
 ##### Battle Phase Diagram
 
@@ -252,7 +252,7 @@ Initiative determines which player acts first within the alternating phases (Dep
 
 ##### Tiebreaker
 
-If all players activated/deployed the same number of cards in the previous phase, then the player who spent the fewest Command Points (CP) in that phase has the initiative. If all players spent the same CP then the next player to the left of the last player to perform an action takes initiative.
+If all players activated/deployed the same number of cards in the previous phase, then the player who spent the fewest Command Points (CP) in that phase has the initiative. If all players spent the same CP, then the next player in clockwise order from the last player to perform an action takes initiative.
 
 ##### Exceptions
 
@@ -632,7 +632,7 @@ To help you fully grasp the intricacies of Quantum Nexus, here is a glossary of 
  * Far Range: An attack range allowing a unit to target all quadrants located exactly two rows ahead of its current row. Units in a player's Front Row target all quadrants in the opponent's Back Row. Units in a player's Back Row target all quadrants in the opponent's Front Row.
  * Flank: The left and right quadrants of the battlefield.
  * Front Row: The row of quadrants closest to the opponent on the battlefield.
- * Initiative: The process that determines which player is to go first within a phase or turn. It is awarded to the player that played the fewest cards, or if there is a tie, the player that spent the least amount of CP, or if there is a tie, the player directly to the left of the last player to play, in a two player game this means the other player. Passing does not count towards the number of cards activated or deployed for initiative determination but does establish which player took the last action for the final initiative tiebreaker.
+ * Initiative: The process that determines which player is to go first within a phase or turn. It is awarded to the player that played the fewest cards, or if there is a tie, the player that spent the least amount of CP, or if there is a tie, the next player in clockwise order from the last player to play. Passing does not count towards the number of cards activated or deployed for initiative determination but does establish which player took the last action for the final initiative tiebreaker.
  * Interrupt: A card ability that triggers in response to a specific event, either mandatory or optional.
  * Leader: A powerful unit card, limited to one per quadrant.
  * Loadout Area: A designated area for placing Asset cards.

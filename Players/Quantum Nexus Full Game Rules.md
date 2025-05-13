@@ -588,6 +588,7 @@ Quantum Nexus features a dynamic interplay between different card types and abil
   1.  The currently active player (the player whose turn it is to act within an alternating phase like Deployment, Command, or Battle, or the player with priority to resolve effects in a simultaneous phase like Ready, as defined elsewhere) first gathers all of their own abilities and effects that have triggered from that specific action/event. That player then chooses the order in which these effects resolve, and resolves all of them.
   2.  After the currently active player has resolved all of their triggered abilities and effects, the other player (or the next player in turn order if more than two players) then gathers all of their own abilities and effects that triggered from the same initial action or event. That player then chooses the order in which their specific effects resolve, and resolves all of them.
   3.  If resolving these effects causes new abilities to trigger, these new triggers form a new "batch" or "stack." This new batch of triggers is resolved only after all effects from the current batch have finished resolving, again starting with the player who was considered the active player when the original action/event occurred. This process repeats until no new abilities trigger.
+ * Invalid Targets or Conditions Upon Resolution: If all mandatory targets for a triggered ability or effect are no longer legal or valid when that ability or effect resolves (due to other effects that resolved earlier, for example), the ability or effect fails to resolve and does nothing (it "fizzles"). If an effect has multiple targets or actions, and only some become invalid, the effect resolves as much as possible for the remaining valid targets or actions.
 
 ### B. Changing the Order of Play
 
@@ -615,14 +616,14 @@ To help you fully grasp the intricacies of Quantum Nexus, here is a glossary of 
  * Activate: To use a card's ability or effect. Activation often involves paying costs (like CP). For Active Abilities, it also typically requires the card to be in a ready state and may cause it to become exhausted.
  * Active Ability: An ability identified in a card's rule box that a player must consciously choose to use, typically during their turn in the Command Phase. Activating it usually requires paying costs (like CP) and often requires exhausting the card (turning it sideways).
  * Asset: A card type that can be deployed into the loadout and grants effects from outside of the battlefield.
- * Attack Value: A numerical value representing the amount of damage a unit inflicts when attacking.
+ * Attack Value: This number represents the unit's offensive strength. If a unit's Attack Value is greater than the opposing unit's Defense Value during combat comparison, the opposing unit is destroyed.
  * Battlefield: The central playing area where units are deployed and battles take place.
  * Close Range: An attack range allowing a unit to target its own quadrant, the quadrant directly opposing it in the next row forward, and the quadrant(s) immediately adjacent to its side(s) within its own row.
  * Command Phase: The phase in which players activate abilities and play Event cards.
  * Command Points (CP): A resource used to deploy units and activate abilities. Each card has a CP cost, and players have a limited amount of CP each turn.
  * Deactivate: The action of returning an exhausted card to its ready (upright) state, typically performed during the Ready Phase. This allows the card to potentially perform actions requiring it to be ready later in the turn.
  * Deck: A player's collection of cards, from which they draw during their turn.
- * Defense Value: A numerical value representing the amount of damage a unit or asset can withstand before being destroyed.
+ * Defense Value: This number represents the unit's resilience. If a unit's Defense Value is greater than or equal to the opposing unit's Attack Value during combat comparison, this unit survives the combat; if it is lower, this unit is destroyed.
  * Deployment Phase: The phase in which players alternately deploy units and terrain cards onto the battlefield.
  * Discard Pile: A pile where destroyed or used cards are placed.
  * Domain: A thematic category associated with mission cards and unit cards (Technology, Magic, Psionics, Divinity).

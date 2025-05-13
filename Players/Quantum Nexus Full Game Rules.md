@@ -251,7 +251,7 @@ Each player takes turns in Quantum Nexus, progressing through four distinct phas
 
 #### Initiative: Determining Turn Order within Phases
 
-Initiative determines which player acts first within the alternating phases (Deployment, Command, Battle). It is generally awarded based on efficiency in a previous phase (fewest actions or Command Points spent). However, the specific actions counted and the relevant preceding phase depend on the current phase. Please consult the detailed initiative rules provided in the description of each phase below for precise determination.
+Initiative determines which player acts first within the alternating phases (Deployment, Command, Battle). It is awarded based on actions taken in a specific previous phase, with the goal being efficiency. The exact types of actions counted depend on which phase's initiative is being determined, as detailed in the rules for each phase (Section III.C). Generally, the player who performed the fewest relevant actions (as defined for that specific phase transition) gains initiative. Please consult the detailed initiative rules provided in the description of each phase (Section III.C) for the precise determination criteria and tiebreakers.
 
 ##### Tiebreaker
 
@@ -638,7 +638,7 @@ To help you fully grasp the intricacies of Quantum Nexus, here is a glossary of 
  * Far Range: An attack range allowing a unit to target all quadrants located exactly two rows ahead of its current row. Units in a player's Front Row target all quadrants in the opponent's Back Row. Units in a player's Back Row target all quadrants in the opponent's Front Row.
  * Flank: The left and right quadrants of the battlefield.
  * Front Row: The row of quadrants closest to the opponent on the battlefield.
- * Initiative: The process that determines which player is to go first within a phase or turn. It is awarded to the player that performed the fewest actions, or if there is a tie, the player that spent the least amount of CP, or if there is a tie, the next player in clockwise order from the last player to play. Passing does not count towards the number of cards activated or deployed for initiative determination but does establish which player took the last action for the final initiative tiebreaker.
+ * Initiative: The process that determines which player acts first within certain phases or the first turn of the game. For phase initiative, it is generally awarded to the player who performed the fewest relevant actions (the specific types counted vary by phase, see Section III.C) in the designated previous phase. Ties are broken first by the player who spent the least amount of Command Points (CP) on those relevant actions in that previous phase. If a tie still exists, initiative goes to the next player in clockwise order from the player who performed the last action (including passing) in that previous phase. Passing does not count toward the number of relevant actions performed but does establish which player took the last action for the final tiebreaker. (See Section III.A for initial game initiative).
  * Interrupt: A card ability that triggers in response to a specific event, either mandatory or optional.
  * Leader: A powerful unit card, limited to one per quadrant.
  * Loadout Area: A designated area for placing Asset cards.

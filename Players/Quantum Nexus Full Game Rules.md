@@ -121,7 +121,7 @@ BattlePhase --> ReadyPhase
 #### Ready Phase
 
  * Ready Phase (Simultaneous): In this phase, both players simultaneously perform the following actions:
-   * Deactivate Cards: Any cards activated in the previous turn are deactivated, resetting their abilities and effects.
+   * Deactivate Cards: Return any of your cards currently in an exhausted state (i.e., turned sideways from use in a previous turn) back to their ready state (upright orientation). This makes them available to perform actions again this turn.
    * Draw Cards: Players draw cards from their deck until they have five cards in hand. This replenishes their options for the upcoming turn.
    * Reset CP: The CP pool is reset to the starting value determined by the mission cards.
    * Add Extra CP: If any card effects or abilities grant additional CP at the start of the turn, they are added to the CP pool.
@@ -181,8 +181,8 @@ graph TD;
 #### Command Phase
 
  * Command Phase (Alternating Turns): This phase focuses on activating card abilities and utilizing Event cards for tactical advantages.
-   * Activate Abilities: Players take turns activating the abilities of their deployed cards. Each card may have multiple abilities with varying costs and effects.
-   * Deploy Events: Event cards can be played during this phase for one-time powerful effects. These cards are discarded after use.
+   * Activate Abilities: Players take turns activating the abilities of their deployed cards. Each card may have multiple abilities with varying costs and effects. Activating an Active Ability requires paying its specified costs (like CP) and also requires exhausting the card (turning it sideways), unless the ability explicitly states otherwise. A card must be in a ready state to activate an ability that requires it to be exhausted.
+   * Play Events: Event cards can be played during this phase for one-time powerful effects. These cards are discarded after use.
    * Passing: If a player has no more abilities to activate or Events to play, they can pass their turn.
    * Iniative: The initiative of the Command Phase is won by the player who deployed the fewest cards (Units, Assets, Terrain, Upgrades) in the Deployment Phase. If all players played the same number of cards, then the player that spent the fewest CP wins. Finally if all players spent the same CP, the next player to the left of the last player to take action takes initiative.
 
@@ -218,7 +218,7 @@ The Battle Phase is where units engage in combat. When declaring an attack, play
    * Front-Row Priority: Units in an opponent's front row must generally be targeted and defeated before units in that opponent's back row (in the same column/flank) can be targeted by attacks. Specific card abilities might override this.
    * Range and Line of Sight: Each unit's Attack Range (see Glossary and Card Attributes) dictates which quadrants it can target.
    * Player Areas: Attacks are always directed at opposing units in the opponent's play area, respecting the specific range definitions.
-   * Declare Attacks: Players take turns declaring attacks, choosing both an attacker and a defender for each attack.
+   * Declare Attacks: Players take turns declaring attacks, choosing both an attacker and a defender for each attack. When a unit declares an attack, it becomes exhausted (turned sideways).
    * Compare Attack and Defense: The attacker's Attack value is compared to the defender's Defense value. If the attacker's attack value is higher, the defender is destroyed. If the defender's defense value is higher, the attacker is destroyed. If the values are equal, both units remain on the battlefield.
    * Iniative: The initiative of the Battle Phase is won by the player who activated/played the fewest cards (Abilities, Events) in the Command Phase. If all players played the same number of cards, then the player that spent the fewest CP wins. Finally if all players spent the same CP, the next player to the left of the last player to take action takes initiative.
 
@@ -299,18 +299,18 @@ They shuffle their decks and each draw the top card to determine who goes first.
 
 ##### Command Phase (Bob Starts)
 
- * Bob: Activates the "Divine Acolyte's" ability "Blessing of Light," giving the "Magical Guardian" +1 Attack. (9 CP remaining)
- * Alice: Activates the "Tech Turret's" ability "Target Acquisition," giving a +2 attack bonus against the "Magical Guardian." (10 CP remaining)
- * Bob: Plays the Event card "Arcane Surge," drawing two additional cards. (7 CP remaining)
- * Alice: Passes (10 CP remaining)
- * Bob: Passes (7 CP remaining)
+ * Bob: Activates the "Divine Acolyte's" ability "Blessing of Light," (2 CP) giving the "Magical Guardian" +1 Attack. (7 CP remaining)
+ * Alice: Activates the "Tech Turret's" ability "Target Acquisition," (2 CP) giving a +2 attack bonus against the "Magical Guardian." (8 CP remaining)
+ * Bob: Plays the Event card "Arcane Surge," (2 CP) drawing two additional cards. (5 CP remaining)
+ * Alice: Passes (8 CP remaining)
+ * Bob: Passes (5 CP remaining)
 
 ##### Battle Phase (Alice Starts)
 
- * Alice: Declares an attack with her Front Left "Psionic Scout" (Attack 2) against Bob's "Divine Acolyte" (Defense 1). The "Divine Acolyte" is destroyed. (10 CP remaining)
- * Bob: Declares an attack with his "Magical Guardian" (Attack 3) against Alice's Back Left "Psionic Scout" (Defense 2). The "Psionic Scout" is destroyed. (7 CP remaining)
- * Alice: Passes (10 CP remaining)
- * Bob: Passes (7 CP remaining)
+ * Alice: Declares an attack with her Front Left "Psionic Scout" (Attack 2) against Bob's "Divine Acolyte" (Defense 1). The "Divine Acolyte" is destroyed. (8 CP remaining)
+ * Bob: Declares an attack with his "Magical Guardian" (Attack 3) against Alice's Back Left "Psionic Scout" (Defense 2). The "Psionic Scout" is destroyed. (5 CP remaining)
+ * Alice: Passes (8 CP remaining)
+ * Bob: Passes (5 CP remaining)
 
 ##### End of Round One
 
@@ -392,8 +392,8 @@ sequenceDiagram
 
 ##### Command Phase (Alice Starts)
 
- * Alice: Activates "Tech Engineer's" ability "Repair," adding 2 Defense to her Front Left "Psionic Scout." (12 CP remaining)
- * Bob: Activates "Magical Guardian's" ability "Arcane Shield," adding 2 Defense. (11 CP remaining)
+ * Alice: Activates "Tech Engineer's" ability "Repair," (3 CP) adding 2 Defense to her Front Left "Psionic Scout." (12 CP remaining)
+ * Bob: Activates "Magical Guardian's" ability "Arcane Shield," (2 CP) adding 2 Defense. (11 CP remaining)
  * Alice: Passes (12 CP remaining)
  * Bob: Passes (11 CP remaining)
 
@@ -612,21 +612,22 @@ Aside from the limit imposed per card by the Duplicates attribute or from the 20
 
 To help you fully grasp the intricacies of Quantum Nexus, here is a glossary of essential terms used throughout the game:
 
- * Activate: To use a card's ability or effect by paying its cost or meeting its trigger condition.
- * Active Ability: An ability that requires a cost to activate and usually consumes the card's action for the turn.
+ * Activate: To use a card's ability or effect. Activation often involves paying costs (like CP). For Active Abilities, it also typically requires the card to be in a ready state and may cause it to become exhausted.
+ * Active Ability: An ability identified in a card's rule box that a player must consciously choose to use, typically during their turn in the Command Phase. Activating it usually requires paying costs (like CP) and often requires exhausting the card (turning it sideways).
  * Asset: A card type that can be deployed into the loadout and grants effects from outside of the battlefield.
  * Attack Value: A numerical value representing the amount of damage a unit inflicts when attacking.
  * Battlefield: The central playing area where units are deployed and battles take place.
  * Close Range: An attack range allowing a unit to target its own quadrant, the quadrant directly opposing it in the next row forward, and the quadrant(s) immediately adjacent to its side(s) within its own row.
  * Command Phase: The phase in which players activate abilities and play Event cards.
  * Command Points (CP): A resource used to deploy units and activate abilities. Each card has a CP cost, and players have a limited amount of CP each turn.
- * Deactivate: To reset a card's abilities and effects, usually at the start of the Ready Phase.
+ * Deactivate: The action of returning an exhausted card to its ready (upright) state, typically performed during the Ready Phase. This allows the card to potentially perform actions requiring it to be ready later in the turn.
  * Deck: A player's collection of cards, from which they draw during their turn.
  * Defense Value: A numerical value representing the amount of damage a unit or asset can withstand before being destroyed.
  * Deployment Phase: The phase in which players alternately deploy units and terrain cards onto the battlefield.
  * Discard Pile: A pile where destroyed or used cards are placed.
  * Domain: A thematic category associated with mission cards and unit cards (Technology, Magic, Psionics, Divinity).
  * Event: A card type that provides a powerful one-time effect when played during the Command Phase.
+ * Exhaust: To turn a card sideways from its ready (upright) position. This is often required as part of the cost or process for a unit to declare an attack or for a card to use an Active Ability. An exhausted card cannot normally be exhausted again or perform other actions requiring it to be ready until it is deactivated.
  * Far Range: An attack range allowing a unit to target all quadrants located exactly two rows ahead of its current row. Units in a player's Front Row target all quadrants in the opponent's Back Row. Units in a player's Back Row target all quadrants in the opponent's Front Row.
  * Flank: The left and right quadrants of the battlefield.
  * Front Row: The row of quadrants closest to the opponent on the battlefield.
@@ -639,6 +640,7 @@ To help you fully grasp the intricacies of Quantum Nexus, here is a glossary of 
  * Passive Ability: An ability that is always active and does not require activation.
  * Quadrant: A section of the battlefield, either front or back, and left, center, or right.
  * Ready Phase: The phase in which players deactivate cards, draw new cards, and reset their CP.
+ * Ready: The normal, upright orientation of a card in play, indicating it is prepared to perform actions that may require it to become exhausted (e.g., attacking or using certain abilities). Cards start in the ready state when deployed and return to it when deactivated.
  * Rule Box: The section of a card that details its abilities, effects, and any special conditions.
  * Subtype: A more specific classification of a card's type, such as its faction or special ability.
  * Terrain: A card type that modifies the battlefield, affecting units in specific quadrants.

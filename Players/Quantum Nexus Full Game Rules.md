@@ -214,9 +214,9 @@ graph TD;
 
 The Battle Phase is where units engage in combat. When declaring an attack, players must adhere to several key principles:
 
-   * Target Selection: The attacking player chooses one of their units to attack and an eligible opposing unit as the defender. The eligibility of a defender is determined by the attacker's range (Close, Mid, Far), line of sight (as implied by range definitions – e.g., Close Range from the Back Row considers the friendly Front Row first), and the Front-Row Priority rule.
+   * Target Selection: The attacking player chooses one of their units to attack and an eligible opposing unit as the defender. The eligibility of a defender is determined by the attacker's range (Close, Mid, Far) and the Front-Row Priority rule.
    * Front-Row Priority: Units in an opponent's front row must generally be targeted and defeated before units in that opponent's back row (in the same column/flank) can be targeted by attacks. Specific card abilities might override this.
-   * Range and Line of Sight: Each unit's Attack Range (see Glossary and Card Attributes) dictates which quadrants it can target. Some ranges may require a clear "path" or prioritize closer/intervening friendly quadrants before opponent's quadrants can be targeted (e.g., Close Range from the Back Row).
+   * Range and Line of Sight: Each unit's Attack Range (see Glossary and Card Attributes) dictates which quadrants it can target.
    * Player Areas: Attacks are always directed at opposing units in the opponent's play area, respecting the specific range definitions.
    * Declare Attacks: Players take turns declaring attacks, choosing both an attacker and a defender for each attack.
    * Compare Attack and Defense: The attacker's Attack value is compared to the defender's Defense value. If the attacker's attack value is higher, the defender is destroyed. If the defender's defense value is higher, the attacker is destroyed. If the values are equal, both units remain on the battlefield.
@@ -617,7 +617,7 @@ To help you fully grasp the intricacies of Quantum Nexus, here is a glossary of 
  * Asset: A card type that can be deployed into the loadout and grants effects from outside of the battlefield.
  * Attack Value: A numerical value representing the amount of damage a unit inflicts when attacking.
  * Battlefield: The central playing area where units are deployed and battles take place.
- * Close Range: An attack range definition with two components: targeting "directly in front" and targeting "to its immediate sides". The application of these components varies based on the unit's row and whether it is using a general ability or declaring an attack against an opponent.
+ * Close Range: An attack range allowing a unit to target its own quadrant, the quadrant directly opposing it in the next row forward, and the quadrant(s) immediately adjacent to its side(s) within its own row.
  * Command Phase: The phase in which players activate abilities and play Event cards.
  * Command Points (CP): A resource used to deploy units and activate abilities. Each card has a CP cost, and players have a limited amount of CP each turn.
  * Deactivate: To reset a card's abilities and effects, usually at the start of the Ready Phase.
@@ -627,14 +627,14 @@ To help you fully grasp the intricacies of Quantum Nexus, here is a glossary of 
  * Discard Pile: A pile where destroyed or used cards are placed.
  * Domain: A thematic category associated with mission cards and unit cards (Technology, Magic, Psionics, Divinity).
  * Event: A card type that provides a powerful one-time effect when played during the Command Phase.
- * Far Range: An attack range allowing a unit to target units in the opposite row.
+ * Far Range: An attack range allowing a unit to target all quadrants located exactly two rows ahead of its current row. Units in a player's Front Row target all quadrants in the opponent's Back Row. Units in a player's Back Row target all quadrants in the opponent's Front Row.
  * Flank: The left and right quadrants of the battlefield.
  * Front Row: The row of quadrants closest to the opponent on the battlefield.
  * Initiative: The process that determines which player is to go first within a phase or turn. It is awarded to the player that played the fewest cards, or if there is a tie, the player that spent the least amount of CP, or if there is a tie, the player directly to the left of the last player to play, in a two player game this means the other player. Passing does not count towards the number of cards activated or deployed for initiative determination but does establish which player took the last action for the final initiative tiebreaker.
  * Interrupt: A card ability that triggers in response to a specific event, either mandatory or optional.
  * Leader: A powerful unit card, limited to one per quadrant.
  * Loadout Area: A designated area for placing Asset cards.
- * Mid Range: An attack range allowing a unit to target units directly in front, to its sides, or diagonally adjacent.
+ * Mid Range: An attack range allowing a unit to target all quadrants eligible for Close Range, plus the quadrants diagonally adjacent in the row ahead, and the quadrants diagonally adjacent in the row behind it (if applicable - units in the Back Row have no row behind them).
  * Mission Card: A card representing an objective, providing passive effects or abilities upon completion.
  * Passive Ability: An ability that is always active and does not require activation.
  * Quadrant: A section of the battlefield, either front or back, and left, center, or right.

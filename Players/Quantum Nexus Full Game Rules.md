@@ -63,7 +63,7 @@ Mission cards play a significant role in Quantum Nexus, representing your object
 
 Unit cards form the core of your army in Quantum Nexus. They are the ones that engage in combat and fulfill mission objectives. When selecting unit cards for your deck, it's crucial to align them with the domains represented on your mission cards.
 
- * Matching or Lower Domain Values: The domain values on your unit cards must either match or be lower than all of the corresponding domain values on your mission cards. For instance, if your mission cards have 3 points in Technology, your unit cards cannot have more than 3 points in Technology.
+ * Matching or Lower Domain Values: Unit cards have domain values associated with them (Technology, Magic, Psionics, Divinity). When including a unit card in your deck, its domain value for any given domain (e.g., Technology) must be equal to or lower than the total number of points assigned to that same domain across all of your chosen Mission cards. For instance, if your collective Mission cards grant a total of 3 points in the Technology domain, any Unit card in your deck cannot have more than 3 points in its Technology domain value. If a Unit card has values in multiple domains, this check must be satisfied for each of those domains against the corresponding total from your Mission
  * There are duplicate limits printed on each card, no card may ever break these limits. They can have an amount of cards lower than the limit, but never higher.
 
 By carefully selecting mission cards and aligning your unit cards with their domains, you can create a cohesive and powerful deck that maximizes your chances of victory in Quantum Nexus.
@@ -125,7 +125,10 @@ BattlePhase --> ReadyPhase
    * Draw Cards: Players draw cards from their deck until they have five cards in hand. This replenishes their options for the upcoming turn.
    * Reset CP: The CP pool is reset to the starting value determined by the mission cards.
    * Add Extra CP: If any card effects or abilities grant additional CP at the start of the turn, they are added to the CP pool.
- * Resolve Effects: If any effects were activated/triggered during the ready phase they will be resolved once all players are ready and before the Deployment phase is started. Initiative from the Deployment phase will be used.
+   * Resolve Effects: If any card abilities or effects are triggered for one or both players during the Ready Phase (e.g., "at the start of the Ready Phase..." effects), they are resolved after all other Ready Phase actions (Deactivate Cards, Draw Cards, Reset CP, Add Extra CP) are completed by both players, but before the Deployment Phase begins.
+   * On the first turn of the game: The player who won the initial initiative (by revealing the card with the lower CP value and choosing to go first, or being chosen to go first by the winner of the flip) resolves all of their triggered Ready Phase effects first, in an order of their choosing if multiple effects trigger for them. Then, the other player resolves all of their triggered Ready Phase effects, in an order of their choosing if multiple effects trigger for them.
+   * On subsequent turns: The player who will have initiative in the upcoming Deployment Phase (as determined by actions in the previous Battle Phase) resolves all of their triggered Ready Phase effects first, in an order of their choosing if multiple effects trigger for them. Then, the other player resolves all of their triggered Ready Phase effects, in an order of their choosing if multiple effects trigger for them.
+(See Section VII.A for general rules on resolving stacked effects).
 
 ##### Ready Phase Diagram
 
@@ -206,8 +209,16 @@ graph TD;
 #### Battle Phase
 
  * Battle Phase (Declaring Attacks): The Battle Phase is where conflicts erupt as players direct their units to attack their opponent's units.
+
+##### Declaring Attacks and Targeting Principles
+
+The Battle Phase is where units engage in combat. When declaring an attack, players must adhere to several key principles:
+
+   * Target Selection: The attacking player chooses one of their units to attack and an eligible opposing unit as the defender. The eligibility of a defender is determined by the attacker's range (Close, Mid, Far), line of sight (as implied by range definitions – e.g., Close Range from the Back Row considers the friendly Front Row first), and the Front-Row Priority rule.
+   * Front-Row Priority: Units in an opponent's front row must generally be targeted and defeated before units in that opponent's back row (in the same column/flank) can be targeted by attacks. Specific card abilities might override this.
+   * Range and Line of Sight: Each unit's Attack Range (see Glossary and Card Attributes) dictates which quadrants it can target. Some ranges may require a clear "path" or prioritize closer/intervening friendly quadrants before opponent's quadrants can be targeted (e.g., Close Range from the Back Row).
+   * Player Areas: Attacks are always directed at opposing units in the opponent's play area, respecting the specific range definitions.
    * Declare Attacks: Players take turns declaring attacks, choosing both an attacker and a defender for each attack.
-   * Front-row Priority: Units in the front row must be targeted and defeated before attacking units in the back row.
    * Compare Attack and Defense: The attacker's Attack value is compared to the defender's Defense value. If the attacker's attack value is higher, the defender is destroyed. If the defender's defense value is higher, the attacker is destroyed. If the values are equal, both units remain on the battlefield.
    * Iniative: The initiative of the Battle Phase is won by the player who activated/played the fewest cards (Abilities, Events) in the Command Phase. If all players played the same number of cards, then the player that spent the fewest CP wins. Finally if all players spent the same CP, the next player to the left of the last player to take action takes initiative.
 
@@ -486,10 +497,10 @@ Upgrades are cards that modify other cards on the battlefield, enhancing their a
 
 ### E. Terrain
 
-Terrain cards represent different environments on the battlefield and affect the units within their respective quadrants. These cards are deployed during the Deployment Phase and remain in play until removed by a card effect.
+Terrain cards represent different environments on the battlefield and affect the units within specific quadrants. These cards are deployed during the Deployment Phase into a player's own quadrants on their side of the Battlefield and remain in play until removed by a card effect. A player may only deploy Terrain cards into quadrants they control.
 
- * Quadrant Effects: Each Terrain card applies a passive effect to all units in the quadrant it is deployed to. These effects can range from stat bonuses to special abilities or restrictions.
- * Limited Placement: Only two Terrain cards can be active in a single quadrant at any given time.
+ * Quadrant Effects: Each Terrain card applies a passive effect to all units (friendly or enemy) located in the specific quadrant on the owning player's side of the Battlefield where the Terrain is active. These effects can range from stat bonuses to special abilities or restrictions.
+ * Limited Placement: A player can have a maximum of two of their own Terrain cards active in any single one of their quadrants at any given time. For example, Player A can have up to two Terrain cards in their Front Left quadrant; this does not affect how many Terrain cards Player B can have in Player B's Front Left quadrant.
 
 ## V. Areas of Play
 
@@ -536,6 +547,10 @@ The Battlefield is the central arena where Units are deployed and battles unfold
  * Flanks and Center: The Battlefield is further divided into left flank, center, and right flank, offering strategic options for unit placement and movement.
  * Attack Range: Each Unit card has a designated attack range (Close, Mid, or Far) that determines which quadrants it can attack from its current position.
 
+### F. Player Areas and Card Control
+
+Each player controls their own set of Battlefield quadrants (Front Left, Front Center, Front Right, Back Left, Back Center, Back Right), their Mission Card Area, their Deck, their Discard Pile, and their Loadout Area. Unless a card effect or game rule specifically states otherwise, players may only deploy, move, or place their cards and effects into their own areas of play. Players may not physically move, touch, or otherwise manipulate cards or components within an opponent's designated play areas, except when an opponent's card is destroyed and moved to their Discard Pile as a result of gameplay.
+
 ## VI. Winning the Game
 
 In Quantum Nexus, victory can be achieved through two distinct paths, each requiring different strategic approaches and tactical execution.
@@ -569,7 +584,10 @@ Quantum Nexus features a dynamic interplay between different card types and abil
  * Triggered Abilities: Many cards possess triggered abilities that activate in response to specific events, such as deploying a unit, attacking, or being attacked. These abilities can create powerful chain reactions and turn the tide of battle.
  * Mandatory and Optional Interrupts: Some abilities are mandatory interrupts, meaning they must be activated if their trigger condition is met. Others are optional interrupts, giving you the choice to activate them by paying a specified cost.
  * Stacking Effects: Multiple card effects can interact and stack with each other. Understanding the order in which effects resolve and how they modify each other is essential for accurate gameplay.
- * Resolution Order: All interrupts, effects, and triggered abilities are resolved in turn-order starting with the currently active player.
+ * Resolution Order for Triggered Abilities and Effects: When an action or event causes multiple card abilities or effects to trigger simultaneously:
+  1.  The currently active player (the player whose turn it is to act within an alternating phase like Deployment, Command, or Battle, or the player with priority to resolve effects in a simultaneous phase like Ready, as defined elsewhere) first gathers all of their own abilities and effects that have triggered from that specific action/event. That player then chooses the order in which these effects resolve, and resolves all of them.
+  2.  After the currently active player has resolved all of their triggered abilities and effects, the other player (or the next player in turn order if more than two players) then gathers all of their own abilities and effects that triggered from the same initial action or event. That player then chooses the order in which their specific effects resolve, and resolves all of them.
+  3.  If resolving these effects causes new abilities to trigger, these new triggers form a new "batch" or "stack." This new batch of triggers is resolved only after all effects from the current batch have finished resolving, again starting with the player who was considered the active player when the original action/event occurred. This process repeats until no new abilities trigger.
 
 ### B. Changing the Order of Play
 
@@ -599,7 +617,7 @@ To help you fully grasp the intricacies of Quantum Nexus, here is a glossary of 
  * Asset: A card type that can be deployed into the loadout and grants effects from outside of the battlefield.
  * Attack Value: A numerical value representing the amount of damage a unit inflicts when attacking.
  * Battlefield: The central playing area where units are deployed and battles take place.
- * Close Range: An attack range allowing a unit to target units directly in front or to its immediate sides.
+ * Close Range: An attack range definition with two components: targeting "directly in front" and targeting "to its immediate sides". The application of these components varies based on the unit's row and whether it is using a general ability or declaring an attack against an opponent.
  * Command Phase: The phase in which players activate abilities and play Event cards.
  * Command Points (CP): A resource used to deploy units and activate abilities. Each card has a CP cost, and players have a limited amount of CP each turn.
  * Deactivate: To reset a card's abilities and effects, usually at the start of the Ready Phase.

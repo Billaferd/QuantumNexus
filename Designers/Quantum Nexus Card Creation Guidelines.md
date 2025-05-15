@@ -1,9 +1,5 @@
 # Quantum Nexus: Card Creation Guidelines
 
-## Version Note
-Version 2.0 (Derived from previous guidelines, updated May 14, 2025, to align with Quantum Nexus Rulebook Version [Specify Current Rulebook Version if known, otherwise leave as 'Current Version']).
-Key changes include alignment with the new game round structure and activation sequence, revised combat mechanics, updated range definitions, removal of mechanical "Card Ranks," and the introduction of the "Progressive Budget Build" system (Section V.B) as the initial framework for card costing. **All numerical values within this costing system are initial placeholders and require calibration.**
-
 ## Note to the Reader
 
 This is the Quantum Nexus: Card Creation Guidelines. This document is not meant to explain any rules that a player would need; it is solely intended to aid designers in creating captivating and interesting cards for Quantum Nexus. Players are welcome to read this document, but please know that these rules are not applied to any in-game scenario; they are solely intended for creating cards for Quantum Nexus.

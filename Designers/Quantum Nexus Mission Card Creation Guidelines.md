@@ -1,1053 +1,468 @@
 # Quantum Nexus: Mission Card Creation Guidelines
 
-## Note to the Reader
+**Note to the Reader**
 
-This is the Quantum Nexus: Mission Card Creation Guidelines, this document is not meant to explain any rules that a player would need, it is solely intended to aid designers in creating captivating and interesting mission cards for Quantum Nexus. Players are welcome to read this document, but please know that these rules are not applied to any in-game scenario, they are solely used for creating cards for Quantum Nexus.
+This is the Quantum Nexus: Mission Card Creation Guidelines. This document is not meant to explain any rules that a player would need; it is solely intended to aid designers in creating captivating and interesting Mission Cards for Quantum Nexus. Players are welcome to read this document, but please know that these guidelines are not applied to any in-game scenario; they are solely intended for use in the design and creation of Mission Cards for Quantum Nexus. This document is meant to be used in conjunction with the "Quantum Nexus: Detailed Rules," "Quantum Nexus: Card Creation Guidelines (CCG v2.0)," and the "Quantum Nexus: Ability Creation Guidelines (ACG)."
+
+---
 
 ## I. Introduction
 
-Quantum Nexus is a strategic trading card game (TCG) that immerses players in a captivating sci-fi universe filled with advanced technology, mystical magic, potent psionics, and divine intervention. To contribute to this dynamic world, card creators must adhere to a set of core design principles and understand the fundamental building blocks of card creation.
+Welcome to the "Quantum Nexus: Mission Card Creation Guidelines." Mission Cards are a unique and pivotal component of Quantum Nexus, serving as a player's strategic blueprint, a primary source of roundly Command Points (CP), and one of the paths to victory. This document guides designers in crafting Mission Cards that are balanced, thematic, and integrate seamlessly with the core game mechanics and design philosophies of Quantum Nexus.
 
 ### A. Core Design Principles
 
- * Card Control: Each player retains complete ownership and control of their cards throughout the game. Players are not allowed to touch any other players cards and a players cards are not allowed to leave that players play area.
- * Predictable Gameplay: The only random element in Quantum Nexus is initial card shuffles and the card draw. This design choice eliminates luck-based mechanics like dice rolls, coin flips, or other random elements not inherit to cards, ensuring that strategic decision-making and tactical planning are the primary factors that determine the outcome of battles.
- * Streamlined Combat: Units in Quantum Nexus do not have health points. Instead, their resilience is represented by a Defense value. When a unit is attacked, its Defense is compared directly to the attacker's Attack value. If the Attack exceeds the Defense, the defending unit is discarded. This streamlined system simplifies combat, reduces bookkeeping, and accelerates gameplay.
+When designing Mission Cards, designers must adhere to the fundamental principles that govern Quantum Nexus:
 
-## II. Battlefield and Tactical Maneuvers
+* **Card Control:** Each player retains complete ownership and control of their cards throughout the game. Players are not allowed to touch any other player's cards, and a player's cards are not allowed to leave that player's designated play areas (Battlefield quadrants, Loadout Area, Discard Pile, Deck, Hand, Mission Card Area). This aligns with Section V.F of the "Quantum Nexus: Detailed Rules."
+* **Predictable Gameplay:** The only random elements in Quantum Nexus are initial card shuffles and the card draw during the Start of Round Step. This design choice eliminates luck-based mechanics like dice rolls, coin flips, or other random elements not inherent to card effects, ensuring that strategic decision-making and tactical planning are the primary factors that determine the outcome of battles.
+* **Streamlined Combat:** Units in Quantum Nexus do not have health points. Their resilience is represented by a Defense value. When a Unit is attacked, its Defense is compared to the attacker's Attack value. The outcomes are specific and defined in Section III.C.2 of the "Quantum Nexus: Detailed Rules":
+    * If Attack (A) > Defense (D): The defending unit is destroyed.
+    * If A = D: The defending unit becomes **Suppressed** (it exhausts).
+    * If A < D: The attacking unit becomes **Disordered** (-1 Defense until its controller's next Start of Round Step) and is **Pushed Back**.
 
-Understanding the battlefield and the mechanics of card range is crucial for effective card design.
+---
 
- * A. Battlefield Structure: The Quantum Nexus battlefield consists of two separate 3x2 grids, one for each player. Each grid has six distinct quadrants where units can be deployed. The two front rows of opposing grids are considered adjacent for targeting purposes, but units never physically enter the opponent's play area.
- * B. Range Types: Each terrestrial and aerial unit card has a defined range that dictates which quadrants it can attack or affect with its abilities:
-   * Close Range: Units can only target adjacent quadrants on their own side of the battlefield.
-   * Mid Range: Units can target adjacent and diagonal quadrants on their own side, as well as any quadrant in the opponent's front row.
-   * Far Range: Units can only target quadrants that are 2 rows away from its current position. If a unit is in the back row, it can only attack the enemies front row, if the unit is in the front row, it can attack the enemies back row. This range system adds a layer of tactical depth to the game, forcing players to carefully consider unit placement and movement to maximize their offensive and defensive capabilities.
- * C. Movement: Every terrestrial and aerial unit may choose to attack or move during the Combat Phase, it can move to any adjacent quadrant, but not diagonally.
- * D. Card Ranks: Each Unit, Leader, and Asset card has one of 4 ranks. Terrestrial and aerial are assigned to Units and Leaders. Orbital, and interstellar are assigned to Assets. Terrestrial and aerial units are deployed to the battlefield. Orbital and Interstellar units are deployed to the Loadout. Events and Upgrades do not have a rank.
- * E. Turn Sequence: Each turn has four phases: Ready, Deployment, Command, and Battle.
-  1. The Ready Phase sets the stage for your turn. CP resets, players draw cards, units deactivate.
-  2. During the Deployment Phase, players play their units, upgrades, and other permanent cards from their hand.
-  3. In the Command Phase, you activate abilities or deploy Events.
-  4. The Battle Phase is where you declare attacks against opponent units.
-  5. The players alternate turns during each phase. The phase ends when both players pass.
-  6. The player who spent the least amount of CP in the previous phase goes first in the next phase.
+## II. Understanding the Game Environment for Mission Design
 
-## III. Card Types and Subtypes
+While Mission Cards themselves are not deployed onto the Battlefield like Units or Terrain, their challenges and rewards will often interact with game elements defined in the "Quantum Nexus: Detailed Rules" and "Quantum Nexus: Card Creation Guidelines (CCG v2.0)." Designers must be familiar with:
 
-Quantum Nexus features a diverse range of card types, each playing a unique role in shaping your strategies:
+### A. Battlefield Structure
 
- * A. Card Types:
-   * Units: The heart of your army, these cards represent characters or creatures that battle on the battlefield. Units possess Attack and Defense values, as well as a defined range (close, mid, or far). Units are deployed to the Battlefield, and must be either Terrestrial or Aerial rank.
-     a. Leaders: These are special, powerful units with enhanced abilities and a significant impact on the battlefield. Due to their strength, only one Leader can be present in a single quadrant at a time. No other leaders can be moved or deployed to the same quadrant if a leader already occupied that quadrant. Additionally, each deck is limited to a maximum of 25 CP worth of Leader cards.
-   * Upgrades: These cards modify other cards (usually units), boosting their stats or granting them additional abilities. Upgrades can be played on units in the battlefield or on other cards in your loadout, depending on their specific effects. Upgrades must declare the card type (Unit, Leader, Terrain) and optionally the sub-type (Mech, Angel, Specialist) that they augment.
-   * Assets: These cards provide ongoing benefits or strategic advantages. They reside in your loadout and are not directly involved in combat, but their effects can significantly influence the course of the game. Assets are either Orbital or Interstellar rank.
-   * Events: These powerful cards trigger immediate effects, such as manipulating the battlefield, or drawing additional cards. Events are played during the Command Phase and are discarded afterward. They do not have Passive abilities, but can have both Active Abilities (With no CP Activation Cost, but can have other activation costs) and Interrupts.
-   * Terrain: These cards alter the battlefield itself, granting bonuses to specific units or imposing restrictions on enemy movement or abilities. Terrain cards are played on specific quadrants and remain in play until removed.
- * B. Subtypes: In addition to their main type, all cards have a subtype. Subtypes add further specificity to a card's identity and often interact with card abilities or effects. Examples of subtypes include "Mech," "Squad," and "Specialist."
+The Quantum Nexus battlefield for each player consists of a 3x2 grid of six quadrants (Front Left, Front Center, Front Right, Back Left, Back Center, Back Right). Units are always deployed into their controller's own quadrants and never physically enter an opponent's play area or quadrants. A player's Front Row is considered to face each opponent's Front Row for targeting purposes. (See "Quantum Nexus: Detailed Rules," Section V.E and V.F).
 
-## IV. Domain System
+### B. Range Types
 
-In Quantum Nexus, each card is intrinsically linked to one or more of four key domains: Technology, Magic, Psionics, and Divinity. These domains represent the fundamental forces and energies that shape the game's universe, and they play a crucial role in defining the abilities and capabilities of each card. 
+Unit abilities and attacks use defined ranges: **Close, Mid,** or **Far**. The precise definitions for these ranges are found in the "Quantum Nexus: Detailed Rules" (Section VIII: Glossary) and referenced in the "Quantum Nexus: Card Creation Guidelines (CCG v2.0)" (Section II.B). Challenges and rewards on Mission Cards may involve or be affected by these ranges when they concern Units.
 
-### Domain Characteristics
+### C. Movement
 
-Each domain possesses unique characteristics that shape the cards associated with it. Domain points drive the theme of the card:
-   * Technology: Wields an arsenal of ranged weaponry, devastating area-of-effect attacks, and sophisticated battlefield control systems. Technological prowess enables strategic dominance through calculated strikes and tactical maneuvers. However, close-quarters combat and opponents capable of bypassing or exploiting technological vulnerabilities pose significant challenges.
-  * Magic: Offers unparalleled versatility, precise unit targeting, and arcane spellcasting for close-to-mid-range engagements. Magical prowess allows for devastating offensive and defensive spells, empowering wielders to manipulate the battlefield to their advantage. However, overwhelming numbers or adversaries resistant to magical energies may prove difficult to overcome.
-  * Psionics: Masters of the mind, employing telekinetic manipulation and potent psychic abilities to dominate close-range encounters. Psionic prowess grants unmatched control over the battlefield, bending both allies and enemies to the wielder's will. However, opponents capable of resisting or nullifying mental influence pose a significant threat.
-  * Divinity: Commands divine blessings, holy/unholy powers, and celestial/infernal intervention, impacting the battlefield on a grand scale. Divine prowess allows for miraculous feats, righteous judgment, and otherworldly manifestations. However, the fickle nature of divine forces, potential sacrifices, and specific conditions for wielding such power introduce an element of unpredictability. (Encompasses all deities, celestial, infernal, etc.)
+Unit movement is a specific single action ("Move a Unit") taken during a player's turn in the Activation Sequence. It involves moving a ready Unit one quadrant in a cardinal direction to an adjacent friendly quadrant within their own Battlefield, after which the Unit becomes exhausted. (See "Quantum Nexus: Detailed Rules," Section III.C.2).
 
-## V. Mission Cards: The Foundation of Your Quantum Nexus Strategy
+### D. Internal Design Tags (Formerly "Card Ranks")
 
-Mission cards are the cornerstone of your Quantum Nexus deck, shaping your strategic direction and influencing your available resources throughout the game. They serve multiple crucial functions.
+The terms Terrestrial, Aerial, Orbital, and Interstellar are internal thematic tags for designers and do not appear as player-facing mechanics dictating deployment or rules (See CCG v2.0, Section II.D). Card deployment is determined by its type (e.g., Units to their owner's Battlefield quadrants, Assets to their owner's Loadout Area).
 
-Each mission card should offer a unique gameplay experience, encouraging players to build diverse decks and explore different strategic paths. This uniqueness can manifest in various ways, such as:
- * Unique Challenges:  Design challenges that are distinct from other mission cards, requiring different strategies, deck compositions, or playstyles to overcome.
- * Unique Abilities: Offer passive and one-time abilities that provide distinct advantages or effects, encouraging players to choose mission cards that complement their overall strategy.
- * Unique Themes: Develop mission cards with distinct themes or narrative elements that contribute to the richness and diversity of the Quantum Nexus universe.
-By prioritizing uniqueness in mission card design, you create a more engaging and varied gameplay experience for all players.
+### E. Game Round Structure
 
-### 1. Defining Your Domain Expertise
+Quantum Nexus gameplay proceeds in **Game Rounds**, each consisting of a **Start of Round Step** and an **Activation Sequence**.
 
- * Each mission card is associated with one or more of the four domains: Technology, Magic, Psionics, and Divinity.
- * The points allocated to each domain on your mission cards determine your deck's focus and the types of cards you can include.
+1.  **Start of Round Step:** Simultaneous for all players. Includes deactivating exhausted cards, gaining Command Points (CP) for the round (derived primarily from Mission Cards), and drawing cards up to five. Triggered abilities then resolve. (See "Quantum Nexus: Detailed Rules," Section III.C.1).
+2.  **Activation Sequence:** Players take turns performing single actions (Deploy a Card, Activate an Active Ability, Declare an Attack, Play an Event Card, Move a Unit, or Pass) in clockwise order until all players consecutively pass. (See "Quantum Nexus: Detailed Rules," Section III.C.2).
 
-### 2. Dictating Your Command Point (CP) Budget
+* **Initiative:** Determines the first player to act in the Activation Sequence. (See "Quantum Nexus: Detailed Rules," Section III.D).
 
- * Command Points (CP) are the currency you use to play cards and activate abilities.
- * The total CP value of your chosen mission cards determines your starting CP pool for each round.
-3. Setting Challenges and Rewards:
- * Each mission card presents a unique challenge that you must strive to complete.
- * Upon successful completion, you gain access to both a one-time ability and a passive ability.
- * These abilities offer powerful effects that can turn the tide of battle in your favor.
+Mission Card challenges and abilities must be designed to function cohesively within this Game Round structure.
 
-#### Domain Points: Your Path to Mastery
+---
 
- * Allocation: Mission cards distribute points among the four domains. Each Mission Card must have at least 1 domain point and a maximum of 4 points across all domains on that card.
- * Significance:
-   * 0 points in a domain indicate no proficiency.
-   * 4 points represent transcendent mastery in that domain.
-   * The points you allocate to each domain on your mission cards determine the maximum domain values allowed on other cards in your deck.
-   * The number of domain points assigned to a single Mission Card should vary between 1 and 4, this is a total across all domains added together.
+## III. Interfacing with Card Types and Subtypes
 
-##### Example
+Mission Card challenges and rewards will frequently interact with the various card types defined in Section IV of the "Quantum Nexus: Detailed Rules." Designers should ensure this interaction is consistent with current card type functionalities:
 
-If your mission cards have a total of 3 points in Technology, you cannot include unit cards with a Technology value exceeding 3. Nor can they use any card with another 4 points. They are limited to any combination of cards that total 1 technology point and 2 points of any combination from any other domain, or they can choose 3 points from any combination of domains except technology.
+* **Units:** The primary combatants, deployed to their owner's Battlefield quadrants. Possess Attack, Defense, and potentially a Range.
+    * **Leaders:** A subtype of Unit with specific deployment restrictions (one per player per their own quadrant) and deck construction limits (max 25 CP of Leaders per main deck).
+* **Upgrades:** Attach to a player's own Units or Assets to modify them.
+* **Assets:** Deployed to a player's Loadout Area, providing persistent effects or abilities. Have Defense but no inherent Attack.
+* **Events:** Played as a single action during the Activation Sequence for an immediate one-time effect, then typically discarded.
+* **Terrain:** Deployed into a player's own quadrants, providing inherent defensive bonuses and other effects. Max two Terrain per player per their own quadrant.
+* **Subtypes:** Many cards can have subtypes (e.g., "Mech," "Drone," "Spell") which provide thematic and mechanical hooks for abilities and challenges.
 
-#### Command Points (CP): Fueling Your Actions
+---
 
- * Starting CP Pool:  The sum of the CP values of all your mission cards determines your initial CP pool.
- * CP Cost of Cards: Each card has a CP cost indicated in the top left corner.
- * Spending CP: You spend CP to play cards from your hand onto the battlefield or activate card abilities.
- * Strategic Importance: Managing your CP wisely is crucial for making impactful plays and outsmarting your opponent.
+## IV. The Domain System and Mission Cards
 
-### 3. Unlocking Power: Challenges, Abilities, and Rewards
+The four domains—Technology, Magic, Psionics, and Divinity—are central to Quantum Nexus, influencing card identity, abilities, and crucially, deck construction via Mission Cards.
 
-Each mission card features a unique challenge that tests your strategic prowess. Once you complete a mission's challenge, you reap the rewards in the form of powerful abilities:
- * One-Time Ability: A potent effect that triggers immediately upon completing the challenge.
- * Passive Ability: An ongoing effect that activates at the start of each subsequent turn after completing the challenge.
+### A. Domain Characteristics (Thematic Guidance)
 
-The strength of these abilities scales with the difficulty of the challenge, which is determined by the total domain points on the mission card.
+* **Technology:** Themes of advanced machinery, ranged weaponry, area effects, and battlefield control.
+* **Magic:** Themes of versatile spellcasting, arcane power, enchantments, and direct unit interaction.
+* **Psionics:** Themes of mind control, telekinesis, psychic manipulation, and mental assaults.
+* **Divinity:** Themes of blessings, curses, holy/unholy power, and large-scale interventions.
 
-### Mission Card Progression
+*(Designers can refer to CCG v2.0, Section IV.B and ACG, Section IV.C for more detailed discipline lists.)*
 
-While each mission card should be compelling on its own, consider how different mission cards might interact within a player's deck to create a sense of progression or a strategic arc. This encourages players to experiment with different mission card combinations and adds depth to deck-building.
-Here are some ways to foster mission card progression:
- * Increasing Difficulty: Design mission cards that become progressively harder to complete, offering greater rewards for those who achieve them. This creates a sense of accomplishment and encourages players to strive for mastery.
- * Building Synergies: Create mission cards that synergize with each other, where completing one mission makes it easier or more rewarding to complete another. This encourages players to build decks with specific mission card combinations in mind.
- * Unlocking Potential: Design mission cards that unlock new strategies or options as they are completed. This could involve gaining access to new card types, abilities, or resources.
- * Narrative Progression:  Weave the mission cards into a larger narrative, where completing missions unlocks story elements or advances the plot. This adds a layer of immersion and engagement to the gameplay experience.
-By considering mission card progression, you create a more dynamic and rewarding deck-building experience, encouraging players to explore different strategic paths and delve deeper into the world of Quantum Nexus.
+### B. Mission Cards and Domain Points (DP) – Player-Facing Rules Summary
 
-## VI. Challenges: Proving Your Mastery in Quantum Nexus
+As per the "Quantum Nexus: Detailed Rules" (Section II.B and II.C):
 
-In Quantum Nexus, challenges are the heart of every mission card, testing your strategic acumen and rewarding your success with powerful abilities. These challenges vary in difficulty, requiring you to demonstrate your mastery of the chosen domains and your ability to adapt to the ever-changing battlefield.
+1.  A player chooses a set of Mission Cards (maximum of six).
+2.  This chosen set must collectively have **exactly 6 total Domain Points** distributed among the four domains.
+3.  Across this chosen set, no single domain (e.g., Technology) can have **more than 4 total points**. (0 points in a domain for the set is allowed).
+4.  The collective Domain Point totals from this set dictate Unit card inclusion: a Unit card's DP for any given domain must be equal to or lower than the player's total Mission DP for that same domain.
 
-### Challenge Design: Variety and Depth
+### C. Domain Points – Individual Mission Card Design Constraints (Designer Guideline)
 
-Ensuring that challenges are fair and balanced within a mission cards context is important and should follow these steps.
+To ensure individual Mission Cards are balanced and contribute reasonably to a player's set:
 
-**1. Calculate Preliminary Challenge CP**
+1.  Each Mission Card must be assigned **at least 1 Domain Point** in total.
+2.  Each Mission Card should typically have a **maximum of 4 Domain Points** in total, distributed across one or more domains. *(This helps ensure no single mission over-saturates the DP contribution for a small set of missions).*
 
-Based on the difficulty level and domain modifier, calculate the Preliminary Challenge CP:
+---
 
-```
-Preliminary Challenge CP = Difficulty Level + Domain Point Modifier 
-```
+## V. Core Functions and Design Goals of Mission Cards
 
-**2.  Consider Ability Strength and Adjust**
+Mission Cards are multi-faceted, serving critical roles in gameplay:
 
-The Preliminary Challenge CP serves as a starting point.  Designers would then evaluate the strength of the mission card's passive and one-time abilities in conjunction with the challenge's Preliminary CP cost. This step involves subjective judgment and playtesting:
+1.  **Victory Condition:** Completing all chosen Mission Cards is a path to victory ("Quantum Nexus: Detailed Rules," Section VI.B).
+2.  **Deck Construction Definition:** The chosen set's total Domain Points per domain define the DP caps for Unit cards ("Quantum Nexus: Detailed Rules," Section II.C).
+3.  **Command Point (CP) Generation:** Each Mission Card has a printed CP value. The sum of these from all chosen Mission Cards forms the base for the player's CP calculation each Start of Round Step ("Quantum Nexus: Detailed Rules," Sections II.B, III.C.1.a.ii).
+4.  **Strategic Objectives (Challenges):** Each Mission Card presents a unique "Challenge" the player must achieve.
+5.  **Rewards for Completion:** Completing a Challenge typically unlocks a one-time ability and an ongoing passive ability.
 
-*   **Powerful Abilities:** If the mission card grants very strong abilities, the Preliminary Challenge CP might be reduced by 1-2 CP to compensate, ensuring the mission card's overall power level remains balanced. 
-*   **Weaker Abilities:** If the abilities are less impactful, the Preliminary Challenge CP could be left as is or potentially increased by 1 CP to reflect the easier path to achieving those benefits.
+**Design Goals for Mission Cards:**
 
-This step ensures alignment with the principle of balancing challenge difficulty with ability strength.
+* **Uniqueness & Strategic Diversity:** Offer distinct challenges, abilities, and themes.
+* **Balanced Progression:** Vary challenge difficulty and reward scaling to create interesting gameplay arcs.
+* **Thematic Cohesion:** Align Challenge, DP, printed CP, and rewards with the Mission's overall theme and narrative.
 
-**3. Determine Final Challenge CP**
+---
 
-After considering ability strength, the Preliminary Challenge CP is finalized. This Final Challenge CP is then used in the Adjusted CP formula: `Adjusted CP = Base CP + (Challenge CP - (Ability CP * Sign(Challenge CP))`.
+## VI. Designing Mission Card Challenges
 
-**Example Application**
+The "Challenge" is the objective of a Mission Card. Its "cost" in terms of Design Budget (DB) points (`Challenge_Cost_DB`) is a key input into the Mission Card Balance Framework (see Section VIII). This cost is derived from discrete DB values for its constituent parts, as defined in a dedicated section of the Master DB Cost List(s).
 
-Let's say we're designing a mission card with 3 DP in Technology and 1 DP in Divinity. The challenge involves deploying a Technology unit with a specific keyword and then using that unit to destroy an opponent's unit.
+### A. Nature of Challenges
 
-1.  **Preliminary Challenge CP:** 4 (Domain Points) = 4 CP
-3.  **Final Challenge CP:** 4 CP * 3 CP = 12 CP
+* Challenges must be clear, specific, and verifiable game states or achievements.
+* They should require active player effort, strategic choices, or specific deck-building considerations.
+* Avoid challenges solely reliant on opponent actions or pure luck beyond standard game randomness.
+* **Construction:** Challenges are broken down into logical components (e.g., "Control X [Unit Type] in Y Location on your Battlefield for Z turns"). Each component (type of control, number, location, duration, specific actions required) will have a DB cost specified in the **"Master DB Cost List for Challenge Components."** The sum of these component costs forms the `Challenge_Cost_DB`.
+    * *Examples of Challenge Aspects to Cost:*
+        * Requiring specific card types, subtypes, or domains to be in play/used on the player's side.
+        * Requiring control of specific quadrants or board configurations on the player's Battlefield.
+        * Requiring actions to be taken a certain number of times by the player.
+        * Requiring a state to be maintained by the player's cards for a duration.
+        * Requiring specific interactions with an opponent's cards (e.g., "Destroy X opponent's Units of Y type, which are located in the opponent's quadrants on their side of the Battlefield").
 
-This 12 CP value would then be used in the Adjusted CP calculation for the mission card.
+### B. Challenge Pacing (Conceptual)
 
-#### Example Challenges
+The complexity and DB cost of a Challenge will naturally influence its pacing:
 
-To give you a taste of the challenges that await, here are a few examples from different domains
+* **Lower `Challenge_Cost_DB` Challenges:** Simpler, achievable early, suitable for modest rewards or missions with higher Printed CP.
+* **Higher `Challenge_Cost_DB` Challenges:** More complex, require more setup or specific conditions, suitable for gating more powerful rewards or missions with lower Printed CP.
 
- * 9 points: Deploy three mech cards in a single turn.
- * 15 points: Activate a tech device that temporarily disables all of your opponent's assets for one turn.
- * 12 points: Channel elemental forces to cast a spell that removes all enemy units in a chosen row from the battlefield.
- * 23 points: Create a psychic barrier that renders your units immune to all forms of attack for one turn.
- * 6 points: Receive a divine blessing that doubles the strength of one of your units for a turn.
+### C. "Negative" Challenges (Self-Imposed Hurdles)
 
-These are just a few examples, and the possibilities for challenge design are vast. As you explore Quantum Nexus, you'll encounter a wide range of challenges that will test your strategic skills and reward your ingenuity.
+These Challenges require the player to achieve a state normally considered detrimental (e.g., "Have X or more cards in your Discard Pile," "Have had X friendly Units destroyed this game").
 
-### Rewards for Success: Passive and One-Time Abilities
+* Such challenges would have a **negative `Challenge_Cost_DB`** on the Master List, reflecting that the player is accepting a drawback. This negative cost, when used in the formula in Section VIII, will increase the `CP_Budget_DB`, potentially leading to a higher Printed CP value for the Mission Card.
 
-Completing a mission's challenge is not just about overcoming obstacles; it unlocks potent abilities that can significantly impact the game. These abilities are your reward for strategic mastery and come in two forms:
+### D. Thematic Integration and Narrative
 
- * Passive Abilities: These abilities trigger at the start of each of your turns after completing the challenge, providing ongoing benefits like gaining extra CP, reducing ability costs, or enhancing your units.
- * One-Time Abilities: These abilities activate immediately upon completing the challenge, offering a one-time boost, such as drawing additional cards, disabling an opponent's card, or dealing direct damage.
+Challenges should align thematically with the Mission Card's concept and can be enriched by narrative elements from the Quantum Nexus universe.
 
-The strength of both passive and one-time abilities scales with the difficulty of the challenge and the total domain points on the mission card.
+---
 
-The stronger these abilities are the fewer CP will be available on the card, but under powered abilities will lead to more CP available.
+## VII. Designing Mission Card Rewards (Abilities)
 
-## VII. Passive and One-Time Abilities: Reaping the Rewards of Your Missions
+Upon completing a Mission Card's Challenge, players are typically rewarded with new capabilities, commonly a One-Time ability and a Passive ability.
 
-In Quantum Nexus, your rewards for completing a mission's challenge are potent abilities that can swing the momentum of the game in your favor. These abilities come in two flavors: passive and one-time, each serving a distinct purpose in enhancing your strategic arsenal. 
+### A. Ability Construction using the Ability Creation Guidelines (ACG)
 
-These abilities come in two flavors: passive and one-time, each serving a distinct purpose in enhancing your strategic arsenal.
+All abilities granted by Mission Cards (both One-Time and Passive) **must be designed and described** using the component system (Effects, Targets, Triggers, Conditions) and catalogues (ACG Appendices E-H) found in the "Quantum Nexus: Ability Creation Guidelines."
 
-### Passive Abilities: Your Continuous Advantage
+### B. Reward Power via Design Budget (DB) Points (Reward\_Abilities\_DB)
 
-Once you conquer a mission's challenge, its passive ability awakens, granting you an ongoing advantage that persists throughout the game. These abilities are automatic and require no additional CP to activate. They are a testament to your mastery of the chosen domains, subtly influencing the battlefield in your favor with each passing turn.
+The power level of reward abilities is quantified by their total conceptual **Design Budget (DB) cost**, determined using the ACG principles and the official **Master DB Cost List for Abilities**. This sum is referred to as `Reward_Abilities_DB` and is a key input for the Mission Card Balance Framework (see Section VIII).
 
-Examples of Passive Abilities
+* A higher `Reward_Abilities_DB` indicates a more powerful reward package.
 
- * Resource Generation: Gain additional Command Points (CP) at the start of each turn, allowing you to deploy more powerful cards or activate more abilities.
- * Cost Reduction: Decrease the CP cost of specific actions, such as deploying units or activating certain abilities.
- * Card Advantage: Draw extra cards during your turn, giving you more options and flexibility in your strategy.
- * Unit Enhancement: Buff the Attack or Defense of your units, making them more formidable in combat.
- * Special Effects: Trigger unique effects, such as discarding cards from your opponent's hand, manipulating the battlefield, or granting special abilities to your units.
+### C. Types and Timing of Reward Abilities
 
-The power of passive abilities scales with the difficulty of the mission's challenge and the total domain points on the card. Higher-level missions unlock more potent passive abilities that can dramatically alter the course of the game.
+1.  **One-Time Ability:** Typically triggers and resolves once, immediately upon Challenge completion. Its effect should be impactful for that moment.
+2.  **Passive Ability:** Becomes active after Challenge completion. Its trigger (e.g., "At the start of each of your Game Rounds," or continuously active) and duration must be clearly defined in its ability text, designed per ACG.
 
-### One-Time Abilities: A Moment of Impact
+* Abilities can provide resource advantages, board presence changes (respecting card control rules), card manipulation, enhancements, or disruptions.
 
-Unlike passive abilities, one-time abilities unleash their power in a single, decisive moment—immediately upon completing a mission's challenge. These abilities are designed to create an immediate impact on the battlefield, offering a tactical advantage or disrupting your opponent's strategy.
+---
 
-Examples of One-Time Abilities:
+## VIII. Mission Card Balance Framework – The Intrinsic Budget System (Version 2)
 
- * Direct Damage: Inflict damage on an opponent's unit or asset, potentially removing it from play.
- * Card Disruption: Force your opponent to discard cards from their hand or deck, hindering their options.
- * Battlefield Manipulation: Alter the terrain or rearrange units on the battlefield to your advantage.
- * Resource Boost: Gain a temporary influx of CP or other resources, allowing for a powerful combo play.
- * Special Effects: Trigger unique effects that can turn the tide of battle, such as reviving a discarded unit, gaining temporary invincibility, or summoning a powerful ally.
+This framework details the "Mission Card Intrinsic Budget System," designed to determine a Mission Card's **Printed CP Value** by treating the Mission Card as having its own internal Design Budget (DB) derived from its characteristics. This budget, combined with a delta assessment of its Challenge and Rewards, determines its roundly CP generation. This system aims for objective costing by utilizing discrete DB values from the (forthcoming) Master DB Cost List(s) for its components.
 
-The impact of one-time abilities also scales with the challenge difficulty and domain points, ensuring that the reward matches the effort invested in completing the mission.
+**Key System Parameters (To be Calibrated by the Design Team):**
 
-### Strategic Considerations
+* **`DP_Mission_Valuation_Factor`:** DB points granted to `TDB_Mission` per DP on the Mission Card (e.g., **10 DB per DP** – placeholder).
+* **`FDB_Mission` (Foundational Design Budget for Missions):** A flat DB base for all missions (e.g., **5 DB** – placeholder).
+* **Master DB Cost List for Challenge Components:** A new, critical list detailing DB costs for various types and complexities of challenge objectives.
+* **`Roundly_CP_DB_Multiplier`:** The DB cost for a Mission Card to provide 1 Printed CP per round (e.g., **4 DB per 1 Printed CP** – placeholder).
+* **Rounding Rules & Min/Max Printed CP values** (e.g., minimum 1 or 2 Printed CP).
 
-When creating mission cards, it's crucial to consider both the passive and one-time abilities they offer. Here are some key strategic factors to keep in mind
+**Balancing Steps:**
 
- * Synergy with other cards: Create mission cards whose abilities complement your overall strategy and the cards in your deck.
- * Timing: Consider when you want the abilities to trigger. Do you need an immediate boost from a one-time ability, or would a long-term advantage from a passive ability be more beneficial?
- * Versatility: Some abilities are more versatile than others, offering broader utility in different situations.
- * Risk vs. Reward: Higher-difficulty challenges yield more powerful abilities, but they also carry greater risk. Assess the potential reward against the difficulty of achieving it.
+**Phase 1: Calculate Total Design Budget for the Mission (TDB_Mission)**
 
-By carefully evaluating these factors, you can create mission cards that empower a players deck and give them the edge they need to claim victory in Quantum Nexus.
+1.  **Step 1: Define Domain Point (DP) Allocation**
+    * The designer assigns Domain Points (Technology, Magic, Psionics, Divinity) to the Mission Card.
+    * *Designer Constraint:* Each individual Mission Card must have 1 to 4 total DP assigned and at least 1 DP in one domain.
 
-## VI. Challenges in Quantum Nexus: Detailed Examples and Design Considerations
+2.  **Step 2: Calculate `TDB_Mission`**
+    * `DDB_Mission = (Total DP on this Mission Card) * DP_Mission_Valuation_Factor`
+    * `TDB_Mission = FDB_Mission + DDB_Mission`
+        * *Example: A Mission Card with 3 DP, FDB_Mission = 5 DB, DP_Mission_Valuation_Factor = 10 DB/DP:*
+            * `DDB_Mission = 3 * 10 DB = 30 DB`
+            * `TDB_Mission = 5 DB + 30 DB = 35 DB`
 
-Challenges are the crux of mission cards, shaping the strategic landscape of your Quantum Nexus matches. They determine the difficulty level of achieving the mission's rewards (passive and one-time abilities), encouraging players to develop diverse strategies to overcome them. But beyond mechanics, mission cards offer a chance to deepen the Quantum Nexus narrative. Consider how your challenge and abilities can reflect historical events, key figures, or ongoing conflicts within the game's universe.  By weaving in narrative elements, you transform mission cards from mere objectives into captivating story elements that enrich the game's lore and immerse players in the world of Quantum Nexus.
-For example:
- * A Technology challenge could involve reactivating an ancient defense system, referencing a past war against a powerful AI.
- * A Magic challenge could involve summoning a mythical creature from Quantum Nexus lore, hinting at its role in a forgotten prophecy.
- * A Psionics challenge could involve breaking a mental control imposed by a notorious psionic villain.
- * A Divinity challenge could involve enacting a sacred ritual that holds significance in the religion of a particular faction.
-By incorporating narrative elements, you not only create more engaging challenges but also contribute to the richness and depth of the Quantum Nexus universe.
-
-### Types of Challenges
-
- Types of Challenges
- * Domain-Specific Challenges: These challenges are tailored to the unique themes and mechanics of each domain, encouraging specialization and strategic deck building.
-   * Technology:
-     * Deploy a Tech Unit with at least 5 Attack and "Flying."
-     * Have a Tech Unit with "Barrier" survive 3 turns.
-     * Destroy 3 opponent Assets.
-     * Have a Tech Unit with at least 7 Attack and "Drone" subtype.
-     * Activate 3 different "Device" abilities in a single game.
-     * Have 4 Tech Units with different subtypes on the battlefield at once.
-     * Deploy a specific number of technology-based units with unique abilities.
-     * Activate tech devices that disable opponent's assets or units.
-     * Initiate a sequence of actions with multiple tech units in a single turn.
-     * Destroy a certain number of cards in your opponent's loadout.
-   * Magic:
-     * Cast a spell that returns an enemy Unit to its owner's hand.
-     * Have a Magic Unit with "Lifelink" deal damage 3 times.
-     * Have a Magic Unit with both "Flying" and "First Strike."
-     * Cast a spell that creates a Terrain card.
-     * Have 3 Magic Units with "Enchantment" subtype on the battlefield at once.
-     * Cast a spell that discards 2 cards from your opponent's hand.
-     * Enchant units with specific buffs or debuffs.
-     * Summon magical creatures or guardians with varying abilities.
-     * Cast powerful spells that affect the entire battlefield or specific rows/columns.
-     * Manipulate the elemental forces to create advantageous situations.
-   * Psionics:
-      * Take control of an opponent's Unit with at least 4 Attack.
-     * Have a Psionic Unit with "Immunity" deal damage 4 times.
-     * Use a Psionic ability to make an opponent discard their entire hand.
-     * Have 3 Psionic Units with different subtypes on the battlefield at once.
-     * Activate a Psionic ability that forces your opponent to skip their next turn.
-     * Have a Psionic Unit with at least 6 Attack and "Telekinesis" subtype.
-     * Control or manipulate opponent's units' actions or minds.
-     * Foresee opponent's moves or gain knowledge of their cards.
-     * Create psychic barriers or shields to protect your units.
-     * Use telekinetic powers to move or rearrange units on the battlefield.
-   * Divinity:
-     * Have a Divinity Unit with "Ascended" destroy 3 enemy Units.
-     * Deploy a Divinity Unit with both "Flying" and "Lifelink."
-     * Activate a Divinity ability that heals all friendly Units.
-     * Have 3 Divinity Units with "Angel" subtype on the battlefield at once.
-     * Deploy a Divinity Leader Unit with at least 6 Attack.
-     * Activate a Divinity ability that banishes an enemy Unit from the game.
-     * Receive divine blessings that enhance your units or weaken opponents.
-     * Invoke celestial interventions to revive, or protect your forces.
-     * Lead crusades or holy wars that impact specific unit types.
-     * Ascend to a divine state, granting powerful abilities that can alter the course of the game.
- * Mixed-Domain Challenges: These challenges combine elements from multiple domains, promoting deck diversity and strategic flexibility.
-   * Examples:
-     * Deploy a unit with attributes from two or more domains to trigger a specific effect.
-     * Activate a combination of abilities from different domains to achieve a unique outcome.
-     * Combine technological advancements with magical enhancements for a synergistic advantage.
-
-In addition to these, consider these broader challenge categories:
-
- * Resource Management:
-   * Accumulate a certain amount of CP within a specific number of turns.
-   * Spend a certain amount of CP on deployments or abilities of a specific domain.
-   * Gain CP by fulfilling certain conditions (e.g., discarding cards, controlling specific quadrants).
-   * Manipulate CP gain/loss by activating abilities or playing specific cards.
- * Deck Manipulation:
-   * Have a specific combination of card types or subtypes in hand.
-   * Discard a certain number of cards to activate an ability or gain a benefit.
-   * Control the types of cards drawn by manipulating your deck or using card draw abilities.
-   * Exile cards from your deck or opponent's deck to fulfill conditions.
- * Battlefield Control:
-   * Maintain control of specific quadrants for a certain number of turns.
-   * Have units with specific range advantages in specific positions.
-   * Manipulate terrain to your advantage by placing or altering terrain cards.
-   * Control a certain number of units with specific keywords or abilities.
-
-These broader categories, combined with the domain-specific and mixed-domain challenges, provide a wider range of options for mission card design, encouraging creativity and diversity in Quantum Nexus gameplay.
-
-### Challenge Pacing
-
-When designing challenges, think about when you want players to complete them. This encourages varied pacing and strategic approaches throughout a match.
- * Early-Game Challenges: These are easier to achieve in the first few turns, incentivizing aggressive starts and quick rewards.
-   * Examples: Deploy 2 Units, activate an ability that costs 3 CP or less, control 2 quadrants.
- * Mid-Game Challenges: These require more setup or specific game states, encouraging players to build their forces and plan for the mid-game.
-   * Examples:  Have 3 Units with different subtypes, control a quadrant for 2 consecutive turns, have a Unit with at least 5 Attack.
- * Late-Game Challenges:  These are more difficult and may require multiple turns or specific synergies to achieve, promoting long-term planning and strategic resource management.
-   * Examples: Have 5 Units on the battlefield, have 2 upgraded Units, activate 5 abilities of a specific domain.
-Varying the pacing of challenges within a set of mission cards creates dynamic gameplay and allows for different playstyles to thrive. Consider including a mix of early, mid, and late-game challenges to cater to different strategic preferences and keep players engaged throughout the match.
-
-### Negative Challenges
-
-* Player-Driven Action: The challenge must require the player to perform a specific action that has a detrimental effect on their own game state.
- * Achievable Objective: The challenge must be a clear and attainable goal that the player can actively pursue through their card choices and strategy.
- * Detrimental Consequence: Completing the challenge must result in a negative outcome for the player, such as losing resources, discarding cards, or weakening their units.
- * Balanced Cost: The negative consequence of the challenge should be proportional to the rewards offered by the mission card (CP value and abilities).
- * Concise Wording: The challenge should be worded clearly and unambiguously, focusing on the result of the action rather than the action itself.
-Examples of Well-Worded Negative Challenges:
- * "You have discarded cards with a total CP of 5 or more."
- * "You have lost Divinity Units with a combined CP of 3."
- * "All units in your front row were destroyed last turn."
- * "You had 3 units that could not activate their abilities last turn."
-Key Takeaways:
- * Focus on the Outcome: Frame the challenge in terms of the end result the player needs to achieve.
- * Avoid Automatic Effects:  The challenge should not be an automatic effect or rely on the opponent's actions.
- * Maintain Clarity:  Use clear and concise language to avoid ambiguity.
-
-#### Negative Challenge Examples
-
-Challenge              | CP Value                                                        | Description                                                                               | Example                                                                                                   |
-| ------------------------ | --------------------------------------------------------------- | ----------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------- |
-| Discard Power           | -11                    | Cards you own with a CP value of 10 or more have been Discarded or Destroyed.                                       |                                                  |
-| Sacrificial Offering  | `- (Combined CP of Lost Divinity Units / 2) + 1`            | Lose Divinity Units with a specific combined CP cost.                                 | "You have lost Divinity Units with a combined CP of 3."                                                   |
-| Knowledge Denial        | `- (3 - Current Number of Cards in Hand)`                       | Reduce your hand size below a certain threshold.                                      | "You have fewer than 3 cards in your hand."                                                              |
-| Weakened Defenses       | `- (Number of Units Destroyed in the Front Row Last Turn)`     | Have all units in your front row destroyed during the previous turn.                     | "All units in your front row were destroyed last turn."                                                  |
-| Delayed Deployment      | `- (Number of Units Unable to Activate Abilities Last Turn)` | Have a certain number of units unable to activate their abilities during the previous turn. | "You have 3 units that could not activate their abilities last turn."                                   |
-| Resource Drain       | `- (Amount of Resource Lost / Divisor) + Constant` | Depleting a specific resource tied to the player's chosen domains.                                                                                             | "You have lost at least 3 Technology domain points across all of your units." (This would reflect units being destroyed or effects that reduce domain values.) | This challenge aligns with the concept of domain points as a core resource in Quantum Nexus and introduces a consequence related to losing those points.                                                                                                |
-| Battlefield Disruption | `- (# of disruptive elements)`      | A disadvantageous alteration of the battlefield from the player's perspective.                                                                                  | "Two terrain cards that benefit your opponent are in play."                                                              | This links to the concepts of terrain cards and their impact on gameplay, as described in the sources.                                                                                                                                                                 |
-| Ability Lockdown       | `- (Number of Abilities Locked Down)` | Limits a player's ability to use card abilities for a duration.                                                                                               | **Revised Example:** "You have 3 or more units that were unable to activate their abilities last turn."                 | This connects to the importance of card abilities and their CP costs, which are core aspects of Quantum Nexus.  It introduces a strategic decision: whether to complete the challenge early and suffer the lockdown or try to manage without those abilities. |
-
-Notes:
- * CP Value: The CP value represents the impact of the challenge on the Adjusted CP calculation. Remember that negative challenges increase the Adjusted CP.
- * Description: Provides a general explanation of the challenge type.
- * Example:  Gives a specific example of how the challenge could be worded on a mission card.
-
-### Design Considerations
-
-When crafting mission challenges, consider the following:
-
- * Clarity and Specificity: Clearly define the challenge's requirements, leaving no room for ambiguity. Specify the number of cards, units, or actions required, as well as any specific conditions that must be met.
- * Thematic Relevance: Ensure that the challenge aligns with the chosen domain(s) and reflects the thematic elements of Quantum Nexus. For example, a Divinity challenge could involve invoking a celestial being for divine intervention.
- * Scalability: Design challenges that can be adjusted for different difficulty levels by changing the number of required actions, the strength of effects, or the specific conditions for completion.
- * Engagement: Create challenges that are not only achievable but also engaging and rewarding to complete. Avoid overly complex or tedious tasks that might frustrate players.
- * Balance: Ensure that the challenge's difficulty is balanced with the rewards offered by the passive and one-time abilities.
-
-In addition to these considerations, think about how multiple mission challenges in a deck might interact.
- * Positive Interaction: Completing one challenge might make another easier. For example, if both challenges involve deploying Divinity units, focusing on a Divinity-heavy strategy will help achieve both.
- * Negative Interaction: Completing one challenge might make another harder. For example, if one challenge requires discarding cards and another requires having a full hand, there's a conflict.
- * Unintended Synergies:  Certain challenge combinations might create unexpected synergies. For example, a challenge that rewards dealing damage might unintentionally benefit from another challenge that forces the opponent to discard units.
-Analyzing these interactions ensures a balanced and engaging experience when players combine different mission cards in their decks.
-
-IX. Passive Abilities: Continuous Rewards for Strategic Mastery
-
-In Quantum Nexus, passive abilities are the enduring rewards for your strategic triumphs. Triggered upon fulfilling a mission's challenge, these abilities provide ongoing benefits that can shape the course of the game. Designing compelling passive abilities involves careful consideration of their effects and costs. The strength of the ability should be proportional to the difficulty of the mission's challenge.
-
-Beyond simply assigning a raw CP cost, consider these factors when pricing passive abilities:
- * Opportunity Cost: How does activating this ability impact a player's other options on that turn? Does it limit their ability to deploy units, activate other abilities, or respond to threats?
- * Versatility:  Is the ability useful in multiple situations, or does it have a narrow application? More versatile abilities generally justify a higher cost.
- * Impact Duration: Is the effect immediate and temporary, does it last for a limited time, or is it a permanent change to the game state? Longer-lasting or permanent effects typically warrant a higher cost.
- * Counterplay Potential: Can opponents easily interact with or disrupt this ability? Abilities that are difficult to counter or disrupt may justify a higher cost.
-By carefully evaluating these factors, you can create passive abilities that are both powerful and balanced, contributing to a dynamic and engaging Quantum Nexus experience.
-
-### Types of Passive Abilities
- 
-* Resource Generation:
-   * CP Gain: Receive additional Command Points (CP) at the start of each turn, enabling you to deploy stronger units, activate potent abilities, or outpace your opponent's resource management.
-   * Card Draw: Draw additional cards, increasing your hand size and offering a wider range of tactical options.
- * Cost Reduction:
-   * Deployment Discounts: Reduce the CP cost of deploying specific unit types or cards from specific domains, allowing for more efficient army building and resource utilization.
-   * Ability Discounts: Lower the CP cost of activating specific abilities or card effects, enabling more frequent and powerful actions.
- * Unit Enhancement:
-   * Stat Boosts: Permanently increase the Attack or Defense of your units, making them more formidable in combat.
-   * Keyword Abilities: Grant your units powerful keywords like "Evasion," "Counterattack," or "Regeneration," enhancing their survivability and offensive capabilities.
- * Special Effects:
-   * Opponent Hindrance: Force your opponent to discard cards, reveal information, or suffer negative effects, disrupting their strategies and gaining an advantage.
-   * Battlefield Control: (Existing content remains here)
-   * Card Interaction: (Existing content remains here)
-   In addition to hindering your opponent, you can also design passive abilities with negative effects for the player themselves. This can create interesting risk/reward dynamics and offer unique strategic possibilities.
-   For example:
-   * Drawback: A powerful passive ability might come with a drawback like losing 1 CP at the start of each turn, discarding a card at the end of each turn, or taking damage when certain conditions are met.
-   * Conditional Benefit: A passive ability might offer a strong benefit but only under specific conditions, which might be difficult to maintain or come with a risk.
-   * Limited-Time Effect: A passive ability might grant a powerful effect for a limited number of turns, forcing players to make the most of it before it expires.
-By incorporating negative effects or drawbacks, you can create passive abilities that offer unique strategic challenges and encourage players to carefully consider the risks and rewards involved.
-
-### Examples of Passive Abilities
-
- * Low-Cost (1 CP): One unit ability per turn costs 1 less CP.
- * Mid-Cost (5 CP): One unit deployment and one card ability per turn cost 1 less CP.
- * High-Cost (10 CP): Gain 1 CP at the start of each turn.
-Technology (Passive):
- * Target Lock:  Whenever a Tech Unit you control attacks, you may pay 1 CP to force the defender to attack that unit if able.
- * Nanite Regeneration: At the start of each turn, choose a Tech Unit. Put a +1/+1 counter on it.
- * Emergency Shielding: Whenever a Tech Unit you control would be discarded, you may pay 2 CP to prevent that discard.
-Magic (Passive):
- * Arcane Surge: Whenever you cast a spell, gain 1 CP.
- * Elemental Mastery: Choose an element at the start of the game. Your Magic Units of that element gain +1/+1.
- * Spell Echo: Once per turn, you may pay 2 CP to copy a Magic spell you cast.
-Psionics (Passive):
- * Mind Reading: At the start of each turn, look at your opponent's hand.
- * Psychic Barrier: Your Psionic Units have "Barrier 1."
- * Thought Control: Once per turn, you may pay 2 CP to take control of an enemy Unit with a CP cost of 3 or less until end of turn.
-Divinity (Passive):
- * Divine Grace: Whenever a Divinity Unit you control is healed, draw a card.
- * Holy Aura:  Your Divinity Units have "Lifelink."
- * Celestial Shield: Whenever a Divinity Unit you control would be dealt damage, you may prevent that damage and lose 1 CP.
-
-### Design Considerations for Passive Abilities
-
- * Balance: Ensure that passive abilities are not overly powerful, leading to unbalanced gameplay. The strength of the ability should be proportional to the difficulty of the mission's challenge.
- * Synergy: Consider how the passive ability interacts with other cards in your deck. Design abilities that complement your overall strategy and create powerful combos.
- * Longevity: Passive abilities should provide a lasting advantage throughout the game, not just a fleeting benefit.
- * Clarity: Clearly define the ability's effect and any specific conditions or limitations.
-
-By carefully crafting passive abilities that are balanced, synergistic, and impactful, you can create mission cards that offer rewarding and engaging gameplay experiences for Quantum Nexus players.
-
-### Negative Passive Abilities
-
- * Detrimental Effect: The ability must have a clear negative impact on the player's own game state. This could include:
-   * Discarding cards
-   * Destroying or weakening their own units
-   * Giving the opponent an advantage (with careful consideration)
-   * Limiting their own options or actions
- * Optional or Conditional: Whenever possible, design the negative effect to be optional or conditional, allowing the player to choose when to activate it strategically. This adds depth and decision-making.
- * Balanced Cost:  The negative effect should be balanced with the overall power level of the card and its other abilities. Consider:
-   * CP cost of the ability
-   * Activation conditions
-   * Potential impact on the game
- * Clear Wording:  The ability should be worded clearly and concisely, leaving no ambiguity about its negative consequences.
- * Strategic Purpose: The negative ability should serve a strategic purpose within the context of the card and the game, such as:
-   * Enabling a powerful combo
-   * Disrupting the opponent
-   * Creating a unique playstyle
-   * Offering a risk/reward trade-off
- * Emphasis on Clarity:  The focus is on clear, detrimental effects with unambiguous wording.
- * Strategic Depth: Negative abilities should offer interesting choices and trade-offs for the player.
- * Balanced Design:  The negative aspects must be balanced with the overall power level of the card.
-
-#### Negative Passive Ability Examples
-
-| Ability Name | CP Cost | Description |
-|---|---|---|
-| Vulnerability | -4 CP | At the start of each turn, one of your units gains -2 Defense. |
-| Cursed Hand | -6 CP | Whenever you draw a card, discard a card. |
-| Feedback Loop | -5 CP | Whenever you activate an ability, you lose 1 CP. |
-| Unstable Power | -7 CP | At the end of each turn, discard a card from your hand. |
-| Shared Fate | -3 CP | Whenever an enemy unit is destroyed, discard a card from your hand. |
-
-### Scaling Passive Abilities
-
-The strength of a passive ability should be proportional to the difficulty of the mission's challenge and the overall CP cost of the mission card. Here's how to scale passive abilities effectively:
- * CP Cost: A passive ability on a 3 CP mission card should be less powerful than one on a 9 CP card. Scale effects accordingly. For example:
-   * Low CP: +1 Attack, draw 1 card, reduce ability cost by 1.
-   * Mid CP: +2 Attack, draw 2 cards, reduce ability cost by 2.
-   * High CP:  +3 Attack, draw 3 cards, gain 1 CP at the start of each turn.
- * Challenge Difficulty:  More challenging missions should offer more potent passive abilities. Consider the complexity and effort required to complete the challenge when determining the strength of the reward.
- * Impact Duration:  Permanent effects are generally more powerful than temporary ones. Adjust the CP cost or other aspects of the ability to balance its overall impact.
- * Uniqueness:  Highly unique or impactful passive abilities might justify a higher cost or a more challenging mission requirement, even if the raw numerical effect seems small.
-By carefully scaling passive abilities, you ensure that rewards are balanced and satisfying, encouraging players to pursue a variety of mission cards and strategic approaches.
-
-## X. One-Time Abilities: Immediate Impact and Tactical Flexibility
-
-One-time abilities in Quantum Nexus are tactical tools that you unlock immediately upon fulfilling a mission's challenge. These abilities are designed to create a significant impact on the game state, offering strategic advantages or disrupting your opponent's plans. Crafting impactful one-time abilities involves a careful balance of effect and cost.
-When pricing one-time abilities, go beyond just assigning a raw CP cost. Consider these additional factors:
- * Opportunity Cost:  Does using this ability prevent the player from taking other actions that might be more crucial in the current situation?
- * Versatility:  Can this ability be used effectively in various situations, or is it limited to specific scenarios?
- * Impact Duration: Is the effect immediate and fleeting, or does it have lasting consequences that influence the game state over time?
- * Counterplay Potential: Can the opponent easily anticipate or mitigate the impact of this ability?
-By taking these factors into account, you can create one-time abilities that are not only powerful and exciting to use but also fair and balanced within the context of Quantum Nexus gameplay.
-
-### Types of One-Time Abilities
-
- * Direct Damage:
-   * Unit Removal: Inflict direct damage to an opponent's unit, potentially eliminating it from the battlefield if the damage exceeds its Defense.
-   * Asset Disruption: Deal damage to an opponent's asset in their loadout, reducing its effectiveness or potentially destroying it.
- * Card Disruption:
-   * Discard: Force your opponent to discard cards from their hand or the top of their deck, limiting their options and disrupting their strategy.
-   * Counterplay: Negate or cancel an opponent's card or ability, disrupting their plans and potentially turning the tide of battle.
- * Battlefield Manipulation:
-   * Unit Movement: Rearrange units on the battlefield, forcing your opponent to adapt their positioning or creating advantageous scenarios for your own attacks.
-   * Terrain Alteration: Change the terrain on specific quadrants, granting bonuses to your units or hindering your opponent's movement or abilities.
- * Resource Boost:
-   * CP Surge: Gain a temporary influx of Command Points (CP), allowing you to play more powerful cards or activate multiple abilities in a single turn.
-   * Card Draw: Draw additional cards to your hand, expanding your options and providing more resources for future turns.
- * Special Effects:
-   * Unit Revival: Bring a discarded unit back into play, potentially turning a loss into a strategic advantage.
-   * Temporary Invincibility: Grant one of your units temporary immunity to damage or negative effects, allowing it to survive a crucial attack or execute a daring maneuver.
-   * Summoning: Call forth a powerful ally or creature onto the battlefield to aid you in combat.
-
-### Examples of One-Time Abilities
-
- * Low-Cost (3 CP): Gain 1 additional CP immediately.
- * Mid-Cost (6 CP): Draw 2 cards immediately.
- * High-Cost (10 CP): Play a card with a CP cost of 6 or less for free.
-Technology (One-Time):
- * Deploy a 2/2 "Drone" Unit with "Flying" to a target quadrant.
- * Choose a Tech Unit. It gains +3 Attack and "First Strike" until end of turn.
- * Discard a Tech Unit. If you do, draw 3 cards.
-Magic (One-Time):
- * Return a Magic Unit with a CP cost of 4 or less from your discard pile to your hand.
- * Choose a Magic Unit. It gains +2/+2 and "Trample" until end of turn.
- * Deal 3 damage to each enemy Unit in a chosen row.
-Psionics (One-Time):
- * Choose an enemy Unit. It cannot attack or block until end of your next turn.
- * Choose a Psionic Unit. It deals damage equal to its Attack to another target Unit.
- * Each player discards their hand and draws a new hand of 3 cards.
-Divinity (One-Time):
- * Destroy all Units with a Divinity value of 2 or less.
- * Choose a Divinity Unit. It gains +3/+3 and "Flying" until end of turn.
- * You gain 5 CP. You lose the game if you have not won the game by your next turn.
-
-### Design Considerations for One-Time Abilities
-
- * Impact: Ensure that the one-time ability has a significant impact on the game state, making it a worthwhile reward for completing the mission's challenge.
- * Strategic Value: Consider the tactical applications of the ability and how it can be used to gain an advantage or disrupt your opponent's strategy.
- * Timing: Think about the optimal timing for using the ability to maximize its effectiveness. Some abilities may be best used early in the game to establish dominance, while others may be more impactful later in the game to secure a victory.
- * Uniqueness: Strive to create unique and interesting effects that add flavor and diversity to the game.
-
-By carefully designing one-time abilities that are impactful, strategic, and unique, you can create mission cards that offer rewarding and memorable moments for Quantum Nexus players.
-
-### Negative One-Time Abilities
-
- * Detrimental Effect: The ability must have a clear negative impact on the player's own game state. This could include:
-   * Discarding cards
-   * Destroying or weakening their own units
-   * Giving the opponent an advantage (with careful consideration)
-   * Limiting their own options or actions
- * Optional or Conditional: Whenever possible, design the negative effect to be optional or conditional, allowing the player to choose when to activate it strategically. This adds depth and decision-making.
- * Balanced Cost:  The negative effect should be balanced with the overall power level of the card and its other abilities. Consider:
-   * CP cost of the ability
-   * Activation conditions
-   * Potential impact on the game
- * Clear Wording:  The ability should be worded clearly and concisely, leaving no ambiguity about its negative consequences.
- * Strategic Purpose: The negative ability should serve a strategic purpose within the context of the card and the game, such as:
-   * Enabling a powerful combo
-   * Disrupting the opponent
-   * Creating a unique playstyle
-   * Offering a risk/reward trade-off
- * Emphasis on Clarity:  The focus is on clear, detrimental effects with unambiguous wording.
- * Strategic Depth: Negative abilities should offer interesting choices and trade-offs for the player.
- * Balanced Design:  The negative aspects must be balanced with the overall power level of the card.
-
-#### Negative One-Time Abilities
-
-| Ability Name | CP Cost | Description |
-|---|---|---|
-| Desperate Sacrifice | -3 CP | Destroy one of your units with a CP cost of 3 or less. |
-| Overload | -5 CP | Choose one of your units. It gains +3 Attack but is destroyed at the end of your turn. |
-| Dark Pact | -7 CP | Gain 5 CP, but your opponent may draw 3 cards. |
-| Temporal Distortion | -4 CP | Take an extra turn after this one, but then skip your next 2 turns. |
-| Dimensional Exile | -6 CP | Choose one of your units. Exile it from the game. |
-
-### Scaling One-Time Abilities
-
-Similar to passive abilities, one-time abilities should scale with the mission card's CP cost and challenge difficulty. Here's how to approach scaling:
- * CP Cost: A one-time ability on a low-CP mission card should have a lesser impact than one on a high-CP card. For example:
-   * Low CP: Deal 2 damage, draw 1 card, gain 2 CP.
-   * Mid CP: Deal 4 damage, draw 2 cards, gain 4 CP.
-   * High CP: Deal 6 damage, destroy a Unit, play a card with a CP cost of 5 or less for free.
- * Challenge Difficulty:  One-time abilities should feel like a significant reward for completing a challenging mission. Consider the complexity and effort required to achieve the challenge when determining the impact of the ability.
- * Versatility: More versatile abilities generally justify a higher cost or a more challenging mission requirement.
- * Counterplay Potential: Abilities that are difficult for the opponent to counter or interact with may justify a higher cost or a more challenging mission.
-By scaling one-time abilities appropriately, you create exciting and impactful moments that feel truly rewarding for players who complete challenging missions.
-
-## X. Card Design Considerations
-
-### Card Feel
-
-While card feel is essential for unit cards, it's equally crucial for mission cards.  A mission card's challenge, abilities, and overall theme should work together to create a cohesive feel that aligns with one or more of the card feel axes. This ensures thematic consistency across all card types and enhances the immersive experience of Quantum Nexus.
-For example:
- * Malevolence: A malevolent mission card might involve sacrificing your own units to gain powerful effects, disrupting your opponent's strategies with harmful abilities, or focusing on destructive actions.
- * Benevolence: A benevolent mission card could involve challenges related to healing or protecting units, passive abilities that enhance the resilience of your forces, or one-time abilities that offer support or defensive benefits.
- * Utility: A utility-focused mission card might involve challenges related to battlefield control, abilities that manipulate card positions or terrain, or effects that disrupt your opponent's plans.
- * Combat: An offensive mission card could involve challenges related to dealing damage, abilities that enhance the attack power of your units, or one-time abilities that inflict direct damage. A defensive mission card might involve challenges related to protecting your units, abilities that enhance defense or resilience, or one-time abilities that prevent damage or offer protection.
- * Impact: A constructive mission card could involve challenges related to creating units or generating resources, abilities that enhance your own forces, or one-time abilities that summon allies or provide lasting benefits. A destructive mission card might involve challenges related to destroying opponent's units or assets, abilities that hinder your opponent's strategies, or one-time abilities that remove cards from play.
-By carefully considering the card feel axes when designing mission cards, you can create a more immersive and thematically rich experience for Quantum Nexus players.
-
-### Developing a Mission Card Theme
-
-To ensure thematic consistency and create a more immersive experience, follow these steps when developing a theme for a mission card:
- * Choose a Core Theme: Start by selecting a core theme that aligns with one or more of the domains in Quantum Nexus (Technology, Magic, Psionics, Divinity). This could be a specific concept, faction, character, event, or strategic approach.
-   * Examples: "Technological Supremacy," "Arcane Rituals," "Psychic Warfare," "Divine Intervention," "Angelic Crusade," "Demonic Pact."
- * Brainstorm Related Keywords: Once you have a core theme, brainstorm keywords that capture its essence. These keywords can be used to guide the design of the challenge and abilities.
-   * Example: For the "Technological Supremacy" theme, keywords might include:  "upgrade," "drone," "overload," "disable," "control," "efficiency."
- * Translate the Theme into Mechanics: Use the chosen theme and keywords to design the challenge and abilities of the mission card. Ensure that the mechanics reflect the thematic elements and create a cohesive gameplay experience.
-   * Example:  A "Technological Supremacy" mission card might involve challenges related to deploying multiple upgraded Tech units, passive abilities that grant bonuses to Tech units or reduce the cost of Tech abilities, and one-time abilities that unleash devastating technological attacks or disable opponent's units.
- * Consider Narrative Integration: Think about how the mission card's theme can be integrated into the narrative of Quantum Nexus. Does it reference a specific event, faction, or character? Does it hint at a larger conflict or storyline?
-   * Example:  A mission card themed around "Psychic Warfare" could reference a conflict between two psionic factions, introduce a powerful psionic leader, or hint at the dangers of unchecked psychic powers.
- * Refine and Iterate: Review the mission card's theme, challenge, and abilities to ensure they are consistent, engaging, and balanced. Playtest the card and gather feedback to refine the design and ensure it aligns with the intended theme.
-By following these steps, you can create mission cards that are not only mechanically sound but also thematically rich and narratively engaging, contributing to a more immersive and captivating Quantum Nexus experience.
-
-## XI. Playtesting and Iteration
-
-Thorough playtesting is essential to ensure that mission cards are balanced, fun, and engaging.  Use this framework to gather focused feedback during playtesting:
-Questions for Playtesters:
- * Challenge:
-   * How satisfying was it to complete the mission's challenge?
-   * Did the challenge feel appropriately difficult for the rewards offered?
-   * Did the challenge encourage strategic deck-building and decision-making?
-   * Was the challenge clear and easy to understand?
- * Abilities:
-   * Did the passive and one-time abilities feel appropriately rewarding for the challenge's difficulty?
-   * Were the abilities fun and interesting to use?
-   * Did the abilities create dynamic or impactful moments during the game?
-   * Were the abilities clear and easy to understand?
- * Interaction:
-   * Were there any unintended interactions between the mission card and other cards in the deck?
-   * Did the mission card create interesting and strategic decision points during the game?
-   * Did the mission card feel balanced compared to other mission cards?
- * Overall:
-   * Did the mission card enhance your enjoyment of the game?
-   * Would you want to include this mission card in your own decks?
-   * Do you have any suggestions for improving the mission card?
-Iterative Balancing:
-Mission card design is an iterative process.  Based on playtesting feedback, be prepared to:
- * Adjust CP costs: If a mission is too easy or its abilities too powerful, increase CP costs. If it's too difficult, reduce costs.
- * Modify challenge requirements: Make the challenge easier or harder by adjusting the number of actions, conditions, or turns required.
- * Refine ability effects:  Tweak the impact, duration, or versatility of abilities to achieve better balance and strategic impact.
-By actively incorporating playtesting feedback and iterating on your designs, you can create mission cards that are both rewarding and balanced, contributing to a compelling Quantum Nexus experience.
-
-### Iterative Balancing
-
-Mission card design is an iterative process. Don't expect to create perfectly balanced cards on the first try!  Playtesting provides valuable feedback that reveals areas for improvement.  Based on this feedback, be prepared to:
- * Adjust CP costs: If a mission is too easy to complete or its abilities are too powerful, increase the CP costs. If it's too difficult to complete or the abilities feel underwhelming, reduce the costs.
- * Modify challenge requirements: Make the challenge easier or harder by adjusting the number of actions, conditions, or turns required to complete it.
- * Refine ability effects:  Tweak the impact, duration, or versatility of abilities to achieve better balance and strategic impact.
-Embrace the iterative nature of design.  Continuously refine your mission cards through repeated playtesting and adjustments until you achieve a balance of challenge, reward, and fun that enhances the Quantum Nexus experience.
-
-## X. Mission Card Calculations
-
-Mission cards have several calculations to create some balance. The mission cards create the basis for the amount of CP that a player has during their turn. This CP value is determined by several interconnected formulas. The fomelas are designed to balance the Abilities, Challenges, and CP. You should be adventurous to see what combinations can be achieved.
-
-### Mission Card Creation Formulas
-
-1. **Assign Total Domain Points**:
-    * Each mission card must have at least 1 domain point and no more than 4 domain points in total, distributed across the domains as you choose.
-    * Players must create a set of at least 2 mission cards, with no mission card having more than 4 domain points assigned.
-
-2. **Calculate Base CP**:
-    *  Multiply the total Domain Points (DP) assigned to the mission card by 3: `BaseCP = Domain Points (DP) * 3`
-
-3. **Create Abilities**:
-    * Design one passive and one active ability for the mission card.
-    * These abilities should roughly offset the challenge to make a balanced card with an expected CP amount, but a discrepancy in values can make a card with a lot of a little Adjusted CP depending on the offset between challenges and Abilities.
-
-4. **Create the Mission Challenge**:
-    * Select one or more challenges from the challenge table in the sources.
-    * These challenges should roughly offset the abilities to make a balanced card with an expected CP amount, but a discrepancy in values can make a card with a lot of a little Adjusted CP depending on the offset between challenges and Abilities.
-
-5. **Adjust CP Levels**:
-    * Determine if the combined CP value of the abilities (AbilityCP) and challenges (ChallengeCP) is higher or lower than the Base CP.
-    * Calculate the difference between the ChallengeCP and AbilityCP.
-    * Add this difference to the Base CP to determine the final Adjusted CP of the mission card: `Adjusted CP = Base CP + (Challenge CP - (Ability CP * Sign(Challenge CP))`
-
-6. **Minimum Adjusted CP:**
-The Adjusted CP of a mission card cannot be less than 0. If the Adjusted CP calculation results in a value less than 0, the challenges and abilities need to be adjusted.
-
-these calculations are here to ensure that the mission cards are developed in a way that is fair and balanced. the calculations strive to ensure that a balance is struck between all parts of the mission card.
-
-## X. Putting it All Together: Creating a Quantum Nexus Mission Card
-
- * Domain Focus: The card emphasizes the Divinity domain, requiring a significant presence of Divinity units to complete the challenge.
- * Challenge Difficulty: The challenge is moderately difficult, requiring the player to have deployed five Divinity units, which demands a focused strategy and resource management.
- * Thematic Abilities: Both the one-time and passive abilities align with the Divinity theme, focusing on divine intervention, resurrection, and the accumulation of divine power.
- * Balanced Rewards: The abilities are powerful but not overwhelming, providing a significant advantage without making the game unbalanced.
- * Clear Presentation: The card follows the established template, presenting information concisely and clearly. The image and flavor text enhance the card's thematic appeal.
-
-By following these guidelines and drawing inspiration from this example, you can create compelling mission cards that add depth and excitement to your Quantum Nexus games. Remember to consider the following key points
-
- * Align the challenge, one-time ability, and passive ability with the chosen domain(s).
- * Ensure the challenge's difficulty is balanced with the rewards offered.
- * Create abilities that are thematically relevant, impactful, and fun to use.
- * Present the card clearly and concisely using the established template.
- * Don't be afraid to mix and match different abilities and challenges to create hybrids.
- * The challenges, abilities, and CP are all linked in the formula, try using higher priced challenges and lower priced abilities to have higher CP. You can also use higher priced abilities and lower priced challenges for less CP. Be creative with the balance.
-   * For example if there is 4 CP, try combining 2 Challenges that are 2 CP each.
-
-With creativity and careful design, you can craft mission cards that will elevate your Quantum Nexus experience and inspire countless strategic possibilities.
-
-### Mission Card Template
-
-#### Single Card
-
-For consistency, the following template should be used to show the details of a single Mission Card.
-
-- Name: Name of Card
-- CP: # of CP awarded
-- Malevolence: Malevolence Axis
-- Combat: Combat Axis
-- Utility: Utility Axis
-- Impact: Impact Axis
-- Technology: 1-4
-- Magic: 1-4
-- Psionics: 1-4
-- Divinity: 1-4
-- Challenge: The challenge that this card presents
-- Passive Ability: The activated passive ability
-- One-Time Ability: The activated one-time ability
-- Flavor Text: 1 or 2 short sentences that hints at the lore behind the card.
-- Image Description : 3 sentences to describe the action, 3 sentences to describe the subject, and 2 sentences to describe the background/setting.
-- Faction: The faction this Mission Card was sourced from
-
-#### Multi-Card
-
-For consistency, the following template should be used when dealing with multiple Mission Cards.
-
-| Name | CP | Malevolence | Combat | Utility | Impact | Technology | Magic | Psionics | Divinity | Challange | Passive Ability | One-Time Ability | Flavor Text | Image Description | Faction |
-|---|---|-|-|-|-|--|---|---|--|--|--|--|--|--|--|-|
-
-## Appendix
-
-### A. Active Ability Prices
-
-These prices are guidelines and may be altered to include any variations. Simply be mindful that it is priced appropriately.
-
- Domain | Ability | CP Cost | Description |
-|---|---|---|---|
-| Technology | Overclock | 4-6 | Target Tech unit gains +2 Attack this turn but is discarded at the end of your turn. |
-| Technology | Nanite Swarm | 5-7 | Deal 1 damage to all enemy units in a chosen row. |
-| Technology | Energy Transfer | 6-8 | Target a friendly Tech unit. It gains Attack and Defense equal to another target Tech unit's, which is then discarded. |
-| Technology | Cloaking Field | 3-5 | Target Tech unit cannot be attacked or targeted by enemy abilities this turn. |
-| Technology | Tactical Retreat | 2-4 | Return a Tech unit to your hand. |
-| Technology | Orbital Strike | 7-9 | Choose a quadrant. Deal 2 damage to all units in that quadrant. |
-| Technology | EMP Blast | 5-7 | Disable all enemy Tech units for one turn. |
-| Technology | Remote Hack | 6-8 | Take control of an enemy Tech unit for one turn. |
-| Technology | Nanite Repair | 3-5 | Restore a disabled Tech unit to full functionality. |
-| Technology | Self-Destruct Sequence | 8-10 | Destroy a target Tech unit you control. Deal damage equal to its Attack to all units in adjacent quadrants. |
-| Magic | Elemental Surge | 4-6 | Choose an element (Fire, Water, Earth, Air). All your units of that element gain +1 Attack this turn. |
-| Magic | Arcane Ward | 3-5 | Target unit gains +2 Defense this turn. |
-| Magic | Banish | 5-7 | Discard target enemy unit with a Magic value of 2 or less. |
-| Magic | Illusionary Duplicate | 6-8 | Create a token copy of a friendly unit. The token has the same stats and abilities but is discarded at the end of your turn. |
-| Magic | Time Dilation | 7-9 | Choose an enemy unit. It cannot attack or use abilities this turn. |
-| Magic | Arcane Missiles | 4-6 | Deal 2 damage to a target enemy unit. If it is a Magic unit, deal 3 damage instead. |
-| Magic | Summon Familiar | 3-5 | Summon a 1/1 Magic unit with a special ability based on the element of your choice. |
-| Magic | Enchanted Blade | 5-7 | Target unit gains +2 Attack and "Lifelink" (Whenever this unit attacks, you gain CP equal to the damage dealt) for this turn. |
-| Magic | Time Warp | 8-10 | Take an extra turn after this one. You cannot use this ability again until the end of your next turn. |
-| Magic | Astral Projection | 6-8 | Choose a unit you control. It can attack any quadrant this turn, ignoring range restrictions. |
-| Psionics | Mind Swap | 3-5 | Swap the positions of two units on the battlefield. |
-| Psionics | Psychic Drain | 4-6 | Target enemy unit loses 2 Attack and your Psionic unit gains 2 Attack. |
-| Psionics | Telekinetic Barrage | 5-7 | Choose a quadrant. Deal 1 damage to all enemy units in that quadrant. |
-| Psionics | Thought Shield | 3-5 | All friendly units gain +1 Defense this turn. |
-| Psionics | Premonition | 2-4 | Look at the top three cards of your deck. Draw one and discard the rest. |
-| Psionics | Psychic Assault | 5-7 | Deal 3 damage to a target enemy unit or asset. |
-| Psionics | Mind Control | 6-8 | Take control of an enemy unit for one turn. |
-| Psionics | Psychic Link | 4-6 | Choose two friendly Psionic units. They gain each other's abilities for the turn. |
-| Psionics | Telekinetic Wave | 7-9 | Move all enemy units one space back. If they cannot move back, discard them. |
-| Psionics | Mind Probe | 2-4 | Look at your opponent's hand. |
-| Divinity | Blessing of Strength/Protection | 3-5 | Target unit gains +2 Attack or +2 Defense this turn. |
-| Divinity | Holy Fire/Unholy Blight | 4-6 | Deal 2 damage to target enemy unit. If it's a Divinity unit, deal 4 damage instead. |
-| Divinity | Divine Inspiration | 2-4 | Draw 2 cards, then discard 1 card. |
-| Divinity | Martyrdom | 5-7 | Sacrifice a Divinity unit. All other friendly Divinity units gain +2 Attack this turn. |
-| Divinity | Celestial Intervention | 8-10 | Choose one: Prevent all damage to your units this turn, OR all your units gain +1 Attack and +1 Defense this turn. |
-| Divinity | Divine Shield | 3-5 | Target Divinity unit cannot be discarded this turn. |
-| Divinity | Divine Judgment | 7-9 | Destroy target enemy unit with the lowest defense value. |
-| Divinity | Angelic Summoning | 6-8 | Summon a 3/3 Divinity unit with "Flying" (This unit can only be blocked by units with Flying). |
-| Divinity | Divine Ascension | 8-10 | All Divinity units you control gain +2 Attack and +2 Defense for the rest of the game. |
-| Technology | Overclock | 4-6 | Target Tech unit gains +2 Attack this turn but is discarded at the end of your turn. |
-| Technology | Nanite Swarm | 5-7 | Deal 1 damage to all enemy units in a chosen row. |
-| Technology | Energy Transfer | 6-8 | Target a friendly Tech unit. It gains Attack and Defense equal to another target Tech unit's, which is then discarded. |
-| Technology | Cloaking Field | 3-5 | Target Tech unit cannot be attacked or targeted by enemy abilities this turn. |
-| Technology | Tactical Retreat | 2-4 | Return a Tech unit to your hand. |
-| Technology | Orbital Strike | 7-9 | Choose a quadrant. Deal 2 damage to all units in that quadrant. |
-| Technology | EMP Blast | 5-7 | Disable all enemy Tech units for one turn. |
-| Technology | Remote Hack | 6-8 | Take control of an enemy Tech unit for one turn. |
-| Technology | Nanite Repair | 3-5 | Restore a disabled Tech unit to full functionality. |
-| Technology | Self-Destruct Sequence | 8-10 | Destroy a target Tech unit you control. Deal damage equal to its Attack to all units in adjacent quadrants. |
-| Magic | Elemental Surge | 4-6 | Choose an element (Fire, Water, Earth, Air). All your units of that element gain +1 Attack this turn. |
-| Magic | Arcane Ward | 3-5 | Target unit gains +2 Defense this turn. |
-| Magic | Banish | 5-7 | Discard target enemy unit with a Magic value of 2 or less. |
-| Magic | Illusionary Duplicate | 6-8 | Create a token copy of a friendly unit. The token has the same stats and abilities but is discarded at the end of your turn. |
-| Magic | Time Dilation | 7-9 | Choose an enemy unit. It cannot attack or use abilities this turn. |
-| Magic | Arcane Missiles | 4-6 | Deal 2 damage to a target enemy unit. If it is a Magic unit, deal 3 damage instead. |
-| Magic | Summon Familiar | 3-5 | Summon a 1/1 Magic unit with a special ability based on the element of your choice. |
-| Magic | Enchanted Blade | 5-7 | Target unit gains +2 Attack and "Lifelink" (Whenever this unit attacks, you gain CP equal to the damage dealt) for this turn. |
-| Magic | Time Warp | 8-10 | Take an extra turn after this one. You cannot use this ability again until the end of your next turn. |
-| Magic | Astral Projection | 6-8 | Choose a unit you control. It can attack any quadrant this turn, ignoring range restrictions. |
-| Psionics | Mind Swap | 3-5 | Swap the positions of two units on the battlefield. |
-| Psionics | Psychic Drain | 4-6 | Target enemy unit loses 2 Attack and your Psionic unit gains 2 Attack. |
-| Psionics | Telekinetic Barrage | 5-7 | Choose a quadrant. Deal 1 damage to all enemy units in that quadrant. |
-| Psionics | Thought Shield | 3-5 | All friendly units gain +1 Defense this turn. |
-| Psionics | Premonition | 2-4 | Look at the top three cards of your deck. Draw one and discard the rest. |
-| Psionics | Psychic Assault | 5-7 | Deal 3 damage to a target enemy unit or asset. |
-| Psionics | Mind Control | 6-8 | Take control of an enemy unit for one turn. |
-| Psionics | Psychic Link | 4-6 | Choose two friendly Psionic units. They gain each other's abilities for the turn. |
-| Psionics | Telekinetic Wave | 7-9 | Move all enemy units one space back. If they cannot move back, discard them. |
-| Psionics | Mind Probe | 2-4 | Look at your opponent's hand. |
-| Divinity | Blessing of Strength/Protection | 3-5 | Target unit gains +2 Attack or +2 Defense this turn. |
-| Divinity | Holy Fire/Unholy Blight | 4-6 | Deal 2 damage to target enemy unit. If it's a Divinity unit, deal 4 damage instead. |
-| Divinity | Divine Inspiration | 2-4 | Draw 2 cards, then discard 1 card. |
-| Divinity | Martyrdom | 5-7 | Sacrifice a Divinity unit. All other friendly Divinity units gain +2 Attack this turn. |
-| Divinity | Celestial Intervention | 8-10 | Choose one: Prevent all damage to your units this turn, OR all your units gain +1 Attack and +1 Defense this turn. |
-| Divinity | Divine Shield | 3-5 | Target Divinity unit cannot be discarded this turn. |
-| Divinity | Divine Judgment | 7-9 | Destroy target enemy unit with the lowest defense value. |
-| Divinity | Angelic Summoning | 6-8 | Summon a 3/3 Divinity unit with "Flying" (This unit can only be blocked by units with Flying). |
-| Divinity | Divine Ascension | 8-10 | All Divinity units you control gain +2 Attack and +2 Defense for the rest of the game. |
-| Technology | Sabotage | 2-4 | Choose an enemy Tech unit. It loses all abilities until the end of your opponent's next turn. |
-| Technology | Tactical Nuke | 8-10 | Destroy all units (including your own) in a chosen quadrant. Terrain in that quadrant is also discarded. |
-| Magic | Polymorph | 5-7 | Transform a target unit into a 1/1 Sheep token. |
-| Magic | Arcane Feedback | 6-8 | Whenever an opponent targets one of your Magic units with an ability, they lose 2 CP. |
-| Magic | Summon Golem | 4-6 | Summon a 2/2 Magic unit with "Taunt" (Must be attacked if able). |
-| Magic | Mystic Portal | 7-9 | Choose a quadrant you control and another quadrant on the battlefield. Swap the positions of all units in those quadrants. |
-| Magic | Time Stop | 10-12 | End your opponent's turn immediately. They lose all unspent CP. |
-| Psionics | Psychic Backlash | 3-5 | Whenever an enemy unit attacks one of your Psionic units, deal 1 damage to it. |
-| Psionics | Mass Hysteria | 6-8 | All enemy units attack a random unit (friend or foe) this turn. |
-| Psionics | Mind Control Immunity | 4-6 | Target friendly unit cannot be affected by enemy Psionic abilities for one turn. |
-| Psionics | Psychic Drain | 5-7 | Choose an enemy unit. It loses 2 Attack and you gain 2 CP. |
-| Psionics | Psychic Overload | 8-10 | Choose a unit. It gains +4 Attack and +4 Defense this turn, but is discarded at the end of your next turn. |
-| Divinity | Divine Retribution | 3-5 | When a Divinity unit you control is discarded, deal 2 damage to a random enemy unit. |
-| Divinity | Holy Aura | 4-6 | All friendly units gain "Lifelink" (Whenever this unit attacks, you gain CP equal to the damage dealt) for this turn. |
-| Divinity | Divine Intervention | 5-7 | Choose one: Prevent all damage to your units this turn, OR all your units gain +1 Attack and +1 Defense this turn. |
-| Divinity | Sacred Ground | 6-8 | Choose a quadrant. All friendly units on that quadrant gain +2 Defense this turn. |
-| Divinity | Divine Wrath | 8-10 | All enemy units lose 2 Defense this turn. If their Defense is reduced to 0, they are discarded. |
-| Technology | Holographic Decoy | 3-5 | Create a 0/2 Tech unit with "Taunt" in a target quadrant. |
-| Technology | Viral Upload | 4-6 | Choose a Tech unit you control. All Tech units you control gain its passive abilities until the end of your turn. |
-| Magic | Ritual of Renewal | 3-5 | Choose a Magic unit you control. It gains +3 defense. |
-| Magic | Elemental Fusion | 6-8 | Combine two different element types (Fire, Water, Earth, Air). All your units of either element gain +2 Attack this turn. |
-| Psionics | Psychic Transfer | 3-5 | Choose a friendly and an enemy unit. The friendly unit gains the enemy unit's Attack until the end of the turn. |
-| Psionics | Mind Warp | 7-9 | Choose a quadrant. All units in that quadrant have their Attack and Defense swapped for the turn. |
-| Divinity | Divine Retribution | 3-5 | When a Divinity unit you control is discarded, deal 2 damage to a random enemy unit. |
-| Divinity | Holy Judgement | 7-9 | All Divinity units you control gain +2 Attack and +2 Defense this turn. If you control more Divinity units than your opponent, they also gain "Double Strike" (This unit attacks twice). |
-
-Note: The CP cost range allows for flexibility in balancing the power and cost of each ability, based on the difficulty of the mission's challenge.
-
-### B. Passive Ability Prices
-
-These prices are guidelines and may be altered to include any variations. Simply be mindful that it is priced appropriately.
-
-| Domain | Ability | CP Cost | Description |
-|---|---|---|---|
-| Technology | Tech Efficiency | 3-5 | Reduce the CP cost of Tech Unit deployments or abilities by 1. |
-| Technology | Reinforced Armor | 4-6 | Increase the Defense of all Tech Units by 1. |
-| Technology | Automated Repairs | 5-7 | At the start of each turn, you may return a discarded Tech unit to your hand. |
-| Technology | Adaptive Systems | 6-8 | Gain 1 additional CP at the start of each turn if you control more Tech Units than your opponent. |
-| Technology | Tech Supremacy | 8-10 | Your Tech Units gain +1 Attack for each different Tech Unit you control. |
-| Technology | Energy Recycling | 3-5 | Whenever a Tech unit is discarded, gain 1 CP. |
-| Technology | System Calibration | 4-6 | Once per turn, you may move a Tech unit to an adjacent space. |
-| Technology | Networked Intelligence | 5-7 | Your Tech units with "Drone" subtype gain +1 Attack. |
-| Technology | Arsenal Expansion | 6-8 | You may have 1 additional Asset card in your loadout. |
-| Technology | Overdrive Protocol | 8-10 | At the start of each turn, choose one: All Tech units gain +1 Attack this turn, OR all Tech units gain +1 Defense this turn. |
-| Magic | Arcane Attunement | 3-5 | Reduce the CP cost of Magic Unit deployments or abilities by 1. |
-| Magic | Spell Amplification | 4-6 | Increase the effectiveness of your Magic abilities (e.g., +1 damage, +1 turn duration, wider area of effect). |
-| Magic | Mana Regeneration | 5-7 | Gain 1 additional CP at the start of each turn if you control more Magic Units than your opponent. |
-| Magic | Elemental Harmony | 6-8 | When you play a Magic unit, you may draw a card if you control another Magic unit of a different element. |
-| Magic | Arcane Mastery | 8-10 | All your Magic Units gain "Evasion" (Cannot be attacked by units with lower attack value). |
-| Magic | Spell Weaving | 3-5 | Once per turn, you may play a Magic Event card with a CP cost of 2 or less for free. |
-| Magic | Enchanted Armor | 4-6 | Your Magic units gain +1 Defense for each enchantment on a friendly unit. |
-| Magic | Rune Mastery | 5-7 | When you play a Magic unit with a Rune subtype, you may draw a card. |
-| Magic | Ancient Grimoire | 6-8 | Your Magic Events gain +1 to their effects (e.g., +1 damage, +1 card drawn). |
-| Magic | Elemental Mastery | 8-10 | Choose an element at the start of the game. All your Magic units of that element gain +2 Attack and +1 Defense. |
-| Psionics | Psychic Resilience | 3-5 | Your Psionic Units gain +1 Defense. |
-| Psionics | Mind Link | 4-6 | At the start of each turn, you may look at the top card of your opponent's deck. |
-| Psionics | Psionic Empowerment | 5-7 | Reduce the CP cost of Psionic abilities by 1. |
-| Psionics | Psychic Resonance | 6-8 | Whenever you activate a Psionic ability, you may move a friendly Psionic unit to an adjacent space. |
-| Psionics | Telepathic Communion | 8-10 | Once per turn, you may activate a Psionic ability of a discarded Psionic Unit as an Interrupt. |
-| Psionics | Mental Fortitude | 3-5 | Your Psionic units gain "Immunity" (Cannot be targeted by enemy Psionic abilities). |
-| Psionics | Collective Consciousness | 4-6 | All your Psionic units gain +1 Attack. |
-| Psionics | Psychic Feedback | 5-7 | Whenever an opponent targets one of your Psionic units with an ability, they discard a card. |
-| Psionics | Mind Over Matter | 6-8 | You may use Psionic abilities to target Assets in your opponent's loadout. |
-| Psionics | Psychic Conduit | 8-10 | Once per turn, you may copy a Psionic ability used by your opponent. |
-| Divinity | Divine Favor | 3-5 | At the start of each turn, draw a card if you control a Divinity Unit. |
-| Divinity | Holy Ground | 4-6 | Your Divinity Units gain +1 Attack. |
-| Divinity | Righteous Zeal | 5-7 | Reduce the CP cost of Divinity Unit deployments by 1. |
-| Divinity | Celestial Guidance | 6-8 | Your Divinity units cannot be targeted by enemy abilities if you control more Divinity units than your opponent. |
-| Divinity | Divine Protection | 8-10 | Once per turn, you may prevent a Divinity Unit from being discarded. |
-| Divinity | Sacred Rites | 3-5 | When you play a Divinity unit, you may deactivate an already activated Divinity unit. |
-| Divinity | Angelic Presence | 4-6 | Whenever a Divinity unit is deployed, all Divinity units gain +1 Attack for the turn. |
-| Divinity | Divine Retribution | 5-7 | Whenever a Divinity unit is discarded, deal 2 damage to a random enemy unit. |
-| Divinity | Holy Sanctuary | 6-8 | The first Divinity unit discarded each turn is returned to your hand instead. |
-| Divinity | Avatar's Blessing | 8-10 | All Divinity units gain a random keyword ability at the start of each turn. |
-| Technology | Rapid Prototyping | 3-5 | The first Tech Unit you deploy each turn costs 1 less CP. |
-| Technology | Redundant Systems | 4-6 | If a Tech Unit you control would be discarded, you may pay 2 CP to prevent it. |
-| Technology | Tactical Analysis | 5-7 | At the start of each turn, look at the top 2 cards of your opponent's deck. |
-| Technology | Energy Shield | 6-8 | All your Tech Units have "Barrier 1" (The first time this unit would be discarded each turn, prevent it and remove all Barrier counters from this unit). |
-| Technology | Quantum Entanglement | 8-10 | Choose a Tech unit you control. Whenever you play a Tech unit with the same subtype, that unit gains the chosen unit's abilities for the turn. |
-| Magic | Ley Line Nexus | 3-5 | Your Magic units gain +1 Attack if they are deployed adjacent to a Terrain card. |
-| Magic | Ritualistic Chanting | 4-6 | At the start of your Command Phase, you may discard a Magic unit to gain 2 CP. |
-| Magic | Enchanted Library | 5-7 | Whenever you play a Magic Event, you may search your deck for another Magic Event with a lower CP cost and add it to your hand. |
-| Magic | Spell Nexus | 6-8 | Whenever you play a Magic unit, you may pay 1 CP to activate one of its Active abilities. |
-| Magic | Arcane Legacy | 8-10 | Once per turn, you may play a discarded Magic Event card from your discard pile. |
-| Psionics | Psychic Synergy | 3-5 | Whenever you activate a Psionic ability, all other Psionic units you control gain +1 Attack until the end of the turn. |
-| Psionics | Mind Meld | 4-6 | Choose a friendly and an enemy unit. The friendly unit gains the enemy unit's Attack and Defense until the end of the turn. |
-| Psionics | Neural Network | 5-7 | If an opponent would discard a card from their hand, you may discard a card from your hand to prevent it. |
-| Psionics | Psychic Conduit | 6-8 | At the start of your turn, you may choose one Psionic unit you control. It gains the abilities of another random Psionic unit you control until the end of the turn. |
-| Psionics | Collective Unconscious | 8-10 | All Psionic units you control gain all keywords of all other Psionic units you control. |
-| Divinity | Divine Intervention | 3-5 | Once per turn, when a Divinity unit you control would be discarded, you may prevent it. |
-| Divinity | Sacred Ground | 4-6 | All your units gain +1 Defense while on a quadrant with a Terrain card. |
-| Divinity | Divine Purpose | 5-7 | All your Divinity units gain +1 Attack for each Divinity unit you control. |
-| Divinity | Holy Relics | 6-8 | You may have 1 additional Asset card in your loadout if it has the Divinity domain. |
-| Divinity | Divine Inspiration | 8-10 | Whenever you play a Divinity unit, you may pay 2 CP to draw 2 cards. |
-
-Note: The CP cost range allows for flexibility in balancing the power and cost of each ability, based on the difficulty of the mission's challenge.
-
-#### C. Mission Challenge Prices
-
-These prices are guidelines and may be altered to include any variations. Simply be mindful that it is priced appropriately.
-
-| Domain | Challenge | CP Cost | Description |
-|---|---|---|---|
-| Technology | Deploy a Tech Unit with a specific keyword (e.g., "Drone"). | 1 | - |
-| Technology | Activate a Tech Device that disables an opponent's Asset. | 1 | - |
-| Technology | Deploy 3 Tech Units with different subtypes in a turn. | 2 | - |
-| Technology | Disable an opponent's Tech Unit with a specific ability. | 2 | - |
-| Technology | Upgrade a Tech Unit twice in a turn. | 3 | - |
-| Technology | Deploy a Tech Leader Unit. | 3 | - |
-| Technology | Activate the abilities of 3 different Tech Units in a turn. | 4 | - |
-| Technology | Use a Tech Unit's ability to move an opponent's Unit. | 4 | - |
-| Technology | Achieve a chain reaction with Tech Unit abilities, where activating one triggers another. | 5 | - |
-| Technology | Have a total of 20 attack value across all Tech Units you control. | 5 | - |
-| Technology | Activate 5 different Tech abilities in a single game. | 6 | - |
-| Technology | Have 3 Tech Units with the same subtype on the battlefield at once. | 6 | - |
-| Technology | Have 5 Tech units on the battlefield at the start of your turn. | 7 | - |
-| Technology | Deploy 2 Tech Leader Units in a single game. | 7 | - |
-| Technology | Activate 3 different Tech Device abilities in a single game. | 8 | - |
-| Technology | Discard 3 Tech Units in a single turn. | 8 | - |
-| Technology | Have a Tech Unit with at least 7 Attack. | 9 | - |
-| Technology | Deploy a Tech Unit with a CP cost of 6 or higher. | 9 | - |
-| Technology | Activate 7 different Tech abilities in a single game. | 10 | - |
-| Technology | Have a total of 30 Attack across all Tech Units you control. | 10 | - |
-| Technology | Upgrade 3 different Tech Units in a single game. | 11 | - |
-| Technology | Have 4 Tech Units with the same subtype on the battlefield at once. | 11 | - |
-| Technology | Have 6 Tech Units on the battlefield at once. | 12 | - |
-| Technology | Have 2 Tech Leader Units on the battlefield at once. | 12 | - |
-| Magic | Enchant a Unit with a buff or debuff spell. | 1 | - |
-| Magic | Cast a spell that affects a specific row or column. | 1 | - |
-| Magic | Summon a Magical Creature with a unique ability. | 2 | - |
-| Magic | Cast a spell that deals damage to multiple opponent Units. | 2 | - |
-| Magic | Combine two different elemental spells in a turn. | 3 | - |
-| Magic | Cast a spell that revives a discarded Unit. | 3 | - |
-| Magic | Cast a spell that transforms the battlefield terrain. | 4 | - |
-| Magic | Create a powerful magical artifact that provides a bonus. | 4 | - |
-| Magic | Cast three spells in a single turn. | 5 | - |
-| Magic | Have a total of 15 attack value across all Magic Units you control. | 5 | - |
-| Magic | Have 3 different enchantment spells active at the same time. | 6 | - |
-| Magic | Have 3 Magic Units with different subtypes on the battlefield at once. | 6 | - |
-| Magic | Cast a spell that deals at least 5 damage. | 7 | - |
-| Magic | Have 2 Magical Creature units on the battlefield at once. | 7 | - |
-| Magic | Cast a spell that gives a friendly unit +3 or more Attack or Defense. | 8 | - |
-| Magic | Discard 3 Magic Units in a single turn. | 8 | - |
-| Magic | Have a Magic unit with at least 6 Attack. | 9 | - |
-| Magic | Cast 4 spells in a single turn. | 9 | - |
-| Magic | Have 5 Magic Units on the battlefield at once. | 10 | - |
-| Magic | Have a total of 20 Attack across all Magic Units you control. | 10 | - |
-| Magic | Cast 3 different enchantment spells in a single game. | 11 | - |
-| Magic | Summon a Magical Creature with a CP cost of 5 or more. | 11 | - |
-| Magic | Cast 5 spells in a single game. | 12 | - |
-| Magic | Have 4 Magic Units with different subtypes on the battlefield at once. | 12 | - |
-| Psionics | Use a Psionic ability to control an opponent's Unit. | 1 | - |
-| Psionics | Gain knowledge of your opponent's hand or next action. | 1 | - |
-| Psionics | Create a psychic barrier to protect your Units. | 2 | - |
-| Psionics | Manipulate an opponent's Unit to attack its own allies. | 2 | - |
-| Psionics | Use telekinesis to move two Units in a turn. | 3 | - |
-| Psionics | Take control of two opponent Units simultaneously. | 3 | - |
-| Psionics | Predict and prevent an opponent's action. | 4 | - |
-| Psionics | Establish a psychic link with another player. | 4 | - |
-| Psionics | Discard your entire hand, then draw that many cards plus one. | 5 | - |
-| Psionics | Control an enemy Leader unit with a Psionics ability. | 5 | - |
-| Psionics | Take control of an opponent's unit and have it attack another opponent's unit. | 6 | - |
-| Psionics | Take control of 3 enemy units simultaneously. | 6 | - |
-| Psionics | Deal 5 damage to an opponent's unit using Psionic abilities in a single turn. | 7 | - |
-| Psionics | Force your opponent to discard 2 cards using Psionic abilities in a single turn. | 7 | - |
-| Psionics | Use telekinesis to move 3 units in a single turn. | 8 | - |
-| Psionics | Control 2 enemy units with a combined Attack of 5 or more. | 8 | - |
-| Psionics | Have a Psionic unit with at least 6 Attack. | 9 | - |
-| Psionics | Activate 4 different Psionic abilities in a single turn. | 9 | - |
-| Psionics | Have 5 Psionic units on the battlefield at once. | 10 | - |
-| Psionics | Take control of a total of 5 enemy units throughout the game. | 10 | - |
-| Psionics | Discard 3 Psionic Units to activate a powerful one-time ability. | 11 | - |
-| Psionics | Take control of 4 enemy units simultaneously. | 11 | - |
-| Psionics | Activate 6 different Psionic abilities in a single game. | 12 | - |
-| Psionics | Have a total of 20 Attack across all Psionic units you control. | 12 | - |
-| Divinity | Deploy a Divinity Unit with a specific ability. | 1 | - |
-| Divinity | Receive a Divine Blessing that buffs one of your Units. | 1 | - |
-| Divinity | Activate a Divinity Unit's ability twice in a turn. | 2 | - |
-| Divinity | Invoke a celestial being for divine intervention. | 2 | - |
-| Divinity | Discard a Divinity Unit to gain a powerful effect. | 3 | - |
-| Divinity | Ascend a Divinity Unit, granting it a powerful ability. | 3 | - |
-| Divinity | Perform a ritual that strengthens all Divinity Units. | 4 | - |
-| Divinity | Summon a powerful angel or demon to aid you in battle. | 4 | - |
-| Divinity | Have 3 Divinity units with different subtypes on the battlefield at once. | 5 | - |
-| Divinity | Have a Divinity Leader unit with at least 5 attack. | 5 | - |
-| Divinity | Sacrifice a Divinity unit to gain a game-changing effect (e.g., double the Attack of all your Divinity units for the rest of the game). | 6 | - |
-| Divinity | Have a total of 25 attack value across all Divinity Units you control. | 6 | - |
-| Divinity | Have 5 Divinity units on the battlefield at the start of your turn. | 7 | - |
-| Divinity | Deploy a Divinity unit with a CP cost of 5 or higher. | 7 | - |
-| Divinity | Activate a Divinity unit's ability 3 times in a single game. | 8 | - |
-| Divinity | Discard 3 Divinity Units in a single turn. | 8 | - |
-| Divinity | Have a Divinity unit with at least 7 Attack. | 9 | - |
-| Divinity | Ascend 2 Divinity Units in a single game. | 9 | - |
-| Divinity | Have 6 Divinity units on the battlefield at once. | 10 | - |
-| Divinity | Have 2 Divinity Leader units on the battlefield at once. | 10 | - |
-| Divinity | Activate a Divinity ability that deals at least 5 damage. | 11 | - |
-| Divinity | Have 4 Divinity Units with different subtypes on the battlefield at once. | 11 | - |
-| Divinity | Have a total of 30 Attack across all Divinity Units you control. | 12 | - |
-| Divinity | Have 2 Divinity Units ascend in the same turn. | 12 | - |
-
-#### D. Keywords
-
-| Keyword | Description | Type | Notes | Action | Utility | Combat | Impact |
-|---|---|---|---|---|---|---|---|
-| Phase Shift | This unit cannot be targeted by attacks or abilities for the rest of the turn. | Positive | Useful for protecting valuable units or setting up combos. | Neutral | Constructive | Defensive | Neutral |
-| Quantum Entanglement | When this unit is targeted by an attack, you may redirect that attack to another friendly unit you control. | Positive | Offers flexibility and defensive options. | Neutral | Constructive | Defensive | Neutral |
-| Temporal Anomaly | This unit takes an additional turn after this one. | Positive | Powerful ability with high potential for game-changing plays. | Benevolent | Constructive | Neutral | Constructive |
-| Dimensional Rift | When this unit attacks, you may exile a target card from your opponent's hand. | Positive | Disrupts opponent's strategy and provides card advantage. | Malevolent | Destructive | Offensive | Destructive |
-| Etherial Construct | This unit cannot be blocked by units without the "Etherial" subtype. | Positive | Strong against decks without Etherial units, but vulnerable to those that do. | Neutral | Neutral | Offensive | Neutral |
-| Syphon Power | Whenever a unit you control with a higher rank than this unit is destroyed, this unit gains a +1/+1 counter. | Positive | Encourages synergistic deck building around unit ranks. | Neutral | Constructive | Neutral | Constructive |
-| Overcharge | When you activate this ability, pay X additional CP. This ability gains additional effects based on the amount of CP paid. | Positive | Scales with available resources, offering flexible decision-making. | Neutral | Neutral | Neutral | Neutral |
-| Adaptive Armor | This unit gains +1 defense for each different domain among units you control. | Positive | Rewards diverse deck building across multiple domains. | Neutral | Constructive | Defensive | Neutral |
-| Multi-Domain Expertise | This unit's abilities cost 1 less AP to activate for each different domain among units you control. | Positive | Powerful in multi-domain decks, less impactful in mono-domain decks. | Neutral | Constructive | Neutral | Neutral |
-| Quantum Decoherence | This unit loses all abilities for the rest of the turn. | Negative | Can be used to disrupt powerful abilities or as a self-imposed downside for a stronger unit. | Malevolent | Destructive | Neutral | Destructive |
-| Temporal Paradox | This unit skips its next turn. | Negative | Situational drawback, potentially used for delayed effects or to avoid negative effects on the next turn. | Neutral | Destructive | Neutral | Neutral |
-| Dimensional Instability | When this unit is destroyed, exile a random card from your hand. | Negative | High-risk, high-reward effect that can disrupt the player's hand. | Neutral | Destructive | Neutral | Destructive |
-| Energy Drain | Whenever this unit attacks, you lose 1 CP. | Negative | Balances aggressive abilities by limiting resource generation. | Neutral | Destructive | Offensive | Neutral |
-| Corrupted Circuitry | This unit's abilities cost 1 more AP to activate. | Negative | Weakens the unit's abilities, but can be mitigated by other card effects. | Neutral | Destructive | Neutral | Neutral |
-| Anti-Synergy | Whenever you play a card with the same domain as this unit, this unit loses a +1/+1 counter. | Negative | Discourages playing multiple cards of the same domain. | Neutral | Destructive | Neutral | Destructive |
-| Unstable Anomaly | At the beginning of your upkeep, this unit deals 1 damage to itself. | Negative | Detrimental effect that can be mitigated by healing or defensive abilities. | Neutral | Destructive | Neutral | Destructive |
-| Fragile Construct | This unit has -1 defense. | Negative | Makes the unit easier to destroy, but can be balanced by other stats or abilities. | Neutral | Destructive | Neutral | Neutral |
-| Transmute | When you activate this ability, you may pay X CP. If you do, exile this card and search your library for a card with a CP cost of X or less and put it onto the battlefield. | Neutral | Flexible ability that allows for card advantage and resource management. | Neutral | Neutral | Neutral | Neutral |
-| Echo | Exile this card from your hand as you cast it. At the beginning of your next upkeep, you may cast this card from exile without paying its CP cost. | Neutral | Provides a second chance to play the card, but requires careful timing and planning. | Neutral | Neutral | Neutral | Neutral |
-| Modular (X) | This card enters the battlefield with X +1/+1 counters. You may remove a +1/+1 counter from this card to activate an ability of another target card you control. | Neutral | Encourages synergistic combinations with other cards. | Neutral | Neutral | Neutral | Neutral |
-| Temporal Echo | Create a copy of this unit that lasts until the end of your next turn. | Positive | Creates a temporary advantage in combat or board presence. | Neutral | Constructive | Neutral | Neutral |
-| Quantum Siphon | When this unit deals damage, you gain CP equal to the damage dealt. | Positive | Rewards aggressive play and resource generation. | Neutral | Constructive | Offensive | Neutral |
-| Dimensional Anchor | Prevent all damage that would be dealt to and dealt by this unit this turn. | Positive | Strong defensive ability, but prevents offensive actions as well. | Neutral | Constructive | Defensive | Neutral |
-| Chrono-Lock | This unit cannot be targeted by abilities that would alter its power or toughness. | Positive | Protects against common removal or weakening effects. | Neutral | Constructive | Defensive | Neutral |
-| Domain Expertise | This unit gains +1/+1 for each domain among cards in your graveyard. | Positive | Rewards diverse deck building and graveyard manipulation. | Neutral | Constructive | Neutral | Constructive |
-| Quantum Overload | This unit deals damage to itself equal to its power at the end of each turn. | Negative | High-risk, high-reward effect that requires careful management. | Neutral | Destructive | Neutral | Destructive |
-| Time Dilation | This unit's activated abilities cost 1 more AP to activate. | Negative | Balances powerful abilities by increasing their activation cost. | Neutral | Destructive | Neutral | Neutral |
-| Domain Disruption | Choose a domain. Units of the chosen domain cannot activate their abilities this turn. | Negative | Disruptive effect that can swing the tide of battle. | Malevolent | Destructive | Neutral | Destructive |
-| Temporal Distortion | Whenever a unit with the same domain as this unit enters the battlefield under your control, exile it. | Negative | Punishes playing multiple units of the same domain. | Neutral | Destructive | Neutral | Destructive |
-| Etherial Weakness | This unit takes double damage from sources with the "Etherial" subtype. | Negative | Weakness to a specific subtype, creates strategic counterplay opportunities. | Neutral | Destructive | Neutral | Neutral |
+**Phase 2: Costing the Mission's Core Features in DB**
 
+3.  **Step 3: Calculate Challenge Cost (Challenge\_Cost\_DB)**
+    * Design the Mission's Challenge (see Section VI).
+    * The Challenge is broken down into its constituent logical and conditional components. Each component is assigned a DB cost from the dedicated **"Master DB Cost List for Challenge Components."**
+    * Sum the DB costs of all components to get `Challenge_Cost_DB`.
+        * *Example: If the total `Challenge_Cost_DB` for a moderately complex challenge sums to 12 DB.*
+    * A "Negative Challenge" (detrimental to player) would have a negative `Challenge_Cost_DB`.
 
+4.  **Step 4: Calculate Reward Abilities Cost (Reward\_Abilities\_DB)**
+    * Design the One-Time and Passive reward abilities (see Section VII) using the ACG.
+    * Sum their DB costs (obtained from the official Master DB Cost List for Abilities) to get `Reward_Abilities_DB`.
+        * *Example: One-Time Ability = 7 DB, Passive Ability = 8 DB. Then `Reward_Abilities_DB = 15 DB`.*
+
+**Phase 3: Determine Printed CP Value**
+
+5.  **Step 5: Calculate Adjusted Budget for CP Generation (CP\_Budget\_DB)**
+    * This step incorporates the `TDB_Mission` and the delta between the Challenge cost and Reward cost.
+    * `CP_Budget_DB = TDB_Mission + (Challenge_Cost_DB - Reward_Abilities_DB)`
+        * *Example (continuing from above):*
+            * `TDB_Mission = 35 DB`
+            * `Challenge_Cost_DB = 12 DB`
+            * `Reward_Abilities_DB = 15 DB`
+            * `CP_Budget_DB = 35 DB + (12 DB - 15 DB) = 35 DB + (-3 DB) = 32 DB`
+
+6.  **Step 6: Calculate Preliminary Printed CP Value**
+    * `Preliminary Printed CP = CP_Budget_DB / Roundly_CP_DB_Multiplier`
+        * *Example: If `CP_Budget_DB = 32 DB` and `Roundly_CP_DB_Multiplier = 4 DB` (cost for providing 1 CP per round):*
+            * `Preliminary Printed CP = 32 DB / 4 DB = 8 CP`
+
+7.  **Step 7: Finalize Printed CP Value (Rounding & Iterative Adjustment)**
+    * Round the `Preliminary Printed CP` according to established design team rules (e.g., round to the nearest whole number, with a typical minimum of 1 CP or 2 CP for any Mission Card).
+        * *Example: 8 CP is a whole number. This is a high value for a single mission. This outcome results from the chosen placeholder values for TDB inputs and the `Roundly_CP_DB_Multiplier`. Designers must use these outputs to assess if the inputs (DP, Challenge/Reward DB costs) are appropriate or if system parameters like the multiplier need calibration for typical CP outcomes. If 8 CP is too high, `CP_Budget_DB` needs to be lower.*
+    * **Iterative Balancing is Key:**
+        * **If Calculated Printed CP is Too Low (e.g., below minimum threshold):** The `CP_Budget_DB` is insufficient. To increase Printed CP, designers must increase `CP_Budget_DB` by:
+            1.  Increasing `TDB_Mission` (e.g., by increasing its assigned DP).
+            2.  Making the delta `(Challenge_Cost_DB - Reward_Abilities_DB)` more positive by:
+                * Increasing `Challenge_Cost_DB` (make the Challenge more "expensive" in DB / more difficult).
+                * Decreasing `Reward_Abilities_DB` (make the completion abilities less powerful/costly in DB).
+        * **If Calculated Printed CP is Too High (e.g., above a practical maximum like 5 or 6 CP):** The `CP_Budget_DB` is too large. To decrease Printed CP, designers must decrease `CP_Budget_DB` by:
+            1.  Decreasing `TDB_Mission` (e.g., by decreasing assigned DP).
+            2.  Making the delta `(Challenge_Cost_DB - Reward_Abilities_DB)` more negative by:
+                * Decreasing `Challenge_Cost_DB` (make Challenge "cheaper" / easier).
+                * Increasing `Reward_Abilities_DB` (make rewards more powerful/costly in DB).
+    * The goal is a Printed CP Value that ensures the Mission Card is a balanced strategic option.
+
+**Self-Balancing Aspect:**
+This system is designed to be self-balancing. Designer choices for a Mission Card's DP (affecting `TDB_Mission`), the DB cost of its Challenge, and the DB cost of its Rewards will directly influence the `CP_Budget_DB`, which in turn determines the roundly Printed CP it provides.
+
+**Importance of Master DB Cost Lists:**
+The objectivity of this system heavily relies on comprehensive and well-calibrated **Master DB Cost Lists**, including the standard list for abilities and the crucial new section for **Challenge Components.**
+
+---
+
+### IX. Mission Card Creation Example: "Nexus Alignment Protocol"
+
+This section provides a step-by-step example of designing a Mission Card, "Nexus Alignment Protocol," using the principles outlined in these guidelines, including the "Mission Card Intrinsic Budget System" (Section VIII) and the component-based ability design from the "Ability Creation Guidelines (ACG)."
+
+**Disclaimer on DB Costs:** All Design Budget (DB) point values used in this example are **illustrative placeholders** intended to demonstrate the costing process. Official design work must use the calibrated values from the **Master DB Cost List(s)** (including the forthcoming list for Challenge Components and the established list for Abilities).
+
+**Step 1: Conceptualize the Mission Card**
+
+* **Name:** Nexus Alignment Protocol
+* **Theme:** Achieving a specific, stable board presence and high resource level, representing an alignment with powerful Nexus energies.
+* **Domain Points (DP) Allocation:**
+    * Technology: 2 DP
+    * Magic: 0 DP
+    * Psionics: 2 DP
+    * Divinity: 0 DP
+    * *Total DP = 4*
+* **Card Feel (Intended):**
+    * Malevolence: Neutral
+    * Utility: Utility-focused
+    * Combat: Neutral
+    * Impact: Constructive
+* **Challenge Concept:** Simultaneously control units across the entire front row of your Battlefield while having a significant CP reserve at the start of a round.
+* **One-Time Reward Concept:** Immediate resource boost (CP and cards).
+* **Passive Reward Concept:** Improved card selection/draw quality.
+
+**Step 2: Calculate Total Design Budget for the Mission (TDB_Mission)**
+(Using placeholder system parameters from Section VIII: `FDB_Mission = 5 DB`, `DP_Mission_Valuation_Factor = 10 DB/DP`)
+
+* `DDB_Mission = (Total DP: 4) * (DP_Mission_Valuation_Factor: 10 DB) = 40 DB`
+* `TDB_Mission = (FDB_Mission: 5 DB) + (DDB_Mission: 40 DB) = 45 DB`
+
+**Step 3: Design and Cost the Challenge (Challenge\_Cost\_DB)**
+
+* **Challenge Text:** "At the start of your Game Round, if you control at least one friendly Unit in each of your three Front Row quadrants on your Battlefield, AND you have 10 or more CP in your current CP pool, this mission is completed."
+
+* **Breakdown and Illustrative DB Costing for Challenge Components:**
+    *(These would draw from a "Master DB Cost List for Challenge Components." The rationale for each placeholder DB cost is provided for clarity.)*
+    1.  **Trigger for Check:** "At the start of your Game Round" (ACG App G.II.A)
+        * Notes: This is a standard, once-per-round timing for the check. The *check itself* has a small overhead.
+        * *Illustrative DB for "Challenge Check Window: Start of Round":* `0.5 DB`
+    2.  **Condition 1 (Board Presence):** "you control at least one friendly Unit in each of your three Front Row quadrants on your Battlefield"
+        * This is a complex condition involving multiple simultaneous states.
+        * Condition 1a: Control a Unit in your Front Left Quadrant (ACG App H.II.D - Card Location; H.III.B - Player Control)
+            * *Illustrative DB:* `1.5 DB` (Controlling a specific area type)
+        * Condition 1b: Control a Unit in your Front Center Quadrant
+            * *Illustrative DB:* `1.5 DB`
+        * Condition 1c: Control a Unit in your Front Right Quadrant
+            * *Illustrative DB:* `1.5 DB`
+        * Conjunction: "AND" for these three sub-conditions (ACG App H.IV - Boolean)
+            * *Illustrative DB for specific multi-part positional AND:* `1.0 DB` (Cost increases for needing all simultaneously)
+        * *Subtotal for Board Presence condition:* `1.5 + 1.5 + 1.5 + 1.0 = 5.5 DB`
+    3.  **Condition 2 (Resource Level):** "you have 10 or more CP in your current CP pool" (ACG App H.III.A - Player Resources; H.IV - Comparison)
+        * Notes: "10 or more CP" is a significant reserve to maintain.
+        * *Illustrative DB for "Player CP >= 10":* `3.0 DB`
+    4.  **Overall Conjunction:** The main "AND" connecting Condition 1 (Board Presence) with Condition 2 (Resource Level).
+        * *Illustrative DB for "Top-Level AND of complex conditions":* `0.5 DB`
+
+* **Total `Challenge_Cost_DB`:** `0.5 DB (Trigger Window) + 5.5 DB (Board Presence) + 3.0 DB (Resource Level) + 0.5 DB (Overall Conjunction) = 9.5 DB`
+
+**Step 4: Design and Cost the Reward Abilities (Reward\_Abilities\_DB)**
+
+* **A. One-Time Reward Ability:**
+    * **Ability Text:** "Immediately gain 3 CP. Then, draw 2 cards."
+    * **Breakdown & Illustrative DB Costing (from ACG/Master List for Abilities):**
+        * Trigger: "Immediately upon mission completion" (Implicit for One-Time Mission Rewards, often bundled into their nature)
+            * *Illustrative DB for "Mission Completion One-Time Trigger":* `0.5 DB`
+        * Effect 1: "Gain 3 CP" (ACG App E.II.A)
+            * Target: Player (Self) (ACG App F.II) - usually `0.0 DB` for self.
+            * *Illustrative DB (using ACG App E example of 4.5 DB per CP gained):* `3 * 4.5 DB = 13.5 DB`
+        * Effect 2: "Draw 2 cards" (ACG App E.II.B)
+            * Target: Player (Self) (ACG App F.II) - `0.0 DB`.
+            * *Illustrative DB (using ACG App E example of 4.0 DB per card drawn):* `2 * 4.0 DB = 8.0 DB`
+    * *Total DB for One-Time Ability:* `0.5 DB (Trigger) + 13.5 DB (CP Gain) + 8.0 DB (Card Draw) = 22.0 DB`
+
+* **B. Passive Reward Ability:**
+    * **Ability Text:** "At the start of your Game Round, after you draw cards for the round, you may look at the top card of your deck. If you do, you may place that card on the bottom of your deck."
+    * **Breakdown & Illustrative DB Costing (from ACG/Master List for Abilities):**
+        * Trigger: "At the start of your Game Round, after you draw cards for the round" (ACG App G.II.A - specific timing)
+            * *Illustrative DB:* `1.0 DB`
+        * Effect ("you may look at the top card of your deck"): Optional Information Gain + Deck Scrying (ACG App E.II.C)
+            * Part 1: "Look at the top card of your deck"
+                * Target: Top card of own Deck (ACG App F.I.C) - `0.0 DB`.
+                * *Illustrative DB for "Look at 1 top card":* `0.5 DB`
+            * Part 2: "If you do, you may place that card on the bottom of your deck" (Conditional action on choice, minor deck filtering)
+                * *Illustrative DB for "Optional bottom-decking of viewed card":* `0.75 DB`
+    * *Total DB for Passive Ability:* `1.0 DB (Trigger) + 0.5 DB (Look) + 0.75 DB (Optional Bottom) = 2.25 DB`
+
+* **Total `Reward_Abilities_DB`:** `22.0 DB (One-Time) + 2.25 DB (Passive) = 24.25 DB`
+
+**Step 5: Calculate Adjusted Budget for CP Generation (CP\_Budget\_DB)**
+(Using formula from Section VIII: `CP_Budget_DB = TDB_Mission + (Challenge_Cost_DB - Reward_Abilities_DB)`)
+
+* `TDB_Mission = 45 DB`
+* `Challenge_Cost_DB = 9.5 DB`
+* `Reward_Abilities_DB = 24.25 DB`
+* `Delta = Challenge_Cost_DB - Reward_Abilities_DB = 9.5 DB - 24.25 DB = -14.75 DB`
+* `CP_Budget_DB = 45 DB + (-14.75 DB) = 30.25 DB`
+
+**Step 6: Calculate Preliminary Printed CP Value**
+(Using placeholder `Roundly_CP_DB_Multiplier = 4 DB` from Section VIII)
+
+* `Preliminary Printed CP = CP_Budget_DB / Roundly_CP_DB_Multiplier`
+* `Preliminary Printed CP = 30.25 DB / 4 DB = 7.5625 CP`
+
+**Step 7: Finalize Printed CP Value (Rounding & Iteration)**
+
+* Rounding: `7.5625 CP` would likely round up to **8 CP** (assuming standard rounding: .5 and up rounds up).
+* **Assessment:** A Printed CP of 8 is very high for a single mission, especially if players typically use 3-4 missions to reach a total CP pool of 15-18 for their 6 total Mission DP. This outcome is a direct result of the chosen placeholder values (high `TDB_Mission` from 4DP, strong rewards, relatively "cheap" challenge in DB, and a low `Roundly_CP_DB_Multiplier`).
+* **Potential Iterations for Designers (to achieve a Printed CP likely in the 3-5 range for this type of mission):**
+    1.  **Increase `Challenge_Cost_DB`:** Make the challenge significantly harder. For instance, requiring all three front-row units to be of specific subtypes or domains, or maintaining the state for multiple rounds, would increase its DB cost.
+    2.  **Reduce `Reward_Abilities_DB`:** The One-Time ability is very potent. Reducing it to "Gain 1 CP. Draw 1 card." might bring its DB cost from 22 DB down to (0.5 + 4.5 + 4.0) = 9 DB. This would make `Reward_Abilities_DB = 9 + 2.25 = 11.25 DB`.
+        * *Recalculating with this change:* Delta = 9.5 - 11.25 = -1.75 DB.
+        * `CP_Budget_DB = 45 + (-1.75) = 43.25 DB`.
+        * Printed CP = 43.25 / 4 = 10.8 CP. This went the wrong way, making Printed CP even higher because the rewards became much "cheaper" than the challenge, increasing the positive delta added to `TDB_Mission`. The formula `TDB_Mission + (Challenge - Reward)` means if Reward gets smaller, the `(Challenge - Reward)` delta gets larger (or less negative), increasing `CP_Budget_DB`.
+    3.  **Corrected Iteration Logic for User's Formula `TDB_Mission + (Challenge - Reward)`:**
+        To *reduce* Printed CP (because 8 CP is too high), we need to *reduce* `CP_Budget_DB`. This means:
+        * Decrease `TDB_Mission` (e.g., use fewer Mission DP).
+        * Make the `(Challenge_Cost_DB - Reward_Abilities_DB)` delta smaller or more negative. This is achieved by:
+            * Decreasing `Challenge_Cost_DB` (easier challenge).
+            * Increasing `Reward_Abilities_DB` (stronger rewards).
+        * *This seems counter-intuitive if we think stronger rewards should mean *less* roundly CP. The formula implies that if a mission's TDB is fixed, and its challenge becomes easier relative to its rewards, the mission must provide less ongoing CP. If its challenge is harder relative to its rewards, it provides more ongoing CP.*
+        * Let's re-run with `Reward_Abilities_DB` increased to 30 DB (very strong rewards) and `Challenge_Cost_DB` kept at 9.5 DB:
+            * Delta = 9.5 - 30 = -20.5 DB
+            * `CP_Budget_DB = 45 + (-20.5) = 24.5 DB`
+            * Printed CP = 24.5 / 4 = 6.125 CP (rounds to 6 CP). Still high, but lower.
+        * Let's try `Challenge_Cost_DB` = 5 DB (easier) and `Reward_Abilities_DB` = 30 DB:
+            * Delta = 5 - 30 = -25 DB
+            * `CP_Budget_DB = 45 + (-25) = 20 DB`
+            * Printed CP = 20 / 4 = 5 CP. This is getting into a more typical range.
+    4.  **Re-Calibrate System Parameters:** As noted before, the global parameters like `DP_Mission_Valuation_Factor` and especially `Roundly_CP_DB_Multiplier` are the most powerful levers for the design team to adjust average Printed CP outcomes across all missions. If the `Roundly_CP_DB_Multiplier` was higher (e.g., 10 DB), then a `CP_Budget_DB` of 20 DB would yield 2 Printed CP.
+
+This iterative process is essential. The example highlights how initial placeholder DBs can lead to outcomes needing adjustment to fit the desired game balance.
+
+**Step 8: Complete the Mission Card Template**
+
+* **Name:** Nexus Alignment Protocol
+* **Printed CP Value:** **5 CP** (Assuming iteration from the 8 CP initial calculation, by making the Challenge easier and/or rewards slightly more potent in DB terms, or adjusting TDB, to hit this more typical target. This is an *illustrative final value after hypothetical iteration*.)
+* **Domain Points:** Technology: 2, Psionics: 2 (Total: 4 DP)
+* **Card Feel Axes:** Malevolence: Neutral; Utility: Utility-focused; Combat: Neutral; Impact: Constructive
+* **Challenge:** "At the start of your Game Round, if you control at least one friendly Unit in each of your three Front Row quadrants on your Battlefield, AND you have 10 or more CP in your current CP pool, this mission is completed."
+    * *(Internal Note: Illustrative `Challenge_Cost_DB` after iteration might be, for example, 5.0 DB if simplified)*
+* **One-Time Ability (Upon Completion):** "Immediately gain 2 CP. Then, draw 1 card."
+    * *(Internal Note: Illustrative `DB Cost` after iteration might be, for example, 0.5 + 2*4.5 + 4.0 = 13.5 DB)*
+* **Passive Ability (After Completion):** "At the start of your Game Round, after you draw cards for the round, you may look at the top card of your deck. If you do, you may place that card on the bottom of your deck."
+    * *(Internal Note: Illustrative `DB Cost` = 2.25 DB. Total Reward DB = 13.5 + 2.25 = 15.75 DB)*
+    * *(Recalculating with these iterated illustrative values: `TDB_Mission = 45 DB`. `Challenge_Cost_DB = 5.0 DB`. `Reward_Abilities_DB = 15.75 DB`. Delta = 5.0 - 15.75 = -10.75 DB. `CP_Budget_DB = 45 + (-10.75) = 34.25 DB`. Printed CP = 34.25 / 4 = 8.56 CP -> rounds to 9 CP. This shows how sensitive it is; getting to exactly 5CP requires precise DB values or system calibration.)*
+    * **Let's assume for the template we stick to the initially calculated values and note the iteration need:**
+* **Printed CP Value:** **8 CP** *(From initial calculation, subject to balance iteration to target a lower value like 3-5 CP by adjusting input component DBs or system parameters).*
+* **Challenge:** "At the start of your Game Round, if you control at least one friendly Unit in each of your three Front Row quadrants on your Battlefield, AND you have 10 or more CP in your current CP pool, this mission is completed." *(Internal: Illustrative `Challenge_Cost_DB` = 9.5 DB)*
+* **One-Time Ability (Upon Completion):** "Immediately gain 3 CP. Then, draw 2 cards." *(Internal: Illustrative `DB Cost` = 22.0 DB)*
+* **Passive Ability (After Completion):** "At the start of your Game Round, after you draw cards for the round, you may look at the top card of your deck. If you do, you may place that card on the bottom of your deck." *(Internal: Illustrative `DB Cost` = 2.25 DB)*
+* **Flavor Text:** "Order begets power. Power begets understanding. Understanding begets alignment."
+* **Image Description:** A holographic interface displays three energy conduits converging from different points on a stylized battlefield map towards a central, glowing nexus symbol. Abstract psionic energy patterns and technological data streams flow along the conduits. The background shows a serene, high-tech observation deck overlooking a vast nebula.
+* **Faction:** Unaligned Scholars of the Nexus (Illustrative)
+
+This detailed example demonstrates the methodical process intended for designing and balancing Mission Cards, emphasizing the breakdown of Challenges and Abilities into costed components.
+
+---
+
+## X. Card Design Aesthetics and Thematic Development
+
+### A. Card Feel
+Mission Cards should evoke a specific "feel" using the Card Feel Axes (Malevolence, Utility, Combat, Impact) defined in CCG v2.0 (Section V.A). The Challenge, abilities, printed CP, Domain Point allocation, and overall theme should align to create this cohesive feel.
+
+### B. Developing a Mission Card Theme
+A strong theme enhances immersion and guides design.
+1.  **Choose a Core Theme:** Align with Quantum Nexus domains, factions, characters, or narrative events.
+2.  **Brainstorm Keywords/Concepts:** Identify terms and ideas that capture the theme's essence.
+3.  **Translate to Mechanics:** Design the Challenge and reward abilities to reflect the theme. Ensure the Mission Card's printed CP and DP allocation also feel appropriate for the theme.
+4.  **Narrative Integration:** Connect the mission to the game's lore where possible.
+5.  **Refine and Iterate:** Review for consistency, engagement, and balance.
+
+---
+
+## XI. Playtesting and Iteration for Mission Cards
+
+Rigorous playtesting is crucial. Focus feedback on:
+
+* **Challenge:** Clarity, perceived difficulty versus its `Challenge_Cost_DB`, engagement, strategic impact.
+* **Reward Abilities:** Impact, satisfaction, balance (compared to `Reward_Abilities_DB`), clarity, fun factor.
+* **Printed CP Value:** Does the roundly CP feel appropriate given the Challenge and Rewards? Does the Mission Card feel like a valuable strategic choice in a set of missions?
+* **Overall Balance:** How does the mission compare to others? Does it promote diverse strategies? Are there unintended exploits or overly dominant combinations?
+
+**Iterative Balancing:** Based on feedback and the Mission Card Balance Framework (Section VIII), designers must be prepared to adjust:
+* The **Challenge** design (and thus its `Challenge_Cost_DB`).
+* The **Reward Abilities** (and thus their `Reward_Abilities_DB`).
+* The Mission Card's **Domain Point** allocation (which affects `TDB_Mission`).
+* And through these, the resulting **Printed CP Value**.
+* System parameters like `DP_Mission_Valuation_Factor` or `Roundly_CP_DB_Multiplier` may also need calibration by the lead design team based on broad playtesting trends.
+
+The goal is a balanced, engaging, and strategically interesting set of Mission Cards.
+
+---
+
+## XII. Supporting Documentation and Appendices
+
+This document focuses on the unique aspects of Mission Card creation. For the design of abilities granted by Mission Cards, and for general card creation principles, designers **must** refer to:
+
+* **"Quantum Nexus: Detailed Rules":** For all core game rules, mechanics, and definitions.
+* **"Quantum Nexus: Card Creation Guidelines (CCG v2.0)":** For general card design principles, the Progressive Budget Build system, Card Feel, and other card type specifics.
+* **"Quantum Nexus: Ability Creation Guidelines (ACG)":** Essential for:
+    * The methodology of constructing abilities (Effects, Targets, Triggers, Conditions).
+    * **ACG Appendix E: Core Game Effects Catalogue**
+    * **ACG Appendix F: Core Game Targets Catalogue**
+    * **ACG Appendix G: Core Game Triggers Catalogue**
+    * **ACG Appendix H: Core Game Condition Types Catalogue**
+* The official **Master DB Cost List(s)** (to be developed and maintained by the design team): These will provide the definitive Design Budget (DB) point values for all ability components, keywords, and crucially for Mission Cards, **Challenge Components.** These lists are essential for objective costing within this framework.

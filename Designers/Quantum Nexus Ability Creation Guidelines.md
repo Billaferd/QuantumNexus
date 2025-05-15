@@ -8,575 +8,920 @@ This document is meant to be used in conjunction with the Quantum Nexus: Card Cr
 
 ## I. Introduction
 
-Welcome to the Quantum Nexus Ability Creation Guidelines! This guide is your key to understanding and crafting the unique abilities that power the cards in the Quantum Nexus universe. Abilities are the driving force behind every action in the game, from the devastating attacks of your units to the subtle manipulations of events and the game-changing effects of your mission cards.
+Welcome to the "Quantum Nexus: Ability Creation Guidelines"! This document is your comprehensive guide to understanding, designing, and describing the unique abilities that power the cards in the Quantum Nexus universe. Abilities are the driving force behind much of the game's strategic interaction, from the powerful capabilities of your Units and Assets to the impactful outcomes of Events.
 
-Think of abilities as the special moves or powers that your cards possess. They add a layer of strategic depth and tactical decision-making to every game, allowing you to outwit your opponents and achieve victory through cunning and skill. Whether you're designing a new unit with devastating attacks, an asset that provides ongoing support, or an event that disrupts your opponent's plans, understanding how to create and balance abilities is essential. Remember, this guide will give you a good start but only proper playtesting can balance any ability. As testing happens the costs outlined in this guide will be updated to better align with the gameplay of Quantum Nexus.
+Think of abilities as the special functions, powers, or characteristics that your cards possess. They add layers of strategic depth and tactical decision-making to every game. Whether you're designing a new Unit with unique combat prowess, an Asset that provides ongoing support, an Event that disrupts your opponent's plans, or a new Keyword that defines a common mechanic, understanding how to construct and conceptualize the "cost" of abilities is essential.
 
-In Quantum Nexus, abilities are more than just simple actions; they are carefully crafted combinations of effects, targets, triggers, and conditions. By weaving these elements together, you can create a rich tapestry of strategic possibilities, ensuring that every card has a unique personality and impact on the game.
-Here's a breakdown of the core components that make up an ability:
+A core principle of Quantum Nexus design is balance, which is achieved through careful design and rigorous playtesting. This guide provides a foundational framework for constructing abilities. The actual design budget valuation of these abilities, which influences a card's final Command Point (CP) cost, is determined by the **"Progressive Budget Build" (PBB) system** using **Design Budget (DB) points**, as detailed in the "Quantum Nexus: Card Creation Guidelines Version 2.0" (CCG v2.0). While this document uses *illustrative placeholder DB values* in its examples to demonstrate costing concepts, the official, calibrated DB costs for all ability components are maintained in the separate **Master DB Cost List(s)** by the design team. These Master Lists are living documents, updated as the game evolves through playtesting and balance adjustments.
 
- * Effects: These are the actions that an ability performs, such as dealing damage, healing, or manipulating the battlefield. They are the "what happens" part of an ability.
- * Targets: Every ability needs a target, which is what the effect is applied to. Targets can be anything from a specific unit on the battlefield to a player's CP pool or even the battlefield itself.
- * Triggers: Triggers determine when an ability can be activated. Some triggers are active, requiring a player to make a conscious choice to use them, while others are passive, activating automatically when certain conditions are met.
- * Conditions: Conditions add complexity to abilities by introducing "if-then" logic. They determine whether an effect is applied, how it is applied, or when it can be activated.
+In Quantum Nexus, abilities are carefully crafted combinations of core components:
 
-By mastering these components and understanding how they interact, you can create abilities that are not only powerful and effective but also balanced and engaging. This guide will delve into each of these components in detail, providing you with the knowledge and tools you need to craft the abilities that will define your Quantum Nexus creations.
+* **Effects:** These are the fundamental actions or outcomes that an ability produces (e.g., inflicting Impact, modifying stats, drawing cards, applying states). They are the "what happens" part of an ability. (Detailed in Section II and Appendix E).
+* **Targets:** These define what the effect is applied to (e.g., a specific Unit, a player, a quadrant). (Detailed in Section III and Appendix F).
+* **Triggers:** These determine when or how an ability activates (e.g., as a player's action, or automatically when a specific game event occurs). (Detailed in Section IV and Appendix G).
+* **Conditions:** These add "if-then" or "unless-then" logic, further defining whether an effect applies, how it's modified, or when it can be activated. (Detailed in Section V and Appendix H).
+
+By mastering these components and understanding how they interact—along with how they are budgeted within the PBB system (Section VI)—you can create abilities that are not only powerful and effective but also balanced and engaging. This guide will delve into each of these components, explore how they combine to form Keywords (Section VII) and more complex Synergistic Mechanics (Section VIII), and discuss other important design considerations. Our goal is to provide you with the knowledge and tools needed to craft the abilities that will define your Quantum Nexus creations.
 
 ## II. Effects
 
-In the realm of Quantum Nexus abilities, effects are the heart of the action. They dictate what happens when an ability is triggered, causing changes to the game state, influencing the battlefield, and ultimately determining the fate of your cards and your opponent's.
+In the realm of Quantum Nexus abilities, effects are the heart of the action. They dictate what happens when an ability is triggered, causing changes to the game state, influencing the Battlefield, and ultimately determining the fate of your cards and your opponent's.
 
-Think of effects as the verbs in the sentences of your abilities. They are the actions that bring your cards to life, transforming them from static entities into dynamic forces that shape the course of the game. Whether it's a bolt of energy vaporizing an enemy unit, a surge of psionic power manipulating the battlefield, or a divine blessing bolstering your defenses, effects are what make Quantum Nexus abilities so captivating and strategically rich.
+Think of effects as the verbs in the sentences of your abilities. They are the actions that bring your cards to life, transforming them from static entities into dynamic forces that shape the course of the game. Whether it's an energy blast targeting an enemy unit, a surge of psionic power manipulating the Battlefield, or a divine blessing bolstering your defenses, effects are what make Quantum Nexus abilities so captivating and strategically rich. Many effects will require a specified duration (e.g., "this Game Round," "until the next Start of Round Step," or "while this card is in play on the Battlefield/in the Loadout Area").
 
 ### Categorizing Effects
 
-Effects in Quantum Nexus are categorized into two main types:
+Effects in Quantum Nexus are categorized into two main types based on their intended impact on the target:
 
- * Beneficial Effects: These effects have a positive impact on their target. They heal, enhance, protect, or otherwise improve the game state for the player activating the ability.
- * Detrimental Effects: These effects have a negative impact on their target. They deal damage, weaken, destroy, or otherwise hinder the target, creating an advantage for the player activating the ability.
-Important Note: The categorization of an effect as beneficial or detrimental depends on the target. For instance, a healing effect is beneficial when targeting your own unit but becomes detrimental when used to heal an opponent's unit. This dynamic adds a layer of strategic depth to ability creation, allowing for versatile effects that can be used in various ways depending on the situation.
+* **Beneficial Effects:** These effects are intended to have a positive impact on their target. They might enhance, protect, provide resources, or otherwise improve the game state for the target's controller or the target card itself.
+* **Detrimental Effects:** These effects are intended to have a negative impact on their target. They might directly attack resilience, weaken, destroy, remove resources, or otherwise hinder the target, creating an advantage for the player activating the ability.
 
-### Types of Effects
+*Important Note:* The categorization of an effect as beneficial or detrimental often depends on the target and context. Designers should primarily consider the intended use case when determining an effect's nature.
 
-Quantum Nexus offers a diverse array of effects, each with its own unique impact on the game. Here are some of the most common types of effects you'll encounter:
+### Core Game Effects
 
- * Deal Damage: This effect reduces the Defense value of a target, potentially destroying it if the damage exceeds its Defense.
- * Heal: This effect restores the Defense value of a target, increasing its resilience and potentially saving it from destruction.
- * Boost Stats: This effect increases the Attack or Defense value of a target, making it more formidable in combat or more resistant to damage.
- * Reduce Stats: This effect decreases the Attack or Defense value of a target, weakening its offensive or defensive capabilities.
- * Draw Cards: This effect allows the player to draw a specified number of cards from their deck, increasing their options and hand size.
- * Discard Cards: This effect forces a player to discard a specified number of cards from their hand or deck, limiting their options and disrupting their strategy.
- * Destroy Card: This effect removes a target card from the game, permanently eliminating it from play.
- * Exile Card: This effect removes a target card from the game, similar to destroying it, but with potential differences in how certain game mechanics interact with exiled cards.
- * Manipulate Card Positions: This broad category encompasses effects that move cards between different areas of play, such as returning a unit to its owner's hand, shuffling a card into a deck, or rearranging units on the battlefield.
- * Gain CP: This effect adds CP to the player's CP pool, increasing their resources and allowing them to play more cards or activate more abilities.
- * Grant Keyword: This effect adds a keyword to a target card, granting it a special ability or modifying its existing abilities.
- * Remove Keyword: This effect removes a keyword from a target card, negating its special ability or altering its existing abilities.
- * Change Attack Range: This effect modifies a unit's attack range, potentially allowing it to attack from farther away or restricting its range.
+The fundamental actions and changes that abilities can impose on the game are catalogued in **Appendix E: Core Game Effects Catalogue**. This catalogue serves as the primary palette for designers. Broadly, these effects can involve:
 
-#### Examples of Effects in Action
+* Altering Card Attributes & States: Such as modifying Attack or Defense values, applying states like **Suppressed** or **Disordered**, changing a Unit's position, or granting/removing keywords.
+* Managing Player Resources: Including gaining or causing the loss of Command Points (CP), drawing or discarding cards, and interacting with Decks or Discard Piles.
+* Interacting with Game Flow & Rules: Such as negating other effects, influencing initiative, or directly impacting mission progression.
+* Removing Cards or Changing Zones: Effects like destroying cards (sending them to the Discard Pile) or returning cards to a player's hand.
 
- * "Psionic Blast" deals 3 damage to a target unit.
- * "Healing Touch" restores 2 Defense to a target unit or Asset.
- * "Blessing of Light" gives a target unit +1 Attack.
- * "Arcane Shield" adds 2 Defense to a target unit.
- * "Weakening Curse" reduces a target unit's Attack by 2.
- * "Arcane Surge" allows the player to draw 2 cards.
- * "Mind Control" forces the opponent to discard a card from their hand.
- * "Destroy" removes a target unit with an Attack higher than its Defense from the game.
- * "Banish" exiles a target unit from the game.
- * "Teleport" moves a target unit from one quadrant to another.
- * "Energy Surge" grants the player +2 CP for the remainder of the turn.
- * "Empower" grants the "Flying" keyword to a target unit.
- * "Dispel Magic" removes all keywords from a target unit.
- * "Sniper Rifle" increases a target unit's attack range by 1 quadrant.
+Designers should refer to **Appendix E** for a comprehensive list and specific descriptions of these core effects when constructing abilities.
 
-By understanding the different types of effects and how they can be combined with targets, triggers, and conditions, you can create a vast array of abilities that will bring your Quantum Nexus cards to life and shape the strategic landscape of the game.
+#### Examples of Effects in Action (Illustrative)
+
+The following examples demonstrate how effects (as catalogued in Appendix E) might be worded within an ability. Durations and specific conditions would be part of the full ability text.
+
+* Applying a stat modification: `"Target friendly Unit gets +2 Defense this Game Round."`
+* Manipulating player resources: `"Draw 2 cards."`
+* Applying a state: `"Apply Disordered to target Unit."`
+* Destroying a card: `"Destroy target Terrain."`
+* Manipulating card position: `"Return target friendly Unit to its owner's hand."`
+* Testing resilience directly: `"Inflict Impact 2 on target Unit."` (If the target Unit's Defense is 1, it's destroyed. If 2, it's Suppressed. If 3+, no effect).
+
+### Building an Effect Component: Example for "Kinetic Pulse"
+
+As we develop these guidelines, we will build a complete sample ability called "Kinetic Pulse" piece by piece. Here, we define its core **effect component**.
+
+**1. Define the Effect Text for "Kinetic Pulse":**
+Drawing from the types of effects listed in Appendix E (specifically, an effect like "Inflict Impact X on Unit"), the primary effect for "Kinetic Pulse" will be:
+`"Inflict Impact 1 on all other Units in this Unit's quadrant."`
+
+This effect combines a resilience-testing primitive with a specific targeting scope (targeting will be further detailed in Section III: Targets).
+
+**2. Conceptual Breakdown & Illustrative DB Costing (for this Effect Component Only):**
+This section provides a preview of the costing approach that will be fully detailed in Section VI. The Design Budget (DB) costs shown here are **purely illustrative placeholders** to demonstrate the concept of costing constituent parts. Actual DB costs for game design must be sourced from the official, calibrated **Master DB Cost List(s)**.
+
+The effect component `"Inflict Impact 1 on all other Units in this Unit's quadrant"` could be conceptually broken down for DB estimation as follows:
+
+* **A. Core Effect Primitive:**
+    * Type: `Inflict Impact on Unit` (from Appendix E)
+    * Specifics: Value of Impact = 1.
+    * *Illustrative Placeholder DB for "Inflict Impact 1 instance":* `1.0 DB`
+* **B. Target Scope Aspect of the Effect:**
+    * Implicit Target: "all other Units in this Unit's quadrant." (While targets are detailed in Section III, the effect's phrasing defines its reach).
+    * *Illustrative Placeholder DB for the targeting scope "all other Units in this Unit's quadrant":* `+1.5 DB` (This value notionally accounts for the area-of-effect nature, excluding self, and affecting multiple potential targets.)
+
+**Illustrative Estimated DB Cost for this Effect Component:**
+`1.0 DB (Base Impact primitive) + 1.5 DB (Target Scope aspect) = 2.5 DB`
+
+**Important Disclaimer:**
+This `2.5 DB` is an illustrative, conceptual cost for *only the effect portion* (including its inherent targeting scope) of our "Kinetic Pulse" example. The final DB cost of the complete "Kinetic Pulse" ability will also depend on its Trigger (Section IV) and any Conditions (Section V). All component costs would be officially sourced from the Master DB Cost List(s) for actual card design. This example serves to show the thinking process of identifying an effect from the catalogue and estimating its design budget weight based on its constituent parts. The full methodology for ability costing using the Progressive Budget Build system will be detailed in Section VI.
 
 ## III. Targets
 
-In Quantum Nexus, every effect needs a target. Targets define the object or entity that an ability's effect will act upon. They are the "who" or "what" that will be impacted by the ability. Selecting the right target is crucial for creating abilities that are both effective and strategically interesting.
+In Quantum Nexus, an ability's effect typically acts upon one or more **targets**. Targets define the specific cards, players, game elements, or even abstract concepts that an ability will influence. Clearly defining the target(s) is crucial for creating abilities that are precise, strategically interesting, and function as intended within the game rules.
 
-Think of targets as the objects of the verbs in your ability sentences. They are the recipients of the action, the things that will be changed or influenced by the effect. Whether it's a powerful enemy unit being blasted with a laser beam, a friendly asset receiving a protective shield, or a player's CP pool being drained, targets are what make Quantum Nexus abilities so dynamic and versatile.
+Think of targets as the specific recipients of an ability's action. Whether it's a single enemy Unit being struck by an energy pulse, a friendly Asset receiving a defensive enhancement, cards in a player's Discard Pile being returned to their hand, or an entire quadrant on the Battlefield being altered by a Terrain effect, precise targeting is key to an ability's function and tactical application. Abilities must clearly specify what they can target (see Rulebook Section VII.A on Targeting for general principles).
 
-### Target Categories
+### Core Game Targets
 
-Quantum Nexus offers a wide range of possible targets, allowing for a great deal of creativity and strategic depth in ability design. Here are some of the main target categories:
+The fundamental entities, attributes, and zones that abilities can target within Quantum Nexus are catalogued in **Appendix F: Core Game Targets Catalogue**. This catalogue serves as the primary reference for designers. Broadly, these targets can include:
 
- * Card: This is the most common target category, encompassing all the different types of cards in the game.
-   * Unit: A card representing a character or vehicle used for attacking and defending.
-   * Leader: A powerful unit card with enhanced abilities.
-   * Asset: A persistent card that provides ongoing benefits or activates special abilities.
-   * Event: A card played for a one-time powerful effect.
-   * Upgrade: A card that modifies another card's stats or grants new abilities.
-   * Terrain: A card that represents different environments on the battlefield.
- * Deck: This category includes the different parts of a player's deck.
-   * Draw Deck: A player's shuffled collection of cards from which they draw.
-   * Discard Pile: A pile where destroyed or used cards are placed.
- * Stats: This category refers to the numerical values associated with cards or players.
-   * Attack Value: A unit's offensive power.
-   * Defense Value: A unit's or asset's resilience.
- * Player: This category simply refers to one of the players in the game.
- * Game Element: This category encompasses various elements of the game itself.
-   * Quadrant: A section of the battlefield where units are deployed.
-   * Loadout Area: The designated space for placing Asset cards.
-   * Initiative: Determines which player acts first within a phase.
-Examples of Targets in Abilities
- * "Arcane Bolt" deals 2 damage to a target Unit.
- * "Repair" restores 3 Defense to a target Asset.
- * "Empower" grants +1 Attack to all Units in a target Quadrant.
- * "Draw 2 cards" targets the Player activating the ability.
- * "Mind Control" forces the Opponent to discard a card.
+* **Cards:** Specific cards in various game zones (In Play, Hand, Deck, Discard Pile, Mission Card Area), often distinguished by type (Unit, Leader, Asset, etc.) or other properties.
+* **Players:** The player controlling the ability (Self), an Opponent, any player, or players meeting certain conditions.
+* **Game Elements & Zones:** Physical areas like Quadrants or Loadout Areas, or entire zones like a player's Deck or Discard Pile.
+* **Abstract Game Concepts:** Such as a card's stats (Attack, Defense), a player's CP, keywords, or even other abilities (for negation or copying effects).
 
-By carefully selecting the right target for your effect, you can create abilities that are strategically interesting, thematically appropriate, and contribute to the overall balance and excitement of Quantum Nexus.
+Designers must refer to **Appendix F** for a comprehensive list and specific descriptions of these core targets when constructing the targeting component of an ability.
+
+**Note on Target Specificity:** Abilities often include conditions that refine targeting (e.g., "target Unit with Attack 3 or less," "target friendly Technology Unit"). These conditions are part of the ability's overall logic and are discussed further in Section V: Conditions. The choice of target, including its scope and any conditional requirements, will influence its Design Budget (DB) cost within the Progressive Budget Build system.
+
+#### Examples of Targets in Abilities (Illustrative)
+
+The following examples demonstrate how targets (as catalogued in Appendix F) might be specified within an ability's text.
+
+* `"Inflict Impact 2 on target Unit."` (Targeting a `Unit` from Appendix F, Section I.A).
+* `"Bolster Defense of target friendly Asset by 2 this Game Round."` (Targeting an `Asset`, further specified as `friendly`, from Appendix F, Section I.A).
+* `"All Units in target Quadrant get -1 Attack this Game Round."` (Targeting a `Quadrant` from Appendix F, Section III.A, with the effect applying to `Unit` cards within that `Quadrant`).
+* `"You (the activating player) draw 1 card."` (Targeting `Player (Self)` from Appendix F, Section II).
+* `"Target opponent discards 1 card from their hand."` (Targeting `Player (Opponent)` from Appendix F, Section II, with the effect interacting with `Card(s) in Hand` from Appendix F, Section I.B).
+* `"Return target Unit with CP cost 3 or less from your Discard Pile to your hand."` (Targeting a `Card(s) in Discard Pile`, specifically a `Unit` meeting certain conditions, from Appendix F, Section I.D and I.F).
+
+By carefully selecting and clearly defining the target(s) for an ability using the elements catalogued in Appendix F, designers ensure its effects are applied precisely where intended, contributing to strategic depth and clear gameplay.
+
+### Defining a Target Component: Example for "Kinetic Pulse"
+
+Continuing with our sample ability, "Kinetic Pulse," its defined effect component (from Section II) is: `"Inflict Impact 1 on all other Units in this Unit's quadrant."`
+
+**1. Identify the Target Component Text for "Kinetic Pulse":**
+From the full effect phrase, the **target component** is:
+`"all other Units in this Unit's quadrant."`
+
+This target specification can be understood as a combination of target primitives or a defined targeting scheme that would be catalogued or constructible from elements in **Appendix F: Core Game Targets Catalogue**. For instance, it involves targeting:
+* Multiple `Unit` cards (Appendix F, Section I.A).
+* Scoped to a specific `Quadrant` (Appendix F, Section III.A) relative to the source ("this Unit's quadrant").
+* With an exclusion ("other Units," implying the source Unit is not targeted).
+
+**2. Conceptual Breakdown & Illustrative DB Costing (for this Target Component Only):**
+This section provides a preview of the costing approach that will be fully detailed in Section VI. The Design Budget (DB) costs shown here are **purely illustrative placeholders** to demonstrate the concept of costing constituent parts. Actual DB costs for game design must be sourced from the official, calibrated **Master DB Cost List(s)**.
+
+The target component `"all other Units in this Unit's quadrant"` could be conceptually broken down for DB estimation as follows. The Master DB Cost List might offer a pre-defined cost for this common targeting pattern or provide costs for the constituent primitives that combine to form it:
+
+* **A. Base Target Primitive(s):**
+    * Targets: `Unit(s)` (from Appendix F, Section I.A).
+    * *Illustrative Placeholder DB for base "Targets Unit(s)" aspect:* `0.5 DB`
+* **B. Scope/Location Modifier:**
+    * Scope: "in this Unit's quadrant" (targeting relative to the source Unit's `Quadrant`, as per Appendix F, Section III.A).
+    * *Illustrative Placeholder DB for scope "in source's quadrant":* `+0.5 DB`
+* **C. Quantity Modifier:**
+    * Quantity: "all" (within the defined scope).
+    * *Illustrative Placeholder DB for quantity "all within defined scope":* `+0.75 DB`
+* **D. Exclusion Modifier:**
+    * Exclusion: "other" (excludes the source Unit itself).
+    * *Illustrative Placeholder DB for "excludes self" refinement:* `-0.25 DB` (This negative modifier reflects a slight reduction in impact/complexity compared to affecting *all* including self).
+
+**Illustrative Estimated DB Cost for this Target Component:**
+`0.5 DB (Base: Unit) + 0.5 DB (Scope: Source's Quadrant) + 0.75 DB (Quantity: All in Scope) - 0.25 DB (Exclusion: Other) = 1.5 DB`
+
+**Important Disclaimer:**
+This `1.5 DB` is an illustrative, conceptual cost for *only the target portion* of our "Kinetic Pulse" example. The previous section (Section II) illustratively costed the "Inflict Impact 1 instance" effect primitive at `1.0 DB`. Thus, the combined effect + target parts of "Kinetic Pulse" would illustratively be `1.0 DB + 1.5 DB = 2.5 DB` so far.
+
+The final DB cost of the complete "Kinetic Pulse" ability will also depend on its Trigger (Section IV) and any further Conditions (Section V). All component costs for actual card design must be officially sourced from the Master DB Cost List(s). This example serves to demonstrate the thinking process of breaking down a target specification into finer aspects—all of which are now catalogued in Appendix F—to estimate its design budget weight. The full methodology for ability costing using the Progressive Budget Build system will be detailed in Section VI.
 
 ## IV. Triggers
 
-In Quantum Nexus, triggers are the catalysts that bring abilities to life. They define the specific conditions or events that must occur for an ability to activate. Think of triggers as the "when" or "why" behind an ability's execution. They add a layer of strategic timing and decision-making to the game, ensuring that abilities are not simply used at any moment but require careful planning and execution.
+In Quantum Nexus, **triggers** are the catalysts that bring abilities to life. They define the specific conditions, game events, or player choices that must occur for an ability to activate. Think of triggers as the "when" or "how" an ability initiates its effects. They add a layer of strategic timing, decision-making, and reactivity to the game.
 
-Imagine triggers as the sparks that ignite the flames of your abilities. They are the cues that tell your cards when to unleash their powers, whether it's a unit striking back when attacked, an asset activating its defenses when a certain condition is met, or an event disrupting the battlefield at a crucial moment. Triggers are what make Quantum Nexus abilities so dynamic and interactive, creating a constant flow of strategic possibilities.
+Triggers determine the precise moments abilities can be used or will automatically occur, shaping the flow of interaction and strategic possibilities. The comprehensive list of defined trigger events and conditions available for ability design can be found in **Appendix G: Core Game Triggers Catalogue**.
 
 ### Types of Triggers
 
-Triggers in Quantum Nexus can be categorized into two main types:
+Conceptually, triggers in Quantum Nexus fall into two broad categories:
 
- * Active Triggers: These triggers require a player to make a conscious decision to activate an ability. They often involve a cost, such as paying CP or discarding a card, and give players control over when to use their abilities.
- * Passive Triggers: These triggers activate automatically when certain conditions are met, without requiring any player input. They add an element of surprise and create dynamic interactions on the battlefield.
-Examples of Active Triggers
- * Resource Cost (CP): Pay a specific amount of CP to activate an ability.
-   * Example: "Calculated Strike (3 CP)"
- * Card Activation: Activate a card's inherent ability or attach a card to another.
-   * Example: "Adapt" - Discard a card. This unit gains +2 Attack until the end of the turn.
- * Card Discard: Discard a card as a cost to activate an ability.
-   * Example: "Emergency Power" - Discard a card to gain 3 CP.
-Examples of Passive Triggers
- * Unit Deployment: Triggered when a specific unit type or faction is deployed.
-   * Example: "Hive Mind Synergy" - Whenever another friendly Zyn unit is deployed within range, that unit gains +1 Attack until the end of the turn.
- * Unit Attack/Defense: Triggered when a unit is declared as an attacker or when a unit is attacked.
-   * Example: "Fear" - This unit cannot be targeted by attacks or abilities for the rest of the turn.
- * Unit Destruction: Triggered when a unit is destroyed.
-   * Example: "Adapt and Overcome" - Whenever a friendly Ferro-Sapien unit is destroyed, discard a card from your hand. If you do, you may search your deck for a Ferro-Sapien unit with a CP Cost equal to or less than the destroyed unit’s CP Cost and deploy it to the battlefield.
- * Conditional Triggers: Triggered when a specific set of conditions is met, often involving board state or player actions.
-   * Example: "Enhanced Growth" - When this unit enters a quadrant with a Terrain card, draw a card.
+* **Active Triggers:** These are associated with **Active Abilities**. They signify that a player must make a conscious decision to use the ability, typically by choosing it as one of their single actions during their turn in the Activation Sequence (see Rulebook Section III.C.2). This activation often involves paying specified gameplay costs (like CP or exhausting the card), which are part of the ability's text but separate from the trigger itself. The fundamental trigger for these is "As a Player Action (Activate this Ability)" (Appendix G, Section I).
+* **Event-Driven Triggers (Passive/Automatic):** These triggers cause an ability to activate automatically whenever a specific game event occurs or a particular condition in the game state is met, without requiring the player to use one oftheir single actions. Examples include an ability triggering "When this Unit is destroyed" or "At the Start of the Game Round." The resolution of these triggered abilities follows the rules detailed in Rulebook Section VII.A. A full list of such triggers can be found in Appendix G, Sections II.A through II.D.
+
+### Understanding and Using Triggers from Appendix G
+
+When designing an ability, you will select an appropriate trigger from Appendix G that dictates when the ability can or will activate.
+
+* **For Active Abilities:** The trigger will be "As a Player Action (Activate this Ability)." The ability's rule text will then specify any gameplay costs (CP, exhausting, etc.) and the effects.
+    * *Example Card Text Snippet (Active Ability):* "**Action:** Pay 2 CP and Exhaust this Unit to..." (Here, "Action:" signifies the "As a Player Action" trigger).
+
+* **For Event-Driven Abilities:** The trigger will be a specific game event.
+    * *Example Card Text Snippet (Event-Driven Trigger):* "**When** this Unit is deployed, you may draw 1 card." (Draws from "When [This/Target/Any] Card is Deployed" in Appendix G, Section II.B).
+    * *Example Card Text Snippet (Event-Driven Trigger):* "**At the Start of the Game Round,** if you control more Units than any opponent, gain 1 CP." (Draws from "At the Start of the Game Round" in Appendix G, Section II.A, with an additional condition).
+
+Designers should refer to **Appendix G: Core Game Triggers Catalogue** for the comprehensive list of available triggers.
 
 ### Key Considerations for Trigger Design
 
- * Timing: Carefully consider when a trigger should activate to ensure it aligns with the ability's purpose and creates interesting strategic interactions.
- * Frequency: Balance the frequency of a trigger to avoid creating abilities that are too easily abused or too difficult to utilize effectively.
- * Clarity: Clearly define the conditions that activate a trigger to avoid confusion and ensure consistent gameplay.
- * Counterplay: Consider how opponents might interact with or counter a trigger, ensuring that abilities are not too one-sided or oppressive.
-By mastering the art of trigger design, you can create abilities that are dynamic, interactive, and strategically engaging, adding depth and complexity to the Quantum Nexus experience.
+* **Timing and Relevance:** Does the trigger align with the ability's intended purpose and the strategic window in which it should be impactful? Consider the flow of a Game Round (Start of Round Step, Activation Sequence actions) as defined in Rulebook Section III.C.
+* **Frequency and Impact:** How often is the trigger likely to occur? Frequent triggers for powerful effects can be unbalancing, while very niche triggers for minor effects might render an ability useless. The DB cost of a trigger (from the Master DB Cost List) will reflect its potential frequency and game impact.
+* **Clarity and Precision:** The trigger condition must be phrased clearly and unambiguously, using established game terminology from the Rulebook and Appendices. This ensures consistent interpretation and resolution.
+* **Interaction and Counterplay:** Consider how the trigger interacts with other game elements and if there are reasonable opportunities for opponents to play around it or respond to the ability once triggered (as per Rulebook Section VII.A on resolving triggered abilities).
+
+By carefully selecting triggers from Appendix G and considering these design principles, you can create abilities that are dynamic, interactive, and strategically engaging.
+
+### Defining a Trigger Component: Example for "Kinetic Pulse"
+
+Continuing with our sample ability, "Kinetic Pulse":
+* Its Effect component is: `"Inflict Impact 1 on all other Units in this Unit's quadrant."` (Illustrative DB cost so far for effect+target: `2.5 DB`)
+
+Now, we define its **trigger component**. For "Kinetic Pulse," we will design it as an Active Ability that a player must choose to use.
+
+**1. Identify the Trigger Component for "Kinetic Pulse":**
+The trigger for "Kinetic Pulse," as an Active Ability, is:
+`"As a Player Action (Activate this Ability)"`
+This is drawn from **Appendix G: Core Game Triggers Catalogue, Section I.** This means a player must use one of their single actions during their turn in the Activation Sequence to use Kinetic Pulse, and they would also pay any gameplay activation costs defined in Kinetic Pulse's full ability text (which we will finalize later but assume for now include paying CP and exhausting).
+
+**2. Conceptual Breakdown & Illustrative DB Costing (for this Trigger Component Only):**
+This section provides a preview of the costing approach that will be fully detailed in Section VI. The Design Budget (DB) cost shown here is a **purely illustrative placeholder**. Actual DB costs for game design must be sourced from the official, calibrated **Master DB Cost List(s)**.
+
+The trigger component `"As a Player Action (Activate this Ability)"` has an intrinsic design budget cost because it consumes one of the player's limited actions during the Activation Sequence.
+
+* **A. Core Trigger Primitive:**
+    * Type: `As a Player Action (Activate this Ability)` (from Appendix G, Section I).
+    * *Illustrative Placeholder DB for this trigger type:* `1.0 DB` (This conceptual cost reflects the opportunity cost of using a player's action.)
+
+**Illustrative Estimated DB Cost for this Trigger Component:** `1.0 DB`
+
+**Important Disclaimer:**
+This `1.0 DB` is an illustrative, conceptual cost for *only the trigger portion* of our "Kinetic Pulse" example.
+So far, for "Kinetic Pulse":
+* Effect + Target components: Illustrative `2.5 DB`
+* Trigger component: Illustrative `1.0 DB`
+* Running Illustrative Total DB: `3.5 DB`
+
+The final DB cost of the complete "Kinetic Pulse" ability will also depend on any Conditions (Section V) and any specific gameplay activation costs (like CP or exhausting the source Unit) which might influence the DB values assigned in the Master DB Cost List. All component costs for actual card design must be officially sourced from the Master DB Cost List(s). This example serves to demonstrate how a trigger is selected from Appendix G and how its nature contributes to the ability's design budget weight. The full methodology for ability costing will be detailed in Section VI.
 
 ## V. Conditions
 
-In Quantum Nexus, conditions add a layer of complexity and strategic depth to abilities. Conditions are essentially "if-then" statements that determine whether an effect is applied, how it is applied, or when it can be activated. They introduce a layer of decision-making and adaptability to the game, allowing abilities to be more versatile and responsive to different situations.
+In Quantum Nexus, **conditions** add a layer of complexity and strategic depth to abilities. Conditions are essentially criteria or checks against the current game state, card attributes, or player choices that determine whether an ability (or part of its effect) can activate, how it resolves, or if its costs are modified. They introduce "if-then" or "unless-then" logic, allowing abilities to be versatile and responsive.
 
-Think of conditions as the "rules" or "requirements" that govern your abilities. They are the filters that determine when and how an effect takes place, adding a layer of strategic nuance to every action. Whether it's a unit gaining extra attack power "if" it's in a specific quadrant, an ability activating "when" a certain card is played, or an effect triggering "unless" the opponent pays a cost, conditions are what make Quantum Nexus abilities so dynamic and interactive.
+Think of conditions as the specific requirements or circumstances that must be true (or false) for an ability to function in a particular way. They act as filters or modifiers, adding strategic nuance to every action. Whether an ability only works if a Unit is in a specific quadrant, or if a player controls a certain type of card, or unless an opponent pays a cost, conditions are key to dynamic and interactive gameplay. The types of checks that can form a condition are catalogued in **Appendix H: Core Game Condition Types Catalogue**.
 
-### Common Conditionals
+### Conditional Phrasing & Logic
 
-Here are some of the most common conditional phrases you'll encounter in Quantum Nexus:
+Abilities use conditional phrases to incorporate checks against the game state. The most common are:
 
- * If: This conditional checks for a specific state or event. The ability only activates if the condition is met at the moment the trigger occurs.
-   * Example: "If your CP is less than 5, draw a card."
- * When: This conditional indicates that the ability activates automatically when a specific event happens. This implies continuous activation whenever the trigger occurs.
-   * Example: "When this unit enters a quadrant with a Terrain card, draw a card."
- * During: This conditional specifies a particular phase of the game during which the ability can be activated.
-   * Example: "During your Command Phase, you may discard a card to gain 2 CP."
- * After: This conditional triggers the ability after a specific action or event has been resolved.
-   * Example: "After destroying an enemy unit, this unit gains +1 Attack."
- * Unless: This conditional reverses the typical conditional logic. The ability activates unless the specified condition is met.
-   * Example: "Discard a card. Unless you do, lose 2 CP."
+* **If [Condition is True], then [Effect Occurs / Modification Applies]:**
+    This is the most straightforward conditional structure. The specified effect or modification only happens if the stated condition (drawn from the types in Appendix H) is met at the relevant time (usually upon activation or resolution of the ability).
+    * *Example:* `"If this Unit is in a Front Row quadrant, it gains +1 Attack this Game Round."` (The condition is "this Unit is in a Front Row quadrant" – see Appendix H, Section II.D).
+* **Unless [Condition is True], then [Effect Occurs / Modification Applies]:**
+    This reverses the logic. The effect or modification happens *unless* the stated condition is met.
+    * *Example:* `"Target opponent discards 1 card, unless their CP is 0."` (The condition is "opponent's CP is 0" – see Appendix H, Section III.A).
+
+**Distinction from Triggers:**
+It's important to distinguish conditions from triggers (see Section IV and Appendix G).
+* **Triggers** (e.g., "When X happens," "After Y occurs," "At the start of Z") define *when an ability activates or attempts to resolve.*
+* **Conditions** (e.g., "If A is true," "Unless B is met") are checks made *at the point of a trigger, activation, or resolution* to determine if or how an ability proceeds.
+    While some trigger phrases like "When..." might seem conditional, they define the actual event that initiates the ability. A condition, on the other hand, is a secondary check. For instance, in `"When this Unit is deployed, if you control a Leader, draw a card,"` "When this Unit is deployed" is the trigger, and "if you control a Leader" is the condition.
+
+**Timing of Conditional Checks:**
+Unless specified otherwise, conditions are checked:
+* For Active Abilities: When the ability is declared as an action and when it begins to resolve. If a condition is not met at activation, the ability cannot be activated. If it's not met at resolution (due to changes in game state), the conditional part of the effect may not occur.
+* For Event-Driven (Triggered) Abilities: When the trigger event occurs and when the ability begins to resolve.
 
 ### Boolean Operators for Complex Conditions
 
-To create even more complex and nuanced conditions, Quantum Nexus utilizes boolean operators. These operators allow you to combine multiple conditions, creating intricate logic that adds depth to your abilities.
+To create more intricate logic, conditions can be combined using standard Boolean operators. These allow for multiple checks to determine an outcome. Refer to Appendix H for the types of conditions that can be combined.
 
- * And: Both conditions connected by "And" must be true for the ability to activate.
-   * Example: "When this unit is attacked AND your CP is greater than 5, you may discard a card to deal 3 damage to the attacker."
- * Or: The ability activates if at least one of the conditions connected by "Or" is true.
-   * Example: "When a friendly unit is deployed OR an enemy unit is destroyed, gain 1 CP."
- * Not: The ability activates only if the condition following "Not" is false.
-   * Example: "Draw a card. Not if you have 5 or more cards in hand."
- * Xor: (Exclusive Or) The ability activates if exactly one of the conditions connected by "Xor" is true, but not both.
-   * Example: "Xor: If this unit is in the front row, it gains +2 Attack. If this unit is in the back row, it gains +2 Defense."
-Examples of Conditions in Abilities
- * "If this unit is in the Front Row, it gains +1 Attack."
- * "When another friendly unit is deployed, this unit gains +1 Defense."
- * "During your Command Phase, you may pay 2 CP to draw a card."
- * "After this unit attacks, it gains +1 Attack."
- * "Unless you control a Technology unit, this ability costs 2 more CP to activate."
-By mastering the use of conditionals and boolean operators, you can create abilities that are adaptable, responsive, and strategically engaging, adding a new dimension of complexity and excitement to Quantum Nexus.
+* **AND:** Both (or all) connected conditions must be true.
+    * *Example:* `"If this Unit is in a Front Row quadrant AND you have 5 or more CP, its activated abilities cost 1 CP less to activate this Game Round."`
+* **OR:** At least one of the connected conditions must be true.
+    * *Example:* `"If this Unit is Exhausted OR it is Disordered, it gets +2 Defense."`
+* **NOT:** The specified condition must be false.
+    * *Example:* `"If you do NOT control any Terrain cards, reduce the cost of the next card you play this Game Round by 1 CP."`
+* **XOR (Exclusive OR):** Exactly one of the connected conditions must be true (but not both). While less common, this logic can be used for mutually exclusive effects.
+    * *Example:* (Hypothetical advanced usage) `"XOR: If this Unit is in your leftmost friendly quadrant, it gains +1 Attack; if this Unit is in your rightmost friendly quadrant, draw a card."`
 
-## VI. Ability Costing and Card Creation
+### Examples of Conditions in Abilities (Illustrative)
 
-In Quantum Nexus, the creation of cards and mission cards is a meticulous process that involves careful balancing of various factors, including the intricate costs associated with abilities. The Ability Point (AP) system, as detailed in these guidelines, plays a crucial role in this balancing act, ensuring that abilities are appropriately costed and contribute to a fair and engaging gameplay experience.
+These examples showcase how different condition types from Appendix H might be used:
 
-Think of the Ability Creation Guidelines as the blueprint for crafting the individual components of a Quantum Nexus card, while the Card and Mission Card Creation Guidelines serve as the architect's plan for assembling those components into a cohesive and balanced structure. The AP system, in essence, is the cost estimator, ensuring that the final design doesn't exceed the allotted budget.
+* Using a Card State Condition (Appendix H, II.C): `"If this Unit is Suppressed, it cannot be chosen as a target for opponent's Event cards."`
+* Using a Player Resource Condition (Appendix H, III.A): `"Activate this ability. If your CP is 3 or less, this ability's effect is doubled."`
+* Using a Board Presence Condition (Appendix H, III.B): `"Unless you control a 'Technology' subtype Unit, the CP cost to play this card is increased by 2."`
+* Using a Comparison Condition (Appendix H, IV): `"If this Unit's Attack is greater than its Defense, it gains 'Attacks made by this Unit cannot be responded to by Interrupts.'" (Illustrative new keyword).`
+* Using a Cost-Related Condition (Appendix H, V): `"You may discard 2 cards. If you do, destroy target Unit."`
 
-### The Interplay of Abilities, Cards, and Mission Cards
+Designers should strive for clarity when phrasing conditions, ensuring that the check being made and its consequences are unambiguous. The Design Budget (DB) cost/modifier for a condition (from the Master DB Cost List) will reflect its impact on an ability's power, flexibility, and likelihood of being met.
 
-Abilities, in their various forms, are the building blocks of cards and mission cards. They define the actions, reactions, and overall impact of these cards within the game. The AP system, therefore, is intrinsically linked to the card and mission card creation process, ensuring that the abilities assigned to a card are commensurate with its overall power level and strategic role.
+### Defining a Condition Component: Example for "Kinetic Pulse"
 
-Key Points to Remember
+Continuing with our sample ability, "Kinetic Pulse":
+* Effect component: `"Inflict Impact 1 on all other Units in this Unit's quadrant."` (Illustrative DB: `2.5` for effect+target)
+* Trigger component: `"As a Player Action (Activate this Ability)"` (Illustrative DB: `1.0`)
+* Running Illustrative Total DB so far: `3.5 DB`
 
- * Abilities as Components: Abilities, whether they manifest as active abilities, passive abilities, or keywords, are the functional components of cards and mission cards. They determine how these cards interact with the game and influence its strategic landscape.
- * AP System as Cost Estimator: The AP system provides a structured framework for costing abilities based on their power, versatility, and overall impact. It ensures that abilities are appropriately balanced and contribute to a fair and engaging gameplay experience.
- * Card and Mission Card Creation as Assembly: The Card and Mission Card Creation Guidelines provide the framework for assembling abilities and other card attributes into cohesive and balanced cards. The AP system ensures that the final design doesn't exceed the allotted budget for abilities.
- * Synergy and Balance: The AP system encourages synergy between abilities and other card attributes, ensuring that the final card design is not only powerful but also strategically interesting and thematically appropriate.
+Let's add a simple **condition component** to "Kinetic Pulse" to make its use more tactical.
 
-### Calculating Ability Costs
+**1. Define the Condition Text for "Kinetic Pulse":**
+We will add a positional condition:
+The ability will now conceptually be: "_As a Player Action: **If this Unit is in a friendly Front Row quadrant,** inflict Impact 1 on all other Units in this Unit's quadrant._"
 
-In Quantum Nexus, the AP cost of an ability isn't simply a fixed value; it's a dynamic calculation based on the various components that make up the ability. Each element — the effect, target, trigger, and any conditions — contributes to the overall AP cost, ensuring that the final cost accurately reflects the ability's power and versatility.
+The condition component is: `"If this Unit is in a friendly Front Row quadrant"`
+This condition type is found in **Appendix H: Core Game Condition Types Catalogue, Section II.D** (Card Location).
 
-Think of it like constructing a powerful artifact in the Quantum Nexus universe. Each component you add, each enchantment you weave, and each safeguard you put in place increases the artifact's value and, consequently, its cost. Similarly, the more intricate and potent your ability becomes with the addition of specific effects, targets, triggers, and conditions, the higher its AP cost will be.
+**2. Conceptual Breakdown & Illustrative DB Cost/Modifier (for this Condition Component Only):**
+This section provides a preview of the costing approach that will be fully detailed in Section VI. The Design Budget (DB) costs shown here are **purely illustrative placeholders**. Actual DB costs/modifiers for game design must be sourced from the official, calibrated **Master DB Cost List(s)**.
 
-### Understanding the AP Cost Columns
+Conditions often act as modifiers to an ability's base DB cost or are factored into the DB cost of a pre-defined ability template from the Master List. A condition that restricts an ability's use might slightly reduce its overall DB cost (or allow a more powerful base effect for the same total DB) compared to an unconditional version. Conversely, a condition that enables an unusually powerful effect might have its "cost" subsumed into the high DB cost of that powerful effect.
 
-Appendices A and B provide reference tables for the AP costs of various effects and triggers. These tables include two AP Cost columns: "AP Cost (Player)" and "AP Cost (Opponent)." These columns represent the cost of an effect from the perspective of the player using the ability:
+For this specific condition:
+`"If this Unit is in a friendly Front Row quadrant"`
 
-*   **AP Cost (Player):**  This column indicates the AP cost when the effect targets the player who owns the card. A negative value signifies a detrimental effect to the player, while a positive value represents a beneficial effect.
-*   **Example:** The "Discard a Card" effect has an "AP Cost (Player)" of -1, reflecting the disadvantage of discarding a card from the player's hand.
-*   **AP Cost (Opponent):** This column shows the AP cost when the effect impacts the opponent. Similar to the "AP Cost (Player)" column, a negative value denotes a harmful effect for the opponent, while a positive value indicates a beneficial effect for the opponent (and a detriment to the player).
-*   **Example:** The "Deal Damage" effect has an "AP Cost (Opponent)" of +3, signifying the advantage gained by the player when dealing damage to the opponent.
+* **A. Core Condition Type:**
+    * Type: `Card Location Check` (Unit's position) (from Appendix H, Section II.D).
+    * Specificity: Requires being in one of three (out of six) specific friendly quadrants. This is a moderate restriction.
+    * *Illustrative Placeholder DB Modifier for this condition:* `-0.5 DB` (This negative value suggests the condition *restricts* the ability, potentially making the overall ability slightly "cheaper" in DB or justifying its current power level. The Master List would clarify how such restrictions translate to DB adjustments.)
 
-This dual-column approach ensures that abilities are balanced and accurately reflect their impact on both players.  Designers can use these values as guidelines when determining the overall AP cost of an ability and balancing the cost of different abilities on a card. 
+**Illustrative Estimated DB Cost / Modifier for this Condition Component:** `-0.5 DB`
 
-For example, if a card has an ability that deals damage to the opponent, the positive AP cost in the "AP Cost (Opponent)" column would be offset by the negative AP cost associated with any detrimental effects the ability might have on the player, such as discarding a card or losing CP. This approach encourages strategic decision-making, as players must weigh the potential benefits of an ability against the costs involved.
- 
-### Breakdown of AP Cost Factors
+**Important Disclaimer:**
+This `-0.5 DB` is an illustrative, conceptual modifier for the condition portion of "Kinetic Pulse."
+So far, for "Kinetic Pulse":
+* Effect + Target components: Illustrative `2.5 DB`
+* Trigger component: Illustrative `1.0 DB`
+* Condition component: Illustrative `-0.5 DB` (modifier)
+* **New Running Illustrative Total DB for "Kinetic Pulse":** `2.5 + 1.0 - 0.5 = 3.0 DB`
 
-Here's how each component contributes to the overall AP cost:
+The final DB cost of the complete "Kinetic Pulse" ability would be determined by summing the official DB costs of all its components (sourced from the Master DB Cost List(s)) and any specific gameplay activation costs (like CP or exhausting the source Unit) which also influence these values. This example illustrates how a condition (defined from Appendix H) is incorporated and how its restrictiveness might influence the ability's overall design budget. The full methodology for ability costing will be detailed in Section VI.
 
- * Effect: The core of the ability, the effect itself, has a base AP cost. More powerful or versatile effects naturally cost more. For example, dealing 4 damage will typically cost more than dealing 2 damage.
- * Target: The target of the ability also influences the AP cost. Abilities that target multiple units or a broader scope (like a whole quadrant) generally cost more than those targeting a single unit.
- * Trigger: The type of trigger affects the cost. Active triggers, which require player choice and often involve a resource cost, generally have a lower AP cost than passive triggers that activate automatically.
- * Conditions: Adding conditions to an ability increases its complexity and potentially its power. Each condition adds to the AP cost, with more intricate or restrictive conditions costing more.
+## VI. Ability Design Budgeting and Card Creation
 
-#### Example:
+In Quantum Nexus, the creation of playable cards (Units, Assets, Events, Upgrades, Terrain) is a meticulous process. It involves careful balancing of a card's stats (if any), its abilities, and its overall Command Point (CP) cost to ensure a fair and engaging gameplay experience. This entire process is governed by the **"Progressive Budget Build" (PBB) system**, which is detailed in the "Quantum Nexus: Card Creation Guidelines Version 2.0" (CCG v2.0, Section V.B).
 
-Let's break down a hypothetical ability and calculate its AP cost:
+These Ability Creation Guidelines focus on the art and science of crafting the abilities themselves – their effects, targets, triggers, and conditions. Once an ability is conceptually designed using the principles and catalogues in Sections II-V and Appendices E-H of this document, its "cost" in terms of design complexity and power is quantified using **Design Budget (DB) points**. This DB cost for abilities then feeds directly into the card's overall PBB calculation.
 
- * Effect: Deal 3 damage.
- * Target: Any unit (enemy or friendly).
- * Trigger: Passive - When this unit is attacked.
- * Condition: If the attacking unit has a higher Attack value than this unit.
-Cost Calculation:
- * Effect (Base): Dealing 3 damage might have a base cost of 3 AP.
- * Target: Targeting any unit adds some versatility, increasing the cost by 1 AP.
- * Trigger: A passive trigger adds to the cost, say, 2 AP.
- * Condition: The "if" condition adds another 1 AP.
+### The Interplay of Abilities and the Progressive Budget Build System
 
-Total AP Cost: 3 + 1 + 2 + 1 = 7 AP
+Abilities, in their various forms (Active, Event-Driven (Triggered/Passive), or encapsulated as Keywords), are the functional heart of cards. They define how cards interact with the game and influence its strategic landscape. The design cost of these abilities, expressed in DB, is a critical factor within the PBB system.
 
-Important Notes:
+**Key Principles (Aligning with CCG v2.0):**
 
- * The AP costs are guidelines. The exact values can be adjusted based on the specific needs of your ability and the overall balance of the game. This should only be performed after playtesting, attempting to balance a card without playtesting is not at all recommended.
- * Playtesting is crucial. Observe how the ability performs in actual gameplay and fine-tune the AP cost as needed to achieve the desired level of balance and strategic depth.
+* **Abilities as Budgeted Features:** All abilities and keywords on a card consume a portion of its **Total Design Budget (TDB)**. This TDB is established for each card based on its foundational nature, Domain Points (DP), role (e.g., Leader), and rarity (duplicate limit), as detailed in CCG v2.0.
+* **DB System for Costing:** The PBB system uses Design Budget (DB) points to quantify the "cost" of each ability and keyword. More powerful, complex, or versatile abilities will have a higher DB cost.
+* **Contribution to Final Card CP Cost:** The sum of DB spent on a card's stats *and* all its abilities/keywords (`Total_Actual_DB_Spent`) is converted into the card's final playable CP cost using a `CP_Conversion_Factor`. This process ensures a direct link between a card's designed power/complexity and its in-game CP cost.
+* **Master DB Cost List(s):** The specific DB cost for any given game effect (Appendix E), target specification (Appendix F), trigger mechanism (Appendix G), condition type (Appendix H), keyword, or complete ability template is **not** definitively set within these Ability Creation Guidelines. Instead, these values are officially defined and maintained by the design team in one or more **"Master DB Cost List(s)."** These lists are essential companion documents to CCG v2.0 and will require ongoing calibration through rigorous playtesting. The illustrative DB values used in the examples within this ACG are for conceptual demonstration only.
+* **Synergy and Balance:** While these guidelines help structure ability creation, the ultimate balance and synergistic potential of abilities are assessed through their DB costs (from the Master Lists) and confirmed via playtesting. The PBB system aims to provide a framework where even highly synergistic abilities are appropriately budgeted.
 
-### The AP System in Action
+### Determining an Ability's Design Budget (DB) Cost
 
-Let's illustrate how the AP system integrates with the card and mission card creation process:
+The DB cost of a custom-designed ability is determined by evaluating and summing the DB costs of its constituent components:
+1.  Its core **Effect(s)** (as catalogued in Appendix E and selected/combined for the ability)
+2.  The **Target(s)** it affects (as catalogued in Appendix F and specified for the ability)
+3.  Its **Trigger(s)** (as catalogued in Appendix G and chosen for the ability)
+4.  Any **Condition(s)** that modify its activation or resolution (as catalogued in Appendix H and applied to the ability)
 
- * Card Concept: You envision a powerful technology-based unit with abilities that disrupt the opponent's strategy.
- * Domain Points and Rarity: You assign appropriate Domain Points (DP) and determine the card's rarity, which influences its initial AP pool.
- * Ability Design: You design abilities that align with the card's concept, such as an active ability to disable an opponent's asset and a passive ability to disrupt their card draw.
- * AP Costing: Using the AP Cost Reference Table, you determine the AP cost of each ability, ensuring that the total cost doesn't exceed the card's AP pool.
- * Card Assembly: You assemble the card's attributes, including its abilities, stats, and flavor text, following the Card Creation Guidelines.
- * Playtesting and Iteration: You playtest the card, observe its performance, and make adjustments to its abilities or AP costs as needed to achieve the desired balance and strategic impact.
+Each of these components will have an associated DB cost (or cost modifier) obtainable from the Master DB Cost List(s).
 
-The Ability Creation Guidelines, along with the AP system, are indispensable tools for crafting the intricate components that power Quantum Nexus cards. By understanding the interplay between abilities, cards, and mission cards, and by applying the AP system thoughtfully, you can create cards that are balanced, engaging, and contribute to a dynamic and strategically rich gameplay experience.
+**Guiding Principles for DB Costs (Reflected in the Master DB Cost List(s)):**
+The Master DB Cost List(s) will assign DB values based on principles such as:
 
-### Creating an Ability
+* **Effect Potency & Versatility:** More impactful or flexible effects have higher DB costs.
+* **Target Scope & Difficulty:** Broader or more advantageous targeting (e.g., multiple opponent's cards vs. a single friendly card) increases DB cost.
+* **Trigger Frequency & Reliability:** More frequent or automatic triggers generally increase DB cost compared to restrictive or player-action-dependent triggers. The "As a Player Action" trigger itself has a base DB cost reflecting the use of a player's limited action.
+* **Conditional Impact:** Conditions that make an ability easier to use or more potent can increase DB cost, while restrictive conditions might reduce the effective DB cost of the ability's core effect or be factored into a lower overall package cost.
+* **Benefit vs. Detriment (Self vs. Opponent):** The DB cost will reflect whether an ability's components are beneficial to the controller, detrimental to an opponent, or involve a trade-off.
+* **Gameplay Activation Costs (for Active Abilities):** As stated in CCG v2.0 (V.C), gameplay activation costs (e.g., paying CP, exhausting the card) are separate from an ability's design DB cost. However, the presence and magnitude of such gameplay costs *will influence* the DB cost assigned to that ability structure on the Master DB Cost List(s). An Active Ability with a high gameplay CP cost is expected to have a lower DB design cost than a similar ability with no gameplay CP cost.
 
-When creating an ability, we want to keep with the theme of the card. Just like flavour text and card images, abilities also provide a narrative for the player to engage with. The ability being created needs to be consistent with the cards feel and the other factors outlined in the Card Creation Guidelines and the Mission Card Creation Guidelines. We will start with a simple ability and then create a new mechanic using our ability system.
+### Example: Determining the DB Cost for "Kinetic Pulse"
 
-#### Creating a Simple Ability
+Let's assemble our running example ability, "Kinetic Pulse," and determine its illustrative total DB cost based on its components.
 
-In this example we have a basic card that requires an ability, so we will create one that is fitting. First of all we need to define the type of card, in our case it is an Asset card. Asset cards have no way to attack directly, but will rely on abilities for that. Because this asset card is an Orbital rank, it is capable of affecting an entire quadrant. The card feel specifies an Attack Combat rating, so we will create something that will deal damage directly.
+**Full Conceptual Text for "Kinetic Pulse":**
+"As a Player Action: Pay 1 CP and Exhaust this Unit. If this Unit is in a friendly Front Row quadrant, inflict Impact 1 on all other Units in this Unit's quadrant."
 
-Let's build an *Orbital Laser* ability. It will deal damage to a quadrant of units.
+**Component Breakdown & Illustrative DB Costs:**
+(Reminder: These DB values are illustrative placeholders. Actual values from Master DB Cost List(s) are used for official design.)
 
-We will have the following parts:
+1.  **Effect Component:** `"Inflict Impact 1 on all other Units in this Unit's quadrant."`
+    * Primitive Effect: `Inflict Impact 1 instance` (from Appendix E)
+        * *Illustrative Placeholder DB:* `1.0 DB`
+    * Target Scope Aspect: `all other Units in this Unit's quadrant` (built from Appendix F concepts)
+        * *Illustrative Placeholder DB:* `+1.5 DB`
+    * **Subtotal for Effect + Target Components:** `2.5 DB`
 
-| Part | Name | AP Cost | Description |
-|-|-|-|-|
-| Effect | Deal Damage | 3 | There will be a variable portion payed by the player |
-| Trigger | Activate | 1 | No CP, just activate the ability |
-| Target | Quadrant | 3 | Applies to an entire quadrant |
+2.  **Trigger Component:** `"As a Player Action (Activate this Ability)"` (from Appendix G)
+    * *Illustrative Placeholder DB:* `1.0 DB` (reflecting use of a player's action)
 
-So far this card will cost 7 AP, which is a lot, but it is definitely a powerful effect. Next we will add a variable to allow the laser to be pumped. We will allow the player to pay 1 CP per extra point of damage.
+3.  **Condition Component:** `"If this Unit is in a friendly Front Row quadrant"` (built from Appendix H concepts)
+    * *Illustrative Placeholder DB Modifier:* `-0.5 DB` (as a restriction, this might slightly reduce the ability's budget cost or justify its power level for a given DB total).
 
-The ability now looks like this:
+**Illustrative Total Design Budget (DB) Cost for the "Kinetic Pulse" ability:**
+`DB (Effect+Target) + DB (Trigger) + DB_Modifier (Condition)`
+`2.5 DB + 1.0 DB - 0.5 DB = 3.0 DB`
 
-*Orbital Laser* - Activate, (X) CP - Activate this ability and select a quadrant. Deal 3 + (X) CP damage to all units in the quadrant.
+**Consideration of Gameplay Activation Costs:**
+"Kinetic Pulse" has gameplay activation costs: "Pay 1 CP" and "Exhaust this Unit." The illustrative `3.0 DB` for this ability assumes that the Master DB Cost List(s) would value an ability with these characteristics (Impact 1, specific AoE, positional condition, active action trigger) at `3.0 DB` *when it also has these fairly standard gameplay activation costs*. If "Kinetic Pulse" had, for example, a 0 CP gameplay activation cost or didn't require exhaustion, its DB design cost on the Master List would likely be significantly higher.
 
-This is an expensive ability which will most likely require a lot of CP to balance it out.
-
-#### Create a New Mechanic with Keywords and Abilities
-
-In this example we will create a new mechanic by creating a synergistic set of keywords and abilities. For this example we will use the Divinity domain for inspiration. I want to create a new mechanic that allows for Divinity units to bypass some or all of the CP requirements, but also have the deployment phase skipped for some units. This will need to be broken into several steps.
-
-1. Define keyword to denote a summoned unit
-2. Define Abilities for summoning units
-3. Define rituals for these summons
-
-##### Creating the *Invoke* Keyword
-
-The invoke keyword will do two things, it will remove the ability to be deployed, and it will add an alternative deployment cost.
-
-To remove the deployment ability we will use the following entries from the tables.
-
-| Part | Name | AP Cost | Description |
-|-|-|-|-|
-| Effect | Deploy Card | -2 | The effect we are interested in. |
-| Effect | Prevent [Effect] | -2 | This will prevent deployment. |
-| Target | This | -3 | Applies to the card with the ability. |
-| Conditional | Unless | 1 | Will only allow deployment when conditions are met. |
-| Target | Conditional Target | 2 | Units Complete the ritual. |
-
-Some of these are detrimental to the Player (Prevent Deploy, Targeting itself), and some of these are beneficial (Unless, Conditional Target). This helps capture the essence of the keyword. With this we can finally define the Keyword.
-
-*Invoke* - This unit can't be deployed unless the ritual is completed. -4 AP.
-
-This keyword would in fact give our unit 4 extra AP to spend on it's other abilities. This will allow our unit to be a bit stronger given the harsh less of the deployment not being a simple CP cost.
-
-##### Creating Ritualistic Abilities
-
-Now we need to create a few abilities specific for rituals, this step is optional, but can add a real sense of depth if done properly. There is nothing stopping you from simply using existing abilities though.
-
-For now we will use a basic Keyword that will add a small cost to the unit, but be paid off when the unit gets summoned.
-
-We will be making an ability called Chant. Chant will be used in our ritual for Summoning.
-
-| Part | Name | AP Cost | Description |
-|-|-|-|-|
-| Effect | Activate Ability | 1 | The effect we are interested in. |
-| Target | This | 3 | Applies to the card with the ability. |
-
-This creates Chant as:
-
-*Chant* - Activate this card to perform a ritualistic chant. 4 AP
-
-This will allow our cards to activate with the only effect being to perform the chant.
-
-##### Defining the ritual
-
-Now we need an actual ritual to be able to do the summon, this will need to go on the Summoned card as the ritual.
-
-| Part | Name | AP Cost | Description |
-|-|-|-|-|
-| Effect | Activate Ability | -3 | Activate chant 3 times simultaneously. |
-| Target | Unit | -4 | Cards must be units |
-
-With that we have our ritual:
-
-*Gregorian Chant* - Have 3 units chanting at the same time. -7 AP
-
-Again this would give even more AP to the summoned unit, but with everything required it should be fairly well balanced.
+**Integration into Card's Progressive Budget Build:**
+This `3.0 DB` (or the official value from the Master List) for the "Kinetic Pulse" ability would be part of the `DB_Spent_On_Abilities` for the Unit card it's on. This sum, along with the DB cost for the Unit's stats (e.g., Attack and Defense), contributes to the card's `Total_Actual_DB_Spent`. This total must be within the card's overall **Total Design Budget (TDB)** (determined by its DP, rarity, and Leader status as per CCG v2.0). Finally, the `Total_Actual_DB_Spent` is divided by the `CP_Conversion_Factor` to arrive at the Unit's printed CP cost.
 
 ## VII. Keywords
 
-Keywords in Quantum Nexus are like special tags or labels attached to cards and abilities, giving them additional powers or modifying how they function. They add a layer of strategic depth and complexity to the game, creating unique interactions and opening up a world of tactical possibilities.
+Keywords in Quantum Nexus are standardized terms that represent specific, predefined abilities or characteristics. They function as shorthand, streamlining card text and ensuring consistent application of common game mechanics. Attaching a keyword to a card grants it the associated abilities or modifies its function in a known way.
 
-Think of keywords as special abilities or upgrades that enhance your cards or modify their existing powers. They can be anything from "Flying," which allows a unit to soar above the battlefield, to "Barrier," which provides a temporary shield against attacks, or "First Strike," which allows a unit to strike first in combat. Keywords are what make each card unique and contribute to the strategic diversity of Quantum Nexus.
+Think of keywords as established special traits. They can range from simple modifications like **"Steadfast"** (preventing a common game mechanic like being Pushed Back) to more complex abilities that define how a card interacts in combat or with other game elements. All official keywords and their precise mechanical definitions will be listed in the main Quantum Nexus Rulebook glossary (Rulebook Section VIII) or on the cards themselves if unique.
 
-### Types of Keywords
+### Types of Keywords (Conceptual)
 
-Keywords in Quantum Nexus can be broadly classified into three types:
+For design purposes, keywords can be broadly conceptualized by their impact:
 
- * Positive Keywords: These keywords grant beneficial effects to the card or ability they are associated with. They enhance a card's power, resilience, or versatility, giving it an edge in battle or strategic advantage.
- * Negative Keywords: These keywords impose drawbacks or limitations on the card or ability. They might weaken a card's stats, restrict its actions, or make it vulnerable to certain effects.
- * Neutral Keywords: These keywords introduce unique mechanics or interactions without inherently benefiting or hindering the card or ability. They add a layer of complexity and strategic depth, creating interesting possibilities and tactical considerations.
+* **Positive Keywords:** These keywords grant beneficial effects or advantages to the card they are on (e.g., enhancing its power, resilience, or utility).
+* **Negative Keywords:** These keywords impose drawbacks, limitations, or vulnerabilities on the card (e.g., restricting its actions, making it easier to affect by opponent's abilities).
+* **Neutral Keywords:** These keywords define a specific mode of operation or interaction that isn't inherently beneficial or detrimental on its own but adds unique mechanical properties or enables specific synergies.
 
-### Keywords and the AP System
+### Keywords and the Design Budget (DB) System
 
-Keywords are in essence an ability that has a specific, well-known name. An ability can be made and then given a name to create new keywords.
+A keyword is, in essence, a pre-packaged ability or set of rules with a specific name. As such, each keyword has an associated **Design Budget (DB) cost** that reflects its impact on gameplay, its power level, and its strategic value. This DB cost is determined by the design team and recorded in the **Master DB Cost List(s)** (as referenced in CCG v2.0, Section VIII).
 
-Just like other abilities, keywords also have an associated AP cost. This cost is factored into the card's overall AP pool, ensuring that keywords are balanced within the card's design.
+When a card is designed to have a keyword:
+* The keyword's defined DB cost (from the Master List) is added to that card's `DB_Spent_On_Abilities`.
+* This contributes to the card's `Total_Actual_DB_Spent`, which, under the Progressive Budget Build system, helps determine the card's final printed Command Point (CP) cost.
 
- * Positive Keywords: The AP cost of positive keywords is added to the card's total AP cost, reflecting the added power or versatility they provide.
- * Negative Keywords: The AP cost of negative keywords is subtracted from the card's total AP cost, balancing out the drawbacks or limitations they impose.
- * Neutral Keywords: Neutral keywords always add to the AP cost, as they introduce unique mechanics that can influence the game's strategic landscape.
+The DB cost of keywords is determined by their nature:
+* **Positive Keywords:** Will have a positive DB cost, consuming part of the card's Total Design Budget (TDB).
+* **Negative Keywords:** May have a conceptual "negative" DB cost (i.e., they effectively *refund* DB to the card's TDB, allowing for better stats or other abilities for its CP cost) or a very low positive DB cost if their drawback is minor or situational. This will be specified in the Master DB Cost List.
+* **Neutral Keywords:** Will typically have a positive DB cost, reflecting the value of their unique mechanics, even if not directly a benefit/drawback.
 
 ### Keywords and Strategic Depth
 
-Keywords add a significant layer of strategic depth to Quantum Nexus. They encourage players to consider card interactions, build decks with specific synergies, and adapt their tactics based on the keywords present on both their own cards and their opponent's cards.
+Keywords add a significant layer of strategic depth to Quantum Nexus. They create clear synergies (e.g., cards that enhance other cards with a specific keyword), define archetypes, and provide players with quick-to-understand indicators of a card's capabilities. Understanding the keywords on both your own and your opponent's cards is crucial for effective tactical play.
 
-By understanding the different types of keywords and their impact on gameplay, you can create cards that are not only powerful and versatile but also strategically interesting and contribute to the rich tapestry of the Quantum Nexus universe.
+### Defining and Costing a New Keyword (Illustrative Example)
 
-### Creating a Simple Keyword
+While most keywords will be established and have their DB costs listed in the Master DB Cost List(s), designers might propose new keywords. If a new keyword is created, its game rules must be precisely defined. Its DB cost would then be carefully assessed based on the impact of those rules, similar to how custom abilities are evaluated, and added to the Master List.
 
-Consider the following simple keyword:
+Let's consider a simple, new positive keyword: **"Steadfast."**
 
-```
-*First-Strike* - This unit resolves its attack before units without First-Strike.
-```
+1.  **Define the Keyword's Mechanic:**
+    `*Steadfast* - This Unit cannot be Pushed Back.`
+    *(This directly counters one of the negative outcomes for an attacker if its Attack is less than the defender's effective Defense, as per Rulebook Section III.C.2).*
 
-The keyword is relatively simple but shows how we can use the guidelines to create an AP cost for use on other cards.
+2.  **Determine its DB Cost (Conceptual - for Master List Calibration):**
+    The design team would analyze the impact of "Steadfast":
+    * **Effect:** Prevents the "Pushed Back" mechanic. This is a clear benefit, as it keeps the Unit in its current position after an unsuccessful attack and avoids potential repositioning disadvantages.
+    * **Frequency/Applicability:** Applies specifically to Units when they attack and their Attack < defender's Defense.
+    * **Impact:** Moderate defensive benefit. It doesn't prevent the "Disordered" state but negates the forced movement.
 
-First of all the effect is a preemptive action which Costs 3 AP because it benefits the player using it. Second, it targets the unit card it is on so we use the Self target for 1 AP. Finally there is an activation of when the battle phase starts, so we add another 2 AP for a total of 6 AP. First Strike is very beneficial and as a result is set with an AP cost of 6. Once playtesting commences this may be changed depending on how the card does overall.
+    Based on this analysis, the **"Steadfast"** keyword would be assigned a specific DB cost in the Master DB Cost List(s). Let's assume, for pure illustration:
+    * *Illustrative Placeholder DB for "Steadfast" keyword:* `1.5 DB`
 
-## VIII. Mission Challenges
+3.  **Using the Keyword on a Card:**
+    If a designer creates a Unit card and wants to give it the "Steadfast" keyword:
+    * They add "Steadfast" to the Unit's rule box (or keyword line).
+    * The illustrative `1.5 DB` (or the official value from the Master List) is added to that Unit card's `DB_Spent_On_Abilities`.
+    * This `1.5 DB` then factors into the card's total PBB calculation for its final CP cost.
 
-Mission challenges are the heart of every Quantum Nexus mission card, defining the objectives players must strive to achieve to unlock the card's powerful abilities.  Designing compelling and balanced challenges is essential for creating an engaging and strategic gameplay experience.  This section will guide you through the process of crafting mission challenges that are not only thematically appropriate but also mechanically sound.
+This example shows that keywords, once defined and their DB cost established in the Master List, become straightforward additions to a card's design, with their budget impact being consistently applied.
 
-### Challenge Design:  Balancing Difficulty and Reward
+## VIII. Designing Synergistic Mechanics and Interconnected Abilities
 
-The challenge you design sets the difficulty level for achieving the mission card's rewards (passive and one-time abilities). It's crucial to strike a balance between challenge and reward, ensuring that the effort required to complete the challenge aligns with the potency of the benefits gained.  
+While the previous sections have detailed how to construct individual abilities from their core components (Effects, Targets, Triggers, Conditions), much of the strategic depth and unique feel of Quantum Nexus will come from **synergistic mechanics**—sets of abilities, keywords, and game rules designed to interact in specific and interesting ways. This section explores how designers can approach the creation of such interconnected systems.
 
-To achieve this balance, the AP system used for costing abilities will be adapted to assess the inherent value of a mission challenge. By analyzing the core components of a challenge—effect, target, trigger, and condition—designers can determine a Preliminary Challenge AP cost.  This cost will then be factored into the overall CP calculation for the mission card, ensuring that the combined cost of the challenge and the card's abilities aligns with the desired power level and strategic impact.
+Designing for synergy involves thinking beyond a single card's function and considering how multiple cards or abilities can combine to produce an effect greater or more distinct than the sum of their parts. This often leads to the creation of unique faction identities, deck archetypes, and rewarding gameplay patterns for players to discover and master.
 
-### Challenge Costing:  A Breakdown Approach
+### Example System: The "Invoke/Chant/Ritual" Mechanic
 
-Similar to costing an ability, mission challenges can be analyzed in terms of their core components:
+To illustrate the process of designing an interconnected system, let's develop a thematic mechanic where powerful "Invoked" Units can only be brought into play by fulfilling a "Ritual" that requires other friendly Units to be actively "Chanting."
 
-*   **Effect:**  What is the primary effect or outcome of the challenge? Does it focus on deploying units, activating abilities, controlling specific areas of the battlefield, or achieving a specific game state?  The Effect Cost Reference Table in the Ability Creation Guidelines can be used as a reference point. However, unlike abilities that primarily have detrimental effects on the opponent, challenges often focus on actions the player must take.  Therefore, the AP costs for effects will likely be positive, reflecting the effort required to achieve the challenge.
+**Overall Concept:** Certain potent Units (bearing the "Invoke" keyword) are too powerful or unique to be deployed via normal means (i.e., by paying their CP cost during a "Deploy a Card" action). Instead, they require a specific set of conditions—a Ritual—to be met, often involving other Units taking specific actions ("Chanting").
 
-*   **Target:**  Does the challenge involve specific targets, such as units, assets, quadrants, or card types? The Target Cost Reference Table can be adapted to assess the cost based on the specificity of the target.  More restrictive targets, like those requiring specific subtypes or keywords, will contribute to a higher cost.
+Let's break down the components:
 
-*   **Trigger:**  When or how does the challenge trigger? Does it activate at the start of a turn, during a specific phase, or in response to certain actions? The Trigger Cost Reference Table can guide the cost assignment, considering the timing and frequency of the trigger.  Challenges that involve recurring triggers or require actions over multiple turns will generally have higher costs.
+**Part 1: The "Invoke" Keyword**
+This keyword will be placed on the powerful Units that require the special summoning condition.
 
-*   **Condition:**  What are the specific conditions that must be met to complete the challenge? Are there additional requirements beyond the primary effect? The Conditional Cost Reference Table can be used to assess the cost based on the complexity and restrictiveness of the conditions. Challenges with multiple conditions or those that require specific combinations of cards or game states will contribute to a higher cost.
+* **Keyword Name:** `Invoke`
+* **Core Mechanic:**
+    1.  A Unit with `Invoke` cannot be deployed using the standard "Deploy a Card" action by paying its CP cost.
+    2.  It can only be deployed from its owner's hand when the conditions of its specified `Ritual` (detailed in its ability text) are met.
+    3.  Deploying a Unit via `Invoke` does not inherently cost CP unless the `Invoke` ability or Ritual itself specifies a CP cost. The card's printed CP cost might be relevant for other game effects or for alternative ways to get it into play if specific card abilities allow it, but not for its primary `Invoke` deployment.
+* **Constituent Components (Conceptual):**
+    * **Effect Element 1 (Restriction):** "This Unit cannot be deployed using the 'Deploy a Card' player action." (This involves modifying deployment rules – see Appendix E, Section III.B).
+    * **Effect Element 2 (Alternate Deployment):** "This Unit may be deployed from your hand if its `Ritual` condition is met." (This enables a special deployment – see Appendix E, Section III.B).
+    * **Condition Element (for Effect 2):** The specific `Ritual` detailed on the card (see Part 3 below).
+* **Illustrative Design Budget (DB) Consideration:**
+    The restriction ("cannot be deployed normally") is a significant drawback. As per CCG v2.0 (Section VIII) and our discussion in Section VII of these guidelines, such a restrictive keyword would likely have a **negative DB cost** on the Master DB Cost List(s).
+    * *Illustrative Placeholder DB for `Invoke` keyword (base restriction, before Ritual complexity):* `-5.0 DB`
+    This negative DB cost effectively increases the Total Design Budget (TDB) available for the Invoked Unit's stats and its other abilities, allowing it to be more powerful once successfully brought into play, to compensate for its difficult summoning method. The complexity of its specific Ritual condition will further influence this value.
 
-### Determining the Final Challenge CP
+**Part 2: The "Chant" Active Ability (for supporting Units)**
+This ability will be placed on other, likely less powerful, Units that can contribute to the Ritual.
 
-After analyzing these components and assigning an AP cost to each, add the individual costs to determine the **Preliminary Challenge AP Cost**. This cost represents the inherent value of the challenge within the AP system framework. 
+* **Ability Name (Example):** `Perform Chant`
+* **Full Conceptual Text:** "As a Player Action: Exhaust this Unit. This Unit becomes 'Chanting' until your next Start of Round Step or until it leaves play or becomes un-Ready through an opponent's effect. A Unit that is 'Chanting' can contribute to a Ritual."
+* **Component Breakdown:**
+    * **Trigger Component (from Appendix G, Section I):** `"As a Player Action (Activate this Ability)"`
+        * *Illustrative Placeholder DB:* `1.0 DB`
+    * **Effect Component 1 (Cost):** `"Exhaust this Unit"` (from Appendix E, Section I.B)
+        * *Illustrative Placeholder DB (for including this as an effect/cost):* `0.5 DB` (Note: Exhausting as part of an Active Ability's cost is common and might be bundled into the base DB for Active Triggers in the Master List, or costed separately like this.)
+    * **Effect Component 2 (Apply State):** `"This Unit becomes 'Chanting' [duration]."` ('Chanting' would be a defined, temporary state or marker. See Appendix E, Section I.B for "Apply State" if 'Chanting' becomes a formal named state, or this is a custom effect granting a temporary property).
+        * *Illustrative Placeholder DB for applying this custom 'Chanting' state/marker:* `1.0 DB`
+* **Illustrative Total DB Cost for `Perform Chant` ability:** `1.0 DB (Trigger) + 0.5 DB (Exhaust Effect/Cost) + 1.0 DB (Chanting State Effect) = 2.5 DB`
+    This ability would consume `2.5 DB` from the TDB of the Unit it is on.
 
-However, the actual CP cost of the challenge within the mission card will be determined using the **Adjusted CP formula** as outlined in the Mission Card Creation Guidelines. This formula takes into account the Preliminary Challenge AP Cost, the cost of the mission's abilities, and the Base CP derived from the assigned domain points:
+**Part 3: The "Ritual" (as the Condition for the "Invoke" Keyword)**
+This condition would be written into the rule box of the Unit possessing the `Invoke` keyword.
 
-```
-Adjusted CP = Base CP + (Challenge AP Cost - (Ability AP Cost * Sign(Challenge AP Cost))
-```
+* **Ritual Condition Example Text (on the `Invoke` Unit):** "`Invoke` - This Unit cannot be deployed normally. `Ritual:` If you control 3 or more friendly Units that are currently 'Chanting', you may deploy this Unit from your hand without paying its CP cost."
+* **Component Breakdown of the Condition:**
+    * **Condition Component (from Appendix H, Section III.B & IV):** `"If you control 3 or more friendly Units that are currently 'Chanting'"`
+        * This involves checking player control, counting specific game elements (Units), and checking for a specific state ('Chanting') on those elements.
+    * **Illustrative Design Budget (DB) Consideration for the Condition:**
+        This condition's difficulty directly influences the justification for `Invoke` having a negative DB cost. A very easy condition would mean `Invoke` shouldn't grant much (if any) budget back. A difficult condition like this one (requiring 3 other specific units to have acted and maintained a state) makes the negative DB cost of `Invoke` viable. The Master DB Cost List would provide guidance on how various complexities of conditional checks affect an ability's overall DB valuation, or how they modify the DB cost of keywords like `Invoke`. For this system, the `Invoke` keyword's overall negative DB cost inherently accounts for the assumed difficulty of its linked Ritual.
 
-This final calculation ensures that the overall cost of the mission card reflects the balance between the difficulty of the challenge, the strength of the card's abilities, and the desired overall power level.
+**Part 4: Synergies and System Design**
 
-### Example: Costing a Divinity Challenge
+* **Synergy:** The `Perform Chant` ability on multiple supporting Units directly enables the `Ritual` condition for the `Invoke` keyword on a powerful Unit. This creates a clear strategic goal for a player: protect their "Chanting" Units to bring forth a game-changing "Invoked" Unit. Opponents, in turn, have a clear counter-strategy: disrupt the "Chanting" Units.
+* **Balancing Considerations:**
+    * The power level of the "Invoked" Unit must be significant to justify the effort of the Ritual. Its high stats or powerful unique abilities are "paid for" by the negative DB cost of its `Invoke` keyword.
+    * The Units with `Perform Chant` should be reasonably costed for their stats and this supporting ability. The `2.5 DB` (illustrative) for `Perform Chant` is a small cost, appropriate for an enabling ability on a potentially less impactful Unit.
+    * The number of "Chanting" Units required for the Ritual (e.g., 3 in this example) is a key balancing lever.
+* **Design Iteration:** Playtesting might reveal that 3 "Chanting" Units is too hard or too easy, or that the "Chanting" state needs to last longer or shorter, or that the "Invoked" units are over or underpowered. These observations would lead to adjustments in:
+    * The definition of the Ritual condition.
+    * The DB cost of the `Invoke` keyword (and thus the TDB available for the Invoked unit).
+    * The DB cost of the `Perform Chant` ability.
+    * The stats/abilities of the involved Units.
 
-Let's apply this breakdown approach to the Divinity challenge from our conversation history: "Have 3 Divinity units you control survive for 2 consecutive turns."
+This "Invoke/Chant/Ritual" example demonstrates how designers can combine basic ability components (defined in Appendices E-H) into keywords and abilities that work together to create a unique, thematic, and strategically rich mechanic. The Progressive Budget Build system, using DB costs from the Master DB Cost List(s) for each component, allows for such complex interactions to be designed and budgeted for in a structured way.
 
-*   **Effect:** The effect focuses on preventing unit destruction ("Prevent [Effect]").  A base cost of **+4 AP** is assigned, mirroring the positive counterpart of the "Destroy Card" effect.
+## IX. Mission Challenges (Guidance Note)
 
-*   **Target:** The challenge targets "Unit" with the specific "Divinity" subtype.  This results in a cost of **-2 AP** (-4 AP for "Unit" + 2 AP for the "Divinity" condition).
+Mission Cards are a unique and integral part of Quantum Nexus, providing players with overarching objectives, contributing to their Command Point (CP) generation each Game Round, and offering a distinct path to victory (see Rulebook Sections I.A, II.B, VI.B). The core of each Mission Card is its **Mission Challenge** – the specific set of conditions or objectives a player must achieve to complete that mission.
 
-*   **Trigger:** The trigger is time-based, requiring survival for "2 consecutive turns." Given the recurring nature and strategic importance of unit survival, a cost of **+3 AP** is assigned.
+While the abilities found on other card types (Units, Assets, Events, etc.) are designed using the detailed effect, target, trigger, and condition frameworks outlined in Sections II-V of these Ability Creation Guidelines (and are costed using the Progressive Budget Build system via Design Budget points), Mission Cards and their Challenges have their own specialized design parameters.
 
-*   **Condition:** The challenge has the inherent condition of "survival." Using the "Based on Location" entry as a guide, a cost of **+1 AP** is assigned for this condition.
+These parameters include, but are not limited to:
+* The complexity and nature of the challenge itself.
+* The balance of Domain Points across a player's set of chosen Mission Cards.
+* The passive effects or abilities Mission Cards might grant while in play or upon completion.
+* The calculation of a Mission Card's own CP value, which contributes to a player's resources each Game Round (as per Rulebook Section II.B and III.C.1).
 
-**Preliminary Challenge AP Cost = +4 AP - 2 AP + 3 AP + 1 AP = +6 AP**
+**Important Guidance for Designers:**
 
-This **+6 AP** cost would then be plugged into the **Adjusted CP formula** to determine the mission card's final CP cost.
+The principles, specific parameters, and balancing methodologies for designing Mission Cards – including their **Mission Challenges**, inherent abilities, passive effects, and the determination of their CP values – are detailed in a separate, official **"Quantum Nexus: Mission Card Design Document."**
 
-### Conclusion
+Designers assigned to create or revise Mission Cards **must consult this dedicated document.** The "Quantum Nexus: Ability Creation Guidelines" (this document) primarily focuses on the creation and DB costing of abilities intended for cards that form a player's main deck (Units, Assets, Events, Upgrades, Terrain).
 
-This approach adapts the existing AP system to provide a more structured and transparent process for costing mission challenges. It allows designers to assess the inherent value of a challenge based on its specific components and ensures that the final CP cost assigned to the mission card reflects a balance between the challenge, the card's abilities, and the desired overall power level.  Playtesting remains essential for fine-tuning the balance and confirming that the challenge provides the intended level of difficulty and strategic depth. 
+Attempting to design or cost Mission Challenges using only the general ability creation framework herein would not be appropriate, as Mission Cards have unique roles and balancing considerations within the overall game structure that are addressed in their specific design guide.
 
+## X. Additional Considerations
 
-## IX. Additional Considerations
+When crafting abilities in Quantum Nexus, it's essential to consider how they interact with the broader game mechanics and strategic landscape. Beyond the specific choice of effects, targets, triggers, and conditions, here are some key factors to keep in mind to create compelling and well-integrated abilities:
 
-When crafting abilities in Quantum Nexus, it's essential to consider how they interact with the broader game mechanics and strategic landscape. Here are some key factors to keep in mind:
+* **Game Round Structure and Ability Timing:**
+    Quantum Nexus gameplay unfolds in **Game Rounds**, each consisting of a **Start of Round Step** and an **Activation Sequence** (see Rulebook Section III.C). Understanding this structure is crucial for designing abilities with relevant and impactful timing:
+    * **Start of Round Step:** This step involves simultaneous actions for all players (deactivating cards, gaining CP, drawing cards) followed by specific windows for triggered abilities (Rulebook Section III.C.1.b and III.C.1.c). Abilities designed to trigger "At the Start of the Game Round" or in response to the actions within this step (like drawing a card) must be clearly defined as such (see Appendix G).
+    * **Activation Sequence:** This is where players take alternating single actions (Deploy a Card, Activate an Active Ability, Declare an Attack, Play an Event Card, Move a Unit, or Pass).
+        * **Active Abilities** are chosen by a player as their single action. Their impact is immediate but consumes one of the player's limited actions for that turn within the sequence.
+        * **Event-Driven (Triggered/Passive) Abilities** can activate at many points during the Activation Sequence in response to game events (e.g., a card being deployed, an attack being declared, an ability being activated). The resolution order for simultaneously triggered abilities is detailed in Rulebook Section VII.A, which designers should be familiar with.
+    Consider how an ability's timing aligns with the game's flow and whether it offers advantages or interactions at strategically important moments within these distinct parts of the Game Round.
 
- * Turn Structure and Timing: Quantum Nexus has a structured turn sequence with distinct phases. The timing of your abilities—whether they activate during the Deployment, Command, or Battle phase—significantly impacts their strategic use. Consider how your abilities align with the game's flow and whether they offer advantages in specific phases.
- * Card Interactions: Abilities don't exist in isolation. They interact with other cards, abilities, and game elements. Consider how your abilities might synergize with or counter other cards, creating interesting combos or strategic counterplay opportunities.
- * Playtesting and Balance: The true test of an ability's effectiveness and balance lies in playtesting. Observe how your abilities perform in actual gameplay, gather feedback from players, and be prepared to make adjustments to ensure they are fair, engaging, and contribute to a dynamic gameplay experience.
- * Thematic Integration: While functionality is crucial, don't forget the thematic element. Abilities should align with the card's overall theme, domain, and flavor. A fire-based magic card, for instance, should have abilities that evoke fiery destruction or protective flames, while a technology card might focus on enhancements, debuffs, or battlefield manipulation.
+* **Card Interactions and Synergies:**
+    Abilities don't exist in isolation. They interact with other cards, abilities, and game elements. Consider how your abilities might synergize with other cards (your own or potentially even your opponent's in unexpected ways), create interesting combos, or provide strategic counterplay opportunities against prevalent strategies. Well-designed synergies enhance strategic depth and reward thoughtful deck construction (see also CCG v2.0, Section X on Synergies).
 
-By keeping these additional considerations in mind, you can create abilities that are not only mechanically sound but also thematically integrated and contribute to the rich tapestry of the Quantum Nexus universe.
+* **Playtesting and Balance:**
+    The true test of an ability's effectiveness, clarity, and balance lies in rigorous playtesting. Observe how your abilities perform in actual gameplay across various matchups and game states. Gather feedback from playtesters and be prepared to make adjustments to the ability's mechanics, its DB cost (on the Master DB Cost List), or even the card it's on, to ensure it is fair, engaging, and contributes positively to a dynamic and healthy gameplay experience. This aligns with the core principle that the PBB/DB system and its associated Master Lists require ongoing calibration (CCG v2.0, Section V.B).
 
-## X. Appendix
+* **Thematic Integration:**
+    While functionality and balance are crucial, don't neglect the thematic element. Abilities should align with the card's overall concept, name, art, domain (Technology, Magic, Psionics, Divinity), and any associated lore or flavor. A Psionics-focused card, for instance, should have abilities that evoke mental powers or psychic phenomena, while a heavily armored 'Mech' Unit's abilities might emphasize resilience or firepower. Strong thematic integration makes cards more immersive and memorable.
 
-This appendix provides a comprehensive reference for AP costs associated with various ability types, activation costs, and additional factors. Use this table as a guide when designing your cards, but remember that playtesting and balance adjustments are always crucial.
+By keeping these additional considerations in mind, alongside the detailed component design outlined in previous sections, you can create abilities that are not only mechanically sound but also thematically resonant, strategically engaging, and contribute positively to the rich tapestry of the Quantum Nexus universe.
 
-### A. Effect Cost Reference Table
+## XI. Appendices for Ability Creation
 
-| Effect          | AP Cost (Self-Benefot) | AP Cost (Opponent-Benefit) | Activation Cost Modifier | Interrupt Type Modifier                | Additional Cost Modifiers                                                                         | Notes                                                                                                                                                                                                                                                                                                  |
-| :-------------------- | :--------------- | :---------------- | :----------------------- | :--------------------------------------- | :-------------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Active Effects** |                   |                    |                           |                                          |                                                                                                     |                                                                                                                                                                                                                                                                                                           |
-| Deal Damage           | -3                | 3                  | -1 AP per 2 CP            | N/A                                      | +1 AP per additional damage beyond 3                                                                 | Detrimental to target; reduces Defense/Health.                                                                                                                                                                                                                                                              |
-| Heal                  | 2                 | -2                 | -1 AP per 2 CP            | N/A                                      | +1 AP per 2 additional Health restored                                                              |                                                                                                                                                                                                                                                                                                           |
-| Boost Stats           | 2                 | -2                 | -1 AP per 2 CP            | N/A                                      | +1 AP per additional stat point boosted, +1 AP if both Attack and Defense are boosted             | Beneficial to owner.                                                                                                                                                                                                                                                                                 |
-| Reduce Stats          | -2                | 2                  | -1 AP per 2 CP            | N/A                                      | +1 AP per additional stat point reduced, +1 AP if both Attack and Defense are reduced               | Detrimental to owner.                                                                                                                                                                                                                                                                                  |
-| Draw Cards            | 2                 | -2                 | -1 AP per 2 CP            | N/A                                      | +1 AP per additional card drawn                                                                    | Beneficial to owner.                                                                                                                                                                                                                                                                                 |
-| Discard Cards         | -1                | 1                  | -1 AP per 2 CP            | N/A                                      | +1 AP per additional card discarded, +1 AP if discarding from opponent's hand or deck               | Detrimental to owner.                                                                                                                                                                                                                                                                                  |
-| Destroy Card          | -4                | -6                 | -1 AP per 2 CP            | N/A                                      | +1 AP per additional card destroyed                                                                 | Detrimental to owner. Higher cost for stronger units, Leaders, or units with specific keywords.                                                                                                                                                                                                                                   |
-| Exile Card            | -5                | -7                 | -1 AP per 2 CP            | N/A                                      | +1 AP per additional card exiled                                                                   | Detrimental to owner.                                                                                                                                                                                                                                                                                 |
-| Move Card             | 2                 | 2                  | -1 AP per 2 CP            | N/A                                      | +1 AP per additional card moved, +1 AP if moving to a specific location (e.g., another Quadrant) | This covers "Manipulate Card Positions". Can be beneficial or detrimental depending on the context.                                                                                                                                                                                                        |
-| Gain CP               | 2                 | -2                 | -1 AP per 2 CP            | N/A                                      | +1 AP per 2 additional CP gained                                                                   | Beneficial to owner.                                                                                                                                                                                                                                                                                 |
-| Grant Keyword         | 3                 | -3                 | -1 AP per 2 CP            | N/A                                      | +2 AP if granting multiple keywords                                                                | Beneficial to owner. Varies based on the specific keyword granted.                                                                                                                                                                                                                                                            |
-| Remove Keyword        | -3                | 3                  | -1 AP per 2 CP            | N/A                                      | +1 AP per additional keyword removed                                                               | Detrimental to owner.                                                                                                                                                                                                                                                                                  |
-| Change Attack Range   | 2                 | -2                 | -1 AP per 2 CP            | N/A                                      | +1 AP if both increasing and decreasing range is possible                                             | Can be beneficial or detrimental depending on the context.                                                                                                                                                                                                                                          |
-| Preemptive Action | 3                | -3                 | -1 AP per 2 CP            | N/A                       | +1 AP if usable on any unit, +2 AP if usable during opponent's turn                                                      | Allows a cards action to be resolved first, before any opponent's or simultaneously with other cards with the same preemptive action.                                                          |
-| Delayed Action     | 2                | -2                 | -1 AP per 2 CP            | N/A                       | +1 AP per turn delayed, + 1-3 AP for additional beneficial effects when attack occurs                                      | Forces a card to resolve their action after cards that have the preemptive action, and just the action.                                                                     |
-| Forced Target      | 3                | -3                 | -1 AP per 2 CP            | N/A                       | +1-2 AP if target must be a specific unit, +1 AP if the target changes every turn                                         | Forces a unit to attack a specific unit or type of unit, restricting target choices.                                                                                                                               |
-| Protected Target   | 4                | -4                 | -1 AP per 2 CP            | N/A                       | +1-3 AP based on how broad the protection is (specific unit type, all units with a certain characteristic, all units, etc) | Grants a unit immunity to attacks from certain unit types or with specific characteristics.                                                                                                                      |
-| **Passive Effects** |                   |                    |                           |                           |                                                                                                                       |                                                                                                                                                                                                               |
-| Retaliate         | 3                | -3                 | N/A                      | -1 AP                     | +1-3 AP depending on strength of counterattack (full damage vs. reduced damage), +1 AP if triggers on any damage source | Allows a unit to automatically counterattack when attacked, adding an element of risk to attacking certain units.                                                                                             |
-| Combat Debuff      | 3                | -3                 | N/A                      | N/A                       | +1-3 AP based on severity and duration of debuff, +1-2 AP based on how the debuff is applied (single target, AoE, etc)    | Introduces negative conditions that affect units during combat (e.g., reduced attack, defense, or movement). Could be applied through abilities or Event cards.                                                    |
-| Counter or Cancel an Ability/Effect | 4+                | -4+               | -1 AP per 2 CP            | N/A                       | N/A                                                                    | This effect could be used to directly counter or cancel an opponent's attempt to use an ability.                      |
-| Redirect Damage                     | 4                | -4                 | N/A                      | -1 AP                     | +1-2 AP based on redirection flexibility (any damage source vs. specific source), +1 AP if can be used on opponent's turn | This effect could be used to prevent an action by redirecting damage that would result from an attack.                 |
-| Prevent \[Effect]                  | **2**             | **-2**             | N/A                      | N/A                       | Varies depending on the specific effect being prevented.               | This effect could be used to prevent a specific action by negating the effect that would result from that action.       |
-| Negate \[Effect]                   | **3**             | **-3**             | N/A                      | N/A                       | N/A                                                                    | This effect would function similarly to "Counter or Cancel an Ability/Effect."                                      |
+This section provides a guide to the appendices contained within these "Quantum Nexus: Ability Creation Guidelines." These appendices offer detailed catalogues of core game components that designers will use to construct card abilities.
 
-### B. Trigger Cost Reference Table
+**Note on Previous Appendix Structure:**
+The previous version of these guidelines included Appendices A, B, C, and D, which contained reference tables for an "Ability Point (AP)" costing system. As the AP system has been superseded by the **"Progressive Budget Build" (PBB) system** using **Design Budget (DB) points** (detailed in the "Quantum Nexus: Card Creation Guidelines Version 2.0" and Section VI of this document), those original AP cost tables are now obsolete and have been removed.
 
-| Trigger                               | AP Cost (Self-Benefit) | AP Cost (Opponent-Benefit) | Activation Cost Modifier | Interrupt Type Modifier | Additional Cost Modifiers                                                                | Notes                                                                                                                                                                                                                                                                                                                                                                                                                     |
-| :------------------------------------- | :--------------- | :---------------- | :----------------------- | :----------------------- | :-------------------------------------------------------------------------------------------- | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Interrupts / Passive Effects**       |                   |                    |                           |                           |                                                                                               |                                                                                                                                                                                                                                                                                                                                                                                                                                     |
-| On Deploy                             | 1                 | -1                 | N/A                      | -1 AP                     |                                                                                               | Triggered when any unit is deployed.                                                                                                                                                                                                                                                                                                                                                                                                         |
-| On Attack                             | 3                 | -3                 | N/A                      | -2 AP                     |                                                                                               | Triggered when any unit attacks. Detrimental to the one being attacked.                                                                                                                                                                                                                                                                                                                                                                             |
-| On Damage                             | 2                 | -2                 | N/A                      | -1 AP                     |                                                                                               | Triggered when this unit takes damage from any source.                                                                                                                                                                                                                                                                                                                                                                                    |
-| On Heal                               | 2                 | -2                 | N/A                      | -1 AP                     |                                                                                               | Triggered when this unit is healed.                                                                                                                                                                                                                                                                                                                                                                                                        |
-| On Gain Keyword                       | 2                 | -2                 | N/A                      | -1 AP                     | +1 AP per additional keyword gained                                                           | Triggered when this unit gains a keyword.                                                                                                                                                                                                                                                                                                                                                                                                   |
-| On Lose Keyword                       | -2                | 2                  | N/A                      | -1 AP                     | +1 AP per additional keyword lost                                                            | Triggered when this unit loses a keyword.                                                                                                                                                                                                                                                                                                                                                                                                    |
-| Start of Turn                         | 2                 | -2                 | N/A                      | -1 AP                     |                                                                                               | Triggered at the start of each player's turn, unless specifically stated otherwise.                                                                                                                                                                                                                                                                                                                                         |
-| End of Turn                           | 2                 | -2                 | N/A                      | -1 AP                     |                                                                                               | Triggered at the end of each player's turn, unless specifically stated otherwise.                                                                                                                                                                                                                                                                                                                                           |
-| Whenever \[Effect]                   | Varies             | Varies             | N/A                      | -1 AP                     | Varies depending on the specific effect and frequency.                                         | Triggered whenever the specified effect occurs (e.g., "Whenever you play a Technology card, gain 1 CP").                                                                                                                                                                                                                                                                                                                        |
-| **Active Triggers**                   |                   |                    |                           |                           |                                                                                               |                                                                                                                                                                                                                                                                                                                                                                                                                                     |
-| Pay CP                                | -1 per 2 CP       | 1 per 2 CP        | N/A                      | N/A                       |                                                                                               | Triggered by paying a specified amount of CP.                                                                                                                                                                                                                                                                                                                                                                                     |
-| Discard Card                          | -1                | 1                  | N/A                      | N/A                       | +1 AP per additional card discarded, +1 AP if discarding from opponent's hand or a specific card type | Triggered by discarding a card.                                                                                                                                                                                                                                                                                                                                                                                                   |
-| Sacrifice Card                        | -3                | 3                  | N/A                      | N/A                       | Varies depending on the sacrificed card's type and rarity.                                     | Triggered by sacrificing a card (permanently removing it from play).                                                                                                                                                                                                                                                                                                                                                                |
-| Activate this Ability                 | 1                 | -1                 | N/A                      | N/A                       |                                                                                               | Triggered by activating the card's own ability (usually with a tap or exhaust mechanic).                                                                                                                                                                                                                                                                                                                                                |
-| Target a Specific Card Type           | 1                 | -1                 | N/A                      | N/A                       | Varies depending on the rarity and power level of the targeted card type.                        | Triggered by targeting a card of a specific type (e.g., Unit, Asset, Upgrade).                                                                                                                                                                                                                                                                                                                                                     |
-| Control a Specific Card Type         | 2                 | -2                 | N/A                      | N/A                       | Varies depending on the rarity and power level of the controlled card type.                    | Triggered by controlling a card of a specific type.                                                                                                                                                                                                                                                                                                                                                                        |
-| Have a Specific Number of Cards in Hand | 2                 | -2                 | N/A                      | N/A                       |                                                                                               | Triggered by having a specific number of cards in hand.                                                                                                                                                                                                                                                                                                                                                                                        |
-| **Phase Triggers**                    |                   |                    |                           |                           |                                                                                               |                                                                                                                                                                                                                                                                                                                                                                                                                                     |
-| Start of Deployment Phase             | 2                 | -2                 | N/A                      | -1 AP                     |                                                                                               | Triggered at the start of each player's Deployment Phase.                                                                                                                                                                                                                                                                                                                                                                                       |
-| Start of Command Phase                | 2                 | -2                 | N/A                      | -1 AP                     |                                                                                               | Triggered at the start of each player's Command Phase.                                                                                                                                                                                                                                                                                                                                                                                         |
-| Start of Battle Phase                 | 2                 | -2                 | N/A                      | -1 AP                     |                                                                                               | Triggered at the start of each player's Battle Phase.                                                                                                                                                                                                                                                                                                                                                                                           |
-| End of Deployment Phase               | 2                 | -2                 | N/A                      | -1 AP                     |                                                                                               | Triggered at the end of each player's Deployment Phase.                                                                                                                                                                                                                                                                                                                                                                                         |
-| End of Command Phase                  | 2                 | -2                 | N/A                      | -1 AP                     |                                                                                               | Triggered at the end of each player's Command Phase.                                                                                                                                                                                                                                                                                                                                                                                           |
-| End of Battle Phase                   | 2                 | -2                 | N/A                      | -1 AP                     |                                                                                               | Triggered at the end of each player's Battle Phase.                                                                                                                                                                                                                                                                                                                                                                                             |
+The DB costs for all ability components (effects, targets, triggers, conditions, keywords, etc.) will be officially defined and maintained by the design team in one or more **"Master DB Cost List(s),"** which are separate companion documents. The appendices listed below provide descriptive catalogues of these components, and each includes a blank "DB Cost" (or "DB Cost / Modifier") column to signify where these DB values will eventually be considered, though the Master DB Cost List(s) remain the definitive source for official design values.
 
-### C. Target Cost Reference Table
+## Appendix E: Core Game Effects Catalogue
 
-| Target Category | Target               | AP Cost (Self-Benefit) | AP Cost (Opponent-Benefit) | Additional Cost Modifiers                                                                                                                                                                  | Notes                                                                                                                                                                                                                                                                                                                                                                                      |
-| :-------------- | :-------------------- | :--------------- | :---------------- | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| Card            | Any Card              | 3                 | -3                 |                                                                                                                                                                                                   | Refers to any card in play, regardless of type.                                                                                                                                                                                                                                                                                                                                                          |
-| | This (Current Card) | 1 | -1 | | The current card that is using the effect. |
-|                 | Unit                  | 2                 | -2                 | +1 AP per additional unit targeted                                                                                                                                                              | A card representing a character or vehicle used for attacking and defending.                                                                                                                                                                                                                                                                                                                                  |
-|                 | Leader                | 4                 | -4                 |                                                                                                                                                                                                   | A powerful unit card with enhanced abilities.                                                                                                                                                                                                                                                                                                                                                               |
-|                 | Asset                 | 3                 | -3                 |                                                                                                                                                                                                   | A persistent card that provides ongoing benefits or activates special abilities.                                                                                                                                                                                                                                                                                                                                |
-|                 | Event                 | 2                 | -2                 |                                                                                                                                                                                                   | A card played for a one-time powerful effect.                                                                                                                                                                                                                                                                                                                                                                  |
-|                 | Upgrade               | 2                 | -2                 | +1 AP if targeting an Upgrade attached to a specific card type (e.g., Unit, Asset)                                                                                                                 | A card that modifies another card's stats or grants new abilities.                                                                                                                                                                                                                                                                                                                                       |
-|                 | Terrain               | 3                 | -3                 |                                                                                                                                                                                                   | A card that represents different environments on the battlefield.                                                                                                                                                                                                                                                                                                                                                          |
-| Deck            | Player's Deck         | 2                 | -2                 |                                                                                                                                                                                                   | Refers to the player's shuffled collection of cards from which they draw.                                                                                                                                                                                                                                                                                                                                             |
-|                 | Opponent's Deck       | -2                | 2                  |                                                                                                                                                                                                   | Refers to the opponent's shuffled collection of cards from which they draw.                                                                                                                                                                                                                                                                                                                                             |
-|                 | Player's Discard Pile | 1                 | -1                 |                                                                                                                                                                                                   | Refers to the pile where the player's destroyed or used cards are placed.                                                                                                                                                                                                                                                                                                                                              |
-|                 | Opponent's Discard Pile | -1                | 1                  |                                                                                                                                                                                                   | Refers to the pile where the opponent's destroyed or used cards are placed.                                                                                                                                                                                                                                                                                                                                              |
-| Stats           | Attack Value          | 2                 | -2                 | +1 AP per additional point of Attack Value affected                                                                                                                                                  | The offensive power of a unit.                                                                                                                                                                                                                                                                                                                                                                                 |
-|                 | Defense Value         | 2                 | -2                 | +1 AP per additional point of Defense Value affected                                                                                                                                                  | The defensive resilience of a unit or Asset.                                                                                                                                                                                                                                                                                                                                                                             |
-|                 | CP                    | 2                 | -2                 | +1 AP per 2 additional CP affected                                                                                                                                                                | The resource used to play cards and activate abilities.                                                                                                                                                                                                                                                                                                                                                          |
-| Player          | Self                  | 2                 |                    |                                                                                                                                                                                                   | Refers to the player activating the ability.                                                                                                                                                                                                                                                                                                                                                                         |
-|                 | Opponent              |                    | -2                 |                                                                                                                                                                                                   | Refers to the opponent of the player activating the ability.                                                                                                                                                                                                                                                                                                                                                              |
-| Game Element    | Quadrant              | 3                 | -3                 | +1 AP per additional Quadrant affected                                                                                                                                                             | A section of the battlefield where units are deployed.                                                                                                                                                                                                                                                                                                                                                         |
-|                 | Row/Column            | 4                 | -4                 | +1 AP if affecting both a Row and a Column                                                                                                                                                         | A line of Quadrants on the battlefield.                                                                                                                                                                                                                                                                                                                                                                   |
-|                 | Entire Battlefield    | 6                 | -6                 |                                                                                                                                                                                                   | Refers to all Quadrants on the battlefield.                                                                                                                                                                                                                                                                                                                                                                |
-|                 | Initiative            | 3                 | -3                 |                                                                                                                                                                                                   | Determines which player goes first in a phase.                                                                                                                                                                                                                                                                                                                                                                  |
-| Other           | Specific Card         | Varies             | Varies             | Varies depending on the card's type, rarity, and power level.                                                                                                                                      | Refers to a specific card by name (e.g., "Destroy target 'Quantum Construct'").                                                                                                                                                                                                                                                                                                                               |
-|                 | Choice of Options     | 2                 | -2                 | +1 AP per additional option, +1 AP if the choice involves different card types or effects (e.g., "Choose one – Draw a card; or Gain 2 CP")                                                       | Allows the player to choose between different effects or targets.                                                                                                                                                                                                                                                                                                                                     |
-|                 | All Units with a Specific Characteristic | 3                 | -3                 | +1 AP per additional characteristic, +1 AP if the characteristic is rare or powerful (e.g., "All Units with Flying gain +1 Attack")                                                                    | Affects all units that share a specific characteristic (e.g., domain, keyword, subtype).                                                                                                                                                                                                                                                                                                                          |
-|                 | Conditional Target     | 2                 | -2                 | +1 AP per additional condition, -1 AP if the condition is very restrictive (e.g., "Target Unit with the lowest Defense")                                                                          | The target is determined based on a specific condition.                                                                                                                                                                                                                                                                                                                                                           |
+**Introduction:**
+This catalogue provides a comprehensive list of core game effects available for ability design in Quantum Nexus. These effects are derived from the game's foundational rules and mechanics. Designers should use this list as a palette when constructing card abilities.
 
-### D. Conditional Cost Reference Table
+The **"DB Cost"** column is included to indicate that each effect, when incorporated into an ability, will contribute to that ability's overall Design Budget (DB) cost within the "Progressive Budget Build" system (see CCG v2.0, Section V.B). The actual DB values are illustrative placeholders or marked as 'TBD' (To Be Determined) within specific examples in these guidelines. Official, calibrated DB costs for all effects, keywords, and ability templates will be maintained in the separate **Master DB Cost List(s)** by the design team.
 
-| Conditional        | AP Cost (Self-Benefit) | AP Cost (Opponent-Benefit) | Notes                                                                                                                                                                                                                                       |
-|--------------------|-------------------|-------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Basic**           |                  |                   |                                                                                                                                                                                                                                            |
-| If                 | +1               | -1                | Checks for a specific state or event. The ability only activates if the condition is met at the moment the trigger occurs.                                                                                                  |
-| When               | +2               | -2                | Indicates that the ability activates automatically when a specific event happens. This implies continuous activation whenever the trigger occurs.                                                                             |
-| During              | +1               | -1                | Specifies a particular phase of the game during which the ability can be activated.                                                                                                                                                      |
-| After              | +2               | -2                | Triggers the ability after a specific action or event has been resolved.                                                                                                                                                              |
-| Unless             | +1               | -1                | Reverses the typical conditional logic. The ability activates unless the specified condition is met.                                                                                                                                  |
-| **Complex (Boolean)** |                  |                   |                                                                                                                                                                                                                                            |
-| And                | +1               | -1                | Both conditions must be true.                                                                                                                                                                                                           |
-| Or                 | +1               | -1                | At least one of the conditions must be true.                                                                                                                                                                                                      |
-| Not                | +1               | -1                | The condition must be false.                                                                                                                                                                                                            |
-| Xor                | +2               | -2                | Exactly one condition must be true, but not both.                                                                                                                                                                                         |
-| **Situational**       |                  |                   |                                                                                                                                                                                                                                            |
-| Based on CP        | +1               | -1                | Example: "If your CP is less than 5"                                                                                                                                                                                                   |
-| Based on Location  | +1               | -1                | Example: "If this unit is in the Front Row"                                                                                                                                                                                                 |
-| Based on Card Type | +1               | -1                | Example: "Unless you control a Technology unit"                                                                                                                                                                                      |
-| Based on Stats     | +1               | -1                | Example: "If the attacking unit has a higher Attack value than this unit."                                                                                                                                                            |
-| **Additional Modifiers** |                  |                   |                                                                                                                                                                                                                                            |
-| Per Additional Condition | +1             | -1                | For each additional condition beyond the first in a complex conditional.                                                                                                                                                                     |
-| Restrictive Condition  | -1               | +1                | If the condition is very specific or difficult to meet.  Example:  "Target unit with the lowest Defense". Note this modifier is subtracted from the conditional's cost and would therefore counteract a basic conditional's cost. |
+**I. Effects Primarily Affecting Cards in Play (Units, Assets, Terrain, Upgrades)**
+
+| Effect Description                                       | Notes                                                                                                                               | DB Cost |
+| :------------------------------------------------------- | :---------------------------------------------------------------------------------------------------------------------------------- | :------ |
+| **A. Stat & Attribute Modification** |                                                                                                                                     |         |
+| Set Attack to X                                          | Sets a Unit's Attack value to a specific number (X) for a duration.                                                                 |         |
+| Modify Attack by +/- X                                   | Increases or decreases a Unit's Attack value by X for a duration.                                                                   |         |
+| Set Defense to X                                         | Sets a Unit's or Asset's Defense value to X for a duration.                                                                         |         |
+| Modify Defense by +/- X                                  | Increases or decreases a Unit's or Asset's Defense value by X for a duration.                                                       |         |
+| Set Attack Range to [Close/Mid/Far]                      | Changes a Unit's attack range for a duration.                                                                                       |         |
+| Grant Attack Range [Close/Mid/Far]                       | Grants an additional attack range or replaces current range for a duration.                                                           |         |
+| Remove Attack Range [Close/Mid/Far]                      | Removes a specific attack range from a Unit for a duration.                                                                         |         |
+| **B. Applying States & Conditions** |                                                                                                                                     |         |
+| Exhaust Target Card                                      | Changes a ready card to exhausted.                                                                                                  |         |
+| Ready Target Card (Deactivate)                           | Changes an exhausted card to ready.                                                                                                 |         |
+| Apply **Suppressed** to Target Unit                      | Target Unit becomes exhausted (as per Rulebook Section III.C.2).                                                                      |         |
+| Remove **Suppressed** from Target Unit                   | If a Unit is Suppressed (and thus exhausted due to it), it becomes ready.                                                           |         |
+| Apply **Disordered** to Target Unit                      | Target Unit gets -1 Defense until its controller's next Start of Round Step (as per Rulebook Section III.C.2).                      |         |
+| Remove **Disordered** from Target Unit                   | Removes the -1 Defense penalty and Disordered state.                                                                                |         |
+| Apply [Custom Defined State] to Target Card             | Applies a specifically defined temporary or ongoing state to a card (mechanics of state must be clearly defined).                  |         |
+| Remove [Custom Defined State] from Target Card          | Removes a specifically defined state from a card.                                                                                   |         |
+| **C. Movement & Positioning (Units, Terrain)** |                                                                                                                                     |         |
+| Move Target Unit X Quadrant(s)                           | Moves a Unit cardinally. Specify if it exhausts, if it can move into/through occupied friendly quadrants (respecting Leader limits).    |         |
+| **Pushed Back** Target Unit                              | Controller moves the Unit one friendly cardinal quadrant (as per Rulebook Section III.C.2).                                           |         |
+| Swap Position of Two Target Units                        | Exchanges the quadrants of two specified friendly Units.                                                                            |         |
+| Deploy Target Terrain to Quadrant                        | Places a Terrain card into a specified friendly quadrant (respecting placement limits).                                              |         |
+| Move Target Terrain to different Quadrant                | Moves an existing Terrain card to another valid friendly quadrant.                                                                  |         |
+| **D. Modifying Abilities & Keywords** |                                                                                                                                     |         |
+| Grant Keyword [Keyword Name] to Target Card              | Target card gains a specified keyword for a duration.                                                                               |         |
+| Remove Keyword [Keyword Name] from Target Card           | Target card loses a specified keyword.                                                                                              |         |
+| Target Card Gains [Ability Text]                         | Target card gains a specified rules text ability for a duration.                                                                    |         |
+| Target Card Loses [Ability Text/All Abilities]           | Target card loses a specified ability or all its printed abilities for a duration.                                                  |         |
+| Negate Target Card's Passive/Triggered Abilities         | Specified abilities on the target card do not function for a duration.                                                              |         |
+| **E. Transformation & Type Change** |                                                                                                                                     |         |
+| Target Unit becomes a Leader                             | Changes a Unit's subtype to Leader (respecting quadrant limits, see Rulebook Section IV.A).                                         |         |
+| Target Leader Unit is no longer a Leader                 | Removes Leader subtype.                                                                                                             |         |
+| Change Target Card's Subtype to [Subtype]                | Changes a card's subtype for a duration or permanently.                                                                             |         |
+| **F. Attachment (Upgrades)** |                                                                                                                                     |         |
+| Attach Target Upgrade to Target Unit/Asset               | Attaches an Upgrade card to a valid target.                                                                                         |         |
+| Detach Target Upgrade                                    | Removes an Upgrade from the card it's attached to (it goes to Discard Pile unless specified otherwise).                             |         |
+| Transfer Target Upgrade to another valid Unit/Asset      | Moves an attached Upgrade to another valid target.                                                                                  |         |
+| **G. Destruction & Removal from Play** |                                                                                                                                     |         |
+| Inflict Impact X on Unit                                 | Compare X to target Unit's Defense. If X > Defense, destroy Unit. If X = Defense, Unit becomes **Suppressed**. If X < Defense, no effect (unless ability states otherwise). |         |
+| Destroy Target Card (Unit/Asset/Terrain/Upgrade)         | Target card is moved from its current zone to its owner's Discard Pile.                                                             |         |
+| Return Target Card to Owner's Hand                       | Target card in play (or from Discard Pile, etc.) is returned to its owner's hand.                                                   |         |
+| Place Target Card on Top/Bottom of Owner's Deck        | Target card from play/hand/discard is placed on top or bottom of its owner's Deck.                                                  |         |
+| Shuffle Target Card into Owner's Deck                    | Target card from play/hand/discard is shuffled into its owner's Deck.                                                               |         |
+| **H. Interactions with Other Cards in Play** |                                                                                                                                     |         |
+| Activate an Active Ability of Target Card              | Causes an Active Ability on another card to activate (specify cost payment responsibilities).                                       |         |
+| Trigger a Triggered Ability of Target Card               | Causes a specified Triggered Ability on another card to meet its trigger condition and resolve.                                     |         |
+
+**II. Effects Primarily Affecting Player Resources & Zones (Hand, Deck, Discard Pile, CP)**
+
+| Effect Description                                       | Notes                                                                                                                               | DB Cost |
+| :------------------------------------------------------- | :---------------------------------------------------------------------------------------------------------------------------------- | :------ |
+| **A. Command Points (CP)** |                                                                                                                                     |         |
+| Gain X CP                                                | Player gains X CP for the current Game Round.                                                                                       |         |
+| Target Player Loses X CP                                 | Target player loses X CP from their current CP pool.                                                                                |         |
+| Reduce CP Cost of [Criteria] by X                        | The CP cost to play a card (next card, specific type, specific name) is reduced by X for a duration or instance.                    |         |
+| Increase CP Cost of [Criteria] for Target Player by X    | Target player must pay X additional CP to play cards meeting criteria for a duration or instance.                                   |         |
+| Set CP Cost of [Criteria] to X                           | Sets the CP cost to play a card meeting criteria to a specific value X for a duration or instance.                                  |         |
+| **B. Card Draw & Hand Manipulation** |                                                                                                                                     |         |
+| Player Draws X Card(s)                                   | Player draws X cards from their Deck.                                                                                               |         |
+| Target Player Discards X Card(s) from Hand               | Specified player discards X cards (specify if chosen by controller of effect, owner of hand, or random).                            |         |
+| Look at Target Player's Hand                             | Player looks at the cards in another player's hand.                                                                                 |         |
+| Target Player's Maximum Hand Size becomes X              | Modifies hand size limit for drawing during Start of Round Step (Rulebook III.C.1.a.iii draws to 5 normally).                       |         |
+| **C. Deck Manipulation** |                                                                                                                                     |         |
+| Target Player Searches their Deck for [Card Criteria]    | Player searches their deck for a card(s) meeting criteria, reveals it (usually), adds to hand (usually), then shuffles deck.     |         |
+| Target Player Shuffles their Deck                        |                                                                                                                                     |         |
+| Look at Top X Cards of [Player's/Opponent's] Deck        | Player looks at top cards. Specify what happens next (e.g., put back in any order, discard some, put on bottom, add one to hand).     |         |
+| Target Player Discards Top X Cards of their Deck         | Moves cards from top of Deck to Discard Pile. (Contributes to Deck Out win condition).                                              |         |
+| Reorder Top X Cards of [Player's/Opponent's] Deck        | Changes the order of the top cards of a deck.                                                                                       |         |
+| Place Card from Hand/Discard on Top/Bottom of [Player]'s Deck | Moves a card from one zone to a specific part of a deck.                                                                          |         |
+| **D. Discard Pile Interaction** |                                                                                                                                     |         |
+| Return Target Card from [Player]'s Discard Pile to Hand  |                                                                                                                                     |         |
+| Return Target Card from [Player]'s Discard Pile to Deck  | Specify top/bottom or shuffle in.                                                                                                   |         |
+| Deploy Target Card from [Player]'s Discard Pile          | Card is put onto the Battlefield/Loadout Area (respecting card control rules, Rulebook V.F.).                                       |         |
+| Remove Target Card in Discard Pile from the Game         | Card is removed from the Discard Pile and set aside, considered out of the game (distinct from being in Deck, Hand, or Play).       |         |
+
+**III. Effects Primarily Affecting Game State, Rules & Flow**
+
+| Effect Description                                       | Notes                                                                                                                               | DB Cost |
+| :------------------------------------------------------- | :---------------------------------------------------------------------------------------------------------------------------------- | :------ |
+| **A. Modifying Actions & Activations** |                                                                                                                                     |         |
+| Player may take an Additional Single Action this Activation Sequence | Allows a player an extra single action from the standard list, immediately or later in their current series of activations. |         |
+| Target Card may Activate its Active Ability an Additional Time | Allows a card's active ability to be used again this Game Round, even if limited by exhaustion or other "once per round" restrictions. |         |
+| Prevent Target Card from Activating Active Abilities     | Target card cannot use its Active Abilities for a duration.                                                                         |         |
+| Prevent Target Card from Attacking                       | Target Unit cannot be chosen to Declare an Attack for a duration.                                                                   |         |
+| Prevent Target Card from Moving                          | Target Unit cannot perform a Move action or be moved by other card effects for a duration.                                          |         |
+| **B. Modifying Game Rules (Specific Instances)** |                                                                                                                                     |         |
+| Modify Targeting Rules for [Player/Card Type]            | E.g., "Cards opponent controls lose 'cannot be targeted by abilities' this Game Round."                                            |         |
+| Modify Deployment Rules for [Player/Card Type]           | E.g., "You may deploy your next Unit this Game Round as if its CP cost were 0."                                                     |         |
+| Modify Combat Impact                                     | E.g., "Impact inflicted by your Units is +1 this Game Round," or "Reduce Impact inflicted by opponent's Units by 1 this Game Round." |         |
+| **C. Interacting with Mission Cards** |                                                                                                                                     |         |
+| Add/Remove Progress Counter to/from a Mission Card       | (Assumes missions might use counters if not binary completion).                                                                     |         |
+| Auto-Complete Target Mission Card                        | Instantly fulfills the conditions for and completes a Mission Card. (Potentially very powerful).                                    |         |
+| Negate Passive Effect(s) of Target Mission Card          | Specified Mission Card's ongoing effect(s) are nullified for a duration.                                                            |         |
+| **D. Game Flow & End States** |                                                                                                                                     |         |
+| End the current Game Round                               | Prematurely ends the current Game Round; a new Game Round begins with the Start of Round Step.                                      |         |
+| End the current Player's Turn in Activation Sequence     | The current player immediately finishes their turn; play proceeds to the next player in clockwise order for their turn.             |         |
+| Player Wins the Game                                     | Directly causes a player to win (Core Principle: Immediate Victory applies).                                                        |         |
+| Player Loses the Game                                    | Directly causes a player to lose (Core Principle: Immediate Loss applies).                                                          |         |
+| **E. Copying & Negating** |                                                                                                                                     |         |
+| Copy Target [Event Card Effect / Active Ability Effect / Triggered Ability Effect] | The effect of the copied card/ability resolves as if this card initiated it. Specify targeting for copied effect.             |         |
+| Negate (Counter) Target [Event Card Effect / Active Ability / Triggered Ability] | The targeted card's effect or ability does not resolve / is prevented from activating.                                  |         |
+| **F. Initiative Manipulation** |                                                                                                                                     |         |
+| [Player] Gains Initiative for the Next Game Round        | Specified player will take the first action in the next Game Round's Activation Sequence, overriding standard initiative rules.     |         |
+
+## Appendix F: Core Game Targets Catalogue
+
+**Introduction:**
+This catalogue provides a comprehensive list of core game targets available for ability design in Quantum Nexus. These targets are derived from the game's foundational rules and mechanics. Designers should use this list as a reference when specifying what an ability's effect(s) will act upon.
+
+The **"DB Cost"** column is included to indicate that the choice of target, and its specificity, will contribute to an ability's overall Design Budget (DB) cost within the "Progressive Budget Build" system (see CCG v2.0, Section V.B). The actual DB values are illustrative placeholders or marked as 'TBD' (To Be Determined) within specific examples in these guidelines. Official, calibrated DB costs for all target types, scopes, and conditions will be maintained in the separate **Master DB Cost List(s)** by the design team. The DB cost associated with a target often reflects its scope (e.g., single vs. multiple) and accessibility.
+
+**I. Target: Cards**
+(Note: Most card targets can be further refined by player ownership [Self/Opponent/Any Player] and specific card properties like name, subtype, CP cost, stats, or keywords, as per Section V: Conditions and Appendix H.)
+
+| Target Description                      | Notes                                                                                                                                  | DB Cost |
+| :-------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------- | :------ |
+| **A. Cards in Play** | Cards currently on the Battlefield or in a Loadout Area.                                                                               |         |
+| Card in Play                            | Any single card on a player's Battlefield or in their Loadout Area.                                                                    |         |
+| Unit                                    | A single Unit card on the Battlefield.                                                                                                 |         |
+| Leader                                  | A single Unit card with the 'Leader' subtype on the Battlefield.                                                                       |         |
+| Asset                                   | A single Asset card in a player's Loadout Area.                                                                                        |         |
+| Upgrade                                 | A single Upgrade card attached to a Unit or Asset.                                                                                     |         |
+| Terrain                                 | A single Terrain card on the Battlefield in a player's quadrant.                                                                       |         |
+| X number of [Card Type(s) in Play]      | A specific number (X) of cards of a specified type(s) in play.                                                                         |         |
+| All [Card Type(s) in Play]              | All cards of a specified type(s) in play (e.g., "All Units on the Battlefield," "All friendly Assets"). Scope needs to be defined (player/opponent/all). |         |
+| **B. Cards in Hand** |                                                                                                                                        |         |
+| Card(s) in Hand                         | One or more cards in a specified player's hand. Specify quantity and selection method (chosen by owner/controller of effect, random). |         |
+| **C. Cards in Deck** |                                                                                                                                        |         |
+| Card(s) in Deck                         | One or more cards within a specified player's Deck. Usually for searching, revealing, or direct manipulation.                        |         |
+| Top/Bottom X Card(s) of Deck            | The specified top or bottom X cards of a player's Deck.                                                                                |         |
+| **D. Cards in Discard Pile** |                                                                                                                                        |         |
+| Card(s) in Discard Pile                 | One or more cards in a specified player's Discard Pile.                                                                                |         |
+| **E. Cards in Mission Card Area** |                                                                                                                                        |         |
+| Mission Card                            | A specific Mission Card in a player's Mission Card Area.                                                                               |         |
+| **F. Other Card-Specific Targets** |                                                                                                                                        |         |
+| Card with [Specific Keyword]            | Any card (specify zone) that currently possesses a given keyword.                                                                      |         |
+| Card with [Specific Subtype]            | Any card (specify zone) of a given subtype.                                                                                            |         |
+| Card with [Specific CP Cost / Stat Value / Name] | Any card (specify zone) meeting a specific CP cost, stat value, or name condition.                                            |         |
+
+**II. Target: Players & Player-Controlled Attributes**
+
+| Target Description          | Notes                                                                                           | DB Cost |
+| :-------------------------- | :---------------------------------------------------------------------------------------------- | :------ |
+| Player (Self)               | The player controlling/activating the ability ("You").                                          |         |
+| Player (Opponent)           | An opponent of the player controlling/activating the ability. Specify if "target opponent" or "each opponent." |         |
+| Player (Any)                | Any player in the game, including self.                                                         |         |
+| Player who [Met Condition]  | A player who meets a specific condition (e.g., "player with most CP").                          |         |
+| Player's Command Points (CP)| A player's current CP pool (e.g., for effects that gain/lose/set CP).                             |         |
+| Player's Hand (as an entity/attribute) | The cards collectively in a player's hand (e.g., for effects related to hand size).     |         |
+| Player's Deck (as an entity/attribute) | A player's Deck (e.g., for effects related to deck size).                               |         |
+| Player's Discard Pile (as an entity/attribute) | A player's Discard Pile (e.g., for effects related to its size or contents generally). |         |
+
+**III. Target: Game Elements, Zones & Areas**
+
+| Target Description          | Notes                                                                                                      | DB Cost |
+| :-------------------------- | :--------------------------------------------------------------------------------------------------------- | :------ |
+| **A. Battlefield Areas** |                                                                                                            |         |
+| Quadrant                    | A single quadrant on any player's side of the Battlefield. Specify friendly/opponent, specific location if needed (e.g., "target friendly Front Left Quadrant"). |         |
+| Row (Front/Back)            | All three quadrants in a player's Front or Back Row. Specify friendly/opponent.                            |         |
+| Column (Left/Center/Right)  | Both quadrants in a player's Left, Center, or Right column. Specify friendly/opponent.                     |         |
+| Player's Battlefield        | All six quadrants on one player's side of the Battlefield.                                                 |         |
+| All Battlefields            | All quadrants of all players.                                                                              |         |
+| **B. Other Zones (as entities)** |                                                                                                        |         |
+| Player's Loadout Area       | A specific player's Loadout Area.                                                                          |         |
+| Player's Mission Card Area  | A specific player's Mission Card Area.                                                                     |         |
+| Player's Deck (Zone)        | A player's entire Deck as a zone (e.g., for shuffling, or effects like "target Deck").                     |         |
+| Player's Discard Pile (Zone)| A player's entire Discard Pile as a zone (e.g., for effects like "target Discard Pile").                   |         |
+
+**IV. Target: Abstract Game Concepts & Properties**
+
+| Target Description          | Notes                                                                                                      | DB Cost |
+| :-------------------------- | :--------------------------------------------------------------------------------------------------------- | :------ |
+| **A. Stats & Values** |                                                                                                            |         |
+| Attack Value (of a Card)    | The numerical Attack stat of a Unit (e.g., for an effect that says "double target Unit's Attack Value").   |         |
+| Defense Value (of a Card)   | The numerical Defense stat of a Unit or Asset.                                                             |         |
+| CP Cost (of a Card)         | The printed Command Point cost of a card (e.g., for effects that check or use this value).                 |         |
+| Number (e.g., X)            | An abstract number, often chosen by a player or determined by a game state, used as input for an effect (e.g., "choose a number X"). |         |
+| **B. Keywords & Abilities** |                                                                                                            |         |
+| Keyword (on a Card)         | A specific keyword possessed by a card (e.g., for removal or conditional checks targeting the keyword itself). |         |
+| Ability (on a Card)         | A specific printed or granted ability on a card (e.g., to negate or copy it).                              |         |
+| Triggered Ability (instance)| A specific triggered ability that has just met its trigger condition (e.g., for a counter effect).         |         |
+| Activated Ability (instance)| A specific active ability as it's being activated (e.g., for a counter effect).                            |         |
+| Event Card Effect (instance)| The effect of an Event card as it's resolving (e.g., for a counter effect).                                |         |
+| **C. Game Mechanics** |                                                                                                            |         |
+| Initiative                  | The abstract concept of initiative (e.g., for an effect that states "target player gains Initiative").      |         |
+| A Game Rule                 | Rarely targeted directly, but abilities may state "ignore [specific game rule] for this effect/card."      |         |
+| **D. Choices** |                                                                                                            |         |
+| Choice (from a list of options provided by an ability) | When an ability says "Choose one: A; or B," the "Choice" is the target of the player's decision. |         |
+
+## Appendix G: Core Game Triggers Catalogue
+
+**Introduction:**
+This catalogue provides a comprehensive list of core game triggers available for ability design in Quantum Nexus. Triggers define the specific circumstances, game events, or timings that cause an ability to activate. Designers should use this list as a reference when specifying the activation conditions for abilities.
+
+The **"DB Cost"** column is included to indicate that the choice of trigger, its frequency, and its timing will contribute to an ability's overall Design Budget (DB) cost within the "Progressive Budget Build" system (see CCG v2.0, Section V.B). The actual DB values are illustrative placeholders or marked as 'TBD' (To Be Determined) within specific examples in these guidelines. Official, calibrated DB costs for all trigger types will be maintained in the separate **Master DB Cost List(s)** by the design team.
+
+**I. General Active Ability Trigger**
+(This is the fundamental trigger for abilities that require a player's conscious decision and action to use.)
+
+| Trigger Description                      | Notes                                                                                                                                                              | DB Cost |
+| :--------------------------------------- | :----------------------------------------------------------------------------------------------------------------------------------------------------------------- | :------ |
+| As a Player Action (Activate this Ability) | The ability is activated when its controller chooses to do so as one of their single actions during their turn in the Activation Sequence, and pays all specified costs. (See Rulebook Section III.C.2 – Activate an Active Ability). |         |
+
+**II. Event-Driven Triggers (Passive / Automatic)**
+(These triggers cause an ability to activate automatically when the specified game event or condition occurs, without requiring a player to use one of their single actions from the Activation Sequence. Resolution follows rules in Rulebook Section VII.A.)
+
+| Trigger Description                      | Notes                                                                                                                                                              | DB Cost |
+| :--------------------------------------- | :----------------------------------------------------------------------------------------------------------------------------------------------------------------- | :------ |
+| **A. Game Phase & Step Triggers** |                                                                                                                                                                    |         |
+| At the Start of the Game Round           | Triggers during the Start of Round Step, specifically after all actions in step III.C.1.a (refresh, gain CP, draw) and their contingent triggers (III.C.1.b) have resolved. (See Rulebook Section III.C.1.c). |         |
+| When [Player] Gains CP                   | Triggers when the specified player gains Command Points (e.g., during Start of Round Step, or from a card effect).                                                   |         |
+| When [Player] Draws [X] Card(s)          | Triggers when the specified player draws one or more cards.                                                                                                        |         |
+| When [Player's] Activation Sequence Turn Begins | Triggers when it becomes the specified player's turn to take an action within the Activation Sequence (i.e., they have initiative to act).                     |         |
+| When [Player] Chooses to Pass their Action | Triggers when the specified player chooses to "Pass" as their single action.                                                                                       |         |
+| At the End of the Activation Sequence    | Triggers when all players have consecutively passed, ending the Activation Sequence for the Game Round.                                                              |         |
+| At the End of the Game Round             | Triggers after the Activation Sequence for the Game Round has ended. (Effectively same as "At the End of the Activation Sequence").                                   |         |
+| **B. Card State & Zone Change Triggers** |                                                                                                                                                                    |         |
+| When [This/Target/Any] Card is Deployed  | Triggers when the specified card (or type/criteria of card) is successfully deployed to the Battlefield or Loadout Area.                                            |         |
+| When [This/Target/Any] Card is Destroyed | Triggers when the specified card is destroyed and moved to the Discard Pile.                                                                                       |         |
+| When [This/Target/Any] Card Leaves Play  | Triggers when the specified card moves from the Battlefield or Loadout Area to any other zone (Hand, Deck, Discard Pile).                                            |         |
+| When [This/Target/Any] Card Enters [Zone] | Triggers when the specified card enters a specific zone (e.g., "When this card enters your Discard Pile," "When a Unit enters your hand from play").               |         |
+| When [This/Target/Any] Card Becomes Exhausted | Triggers when the specified card changes from Ready to Exhausted.                                                                                                |         |
+| When [This/Target/Any] Card Becomes Ready | Triggers when the specified card changes from Exhausted to Ready (e.g., during Start of Round Step or by a card effect).                                             |         |
+| When [This/Target/Any] Unit Becomes Suppressed | Triggers when the specified Unit becomes Suppressed.                                                                                                             |         |
+| When [This/Target/Any] Unit Becomes Disordered | Triggers when the specified Unit becomes Disordered.                                                                                                           |         |
+| When [This/Target/Any] Card's [Stat] is Modified | Triggers when a specified stat (e.g., Attack, Defense) of the card is changed by an effect.                                                                    |         |
+| When [This/Target/Any] Card Gains/Loses a Keyword | Triggers when a keyword is added to or removed from the specified card.                                                                                    |         |
+| When an Upgrade is Attached to [This/Target/Any] Card | Triggers when an Upgrade card becomes attached to the specified card.                                                                                |         |
+| When an Upgrade is Detached from [This/Target/Any] Card | Triggers when an Upgrade card is removed from the specified card.                                                                                    |         |
+| **C. Combat-Related & Impact Triggers** (See Rulebook Section III.C.2) |                                                                                                                                        |         |
+| When [This/Target/Any] Unit Declares an Attack | Triggers when the specified Unit is declared as an attacker (after costs like exhausting are paid, but before targeting or resolution).                       |         |
+| When [This/Target/Any] Unit is Declared as a Defender | Triggers when the specified Unit is chosen as the target of an attack (before combat or Impact resolution).                                             |         |
+| When [This/Target/Any] Unit Destroys another Unit (via Attack/Impact) | Triggers after combat/Impact resolution if the specified Unit destroyed another Unit.                                                      |         |
+| When [This/Target/Any] Unit is Destroyed (via Attack/Impact) | Triggers after combat/Impact resolution if the specified Unit was destroyed.                                                                     |         |
+| When [This/Target/Any] Unit Suppresses another Unit (via Attack/Impact) | Triggers after combat/Impact resolution if the specified Unit Suppressed another Unit.                                                     |         |
+| When [This/Target/Any] Unit is Suppressed (via Attack/Impact) | Triggers after combat/Impact resolution if the specified Unit was Suppressed.                                                                    |         |
+| When [This/Target/Any] Attacking Unit Becomes Disordered | Triggers after combat resolution if the specified attacking Unit became Disordered.                                                                  |         |
+| When [This/Target/Any] Attacking Unit is Pushed Back | Triggers after combat resolution if the specified attacking Unit was Pushed Back.                                                                          |         |
+| When [This/Target/Any] Unit Inflicts Impact | Triggers when the specified Unit successfully resolves an "Inflict Impact" effect (regardless of outcome: Destroyed, Suppressed, or No Effect). |         |
+| When [This/Target/Any] Unit is targeted by an "Inflict Impact" effect | Triggers when the specified Unit is chosen as the target of an "Inflict Impact" effect (before resolution).                               |         |
+| When [This/Target/Any] Unit Moves Quadrant(s) | Triggers when the specified Unit successfully moves from one quadrant to another (via Move action or card effect).                                               |         |
+| **D. Player Action & Resource Triggers** |                                                                                                                                                                    |         |
+| When [Player] Plays [Card Type/Subtype/Name] Card | Triggers when the specified player successfully pays costs and plays a card of a certain type, subtype, or name from their hand, and it enters its destination zone. |         |
+| When [Player] Activates an Active Ability | Triggers when the specified player successfully pays costs and activates any Active Ability (or a specific one).                                                 |         |
+| When [Player]'s CP becomes/is [Condition] X | Triggers when the specified player's Command Point total meets a certain condition (e.g., "is 0," "becomes 10 or more").                                        |         |
+| When [Player]'s Hand Size becomes/is [Condition] X | Triggers when the specified player's number of cards in hand meets a certain condition.                                                                  |         |
+| When [Player]'s Deck has X or Fewer Cards | Triggers when the number of cards remaining in the specified player's Deck drops to X or below.                                                                  |         |
+| When [Player]'s Deck Becomes Empty       | Triggers when a player is required to draw a card from an empty deck (this trigger resolves before the player loses the game).                                     |         |
+| When [Player] Completes a Mission Card   | Triggers when the specified player fulfills the conditions for and completes one of their Mission Cards.                                                           |         |
+| When [Player] Targets [Criteria] with an Ability/Attack | Triggers when the specified player targets a card/player meeting certain criteria with an ability or attack.                                       |         |
+| When an Effect from an Opponent's Card Targets [This/Target/Any] Card | Triggers when an opponent's card effect targets the specified card(s) you control.                                                         |         |
+
+## Appendix H: Core Game Condition Types Catalogue
+
+**Introduction:**
+This catalogue outlines common types of conditions that can be incorporated into Quantum Nexus abilities. Conditions add strategic depth by making abilities dependent on specific game states, card attributes, player choices, or other circumstances. They typically function as "if X is true" or "unless X is true" prerequisites or modifiers for an ability's activation or resolution.
+
+The **"DB Cost / Modifier"** column indicates that applying a condition will influence an ability's overall Design Budget (DB) cost within the "Progressive Budget Build" system (see CCG v2.0, Section V.B). Conditions might add to an ability's complexity and thus its DB cost, or in some cases (e.g., highly restrictive conditions for a powerful effect) they might act to reduce the perceived base cost of the effect they gate. The actual DB values or specific modifiers are illustrative placeholders or marked as 'TBD' (To Be Determined) within examples in these guidelines. Official, calibrated DB costs/modifiers for all condition types will be maintained in the separate **Master DB Cost List(s)** by the design team.
+
+**I. Game State Conditions**
+(Conditions based on the overall state or timing within the game)
+
+| Condition Type Description                      | Examples of Phrasing / Notes                                                                                                   | DB Cost / Modifier |
+| :---------------------------------------------- | :----------------------------------------------------------------------------------------------------------------------------- | :----------------- |
+| **A. Timing Within Game Round** |                                                                                                                                |                    |
+| If it is the Start of Round Step                | Checks if the game is currently in this specific step (Rulebook Section III.C.1).                                              |                    |
+| If it is the Activation Sequence                | Checks if the game is currently in the Activation Sequence (Rulebook Section III.C.2).                                         |                    |
+| If it is [Player]'s turn in the Activation Sequence | Checks if the specified player is the one whose turn it is to take an action.                                                |                    |
+| If [Player] has Initiative                      | Checks if the specified player currently holds initiative for the Game Round (Rulebook Section III.D).                           |                    |
+| **B. General Game State Checks** |                                                                                                                                |                    |
+| If a [Specific Trigger Event from App. G] has occurred this Game Round | E.g., "If a friendly Unit was destroyed this Game Round." Requires tracking of the event if not inherently obvious.        |                    |
+| If no [Specific Trigger Event from App. G] has occurred this Game Round | E.g., "If you have not drawn any cards this Game Round, other than during the Start of Round Step."              |                    |
+| If total CP spent by [Player] this Game Round is [Comparison] X | E.g., "If you have spent 5 or more CP this Game Round."                                                          |                    |
+| If it is the first/second/etc. Game Round     | Checks the current Game Round number.                                                                                          |                    |
+
+**II. Card-Specific Conditions**
+(Conditions based on the properties, state, or location of one or more cards, often "this card" or a "target card")
+
+| Condition Type Description                      | Examples of Phrasing / Notes                                                                                                   | DB Cost / Modifier |
+| :---------------------------------------------- | :----------------------------------------------------------------------------------------------------------------------------- | :----------------- |
+| **A. Card Identity & Type** |                                                                                                                                |                    |
+| If [This/Target/Specified] Card is [Card Name]  | Checks for a specific named card.                                                                                              |                    |
+| If [This/Target/Specified] Card is a [Unit/Leader/Asset/Terrain/Upgrade] | Checks the card's primary type (Rulebook Section IV).                                                          |                    |
+| If [This/Target/Specified] Card has [Subtype]   | Checks for a specific subtype (e.g., "If this Unit is a 'Mech'").                                                              |                    |
+| If [This/Target/Specified] Card has [Keyword]   | Checks if a card possesses a specific keyword.                                                                                 |                    |
+| If [This/Target/Specified] Card is of [Domain]  | Checks if a card has a specified Domain affinity (Technology, Magic, Psionics, Divinity).                                      |                    |
+| **B. Card Stats & Cost** |                                                                                                                                |                    |
+| If [This/Target/Specified] Card's [Attack/Defense/CP Cost] is [Comparison] X | E.g., "If target Unit's Attack is 5 or more," "If this card's printed CP cost is less than 3."                 |                    |
+| If [This/Target/Specified] Card's [Stat A] is [Comparison] its [Stat B] | E.g., "If this Unit's Attack is greater than its Defense."                                                     |                    |
+| **C. Card State** |                                                                                                                                |                    |
+| If [This/Target/Specified] Card is Exhausted    | Checks if the card is currently exhausted.                                                                                     |                    |
+| If [This/Target/Specified] Card is Ready        | Checks if the card is currently ready.                                                                                         |                    |
+| If [This/Target/Specified] Unit is Suppressed   | Checks if the Unit is currently in the Suppressed state.                                                                       |                    |
+| If [This/Target/Specified] Unit is Disordered   | Checks if the Unit is currently in the Disordered state.                                                                       |                    |
+| If [This/Target/Specified] Card is Attached (for Upgrades) | Checks if an Upgrade is currently attached to another card.                                                            |                    |
+| If [This/Target/Specified] Card has an Upgrade Attached | Checks if a Unit or Asset has any (or a specific type of) Upgrade attached.                                            |                    |
+| If [This/Target/Specified] Card has [X] [Counter Type] on it | Checks for the presence or number of specific game counters if they are introduced.                                 |                    |
+| **D. Card Location (Zone/Position)** |                                                                                                                                |                    |
+| If [This/Target/Specified] Card is in [Zone]    | Checks if a card is in a specific zone (e.g., "Hand," "Deck," "Discard Pile," "Loadout Area," "Battlefield").                   |                    |
+| If [This/Target/Specified] Unit is in [Player]'s [Quadrant Name/Row/Column] | E.g., "If this Unit is in your Front Row," "If target Unit is in an opponent's Back Center Quadrant."            |                    |
+| If [This/Target/Specified] Card is the Top Card of [Player]'s [Deck/Discard Pile] |                                                                                                                                |                    |
+| If [Quadrant] is Occupied/Empty                 | Checks if a specified quadrant contains any Units (or specific types of Units).                                                |                    |
+| If [Quadrant] contains a [Terrain Type/Keyword] Terrain | Checks the properties of Terrain in a quadrant.                                                                        |                    |
+
+**III. Player-Specific Conditions**
+(Conditions based on a player's status, resources, or cards they control)
+
+| Condition Type Description                      | Examples of Phrasing / Notes                                                                                                   | DB Cost / Modifier |
+| :---------------------------------------------- | :----------------------------------------------------------------------------------------------------------------------------- | :----------------- |
+| **A. Player Resources** |                                                                                                                                |                    |
+| If [Player]'s CP is [Comparison] X              | E.g., "If your CP is 0," "If opponent's CP is greater than yours."                                                             |                    |
+| If [Player]'s Hand contains [Number/Type/Criteria of] Card(s) | E.g., "If your hand is empty," "If you have 3 or more Event cards in your hand," "If you have no Unit cards in hand." |                    |
+| If [Player]'s Deck has [Number] or [Fewer/More] Cards | E.g., "If your Deck has 10 or fewer cards."                                                                                  |                    |
+| If [Player]'s Discard Pile contains [Number/Type/Criteria of] Card(s) | E.g., "If there are 5 or more Unit cards in your Discard Pile," "If your Discard Pile is empty."                 |                    |
+| **B. Player Control & Board Presence** |                                                                                                                                |                    |
+| If [Player] Controls [Number/Type/Criteria of] Card(s) | E.g., "If you control a Leader," "If opponent controls no Units," "If you control 3 or more Technology Assets."               |                    |
+| If [Player] Controls more/fewer [Card Type] than Opponent(s) | E.g., "If you control more Ready Units than target opponent."                                                          |                    |
+| If [Player] has completed [X / Specific Name / Type of] Mission Card(s) | Checks Mission Card completion status.                                                                                         |                    |
+| If [Player] controls a Unit in every friendly Front Row quadrant | Checks for specific board presence configurations.                                                               |                    |
+| **C. Player Status** |                                                                                                                                |                    |
+| If [Player] was Attacked this Game Round        | Checks if the player was the recipient of an attack declaration.                                                               |                    |
+| If [Player] has Activated X or more Abilities this Game Round | Checks frequency of ability activations.                                                                       |                    |
+
+**IV. Comparison & Counting Conditions**
+(Conditions involving comparing values or counting game elements not covered above)
+
+| Condition Type Description                      | Examples of Phrasing / Notes                                                                                                   | DB Cost / Modifier |
+| :---------------------------------------------- | :----------------------------------------------------------------------------------------------------------------------------- | :----------------- |
+| If [Value A] is [Comparison Operator] [Value B] | Comparison operators: Equal To, Not Equal To, Greater Than, Less Than, Greater Than or Equal To, Less Than or Equal To. Values can be stats, CP, card counts, chosen numbers, etc. |                    |
+| If the number of [Game Element Type] [Scope] is [Comparison] X | E.g., "If the number of Exhausted Units you control is 3 or more," "If the number of Terrain cards on the Battlefield is 0." |                    |
+| If [Criteria A] is true AND/OR/NOT [Criteria B] is true | For combining multiple conditional checks using Boolean logic (see Section V).                                           |                    |
+
+**V. Cost & Choice-Related Conditions (Often part of ability text allowing player agency)**
+
+| Condition Type Description                      | Examples of Phrasing / Notes                                                                                                   | DB Cost / Modifier |
+| :---------------------------------------------- | :----------------------------------------------------------------------------------------------------------------------------- | :----------------- |
+| If [Player] Pays [X CP / Other Resource Cost] as an additional cost | Ability effect resolves or is enhanced if an optional additional cost is paid. E.g., "You may pay 2 CP. If you do..."  |                    |
+| Unless [Player] Pays [X CP / Other Resource Cost] | Effect occurs unless a cost is paid by a specified player. E.g., "Target opponent discards 1 card unless they pay 3 CP."       |                    |
+| If [Player] Discards [Number/Type of] Card(s) as an additional cost | E.g., "You may discard a Technology card from your hand. If you do, draw two cards."                               |                    |
+| Unless [Player] Discards [Number/Type of] Card(s) | E.g., "This Unit cannot attack unless you discard a card."                                                                     |                    |
+| If [Player] Chooses [Option A over Option B]    | For abilities with modal choices. E.g., "Choose one — If you chose A, then..."                                                 |                    |

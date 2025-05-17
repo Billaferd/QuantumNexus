@@ -239,11 +239,12 @@ The "Progressive Budget Build" system determines a card's playable CP cost by fi
 
 * **Step 2.2: Costing Abilities & Keywords in DB**
     * Designers select abilities (Active, Passive, Triggered) and Keywords for the card.
-    * **A Master List of DB Costs for Abilities and Keywords must be developed and maintained by the design team.** This list will assign a DB cost to each defined game effect, considering its impact on action economy, board state, resource manipulation, etc., within the current ruleset. (Initial placeholder costs for sample abilities are used in the Section XI example).
-    * `DB_Spent_On_Abilities = Sum of DB costs for all chosen abilities and keywords from the Master List`.
+    * **A Master List of DB Costs for Abilities and Keywords must be developed and maintained by the design team.** This list will assign a DB cost to each defined game effect, considering its impact on action economy, board state, resource manipulation, etc., within the current ruleset. The Net DB cost of an ability or keyword, sourced from this Master List (and derived using "Ability Creation Guidelines" (ACG) principles), can be positive, zero, or even negative if its gameplay activation costs are substantial. All such values are summed to determine `DB_Spent_On_Abilities`. This sum also includes the DB costs of inherent, defining attributes of a card type that are not Attack/Defense stats but still have a DB cost (e.g., a Unit's primary Range, as illustrated in Section XI). (Initial placeholder costs for sample abilities are used in the Section XI example).
+    * `DB_Spent_On_Abilities = Sum of DB costs for all chosen abilities, keywords, and relevant inherent attributes from the Master List`.
 
 * **Step 2.3: Calculating Total Actual DB Spent & Budget Constraint**
     * `Total_Actual_DB_Spent = DB_Spent_On_Stats + DB_Spent_On_Abilities`.
+    * A Net DB cost for an ability or keyword that is negative (typically due to significant gameplay activation costs providing a DB "rebate" as detailed in the ACG) will correctly reduce the `Total_Actual_DB_Spent`.
     * **Hard Constraint:** `Total_Actual_DB_Spent` **must be less than or equal to** the card's `TDB`. Designers must adjust stats, abilities, or the card's classification (DP, rarity, role, which influence TDB) to meet this budget.
 
 **4. Phase 3: Calculating Final Playable Command Point (CP) Cost**
@@ -266,7 +267,7 @@ This "Progressive Budget Build" system supports key design goals:
 
 ### C. Functional Attributes
 Each card possesses specific attributes that define its capabilities.
-* Range (If Applicable to Card Type, e.g., Units): Must conform to current Rulebook definitions (see Section II.B of these Guidelines). The choice of range will have an associated DB cost from the Master List.
+* Range (If Applicable to Card Type, e.g., Units): Must conform to current Rulebook definitions (see Section II.B of these Guidelines). The choice of range will have an associated DB cost from the Master List, typically accounted for under `DB_Spent_On_Abilities`.
 * Attack (If Applicable, e.g., Units): The offensive strength. Its value contributes to `DB_Spent_On_Stats`.
 * Defense (If Applicable, e.g., Units, Assets): Resilience against attacks or effects. Its value contributes to `DB_Spent_On_Stats`.
 * Rule Box: Contains the card's abilities.
@@ -274,8 +275,8 @@ Each card possesses specific attributes that define its capabilities.
     * Passive Abilities: Always in effect once the card is in play under the correct conditions. Do not require activation. Each Passive Ability will have a DB cost from the Master List.
     * Triggered Abilities (includes Interrupts): Activate in response to specific game events. Mandatory triggers must be announced and resolved. Optional Interrupts may have costs and allow a choice to activate (Rulebook Section VII.A). Each Triggered Ability will have a DB cost from the Master List.
 * Ability Costs (Gameplay vs. Design):
-    * **Design Budget (DB) Cost:** An internal value from the Master List representing how much of a card's TDB an ability consumes in its design.
-    * **Gameplay Activation Cost:** For Active Abilities, this is the CP (and potentially other resources like exhausting the card, sacrificing, etc.) a player must pay to use the ability during a game. This gameplay cost is separate from its DB design cost but may influence the assignment of its DB cost on the Master List. Printed CP cost of a card is determined by the "Progressive Budget Build" system.
+    * **Design Budget (DB) Cost:** An internal value from the Master List representing how much of a card's TDB an ability consumes in its design. This is its Net DB cost after considering all 7 components from the "Ability Creation Guidelines (ACG)," including any DB rebates from gameplay activation costs.
+    * **Gameplay Activation Cost:** For Active Abilities, this is the CP (and potentially other resources like exhausting the card, sacrificing, etc.) a player must pay to use the ability during a game. This gameplay cost is separate from its DB design cost but directly influences the assignment of its Net DB cost on the Master List (as detailed in the ACG). Printed CP cost of a card is determined by the "Progressive Budget Build" system.
 
 ## VI. Card Count Limits (Deckbuilding Restrictions)
 
@@ -304,11 +305,11 @@ Abilities are the core of a card's function and strategic interest.
 
 ### B. Ability Design and Costing: Design Budget (DB) System for Balancing Abilities
 * **Concept and Theme:** Abilities must align with the card's overall concept, domain, subtype, and flavor. All distinct abilities should be clearly named in the rule box if they are complex or targetable by other effects.
-* **Power Level and Balance:** The impact of an ability on the game state must be carefully considered. More powerful or versatile abilities will generally have a higher Design Budget (DB) cost from the Master List (see Section V.B).
+* **Power Level and Balance:** The impact of an ability on the game state must be carefully considered. More powerful or versatile abilities will generally have a higher Design Budget (DB) cost from the Master List (see Section V.B). For understanding how these DB costs are derived, or for designing new abilities not yet on the Master List, designers must consult the 7-component framework detailed in the "Quantum Nexus: Ability Creation Guidelines (ACG)."
 * **Design Budget (DB) System:**
     * As detailed in Section V.B ("Progressive Budget Build"), each card has a Total Design Budget (TDB) derived from its DP, role, and rarity.
     * Stats, abilities, and keywords consume DB from this TDB.
-    * Each ability or keyword will have a specific DB cost assigned to it on a **Master List of DB Costs**, which must be developed and calibrated by the design team. This DB cost reflects its power, complexity, impact on action economy (especially for Active Abilities), and any associated gameplay activation costs.
+    * Each ability or keyword will have a specific DB cost assigned to it on a **Master List of DB Costs**, which must be developed and calibrated by the design team. This DB cost reflects its power, complexity, impact on action economy (especially for Active Abilities), and any associated gameplay activation costs (as detailed in the ACG).
     * More impactful abilities will consume more DB. The total DB cost of all a card's features (stats, abilities, keywords) determines its final playable CP cost.
 * **Clarity:** Ability text must be precise and unambiguous, using established game terminology consistently. Refer to "Precision Matters" in the Rulebook Core Principles.
 
@@ -319,10 +320,10 @@ Keywords are shorthand for specific, predefined abilities or characteristics.
 * **Defining Keywords:** If a new keyword is introduced, its rules must be clearly defined, either on the card itself if it's a one-off, or in the main Rulebook Glossary if it's intended for wider use.
 * **Balancing Keywords:** The impact of a keyword must be factored into the card's overall balance via its assigned DB cost within the "Progressive Budget Build" system (Section V.B). Each keyword will have an associated DB cost on the **Master List of DB Costs**.
     * Positive keywords (e.g., granting an advantage) would have a DB cost.
-    * Negative keywords (e.g., imposing a drawback) might conceptually have a negative DB cost (i.e., they refund DB to the budget, allowing for better stats or other abilities for its cost), or a very low positive DB cost if their drawback is minor. This needs careful consideration during Master List calibration.
+    * Negative keywords (e.g., imposing a drawback) might conceptually have a negative DB cost (i.e., they refund DB to the budget, allowing for better stats or other abilities for its cost), or a very low positive DB cost if their drawback is minor. This needs careful consideration during Master List calibration, following the principles in the "Ability Creation Guidelines (ACG)."
     * Neutral keywords (e.g., defining a specific mode of operation) would also have a DB cost reflecting their complexity or utility.
 
-> **DESIGN TEAM NOTE:** A Master List of official game Keywords and their Design Budget (DB) costs will be developed and maintained by the design team as part of the "Progressive Budget Build" system's calibration (see Section V.B).
+> **DESIGN TEAM NOTE:** A Master List of official game Keywords and their Design Budget (DB) costs will be developed and maintained by the design team as part of the "Progressive Budget Build" system's calibration (see Section V.B). These DB costs will be derived using the 7-component framework from the "Ability Creation Guidelines (ACG)."
 
 ## IX. Flavor Attributes
 
@@ -383,7 +384,7 @@ This example uses the **"Progressive Budget Build - Version 2 (Dynamic Scaling)"
         * Passive: "Reconnaissance Scan" (Original concept: Look at top of opponent's deck, may bottom it): *Initial Placeholder DB Cost:* **7 DB**
         * Active: "Targeted Laser Strike" (Gameplay Activation Cost: 2 CP, Exhaust this Unit) - Choose a unit. It gets -2 Defense this turn. *Placeholder DB Cost:* **5 DB**
         * Keyword: "Flying" (Assumed implies special targeting): *Initial Placeholder DB Cost:* **4 DB**
-        * Initial `DB_Spent_On_Abilities` = 6 (Far Range) + 7 (Scan) + 5 (Laser Strike) + 4 (Flying) = **22 DB**.
+        * Initial `DB_Spent_On_Abilities` = 6 (Far Range) + 7 (Scan) + 5 (Laser Strike) + 4 (Flying) = **22 DB**. (Note: "Far Range" DB cost is accounted for here as per Section V.B.3, Step 2.2 clarification).
 
     * **Initial Total Actual DB Spent & Budget Check:**
         * `Total_Actual_DB_Spent` = 9.5 (Stats) + 22 (Abilities) = **31.5 DB**.
@@ -445,7 +446,7 @@ Playtesting is non-negotiable.
 
 ## XV. Mission Card Design
 
-> DESIGN TEAM NOTE: The principles and specific parameters for designing Mission Cards (including balancing their CP values provided to players each round, objective complexity, passive effects, and any abilities they grant) are detailed in a separate, official "Quantum Nexus: Mission Card Design Document."
+> **DESIGN TEAM NOTE:** The principles and specific parameters for designing Mission Cards (including balancing their CP values provided to players each round, objective complexity, passive effects, and any abilities they grant) are detailed in a separate, official **"Quantum Nexus: Mission Card Creation Guidelines."**
 >
 > Designers assigned to create or revise Mission Cards must consult this dedicated document. These Card Creation Guidelines focus on the design of cards that form a player's main deck.
 
@@ -468,7 +469,7 @@ The Quantum Nexus card creation process is a blend of creativity, strategic desi
 * **DP-Driven Design Budget (DDB):** The portion of a card's Design Budget derived directly from its Total Domain Points.
 * **Foundational Design Budget (FDB):** A small, flat DB amount all cards start with in the "Progressive Budget Build" system.
 * **Internal Design Tags (Formerly "Ranks"):** Terms like "Terrestrial," "Aerial," used by designers for thematic categorization, not as player-facing mechanics.
-* **Master DB Cost List(s):** Essential companion documents (to be developed) detailing the DB cost for every standard ability effect and keyword in the game, used with the "Progressive Budget Build" system.
+* **Master DB Cost List(s):** Essential companion documents (to be developed) detailing the DB cost for every standard ability effect component (as per ACG), complete abilities, keywords, and Mission Challenge Components in the game, used with the "Progressive Budget Build" system and "Mission Card Intrinsic Budget System."
 * **Total Actual DB Spent:** The sum of all DB costs for a card's chosen stats, abilities, and keywords. This value is used to calculate the Final CP cost.
 * **Total Design Budget (TDB):** The maximum DB a card can have in the "Progressive Budget Build" system, derived from its Base Design Budget (BDB) and modifiers for role (Leader) and rarity (duplicate limit). A card's `Total_Actual_DB_Spent` cannot exceed its TDB.
 * *[Obsolete Term for Costing System:] Ability Point (AP).*
@@ -490,7 +491,7 @@ When using the "Progressive Budget Build" system, consider these nuances for dif
 1.  **Units**
     * **Stats and Role:** Balance Attack and Defense DB costs according to the unit's intended role (offensive, defensive, utility). Consider its synergy with the current combat outcomes (Suppressed, Disordered, Pushed Back).
     * **Abilities:** Design abilities that complement its stats and role. Active Abilities consume an action slot in the Activation Sequence, which should be a major factor in their DB cost on the Master List.
-    * **Range:** The choice of range (Close, Mid, Far as per current Rulebook) will have a DB cost from the Master List.
+    * **Range:** The choice of range (Close, Mid, Far as per current Rulebook) will have a DB cost from the Master List, typically accounted for as part of `DB_Spent_On_Abilities`.
 2.  **Leaders**
     * **Impact:** The Leadership DBM grants Leaders a higher TDB, allowing for more significant or numerous abilities. Their abilities should be impactful, aligning with their unique status and deckbuilding restrictions.
     * **Synergy:** Design abilities that synergize with specific domains, subtypes, or strategies.

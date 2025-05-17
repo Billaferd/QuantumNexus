@@ -128,7 +128,7 @@ The "Challenge" is the objective of a Mission Card. Its "cost" in terms of Desig
 * Challenges must be clear, specific, and verifiable game states or achievements.
 * They should require active player effort, strategic choices, or specific deck-building considerations.
 * Avoid challenges solely reliant on opponent actions or pure luck beyond standard game randomness.
-* **Construction:** Challenges are broken down into logical components (e.g., "Control X [Unit Type] in Y Location on your Battlefield for Z turns"). Each component (type of control, number, location, duration, specific actions required) will have a DB cost specified in the **"Master DB Cost List for Challenge Components."** The sum of these component costs forms the `Challenge_Cost_DB`.
+* **Construction:** Challenges are broken down into logical components (e.g., "Control X [Unit Type] in Y Location on your Battlefield for Z turns"). Each component (type of control, number, location, duration, specific actions required) will have a DB cost specified in the **"Master DB Cost List for Challenge Components."** When assigning DB costs to challenge components involving specific game states (e.g., player resource levels, card locations, control of areas), designers should align these costs with the established DB modifiers for similar conditions found in the ACG Appendix D (Core Game Conditions Catalogue) to ensure system-wide valuation consistency. The sum of these component costs forms the `Challenge_Cost_DB`.
     * *Examples of Challenge Aspects to Cost:*
         * Requiring specific card types, subtypes, or domains to be in play/used on the player's side.
         * Requiring control of specific quadrants or board configurations on the player's Battlefield.
@@ -161,7 +161,7 @@ Upon completing a Mission Card's Challenge, players are typically rewarded with 
 
 ### A. Ability Construction using the Ability Creation Guidelines (ACG)
 
-All abilities granted by Mission Cards (both One-Time and Passive) **must be designed and described** using the component system (Effects, Targets, Triggers, Conditions) and catalogues (ACG Appendices E-H) found in the "Quantum Nexus: Ability Creation Guidelines."
+All abilities granted by Mission Cards (both One-Time and Passive) **must be designed and described** using the 7-component system (**Effects, Targets, Triggers, Conditions, Duration, Frequency/Limitation, and Activation Cost (Gameplay Costs)**) and catalogues (**ACG Appendices A, B, C, D, E, F, and G**) found in the "Quantum Nexus: Ability Creation Guidelines." The Net Design Budget (DB) cost for each reward ability is determined by systematically applying all seven of these components and their associated DB values or modifiers as detailed in the ACG and the Master DB Cost List for abilities.
 
 ### B. Reward Power via Design Budget (DB) Points (Reward\_Abilities\_DB)
 
@@ -238,7 +238,7 @@ This framework details the "Mission Card Intrinsic Budget System," designed to d
 7.  **Step 7: Finalize Printed CP Value (Rounding & Iterative Adjustment)**
     * Round the `Preliminary Printed CP` according to established design team rules (e.g., round to the nearest whole number, with a typical minimum of 1 CP or 2 CP for any Mission Card).
         * *Example: 8 CP is a whole number. This is a high value for a single mission. This outcome results from the chosen placeholder values for TDB inputs and the `Roundly_CP_DB_Multiplier`. Designers must use these outputs to assess if the inputs (DP, Challenge/Reward DB costs) are appropriate or if system parameters like the multiplier need calibration for typical CP outcomes. If 8 CP is too high, `CP_Budget_DB` needs to be lower.*
-    * **Iterative Balancing is Key:**
+    * **Iterative Balancing is Key:** (Ensure this section clearly explains the logic as per the "Corrected Iteration Logic" noted in the example in Section IX, Step 7 of the original document, on how to adjust Printed CP up or down by modifying `TDB_Mission` or the `(Challenge_Cost_DB - Reward_Abilities_DB)` delta.)
         * **If Calculated Printed CP is Too Low (e.g., below minimum threshold):** The `CP_Budget_DB` is insufficient. To increase Printed CP, designers must increase `CP_Budget_DB` by:
             1.  Increasing `TDB_Mission` (e.g., by increasing its assigned DP).
             2.  Making the delta `(Challenge_Cost_DB - Reward_Abilities_DB)` more positive by:
@@ -295,22 +295,22 @@ This section provides a step-by-step example of designing a Mission Card, "Nexus
 * **Challenge Text:** "At the start of your Game Round, if you control at least one friendly Unit in each of your three Front Row quadrants on your Battlefield, AND you have 10 or more CP in your current CP pool, this mission is completed."
 
 * **Breakdown and Illustrative DB Costing for Challenge Components:**
-    *(These would draw from a "Master DB Cost List for Challenge Components." The rationale for each placeholder DB cost is provided for clarity.)*
-    1.  **Trigger for Check:** "At the start of your Game Round" (ACG App G.II.A)
+    *(These would draw from a "Master DB Cost List for Challenge Components." The rationale for each placeholder DB cost is provided for clarity. References to ACG Appendices are for conceptual linkage where challenge components are condition-like.)*
+    1.  **Trigger for Check:** "At the start of your Game Round" (Conceptually similar to Triggers in **ACG Appendix C**)
         * Notes: This is a standard, once-per-round timing for the check. The *check itself* has a small overhead.
         * *Illustrative DB for "Challenge Check Window: Start of Round":* `0.5 DB`
     2.  **Condition 1 (Board Presence):** "you control at least one friendly Unit in each of your three Front Row quadrants on your Battlefield"
-        * This is a complex condition involving multiple simultaneous states.
-        * Condition 1a: Control a Unit in your Front Left Quadrant (ACG App H.II.D - Card Location; H.III.B - Player Control)
+        * This is a complex condition involving multiple simultaneous states. (Conceptually similar to Conditions in **ACG Appendix D**)
+        * Condition 1a: Control a Unit in your Front Left Quadrant
             * *Illustrative DB:* `1.5 DB` (Controlling a specific area type)
         * Condition 1b: Control a Unit in your Front Center Quadrant
             * *Illustrative DB:* `1.5 DB`
         * Condition 1c: Control a Unit in your Front Right Quadrant
             * *Illustrative DB:* `1.5 DB`
-        * Conjunction: "AND" for these three sub-conditions (ACG App H.IV - Boolean)
+        * Conjunction: "AND" for these three sub-conditions
             * *Illustrative DB for specific multi-part positional AND:* `1.0 DB` (Cost increases for needing all simultaneously)
         * *Subtotal for Board Presence condition:* `1.5 + 1.5 + 1.5 + 1.0 = 5.5 DB`
-    3.  **Condition 2 (Resource Level):** "you have 10 or more CP in your current CP pool" (ACG App H.III.A - Player Resources; H.IV - Comparison)
+    3.  **Condition 2 (Resource Level):** "you have 10 or more CP in your current CP pool" (Conceptually similar to Player Resource Conditions in **ACG Appendix D**)
         * Notes: "10 or more CP" is a significant reserve to maintain.
         * *Illustrative DB for "Player CP >= 10":* `3.0 DB`
     4.  **Overall Conjunction:** The main "AND" connecting Condition 1 (Board Presence) with Condition 2 (Resource Level).
@@ -322,28 +322,28 @@ This section provides a step-by-step example of designing a Mission Card, "Nexus
 
 * **A. One-Time Reward Ability:**
     * **Ability Text:** "Immediately gain 3 CP. Then, draw 2 cards."
-    * **Breakdown & Illustrative DB Costing (from ACG/Master List for Abilities):**
+    * **Breakdown & Illustrative DB Costing (from ACG/Master List for Abilities, using current ACG Appendix A for Effects):**
         * Trigger: "Immediately upon mission completion" (Implicit for One-Time Mission Rewards, often bundled into their nature)
-            * *Illustrative DB for "Mission Completion One-Time Trigger":* `0.5 DB`
-        * Effect 1: "Gain 3 CP" (ACG App E.II.A)
-            * Target: Player (Self) (ACG App F.II) - usually `0.0 DB` for self.
-            * *Illustrative DB (using ACG App E example of 4.5 DB per CP gained):* `3 * 4.5 DB = 13.5 DB`
-        * Effect 2: "Draw 2 cards" (ACG App E.II.B)
-            * Target: Player (Self) (ACG App F.II) - `0.0 DB`.
-            * *Illustrative DB (using ACG App E example of 4.0 DB per card drawn):* `2 * 4.0 DB = 8.0 DB`
+            * *Illustrative DB for "Mission Completion One-Time Trigger" (Conceptually similar to Triggers in **ACG Appendix C**):* `0.5 DB`
+        * Effect 1: "Gain 3 CP" (**ACG Appendix A**.II.A)
+            * Target: Player (Self) (**ACG Appendix B**.II) - usually `0.0 DB` for self.
+            * *Illustrative DB (using ACG Appendix A example of 4.5 DB per CP gained):* `3 * 4.5 DB = 13.5 DB`
+        * Effect 2: "Draw 2 cards" (**ACG Appendix A**.II.B)
+            * Target: Player (Self) (**ACG Appendix B**.II) - `0.0 DB`.
+            * *Illustrative DB (using ACG Appendix A example of 4.0 DB per card drawn):* `2 * 4.0 DB = 8.0 DB`
     * *Total DB for One-Time Ability:* `0.5 DB (Trigger) + 13.5 DB (CP Gain) + 8.0 DB (Card Draw) = 22.0 DB`
 
 * **B. Passive Reward Ability:**
     * **Ability Text:** "At the start of your Game Round, after you draw cards for the round, you may look at the top card of your deck. If you do, you may place that card on the bottom of your deck."
     * **Breakdown & Illustrative DB Costing (from ACG/Master List for Abilities):**
-        * Trigger: "At the start of your Game Round, after you draw cards for the round" (ACG App G.II.A - specific timing)
+        * Trigger: "At the start of your Game Round, after you draw cards for the round" (**ACG Appendix C**.II.A - specific timing)
             * *Illustrative DB:* `1.0 DB`
-        * Effect ("you may look at the top card of your deck"): Optional Information Gain + Deck Scrying (ACG App E.II.C)
+        * Effect ("you may look at the top card of your deck"): Optional Information Gain + Deck Scrying (**ACG Appendix A**.II.C for "Look at Top X Cards", **ACG Appendix D** for "you may" conditional logic)
             * Part 1: "Look at the top card of your deck"
-                * Target: Top card of own Deck (ACG App F.I.C) - `0.0 DB`.
-                * *Illustrative DB for "Look at 1 top card":* `0.5 DB`
-            * Part 2: "If you do, you may place that card on the bottom of your deck" (Conditional action on choice, minor deck filtering)
-                * *Illustrative DB for "Optional bottom-decking of viewed card":* `0.75 DB`
+                * Target: Top card of own Deck (**ACG Appendix B**.I.C) - `0.0 DB`.
+                * *Illustrative DB for "Look at 1 top card" (from ACG App A):* `0.25 + (0.25 * 1) = 0.5 DB`
+            * Part 2: "If you do, you may place that card on the bottom of your deck" (Conditional action on choice, minor deck filtering - effect like "Place Target Card from Play on Top/Bottom of Owner's Deck" from ACG App A.I.G, adapted for card from deck view to bottom of deck)
+                * *Illustrative DB for "Optional bottom-decking of viewed card":* `0.75 DB` (This would be a specific effect on the Master List).
     * *Total DB for Passive Ability:* `1.0 DB (Trigger) + 0.5 DB (Look) + 0.75 DB (Optional Bottom) = 2.25 DB`
 
 * **Total `Reward_Abilities_DB`:** `22.0 DB (One-Time) + 2.25 DB (Passive) = 24.25 DB`
@@ -369,47 +369,25 @@ This section provides a step-by-step example of designing a Mission Card, "Nexus
 * **Assessment:** A Printed CP of 8 is very high for a single mission, especially if players typically use 3-4 missions to reach a total CP pool of 15-18 for their 6 total Mission DP. This outcome is a direct result of the chosen placeholder values (high `TDB_Mission` from 4DP, strong rewards, relatively "cheap" challenge in DB, and a low `Roundly_CP_DB_Multiplier`).
 * **Potential Iterations for Designers (to achieve a Printed CP likely in the 3-5 range for this type of mission):**
     1.  **Increase `Challenge_Cost_DB`:** Make the challenge significantly harder. For instance, requiring all three front-row units to be of specific subtypes or domains, or maintaining the state for multiple rounds, would increase its DB cost.
-    2.  **Reduce `Reward_Abilities_DB`:** The One-Time ability is very potent. Reducing it to "Gain 1 CP. Draw 1 card." might bring its DB cost from 22 DB down to (0.5 + 4.5 + 4.0) = 9 DB. This would make `Reward_Abilities_DB = 9 + 2.25 = 11.25 DB`.
-        * *Recalculating with this change:* Delta = 9.5 - 11.25 = -1.75 DB.
-        * `CP_Budget_DB = 45 + (-1.75) = 43.25 DB`.
-        * Printed CP = 43.25 / 4 = 10.8 CP. This went the wrong way, making Printed CP even higher because the rewards became much "cheaper" than the challenge, increasing the positive delta added to `TDB_Mission`. The formula `TDB_Mission + (Challenge - Reward)` means if Reward gets smaller, the `(Challenge - Reward)` delta gets larger (or less negative), increasing `CP_Budget_DB`.
-    3.  **Corrected Iteration Logic for User's Formula `TDB_Mission + (Challenge - Reward)`:**
-        To *reduce* Printed CP (because 8 CP is too high), we need to *reduce* `CP_Budget_DB`. This means:
-        * Decrease `TDB_Mission` (e.g., use fewer Mission DP).
-        * Make the `(Challenge_Cost_DB - Reward_Abilities_DB)` delta smaller or more negative. This is achieved by:
-            * Decreasing `Challenge_Cost_DB` (easier challenge).
-            * Increasing `Reward_Abilities_DB` (stronger rewards).
-        * *This seems counter-intuitive if we think stronger rewards should mean *less* roundly CP. The formula implies that if a mission's TDB is fixed, and its challenge becomes easier relative to its rewards, the mission must provide less ongoing CP. If its challenge is harder relative to its rewards, it provides more ongoing CP.*
-        * Let's re-run with `Reward_Abilities_DB` increased to 30 DB (very strong rewards) and `Challenge_Cost_DB` kept at 9.5 DB:
-            * Delta = 9.5 - 30 = -20.5 DB
-            * `CP_Budget_DB = 45 + (-20.5) = 24.5 DB`
-            * Printed CP = 24.5 / 4 = 6.125 CP (rounds to 6 CP). Still high, but lower.
-        * Let's try `Challenge_Cost_DB` = 5 DB (easier) and `Reward_Abilities_DB` = 30 DB:
-            * Delta = 5 - 30 = -25 DB
-            * `CP_Budget_DB = 45 + (-25) = 20 DB`
-            * Printed CP = 20 / 4 = 5 CP. This is getting into a more typical range.
-    4.  **Re-Calibrate System Parameters:** As noted before, the global parameters like `DP_Mission_Valuation_Factor` and especially `Roundly_CP_DB_Multiplier` are the most powerful levers for the design team to adjust average Printed CP outcomes across all missions. If the `Roundly_CP_DB_Multiplier` was higher (e.g., 10 DB), then a `CP_Budget_DB` of 20 DB would yield 2 Printed CP.
+    2.  **Decrease `Reward_Abilities_DB`:** Make the completion abilities less powerful/costly in DB.
+    3.  **Decrease `TDB_Mission`:** Assign fewer Domain Points to this specific Mission Card if its intended CP generation is lower.
+    4.  **Adjust `(Challenge_Cost_DB - Reward_Abilities_DB)` Delta:** As explained in Section VIII, Step 7, to *reduce* Printed CP, the `CP_Budget_DB` must decrease. This involves decreasing `TDB_Mission`, or making the delta `(Challenge_Cost_DB - Reward_Abilities_DB)` smaller or more negative (by decreasing `Challenge_Cost_DB` (easier challenge) OR increasing `Reward_Abilities_DB` (stronger rewards)).
+    5.  **Re-Calibrate System Parameters:** The lead design team might adjust global parameters like `DP_Mission_Valuation_Factor` or `Roundly_CP_DB_Multiplier` based on overall game balance needs. For example, if the `Roundly_CP_DB_Multiplier` was higher (e.g., 8 DB instead of 4 DB), then a `CP_Budget_DB` of 32 DB would yield 4 Printed CP, which is a more typical value.
 
-This iterative process is essential. The example highlights how initial placeholder DBs can lead to outcomes needing adjustment to fit the desired game balance.
+This iterative process, guided by the formulas and design goals, is essential. The example highlights how initial placeholder DBs can lead to outcomes needing adjustment to fit the desired game balance.
 
 **Step 8: Complete the Mission Card Template**
 
 * **Name:** Nexus Alignment Protocol
-* **Printed CP Value:** **5 CP** (Assuming iteration from the 8 CP initial calculation, by making the Challenge easier and/or rewards slightly more potent in DB terms, or adjusting TDB, to hit this more typical target. This is an *illustrative final value after hypothetical iteration*.)
+* **Printed CP Value:** **8 CP** *(Result from initial calculation using placeholders. This value would undergo significant iteration by designers aiming for a target Printed CP, likely in the 3-5 range for a mission of this nature, by adjusting component DB costs, Mission DP, or through global system parameter calibration.)*
 * **Domain Points:** Technology: 2, Psionics: 2 (Total: 4 DP)
 * **Card Feel Axes:** Malevolence: Neutral; Utility: Utility-focused; Combat: Neutral; Impact: Constructive
 * **Challenge:** "At the start of your Game Round, if you control at least one friendly Unit in each of your three Front Row quadrants on your Battlefield, AND you have 10 or more CP in your current CP pool, this mission is completed."
-    * *(Internal Note: Illustrative `Challenge_Cost_DB` after iteration might be, for example, 5.0 DB if simplified)*
-* **One-Time Ability (Upon Completion):** "Immediately gain 2 CP. Then, draw 1 card."
-    * *(Internal Note: Illustrative `DB Cost` after iteration might be, for example, 0.5 + 2*4.5 + 4.0 = 13.5 DB)*
+    * *(Internal Note: Illustrative `Challenge_Cost_DB` = 9.5 DB)*
+* **One-Time Ability (Upon Completion):** "Immediately gain 3 CP. Then, draw 2 cards."
+    * *(Internal Note: Illustrative `DB Cost` for this ability = 22.0 DB)*
 * **Passive Ability (After Completion):** "At the start of your Game Round, after you draw cards for the round, you may look at the top card of your deck. If you do, you may place that card on the bottom of your deck."
-    * *(Internal Note: Illustrative `DB Cost` = 2.25 DB. Total Reward DB = 13.5 + 2.25 = 15.75 DB)*
-    * *(Recalculating with these iterated illustrative values: `TDB_Mission = 45 DB`. `Challenge_Cost_DB = 5.0 DB`. `Reward_Abilities_DB = 15.75 DB`. Delta = 5.0 - 15.75 = -10.75 DB. `CP_Budget_DB = 45 + (-10.75) = 34.25 DB`. Printed CP = 34.25 / 4 = 8.56 CP -> rounds to 9 CP. This shows how sensitive it is; getting to exactly 5CP requires precise DB values or system calibration.)*
-    * **Let's assume for the template we stick to the initially calculated values and note the iteration need:**
-* **Printed CP Value:** **8 CP** *(From initial calculation, subject to balance iteration to target a lower value like 3-5 CP by adjusting input component DBs or system parameters).*
-* **Challenge:** "At the start of your Game Round, if you control at least one friendly Unit in each of your three Front Row quadrants on your Battlefield, AND you have 10 or more CP in your current CP pool, this mission is completed." *(Internal: Illustrative `Challenge_Cost_DB` = 9.5 DB)*
-* **One-Time Ability (Upon Completion):** "Immediately gain 3 CP. Then, draw 2 cards." *(Internal: Illustrative `DB Cost` = 22.0 DB)*
-* **Passive Ability (After Completion):** "At the start of your Game Round, after you draw cards for the round, you may look at the top card of your deck. If you do, you may place that card on the bottom of your deck." *(Internal: Illustrative `DB Cost` = 2.25 DB)*
+    * *(Internal Note: Illustrative `DB Cost` for this ability = 2.25 DB. Total Illustrative `Reward_Abilities_DB` = 24.25 DB)*
 * **Flavor Text:** "Order begets power. Power begets understanding. Understanding begets alignment."
 * **Image Description:** A holographic interface displays three energy conduits converging from different points on a stylized battlefield map towards a central, glowing nexus symbol. Abstract psionic energy patterns and technological data streams flow along the conduits. The background shows a serene, high-tech observation deck overlooking a vast nebula.
 * **Faction:** Unaligned Scholars of the Nexus (Illustrative)
@@ -460,9 +438,12 @@ This document focuses on the unique aspects of Mission Card creation. For the de
 * **"Quantum Nexus: Detailed Rules":** For all core game rules, mechanics, and definitions.
 * **"Quantum Nexus: Card Creation Guidelines (CCG v2.0)":** For general card design principles, the Progressive Budget Build system, Card Feel, and other card type specifics.
 * **"Quantum Nexus: Ability Creation Guidelines (ACG)":** Essential for:
-    * The methodology of constructing abilities (Effects, Targets, Triggers, Conditions).
-    * **ACG Appendix E: Core Game Effects Catalogue**
-    * **ACG Appendix F: Core Game Targets Catalogue**
-    * **ACG Appendix G: Core Game Triggers Catalogue**
-    * **ACG Appendix H: Core Game Condition Types Catalogue**
+    * The methodology of constructing abilities (Effects, Targets, Triggers, Conditions, Duration, Frequency/Limitation, Activation Cost).
+    * **ACG Appendix A: Core Game Effects Catalogue**
+    * **ACG Appendix B: Core Game Targets Catalogue**
+    * **ACG Appendix C: Core Game Triggers Catalogue**
+    * **ACG Appendix D: Core Game Condition Types Catalogue**
+    * **ACG Appendix E: Core Game Durations Catalogue**
+    * **ACG Appendix F: Core Game Activation Costs Catalogue (Gameplay Costs)**
+    * **ACG Appendix G: Core Game Frequency / Limitation Catalogue**
 * The official **Master DB Cost List(s)** (to be developed and maintained by the design team): These will provide the definitive Design Budget (DB) point values for all ability components, keywords, and crucially for Mission Cards, **Challenge Components.** These lists are essential for objective costing within this framework.

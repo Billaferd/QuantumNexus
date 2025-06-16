@@ -18,7 +18,22 @@ This mini-guide walks you through creating a Leader unit card for Quantum Nexus.
 
 *   **Leadership Factor:**  Since we are creating a Leader unit, the Leadership Factor is always **1**. This factor will be used later in the AP calculation. ()
 
-### 3. Define Card Feel and Translate it to Mechanics ()
+### 3. Leader Gameplay Rules & Design Implications
+
+Before detailing card feel, it's crucial to understand the specific rules governing Leaders in `Players/Quantum Nexus Full Game Rules.md` (FGR), as these heavily influence their design:
+
+*   **Deployment:**
+    *   Leaders are deployed onto the battlefield into one of your quadrants using the **'Deploy a Card' action** during your turn in the Activation Sequence (FGR, Section III.C.2).
+    *   **One Leader Per Quadrant:** A player can only have one of their Leader units in any single one of their quadrants at a time. Another Leader controlled by the same player cannot be deployed into or moved into a quadrant already occupied by one of their Leaders (FGR, Section IV.A). This is a primary constraint to consider when designing Leader mobility or deployment-related abilities.
+    *   **Simultaneous Entry:** If multiple game effects attempt to simultaneously cause more than one of a single player's Leader units to enter or exist in the same quadrant (e.g., through deployment, movement, or transformation), the player whose action or effect is causing the entries (or the player with initiative in case of simultaneous triggers) determines the order of resolution attempts. Each attempt is validated against the 'one Leader per quadrant' rule. If an attempt would result in a violation, that specific Leader is not deployed, moved, or transformed (FGR, Section IV.A).
+*   **Deck Construction Limits:**
+    *   A player's deck cannot contain more than **25 Command Points (CP) worth of Leader cards**.
+    *   This 25 CP limit for Leaders counts towards the overall **exactly 200 CP total** for the main deck (FGR, Section II - Construction Basics and Section VII.D). This significantly constrains how many Leaders, and of what CP cost, can be included.
+*   **Transformation Effects:**
+    *   Units can become Leaders (and Leaders can lose their Leader status) through card-specific abilities or effects.
+    *   When a unit becomes a Leader via an effect, it immediately becomes subject to all Leader limitations (like 'one Leader per quadrant'), unless the transforming card's text explicitly states otherwise (FGR, Section IV.A). Designers should be clear if a transformation effect is meant to bypass standard Leader rules.
+
+### 4. Define Card Feel and Translate it to Mechanics ()
 
 *   **Malevolence:** Is the Leader benevolent, malevolent, or neutral?  ()
 *   **Utility:** Does the Leader prioritize utility, disruption, or maintain a balance between the two?  ()
@@ -45,29 +60,27 @@ Carefully consider how each of these card feel axes will manifest through the Le
 
 Adjusted CP + (Adjusted CP \* Rarity Bonus AP) + (Adjusted CP \* 0.5 \* Leadership Factor) ()
 
-Remember that the total AP spent on the Leader's abilities and keywords cannot go over this Total AP pool. ()
+This AP pool is for balancing the Leader's abilities and keywords. The final printed CP cost of the Leader (derived from Base CP and Stat Points) is what players use for deployment and for adhering to the 25 CP deck construction limit for Leaders.
 
 ### 5. Design Abilities ()
 
-*   **Concept and Theme:**  The Leader's abilities, whether active, passive, or interrupts, must align with the theme and domain you've established for the Leader. A Technology Leader, for example, might have abilities that enhance other Technology units or disrupt an opponent's technological infrastructure. ()
-*   **Types:**  Leaders can utilize all three types of abilities: ()
-
-    *   **Active Abilities:** These abilities, triggered by the player, often involve a CP cost.  They provide strategic choices and can significantly impact the flow of the game. ()
-    *   **Passive Abilities:** Always in effect, passive abilities provide ongoing benefits or drawbacks without the need for activation. ()
-    *   **Interrupts:** These abilities trigger automatically in response to specific events, adding a layer of reactive counterplay and strategic depth. ()
-
-*   **Costing:** Determine the AP cost of each ability using the Ability Cost Reference Table. Remember, the total AP cost of all abilities cannot exceed the Leader's total AP pool. () Additionally, if an ability has an activation cost (CP, discarding cards, etc.), factor in the cost when determining its impact on the game.  ()
+*   **Concept and Theme:**  The Leader's abilities must align with its theme and domain.
+*   **Types of Abilities (referencing FGR definitions):**
+    *   **Active Abilities:** These are abilities that a player must choose to use as their action during their turn in the Activation Sequence by taking the **'Activate an Active Ability' action** (FGR, Section III.C.2). The card's text will specify any Command Point (CP) costs, exhaust requirements, or other costs.
+    *   **Passive Abilities:** These abilities are always active and do not require being chosen as an action to use. Their effects apply as long as the Leader is in play and any specified conditions are met (FGR, Glossary).
+    *   **Triggered Abilities (Interrupts):** These abilities trigger automatically in response to specific game events (FGR, Section VII.A).
+*   **AP Costing for Design:** Determine the Ability Point (AP) cost of each ability using relevant AP tables (e.g., from the `Designers/Quantum Nexus Ability Creation Mini-Guide.md` or more detailed internal Card Creation Guidelines). Ensure the total AP cost of all abilities and keywords does not exceed the Leader's Total AP pool.
+*   **Terminology:** Ensure all ability text uses current terminology from the `Players/Quantum Nexus Full Game Rules.md` (e.g., "Command Points," "Game Round," "Activation Sequence," "exhaust," "quadrant").
 
 ### 6. Add Keywords (Optional) ()
 
-*   **Type:** Choose keywords that complement the Leader's strengths, mitigate weaknesses, or introduce unique mechanics. Positive keywords add to the AP pool, negative keywords subtract from it, and neutral keywords always add to the pool. This balance is important for ensuring that keywords are appropriately costed. ()
-*   **Costing:** Determine the AP cost of each keyword using the Keyword Cost Reference Table. ()
+*   **Type:** Choose keywords that complement the Leader's strengths, mitigate weaknesses, or introduce unique mechanics. Ensure keyword effects align with FGR.
+*   **AP Costing for Design:** Determine the AP cost of each keyword using specific keyword AP costing tables (e.g., from internal Card Creation Guidelines).
 
-### 7. Determine Rank and Range (If Applicable)  ()
+### 7. Determine Classification and Range ()
 
-*   **Rank:** All Leader units in Quantum Nexus are **Terrestrial**, meaning they are deployed on the battlefield. () 
-
-*   **Range:** Decide on the Leader's attack range: Close, Mid, or Far.  The choice of range should align with the Leader's tactical role and playstyle. () For example, a Leader designed for close-quarters combat might have a Close or Mid range, while a Leader specializing in ranged attacks might have a Mid or Far range.
+*   **Classification (Internal Design Term):** All Leader units are classified as **Terrestrial** for design purposes, signifying they are deployed onto the battlefield quadrants. (Note: "Terrestrial" is an internal design term and not a keyword or rule in the `Players/Quantum Nexus Full Game Rules.md`. Leaders are simply 'Unit' type cards with the 'Leader' subtype.)
+*   **Range:** Decide on the Leader's attack range: Close, Mid, or Far (as defined in FGR Glossary). This should align with its tactical role.
 
 ### 8. Assign Attack and Defense Stats ()
 
@@ -89,10 +102,10 @@ Remember that the total AP spent on the Leader's abilities and keywords cannot g
 
 *   **Unique Identity:**  Leader units should stand out from non-leader units. Their abilities should be impactful, their presence on the battlefield should be noticeable, and their design should convey a sense of leadership and power.
 
-*   **CP Cost Reduction:**  Leaders receive a 50% reduction in their CP cost due to their unique role in a deck.  This means you can design more potent abilities or assign higher stats, but it also necessitates careful balancing to avoid creating overly dominant Leaders.
-
-*   **Synergy with Deck Archetypes:** Consider how the Leader might synergize with specific deck archetypes. Design abilities that encourage players to build decks around the Leader's strengths and strategic focus.
+*   **CP Cost Calculation & Design Valuation:** The "Leadership Factor" used in AP calculation (Section 4) reflects a design valuation for Leaders, allowing them potentially more impactful abilities for their calculated CP cost compared to non-Leader units. This is an internal design balancing mechanic. Players see and use the final printed CP cost on the card.
+*   **Synergy with Deck Archetypes:** Consider how the Leader might synergize with specific deck archetypes.
+*   **Adherence to FGR:** All aspects of the Leader's final design (abilities, stats, keywords) must function within and be consistent with the `Players/Quantum Nexus Full Game Rules.md`.
 
 **Final Thoughts:**
 
-Creating a compelling Leader unit card in Quantum Nexus requires a blend of creativity, strategic thinking, and careful attention to the design guidelines. Embrace the iterative process, experiment with different concepts and mechanics, and strive to create Leaders that will captivate players and leave a lasting mark on the game's universe.
+Creating a compelling Leader unit card in Quantum Nexus requires a blend of creativity, strategic thinking, and careful attention to both these design guidelines and the official `Players/Quantum Nexus Full Game Rules.md`. Embrace the iterative process, experiment with different concepts and mechanics, and strive to create Leaders that will captivate players and leave a lasting mark on the game's universe.

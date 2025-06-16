@@ -12,7 +12,7 @@ Every ability is made up of four key parts:
 
 1.  **Effect:** What the ability actually *does*. Examples: Deal damage, draw cards, boost a unit's stats.
 2.  **Target:** *Who* or *what* the ability affects. Examples: A unit, a player, a quadrant of the battlefield.
-3.  **Trigger:** *When* the ability happens. Examples: When a unit is attacked, at the start of your turn, when you pay a cost.
+3.  **Trigger:** *When* the ability happens. Examples: "When this unit is attacked," "At the start of the Game Round," "When you pay a cost as part of an ability's effect."
 4.  **Condition:** Any extra rules or requirements for the ability.  Example: "If you have less than 5 CP." We won't worry too much about conditions in this beginner's guide.
 
 ## **The Ability Point (AP) System**
@@ -40,12 +40,12 @@ To keep things balanced, Quantum Nexus uses an Ability Point (AP) system. Each p
 
 | Trigger                         | AP Cost (Player) | AP Cost (Opponent) | Notes                                                                                                                                             |
 | :------------------------------ | :--------------- | :---------------- | :------------------------------------------------------------------------------------------------------------------------------------------------ |
-| When this unit is attacked     | 2                 | -2                 | Activates when something attacks this unit.                                                                                                   |
-| At the start of your turn      | 2                 | -2                 | Activates every time your turn begins.                                                                                                        |
-| Pay 2 CP                       | -1                | 1                  | You must spend 2 CP to activate this ability.                                                                                                 |
-| Activate this ability | 1                 | -1                 | Triggered by activating the card's own ability (usually with a tap or exhaust mechanic). |
-| When a unit is deployed | 1                 | -1                 | Activates when any unit enters the battlefield. |
-| When this unit attacks     | 2                 | -2                 | Activates when this unit is declared as an attacker. |
+| When this unit is attacked     | 2                 | -2                 | A triggered ability that activates when this unit is declared as a defender.                                                                    |
+| At the start of the Game Round | 2                 | -2                 | A triggered ability that activates during the Start of Round Step. (See Full Game Rules, Section III.C.1)                                         |
+| Design: Ability includes "Pay X CP" | -X/2 (approx.)  | X/2 (approx.)    | Design cost for balancing an ability that requires a CP payment *as part of its text*. Player pays X CP to use it. AP cost reflects this player expenditure. Example: "Pay 2 CP: Draw a card." The AP for this trigger would be -1 for player, 1 for opponent. This is distinct from the CP cost to deploy a card or the general cost to take the "Activate an Active Ability" action. |
+| Design: Is an Active Ability   | 1                 | -1                 | Design cost for making an ability an "Active Ability" (see Full Game Rules Glossary & Section III.C.2). Using this ability in-game is an "Activate an Active Ability" action. The card text would typically start with "Activate:" and detail costs like exhausting the card or paying CP. This AP value is for the *privilege* of being an activatable ability. |
+| When a unit is deployed | 1                 | -1                 | A triggered ability that activates when any unit enters the battlefield. |
+| When this unit attacks     | 2                 | -2                 | A triggered ability that activates when this unit is declared as an attacker. |
 
 ### **Targets**
 
@@ -70,7 +70,7 @@ Let's create a simple ability together, step-by-step:
 
 1.  **Effect:** Deal 2 damage. (From the Effects table, this costs **-2 AP (Player)** and **2 AP (Opponent)**)
 2.  **Target:** Any Unit. (From the Targets table, this costs **2 AP (Player)** and **-2 AP (Opponent)**)
-3.  **Trigger:** Pay 2 CP. (From the Triggers table, this costs **-1 AP (Player)** and **1 AP (Opponent)**)
+3.  **Trigger:** Design: Ability includes "Pay 2 CP". (From the Triggers table, this costs **-1 AP (Player)** and **1 AP (Opponent)** for the "Pay 2 CP" part of the ability's design.)
 
 **Total AP Cost:**
 
@@ -79,7 +79,8 @@ Let's create a simple ability together, step-by-step:
 
 **How to Write the Ability:**
 
-"Pay 2 CP: Deal 2 damage to any unit."
+"**Activate, Pay 2 CP:** Deal 2 damage to any unit."
+*(This ability would be used via the "Activate an Active Ability" action. The "Pay 2 CP" is part of the cost specified on the card for this Active Ability. The AP calculation reflects the design balance of its effect versus its total activation cost.)*
 
 ### **Example 2: "Battle Cry"**
 
@@ -100,7 +101,7 @@ Let's create a simple ability together, step-by-step:
 
 1.  **Effect:** Deal 2 damage. (From the Effects table, this costs **-2 AP (Player)** and **2 AP (Opponent)**)
 2.  **Target:** Any Quadrant. (From the Targets table, this costs **2 AP (Player)** and **-2 AP (Opponent)**)
-3.  **Trigger:** Activate. (From the Triggers table, this costs **1 AP (Player)** and **-1 AP (Opponent)**)
+3.  **Trigger:** Design: Is an Active Ability. (From the Triggers table, this costs **1 AP (Player)** and **-1 AP (Opponent)** for making it an activatable ability.)
 
 **Total AP Cost:**
 
@@ -109,14 +110,15 @@ Let's create a simple ability together, step-by-step:
 
 **How to Write the Ability:**
 
-"Activate: Deal 2 damage to any quadrant."
+"**Activate:** Deal 2 damage to any quadrant."
+*(This ability is an "Active Ability." Using it during the game requires taking the "Activate an Active Ability" action as per the Full Game Rules, Section III.C.2. The card might also specify additional costs like exhausting the card or paying CP. The AP calculation reflects the design balance of making this an Active Ability.)*
 
 **Tips for Beginners:**
 
 *   **Start Small:** Don't try to create overly complicated abilities at first. Stick to simple effects and triggers.
 *   **Use the Tables:** Keep the AP tables handy and refer to them often.
-*   **Think About Balance:** If an ability has a very high AP cost, it should have a powerful effect. If it has a low AP cost, the effect should be less powerful. If an ability has a negative AP cost for you, it should provide a significant advantage to make up for that.
-*   **Playtest!:** The best way to see if your abilities work well is to playtest them. Create some cards with your abilities and try them out in a game.
+*   **Think About Balance:** If an ability has a very high AP cost, it should have a powerful effect. If it has a low AP cost, the effect should be less powerful. If an ability has a negative AP cost for you (e.g., because it includes a CP payment as part of its activation), it should provide a significant advantage to make up for that. AP costs are for *design balance*. The actual CP costs to deploy cards or activate abilities are what players manage during the game's Activation Sequence.
+*   **Playtest!:** The best way to see if your abilities work well is to playtest them. Create some cards with your abilities and try them out in a game, following the Full Game Rules.
 
 ## **Creating Keywords (Simple)**
 

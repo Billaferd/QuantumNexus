@@ -10,18 +10,24 @@ This mini-guide will guide you through creating an Asset card for Quantum Nexus,
 *   **Domain:** Which of the four domains (Technology, Magic, Psionics, Divinity) is central to this Asset's identity? The chosen domain will significantly impact the Asset's abilities, flavor, and overall feel.
 *   **Visuals:** Imagine the Asset's appearance. Is it a piece of advanced technology, a mystical artifact, a psionic conduit, or a divine manifestation? Create a mental picture of the Asset, considering its domain and theme.
 
-### 2. Define Domain Points, Rarity, and Rank
+### 2. Define Domain Points and Rarity (and Internal Rank)
 
 *   **Domain Points (DP):** Allocate DP to reflect the Asset's connection to its chosen domain. A higher DP allocation indicates greater mastery and potential for powerful abilities within that domain. Each domain can have a maximum of 4 DP allocated to it. Remember that if a domain is mentioned in the Asset's name, subtype, flavor text, or abilities, it must have at least 1 DP in that domain. 
 *   **Rarity:** Determine the Asset's rarity: Unique, Limited, or Common. Rarity affects the card count, which in turn influences the bonus AP the card receives during calculation. Rarer cards have lower counts and therefore receive higher AP bonuses.
-*   **Rank:** Asset cards can be either Orbital or Interstellar. Orbital Assets typically affect entire quadrants on the battlefield, while Interstellar Assets have a broader impact, potentially influencing entire battlefield sections (rows or columns) or even targeting other Orbital/Interstellar cards.
+*   **Rank (Internal Design Concept):** Asset cards can be internally classified as Orbital or Interstellar for design purposes. Orbital Assets might be designed to affect entire quadrants, while Interstellar Assets could be conceptualized with a broader impact. (Note: These "Rank" classifications are for design guidance and are not keywords or rules found in the `Players/Quantum Nexus Full Game Rules.md`. The actual scope and targets of an Asset's abilities must be explicitly stated in its card text.)
 
-### 3. Establish Card Feel
+### 3. Asset Gameplay Fundamentals & Card Feel
 
-*   **Malevolence:** Is the Asset inherently benevolent, malevolent, or neutral? Consider the moral implications of the Asset's effects.
-*   **Utility:**  Does the Asset prioritize utility, disruption, or a balance of both? This axis determines whether the Asset is designed to support specific strategies, disrupt opponents' plans, or offer versatile functionality.
-*   **Combat:** Assets don't directly engage in combat, so the Combat axis might not be as relevant. However, you could consider whether the Asset enhances offensive or defensive strategies or offers a balanced approach.
-*   **Impact:** Will the Asset's presence be primarily constructive, destructive, or neutral? This axis considers the overall impact of the Asset's effects on the game state.
+**Deployment and Location:**
+*   Assets are brought into play from a player's hand by taking the **'Deploy a Card' action** during their turn in the Activation Sequence (see `Players/Quantum Nexus Full Game Rules.md`, Section III.C.2).
+*   Upon deployment, an Asset is placed into its controller's **Loadout Area** (FGR, Section V.D).
+*   Assets in the Loadout Area are immune to direct attacks from enemy units. However, they can still be targeted and affected by card abilities or effects that specify Assets as valid targets (FGR, Section IV.B).
+
+**Card Feel:**
+*   **Malevolence:** Is the Asset inherently benevolent, malevolent, or neutral?
+*   **Utility:**  Does the Asset prioritize utility, disruption, or a balance of both?
+*   **Combat Role:** Assets have a Defense value but no Attack value by default. **Crucially, Assets inherently cannot perform the 'Declare an Attack' action**, even if an effect (e.g., from an Upgrade) grants them an Attack value. Their influence is through their abilities, not direct combat participation as attackers (FGR, Section IV.B).
+*   **Impact:** Will the Asset's presence be primarily constructive, destructive, or neutral?
 
 Translate these card feel axes into the Asset's design through its abilities. A benevolent Asset, for example, might provide healing or defensive buffs to allies, while a disruptive Asset could hinder opponents' actions or force them to discard cards.
 
@@ -36,18 +42,23 @@ Translate these card feel axes into the Asset's design through its abilities. A 
 ### 5. Design Abilities
 
 *   **Concept and Theme:** The Asset's abilities should align with its chosen theme, domain, and card feel. A Technology Asset, for instance, might have abilities that enhance other Technology units or disrupt opponents' technological infrastructure.
-*   **Types:** Assets can have both active abilities and passive abilities. Active abilities, triggered by the player, often involve a CP cost. Passive abilities are always in effect, providing ongoing benefits or drawbacks. While the sources don't explicitly mention Interrupts for Asset cards, you could consider incorporating them if they thematically align with the Asset's concept and contribute to strategic depth. 
-*   **Costing:** Determine the AP cost of each ability using the Ability Cost Reference Table (refer to Appendix C in the Quantum Nexus: Card Creation Guidelines).  Ensure that the total AP cost of all abilities does not exceed the Asset's Total AP pool. If an ability has an activation cost (CP, discarding cards, etc.), consider this cost when evaluating its impact on gameplay.
+*   **Types of Abilities:**
+    *   **Active Abilities:** These are abilities that a player must choose to use as their action during their turn in the Activation Sequence by taking the **'Activate an Active Ability' action** (FGR, Section III.C.2). The card's text will specify any Command Point (CP) costs, exhaust requirements, or other costs needed to use the ability.
+    *   **Passive Abilities:** These abilities are always active and do not require being chosen as an action to use. Their effects apply as long as the Asset is in play and any specified conditions are met (FGR, Glossary definition for "Passive Ability").
+    *   **Triggered Abilities (Interrupts):** Assets can also have abilities that trigger automatically in response to specific game events (e.g., "When an opponent plays an Event card..."). These are covered under "Triggered Abilities" in the FGR (Section VII.A).
+*   **AP Costing for Design:** Determine the Ability Point (AP) cost of each ability using the relevant AP tables (e.g., from the `Designers/Quantum Nexus Ability Creation Mini-Guide.md` or more detailed internal Card Creation Guidelines if available). Ensure that the total AP cost of all abilities does not exceed the Asset's Total AP pool. If an ability has an activation cost (CP, exhausting, discarding cards, etc.), this is factored into its design AP cost and its overall balance.
+*   **Terminology:** Ensure all ability text uses current terminology found in the `Players/Quantum Nexus Full Game Rules.md` (e.g., "Command Points," "Game Round," "Activation Sequence," "exhaust").
 
 ### 6. Integrate Keywords (Optional)
 
-*   **Type:** Select keywords that enhance the Asset's strengths, mitigate potential weaknesses, or introduce unique mechanics. Remember that positive keywords add to the AP pool, negative keywords subtract from it, and neutral keywords always add to the pool.
-*   **Costing:** Refer to the Keyword Cost Reference Table (see Appendix D in the Quantum Nexus: Card Creation Guidelines) to determine the AP cost for each keyword.
+*   **Type:** Select keywords that enhance the Asset's strengths, mitigate potential weaknesses, or introduce unique mechanics.
+*   **AP Costing for Design:** Refer to specific keyword AP costing tables (e.g., from internal Card Creation Guidelines) to determine the AP cost for each keyword. Remember that the effects of keywords must align with the `Players/Quantum Nexus Full Game Rules.md`.
 
 ### 7. Assign a Defense Stat
 
-*   **Balance:** The Asset's Defense stat should align with its CP cost, abilities, keywords, and overall role within a deck.  A higher Defense value makes the Asset more resilient to targeted removal, but it might come at the cost of weaker abilities or a higher CP cost.
-*   **Impact:** Consider the impact of the Asset's abilities. An Asset with potent, game-changing effects might warrant a lower Defense value to balance its power level. Conversely, an Asset with more subtle, supportive abilities might benefit from a higher Defense value to ensure it remains in play longer.
+*   **Resilience:** The Asset's Defense stat determines how much damage it can withstand from effects that target it. As mentioned in Section 3, Assets are in the Loadout Area and cannot be directly attacked by units but can be affected by other card abilities.
+*   **Balance:** The Defense stat should align with its CP cost, abilities, keywords, and overall role. A higher Defense makes the Asset more resilient but might mean less AP for abilities or a higher CP deployment cost.
+*   **Impact:** An Asset with potent effects might have lower Defense to balance it, while a supportive Asset might have higher Defense to ensure it persists.
 
 ### 8. Craft Flavor Attributes
 
@@ -57,7 +68,7 @@ Translate these card feel axes into the Asset's design through its abilities. A 
 
 ### 9. Playtest and Iterate
 
-*   **Playtesting:** Thoroughly test your Asset card against a variety of opponents and deck archetypes to observe its performance in actual gameplay scenarios. This will help you identify any strengths, weaknesses, or unexpected interactions. 
-*   **Iteration:** Based on playtesting feedback, be prepared to adjust the Asset's stats, abilities, keywords, CP cost, or even its core concept to achieve optimal balance and strategic depth. Iteration is crucial for creating an Asset card that is not only engaging and fun to play but also contributes meaningfully to the overall Quantum Nexus experience. 
+*   **Playtesting:** Thoroughly test your Asset card against a variety of opponents and deck archetypes to observe its performance in actual gameplay scenarios, ensuring all interactions adhere to the `Players/Quantum Nexus Full Game Rules.md`. This will help you identify any strengths, weaknesses, or unexpected interactions.
+*   **Iteration:** Based on playtesting feedback, be prepared to adjust the Asset's stats, abilities, keywords, CP cost, or even its core concept to achieve optimal balance and strategic depth. Iteration is crucial for creating an Asset card that is not only engaging and fun to play but also contributes meaningfully to the overall Quantum Nexus experience.
 
-By following these steps and utilizing the resources provided in the Quantum Nexus guidelines, you can design unique and compelling Asset cards that enrich the game's strategic possibilities and immerse players in its vibrant universe. 
+By following these steps and utilizing the resources provided (like this guide and the `Players/Quantum Nexus Full Game Rules.md`), you can design unique and compelling Asset cards that enrich the game's strategic possibilities and immerse players in its vibrant universe.

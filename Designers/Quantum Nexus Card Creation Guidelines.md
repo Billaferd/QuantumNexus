@@ -10,23 +10,23 @@ Quantum Nexus is a strategic trading card game (TCG) that immerses players in a 
 
 ### A. Core Design Principles
 
-* **Card Control:** Each player retains complete ownership and control of their cards throughout the game. Players are not allowed to touch any other player's cards, and a player's cards are not allowed to leave that player's play area. This aligns with Section V.F of the Quantum Nexus Rulebook.
-* **Predictable Gameplay:** The only random element in Quantum Nexus is initial card shuffles and the card draw during the Start of Round Step. This design choice eliminates luck-based mechanics like dice rolls or coin flips, ensuring that strategic decision-making and tactical planning are the primary factors that determine the outcome of battles.
-* **Streamlined Combat:** Units in Quantum Nexus do not have health points. Instead, their resilience is represented by a Defense value. When a unit is attacked, its Defense is compared to the attacker's Attack value. The outcomes are specific:
+* **Card Control:** Each player retains complete ownership and control of their cards throughout the game. Players are not allowed to touch any other player's cards, and a player's cards are not allowed to leave that player's play area. This aligns with Section V.F of the `Players/Quantum Nexus Full Game Rules.md` (hereafter referred to as FGR).
+* **Predictable Gameplay:** The only random element in Quantum Nexus is initial card shuffles and the card draw during the Start of Round Step (FGR Section III.C.1). This design choice eliminates luck-based mechanics like dice rolls or coin flips, ensuring that strategic decision-making and tactical planning are the primary factors that determine the outcome of battles.
+* **Streamlined Combat:** Units in Quantum Nexus do not have health points. Instead, their resilience is represented by a Defense value. When a unit is attacked, its Defense is compared to the attacker's Attack value. The outcomes are specific (detailed in FGR Section III.C.2):
     * If Attack is greater than Defense, the defending unit is destroyed.
     * If Attack equals Defense, the defending unit becomes Suppressed (it exhausts).
     * If Attack is less than Defense, the attacker becomes Disordered and is Pushed Back.
-    This system, detailed in Section III.C.2 of the Rulebook, simplifies aspects of combat while offering tactical nuance.
+    This system simplifies aspects of combat while offering tactical nuance.
 
 ## II. Battlefield, Range, and Movement
 
-Understanding the battlefield, card range, and unit movement as defined in the current Quantum Nexus Rulebook is crucial for effective card design.
+Understanding the battlefield, card range, and unit movement as defined in the current `Players/Quantum Nexus Full Game Rules.md` (FGR) is crucial for effective card design.
 
 ### A. Battlefield Structure
-The Quantum Nexus battlefield for each player consists of a 3x2 grid, comprising six distinct quadrants (Front Left, Front Center, Front Right, Back Left, Back Center, Back Right). Units are deployed into their controller's own quadrants and never physically enter an opponent's play area or quadrants. For targeting purposes, a player's Front Row is considered to be facing each opponent's Front Row. (See Rulebook Section V.E).
+The Quantum Nexus battlefield for each player consists of a 3x2 grid, comprising six distinct quadrants (Front Left, Front Center, Front Right, Back Left, Back Center, Back Right). Units are deployed into their controller's own quadrants and never physically enter an opponent's play area or quadrants. For targeting purposes, a player's Front Row is considered to be facing each opponent's Front Row. (See FGR Section V.E).
 
 ### B. Range Types
-Each Unit card designed to attack or affect other cards at a distance must have a defined range. These ranges dictate which quadrants it can target, relative to its current position. The official range definitions are in Section VIII (Glossary) of the Quantum Nexus Rulebook. Designers must use these current definitions:
+Each Unit card designed to attack or affect other cards at a distance must have a defined range. These ranges dictate which quadrants it can target, relative to its current position. The official range definitions are in Section VIII (Glossary) of the FGR. Designers must use these current definitions:
 
 * **Close Range:** A unit with a Close Range attack or ability can target its own current quadrant AND one existing quadrant directly Forward, Backward, Left, and Right of its current quadrant. A unit declaring an attack with Close Range may target its own unit in its own quadrant.
 * **Mid Range:** A unit with a Mid Range attack or ability can target one existing quadrant directly Forward, Backward, Left, Right, Forward-Left Diagonal, Forward-Right Diagonal, Backward-Left Diagonal, and Backward-Right Diagonal from its current quadrant. Mid Range does not include the attacking unit's own current quadrant.
@@ -35,7 +35,7 @@ Each Unit card designed to attack or affect other cards at a distance must have 
 Careful consideration of these ranges is essential for balancing a unit's offensive and defensive capabilities and its tactical role.
 
 ### C. Movement
-In the current Quantum Nexus rules (Section III.C.2), moving a unit is a specific single action a player can choose during their turn in the Activation Sequence.
+In the current FGR rules (Section III.C.2), moving a unit is a specific single action a player can choose during their turn in the Activation Sequence.
 * A player chooses one of their ready units.
 * The unit moves one quadrant in a cardinal direction (Forward, Backward, Left, or Right) to an adjacent friendly quadrant.
 * The destination quadrant may be occupied by other friendly units (respecting the "one Leader per quadrant" rule).
@@ -44,45 +44,45 @@ Card designs, particularly for units, should consider this action economy for mo
 
 ### D. Internal Design Tags (Formerly "Card Ranks")
 The terms Terrestrial, Aerial, Orbital, and Interstellar are no longer mechanical "Card Ranks" that dictate player-facing rules like deployment zones or specific abilities.
-For internal design purposes within these guidelines, these terms can be used as thematic tags to help inform a card's concept and its place within the "Card Feel Matrix" (see Section V.A). They should not appear on cards as a distinct mechanical property visible to players and are not referenced in the main rulebook.
+For internal design purposes within these guidelines, these terms can be used as thematic tags to help inform a card's concept and its place within the "Card Feel Matrix" (see Section V.A). They should not appear on cards as a distinct mechanical property visible to players and are not referenced in the FGR.
 * **Terrestrial (Internal Tag):** Suggests ground-based themes.
 * **Aerial (Internal Tag):** Suggests flying or air-based themes.
 * **Orbital (Internal Tag):** Suggests themes of affecting wider areas from a distance, traditionally associated with Asset-like concepts affecting quadrants.
 * **Interstellar (Internal Tag):** Suggests themes of broad, battlefield-wide influence, traditionally associated with Asset-like concepts.
 
-Deployment of cards is determined by their Card Type (Unit, Asset, Terrain, etc.) as per Section IV of the Quantum Nexus Rulebook.
+Deployment of cards is determined by their Card Type (Unit, Asset, Terrain, etc.) as per Section IV of the FGR.
 
 ### E. Game Round Structure (Formerly "Turn Sequence")
-Designers must create cards that function within the current Game Round Structure detailed in Section III.C of the Quantum Nexus Rulebook. This structure is not based on distinct, shared phases like "Deployment Phase" or "Command Phase." Instead, it consists of:
-1.  **Start of Round Step:** This occurs simultaneously for all players.
+Designers must create cards that function within the current Game Round Structure detailed in Section III.C of the FGR. This structure is not based on distinct, shared phases like "Deployment Phase" or "Command Phase." Instead, it consists of:
+1.  **Start of Round Step (FGR Section III.C.1):** This occurs simultaneously for all players.
     * All previously exhausted cards are deactivated (readied).
     * Players gain their Command Points (CP) for the round (derived from their Mission Cards plus any other "start of round" effects).
     * Players draw cards until they have five cards in their hand.
     * Relevant triggered abilities resolve.
-2.  **Activation Sequence:** Following the Start of Round Step, players take turns performing single actions.
+2.  **Activation Sequence (FGR Section III.C.2):** Following the Start of Round Step, players take turns performing single actions.
     * The player with initiative takes the first single action.
     * Available single actions are: Deploy a Card, Activate an Active Ability, Declare an Attack, Play an Event Card, Move a Unit, or Pass.
     * After an action and any resulting triggered abilities fully resolve, the next player in clockwise order takes a single action.
     * This continues until all players consecutively Pass.
-Initiative for the first round is determined by a card flip; for subsequent rounds, it goes to the player who passed first to end the previous Activation Sequence (Rulebook Section III.D).
+Initiative for the first round is determined by a card flip; for subsequent rounds, it goes to the player who passed first to end the previous Activation Sequence (FGR Section III.D).
 Card abilities, costs, and effects must be designed with this alternating single-action economy in mind.
 
 ## III. Card Types and Subtypes
 
-Quantum Nexus features a diverse range of card types, each playing a unique role. Designers should adhere to the definitions and roles outlined in Section IV of the Quantum Nexus Rulebook.
+Quantum Nexus features a diverse range of card types, each playing a unique role. Designers should adhere to the definitions and roles outlined in Section IV of the FGR.
 
 ### A. Card Types
 
-* **Units:** The core of a player's forces. Units have Attack and Defense values and a defined range (if applicable). They are deployed to a player's quadrants on the Battlefield. (Rulebook Section IV.A)
-    * **Leaders:** Special, powerful units. Only one of a player's Leaders can occupy one of their quadrants at a time. Each deck is limited to a maximum of 25 CP worth of Leader cards (Rulebook Section IV.A, II).
-* **Upgrades:** Cards that modify a player's own Units or Assets, enhancing their stats or granting new abilities. They are deployed attached to the target card. (Rulebook Section IV.D)
-* **Assets:** Persistent cards deployed to the player's Loadout Area. They provide ongoing benefits or activate special abilities. Assets have a Defense value but no Attack value and cannot inherently declare an Attack action. (Rulebook Section IV.B)
-* **Events:** Played as a single action during the Activation Sequence by paying their CP cost. They provide powerful one-time effects and are then typically discarded. (Rulebook Section IV.C)
-* **Terrain:** Deployed into a player's own quadrants on the Battlefield. They provide inherent defensive bonuses to units in their quadrant (+1 Defense per Terrain, max +2 from this source) and apply any other effects described in their rule box. A player can have a maximum of two of their own Terrain cards in any single quadrant. (Rulebook Section IV.E)
+* **Units:** The core of a player's forces. Units have Attack and Defense values and a defined range (if applicable). They are deployed to a player's quadrants on the Battlefield. (FGR Section IV.A)
+    * **Leaders:** Special, powerful units. Only one of a player's Leaders can occupy one of their quadrants at a time. Each deck is limited to a maximum of 25 CP worth of Leader cards (FGR Section IV.A, II).
+* **Upgrades:** Cards that modify a player's own Units or Assets, enhancing their stats or granting new abilities. They are deployed attached to the target card. (FGR Section IV.D)
+* **Assets:** Persistent cards deployed to the player's Loadout Area. They provide ongoing benefits or activate special abilities. Assets have a Defense value but no Attack value and cannot inherently declare an Attack action. (FGR Section IV.B)
+* **Events:** Played as a single action during the Activation Sequence by paying their CP cost. They provide powerful one-time effects and are then typically discarded. (FGR Section IV.C)
+* **Terrain:** Deployed into a player's own quadrants on the Battlefield. They provide inherent defensive bonuses to units in their quadrant (+1 Defense per Terrain, max +2 from this source) and apply any other effects described in their rule box. A player can have a maximum of two of their own Terrain cards in any single quadrant. (FGR Section IV.E)
 * **Mission Cards:** These are a distinct category of cards, crucial for deck construction (defining Unit domain point allowances), providing base CP per round, and offering a path to victory. (Design principles for Mission Cards are covered in a separate document; see Section XV).
 
 ### B. Subtypes
-In addition to their main type, most cards have one or more subtypes (e.g., "Mech," "Bioweapon," "Celestial," "Technomancer"). Subtypes add specificity and can interact with card abilities or game rules, providing thematic and mechanical hooks. (Rulebook Section I.C).
+In addition to their main type, most cards have one or more subtypes (e.g., "Mech," "Bioweapon," "Celestial," "Technomancer"). Subtypes add specificity and can interact with card abilities or game rules, providing thematic and mechanical hooks. (FGR Section I.C).
 
 ## IV. Domain System
 
@@ -91,7 +91,7 @@ In Quantum Nexus, cards are thematically linked to one or more of four key domai
 For designers, the Domain system can serve as a strong thematic and conceptual framework.
 
 ### A. Domain Points (DP) - For Thematic Design and Budgeting
-Domain Points (DP) are numerical values assigned to each card, indicating its affinity and mastery of specific domains. For designers, DP serve as an internal tool to quantify a card's thematic investment and conceptual power level. Domain Points are a key factor in determining a card's initial Design Budget (DB) as outlined in the "Progressive Budget Build" system (Section V.B), which then influences its final CP cost. Thematically, higher DP allocations should still guide designers towards more potent or domain-characteristic abilities.
+Domain Points (DP) are numerical values assigned to each card, indicating its affinity and mastery of specific domains. For designers, DP serve as an internal tool to quantify a card's thematic investment and conceptual power level. Domain Points are a key factor in determining a card's initial Design Budget (DB) as outlined in the "Progressive Budget Build" system (Section V.B), which then influences its final CP cost. Thematically, higher DP allocations should still guide designers towards more potent or domain-characteristic abilities. (Refer to FGR Section II.B and II.C for player-facing rules on Mission Card DP totals and Unit DP restrictions).
 
 * Allocation Rules (for thematic guidance):
     * Total DP: Consider a conceptual maximum (e.g., 6 DP total per card, though the costing system focuses on Total DP sum).
@@ -195,7 +195,7 @@ Thematic feel should translate into game mechanics. This section provides exampl
 
 > **DESIGN TEAM NOTE:** This section outlines the **"Progressive Budget Build - Version 2 (Dynamic Scaling)"** system, which is the official starting framework for calculating a card's printed Command Point (CP) cost and balancing its stats and abilities. This system replaces any previous methodologies or placeholder notes regarding an internal review.
 >
-> **Crucially, all specific numerical values presented within this section and its examples (e.g., DB allocations per DP, DB costs for stats, specific abilities, and keywords, and the final DB-to-CP conversion factor) are initial placeholders.** These values serve as a starting point for design work. They **require, and will undergo, rigorous calibration, extensive playtesting, and iterative refinement** by the design team to ensure game balance and achieve the desired strategic depth aligned with the current Quantum Nexus Rulebook. Designers should use this framework for new card creation, understanding that the underlying values will evolve based on playtesting data and balance adjustments.
+> **Crucially, all specific numerical values presented within this section and its examples (e.g., DB allocations per DP, DB costs for stats, specific abilities, and keywords, and the final DB-to-CP conversion factor) are initial placeholders.** These values serve as a starting point for design work. They **require, and will undergo, rigorous calibration, extensive playtesting, and iterative refinement** by the design team to ensure game balance and achieve the desired strategic depth aligned with the current `Players/Quantum Nexus Full Game Rules.md` (FGR). Designers should use this framework for new card creation, understanding that the underlying values will evolve based on playtesting data and balance adjustments.
 
 **1. Overview of the "Progressive Budget Build" System**
 
@@ -208,16 +208,16 @@ The "Progressive Budget Build" system determines a card's playable CP cost by fi
     * *Placeholder Value:* All cards start with **5 FDB**.
 
 * **Step 1.2: DP-Driven Design Budget (DDB) from Total Domain Points**
-    * Each point of Total DP (as defined in Section IV.A of these guidelines and Section II.B, II.C of the Rulebook) contributes a set amount to the card's DDB.
+    * Each point of Total DP on the card being designed (as defined in Section IV.A of these guidelines) contributes a set amount to the card's DDB. (Player-facing rules in FGR Section II.B and II.C focus on Mission Card DP totals and their impact on Unit inclusion).
     * *Placeholder Value:* Each Total DP grants **+5 DDB**.
 
 * **Step 1.3: Calculating Base Design Budget (BDB)**
     * `BDB = FDB + DDB`.
 
 * **Step 1.4: Role and Rarity Design Budget Modifiers (DBM)**
-    * **Leadership Modifier:** If a card has the 'Leader' subtype (Rulebook Section IV.A), it receives a DBM.
+    * **Leadership Modifier:** If a card has the 'Leader' subtype (FGR Section IV.A), it receives a DBM.
         * *Placeholder Value:* `Leadership DBM = +3 DB (flat) + (20% of the card's BDB)`. (The design team should establish a consistent rounding rule for DBM components if percentages result in fractions, e.g., round to nearest 0.5 DB or whole DB).
-    * **Rarity (Duplicate Limit) Modifier:** Cards with stricter duplicate limits (Rulebook Section I.C, II.A) receive a DBM.
+    * **Rarity (Duplicate Limit) Modifier:** Cards with stricter duplicate limits (FGR Section I.C, II.A) receive a DBM.
         * *Placeholder Values:*
             * 1-of per deck: **+8 DB**
             * 2-of per deck: **+4 DB**
@@ -235,7 +235,7 @@ The "Progressive Budget Build" system determines a card's playable CP cost by fi
         * `Cost_A_DB` (Cost per Attack point) = **2 DB**.
         * `Cost_D_DB` (Cost per Defense point) = **1.5 DB**.
     * `DB_Spent_On_Stats = (Attack Value * Cost_A_DB) + (Defense Value * Cost_D_DB)`.
-    * *Calibration Note:* These costs must be balanced against the new combat mechanics (Rulebook Section III.C.2).
+    * *Calibration Note:* These costs must be balanced against the new combat mechanics (FGR Section III.C.2).
 
 * **Step 2.2: Costing Abilities & Keywords in DB**
     * Designers select abilities (Active, Passive, Triggered) and Keywords for the card.
@@ -267,13 +267,13 @@ This "Progressive Budget Build" system supports key design goals:
 
 ### C. Functional Attributes
 Each card possesses specific attributes that define its capabilities.
-* Range (If Applicable to Card Type, e.g., Units): Must conform to current Rulebook definitions (see Section II.B of these Guidelines). The choice of range will have an associated DB cost from the Master List, typically accounted for under `DB_Spent_On_Abilities`.
+* Range (If Applicable to Card Type, e.g., Units): Must conform to current FGR definitions (see Section II.B of these Guidelines). The choice of range will have an associated DB cost from the Master List, typically accounted for under `DB_Spent_On_Abilities`.
 * Attack (If Applicable, e.g., Units): The offensive strength. Its value contributes to `DB_Spent_On_Stats`.
 * Defense (If Applicable, e.g., Units, Assets): Resilience against attacks or effects. Its value contributes to `DB_Spent_On_Stats`.
 * Rule Box: Contains the card's abilities.
-    * Active Abilities: Require a player to choose them as a single action during the Activation Sequence and pay all associated costs (CP, exhausting the card, etc.) as specified by the ability (Rulebook Section III.C.2). Each Active Ability will have a DB cost from the Master List.
-    * Passive Abilities: Always in effect once the card is in play under the correct conditions. Do not require activation. Each Passive Ability will have a DB cost from the Master List.
-    * Triggered Abilities (includes Interrupts): Activate in response to specific game events. Mandatory triggers must be announced and resolved. Optional Interrupts may have costs and allow a choice to activate (Rulebook Section VII.A). Each Triggered Ability will have a DB cost from the Master List.
+    * Active Abilities: Require a player to choose them as a single action during the Activation Sequence and pay all associated costs (CP, exhausting the card, etc.) as specified by the ability (FGR Section III.C.2). Each Active Ability will have a DB cost from the Master List.
+    * Passive Abilities: Always in effect once the card is in play under the correct conditions. Do not require activation (FGR Glossary). Each Passive Ability will have a DB cost from the Master List.
+    * Triggered Abilities (includes Interrupts): Activate in response to specific game events. Mandatory triggers must be announced and resolved. Optional Interrupts may have costs and allow a choice to activate (FGR Section VII.A). Each Triggered Ability will have a DB cost from the Master List.
 * Ability Costs (Gameplay vs. Design):
     * **Design Budget (DB) Cost:** An internal value from the Master List representing how much of a card's TDB an ability consumes in its design. This is its Net DB cost after considering all 7 components from the "Ability Creation Guidelines (ACG)," including any DB rebates from gameplay activation costs.
     * **Gameplay Activation Cost:** For Active Abilities, this is the CP (and potentially other resources like exhausting the card, sacrificing, etc.) a player must pay to use the ability during a game. This gameplay cost is separate from its DB design cost but directly influences the assignment of its Net DB cost on the Master List (as detailed in the ACG). Printed CP cost of a card is determined by the "Progressive Budget Build" system.
@@ -281,7 +281,7 @@ Each card possesses specific attributes that define its capabilities.
 ## VI. Card Count Limits (Deckbuilding Restrictions)
 
 The number of copies of a particular card a player can include in their deck is a crucial balancing factor.
-* As per the current Quantum Nexus Rulebook (Section I.C, II.A), duplicate limits are printed on each card. No card may ever break these limits.
+* As per the current `Players/Quantum Nexus Full Game Rules.md` (FGR Section I.C, II.A), duplicate limits are printed on each card. No card may ever break these limits.
 * Designers will determine this limit (e.g., 1 for very powerful/unique effects, 2 for strong cards, 3 or more for foundational cards) based on the card's intended power level, role, and impact on deck diversity and game balance.
 * A card's duplicate limit (rarity) directly contributes a modifier to its Total Design Budget (TDB) as detailed in Section V.B, allowing rarer cards a potentially higher budget for stats and abilities.
 
@@ -299,9 +299,9 @@ Abilities are the core of a card's function and strategic interest.
     * Do not require player activation.
 * **Triggered Abilities (Including Interrupts):**
     * Activate automatically when their specific trigger conditions (defined on the card or by game rules) are met.
-    * Resolution follows the layered trigger resolution rules (Rulebook Section VII.A).
+    * Resolution follows the layered trigger resolution rules (FGR Section VII.A).
     * Mandatory triggered abilities must resolve.
-    * Optional Interrupts may allow the player to choose to activate them, potentially by paying a cost (Rulebook Section VII.A).
+    * Optional Interrupts may allow the player to choose to activate them, potentially by paying a cost (FGR Section VII.A).
 
 ### B. Ability Design and Costing: Design Budget (DB) System for Balancing Abilities
 * **Concept and Theme:** Abilities must align with the card's overall concept, domain, subtype, and flavor. All distinct abilities should be clearly named in the rule box if they are complex or targetable by other effects.
@@ -311,13 +311,13 @@ Abilities are the core of a card's function and strategic interest.
     * Stats, abilities, and keywords consume DB from this TDB.
     * Each ability or keyword will have a specific DB cost assigned to it on a **Master List of DB Costs**, which must be developed and calibrated by the design team. This DB cost reflects its power, complexity, impact on action economy (especially for Active Abilities), and any associated gameplay activation costs (as detailed in the ACG).
     * More impactful abilities will consume more DB. The total DB cost of all a card's features (stats, abilities, keywords) determines its final playable CP cost.
-* **Clarity:** Ability text must be precise and unambiguous, using established game terminology consistently. Refer to "Precision Matters" in the Rulebook Core Principles.
+* **Clarity:** Ability text must be precise and unambiguous, using established game terminology consistently. Refer to "Precision Matters" in the FGR Core Principles.
 
 ## VIII. Keywords and Their Impact on Gameplay
 
 Keywords are shorthand for specific, predefined abilities or characteristics.
 * **Purpose:** Keywords streamline card text and establish consistent mechanics.
-* **Defining Keywords:** If a new keyword is introduced, its rules must be clearly defined, either on the card itself if it's a one-off, or in the main Rulebook Glossary if it's intended for wider use.
+* **Defining Keywords:** If a new keyword is introduced, its rules must be clearly defined, either on the card itself if it's a one-off, or in the `Players/Quantum Nexus Full Game Rules.md` Glossary if it's intended for wider use.
 * **Balancing Keywords:** The impact of a keyword must be factored into the card's overall balance via its assigned DB cost within the "Progressive Budget Build" system (Section V.B). Each keyword will have an associated DB cost on the **Master List of DB Costs**.
     * Positive keywords (e.g., granting an advantage) would have a DB cost.
     * Negative keywords (e.g., imposing a drawback) might conceptually have a negative DB cost (i.e., they refund DB to the budget, allowing for better stats or other abilities for its cost), or a very low positive DB cost if their drawback is minor. This needs careful consideration during Master List calibration, following the principles in the "Ability Creation Guidelines (ACG)."
@@ -424,7 +424,7 @@ This example uses the **"Progressive Budget Build - Version 2 (Dynamic Scaling)"
 ## XII. Advanced Card Mechanics (Conceptual)
 
 These are ideas for designers to explore, ensuring they align with the core rules and balance. Any new mechanics would require DB costs to be defined on the Master List.
-* Keywords and Status Effects: Consider if new keywords (like "Stealth," "Precise," "Shielded X") or unique status effects (beyond "Suppressed" or "Disordered") could add depth. Any new persistent keyword or status effect would need clear rules defined, potentially in the main Rulebook, and an associated DB cost.
+* Keywords and Status Effects: Consider if new keywords (like "Stealth," "Precise," "Shielded X") or unique status effects (beyond "Suppressed" or "Disordered") could add depth. Any new persistent keyword or status effect would need clear rules defined, potentially in the `Players/Quantum Nexus Full Game Rules.md` (FGR), and an associated DB cost.
 * Combo Potential: Design cards that might have non-obvious but powerful interactions.
 * Conditional Effects: Abilities that trigger or vary based on game state (e.g., number of cards in hand, specific Mission Cards completed, presence of certain subtypes or domains in play).
 * Transforming Cards: Units or Assets that might change into a different version of themselves (new stats/abilities) if certain conditions are met. This would require clear rules on how transformation occurs and how it's costed in DB.
@@ -435,7 +435,7 @@ These are ideas for designers to explore, ensuring they align with the core rule
 * **Originality:** Aim for innovative mechanics and thematic concepts.
 * **Flavor:** Ensure mechanics, art, name, and flavor text create a cohesive and immersive whole.
 * **Engagement:** Design cards that offer interesting decisions, promote interaction, and are enjoyable to play with and against.
-* **Accessibility:** Card text should be clear and use consistent terminology. Complex abilities should be worded as unambiguously as possible.
+* **Accessibility:** Card text should be clear and use consistent terminology from the FGR. Complex abilities should be worded as unambiguously as possible.
 
 ## XIV. Playtesting and Iteration
 
@@ -452,17 +452,17 @@ Playtesting is non-negotiable.
 
 ## XVI. Conclusion
 
-The Quantum Nexus card creation process is a blend of creativity, strategic design, and rigorous refinement. By adhering to these evolving guidelines, understanding the core Quantum Nexus Rulebook, utilizing the "Progressive Budget Build" system, and embracing iterative playtesting, designers can craft unique, balanced, and engaging cards that enrich this dynamic sci-fi universe.
+The Quantum Nexus card creation process is a blend of creativity, strategic design, and rigorous refinement. By adhering to these evolving guidelines, understanding the core `Players/Quantum Nexus Full Game Rules.md` (FGR), utilizing the "Progressive Budget Build" system, and embracing iterative playtesting, designers can craft unique, balanced, and engaging cards that enrich this dynamic sci-fi universe.
 
 ## Appendix
 
 ### A. Glossary of Design Terms
-(This glossary is for designer use and may contain terms not in the player-facing Rulebook. It will be updated to reflect finalized internal terminology based on the "Progressive Budget Build" system.)
+(This glossary is for designer use and may contain terms not in the player-facing FGR. It will be updated to reflect finalized internal terminology based on the "Progressive Budget Build" system.)
 
-* **Activation Sequence:** The part of a Game Round where players take alternating single actions. (Rulebook term)
+* **Activation Sequence:** The part of a Game Round where players take alternating single actions. (FGR term)
 * **Base Design Budget (BDB):** An intermediate value in card costing, derived from a card's Foundational Design Budget (FDB) and its DP-Driven Design Budget (DDB).
 * **Card Feel Matrix:** An internal design tool using axes like Malevolence, Utility, Combat, and Impact to guide a card's thematic and mechanical identity.
-* **Command Points (CP):** The primary resource in the game, gained each round (primarily from Mission Cards) and spent to deploy cards and activate abilities. (Rulebook term) The playable CP cost printed on cards is determined by the "Progressive Budget Build" system.
+* **Command Points (CP):** The primary resource in the game, gained each round (primarily from Mission Cards) and spent to deploy cards and activate abilities. (FGR term) The playable CP cost printed on cards is determined by the "Progressive Budget Build" system.
 * **`CP_Conversion_Factor`:** The rate at which `Total_Actual_DB_Spent` is converted to playable CP in the "Progressive Budget Build" system. (Placeholder value needs calibration).
 * **Design Budget (DB):** An internal design currency used within the "Progressive Budget Build" system to quantify the cost of stats, abilities, and keywords during card creation.
 * **Domain Points (DP):** A numerical value indicating a card's thematic connection to the four domains. DP contribute to a card's Total Design Budget (TDB) and are used in player-facing rules for Mission Card setup and Unit inclusion.
@@ -479,31 +479,31 @@ The Quantum Nexus card creation process is a blend of creativity, strategic desi
 * Prioritize Fun and Engagement: Design cards that create interesting decisions and enjoyable gameplay moments.
 * Embrace Simplicity Where Possible: Complex interactions are good, but individual card text should strive for clarity.
 * Consider All Game States: How does the card perform in the early, mid, and late game? When ahead, behind, or at parity?
-* Design for the Current Rulebook: All mechanics must function cleanly within the latest version of the Quantum Nexus Rulebook. The "Progressive Budget Build" system aims to cost features based on their impact within these rules.
+* Design for the Current Rulebook: All mechanics must function cleanly within the latest version of the `Players/Quantum Nexus Full Game Rules.md` (FGR). The "Progressive Budget Build" system aims to cost features based on their impact within these rules.
 * Iterate Relentlessly: Playtesting will reveal what works and what doesn't. Be prepared to change any aspect of a card, including re-evaluating its DB costs against the Master Lists as those lists themselves get calibrated.
 
-*(Previous Appendices C, D, and E, which detailed AP costs for abilities and keywords under an old system, are now obsolete. They are superseded by the need to develop and maintain comprehensive **Master DB Cost Lists for Abilities and Keywords** as integral components of the "Progressive Budget Build" system.)*
+*(Previous Appendices C, D, and E, which detailed AP costs for abilities and keywords under an old system, are now obsolete. They are superseded by the need to develop and maintain comprehensive **Master DB Cost Lists for Abilities and Keywords** as integral components of the "Progressive Budget Build" system, referencing principles from the `Designers/Quantum Nexus Ability Creation Mini-Guide.md`.)*
 
 ### F. Design Considerations for Different Card Types
 
-When using the "Progressive Budget Build" system, consider these nuances for different card types:
+When using the "Progressive Budget Build" system, consider these nuances for different card types (all rules referenced are from the FGR):
 
-1.  **Units**
-    * **Stats and Role:** Balance Attack and Defense DB costs according to the unit's intended role (offensive, defensive, utility). Consider its synergy with the current combat outcomes (Suppressed, Disordered, Pushed Back).
+1.  **Units** (FGR Section IV.A)
+    * **Stats and Role:** Balance Attack and Defense DB costs according to the unit's intended role (offensive, defensive, utility). Consider its synergy with the current combat outcomes (Suppressed, Disordered, Pushed Back - FGR Section III.C.2).
     * **Abilities:** Design abilities that complement its stats and role. Active Abilities consume an action slot in the Activation Sequence, which should be a major factor in their DB cost on the Master List.
-    * **Range:** The choice of range (Close, Mid, Far as per current Rulebook) will have a DB cost from the Master List, typically accounted for as part of `DB_Spent_On_Abilities`.
-2.  **Leaders**
-    * **Impact:** The Leadership DBM grants Leaders a higher TDB, allowing for more significant or numerous abilities. Their abilities should be impactful, aligning with their unique status and deckbuilding restrictions.
+    * **Range:** The choice of range (Close, Mid, Far as per current FGR Glossary) will have a DB cost from the Master List, typically accounted for as part of `DB_Spent_On_Abilities`.
+2.  **Leaders** (FGR Section IV.A, II)
+    * **Impact:** The Leadership DBM grants Leaders a higher TDB, allowing for more significant or numerous abilities. Their abilities should be impactful, aligning with their unique status and deckbuilding restrictions (25 CP limit).
     * **Synergy:** Design abilities that synergize with specific domains, subtypes, or strategies.
-3.  **Upgrades**
+3.  **Upgrades** (FGR Section IV.D)
     * **Enhancement Focus:** Should clearly enhance a player's own Unit or Asset. Balance the DB cost of its stat boosts or granted abilities against its TDB (which, for an Upgrade, will likely be based on its DP and Rarity only, not Leadership).
-4.  **Assets**
+4.  **Assets** (FGR Section IV.B)
     * **Persistent Value:** Effects should provide ongoing or strategically valuable activated abilities from the Loadout Area. Assets typically only have a Defense stat; their `DB_Spent_On_Stats` will reflect this. Their TDB will allow for DB to be spent on their persistent or activated abilities.
     * **Survivability:** Their Defense value's DB cost should be balanced against their impact.
-5.  **Events**
+5.  **Events** (FGR Section IV.C)
     * **Immediate Impact:** Events have no stats and are transient. Their TDB (derived from DP and Rarity) is spent entirely on the DB cost of their one-time effect(s). The DB cost of Event effects on the Master List must be carefully calibrated for their immediate impact relative to cards that remain in play.
     * **Action Economy:** Playing an Event is a single action; its effect's DB cost must reflect this.
-6.  **Terrain**
-    * **Battlefield Impact:** Terrain cards modify quadrants. Beyond the inherent +1 Defense bonus per Terrain card (which is a game rule, not something bought with DB for that specific Terrain card, though its existence might influence general Terrain TDB baselines), their printed rule box effects will have DB costs. Their TDB will be spent on these unique quadrant-altering abilities. Adhere to the limit of two Terrain per player per quadrant.
+6.  **Terrain** (FGR Section IV.E)
+    * **Battlefield Impact:** Terrain cards modify quadrants. Beyond the inherent +1 Defense bonus per Terrain card (which is an FGR rule, not something bought with DB for that specific Terrain card, though its existence might influence general Terrain TDB baselines), their printed rule box effects will have DB costs. Their TDB will be spent on these unique quadrant-altering abilities. Adhere to the limit of two Terrain per player per quadrant.
 
 By considering these design considerations for each card type within the "Progressive Budget Build" system, you can ensure that your creations are balanced, engaging, and contribute to the rich tapestry of Quantum Nexus gameplay. The Master DB Cost Lists will be essential in reflecting these type-specific considerations.

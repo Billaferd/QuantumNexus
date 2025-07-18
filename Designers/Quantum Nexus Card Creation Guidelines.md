@@ -1,509 +1,855 @@
-# Quantum Nexus: Card Creation Guidelines
+### **Quantum Nexus: Card Creation Guidelines**
 
-## Note to the Reader
+Note to the Reader
 
 This is the Quantum Nexus: Card Creation Guidelines. This document is not meant to explain any rules that a player would need; it is solely intended to aid designers in creating captivating and interesting cards for Quantum Nexus. Players are welcome to read this document, but please know that these rules are not applied to any in-game scenario; they are solely intended for creating cards for Quantum Nexus.
 
-## I. Introduction
 
-Quantum Nexus is a strategic trading card game (TCG) that immerses players in a captivating sci-fi universe filled with advanced technology, mystical magic, potent psionics, and divine intervention. To contribute to this dynamic world, card creators must adhere to a set of core design principles and understand the fundamental building blocks of card creation.
+### **I. Introduction**
 
-### A. Core Design Principles
+Quantum Nexus is a strategic trading card game (TCG) that immerses players in a captivating sci-fi universe filled with advanced technology, mystical magic, potent psionics, divine intervention, rampant biology, and the creeping decay of entropy. To contribute to this dynamic world, card creators must adhere to a set of core design principles and understand the fundamental building blocks of card creation.
 
-* **Card Control:** Each player retains complete ownership and control of their cards throughout the game. Players are not allowed to touch any other player's cards, and a player's cards are not allowed to leave that player's play area. This aligns with Section V.F of the Quantum Nexus Rulebook.
-* **Predictable Gameplay:** The only random element in Quantum Nexus is initial card shuffles and the card draw during the Start of Round Step. This design choice eliminates luck-based mechanics like dice rolls or coin flips, ensuring that strategic decision-making and tactical planning are the primary factors that determine the outcome of battles.
-* **Streamlined Combat:** Units in Quantum Nexus do not have health points. Instead, their resilience is represented by a Defense value. When a unit is attacked, its Defense is compared to the attacker's Attack value. The outcomes are specific:
-    * If Attack is greater than Defense, the defending unit is destroyed.
-    * If Attack equals Defense, the defending unit becomes Suppressed (it exhausts).
-    * If Attack is less than Defense, the attacker becomes Disordered and is Pushed Back.
-    This system, detailed in Section III.C.2 of the Rulebook, simplifies aspects of combat while offering tactical nuance.
 
-## II. Battlefield, Range, and Movement
+#### **A. Core Design Principles**
+
+- **Card Control:** Each player retains complete ownership and control of their cards throughout the game. Players are not allowed to touch any other player's cards, and a player's cards are not allowed to leave that player's play area. This aligns with Section V.F of the Quantum Nexus Rulebook.
+
+- **Predictable Gameplay:** The only random element in Quantum Nexus is initial card shuffles and the card draw during the Start of Round Step. This design choice eliminates luck-based mechanics like dice rolls or coin flips, ensuring that strategic decision-making and tactical planning are the primary factors that determine the outcome of battles.
+
+- **Streamlined Combat:** Units in Quantum Nexus do not have health points. Instead, their resilience is represented by a Defense value. When a unit is attacked, its Defense is compared to the attacker's Attack value. The outcomes are specific:
+
+* If Attack is greater than Defense, the defending unit is destroyed.
+
+* If Attack equals Defense, the defending unit becomes Suppressed (it exhausts), and it can be destroyed by any attack until it is no longer Suppressed.
+
+* If Attack is less than Defense, the attack fails and there is no consequence other than the attackers becoming exhausted.
+
+
+### **II. Battlefield, Range, and Movement**
 
 Understanding the battlefield, card range, and unit movement as defined in the current Quantum Nexus Rulebook is crucial for effective card design.
 
-### A. Battlefield Structure
+
+#### **A. Battlefield Structure**
+
 The Quantum Nexus battlefield for each player consists of a 3x2 grid, comprising six distinct quadrants (Front Left, Front Center, Front Right, Back Left, Back Center, Back Right). Units are deployed into their controller's own quadrants and never physically enter an opponent's play area or quadrants. For targeting purposes, a player's Front Row is considered to be facing each opponent's Front Row. (See Rulebook Section V.E).
 
-### B. Range Types
+
+#### **B. Range Types**
+
 Each Unit card designed to attack or affect other cards at a distance must have a defined range. These ranges dictate which quadrants it can target, relative to its current position. The official range definitions are in Section VIII (Glossary) of the Quantum Nexus Rulebook. Designers must use these current definitions:
 
-* **Close Range:** A unit with a Close Range attack or ability can target its own current quadrant AND one existing quadrant directly Forward, Backward, Left, and Right of its current quadrant. A unit declaring an attack with Close Range may target its own unit in its own quadrant.
-* **Mid Range:** A unit with a Mid Range attack or ability can target one existing quadrant directly Forward, Backward, Left, Right, Forward-Left Diagonal, Forward-Right Diagonal, Backward-Left Diagonal, and Backward-Right Diagonal from its current quadrant. Mid Range does not include the attacking unit's own current quadrant.
-* **Far Range:** An attack range allowing a unit to target all quadrants located exactly two rows ahead of its current row, on an opponent's side of the battlefield. Units in a player's Front Row target all quadrants in the opponent's Back Row. Units in a player's Back Row target all quadrants in the opponent's Front Row. Far Range does not include the attacking unit's own current quadrant.
+- **Close Range:** A unit with a Close Range attack or ability can target its own current quadrant AND one existing quadrant directly Forward, Backward, Left, and Right of its current quadrant. A unit declaring an attack with Close Range may target its own unit in its own quadrant.
+
+- **Mid Range:** A unit with a Mid Range attack or ability can target one existing quadrant directly Forward, Backward, Left, Right, Forward-Left Diagonal, Forward-Right Diagonal, Backward-Left Diagonal, and Backward-Right Diagonal from its current quadrant. Mid Range does not include the attacking unit's own current quadrant.
+
+- **Far Range:** An attack range allowing a unit to target all quadrants located exactly two rows ahead of its current row, on an opponent's side of the battlefield. Units in a player's Front Row target all quadrants in the opponent's Back Row. Units in a player's Back Row target all quadrants in the opponent's Front Row. Far Range does not include the attacking unit's own current quadrant.
 
 Careful consideration of these ranges is essential for balancing a unit's offensive and defensive capabilities and its tactical role.
 
-### C. Movement
+
+#### **C. Movement**
+
 In the current Quantum Nexus rules (Section III.C.2), moving a unit is a specific single action a player can choose during their turn in the Activation Sequence.
-* A player chooses one of their ready units.
-* The unit moves one quadrant in a cardinal direction (Forward, Backward, Left, or Right) to an adjacent friendly quadrant.
-* The destination quadrant may be occupied by other friendly units (respecting the "one Leader per quadrant" rule).
-* The unit that moved then becomes exhausted as the cost of this action.
+
+- A player chooses one of their ready units.
+
+- The unit moves one quadrant in a cardinal direction (Forward, Backward, Left, or Right) to an adjacent friendly quadrant.
+
+- The destination quadrant may be occupied by other friendly units (respecting the "one Leader per quadrant" rule).
+
+- The unit that moved then becomes exhausted as the cost of this action.
+
 Card designs, particularly for units, should consider this action economy for movement. Abilities that grant movement or affect movement should be designed with this baseline rule in mind.
 
-### D. Internal Design Tags (Formerly "Card Ranks")
-The terms Terrestrial, Aerial, Orbital, and Interstellar are no longer mechanical "Card Ranks" that dictate player-facing rules like deployment zones or specific abilities.
-For internal design purposes within these guidelines, these terms can be used as thematic tags to help inform a card's concept and its place within the "Card Feel Matrix" (see Section V.A). They should not appear on cards as a distinct mechanical property visible to players and are not referenced in the main rulebook.
-* **Terrestrial (Internal Tag):** Suggests ground-based themes.
-* **Aerial (Internal Tag):** Suggests flying or air-based themes.
-* **Orbital (Internal Tag):** Suggests themes of affecting wider areas from a distance, traditionally associated with Asset-like concepts affecting quadrants.
-* **Interstellar (Internal Tag):** Suggests themes of broad, battlefield-wide influence, traditionally associated with Asset-like concepts.
 
-Deployment of cards is determined by their Card Type (Unit, Asset, Terrain, etc.) as per Section IV of the Quantum Nexus Rulebook.
+#### **D. Internal Design Tags & Card Type Theming**
 
-### E. Game Round Structure (Formerly "Turn Sequence")
-Designers must create cards that function within the current Game Round Structure detailed in Section III.C of the Quantum Nexus Rulebook. This structure is not based on distinct, shared phases like "Deployment Phase" or "Command Phase." Instead, it consists of:
-1.  **Start of Round Step:** This occurs simultaneously for all players.
-    * All previously exhausted cards are deactivated (readied).
-    * Players gain their Command Points (CP) for the round (derived from their Mission Cards plus any other "start of round" effects).
-    * Players draw cards until they have five cards in their hand.
-    * Relevant triggered abilities resolve.
-2.  **Activation Sequence:** Following the Start of Round Step, players take turns performing single actions.
-    * The player with initiative takes the first single action.
-    * Available single actions are: Deploy a Card, Activate an Active Ability, Declare an Attack, Play an Event Card, Move a Unit, or Pass.
-    * After an action and any resulting triggered abilities fully resolve, the next player in clockwise order takes a single action.
-    * This continues until all players consecutively Pass.
-Initiative for the first round is determined by a card flip; for subsequent rounds, it goes to the player who passed first to end the previous Activation Sequence (Rulebook Section III.D).
-Card abilities, costs, and effects must be designed with this alternating single-action economy in mind.
+The terms **Terrestrial, Aerial, Orbital,** and **Interstellar** are internal design tags used to guide a card's thematic concept and its relationship to the game's mechanical card types. These tags should not appear on cards as a player-facing property.
 
-## III. Card Types and Subtypes
+- **Terrestrial & Aerial (Battlefield Presence):**
+
+* **Thematic Guide:** These tags suggest concepts that operate directly on a planet's surface or in its atmosphere—ground troops, tanks, flyers, beasts, etc. They represent direct, physical presence and engagement.
+
+* **Mechanical Tie-in:** These themes are best suited for card types that are deployed onto the **Battlefield** grid: **Units** and **Terrain**. A "Terrestrial" card is typically a ground unit, while an "Aerial" card is a flying unit. Both occupy quadrant space and interact directly with the board.
+
+- **Orbital & Interstellar (Strategic Influence):**
+
+* **Thematic Guide:** These tags suggest concepts that exert influence from a distance—orbiting satellites, command ships, fleet-wide directives, or battlefield-wide phenomena. They represent strategic assets and overarching effects rather than individual combatants.
+
+* **Mechanical Tie-in:** These themes are best suited for card types that are deployed to the **Loadout Area** or have non-physical effects: **Assets** and **Events**. An "Orbital" Asset could be a targeting satellite providing a bonus. An "Interstellar" Event could be a solar flare affecting all players.
+
+
+#### **E. Game Round Structure**
+
+Designers must create cards that function within the Game Round Structure detailed in Section III.C of the Quantum Nexus Rulebook. This structure is not based on distinct, shared phases like "Deployment Phase" or "Command Phase." Instead, it consists of:
+
+- **Start of Round Step:** This occurs simultaneously for all players.
+
+* All previously exhausted cards are deactivated (readied).
+
+* Players gain their Command Points (CP) for the round (derived from their Mission Cards plus any other "start of round" effects).
+
+* Players draw cards until they have five cards in their hand.
+
+* Relevant triggered abilities resolve. This happens in a layered fashion: first, any abilities triggered by the simultaneous refresh actions (like drawing a card) resolve, followed by the resolution of any abilities that specifically trigger "at the start of the Game Round."
+
+- **Activation Sequence:** Following the Start of Round Step, players take turns performing single actions.
+
+* The player with initiative takes the first single action.
+
+* Available single actions are: Deploy a Card, Activate an Active Ability, Declare an Attack, Play an Event Card, Move a Unit, or Pass.
+
+* After an action and any resulting triggered abilities fully resolve, the next player in clockwise order takes a single action.
+
+* This continues until all players consecutively Pass.
+
+Initiative for the first round is determined by a card flip; for subsequent rounds, it goes to the player who passed first to end the previous Activation Sequence (Rulebook Section III.D). Card abilities, costs, and effects must be designed with this alternating single-action economy in mind.
+
+
+### **III. Card Types, Subtypes, and Factions**
 
 Quantum Nexus features a diverse range of card types, each playing a unique role. Designers should adhere to the definitions and roles outlined in Section IV of the Quantum Nexus Rulebook.
 
-### A. Card Types
 
-* **Units:** The core of a player's forces. Units have Attack and Defense values and a defined range (if applicable). They are deployed to a player's quadrants on the Battlefield. (Rulebook Section IV.A)
-    * **Leaders:** Special, powerful units. Only one of a player's Leaders can occupy one of their quadrants at a time. Each deck is limited to a maximum of 25 CP worth of Leader cards (Rulebook Section IV.A, II).
-* **Upgrades:** Cards that modify a player's own Units or Assets, enhancing their stats or granting new abilities. They are deployed attached to the target card. (Rulebook Section IV.D)
-* **Assets:** Persistent cards deployed to the player's Loadout Area. They provide ongoing benefits or activate special abilities. Assets have a Defense value but no Attack value and cannot inherently declare an Attack action. (Rulebook Section IV.B)
-* **Events:** Played as a single action during the Activation Sequence by paying their CP cost. They provide powerful one-time effects and are then typically discarded. (Rulebook Section IV.C)
-* **Terrain:** Deployed into a player's own quadrants on the Battlefield. They provide inherent defensive bonuses to units in their quadrant (+1 Defense per Terrain, max +2 from this source) and apply any other effects described in their rule box. A player can have a maximum of two of their own Terrain cards in any single quadrant. (Rulebook Section IV.E)
-* **Mission Cards:** These are a distinct category of cards, crucial for deck construction (defining Unit domain point allowances), providing base CP per round, and offering a path to victory. (Design principles for Mission Cards are covered in a separate document; see Section XV).
+#### **A. Card Types**
 
-### B. Subtypes
+- **Units:** The core of a player's forces. Units have Attack and Defense values and a defined range (if applicable). As a 'Deploy a Card' action, Units are always deployed into a quadrant on the player's **Back Row**. To engage further, a unit must be moved from the Back Row to the Front Row by using a "Move a Unit" action during one of the player's subsequent activations. A single quadrant has a capacity of four standard-sized units, which must be respected when deploying or moving units.
+
+- **Leaders:** Special, powerful units. Only one of a player's Leaders can occupy one of their quadrants at a time. Each deck is limited to a maximum of 25 CP worth of Leader cards (Rulebook Section IV.A, II).
+
+- **Upgrades:** Cards that modify a player's own Units or Assets, enhancing their stats or granting new abilities. They are deployed attached to the target card. (Rulebook Section IV.D)
+
+- **Assets:** Persistent cards deployed to the player's Loadout Area. They provide ongoing benefits or activate special abilities. Assets have a Defense value but no Attack value and cannot inherently declare an Attack action. (Rulebook Section IV.B)
+
+- **Events:** Played as a single action during the Activation Sequence by paying their CP cost. They provide powerful one-time effects and are then typically discarded. (Rulebook Section IV.C)
+
+- **Terrain:** Deployed into a player's own quadrants on the Battlefield. Terrain does not take up a unit slot, instead this is a separate and distinct constraint. A player can have a maximum of two of their own Terrain cards in any single quadrant. If a non-numerical effect from a Terrain card active in a quadrant explicitly negates, prevents, or forbids an action, state, or condition that another non-numerical effect active in or targeting that same quadrant (whether from another Terrain card, a Unit ability, an Event card, or any other game source) explicitly permits, enables, or creates, and the rules do not specify a hierarchy (e.g., 'card effects override game rules'), then neither of those specific, directly conflicting effects is applied. (Rulebook Section IV.E)
+
+- **Mission Cards:** These are a distinct category of cards, crucial for deck construction (defining Unit domain point allowances), providing base CP per round, and offering powerful strategic abilities. (Design principles for Mission Cards are covered in a separate document; see Section XV).
+
+
+#### **B. Subtypes**
+
 In addition to their main type, most cards have one or more subtypes (e.g., "Mech," "Bioweapon," "Celestial," "Technomancer"). Subtypes add specificity and can interact with card abilities or game rules, providing thematic and mechanical hooks. (Rulebook Section I.C).
 
-## IV. Domain System
 
-In Quantum Nexus, cards are thematically linked to one or more of four key domains: Technology, Magic, Psionics, and Divinity. These domains shape a card's identity, abilities, and flavor. The primary mechanical impact of Domains for players is in deck construction, where Mission Card domain point totals restrict the inclusion of Unit cards (Rulebook Section II.B, II.C).
+### **IV. Domain System: Philosophy and Identity**
 
-For designers, the Domain system can serve as a strong thematic and conceptual framework.
+In Quantum Nexus, cards are thematically linked to one or more of six key domains: **Technology, Magic, Psionics, Divinity, Biology, and Entropy**. These domains shape a card's identity, abilities, and flavor. The primary mechanical impact of Domains for players is in deck construction, where Mission Card domain point totals restrict the inclusion of playable cards (Rulebook Section II.B, II.C).
 
-### A. Domain Points (DP) - For Thematic Design and Budgeting
-Domain Points (DP) are numerical values assigned to each card, indicating its affinity and mastery of specific domains. For designers, DP serve as an internal tool to quantify a card's thematic investment and conceptual power level. Domain Points are a key factor in determining a card's initial Design Budget (DB) as outlined in the "Progressive Budget Build" system (Section V.B), which then influences its final CP cost. Thematically, higher DP allocations should still guide designers towards more potent or domain-characteristic abilities.
+Our design is built on two interconnected layers: the **Domain Pie** and **Domain Points (DP)**.
 
-* Allocation Rules (for thematic guidance):
-    * Total DP: Consider a conceptual maximum (e.g., 6 DP total per card, though the costing system focuses on Total DP sum).
-    * Domain Limit: Consider a conceptual maximum per domain (e.g., 4 points per domain).
-    * Minimum Allocation: A card should conceptually have points in domains relevant to its name, art, or abilities.
-    * Balanced Distribution: Aim for a thematic distribution reflecting the card's concept.
-    * Card Theme: The conceptual DP can guide the power and nature of abilities within that domain (e.g., 1 DP = basic use, 4 DP = mastery).
+- **The Domain Pie (The "What"):** This is the high-level **philosophical boundary** for each of the six domains. It defines what a domain is fundamentally about. It dictates the types of abilities and themes a domain can access (its strengths) and, critically, what it _cannot_ access (its weaknesses). The Domain Pie establishes a domain's core identity.
 
-### B. Domain Characteristics
-The thematic characteristics of each domain should guide ability design:
-* **Technology:** Themes of ranged weaponry, area effects, battlefield control, advanced machinery.
-* **Magic:** Themes of versatile spellcasting, unit targeting, arcane power, enchantments.
-* **Psionics:** Themes of mind control, telekinesis, psychic manipulation, mental assaults.
-* **Divinity:** Themes of blessings, curses, holy/unholy power, large-scale interventions.
+- **Domain Points (The "How Much"):** This is the measure of **commitment and power** within a domain's allowed "slice" of the pie. A card's total DP across all domains **cannot exceed 6**, and no single domain can have more than 4 points assigned to it. The DP value dictates the magnitude, efficiency, and complexity of its abilities. A higher DP value doesn't unlock abilities from other domains; it unlocks a more powerful and focused version of what its own domain already does best.
 
-### C. Disciplines
-Specific disciplines within each domain (e.g., Cybernetics under Technology, Elemental Magic under Magic) remain a valuable tool for designers to add thematic depth and inspire specific abilities. For each conceptual Domain Point allocated, designers can select relevant disciplines to further refine the card's theme.
+In short: **The Domain Pie sets the menu, and the Domain Points tell you how powerful a dish from that menu you can order.**
 
-(The lists of disciplines from the original guidelines are retained here for designer reference.)
 
-**Technology:**
-* Cybernetics: Biomechanics, Neural Interfaces, AI Integration, Augmentation, Prosthetics, Sensory Enhancement, Brain-Computer Interfaces
-* Energy Weapons: Lasers, Particle Beams, Plasma Cannons, Sonic Disruptors, Railguns, Coilguns, Graviton Weapons
-* Robotics: Autonomous Drones, Industrial Automatons, Mechs, Androids, Nanobots, Swarm Robotics, Synthetic Organisms, Cybernetic Organisms
-* Genetics: Bioengineering, Cloning, Gene Therapy, Chimera Creation, Genetic Modification, Designer Babies, Eugenics, Biological Weapons
-**Magic:**
-* Elemental Magic: Pyromancy, Hydromancy, Aeromancy, Geomancy, Cryomancy, Electrokinesis, Umbrakinesis, Photokinesis
-* Enchantment: Warding, Curses, Illusions, Charms, Hexes, Jinxes, Glamours, Compulsions
-* Summoning: Conjuration, Necromancy, Demonology, Celestial Beings, Spirit Animals, Familiars, Elementals, Ethereal Entities
-* Alchemy: Transmutation, Potion Brewing, Homunculus Creation, Philosopher's Stone, Elixir of Life, Panacea, Transfiguration, Quintessence
-**Psionics:**
-* Telekinesis: Object Manipulation, Pyrokinesis, Cryokinesis, Electrokinesis, Teleportation, Levitation, Force Fields, Matter Manipulation
-* Mind Control: Illusion Casting, Suggestion, Domination, Psychic Assault, Mind Reading, Memory Manipulation, Empathy, Telepathy
-* Precognition: Clairvoyance, Divination, Prophecy, Retrocognition, Future Sight, Premonition, Omen Reading, Augury
-* Astral Projection: Out-of-Body Experiences, Dream Walking, Spirit Communication, Plane Shifting, Remote Viewing, Possession, Ethereal Travel, Soul Projection
-**Divinity:**
-* Divine/Unholy Power: Healing/Harm, Exorcism/Corruption, Sanctification/Desecration, Protection/Curses, Blessing/Blighting, Smiting, Resurrection/Necromancy
-* Divine Wrath/Infernal Rage: Smiting, Banishment, Retribution, Divine Judgment, Heavenly Fire, Infernal Torment, Soul Imprisonment, Damnation
-* Blessings/Curses: Augmentation/Corruption, Fortune/Misfortune, Fertility/Sterility, Resurrection/Necromancy, Divine Favor/Disfavor, Miraculous Healing/Disease, Prosperity/Poverty, Life/Death
-* Divine/Infernal Intervention: Miracles/Chaos, Oracles/False Prophecies, Guidance/Temptation, Fate Manipulation, Angelic/Demonic Aid, Divine Inspiration/Corruption, Prophetic Visions/Nightmares, Heavenly/Hellish Portals
+#### **A. The Technology Domain**
 
-## V. Card Feel and Attributes
+**Core Philosophy:** Technology is the domain of **building, optimization, and resource generation**. It creates resilient, synergistic engines that start slow but become overwhelmingly powerful in the late game. It is methodical, logical, and persistent.
+
+**Strengths:**
+
+- Assets & Upgrades: Excels at deploying, protecting, and benefiting from these card types.
+
+- CP Generation: The primary domain for generating additional Command Points through non-combat means.
+
+- Resilience: Gets the most durable units for their cost, often featuring high Defense and keywords like Steadfast.
+
+**Weaknesses:**
+
+- Inefficient Unit Removal: Cannot have cheap, direct "destroy target unit" Event cards. Removal must come from combat or specific, often clunky, machine-based interactions.
+
+- No Hand Interaction: Cannot have cards that force opponents to look at or discard cards from their hand.
+
+- Poor Tempo: Is inherently slow. It cannot have cheap, aggressive units with high Attack for their cost.
+
+|                              |                                                                |                                                                                                                                                                                                                                           |
+| ---------------------------- | -------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Domain Level (DP)**        | **Thematic Representation**                                    | **Example Card Attributes (Abilities, Stats, etc.)**                                                                                                                                                                                      |
+| 1: Basic Component           | An efficient, single-purpose part of a larger machine.         | **Stats:** A unit with low Attack but decent Defense for its cost (e.g., 1/3).\<br> **Ability:** A simple, direct effect like "+1 Defense" on an Upgrade, or "The next Asset you play costs 1 less CP."                                   |
+| 2: Integrated System         | Components working together in a synergistic engine.           | **Stats:** A mid-cost unit with solid defensive keywords like Steadfast.\<br> **Ability:** Effects that rely on other tech cards, such as "This unit gets +1/+1 for each Asset you control," or "Your 'Construct' units have +1 Defense." |
+| 3: Advanced Infrastructure   | A powerful, self-sustaining engine providing repeatable value. | **Ability:** Powerful active abilities on Assets, like "Active: Exhaust this Asset. Gain 1 CP and draw a card." or passive effects on Upgrades like "Attached unit's Active abilities cost 1 less CP to activate."                        |
+| 4: Technological Singularity | An apex creation; the ultimate expression of the engine.       | **Ability:** Game-defining passive or interrupt effects on high-cost Leaders or unique units. For example, "Interrupt: When this unit would be destroyed, you may instead destroy an Upgrade attached to it and prevent the destruction." |
+
+
+#### **B. The Magic Domain**
+
+**Core Philosophy:** Magic is the domain of **rule-bending, card advantage, and powerful one-time Events**. It sacrifices board presence and unit durability for spectacular, game-altering effects. It is chaotic, powerful, and fleeting.
+
+**Strengths:**
+
+- Event Cards: Has exclusive access to the most powerful and flexible Event cards.
+
+- Card Draw & Filtering: The primary domain for drawing extra cards and searching the deck.
+
+- Non-Standard Removal: Excels at effects that bypass combat, such as returning units to hand.
+
+**Weaknesses:**
+
+- Fragile Units: Magic-based units are "glass cannons" with low base Defense values for their cost.
+
+- Inefficient Board Presence: Cannot have cost-effective units with high base stats. Its power is in its spells.
+
+- Limited Asset Interaction: Cannot have efficient ways to destroy or interact with an opponent's Assets.
+
+|                          |                                                            |                                                                                                                                                                                                                                    |
+| ------------------------ | ---------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Domain Level (DP)**    | **Thematic Representation**                                | **Example Card Attributes (Abilities, Stats, etc.)**                                                                                                                                                                               |
+| 1: Cantrip / Minor Glyph | A simple, fleeting spell with a minor effect.              | **Ability:** An Event that lets you "Look at the top two cards of your deck; put one into your hand and the other on the bottom," or an effect that grants a unit a temporary, non-combat keyword for a turn.                      |
+| 2: Standard Spellcraft   | The core repertoire of a spellcaster.                      | **Stats:** A "glass cannon" unit with low Defense but a strong ability (e.g., "When you play an Event, this unit gets +2 Attack this turn").\<br> **Ability:** An Event that lets you "Draw 2 cards," or "Destroy target Upgrade." |
+| 3: Advanced Ritual       | A complex spell that directly warps the rules of the game. | **Ability:** An Event that can "Return target unit with CP cost 5 or less to its owner's hand," or an Asset that allows you to "Copy the next Event you play this turn."                                                           |
+| 4: Arcane Mastery        | A game-ending spell of immense power.                      | **Ability:** A very high-cost Event with an effect like "Destroy all Assets and Terrains in play," or "Target opponent reveals their hand and discards all Event and Asset cards."                                                 |
+
+
+#### **C. The Psionics Domain**
+
+**Core Philosophy:** Psionics is the domain of **control, manipulation, and information**. It wins by out-thinking and disabling the opponent, not by overwhelming them with brute force. It is precise, subtle, and tactical.
+
+**Strengths:**
+
+- Combat Manipulation: The master of combat "tricks" and applying status effects like Suppressed.
+
+- Information Warfare: The only domain that can look at an opponent's hand or deck.
+
+- "Soft" Control: Excels at disabling enemy units without destroying them (preventing abilities, movement, etc.).
+
+**Weaknesses:**
+
+- Poor Non-Unit Interaction: Cannot have efficient ways to destroy Assets, Upgrades, or Terrain.
+
+- Lacks Brute Force: Cannot have effects that deal large amounts of direct damage or provide huge, sweeping Attack buffs.
+
+- No CP Generation: Cannot have cards that generate extra CP. It must work within the standard resource curve.
+
+|                            |                                                               |                                                                                                                                                                                                                             |
+| -------------------------- | ------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Domain Level (DP)**      | **Thematic Representation**                                   | **Example Card Attributes (Abilities, Stats, etc.)**                                                                                                                                                                        |
+| 1: Basic ESP / Telekinesis | A minor mental push or a brief glimpse of the future.         | **Ability:** A simple combat trick Event like "Target friendly unit gets +2 Attack this turn." or "Look at the top card of any player's deck."                                                                              |
+| 2: Focused Mind            | A trained mind capable of tactical influence.                 | **Ability:** Effects that apply status effects ("Active: Exhaust this unit. Inflict Suppressed on target unit.") or provide crucial information ("Interrupt: When this unit is deployed, look at target opponent's hand."). |
+| 3: Mental Domination       | Proactive control that shuts down an opponent's options.      | **Stats:** A unit with low Attack but a powerful passive ability like "Enemy units in this unit's quadrant cannot use Active abilities."\<br> **Ability:** An Event like "Target enemy unit cannot attack this Game Round." |
+| 4: Psionic Supremacy       | Total command of the battlefield through sheer force of will. | **Ability:** A Leader-only passive aura like "Enemy units in this unit's column lose all keywords," or an Event that allows you to "Look at target opponent's hand and choose a non-Leader card. They discard that card."   |
+
+
+#### **D. The Divinity Domain**
+
+**Core Philosophy:** Divinity is the domain of **faith, attrition, and otherworldly miracles**. Power is granted as a reward for devotion, manifesting as resilience, recursion, and profound, board-sweeping judgments. It is reactive, inevitable, and awe-inspiring.
+
+**Strengths:**
+
+- Recursion & Resilience: The best domain at bringing cards back from the discard pile and surviving destruction.
+
+- Symmetrical Effects: Excels at board-wipes or effects that harm all units, as its strategy is built to benefit from the chaos.
+
+- Ignoring Defenses: Can have effects that destroy units regardless of their stats, representing divine judgment.
+
+**Weaknesses:**
+
+- Poor Resource Engine: Cannot have efficient card draw or CP generation. Its advantage must be generated on the board.
+
+- Lacks Proactivity: Is fundamentally reactive or "grindy." It cannot have cheap, fast, aggressive units.
+
+- No "Targeted" Disruption: Its disruptive effects are often broad and sweeping, not precise.
+
+|                                 |                                                                 |                                                                                                                                                                                                                                       |
+| ------------------------------- | --------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Domain Level (DP)**           | **Thematic Representation**                                     | **Example Card Attributes (Abilities, Stats, etc.)**                                                                                                                                                                                  |
+| 1: Pledge of Faith              | A small prayer or minor reward for martyrdom.                   | **Stats:** A low-cost unit with an on-death trigger.\<br> **Ability:** "Interrupt: When this unit is destroyed, you gain 1 CP," or an Event like "Choose a friendly unit. The next time it would be destroyed this round, it is not." |
+| 2: Demonstrated Devotion        | A tangible miracle granted for continued faith.                 | **Ability:** Single-target recursion like "Return a unit with CP cost 3 or less from your discard pile to your hand," or an effect that removes all negative status effects from a friendly unit.                                     |
+| 3: Divine Intervention          | A major, board-altering miracle.                                | **Ability:** A powerful, symmetrical Event like "Each player sacrifices a unit," or "Destroy all Upgrades in play." A Divinity deck is built to break the symmetry and benefit more from these effects.                               |
+| 4: The Avatar / Absolute Decree | The direct will of a god, creating an inevitable win condition. | **Ability:** A high-cost Leader with a passive like "At the start of your turn, you may return one unit from your discard pile to play exhausted," or a Mission with a unique, alternate win condition.                               |
+
+
+#### **E. The Biology Domain**
+
+**Core Philosophy:** Biology is the domain of **adaptation, consumption, and propagation**. It does not build or pray; it grows. It wins by overwhelming opponents with a tide of rapidly evolving creatures, turning the battlefield itself into a toxic extension of its own life, and using the fallen as raw material for new growth. It is primal, relentless, and ever-changing.
+
+**Strengths:**
+
+- Adaptive Growth: The premier domain for units that grow stronger from taking damage, primarily through the **Adapt** keyword and other effects that add +1/+1 counters.
+
+- Swarming & Propagation: Uniquely excels at creating numerous cheap-to-mid-cost units and generating new "token" units from the destruction of foes.
+
+- Battlefield Corruption: The primary domain for deploying hazardous **Bio-Terrain** that can harm enemies while benefiting its own units.
+
+- Debilitating Effects: Specializes in weakening effects, such as using toxins to reduce an enemy's stats before an attack.
+
+**Weaknesses:**
+
+- Lacks "Finisher" Events: Cannot have powerful, high-cost Event cards that can win the game outright or reset the board. Its power lies on the board, not in hand.
+
+- No Direct Control or Range: Cannot manipulate an opponent's hand or directly control enemy units. It also has almost no access to **Far Range** combat.
+
+- No Resource Generation or Recursion: Cannot have cards that generate extra CP. It also cannot return specific, powerful units from the discard pile; its "recursion" is creating new life from fallen biomass.
+
+- No Mechanical Upgrades: The concept of attaching external hardware is antithetical to its nature; it cannot use Upgrade cards.
+
+|                                               |                                                                                  |                                                                                                                                                                                    |
+| --------------------------------------------- | -------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Domain Level (DP)**                         | **Thematic Representation**                                                      | **Example Card Attributes (Abilities, Stats, etc.)**                                                                                                                               |
+| 1: Simple Organism / Basic Instinct           | A low-cost unit with a simple survival trait.                                    | **Ability:** Access to units with Adapt (1) or the Swarm keyword.                                                                                                                  |
+| 2: Coordinated Pack / Evolving Threat         | The emergence of group tactics and predatory evolution.                          | **Ability:** Introduction of the Consume keyword for minor benefits (e.g., "Consume: This unit gets +1/+1"). Access to keywords that reward having multiple Biology units in play. |
+| 3: Weaponized Predator / Corrupting Ecosystem | Biology as a weapon, able to twist the environment to its will.                  | **Ability:** More potent Adapt (2) abilities. The ability to deploy hazardous Bio-Terrain. Consume abilities that create new token units.                                          |
+| 4: Apex Lifeform / Unstoppable Plague         | The ultimate expression of biological dominance; a world-ending force of nature. | **Ability:** Access to the most powerful Adapt and Consume effects. High-cost "Bio-Titan" Leader units. Event cards that grant mass-mutation to your entire board for a turn.      |
+
+
+#### **F. The Entropy Domain**
+
+**Core Philosophy:** Entropy is the domain of **dissolution, corruption, and inevitable decay**. It wins not by overpowering the opponent, but by systematically unmaking their ability to function, purging their key assets from existence entirely. It is reactive, insidious, and absolute.
+
+**Strengths:**
+
+- **Data Corruption:** The premier domain for applying negative states that blank a card's rule box, turning a complex threat into a useless, vanilla body.
+
+- **Permanent Removal:** Uniquely excels at removing cards from the game entirely, bypassing the discard pile and preventing all forms of recursion.
+
+- **Ability/Event Denial:** The best domain at canceling or preventing opponent's abilities and Events from resolving.
+
+**Weaknesses:**
+
+- **Poor Board Presence:** Its units are exceptionally fragile, with low stats. It cannot win a direct, fair fight.
+
+- **Reactive Nature:** Is fundamentally reactive and slow. It struggles against hyper-aggressive strategies that don't rely on complex abilities.
+
+- **No Resource Engine:** Cannot have cards that generate extra CP or provide card draw.
+
+|                       |                                                         |                                                                                                                                                                                                                          |
+| --------------------- | ------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| **Domain Level (DP)** | **Thematic Representation**                             | **Example Card Attributes (Abilities, Stats, etc.)**                                                                                                                                                                     |
+| 1: Minor Glitch       | A brief flicker in the signal, a single corrupted file. | **Ability:** A simple, one-time Event like "Target unit's rule box is treated as blank this turn."                                                                                                                       |
+| 2: System Noise       | Injecting persistent, low-level decay into the system.  | **Ability:** Introduction of the **Static** state. An active ability like "Pay 1 CP. Apply **Static** to target unit."                                                                                                   |
+| 3: Signal Loss        | Mastering the synergy of corruption and deletion.       | **Ability:** More efficient ways to apply **Static**. Powerful effects that can "Remove target unit with **Static** from the game." The ability to cancel a triggered ability.                                           |
+| 4: Final Silence      | Becoming the embodiment of informational oblivion.      | **Ability:** A Leader with a passive aura like "Whenever an opponent's unit gains **Static**, you may pay 1 CP to remove it from the game." A powerful Event that can "Cancel target Event and remove it from the game." |
+
+
+#### **G. Mixed-Domain Design Principles**
+
+A mixed-domain card should be a **fusion of both domains' identities**. It combines the strengths of its parent domains at their respective DP levels to create an effect that feels unique and synergistic, while still respecting the weaknesses of both.
+
+**Example 1: 2 Technology / 2 Divinity**
+
+- **Core Fusion:** "Sacred Engineering." Technology designed to channel or be protected by divine power.
+
+- **DP Level Breakdown:** DP 2 Technology (Integrated Systems) + DP 2 Divinity (Demonstrated Devotion).
+
+- **Example Card:**
+
+* **Name:** Sacred Systems Core
+
+* **Type:** Upgrade
+
+* **Domains:** Tech 2, Div 2
+
+* **Cost:** 3 CP
+
+* **Rule Box:** Attached unit gets +2 Defense.\<br> Interrupt: Once per Game Round, when an opponent's Event would affect the attached unit, you may pay 1 CP to negate that Event's effect on this unit.
+
+- **Design Rationale:** This Upgrade embodies the shared theme of **resilience**. The "+2 Defense" represents an advanced, **integrated system** (Tech 2). The interrupt ability is a single-target "miracle" of protection, a **demonstrated devotion** (Div 2) that feels divinely inspired.
+
+**Example 2: 2 Biology / 2 Psionics**
+
+- **Core Fusion:** "Apex Predator." Biology's relentless evolution guided by Psionic precision and cunning.
+
+- **DP Level Breakdown:** DP 2 Biology (Evolving Threat) + DP 2 Psionics (Focused Mind).
+
+- **Example Card:**
+
+* **Name:** Pheromone Stalker
+
+* **Type:** Unit
+
+* **Domains:** Bio 2, Psi 2
+
+* **Cost:** 4 CP
+
+* **Rule Box:** This unit has **Taunt**. **Adapt (1)**.
+
+- **Design Rationale:** This fusion combines Biology's resilience and growth (**Adapt**) with Psionics' ability to manipulate and control the battlefield (**Taunt**). The creature uses psychic pheromones to force enemies to engage it, and its biology adapts to the ensuing damage, making it a growing, tactical threat. This is a perfect blend of Biology's reactive survivability and Psionics' proactive control.
+
+**Example 3: 2 Entropy / 2 Divinity**
+
+- **Core Fusion:** "Faith in Oblivion." A martyr whose devotion delivers a curse of silence rather than a blessing.
+
+- **DP Level Breakdown:** DP 2 Entropy (System Noise) + DP 2 Divinity (Demonstrated Devotion).
+
+- **Example Card:**
+
+* **Name:** Acolyte of the Final Word
+
+* **Type:** Unit
+
+* **Domains:** Entropy 2, Div 2
+
+* **Cost:** 3 CP
+
+* **Rule Box:** "**Zeal**. **Martyrdom:** When this unit is destroyed by an opponent's card effect or attack, you may apply **Static** to the unit that destroyed it."
+
+- **Design Rationale:** This fusion combines Divinity's signature resilience (**Zeal**) and its core **Martyrdom** mechanic with Entropy's unique debuff (**Static**). The card is difficult to remove, and doing so punishes the opponent by corrupting one of their key pieces, perfectly blending the two philosophies.
+
+
+### **V. Card Feel and Attributes**
 
 Defining a card's feel helps establish its role and contributes to the gameplay experience.
 
-### A. Card Feel Axes
-These axes describe a card's conceptual alignment and purpose. This matrix is an internal design tool. The "Internal Design Tags" (formerly "Card Ranks" - see Section II.D) can inform these axes.
-* **Malevolence:** Describes moral alignment (Neutral, Malevolent, Benevolent).
-* **Utility:** Indicates strategic purpose (Utility-focused, Neutral, Disruptive).
-* **Combat:** Reflects role in battle (Offense, Neutral, Defense).
-* **Impact:** Describes overall effect on game state (Constructive, Neutral, Destructive).
 
-#### Translating Card Feel into Mechanics
+#### **A. Card Feel Axes**
+
+These axes describe a card's conceptual alignment and purpose. This matrix is an internal design tool. The "Internal Design Tags" (see Section II.D) can inform these axes.
+
+- **Malevolence:** Describes moral alignment (Neutral, Malevolent, Benevolent).
+
+- **Utility:** Indicates strategic purpose (Utility-focused, Neutral, Disruptive).
+
+- **Combat:** Reflects role in battle (Offense, Neutral, Defense).
+
+- **Impact:** Describes overall effect on game state (Constructive, Neutral, Destructive).
+
+**Note:** The potential abilities described in the axes below are general examples and must always adhere to the strict strengths and weaknesses defined for each Domain in Section IV.
+
+**Translating Card Feel into Mechanics**
+
 Thematic feel should translate into game mechanics. This section provides examples of how a card's position on these axes might inspire specific types of abilities or stat distributions, and the potential consequences for gameplay.
 
-##### 1. Malevolence
+- **Malevolence**
+
 * **Benevolent:**
-    * Potential Abilities: Healing friendly units, providing protective effects (like increasing Defense or preventing targeting), enhancing other friendly units, generating CP for the player, or effects that offer symmetrical benefits. Consider how these abilities support a longer, more resilient game plan.
-    * Example Consequence: A deck focused on Benevolent cards might excel at outlasting opponents but may lack raw aggressive power without support.
+
+- **Potential Abilities:** Healing friendly units, providing protective effects (like increasing Defense or preventing targeting), enhancing other friendly units, generating CP for the player, or effects that offer symmetrical benefits. Consider how these abilities support a longer, more resilient game plan.
+
+- **Example Consequence:** A deck focused on Benevolent cards might excel at outlasting opponents but may lack raw aggressive power without support.
+
 * **Malevolent:**
-    * Potential Abilities: Direct damage to units, effects that force opponents to discard cards from hand or deck, applying negative states (beyond standard combat outcomes, if new states are designed), controlling opponent's units temporarily (if this mechanic is ever introduced, noting current rules V.F on card control), or denying resources.
-    * Example Consequence: Malevolent cards can disrupt opponents heavily but might involve risks or costs to the player, or lead to a board state that is powerful but fragile if their key pieces are removed.
-* **Neutral:**
-    * Potential Abilities: Focus on efficiency, achieving objectives directly, or providing versatile tools that can be used offensively or defensively depending on the situation. Abilities might involve direct unit removal, battlefield repositioning, or conditional effects.
-    * Example Consequence: Neutral cards often form the backbone of strategies, offering flexibility but perhaps lacking the extreme specialization of Benevolent or Malevolent cards.
 
-##### 2. Utility
-* **Utility-focused:**
-    * Potential Abilities: Card draw, searching the deck (tutoring), manipulating the order of cards in a deck, returning cards from discard to hand/deck, countering opponent's abilities, or broad battlefield manipulation (e.g., moving multiple units, altering multiple quadrants with Terrain-like effects if on a non-Terrain card).
-    * Example Consequence: High-utility cards can give a player significant control over game flow and consistency but might have lower direct board presence (e.g., lower stats on a Unit).
-* **Disruptive:**
-    * Potential Abilities: Forcing opponents to make suboptimal plays, negating abilities, increasing costs for the opponent, or temporarily disabling types of cards. Note: Rulebook Core Principle "Predictable Gameplay" excludes random elements beyond shuffles and draws.
-    * Example Consequence: Disruptive strategies can frustrate opponents and break their combos but may not always advance your own primary win condition directly.
-* **Neutral:**
-    * Potential Abilities: A balance, perhaps a card that provides a small buff and also allows a card draw, or a unit with average stats that has a useful "enter the battlefield" effect.
-    * Example Consequence: These cards aim for solid value without extreme specialization, adaptable to many game states.
+- **Potential Abilities:** Direct damage to units, effects that force opponents to discard cards from hand or deck, applying negative states (beyond standard combat outcomes, if new states are designed), controlling opponent's units temporarily (if this mechanic is ever introduced, noting current rules V.F on card control), or denying resources.
 
-##### 3. Combat
+- **Example Consequence:** Malevolent cards can disrupt opponents heavily but might involve risks or costs to the player, or lead to a board state that is powerful but fragile if their key pieces are removed.
+
+* **Neutral:**
+
+- **Potential Abilities:** Focus on efficiency, achieving objectives directly, or providing versatile tools that can be used offensively or defensively depending on the situation. Abilities might involve direct unit removal, battlefield repositioning, or conditional effects.
+
+- **Example Consequence:** Neutral cards often form the backbone of strategies, offering flexibility but perhaps lacking the extreme specialization of Benevolent or Malevolent cards.
+
+* **Utility**
+
+- **Utility-focused:**
+
+* **Potential Abilities:** Card draw, searching the deck (tutoring), manipulating the order of cards in a deck, returning cards from discard to hand/deck, countering opponent's abilities, or broad battlefield manipulation (e.g., moving multiple units, altering multiple quadrants with Terrain-like effects if on a non-Terrain card).
+
+* **Example Consequence:** High-utility cards can give a player significant control over game flow and consistency but might have lower direct board presence (e.g., lower stats on a Unit).
+
+- **Disruptive:**
+
+* **Potential Abilities:** Forcing opponents to make suboptimal plays, negating abilities, increasing costs for the opponent, or temporarily disabling types of cards. Note: Rulebook Core Principle "Predictable Gameplay" excludes random elements beyond shuffles and draws.
+
+* **Example Consequence:** Disruptive strategies can frustrate opponents and break their combos but may not always advance your own primary win condition directly.
+
+- **Neutral:**
+
+* **Potential Abilities:** A balance, perhaps a card that provides a small buff and also allows a card draw, or a unit with average stats that has a useful "enter the battlefield" effect.
+
+* **Example Consequence:** These cards aim for solid value without extreme specialization, adaptable to many game states.
+
+- **Combat**
+
 * **Offensive:**
-    * Potential Abilities: Directly increasing Attack, granting abilities that ensure damage gets through (e.g., cannot be prevented, reduces defender's Defense before combat), attacking multiple times or multiple targets, or abilities that trigger upon destroying an enemy unit.
-    * Example Consequence: Highly offensive units can pressure opponents quickly but may be vulnerable if they can't maintain momentum or are easily removed due to lower defenses.
+
+- **Potential Abilities:** Directly increasing Attack, granting abilities that ensure damage gets through (e.g., cannot be prevented, reduces defender's Defense before combat), attacking multiple times or multiple targets, or abilities that trigger upon destroying an enemy unit.
+
+- **Example Consequence:** Highly offensive units can pressure opponents quickly but may be vulnerable if they can't maintain momentum or are easily removed due to lower defenses.
+
 * **Defensive:**
-    * Potential Abilities: Increasing Defense, reducing incoming damage, forcing opponents to attack specific units (taunt-like effects), or abilities that punish attackers. Note: Healing damage is not a standard mechanic as units are typically Destroyed or Suppressed, not incrementally damaged. Specific card effects might introduce novel interactions.
-    * Example Consequence: Defensive units are key to protecting valuable assets or preventing mission completion/deck out but might lack the ability to close out a game without offensive support.
+
+- **Potential Abilities:** Increasing Defense, reducing incoming damage, forcing opponents to attack specific units (taunt-like effects), or abilities that punish attackers. Note: Healing damage is not a standard mechanic as units are typically Destroyed or Suppressed, not incrementally damaged. Specific card effects might introduce novel interactions.
+
+- **Example Consequence:** Defensive units are key to protecting valuable assets or preventing mission completion/deck out but might lack the ability to close out a game without offensive support.
+
 * **Neutral:**
-    * Potential Abilities: Units with balanced stats and perhaps a versatile combat-related ability, like one that can choose to buff its Attack or Defense for a turn.
-    * Example Consequence: These units offer flexibility, able to switch roles as needed, but might not excel in either offense or defense as much as specialized units.
 
-##### 4. Impact
-* **Constructive:**
-    * Potential Abilities: Generating additional CP, putting more units onto the battlefield (e.g., from hand for free, or creating non-card game markers if that were ever a concept, noting standard play uses cards), significantly buffing multiple allies, or accelerating mission completion through non-combat means.
-    * Example Consequence: Constructive cards build a strong board presence or resource advantage over time, but can be slow to start or vulnerable to aggressive disruption.
-* **Destructive:**
-    * Potential Abilities: Removing multiple enemy units, destroying Assets or Terrain, wiping specific types of cards from the board, or significantly setting back an opponent's progress towards their missions.
-    * Example Consequence: Destructive cards can clear the way for your own strategy or stall an opponent but might be costly or leave you with fewer resources if they don't sufficiently cripple the opponent.
-* **Neutral:**
-    * Potential Abilities: Focused on one-for-one trades, direct interaction with single targets, or effects that maintain equilibrium rather than drastically shifting it.
-    * Example Consequence: These cards are about maintaining parity or gaining small, incremental advantages.
+- **Potential Abilities:** Units with balanced stats and perhaps a versatile combat-related ability, like one that can choose to buff its Attack or Defense for a turn.
 
-### B. Card Calculations - Command Point (CP) Cost and Ability Budgeting: The Progressive Budget Build System
+- **Example Consequence:** These units offer flexibility, able to switch roles as needed, but might not excel in either offense or defense as much as specialized units.
 
-> **DESIGN TEAM NOTE:** This section outlines the **"Progressive Budget Build - Version 2 (Dynamic Scaling)"** system, which is the official starting framework for calculating a card's printed Command Point (CP) cost and balancing its stats and abilities. This system replaces any previous methodologies or placeholder notes regarding an internal review.
->
-> **Crucially, all specific numerical values presented within this section and its examples (e.g., DB allocations per DP, DB costs for stats, specific abilities, and keywords, and the final DB-to-CP conversion factor) are initial placeholders.** These values serve as a starting point for design work. They **require, and will undergo, rigorous calibration, extensive playtesting, and iterative refinement** by the design team to ensure game balance and achieve the desired strategic depth aligned with the current Quantum Nexus Rulebook. Designers should use this framework for new card creation, understanding that the underlying values will evolve based on playtesting data and balance adjustments.
+* **Impact**
 
-**1. Overview of the "Progressive Budget Build" System**
+- **Constructive:**
 
-The "Progressive Budget Build" system determines a card's playable CP cost by first establishing its total **Total Design Budget (TDB)**. This TDB is an internal design currency (Design Budget points, or DB) derived from the card's foundational nature, its Domain Points (DP), its role (e.g., Leader), and its rarity (duplicate limit). Designers then "spend" this TDB on the card's stats (Attack and Defense) and its various abilities and keywords. The total amount of DB spent directly translates into the card's final CP cost, up to the limit of the TDB. This ensures that a card's cost accurately reflects its allocated power and complexity within defined parameters.
+* **Potential Abilities:** Generating additional CP, putting more units onto the battlefield (e.g., from hand for free, or creating non-card game markers if that were ever a concept, noting standard play uses cards), significantly buffing multiple allies, or accelerating mission completion through non-combat means.
 
-**2. Phase 1: Establishing the Card's Total Design Budget (TDB)**
+* **Example Consequence:** Constructive cards build a strong board presence or resource advantage over time, but can be slow to start or vulnerable to aggressive disruption.
 
-* **Step 1.1: Foundational Design Budget (FDB)**
-    * Every card begins with a small, flat FDB, representing a baseline for its existence.
-    * *Placeholder Value:* All cards start with **5 FDB**.
+- **Destructive:**
 
-* **Step 1.2: DP-Driven Design Budget (DDB) from Total Domain Points**
-    * Each point of Total DP (as defined in Section IV.A of these guidelines and Section II.B, II.C of the Rulebook) contributes a set amount to the card's DDB.
-    * *Placeholder Value:* Each Total DP grants **+5 DDB**.
+* **Potential Abilities:** Removing multiple enemy units, destroying Assets or Terrain, wiping specific types of cards from the board, or significantly setting back an opponent's progress towards their missions.
 
-* **Step 1.3: Calculating Base Design Budget (BDB)**
-    * `BDB = FDB + DDB`.
+* **Example Consequence:** Destructive cards can clear the way for your own strategy or stall an opponent but might be costly or leave you with fewer resources if they don't sufficiently cripple the opponent.
 
-* **Step 1.4: Role and Rarity Design Budget Modifiers (DBM)**
-    * **Leadership Modifier:** If a card has the 'Leader' subtype (Rulebook Section IV.A), it receives a DBM.
-        * *Placeholder Value:* `Leadership DBM = +3 DB (flat) + (20% of the card's BDB)`. (The design team should establish a consistent rounding rule for DBM components if percentages result in fractions, e.g., round to nearest 0.5 DB or whole DB).
-    * **Rarity (Duplicate Limit) Modifier:** Cards with stricter duplicate limits (Rulebook Section I.C, II.A) receive a DBM.
-        * *Placeholder Values:*
-            * 1-of per deck: **+8 DB**
-            * 2-of per deck: **+4 DB**
-            * 3+-of per deck: **+0 DB**
+- **Neutral:**
 
-* **Step 1.5: Calculating Total Design Budget (TDB)**
-    * `TDB = BDB + Leadership DBM (if applicable) + Rarity DBM (if applicable)`.
-    * This TDB represents the **maximum DB** that can be spent on the card.
+* **Potential Abilities:** Focused on one-for-one trades, direct interaction with single targets, or effects that maintain equilibrium rather than drastically shifting it.
 
-**3. Phase 2: Spending the Total Design Budget (TDB)**
+* **Example Consequence:** These cards are about maintaining parity or gaining small, incremental advantages.
 
-* **Step 2.1: Costing Stats (Attack & Defense) in DB**
-    * Designers assign Attack and/or Defense values appropriate for the card type.
-    * *Placeholder Values:*
-        * `Cost_A_DB` (Cost per Attack point) = **2 DB**.
-        * `Cost_D_DB` (Cost per Defense point) = **1.5 DB**.
-    * `DB_Spent_On_Stats = (Attack Value * Cost_A_DB) + (Defense Value * Cost_D_DB)`.
-    * *Calibration Note:* These costs must be balanced against the new combat mechanics (Rulebook Section III.C.2).
 
-* **Step 2.2: Costing Abilities & Keywords in DB**
-    * Designers select abilities (Active, Passive, Triggered) and Keywords for the card.
-    * **A Master List of DB Costs for Abilities and Keywords must be developed and maintained by the design team.** This list will assign a DB cost to each defined game effect, considering its impact on action economy, board state, resource manipulation, etc., within the current ruleset. The Net DB cost of an ability or keyword, sourced from this Master List (and derived using "Ability Creation Guidelines" (ACG) principles), can be positive, zero, or even negative if its gameplay activation costs are substantial. All such values are summed to determine `DB_Spent_On_Abilities`. This sum also includes the DB costs of inherent, defining attributes of a card type that are not Attack/Defense stats but still have a DB cost (e.g., a Unit's primary Range, as illustrated in Section XI). (Initial placeholder costs for sample abilities are used in the Section XI example).
-    * `DB_Spent_On_Abilities = Sum of DB costs for all chosen abilities, keywords, and relevant inherent attributes from the Master List`.
+#### **B. Functional Attributes**
 
-* **Step 2.3: Calculating Total Actual DB Spent & Budget Constraint**
-    * `Total_Actual_DB_Spent = DB_Spent_On_Stats + DB_Spent_On_Abilities`.
-    * A Net DB cost for an ability or keyword that is negative (typically due to significant gameplay activation costs providing a DB "rebate" as detailed in the ACG) will correctly reduce the `Total_Actual_DB_Spent`.
-    * **Hard Constraint:** `Total_Actual_DB_Spent` **must be less than or equal to** the card's `TDB`. Designers must adjust stats, abilities, or the card's classification (DP, rarity, role, which influence TDB) to meet this budget.
+Each card possesses specific attributes that define its capabilities. The Command Point (CP) cost of a card must be carefully balanced against the sum of its functional parts: its stats, its abilities, and its keywords. More powerful or impactful attributes will naturally lead to a higher CP cost.
 
-**4. Phase 3: Calculating Final Playable Command Point (CP) Cost**
+- **Range** (If Applicable to Card Type, e.g., Units): Must conform to current Rulebook definitions (see Section II.B of these Guidelines). The choice of range is a significant factor in a unit's power level.
 
-* **Step 3.1: Conversion from Total Actual DB Spent to CP**
-    * `Final CP = Total_Actual_DB_Spent / CP_Conversion_Factor`.
-    * *Placeholder Value:* `CP_Conversion_Factor` = **5** (i.e., 5 DB translates to 1 CP).
+- **Attack** (If Applicable, e.g., Units): The offensive strength. Its value is a primary driver of a card's cost.
 
-* **Step 3.2: Rounding**
-    * The resulting CP value should be rounded to a whole number.
-    * *Placeholder Rule for Examples:* Round values ending in .5 or higher up to the next whole number; round values ending in .4 or lower down to the previous whole number (standard rounding). The design team must establish a final, consistent rounding rule.
+- **Defense** (If Applicable, e.g., Units, Assets): Resilience against attacks or effects. Its value must be balanced against the card's overall power and CP cost.
 
-**5. Impact on Design Freedom and Self-Balancing**
+- **Rule Box:** Contains the card's abilities.
 
-This "Progressive Budget Build" system supports key design goals:
-* **DP as Strength Indicator:** Higher DP leads to a higher TDB, allowing for inherently stronger or more complex cards.
-* **Stats Considered:** Attack and Defense have explicit DB costs.
-* **Self-Balancing:** The Final CP cost directly reflects the `Total_Actual_DB_Spent`. If designers choose less DB-costly stats and abilities (thus "underspending" their potential TDB), the card will have a lower Final CP. If they utilize their TDB fully with high-cost features, the Final CP will be higher.
-* **Designer Freedom:** Designers determine a card's TDB via DP/role/rarity choices, then have freedom to allocate that TDB between various stats, abilities, and keywords, each with (eventually calibrated) DB costs. Design becomes a process of balancing desired functionality against the available budget.
+* **Active Abilities:** Require a player to choose them as a single action during the Activation Sequence and pay all associated costs (CP, exhausting the card, etc.) as specified by the ability (Rulebook Section III.C.2).
 
-### C. Functional Attributes
-Each card possesses specific attributes that define its capabilities.
-* Range (If Applicable to Card Type, e.g., Units): Must conform to current Rulebook definitions (see Section II.B of these Guidelines). The choice of range will have an associated DB cost from the Master List, typically accounted for under `DB_Spent_On_Abilities`.
-* Attack (If Applicable, e.g., Units): The offensive strength. Its value contributes to `DB_Spent_On_Stats`.
-* Defense (If Applicable, e.g., Units, Assets): Resilience against attacks or effects. Its value contributes to `DB_Spent_On_Stats`.
-* Rule Box: Contains the card's abilities.
-    * Active Abilities: Require a player to choose them as a single action during the Activation Sequence and pay all associated costs (CP, exhausting the card, etc.) as specified by the ability (Rulebook Section III.C.2). Each Active Ability will have a DB cost from the Master List.
-    * Passive Abilities: Always in effect once the card is in play under the correct conditions. Do not require activation. Each Passive Ability will have a DB cost from the Master List.
-    * Triggered Abilities (includes Interrupts): Activate in response to specific game events. Mandatory triggers must be announced and resolved. Optional Interrupts may have costs and allow a choice to activate (Rulebook Section VII.A). Each Triggered Ability will have a DB cost from the Master List.
-* Ability Costs (Gameplay vs. Design):
-    * **Design Budget (DB) Cost:** An internal value from the Master List representing how much of a card's TDB an ability consumes in its design. This is its Net DB cost after considering all 7 components from the "Ability Creation Guidelines (ACG)," including any DB rebates from gameplay activation costs.
-    * **Gameplay Activation Cost:** For Active Abilities, this is the CP (and potentially other resources like exhausting the card, sacrificing, etc.) a player must pay to use the ability during a game. This gameplay cost is separate from its DB design cost but directly influences the assignment of its Net DB cost on the Master List (as detailed in the ACG). Printed CP cost of a card is determined by the "Progressive Budget Build" system.
+* **Passive Abilities:** Always in effect once the card is in play under the correct conditions. Do not require activation.
 
-## VI. Card Count Limits (Deckbuilding Restrictions)
+* **Triggered Abilities (includes Interrupts):** Activate in response to specific game events. Mandatory triggers must be announced and resolved. Optional Interrupts may have costs and allow a choice to activate (Rulebook Section VII.A).
+
+
+#### **C: Baseline Budgeting Tool**
+
+To ensure consistency in card balance, designers should use this internal budgeting tool as a starting point. This is not a rigid formula but a guideline to help calibrate the Command Point (CP) cost of a card against its functional attributes. This tool helps prevent the creation of cards that are significantly over- or under-powered for their cost.
+
+The Core Formula: **1 CP = 10 Budget Points**
+
+A card's total budget is determined by its CP cost. The designer then "spends" this budget on the card's stats and keywords.
+
+**Attribute Costs (Illustrative Values):**
+
+- 1 Attack Point: 10 points
+
+- 1 Defense Point: 8 points
+
+- Keyword - Horde: 25 points
+
+- Keyword - Phalanx: 15 points
+
+- Keyword - Steadfast: 20 points
+
+- Keyword - Skirmisher: 25 points
+
+- Keyword - Infiltrator: 30 points
+
+- Keyword - Nullify: 25 points
+
+  - Note: This is a highly synergistic keyword whose value increases based on the ease of applying the Static state.
+
+- **Rule Box Ability:** The cost of a rule box ability is subjective and must be estimated based on its impact on Card Advantage, Tempo, and Board State. As a guideline: a simple, one-time effect might cost 10-20 points, while a powerful effect like "Draw a card" is worth approximately 35 points.
+
+**Example in Practice: Analyzing a Hypothetical Card**
+
+Let's analyze a hypothetical Unit card, "Agile Scout," to demonstrate how this system identifies imbalance:
+
+- **Proposed Stats:** 3 CP, 0 Attack, 2 Defense, with keywords Infiltrator and an ability "Interrupt: When this unit is deployed, draw a card."
+
+- **Budget Calculation:**
+
+* The 3 CP cost provides a **Budget of 30 points**.
+
+* The "spent" value is calculated as:
+
+- 0 Attack = 0 points
+
+- 2 Defense = 16 points (2 \* 8)
+
+- Keyword Infiltrator = 30 points
+
+- Ability "Draw a card" = \~35 points
+
+* **Total Spent Value:** 16 + 30 + 35 = **81 points**
+
+- **Analysis:** This system immediately highlights that the hypothetical "Agile Scout" provides over 80 points of value on a 30-point budget. This marks it as critically undercosted. The designer would see they need to either increase its CP cost significantly (to 8 CP) or, more practically, remove value (such as the "Draw a card" ability) to make it balanced at a lower CP cost. This tool provides a consistent power-for-cost ratio and a common language for the design team to discuss balance.
+
+
+### **VI. Card Count Limits (Deckbuilding Restrictions)**
 
 The number of copies of a particular card a player can include in their deck is a crucial balancing factor.
-* As per the current Quantum Nexus Rulebook (Section I.C, II.A), duplicate limits are printed on each card. No card may ever break these limits.
-* Designers will determine this limit (e.g., 1 for very powerful/unique effects, 2 for strong cards, 3 or more for foundational cards) based on the card's intended power level, role, and impact on deck diversity and game balance.
-* A card's duplicate limit (rarity) directly contributes a modifier to its Total Design Budget (TDB) as detailed in Section V.B, allowing rarer cards a potentially higher budget for stats and abilities.
 
-## VII. Abilities
+As per the current Quantum Nexus Rulebook (Section I.C, II.A), duplicate limits are printed on each card. No card may ever break these limits.
+
+Designers will determine this limit (e.g., 1 for very powerful/unique effects, 2 for strong cards, 3 or more for foundational cards) based on the card's intended power level, role, and impact on deck diversity and game balance. A card's rarity (duplicate limit) is a key lever for controlling its prevalence and power in the game.
+
+
+### **VII. Abilities**
 
 Abilities are the core of a card's function and strategic interest.
 
-### A. Types of Abilities
-* **Active Abilities:**
-    * Chosen by the player as a single action during their turn in the Activation Sequence.
-    * Must have clearly defined activation costs (CP, exhausting the card, other resources like discarding cards, sacrificing units, etc.).
-    * Effects should be clear and resolve fully.
-* **Passive Abilities:**
-    * Are continuously active while the card is in play and conditions are met.
-    * Do not require player activation.
-* **Triggered Abilities (Including Interrupts):**
-    * Activate automatically when their specific trigger conditions (defined on the card or by game rules) are met.
-    * Resolution follows the layered trigger resolution rules (Rulebook Section VII.A).
-    * Mandatory triggered abilities must resolve.
-    * Optional Interrupts may allow the player to choose to activate them, potentially by paying a cost (Rulebook Section VII.A).
 
-### B. Ability Design and Costing: Design Budget (DB) System for Balancing Abilities
-* **Concept and Theme:** Abilities must align with the card's overall concept, domain, subtype, and flavor. All distinct abilities should be clearly named in the rule box if they are complex or targetable by other effects.
-* **Power Level and Balance:** The impact of an ability on the game state must be carefully considered. More powerful or versatile abilities will generally have a higher Design Budget (DB) cost from the Master List (see Section V.B). For understanding how these DB costs are derived, or for designing new abilities not yet on the Master List, designers must consult the 7-component framework detailed in the "Quantum Nexus: Ability Creation Guidelines (ACG)."
-* **Design Budget (DB) System:**
-    * As detailed in Section V.B ("Progressive Budget Build"), each card has a Total Design Budget (TDB) derived from its DP, role, and rarity.
-    * Stats, abilities, and keywords consume DB from this TDB.
-    * Each ability or keyword will have a specific DB cost assigned to it on a **Master List of DB Costs**, which must be developed and calibrated by the design team. This DB cost reflects its power, complexity, impact on action economy (especially for Active Abilities), and any associated gameplay activation costs (as detailed in the ACG).
-    * More impactful abilities will consume more DB. The total DB cost of all a card's features (stats, abilities, keywords) determines its final playable CP cost.
-* **Clarity:** Ability text must be precise and unambiguous, using established game terminology consistently. Refer to "Precision Matters" in the Rulebook Core Principles.
+#### **A. Types of Abilities**
 
-## VIII. Keywords and Their Impact on Gameplay
+- **Active Abilities:**
 
-Keywords are shorthand for specific, predefined abilities or characteristics.
-* **Purpose:** Keywords streamline card text and establish consistent mechanics.
-* **Defining Keywords:** If a new keyword is introduced, its rules must be clearly defined, either on the card itself if it's a one-off, or in the main Rulebook Glossary if it's intended for wider use.
-* **Balancing Keywords:** The impact of a keyword must be factored into the card's overall balance via its assigned DB cost within the "Progressive Budget Build" system (Section V.B). Each keyword will have an associated DB cost on the **Master List of DB Costs**.
-    * Positive keywords (e.g., granting an advantage) would have a DB cost.
-    * Negative keywords (e.g., imposing a drawback) might conceptually have a negative DB cost (i.e., they refund DB to the budget, allowing for better stats or other abilities for its cost), or a very low positive DB cost if their drawback is minor. This needs careful consideration during Master List calibration, following the principles in the "Ability Creation Guidelines (ACG)."
-    * Neutral keywords (e.g., defining a specific mode of operation) would also have a DB cost reflecting their complexity or utility.
+* Chosen by the player as a single action during their turn in the Activation Sequence.
 
-> **DESIGN TEAM NOTE:** A Master List of official game Keywords and their Design Budget (DB) costs will be developed and maintained by the design team as part of the "Progressive Budget Build" system's calibration (see Section V.B). These DB costs will be derived using the 7-component framework from the "Ability Creation Guidelines (ACG)."
+* Must have clearly defined activation costs (CP, exhausting the card, other resources like discarding cards, sacrificing units, etc.).
 
-## IX. Flavor Attributes
+* Effects should be clear and resolve fully.
+
+- **Passive Abilities:**
+
+* Are continuously active while the card is in play and conditions are met.
+
+* Do not require player activation.
+
+- **Triggered Abilities (Including Interrupts):**
+
+* Activate automatically when their specific trigger conditions (defined on the card or by game rules) are met.
+
+* Resolution follows the layered trigger resolution rules (Rulebook Section VII.A).
+
+* Mandatory triggered abilities must resolve.
+
+* Optional Interrupts may allow the player to choose to activate them, potentially by paying a cost (Rulebook Section VII.A).
+
+
+#### **B. Ability Design and Balancing**
+
+- **Concept and Theme:** Abilities must align with the card's overall concept, domain, subtype, and flavor. All distinct abilities should be clearly named in the rule box if they are complex or targetable by other effects.
+
+- **Power Level and Balance:** The impact of an ability on the game state must be carefully considered. More powerful or versatile abilities should result in a higher CP cost for the card. The cost must be balanced against its effect on action economy, board state, and resource manipulation.
+
+- **Clarity:** Ability text must be precise and unambiguous, using established game terminology consistently. Refer to "Precision Matters" in the Rulebook Core Principles.
+
+- **Primer States and Payoffs**: Some domains, like Psionics, may utilize "primer" states such as Synaptic Mark. These states do nothing on their own but enable powerful "payoff" abilities. When designing these, the power must be split between the "enabler" card that applies the state and the "payoff" card that exploits it. An easy-to-apply primer should lead to moderately powerful payoffs, while a difficult-to-apply primer can justify a game-altering payoff.
+
+
+### **VIII. Keywords and Their Impact on Gameplay**
+
+Keywords are shorthand for specific, predefined abilities or characteristics that streamline card text and establish consistent mechanics. The impact of a keyword must be factored into a card's overall balance and CP cost.
+
+If a new keyword is introduced, its rules must be clearly defined, either on the card itself if it's a one-off, or in the main Rulebook Glossary if it's intended for wider use.
+
+The following is a list of official keywords in Quantum Nexus:
+
+- **Bastion:** A specialized unit that occupies a battlefield quadrant to interact with an opponent's Assets. Bastion units generally cannot perform the "Declare an Attack" action; their specific methods for interacting with Assets are detailed in their individual rule boxes.
+
+- **Horde:** When taking an “Attack” action with a unit that has the Horde keyword, you may select any number of other units with the Horde keyword in the same quadrant to attack. All attack values are added together for the purposes of combat resolution and all units are exhausted together.
+
+- **Impact:** A persistent and accumulating value tracked by each unit and asset. When an effect "inflicts Impact X" on a target, X is added to that target's permanent accumulated Impact total. Immediately after a target's accumulated Impact total changes, if the new total is equal to or greater than the target's current Defense value, the target is destroyed.
+
+- **Infiltrator:** You may deploy this unit directly into any of your Front Row quadrants. This overrides the general rule that units must be deployed to the Back Row.
+
+- **Large:** A Large Unit is equal in size to two regular units. A quadrant can only hold 2 Large units.
+
+- **Massive:** A Massive unit is equal in size to four regular units. A quadrant can hold only 1 Massive unit.
+
+- **Nullify**: When this unit destroys a defending unit with the Static state as the result of an attack (A>D), that unit is removed from the game instead of being placed in the Discard Pile.
+
+- **Phalanx:** This unit has +1 Defense for each adjacent friendly unit that also has the Phalanx keyword.
+
+- **Skirmisher:** After this unit performs an Attack action, you may immediately move it to an adjacent friendly quadrant. This special move does not exhaust the unit and does not cost an action.
+
+- **Small:** A Small unit is equal in size to a half of a regular unit. A quadrant can hold eight Small units.
+
+- **Steadfast:** This unit cannot be moved from its quadrant by an opponent's card effects.
+
+- **Swarm:** When taking a "Deploy a Card" action to deploy a unit with the Swarm keyword, you may also deploy any number of other units with the Swarm keyword from your hand into the same quadrant during the same action. You must pay the CP cost for all units deployed.
+
+- **Taunt:** Enemy units that are able to attack must target a unit with Taunt if one is in range and a valid target.
+
+- **Territorial:** Blocks enemy deployment and movement into any adjacent quadrant.
+
+- **Tiny:** A Tiny unit is equal in size to a quarter of a regular unit. A quadrant can hold 16 Tiny units.
+
+
+### **IX. Flavor Attributes**
 
 Thematic elements are vital for an immersive experience.
-* **A. Name:** Should be evocative, memorable, and reflect the card's theme and mechanics.
-* **B. Image:** Art descriptions provided by designers should be detailed enough to guide an artist, capturing theme, mood, domain elements, and action.
-* **C. Flavor Text:** Short, impactful text that adds lore or personality without affecting game mechanics.
 
-## X. Synergies
+
+#### **A. Name: Should be evocative, memorable, and reflect the card's theme and mechanics.**
+
+#### **B. Image: Art descriptions provided by designers should be detailed enough to guide an artist, capturing theme, mood, domain elements, and action.**
+
+#### **C. Flavor Text: Short, impactful text that adds lore or personality without affecting game mechanics.**
+
+### **X. Synergies**
 
 Designing for synergies creates strategic depth and rewards creative deck-building. This section illustrates how different synergistic approaches can be fostered through card design.
-### A. Types of Synergies
-* **Theme-Based Synergies:** Cards sharing lore or conceptual themes can have abilities that naturally complement each other. Example: A "Scrap Welder" unit might get stronger if you have many "Mech" subtype cards in your discard pile. Consequence: Encourages thematic deck building but might be narrow if the theme isn't well-supported.
-* **Domain Synergies:** Cards within the same domain (Technology, Magic, etc.) can be designed to enhance each other. Example: A Magic Asset might reduce the CP cost of Magic Events. Consequence: Promotes domain-focused decks, potentially at the cost of inter-domain flexibility unless designed for.
-* **Subtype Synergies:** Cards sharing a common subtype (e.g., "Drone," "Soldier," "Spirit") can have abilities that specifically benefit or are triggered by other cards of that subtype. Example: A "Drone Swarm Leader" might give +1 Attack to all other friendly "Drone" units. Consequence: Leads to strong tribal archetypes but can be vulnerable if the key "leader" or enabler is removed.
-* **Leader Abilities:** Leaders should be designed with abilities that create clear strategic directions or synergize strongly with particular types of units, domains, or strategies. Example: A Leader might allow you to pay CP to ready exhausted units of its specific Faction subtype. Consequence: Makes the Leader a central, high-value target for the opponent.
-* **Upgrade Interactions:** Upgrades should be designed to create powerful and interesting effects when attached to suitable Units or Assets. Example: An Upgrade granting "attacks target all units in target quadrant" would be very different on a low-attack unit versus a high-attack unit. Consequence: Adds a layer of resource management and decision-making about when and where to deploy Upgrades.
-* **Event and Terrain Interactions:** Events can be designed to have amplified effects if certain Terrain types are in play, or if specific unit subtypes are present. Terrain can offer benefits tailored to certain domains or strategies. Example: An Event "EMP Burst" might destroy all Technology Assets, but if you control a "Shielded Command Center" Terrain, your Assets are protected. Consequence: Adds tactical depth based on board state.
-* **Inter-Domain Synergies:** Design opportunities exist for cards that bridge domains, creating less obvious but potentially powerful interactions. Example: A Technology unit that benefits from the number of distinct spells (Magic) cast in a turn. Consequence: Encourages more complex, multi-domain deck building.
-* **Ability Combos:** Design abilities on different cards that, when used in sequence or combination, produce a more powerful effect than if used separately. Example: Card A places a "Target Lock" on an enemy unit. Card B deals double damage to units with a "Target Lock." Consequence: Rewards skillful sequencing and can create powerful game-swinging moments, but requires drawing and playing multiple specific cards.
 
-### B. Balancing Synergies
-Synergies should be rewarding but not so overwhelmingly powerful or easy to achieve that they stifle strategic diversity. Avoid infinite loops or game-breaking two-card combos unless they are extremely difficult to set up or are a core, intended high-risk/high-reward strategy. The DB cost of abilities that enable strong synergies should reflect this potential.
 
-### C. Discovery and Exploration
+#### **A. Types of Synergies**
+
+- **Theme-Based Synergies:** Cards sharing lore or conceptual themes can have abilities that naturally complement each other. Example: A "Scrap Welder" unit might get stronger if you have many "Mech" subtype cards in your discard pile. Consequence: Encourages thematic deck building but might be narrow if the theme isn't well-supported.
+
+- **Domain Synergies:** Cards within the same domain (Technology, Magic, etc.) can be designed to enhance each other. Example: A Magic Asset might reduce the CP cost of Magic Events. A Biology Terrain might cause all friendly Biology units in that quadrant to gain Adapt (1). Consequence: Promotes domain-focused decks, potentially at the cost of inter-domain flexibility unless designed for.
+
+- **Subtype Synergies:** Cards sharing a common subtype (e.g., "Drone," "Soldier," "Spirit") can have abilities that specifically benefit or are triggered by other cards of that subtype. Example: A "Drone Swarm Leader" might give +1 Attack to all other friendly "Drone" units. Consequence: Leads to strong tribal archetypes but can be vulnerable if the key "leader" or enabler is removed.
+
+- **Leader Abilities:** Leaders should be designed with abilities that create clear strategic directions or synergize strongly with particular types of units, domains, or strategies. Example: A Leader might allow you to pay CP to ready exhausted units of its specific Faction subtype. Consequence: Makes the Leader a central, high-value target for the opponent.
+
+- **Upgrade Interactions:** Upgrades should be designed to create powerful and interesting effects when attached to suitable Units or Assets. Example: An Upgrade granting "attacks target all units in target quadrant" would be very different on a low-attack unit versus a high-attack unit. Consequence: Adds a layer of resource management and decision-making about when and where to deploy Upgrades.
+
+- **Event and Terrain Interactions:** Events can be designed to have amplified effects if certain Terrain types are in play, or if specific unit subtypes are present. Terrain can offer benefits tailored to certain domains or strategies. Example: An Event "EMP Burst" might destroy all Technology Assets, but if you control a "Shielded Command Center" Terrain, your Assets are protected. Consequence: Adds tactical depth based on board state.
+
+- **Inter-Domain Synergies:** Design opportunities exist for cards that bridge domains, creating less obvious but potentially powerful interactions. Example: A Technology unit that benefits from the number of distinct spells (Magic) cast in a turn. Consequence: Encourages more complex, multi-domain deck building.
+
+- **Ability Combos:** Design abilities on different cards that, when used in sequence or combination, produce a more powerful effect than if used separately. Example: Card A places a "Target Lock" on an enemy unit. Card B deals double damage to units with a "Target Lock." Consequence: Rewards skillful sequencing and can create powerful game-swinging moments, but requires drawing and playing multiple specific cards.
+
+
+#### **B. Balancing Synergies**
+
+Synergies should be rewarding but not so overwhelmingly powerful or easy to achieve that they stifle strategic diversity. Avoid infinite loops or game-breaking two-card combos unless they are extremely difficult to set up or are a core, intended high-risk/high-reward strategy. The power of abilities that enable strong synergies should be reflected in the card's overall cost and balance.
+
+
+#### **C. Discovery and Exploration**
+
 Aim to include some less obvious synergies that players can discover through experimentation, rewarding deeper game knowledge and creative deck-building.
 
-### D. Playtesting and Feedback
+
+#### **D. Playtesting and Feedback**
+
 Thorough playtesting is essential to ensure synergies work as intended, are appropriately powerful, and do not lead to unintended negative play experiences.
 
-## XI. Card Creation Example
 
-This example uses the **"Progressive Budget Build - Version 2 (Dynamic Scaling)"** system outlined in Section V.B and the **placeholder values defined therein for illustrative purposes.**
+### **XI. Card Creation Example**
 
-* **Concept:** A high-tech aerial unit for long-range attacks and reconnaissance.
-* **Card Type and Subtype:** Unit - Drone
-* **Domain Points (DP):** Technology 4 (Total DP = 4)
-* **Rarity (Assumed for example):** 3+-of per deck (Standard)
-* **Leadership:** Not a Leader
+This example uses the qualitative design principles outlined in this document to create the card **Telekineticist**.
 
-**1. Calculate Total Design Budget (TDB):**
-    * FDB (Foundational Design Budget) = 5 DB
-    * DDB (DP-Driven, for 4 DP) = 4 DP * 5 DB/DP = 20 DB
-    * BDB (Base Design Budget) = 5 FDB + 20 DDB = 25 DB
-    * Leadership DBM = +0 DB (Not a Leader)
-    * Rarity DBM (for 3+-of) = +0 DB
-    * **TDB = 25 DB + 0 DB + 0 DB = 25 DB**
+- **Concept:** A psionic specialist who manipulates the battlefield by repositioning allies.
 
-**2. Spend TDB on Stats and Abilities:**
+- **Card Type and Subtype:** Unit
 
-    * **Target Stats: Attack 4, Defense 1**
-        * DB for Attack 4 = 4 * 2 DB/Attack (`Cost_A_DB`) = 8 DB
-        * DB for Defense 1 = 1 * 1.5 DB/Defense (`Cost_D_DB`) = 1.5 DB
-        * `DB_Spent_On_Stats` = 8 + 1.5 = **9.5 DB**
+- **Domain & DP:** The core concept is moving things with the mind, a classic Psionics theme. It's a tactical, supportive ability, not a direct attack or overwhelming control. This fits well within the **DP 2 Psionics** level: "A trained mind capable of tactical influence."
 
-    * **Target Abilities & Keywords:**
-        * "Far Range" Attribute: *Placeholder DB Cost:* **6 DB**
-        * Passive: "Reconnaissance Scan" (Original concept: Look at top of opponent's deck, may bottom it): *Initial Placeholder DB Cost:* **7 DB**
-        * Active: "Targeted Laser Strike" (Gameplay Activation Cost: 2 CP, Exhaust this Unit) - Choose a unit. It gets -2 Defense this turn. *Placeholder DB Cost:* **5 DB**
-        * Keyword: "Flying" (Assumed implies special targeting): *Initial Placeholder DB Cost:* **4 DB**
-        * Initial `DB_Spent_On_Abilities` = 6 (Far Range) + 7 (Scan) + 5 (Laser Strike) + 4 (Flying) = **22 DB**. (Note: "Far Range" DB cost is accounted for here as per Section V.B.3, Step 2.2 clarification).
+- **Card Feel Axes:**
 
-    * **Initial Total Actual DB Spent & Budget Check:**
-        * `Total_Actual_DB_Spent` = 9.5 (Stats) + 22 (Abilities) = **31.5 DB**.
-        * Budget Check: Available TDB = 25 DB. Actual DB Spent = 31.5 DB.
-        * **Result: Over budget by 6.5 DB.**
+* Malevolence: Benevolent. The ability helps friendly units.
 
-    * **Design Iteration Example for Sky Warden Drone:**
-        The initial concept exceeds the TDB for a 4DP common Unit. The designer must make adjustments to fit within the 25 DB budget.
-        * *Decision:* Remove the "Flying" keyword (saves 4 DB) and simplify "Reconnaissance Scan" to "At the start of your Activation Sequence, you may look at the top card of an opponent's deck" (reducing its complexity and placeholder DB cost from 7 DB to 4 DB, saving 3 DB). Total DB saved = 7 DB.
-        * Revised `DB_Spent_On_Abilities` = 6 (Far Range) + 4 (Simplified Scan) + 5 (Laser Strike) = **15 DB**.
-        * Revised `Total_Actual_DB_Spent` = 9.5 (Stats) + 15 (Abilities) = **24.5 DB**.
-        * This revised design (24.5 DB) is now within the TDB of 25 DB.
+* Utility: Utility-focused. It's all about repositioning for tactical advantage, not direct combat.
 
-**3. Calculate Final CP (Using the iterated design):**
+* Combat: Neutral/Defensive. It enables better combat positioning for others but doesn't directly engage.
 
-    * `Total_Actual_DB_Spent` = 24.5 DB.
-    * `CP_Conversion_Factor` (Placeholder) = 5.
-    * `Final CP = 24.5 DB / 5 = 4.9 CP`.
-    * Rounding (Placeholder: standard rounding, halves up): **Final CP = 5**.
+* Impact: Constructive. It improves your board state without directly harming the opponent's.
 
-* **Final Sky Warden Drone (Example for Guidelines):**
-    * **CP Cost:** 5
-    * **Card Type:** Unit - Drone
-    * **Domain Points:** Technology 4
-    * **Stats:** Attack 4, Defense 1
-    * **Range:** Far
-    * **Abilities:**
-        * Passive: "Reconnaissance Scan (Lite)" - At the start of your Activation Sequence, you may look at the top card of an opponent's deck.
-        * Active: "Targeted Laser Strike" - (Activation Cost during gameplay: 2 CP, Exhaust this Unit) - Choose a unit. It gets -2 Defense this turn.
-    * **Flavor Text:** "Its silent vigil maps the unseen paths to victory."
-    * **Image Description:** A sleek, angular drone with multiple optical sensors and a prominent energy emitter, patrolling high above a futuristic cityscape, with data streams faintly visible around its sensors.
-* **Key Design Considerations Note for Example:**
-    This Sky Warden Drone has a final playable cost of 5 CP. Its 4 Domain Points (as a common, non-Leader card) provided a Total Design Budget (TDB) of 25 DB using the system's placeholder values. The chosen stats (A4/D1) cost 9.5 DB. The initial desired abilities (Far Range, full Reconnaissance Scan, Targeted Laser Strike, and Flying) would have cost 22 DB, leading to a total of 31.5 DB, exceeding the available TDB.
-    Through design iteration, the "Flying" keyword was removed and "Reconnaissance Scan" was simplified to reduce their combined DB cost. The final set of abilities cost 15 DB.
-    The `Total_Actual_DB_Spent` of 24.5 DB, when divided by the placeholder `CP_Conversion_Factor` of 5, yielded its 5 CP cost. This example illustrates the trade-offs inherent in the "Progressive Budget Build" system. **All Design Budget (DB) costs for abilities/keywords and system parameters are placeholders requiring team calibration through extensive playtesting.**
+- **Stats and Abilities:**
 
-## XII. Advanced Card Mechanics (Conceptual)
+* Given its utility focus, its combat stats should be low. **Attack 1, Defense 2** seems appropriate. It's not meant to be a primary fighter.
 
-These are ideas for designers to explore, ensuring they align with the core rules and balance. Any new mechanics would require DB costs to be defined on the Master List.
-* Keywords and Status Effects: Consider if new keywords (like "Stealth," "Precise," "Shielded X") or unique status effects (beyond "Suppressed" or "Disordered") could add depth. Any new persistent keyword or status effect would need clear rules defined, potentially in the main Rulebook, and an associated DB cost.
-* Combo Potential: Design cards that might have non-obvious but powerful interactions.
-* Conditional Effects: Abilities that trigger or vary based on game state (e.g., number of cards in hand, specific Mission Cards completed, presence of certain subtypes or domains in play).
-* Transforming Cards: Units or Assets that might change into a different version of themselves (new stats/abilities) if certain conditions are met. This would require clear rules on how transformation occurs and how it's costed in DB.
+* Its ability should reflect the concept. "Active: Pay 1 CP and exhaust this unit. Move target friendly unit with a CP cost of 3 or less to an adjacent quadrant."
 
-## XIII. Design Considerations
+* "**Active**" makes it a deliberate action, costing the player one of their turns in the Activation Sequence.
 
-* **Balance:** Crucial. Strive for balance between card types, domains, individual card power, and strategies. The goal is a diverse and healthy metagame. The "Progressive Budget Build" system is a tool to aid this, but final balance comes from careful calibration and playtesting.
-* **Originality:** Aim for innovative mechanics and thematic concepts.
-* **Flavor:** Ensure mechanics, art, name, and flavor text create a cohesive and immersive whole.
-* **Engagement:** Design cards that offer interesting decisions, promote interaction, and are enjoyable to play with and against.
-* **Accessibility:** Card text should be clear and use consistent terminology. Complex abilities should be worded as unambiguously as possible.
+* "**Exhaust this unit**" is a standard cost for powerful active abilities on units, preventing it from being used and then attacking or moving in the same round.
 
-## XIV. Playtesting and Iteration
+* "**Pay 1 CP**" is a small resource cost, making it usable but not entirely free.
+
+* "**Move target friendly unit... to an adjacent quadrant**" is the core effect.
+
+* "...**with a CP cost of 3 or less**" is a crucial balancing restriction. It prevents the ability from easily repositioning the most powerful, game-ending units, focusing its utility on smaller, tactical pieces.
+
+- **Final CP Cost:**
+
+* The card has low stats (1/2).
+
+* Its ability is purely utility and has multiple costs (Action, Exhaust, 1 CP) and a significant restriction (targets low-cost units).
+
+* Based on this, a low CP cost is appropriate. A cost of **3 CP** seems fair. It's not a card you play for its body, but for its tactical effect, and 3 CP is a reasonable investment for that utility.
+
+- **Resulting Card:**
+
+* **Name:** Telekineticist
+
+* **Type:** Unit
+
+* **DP:** Psionics 2
+
+* **CP Cost:** 3
+
+* **Stats:** 1 Attack / 2 Defense
+
+* **Range:** Mid (for targeting the ability, though it's not an attack)
+
+* **Rule Box:** Active: Pay 1 CP and exhaust this unit. Move target friendly unit with a CP cost of 3 or less to an adjacent quadrant.
+
+
+### **XII. Advanced Card Mechanics (Conceptual)**
+
+These are ideas for designers to explore, ensuring they align with the core rules and balance.
+
+- **Keywords and Status Effects:** Consider if new keywords (like "Stealth," "Precise," "Shielded X") or unique status effects (beyond "Suppressed") could add depth. Any new persistent keyword or status effect would need clear rules defined, potentially in the main Rulebook.
+
+- **Combo Potential:** Design cards that might have non-obvious but powerful interactions.
+
+- **Conditional Effects:** Abilities that trigger or vary based on game state (e.g., number of cards in hand, specific Mission Cards completed, presence of certain subtypes or domains in play).
+
+- **Transforming Cards:** Units or Assets that might change into a different version of themselves (new stats/abilities) if certain conditions are met. This would require clear rules on how transformation occurs and how it's costed.
+
+
+### **XIII. Design Considerations**
+
+- **Balance:** Crucial. Strive for balance between card types, domains, individual card power, and strategies. The goal is a diverse and healthy metagame. Final balance comes from careful calibration and playtesting.
+
+- **Originality:** Aim for innovative mechanics and thematic concepts.
+
+- **Flavor:** Ensure mechanics, art, name, and flavor text create a cohesive and immersive whole.
+
+- **Engagement:** Design cards that offer interesting decisions, promote interaction, and are enjoyable to play with and against.
+
+- **Accessibility:** Card text should be clear and use consistent terminology. Complex abilities should be worded as unambiguously as possible.
+
+
+### **XIV. Playtesting and Iteration**
 
 Playtesting is non-negotiable.
-* **Internal Playtesting:** Test new designs rigorously within the design team, focusing initially on the calibration of DB costs within the "Progressive Budget Build" system.
-* **Wider Playtesting:** If possible, involve a broader group of trusted testers once initial DB cost calibrations are more stable.
-* **Iterative Refinement:** Be prepared to modify or discard designs based on playtest feedback to achieve balance and optimal playability. The Master DB Cost Lists for abilities and keywords will be living documents, updated based on playtesting insights.
 
-## XV. Mission Card Design
+- **Internal Playtesting:** Test new designs rigorously within the design team.
 
-> **DESIGN TEAM NOTE:** The principles and specific parameters for designing Mission Cards (including balancing their CP values provided to players each round, objective complexity, passive effects, and any abilities they grant) are detailed in a separate, official **"Quantum Nexus: Mission Card Creation Guidelines."**
->
-> Designers assigned to create or revise Mission Cards must consult this dedicated document. These Card Creation Guidelines focus on the design of cards that form a player's main deck.
+- **Wider Playtesting:** If possible, involve a broader group of trusted testers.
 
-## XVI. Conclusion
+- **Iterative Refinement:** Be prepared to modify or discard designs based on playtest feedback to achieve balance and optimal playability.
 
-The Quantum Nexus card creation process is a blend of creativity, strategic design, and rigorous refinement. By adhering to these evolving guidelines, understanding the core Quantum Nexus Rulebook, utilizing the "Progressive Budget Build" system, and embracing iterative playtesting, designers can craft unique, balanced, and engaging cards that enrich this dynamic sci-fi universe.
 
-## Appendix
+### **XV. Mission Card Design**
 
-### A. Glossary of Design Terms
-(This glossary is for designer use and may contain terms not in the player-facing Rulebook. It will be updated to reflect finalized internal terminology based on the "Progressive Budget Build" system.)
+The principles and specific parameters for designing Mission Cards (including balancing their CP values provided to players each round, objective complexity, passive effects, and any abilities they grant) are detailed in a separate, official "Quantum Nexus: Mission Card Creation Guidelines."
 
-* **Activation Sequence:** The part of a Game Round where players take alternating single actions. (Rulebook term)
-* **Base Design Budget (BDB):** An intermediate value in card costing, derived from a card's Foundational Design Budget (FDB) and its DP-Driven Design Budget (DDB).
-* **Card Feel Matrix:** An internal design tool using axes like Malevolence, Utility, Combat, and Impact to guide a card's thematic and mechanical identity.
-* **Command Points (CP):** The primary resource in the game, gained each round (primarily from Mission Cards) and spent to deploy cards and activate abilities. (Rulebook term) The playable CP cost printed on cards is determined by the "Progressive Budget Build" system.
-* **`CP_Conversion_Factor`:** The rate at which `Total_Actual_DB_Spent` is converted to playable CP in the "Progressive Budget Build" system. (Placeholder value needs calibration).
-* **Design Budget (DB):** An internal design currency used within the "Progressive Budget Build" system to quantify the cost of stats, abilities, and keywords during card creation.
-* **Domain Points (DP):** A numerical value indicating a card's thematic connection to the four domains. DP contribute to a card's Total Design Budget (TDB) and are used in player-facing rules for Mission Card setup and Unit inclusion.
-* **DP-Driven Design Budget (DDB):** The portion of a card's Design Budget derived directly from its Total Domain Points.
-* **Foundational Design Budget (FDB):** A small, flat DB amount all cards start with in the "Progressive Budget Build" system.
-* **Internal Design Tags (Formerly "Ranks"):** Terms like "Terrestrial," "Aerial," used by designers for thematic categorization, not as player-facing mechanics.
-* **Master DB Cost List(s):** Essential companion documents (to be developed) detailing the DB cost for every standard ability effect component (as per ACG), complete abilities, keywords, and Mission Challenge Components in the game, used with the "Progressive Budget Build" system and "Mission Card Intrinsic Budget System."
-* **Total Actual DB Spent:** The sum of all DB costs for a card's chosen stats, abilities, and keywords. This value is used to calculate the Final CP cost.
-* **Total Design Budget (TDB):** The maximum DB a card can have in the "Progressive Budget Build" system, derived from its Base Design Budget (BDB) and modifiers for role (Leader) and rarity (duplicate limit). A card's `Total_Actual_DB_Spent` cannot exceed its TDB.
-* *[Obsolete Term for Costing System:] Ability Point (AP).*
+Designers assigned to create or revise Mission Cards must consult this dedicated document. These Card Creation Guidelines focus on the design of cards that form a player's main deck.
 
-### B. Design Tips
-* Start with a Clear Concept: Define the card's role, theme, and intended interactions.
-* Prioritize Fun and Engagement: Design cards that create interesting decisions and enjoyable gameplay moments.
-* Embrace Simplicity Where Possible: Complex interactions are good, but individual card text should strive for clarity.
-* Consider All Game States: How does the card perform in the early, mid, and late game? When ahead, behind, or at parity?
-* Design for the Current Rulebook: All mechanics must function cleanly within the latest version of the Quantum Nexus Rulebook. The "Progressive Budget Build" system aims to cost features based on their impact within these rules.
-* Iterate Relentlessly: Playtesting will reveal what works and what doesn't. Be prepared to change any aspect of a card, including re-evaluating its DB costs against the Master Lists as those lists themselves get calibrated.
 
-*(Previous Appendices C, D, and E, which detailed AP costs for abilities and keywords under an old system, are now obsolete. They are superseded by the need to develop and maintain comprehensive **Master DB Cost Lists for Abilities and Keywords** as integral components of the "Progressive Budget Build" system.)*
+### **XVI. Conclusion**
 
-### F. Design Considerations for Different Card Types
+The Quantum Nexus card creation process is a blend of creativity, strategic design, and rigorous refinement. By adhering to these guidelines, understanding the core Quantum Nexus Rulebook, and embracing iterative playtesting, designers can craft unique, balanced, and engaging cards that enrich this dynamic sci-fi universe.
 
-When using the "Progressive Budget Build" system, consider these nuances for different card types:
 
-1.  **Units**
-    * **Stats and Role:** Balance Attack and Defense DB costs according to the unit's intended role (offensive, defensive, utility). Consider its synergy with the current combat outcomes (Suppressed, Disordered, Pushed Back).
-    * **Abilities:** Design abilities that complement its stats and role. Active Abilities consume an action slot in the Activation Sequence, which should be a major factor in their DB cost on the Master List.
-    * **Range:** The choice of range (Close, Mid, Far as per current Rulebook) will have a DB cost from the Master List, typically accounted for as part of `DB_Spent_On_Abilities`.
-2.  **Leaders**
-    * **Impact:** The Leadership DBM grants Leaders a higher TDB, allowing for more significant or numerous abilities. Their abilities should be impactful, aligning with their unique status and deckbuilding restrictions.
-    * **Synergy:** Design abilities that synergize with specific domains, subtypes, or strategies.
-3.  **Upgrades**
-    * **Enhancement Focus:** Should clearly enhance a player's own Unit or Asset. Balance the DB cost of its stat boosts or granted abilities against its TDB (which, for an Upgrade, will likely be based on its DP and Rarity only, not Leadership).
-4.  **Assets**
-    * **Persistent Value:** Effects should provide ongoing or strategically valuable activated abilities from the Loadout Area. Assets typically only have a Defense stat; their `DB_Spent_On_Stats` will reflect this. Their TDB will allow for DB to be spent on their persistent or activated abilities.
-    * **Survivability:** Their Defense value's DB cost should be balanced against their impact.
-5.  **Events**
-    * **Immediate Impact:** Events have no stats and are transient. Their TDB (derived from DP and Rarity) is spent entirely on the DB cost of their one-time effect(s). The DB cost of Event effects on the Master List must be carefully calibrated for their immediate impact relative to cards that remain in play.
-    * **Action Economy:** Playing an Event is a single action; its effect's DB cost must reflect this.
-6.  **Terrain**
-    * **Battlefield Impact:** Terrain cards modify quadrants. Beyond the inherent +1 Defense bonus per Terrain card (which is a game rule, not something bought with DB for that specific Terrain card, though its existence might influence general Terrain TDB baselines), their printed rule box effects will have DB costs. Their TDB will be spent on these unique quadrant-altering abilities. Adhere to the limit of two Terrain per player per quadrant.
+### **Appendix**
 
-By considering these design considerations for each card type within the "Progressive Budget Build" system, you can ensure that your creations are balanced, engaging, and contribute to the rich tapestry of Quantum Nexus gameplay. The Master DB Cost Lists will be essential in reflecting these type-specific considerations.
+#### **A. Glossary of Design Terms**
+
+(This glossary is for designer use and may contain terms not in the player-facing Rulebook.)
+
+- **Activation Sequence:** The part of a Game Round where players take alternating single actions. (Rulebook term)
+
+- **Card Feel Matrix:** An internal design tool using axes like Malevolence, Utility, Combat, and Impact to guide a card's thematic and mechanical identity.
+
+- **Command Points (CP):** The primary resource in the game, gained each round (primarily from Mission Cards) and spent to deploy cards and activate abilities. (Rulebook term)
+
+- **Domain Points (DP):** A numerical value indicating a card's thematic connection to the six domains. DP are used in player-facing rules for Mission Card setup and Unit inclusion.
+
+- **Internal Design Tags:** Terms like "Terrestrial," "Aerial," used by designers for thematic categorization, not as player-facing mechanics.
+
+
+#### **B. Design Tips**
+
+- **Start with a Clear Concept:** Define the card's role, theme, and intended interactions.
+
+- **Prioritize Fun and Engagement:** Design cards that create interesting decisions and enjoyable gameplay moments.
+
+- **Embrace Simplicity Where Possible:** Complex interactions are good, but individual card text should strive for clarity.
+
+- **Consider All Game States:** How does the card perform in the early, mid, and late game? When ahead, behind, or at parity?
+
+- **Design for the Rulebook:** All mechanics must function cleanly within the latest version of the Quantum Nexus Rulebook.
+
+- **Iterate Relentlessly:** Playtesting will reveal what works and what doesn't. Be prepared to change any aspect of a card.
+
+- **Vanilla Matters:** Don't be afraid of designing a card with no abilities.
+
+- **Emergent Gameplay:** Keep abilities as simple as possible and as few as possible, this creates perfect scenarios for emergent Gameplay and helps drive the players gameplay narrative.

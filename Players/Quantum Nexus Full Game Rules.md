@@ -139,7 +139,7 @@
 * ***Close Range:** The unit may only target enemies in strictly adjacent quadrants, which typically means the enemy Front Row units directly opposing it.*  
 * ***Mid Range:** The unit may target adjacent quadrants as well as any diagonal quadrants physically touching the unit's current quadrant.*  
 * ***Far Range:** The unit may target any entity located exactly one row away. A Far Range unit in the Back Row can target any quadrant in the opposing Front Row. A Far Range unit in the Front Row can target any quadrant in the opposing Back Row.*  
-* ***Far Range Override:** If a Far Range unit occupies the Front Row and an enemy unit occupies the directly opposing Close Range quadrant, the Far Range unit may declare an attack against that Close Range enemy. However, executing this Close-Quarters Override inflicts a strict \-1 penalty to the attacking unit's Attack value for the duration of that combat resolution.*
+* ***Far Range Override:** If a Far Range unit occupies the Front Row and an enemy unit occupies the directly opposing Close Range quadrant, the Far Range unit may declare an attack against that Close Range enemy. However, executing this Close-Quarters Override inflicts a strict -1 penalty to the attacking unit's Attack value (Attack values cannot be reduced below 0) for the duration of that combat resolution.*
 
 ### ***B. Combat Resolution and Suppression***
 

@@ -12,7 +12,7 @@
 
 ### ***B. Components***
 
-*To play Quantum Nexus, each player requires a customized deck of cards constructed strictly according to the deck-building laws. Players will also need a Game Board or Playmat to organize their cards and track the game state across the Front Row, Back Row, Deck, Discard, and Mission Area. Various tokens are required to represent generated units, status indicators (such as "Suppressed" or "Disordered"), and damage counters. A randomizer, such as a coin or die, is used to determine the starting player.*
+*To play Quantum Nexus, each player requires a customized deck of cards constructed strictly according to the deck-building laws. Players will also need a Game Board or Playmat to organize their cards and track the game state across the Front Row, Back Row, Deck, Discard, and Mission Area. Various tokens are required to represent generated units, status indicators (such as "Suppressed"), and damage counters. A randomizer, such as a coin or die, is used to determine the starting player.*
 
 *Furthermore, players must share a highly visible, physical Supremacy Tracker placed centrally between them. This tracker records each player's individual Supremacy Points to determine the winner, as well as the Combined Supremacy Score used to dictate the current global Theater Level.*
 

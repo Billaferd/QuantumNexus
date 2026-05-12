@@ -165,14 +165,14 @@ The power of Psionics comes from within the mind. Its practitioners view the phy
   * **Disruption and Control:** They are the premier domain for controlling enemy units through non-damaging means. They can force units to move, prevent them from acting, or use the **Taunt** keyword to dictate the flow of combat.  
   * **Hand and Deck Manipulation:** They are the only domain that can directly attack an opponent's mind, represented by their ability to force discards from the hand, disrupting the enemy's plans at their source.  
   * **Misdirection and Mobility:** As masters of the **Skirmisher** keyword and other repositioning abilities, they are exceptionally mobile, executing hit-and-run attacks and repositioning with fluid grace.  
-  * **Targeted Elimination:** Their attacks are precise, representing a focused psychic lance that can bypass conventional armor or defenses to strike at a weak point.  
+  * **Targeted Elimination (Units/Assets):** Their deployed Units and Assets possess precise attacks, representing a focused psychic lance that can bypass conventional armor or defenses to strike at a weak point. 
   * **Misdirection and Evasion:** As masters of the **Skirmisher** and **Phantom** keywords, they are exceptionally mobile and difficult to pin down, executing hit-and-run attacks and repositioning with fluid grace.  
 * **Struggles With:**  
   * **Raw Attack Power:** A psychic assault doesn't always leave a physical mark. Their units generally have lower base Attack values, as their goal is often to neutralize, not obliterate.  
   * **Destroying Non-Unit Cards:** Their powers are focused on living or machine minds. They have almost no way to directly affect inanimate objects like enemy Assets or Terrain.  
   * **Sustained, Long-Range Combat:** Their abilities require focus and proximity. They have very few units with **Far Range**, preferring to get up close and personal.  
 * **Restricted From:**  
-  * **Direct Attack:** Their Event cards are tools of manipulation, deception, and control, not crude blasts of energy.  
+  * **Direct Attack (Events):** Their Event cards are strictly tools of manipulation, deception, and control. They must never deal direct damage like a crude blast of energy. 
   * **Keyword: Impact:** The physical, grinding nature of **Impact** is irrelevant to a war fought in the mind.  
   * **Resource Generation:** Their power is internal and self-contained; they cannot generate additional CP.  
 * **Special Skill:**  

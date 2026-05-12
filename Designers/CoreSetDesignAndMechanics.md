@@ -28,7 +28,7 @@ The paramount constraint is the 200 Command Point (CP) Budget. The main deck—w
 
 Separate from the main deck budget is the Mission Roster. Players select up to six Mission Cards prior to the game. These missions must adhere to a strict Domain Point (DP) requirement: the combined DP cost of a player's chosen missions must equal exactly 6 DP, and no more than 4 DP may be allocated to any single domain. This enforces multi-domain strategy and prevents monolithic, homogenous builds.
 
-Finally, players may bring a Sideboard to competitive matches. The Sideboard represents a reserve cache of adaptive tools and is governed by two simultaneous constraints: it may contain a maximum of up to 10 physical cards, and the combined CP value of those cards cannot exceed 40 CP. Furthermore, the cards within the sideboard must legally align with the domain restrictions established by the player's primary 6 DP Mission roster.
+Finally, players may bring a Sideboard to competitive matches. The Sideboard represents a reserve cache of adaptive tools and is governed by a single constraint: the combined CP value of cards in the sideboard cannot exceed 40 CP. Furthermore, the cards within the sideboard must legally align with the domain restrictions established by the player's primary 6 DP Mission roster.
 
 ### **1.3 Standardized Token Statistics**
 

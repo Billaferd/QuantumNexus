@@ -20,9 +20,9 @@
 
 *If the text printed on a specific card directly contradicts the foundational rules outlined in this comprehensive guide, the card text always takes precedence.*
 
-## ***II. Card Types***
+## ***II. Card Types and Universal Properties***
 
-*The Quantum Nexus ecosystem relies on several distinct card types, each fulfilling a specific tactical or strategic role.*
+*The Quantum Nexus ecosystem relies on several distinct card types, each fulfilling a specific tactical or strategic role. Regardless of type, every card in the game possesses a Command Point (CP) cost which dictates the economic resources required to play it, and a "Duplicates" stat. The Duplicates stat is a specific numerical value printed on the card that dictates the absolute maximum number of exact copies a player may include in their deck configuration.*
 
 ***Units** are the primary method of controlling the board and attacking your opponent. They represent the soldiers, creatures, and machines you command. Every unit possesses an Attack value, a Defense value, a designated Range, and a Command Point (CP) cost. Units are further categorized by their spatial Size (Small, Normal, Large, or Massive), which governs their deployment footprint.*
 
@@ -42,11 +42,11 @@
 
 *Constructing a legal deck is an exercise in strict economic engineering. Quantum Nexus eschews standard card-count limits in favor of a rigorous "Point-Buy" system.*
 
-### ***A. The 200 CP Budget and Card Quantities***
+### ***A. The 200 CP Budget and The Rule of Duplicates***
 
 *Your main deck—which encompasses all Units, Leaders, Assets, Events, Upgrades, and Terrain cards—must contain a collection of cards with a maximum total Command Point (CP) value of 200\. There is no minimum or maximum limit on the physical number of cards within the main deck; the cumulative CP cost alone dictates the deck's volume. You may choose to field a massive swarm of inexpensive units or a highly concentrated strike force of elite entities, provided the total cost does not exceed 200 CP.*
 
-*To ensure deck diversity, Quantum Nexus enforces the **Rule of Duplicates**. Every card in the game features a specific numerical limit printed on it, indicating the maximum number of exact copies a player may include in a single deck. You may not exceed this printed limit under any circumstances.*
+*To ensure deck diversity and prevent strategic monopolization, Quantum Nexus strictly enforces the **Rule of Duplicates**. As defined by the universal card properties, every card features a printed Duplicates stat. The combined quantity of a specific card across both your main deck and your sideboard must never exceed this printed numerical limit under any circumstances.*
 
 ### ***B. The Leadership Limit***
 
@@ -66,7 +66,7 @@
 
 ### ***D. Sideboarding Constraints***
 
-*Players may utilize a standardized sideboard to adapt their strategies between games in a competitive match. The sideboard is governed by two simultaneous constraints: it may contain a maximum of 10 physical cards, and the combined CP value of those cards must not exceed 40 CP. All cards within the sideboard must strictly adhere to the Domain Point restrictions established by your primary Mission roster.*
+*Players may utilize a standardized sideboard to adapt their strategies between games in a competitive match. The sideboard is governed by two simultaneous constraints: it may contain a maximum of 10 physical cards, and the combined CP value of those cards must not exceed 40 CP. All cards within the sideboard must strictly adhere to the Domain Point restrictions established by your primary Mission roster, and as previously noted, the combined total of any specific card between your main deck and sideboard cannot exceed that card's printed Duplicates stat.*
 
 ## ***IV. The Battlefield and Spatial Capacity***
 
@@ -170,7 +170,6 @@
 ## ***Appendix B: Universal Keyword & Status Effect Glossary***
 
 * ***Arcane Recall:** You may play this card from your discard pile by paying its CP cost and fulfilling any additionally specified resource costs. Once a card played via Arcane Recall resolves, it is exiled from the game rather than being returned to the discard pile.*  
-* ***Disordered:** A detrimental status effect. A unit that is Disordered has its base Attack reduced to 0 and all of its printed keywords are completely neutralized and ignored.*  
 * ***Ethereal:** Combat damage dealt to this unit during standard attacks is reduced by 1\.*  
 * ***Flying:** This unit ignores the presence of non-Flying units when declaring attacks, allowing it to target opposing Back Row units directly even if the enemy Front Row is occupied, provided the target is within its designated Range.*  
 * ***Illusion:** If a unit with this keyword becomes the explicit target of any enemy attack, activated ability, or Event, the unit is immediately destroyed prior to the resolution of that effect.*  

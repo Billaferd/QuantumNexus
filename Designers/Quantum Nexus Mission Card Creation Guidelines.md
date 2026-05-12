@@ -126,7 +126,7 @@ To assemble a final Mission Card, you must use the database below to apply the u
 
 Passive abilities located in Theater 2 are categorized into tiers based on their game impact.
 
-Tier 0 passives are focused on thematic flavor and formatting, possessing negligible mechanical impact and carrying a 0 CP tax. Examples include granting Construct tokens \+1 Health, giving Spirit tokens the Flying keyword, or stipulating that a Leader counts as a Construct, all typically rooted in the Technology domain.
+Tier 0 passives are focused on thematic flavor and formatting, possessing negligible mechanical impact and carrying a 0 CP tax. Examples include granting Construct tokens \+1 Defense, giving Spirit tokens the Flying keyword, or stipulating that a Leader counts as a Construct, all typically rooted in the Technology domain.
 
 Tier 1 passives provide minor economic and utility advantages. Increasing your maximum hand size by 1 is a Magic or Technology utility that incurs a 1.5 CP tax. Reducing the cost of the first Asset deployed each round by 1 CP is a Technology utility that carries a 2.0 CP tax. Altering the core Mulligan rule to grant 6 cards instead of 5 is a neutral utility that carries a highly efficient 1.0 CP tax.
 

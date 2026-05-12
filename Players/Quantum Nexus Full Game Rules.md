@@ -172,6 +172,3 @@ When a card instructs you to create a specific token, use the following statisti
 * **Echo (Psionics):** 0 Attack / 1 Defense. Illusion (Dies if targeted). *Psychic projections meant to confuse the enemy.*  
 * **Golem (Magic):** 2 Attack / 1 Defense. No Keywords. Magical infantry for offensive assaults.  
 * **Scrap (Neutral):** 0 Attack / 1 Defense. Immobile. *Debris used as improvised cover.*
-* **Echo (Psionics):** 0 Attack / 1 Defense. Illusion (Dies if targeted). *Psychic projections meant to confuse the enemy.*  
-* **Golem (Magic):** 2 Attack / 1 Defense. No Keywords. Magical infantry for offensive assaults.  
-* **Scrap (Neutral):** 0 Attack / 1 Defense. Immobile. *Debris used as improvised cover.*

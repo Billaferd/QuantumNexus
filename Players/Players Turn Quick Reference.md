@@ -1,73 +1,22 @@
-# **Quantum Nexus: Player's Turn Quick Reference**
-
-This document outlines the sequence of a Game Round, focusing on the actions and decisions a player makes.
-
-## **1\. Start of Round Step (Simultaneous for All Players)**
-
-This step happens at the beginning of every Game Round. All players perform these actions at the same time.
-
-### **a. Simultaneous Refresh Actions**
-
-1. **Deactivate All Cards:** Ready all of your exhausted cards.  
-2. **Gain Command Points (CP):** Reset your CP to zero, then gain CP equal to the total CP value of your Mission cards, plus any bonuses from other card effects.  
-3. **Draw Cards:** Draw until you have five cards in your hand.
-
-### **b. Resolve Triggered Abilities**
-
-All abilities triggered during the Start of Round Step are resolved using the **Priority Chain**.
-
-1. **Build the Chain:** The player with initiative adds their triggers, then opponents add theirs.  
-2. **Response Window:** In turn order, each player gets **one chance** to add a response trigger.  
-3. **Resolve the Chain:** Resolve abilities from last-in to first-out (top-down).
-
-*(For full details, see Section VII in the Detailed Rules.)*
-
-## **2\. Activation Sequence (Alternating Single Actions)**
-
-After the Start of Round Step, players take turns performing a single action, starting with the player who has initiative. After an action is fully resolved, the turn passes to the next player clockwise. This continues until all players pass consecutively.
-
-### **Available Single Actions**
-
-On your turn, choose **ONE** of the following actions:
-
-**Core Actions (Cost CP)**
-
-* **Deploy a Card:** Pay the card's CP cost and place it into play.  
-  * **Units/Terrain:** Place in a quadrant on your side of the Battlefield.  
-  * **Assets:** Place in your Loadout Area.  
-  * **Upgrades:** Attach to a valid card you control.  
-* **Activate an Active Ability:** Choose one of your cards in play, pay the ability's costs (CP, exhausting the card, etc.), and resolve its effect.  
-* **Play an Event Card:** Pay the Event's CP cost from your hand, resolve its effect, and then place it in your Discard Pile.
-
-**Combat & Movement Actions**
-
-* **Declare an Attack:**  
-  1. Choose one of your ready units and **exhaust** it.  
-  2. Declare a valid target enemy unit within the attacker's range.  
-  3. Calculate the Defender's **Effective Defense**:  
-     * Base Defense \+  
-     * \+1 if the unit is in the Back Row.  
-     * \+/- any other modifiers from card effects.  
-  4. **Resolve Combat:**  
-     * **If Attacker's Attack \> Defender's Defense:** The defending unit is destroyed (and sent to the Discard Pile, unless removed from the game by an effect like Nullify).  
-     * **If Attacker's Attack \= Defender's Defense:** The defending unit becomes **Suppressed**.  
-     * **If Attacker's Attack \< Defender's Defense:** **The attack has no effect.** The defender is unaffected.  
-* **Move a Unit:**  
-  1. Choose one of your ready units.  
-  2. Move it to an adjacent friendly quadrant (Forward, Backward, Left, or Right).  
-  3. The unit becomes **exhausted**.
-
-**Passing Actions**
-
-* **Pass:** Take no action. The round ends when all players Pass in a row.
-
-Interrupts & Activated Events
-
-Some Event cards have 'Trigger' abilities that allow you to Activate them from your hand outside of your turn. When this happens, the game pauses and a new Priority Chain begins.
-
-## **3\. Winning the Game**
-
-You win the game at the end of a round if both of these conditions are true:
-
-* You have at least one unit in each of your three Front Row quadrants.  
-* Your opponent has no units in any of their three Front Row quadrants.
+# Quantum Nexus: Player's Turn Quick Reference
+This document outlines the precise sequence of a Game Round, detailing the actions, tactical parameters, and victory conditions a player must navigate.
+### 1. Start of Round Step
+During the Start of Round step, all players perform a series of actions simultaneously. First, players refresh their boards by readying all exhausted cards, removing any temporary tokens, and setting their Command Point totals to zero. Next, each player gains Command Points equal to the total CP value derived from their chosen Mission Cards. Following this, players draw cards from their deck until they have exactly five cards in their hand; if a player already possesses five cards, they do not draw any additional cards. Finally, any card effects or abilities that specifically state they happen at the start of the round are resolved immediately.
+### 2. Activation Sequence
+The Activation Sequence is the core phase of gameplay, characterized by players taking alternating single actions. The player holding Initiative takes the first action. In the first round of the game, Initiative belongs to the player who won the initial coin toss or die roll. In all subsequent rounds, Initiative is granted to the player who was the first to pass in the unbroken sequence of passes that ended the previous round. On a player's turn, they perform exactly one single action, after which the turn immediately passes clockwise to the next player.
+When choosing an action, players may select from the following strictly defined options:
+ * **Deploy:** A player may pay the CP cost to play a Unit, Upgrade, Asset, or Terrain card from their hand. Units must be deployed directly to the Back Row unless the unit possesses a keyword explicitly stating otherwise. Assets must always be deployed to the special Loadout Area, while Upgrades must be deployed directly onto a host unit. Terrain cards are played to occupy a specific Quadrant on the battlefield.
+ * **Move:** A player may move one of their ready units one quadrant into an adjacent friendly quadrant, such as advancing from the Back-Left to the Front-Left. Upon completing this movement, the unit is immediately exhausted.
+ * **Attack:** A player may exhaust a ready unit to declare an attack against an enemy unit that falls within its valid range.
+ * **Activate:** A player may use an Active Ability printed on a card they already have in play, provided they pay any associated costs, which may include spending CP or exhausting the card itself.
+ * **Play Event:** A player may pay the CP cost of an Event card in their hand, resolve its text immediately, and then place the card into their discard pile.
+ * **Pass:** A player may choose to take no action.
+The Activation Sequence continues until all players pass consecutively. It is important to note that if a player passes, but their opponent subsequently takes an action, the passing player is allowed to take another action when the turn returns to them. A player is only locked out of the round if every player passes in an unbroken sequence. The specific player who passes first to initiate this final, unbroken sequence successfully secures Initiative for the following round.
+### 3. Combat Mechanics
+When declaring an attack, a unit's range dictates its valid targets. Close Range units can only target enemies in adjacent quadrants, typically the enemy Front Row units directly across from them. Mid Range units can target adjacent quadrants as well as diagonal quadrants touching their current location. Far Range units can target any unit located one row away. Consequently, a Far Range unit positioned in the back row can target any quadrant in the opposing front row, while a Far Range unit located in the front row can target any quadrant in the opposing back row. Additionally, the Far Range Override rule allows a Far Range unit occupying the Front Row to attack an enemy unit in the directly opposing Close Range quadrant; however, executing this override inflicts a -1 penalty to the attacking unit's Attack value for the duration of that combat resolution.
+To resolve combat, the attacker's Attack value is compared to the defender's Effective Defense. A unit's Effective Defense is calculated using its base Defense, plus a +1 bonus if it resides in the Back Row, minus any modifiers such as permanent Impact counters. If the attacker's Attack value is strictly greater than the defender's Defense, the target is destroyed and sent to the discard pile. If the Attack value exactly equals the Defense value, the target becomes Suppressed. A Suppressed unit is immediately exhausted if it was ready, receives a Suppressed token, and loses the ability to attack or activate abilities. If a Suppressed unit is targeted by a subsequent valid attack from a unit with a base Attack value of 1 or greater, it is immediately destroyed. Attacks originating from units with an Attack value of 0 are ineffective and cannot trigger the destruction of a Suppressed unit. If an attack's value is less than the defender's Defense, the attack is entirely ineffective and the target remains unharmed. Furthermore, if a unit's Effective Defense drops to 0 or below at any time due to accumulated Impact counters, that unit is immediately destroyed.
+### 4. The Scoring Step & Theater Escalation
+Immediately after the Activation Sequence ends via consecutive passes, a formal Scoring Step occurs. During this step, players evaluate the positional state of the Front Row; a player earns exactly one Supremacy Point for every friendly Front Row quadrant physically occupied by at least one unit, or indirectly controlled via spatial projection or action-taxing illusions, that directly faces an unoccupied enemy Front Row quadrant.
+After points are tallied, players calculate the Combined Supremacy Score by adding both players' totals together. If this combined total reaches 8, the game escalates to Theater Level 2, causing all players to immediately activate the passive abilities printed on their Mission Cards. If the combined total reaches 14, the game escalates to Theater Level 3, and all players immediately resolve the one-time Climax abilities on their Mission Cards.
+### 5. Winning the Game
+The game concludes immediately when a player accumulates ten Supremacy Points during the Scoring Step, signifying an irreversible collapse of the opponent's military infrastructure. If multiple players simultaneously reach the 10-point threshold in the same Scoring Step, the player holding the highest total score is declared the winner. If players are tied under these conditions, the game results in a draw. Additionally, if any player runs out of cards in their deck at any point, they are eliminated immediately.

@@ -179,9 +179,9 @@
 * ***Martyrdom:** When this unit is destroyed, immediately trigger the associated ability text.*  
 * ***Phalanx:** This unit receives \+1 Defense for each adjacent friendly unit that also possesses the Phalanx keyword. This is a dynamic bonus recalculated whenever the board state changes.*  
 * ***Skirmisher:** After this unit performs an Attack action, you may immediately move it to an adjacent friendly quadrant. This special move does not exhaust the unit and does not consume your action for the turn.*  
-* ***Steadfast:** This unit cannot be moved from its current quadrant by an opponent's card effects and is immune to receiving the Disordered status effect.*  
+* ***Steadfast:** This unit cannot be moved from its current quadrant by an opponent's card effects.*  
 * ***Swarm:** When taking a "Deploy" action to play a unit with Swarm, you may simultaneously deploy any number of other units with the Swarm keyword from your hand into the exact same quadrant. You must pay the individual CP costs for all units deployed in this manner.*  
-* ***Synaptic Mark:** A detrimental status effect token. A unit bearing a Synaptic Mark cannot be readied during the Start of Round step.*  
+* ***Synaptic Mark:** The mark on it's own does nothing, but it is used to target units with other powerful abilitites.*  
 * ***Taunt:** Enemy units that declare an attack must target a unit with Taunt if one is within range and constitutes a valid target.*  
-* ***Territorial:** This unit actively blocks enemy deployment and movement into any adjacent quadrant, including corresponding enemy Front Row quadrants.*  
+* ***Territorial:** This unit actively blocks enemy deployment and movement into any adjacent quadrant, including corresponding enemy Front Row quadrants.* 
 * ***Zeal:** The first time this unit would be destroyed in a given Game Round, it instead survives, removes all accumulated damage and Impact counters, and immediately becomes Suppressed.*

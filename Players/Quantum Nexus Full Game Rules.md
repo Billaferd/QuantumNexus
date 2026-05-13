@@ -79,7 +79,7 @@
 *Every quadrant on the battlefield is governed by a strict spatial capacity limit. To calculate this, every quadrant is conceptualized as containing exactly eight "Capacity Slots." A unit's designated physical size dictates how many of these slots it occupies upon deployment or movement.*
 
 * ***Tiny Units** require 1 slot each. A maximum of 8 Small units can occupy an empty quadrant.*  
-* ***Small Units** require 2 slots each. A maximum of 4 Normal units can occupy an empty quadrant.*  
+* ***Small Units** require 2 slots each. A maximum of 4 Small units can occupy an empty quadrant.*  
 * ***Large Units** require 4 slots each. A maximum of 2 Large units can occupy an empty quadrant.*  
 * ***Massive Units** require 8 slots each. A quadrant may only ever contain 1 Massive unit, claiming absolute dominance over that space.*
 
@@ -161,11 +161,11 @@
 
 *When a card effect instructs a player to create a specific token, the token must utilize the following exact statistics and traits.*
 
-* ***Construct (Technology):** Normal Size. 1 Attack / 1 Defense. No keywords.*  
-* ***Spirit (Divinity):** Normal Size. 2 Attack / 2 Defense. Flying, Ethereal.*  
-* ***Echo (Psionics):** Normal Size. 0 Attack / 1 Defense. Illusion.*  
-* ***Golem (Magic):** Normal Size. 2 Attack / 1 Defense. No Keywords.*  
-* ***Scrap (Neutral):** Normal Size. 0 Attack / 1 Defense. Immobile.*
+* ***Construct (Technology):** Small Size. 1 Attack / 1 Defense. No keywords.*  
+* ***Spirit (Divinity):** Small Size. 2 Attack / 2 Defense. Flying, Ethereal.*  
+* ***Echo (Psionics):** Small Size. 0 Attack / 1 Defense. Illusion.*  
+* ***Golem (Magic):** Small Size. 2 Attack / 1 Defense. No Keywords.*  
+* ***Scrap (Neutral):** Small Size. 0 Attack / 1 Defense. Immobile.*
 
 ## ***Appendix B: Universal Keyword & Status Effect Glossary***
 

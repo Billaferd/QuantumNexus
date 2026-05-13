@@ -24,7 +24,7 @@
 
 *The Quantum Nexus ecosystem relies on several distinct card types, each fulfilling a specific tactical or strategic role. Regardless of type, every card in the game possesses a Command Point (CP) cost which dictates the economic resources required to play it, and a "Duplicates" stat. The Duplicates stat is a specific numerical value printed on the card that dictates the absolute maximum number of exact copies a player may include in their deck configuration.*
 
-***Units** are the primary method of controlling the board and attacking your opponent. They represent the soldiers, creatures, and machines you command. Every unit possesses an Attack value, a Defense value, a designated Range, and a Command Point (CP) cost. Units are further categorized by their spatial Size (Small, Normal, Large, or Massive), which governs their deployment footprint.*
+***Units** are the primary method of controlling the board and attacking your opponent. They represent the soldiers, creatures, and machines you command. Every unit possesses an Attack value, a Defense value, a designated Range, and a Command Point (CP) cost. Units are further categorized by their spatial Size (Tiny, Small, Large, or Massive), which governs their deployment footprint.*
 
 ***Leaders** are powerful, unique units that represent the commanders of your forces. They function similarly to standard units in combat but possess game-altering abilities and superior statistics. A deck is strictly limited in how many Leader cards it can contain, and only one Leader may occupy a single quadrant on the battlefield at any given time.*
 
@@ -78,8 +78,8 @@
 
 *Every quadrant on the battlefield is governed by a strict spatial capacity limit. To calculate this, every quadrant is conceptualized as containing exactly eight "Capacity Slots." A unit's designated physical size dictates how many of these slots it occupies upon deployment or movement.*
 
-* ***Small Units** require 1 slot each. A maximum of 8 Small units can occupy an empty quadrant.*  
-* ***Normal Units** require 2 slots each. A maximum of 4 Normal units can occupy an empty quadrant.*  
+* ***Tiny Units** require 1 slot each. A maximum of 8 Small units can occupy an empty quadrant.*  
+* ***Small Units** require 2 slots each. A maximum of 4 Normal units can occupy an empty quadrant.*  
 * ***Large Units** require 4 slots each. A maximum of 2 Large units can occupy an empty quadrant.*  
 * ***Massive Units** require 8 slots each. A quadrant may only ever contain 1 Massive unit, claiming absolute dominance over that space.*
 

@@ -14,7 +14,7 @@ The ultimate objective in Quantum Nexus is the total systemic collapse of the op
 
 The game concludes immediately when a player accumulates ten (10) Supremacy Points during a Scoring Step. Additionally, a player is instantly eliminated if they are forced to draw from an empty deck, a condition colloquially known as "decking out." If multiple players reach the ten-point threshold simultaneously, the player with the highest overall score is declared the victor; a perfect tie under these conditions results in a draw.
 
-Supremacy Points are generated exclusively during the Scoring Step. A player earns exactly one Supremacy Point for every friendly Front Row quadrant that is physically occupied by at least one unit—or indirectly controlled via spatial projection or action-taxing illusions—that directly faces an entirely unoccupied enemy Front Row quadrant.
+Supremacy Points are generated exclusively during the Scoring Step. A player earns exactly one Supremacy Point for every quadrant they occupy within the neutral Contested Zone (Row 3) during the Scoring Step. Players may also execute a 'Secure Objective' action during their turn to claim player-placed Strategic Directives for immediate 3-point bursts, forcing lateral expansion and flanking.
 
 Furthermore, the accumulation of these points serves a dual purpose: it acts as a pacing mechanism known as Theater Escalation. By calculating the Combined Supremacy Score (the sum of all players' current Supremacy Points), the game dynamically shifts through three distinct phases.
 
@@ -24,7 +24,7 @@ The game begins at Theater Level 1: Logistics. During this phase, which lasts wh
 
 Deck construction in Quantum Nexus is an exercise in strict economic engineering, governed by a rigid set of mathematical constraints that force deliberate, competitive choices.
 
-The paramount constraint is the 200 Command Point (CP) Budget. The main deck—which includes all Unit, Leader, Asset, Event, Upgrade, and Terrain cards—must contain a collection of cards whose total CP value equals exactly 200 or less. Crucially, there is no minimum or maximum limit on the physical number of cards in the main deck; the mathematical cost dictates the volume. Within this 200 CP limit, players are restricted to a maximum of 25 CP dedicated to Leader subtype cards, ensuring that powerful, game-altering personalities do not oversaturate the battlefield.
+The paramount constraint is the 200 Requisition Point (RP) Budget. The main deck—which includes all Unit, Leader, Asset, Event, Upgrade, and Terrain cards—must contain a collection of cards whose total RP value equals exactly 200 or less. Crucially, there is no minimum or maximum limit on the physical number of cards in the main deck; the mathematical cost dictates the volume. Within this 200 CP limit, players are restricted to a maximum of 25 CP dedicated to Leader subtype cards, ensuring that powerful, game-altering personalities do not oversaturate the battlefield.
 
 Separate from the main deck budget is the Mission Roster. Players select up to six Mission Cards prior to the game. These missions must adhere to a strict Domain Point (DP) requirement: the combined DP cost of a player's chosen missions must equal exactly 6 DP, and no more than 4 DP may be allocated to any single domain. This enforces multi-domain strategy and prevents monolithic, homogenous builds.
 
@@ -40,11 +40,11 @@ The following table serves strictly as an illustrative summary of the token stat
 
 | Token Designation | Affiliated Domain | Combat Statistics | Range | Innate Keywords | Tactical Role |
 | :---- | :---- | :---- | :---- | :---- |
-| Construct | Technology | 1 Attack / 1 Defense | Close Range | None | Ground holding and attritional infantry. |
-| Spirit | Divinity | 2 Attack / 2 Defense | Close Range | Flying, Ethereal | Highly evasive, resilient physical manifestations. |
-| Echo | Psionics | 0 Attack / 1 Defense | Close Range | Illusion | Fragile decoys that die immediately when targeted. |
-| Golem | Magic | 2 Attack / 1 Defense | Close Range | None | Offensively slanted magical constructs. |
-| Scrap | Neutral | 0 Attack / 1 Defense | Close Range | Immobile | Improvised, static defensive cover. |
+| Construct | Technology | 1 Attack / 1 Defense | Range 1 | None | Ground holding and attritional infantry. |
+| Spirit | Divinity | 2 Attack / 2 Defense | Range 1 | Flying, Ethereal | Highly evasive, resilient physical manifestations. |
+| Echo | Psionics | 0 Attack / 1 Defense | Range 1 | Illusion | Fragile decoys that die immediately when targeted. |
+| Golem | Magic | 2 Attack / 1 Defense | Range 1 | None | Offensively slanted magical constructs. |
+| Scrap | Neutral | 0 Attack / 1 Defense | Range 1 | Immobile | Improvised, static defensive cover. |
 
 ## **Part II: Phase Structure and Action Economy**
 

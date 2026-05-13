@@ -41,7 +41,7 @@ Before outlining domain identities, it is paramount to address and correct sever
 
 ### **Critical Evaluation 1: The Timing of the Theater 3 Climax**
 
-Theater 3 Climax abilities trigger precisely when the global board reaches 14 combined Supremacy Points. As dictated by the core rules, Supremacy Points are tallied exclusively during the Scoring Step. The Scoring Step strictly occurs immediately following the consecutive passes that end the Activation Sequence. Therefore, Climax abilities trigger when the action phase of the round is effectively over. Designing a Climax that grants an "immediate extra Action" fundamentally violates the game's phase structure. Any Climax intended to manipulate action economy must be written to affect the subsequent round, such as stating that during the next round's Activation Sequence, you may take two actions before passing.
+Theater 3 Climax abilities trigger precisely when the global board reaches 14 combined Supremacy Points. As dictated by the core rules, Supremacy Points are tallied exclusively during the Scoring Step. The Scoring Step strictly occurs immediately following the consecutive passes that end the Activation Sequence. Therefore, Climax abilities trigger when the action phase of the round is effectively over. Designing a Climax that grants an "immediate extra Action" fundamentally violates the game's phase structure. Any Climax intended to manipulate action economy must be written to adhere to the alternating sequence, such as stating that during the next round's Activation Sequence, your first Event card played does not consume your action.
 
 ### **Critical Evaluation 2: The "Opponent's Turn" Fallacy**
 

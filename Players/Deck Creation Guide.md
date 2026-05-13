@@ -6,7 +6,7 @@ The Nexus Architect's Handbook: A Comprehensive Tome of Deck Building
 
 ​1.1 The 200 CP Budget: A Point-Buy Philosophy
 
-​The single most defining constraint in Quantum Nexus deck building is the Command Point (CP) budget. The main deck—which includes all Unit, Leader, Asset, Event, Upgrade, and Terrain cards—must contain cards with a maximum total CP value of 200\. Each of these cards features its CP cost prominently in its top-left corner, serving as a constant reminder of its impact on your overall budget. Mission Cards are explicitly excluded from this 200 CP limit and function under a separate system, which will be detailed later.
+​The single most defining constraint in Quantum Nexus deck building is the Requisition Point (RP) budget. The main deck—which includes all Unit, Leader, Asset, Event, Upgrade, and Terrain cardsmust contain cards with a maximum total RP value of 200, establishing a strict power ceiling that is entirely divorced from the runtime Command Point (CP) action economy utilized during live gameplay. Each of these cards features its RP cost prominently in its top-right corner, serving as a constant reminder of its impact on your overall budget. Mission Cards are explicitly excluded from this 200 RP limit and function under a separate system, which will be detailed later.
 
 ​Crucially, the rules place no specific minimum or maximum limit on the number of individual cards in the main deck, the cost of the cards will dictate the deck size. This creates a fundamental departure from many other trading card games that mandate a fixed card count. Quantum Nexus instead employs a "point-buy" system, forcing a critical strategic tension between the quantity of cards in a deck and their individual quality, as measured by CP cost.
 
@@ -16,7 +16,7 @@ The Nexus Architect's Handbook: A Comprehensive Tome of Deck Building
 
 ​Leaders are the keystones of an army, powerful units with game-altering abilities and formidable stats. To balance their immense influence, their inclusion is strictly regulated. Within the maximum 200 CP budget for the main deck, a player may allocate no more than 25 CP to cards bearing the 'Leader' subtype. This cap is a sub-limit of the main 200 CP budget, not in addition to it.
 
-​This rule, combined with the in-game restriction of deploying only one of your Leaders per quadrant, forces a difficult and meaningful choice regarding your army's command structure. It prevents players from simply filling their decks with the most powerful cards in the game, compelling them to invest in a well-rounded supporting cast. The 25 CP cap creates a balancing act between power concentration and strategic flexibility. A player might choose to field two hyper-elite 9 CP Leaders and a single 7 CP Leader, hitting the 25 CP limit exactly with just three cards, such as a combination of The Forge-Star and Siege-Captain Valerius alongside another powerful commander. This concentrates immense power in a few key figures. Alternatively, a player could opt for three moderately-priced 8 CP Leaders, leaving 1 CP of their Leader budget unused but gaining greater flexibility in deployment and board presence. This decision defines the nature of your leadership—a small council of titans or a broader assembly of capable commanders—and is a foundational pillar of your deck's strategic identity.
+​This rule, combined with the in-game restriction of deploying only one of your Leaders per quadrant, forces a difficult and meaningful choice regarding your army's command structure. It prevents players from simply filling their decks with the most powerful cards in the game, compelling them to invest in a well-rounded supporting cast. The 25 RP cap creates a balancing act between power concentration and strategic flexibility. A player might choose to field two hyper-elite 9 CP Leaders and a single 7 CP Leader, hitting the 25 RP limit exactly with just three cards, such as a combination of The Forge-Star and Siege-Captain Valerius alongside another powerful commander. This concentrates immense power in a few key figures. Alternatively, a player could opt for three moderately-priced 8 CP Leaders, leaving 1 CP of their Leader budget unused but gaining greater flexibility in deployment and board presence. This decision defines the nature of your leadership—a small council of titans or a broader assembly of capable commanders—and is a foundational pillar of your deck's strategic identity.
 
 ​1.3 The Rule of Duplicates
 
@@ -28,11 +28,11 @@ The Nexus Architect's Handbook: A Comprehensive Tome of Deck Building
 
 ​Rule Category,Constraint,Applicable Card Types
 
-Main Deck CP Total,Maximum 200 CP,"Unit, Leader, Asset, Event, Upgrade, Terrain"
+Main Deck RP Total,Maximum 200 RP,"Unit, Leader, Asset, Event, Upgrade, Terrain"
 
-Leader CP Cap,Max 25 CP,Leader (Counted within the 200 CP total)
+Leader RP Cap,Max 25 RP,Leader (Counted within the 200 RP total)
 
-Mission Card Count,Up to 6 Cards,Mission (Not part of the 200 CP Main Deck)
+Mission Card Count,Up to 6 Cards,Mission (Not part of the 200 RP Main Deck)
 
 Total Mission DP,Exactly 6 DP,Mission (Sum of all DP on Mission Cards)
 
@@ -44,7 +44,7 @@ Duplicates,As printed on card,All card types
 
 ​Part II: The Strategic Foundation \- Mastering Your Missions
 
-​While the 200 CP budget dictates the physical substance of a deck, the Mission Cards dictate its soul. The single most important decision an architect makes is the selection of their Mission package. These cards, set aside and visible from the start of the game, are not mere side-quests; they are the constitution of your deck, the strategic DNA from which all other choices flow. They establish your resource engine, define the very pool of cards you are legally allowed to play, and signpost your overarching path to victory.
+​While the 200 RP budget dictates the physical substance of a deck, the Mission Cards dictate its soul. The single most important decision an architect makes is the selection of their Mission package. These cards, set aside and visible from the start of the game, are not mere side-quests; they are the constitution of your deck, the strategic DNA from which all other choices flow. They establish your resource engine, define the very pool of cards you are legally allowed to play, and signpost your overarching path to victory.
 
 ​2.1 The "Mission First" Philosophy: Your Strategic DNA
 
@@ -52,7 +52,7 @@ Duplicates,As printed on card,All card types
 
 ​This means a player must choose their high-level strategy—embodied by their Missions—before they can select their tactical tools. Attempting to build a deck from the "bottom-up" by first picking powerful units and then trying to find Missions to support them is a path fraught with peril, often leading to an illegal or strategically incoherent deck.
 
-​Consider a player who is impressed by the powerful 9 CP Leader The Forge-Star. This unit requires 4 Technology DP to be included in a deck. To make this single card legal, the player is now forced to construct a Mission package that provides at least 4 Technology DP. There are very few single Missions that provide this, such as Singularity Engine or Orbital Annihilation Protocol, which both possess 4 Tech DP and 4 Total DP. To meet the requirement of having exactly 6 Total DP, the player must now find two more Mission cards from other domains that provide the remaining 2 DP, such as the 1 DP Hedge Magic and the 1 DP Minor Glitch.
+​Consider a player who is impressed by the powerful 9 RP Leader The Forge-Star. This unit requires 4 Technology DP to be included in a deck. To make this single card legal, the player is now forced to construct a Mission package that provides at least 4 Technology DP. There are very few single Missions that provide this, such as Singularity Engine or Orbital Annihilation Protocol, which both possess 4 Tech DP and 4 Total DP. To meet the requirement of having exactly 6 Total DP, the player must now find two more Mission cards from other domains that provide the remaining 2 DP, such as the 1 DP Hedge Magic and the 1 DP Minor Glitch.
 
 ​The consequence of this is that the initial desire to include one powerful unit has dictated the entire architecture of the deck. The player is now locked into a strategy that is heavily focused on the Technology domain, with a specific emphasis on Assets due to Singularity Engine's passive ability ("Your Assets have \+2 Defense"). The architect must therefore begin by asking, "What is the overarching strategy I want to execute?" and then select a Mission package that enables that vision. The Missions, in turn, provide a constrained yet synergistic pool of Play Cards from which to build the army.
 
@@ -74,11 +74,11 @@ A 3-2-1-0 spread creates a "major/minor/splash" identity, offering a primary str
 
 ​Beyond defining card legality, Mission cards are the economic engine of a deck. The combined CP value of a player's chosen Mission cards determines the base amount of Command Points they will calculate during each Game Round's Start of Round Step. This forms a consistent CP "salary" that fuels all actions during the game.
 
-​Analysis of Mission cards reveals the core economic principle of the game: Temporal Resource Exchange. There is a strict, inverse mathematical relationship between the early-game CP salary a Mission provides and the power of its late-game Theater Level abilities. A player who drafts a Mission Card containing a catastrophic Theater 3 climax—such as a total board wipe—must pay for that inevitable future power through a severely taxed, lower early-game CP salary.
+​Analysis of Mission cards reveals the core economic principle of the game: Temporal Resource Exchange. There is a strict, inverse mathematical relationship between the early-game RP salary a Mission provides and the power of its late-game Theater Level abilities. A player who drafts a Mission Card containing a catastrophic Theater 3 climax—such as a total board wipe—must pay for that inevitable future power through a severely taxed, lower early-game CP salary.
 
-​Conversely, a Mission Card that offers negligible late-game escalations compensates the player by providing a massive influx of early-game Command Points. This forces architects to decide exactly when their deck is designed to peak. Do you draft a high-CP "Vanguard" package to overwhelm the board in Theater Level 1, knowing you have no late-game power? Or do you draft a heavily taxed "Doomsday" package, surviving on a razor-thin economy early in order to guarantee game-ending explosions when the board reaches Theater Level 3?
+​Conversely, a Mission Card that offers negligible late-game escalations compensates the player by providing a massive influx of early-game Command Points. This forces architects to decide exactly when their deck is designed to peak. Do you draft a high-RP "Vanguard" package to overwhelm the board in Theater Level 1, knowing you have no late-game power? Or do you draft a heavily taxed "Doomsday" package, surviving on a razor-thin economy early in order to guarantee game-ending explosions when the board reaches Theater Level 3?
 
-​This creates another layer of strategic choice. A player might opt for a high-yield but high-risk approach, centering their deck on a single 4 DP Keystone mission. A package of Singularity Engine (6 CP), Hedge Magic (2 CP), and Pledge of Faith (3 CP) would yield a base of 11 CP per round, but locks the player into a 4 Tech DP strategy. Another player might choose a more diversified portfolio of six different 1 DP missions. This could yield a higher salary (e.g., a combination totaling 15 CP) and grant access to all six domains (1-1-1-1-1-1), offering incredible flexibility. However, the passive and one-time abilities of these missions would be individually weaker and less synergistic. Choosing a Mission package is therefore akin to setting an investment strategy: a concentrated, high-risk, high-reward "stock" versus a diversified, lower-yield "mutual fund."
+​This creates another layer of strategic choice. A player might opt for a high-yield but high-risk approach, centering their deck on a single 4 DP Keystone mission. A package of Singularity Engine (6 RP), Hedge Magic (2 RP), and Pledge of Faith (3 RP) would yield a base of 11 CP per round, but locks the player into a 4 Tech DP strategy. Another player might choose a more diversified portfolio of six different 1 DP missions. This could yield a higher salary (e.g., a combination totaling 15 RP) and grant access to all six domains (1-1-1-1-1-1), offering incredible flexibility. However, the passive and one-time abilities of these missions would be individually weaker and less synergistic. Choosing a Mission package is therefore akin to setting an investment strategy: a concentrated, high-risk, high-reward "stock" versus a diversified, lower-yield "mutual fund."
 
 ​2.4 Defining Your Doctrine: Passives and One-Time Payoffs
 

@@ -19,6 +19,6 @@
 | **Taunt** | Enemy units that are able to attack must target a unit with Taunt if one is in range and a valid target. If there are multiple enemy units with Taunt, the attacking player may choose which one to target. |
 | **Territorial** | Blocks enemy deployment and movement into any adjacent quadrant. A quadrant is considered adjacent if it shares a cardinal border within your own area, or if it is the corresponding Front Row quadrant of an opponent. No other quadrants between opposing battlefields are considered adjacent. |
 | **Zeal** | The first time this unit would be destroyed in a given Game Round, it instead survives, removes all accumulated upgrades and counters, and immediately becomes Suppressed. |
-| ***Phantom*** | This unit is sent back to it's owners hand if it is targeted. |
+| ***Phantom*** | a unit cannot be targeted by attacks unless the attacker is in an adjacent quadrant. |
 | ***Adapt*** | Whenever this unit survives combat, it gains a permanent +1/+1 counter. |
 | ***Nullify*** | Cards destroyed by this unit's attacks are exiled from the game instead of being placed in the discard pile. |

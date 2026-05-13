@@ -24,8 +24,6 @@ Light is our primary tool for conveying the nature of power. The source, quality
 * **Magical Light** is raw, energetic, and uncontained. It crackles, bleeds, and spills across the frame, often with a vibrant, impossible palette. It is the light of pure energy, not illumination.  
 * **Psionic Light** is ethereal, subtle, and often internal. It is the soft glow from a character's eyes or temples, a shimmering distortion in the air, or a hard-light projection that feels both real and immaterial. Its source is the mind, not a machine or a spell.  
 * **Divine Light** is volumetric, radiant, and awe-inspiring. It is the light of revelation, pouring down in visible rays (crepuscular rays), forming halos, and bathing its subjects in a warm, golden luminescence that feels both powerful and serene.  
-* **Biological Light** is bioluminescent and predatory. It is the cold, alluring glow of a deep-sea predator, the sickly pulse of a fungal spore, or the shimmering, oily sheen on a chameleonic carapace. It is a natural, yet alien, light source.  
-* **Entropic Light** is the absence of light made visible. It is the unnerving flicker of a dying screen, the digital static of a corrupted signal, or the stark, anti-luminescence of a pure black void that seems to absorb the light around it. It is the visual representation of data decay and null-space.
 
 #### **Scale & Materiality**
 
@@ -48,7 +46,7 @@ Before delving into specific domains, all art should adhere to several universal
 * **Conveying Scale:** The game features units of varying sizes (Tiny, Small, Large, Massive). This must be communicated visually.  
   * For Large and Massive units, use compositional cues to sell their scale: a low camera angle, smaller units or environmental elements for comparison, atmospheric perspective (haze obscuring more distant parts of the creature), and environmental effects like dust clouds or cracked ground at their feet.
 
-## **Part I: The Six Pillars – Mono-Domain Art Direction**
+## **Part I: The 4 Pillars – Mono-Domain Art Direction**
 
 Each of the six domains possesses a unique mechanical and philosophical identity. The following sections translate these identities into a distinct and instantly recognizable visual language.
 

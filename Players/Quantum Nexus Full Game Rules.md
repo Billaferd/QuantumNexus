@@ -104,7 +104,7 @@
 
 * ***Refresh:** Ready (untap) all exhausted cards, remove any temporary tokens, and reset all Command Point (CP) totals to zero.*  
 * ***Income:** Gain Command Points equal to the total combined CP value of your Mission Cards.*  
-* ***Draw:** A player's default Maximum Hand Size is 5. Draw cards from your deck until the number of cards in your hand equals your Maximum Hand Size. If you currently hold a number of cards equal to or greater than your Maximum Hand Size, you do not draw.*  
+* ***Draw:** A player's default Maximum Hand Size is 5. Draw cards from your deck until the number of cards in your hand equals your Maximum Hand Size. If you currently hold a number of cards equal to or greater than your Maximum Hand Size, you do not draw. At the end of the round, if you hold more cards than your Maximum Hand Size, you must discard cards until your hand size equals the maximum limit.*  
 * ***Resolve Triggers:** Any card effects explicitly stating "At the start of the round" resolve immediately.*
 
 #### ***2\. The Activation Sequence***

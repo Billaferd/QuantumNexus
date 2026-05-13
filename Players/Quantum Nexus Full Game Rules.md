@@ -22,21 +22,23 @@
 
 ## ***II. Card Types and Universal Properties***
 
-*The Quantum Nexus ecosystem relies on several distinct card types, each fulfilling a specific tactical or strategic role. Regardless of type, every card in the game possesses a Command Point (CP) cost which dictates the economic resources required to play it, and a "Duplicates" stat. The Duplicates stat is a specific numerical value printed on the card that dictates the absolute maximum number of exact copies a player may include in their deck configuration.*
+*The Quantum Nexus ecosystem relies on several distinct card types, each fulfilling a specific tactical or strategic role. Regardless of type, every card in the game possesses a Requisition Point (RP) cost that determines its structural weight against your static deck-building budget, a Command Point (CP) cost that dictates the immediate runtime economic resources required to deploy it during a match, and a 'Duplicates' stat. The Duplicates stat is a specific numerical value printed on the card that dictates the absolute maximum number of exact copies a player may include in their deck configuration.*
 
-***Units** are the primary method of controlling the board and attacking your opponent. They represent the soldiers, creatures, and machines you command. Every unit possesses an Attack value, a Defense value, a designated Range, and a Command Point (CP) cost. Units are further categorized by their spatial Size (Tiny, Small, Large, or Massive), which governs their deployment footprint.*
+Every card type serves a structurally unique purpose within the Threat-Answer matrix, classified by how it manipulates space, tempo, and the dual economy:
 
-***Leaders** are powerful, unique units that represent the commanders of your forces. They function similarly to standard units in combat but possess game-altering abilities and superior statistics. A deck is strictly limited in how many Leader cards it can contain, and only one Leader may occupy a single quadrant on the battlefield at any given time.*
+- ***Units (The Spatial Vanguard):** The primary method of controlling the board and securing Supremacy. Scaled tightly to their RP efficiency, they cost moderate CP to deploy and physically occupy Capacity Slots to force spatial engagement.*
 
-***Assets** represent structures, equipment, or locations that remain on the battlefield to provide persistent benefits, resource generation, or defensive enhancements. Unlike units, Assets do not possess an Attack value and cannot initiate combat. They are deployed exclusively to a player's specialized Loadout Area.*
+- ***Leaders (The Concentrated Synergy Hub):** Highly taxed within the RP drafting budget and demanding exorbitant CP costs to deploy, they establish massive vulnerability windows in exchange for warping the rules of engagement and anchoring specific archetypes.*
 
-***Events** are transient, single-use cards that generate an immediate effect upon being played. Whether dealing direct damage, manipulating hands, or modifying game rules, an Event resolves its text entirely and is immediately placed into the discard pile.*
+- ***Assets (The Infrastructural Investment):** Deployed safely to the Loadout Area to provide asynchronous value generation. They require moderate RP but massive upfront CP investments, forcing players to accept immediate tempo deficits to secure future mathematical advantages.*
 
-***Upgrades** are technological or magical enhancements that must be attached to a specific host Unit or Leader upon deployment. They boost the host's combat statistics or grant them entirely new keywords. If the host unit is destroyed or removed from the board, the attached Upgrade is destroyed as well.*
+- ***Events (The Transient Tactical Disruption):** Single-use state reversals. Soft removal events possess aggressive CP costs to encourage tempo swings, while unconditional hard removal commands exorbitant CP costs and premium RP taxes to prevent absolute deck density.*
 
-***Terrain** cards are environmental modifiers that fundamentally alter the battlefield itself. When deployed, a Terrain card occupies a specific physical Quadrant, providing cover, hazards, or strategic bonuses to any unit that occupies that space.*
+- ***Upgrades (The Force Multiplier):** Localized statistical enhancements. Because attaching an Upgrade carries the inherent risk of suffering a two-for-one resource loss if the host is destroyed, they possess exceptionally low CP costs but high RP drafting taxes.*
 
-***Missions** are special strategic blueprints that sit entirely outside your main deck. Chosen before the game begins, Mission Cards dictate your base Command Point (CP) income, enforce your deck-building restrictions via Domain Points, and govern your late-game power scaling via the Theater System. A Mission Card's per-round CP salary is inversely proportional to its late-game power; cards with devastating late-game abilities will provide a heavily taxed, lower early-game CP income.*
+- ***Terrain (The Spatial Modifier):** Environmental modifications applied directly to a Quadrant. They utilize moderate RP costs and high CP costs to instantly alter the validity of enemy movement plans, serving as area denial or fortification.*
+
+- ***Missions (The Strategic Contract):** Sitting outside the physical grid, they cost 0 RP and 0 CP to play. They dictate the deck's Domain identity and serve entirely as heavy CP mana sinks during the match to punish late-game strategic greed.*
 
 ## ***III. Deck Construction Laws***
 
@@ -44,13 +46,13 @@
 
 ### ***A. The 200 CP Budget and The Rule of Duplicates***
 
-*Your main deck—which encompasses all Units, Leaders, Assets, Events, Upgrades, and Terrain cards—must contain a collection of cards with a maximum total Command Point (CP) value of 200\. There is no minimum or maximum limit on the physical number of cards within the main deck; the cumulative CP cost alone dictates the deck's volume. You may choose to field a massive swarm of inexpensive units or a highly concentrated strike force of elite entities, provided the total cost does not exceed 200 CP.*
+*Your main deck—which encompasses all Units, Leaders, Assets, Events, Upgrades, and Terrain cards—must contain a collection of cards with a maximum total Requisition Point (RP) value of 200. Command Points (CP) are strictly reserved as a runtime action currency and do not govern deck construction. There is no minimum or maximum limit on the physical number of cards within the main deck; the cumulative CP cost alone dictates the deck's volume. You may choose to field a massive swarm of inexpensive units or a highly concentrated strike force of elite entities, provided the total cost does not exceed 200 RP.*
 
 *To ensure deck diversity and prevent strategic monopolization, Quantum Nexus strictly enforces the **Rule of Duplicates**. As defined by the universal card properties, every card features a printed Duplicates stat. The combined quantity of a specific card across both your main deck and your sideboard must never exceed this printed numerical limit under any circumstances.*
 
 ### ***B. The Leadership Limit***
 
-*Within your 200 CP main deck budget, you may allocate a maximum of 25 CP to cards bearing the "Leader" subtype. This sub-limit ensures that armies rely on a well-rounded supporting cast rather than an overwhelming concentration of unique commanders.*
+Within your 200 RP main deck Requisition Budget, you may allocate a maximum of 25 RP to cards bearing the 'Leader' subtype. This sub-limit ensures that armies rely on a well-rounded supporting cast rather than an overwhelming concentration of unique commanders.
 
 ### ***C. Mission Cards and Domain Restrictions***
 
@@ -60,9 +62,9 @@
 
 *Mission Cards operate on three escalations tied to the global Theater Level:*
 
-* ***Logistics (Theater Level 1):** The sum of the CP values on your Mission Cards dictates your base CP income at the start of every single round.*  
-* ***Escalation (Theater Level 2):** Unlocks the passive ability printed on the card when the global board reaches 8 combined Supremacy Points.*  
-* ***Climax (Theater Level 3):** Detonates the one-time, game-ending reward printed on the card when the global board reaches 14 combined Supremacy Points.*
+* ***Logistics (Theater Level 1):** All players receive a standardized universal baseline salary of 15 Command Points (CP) at the start of every single round, completely divorced from Mission Card selection.*  
+* ***Escalation (Theater Level 2):** Grants access to the passive ability printed on the card when the global board reaches 8 combined Supremacy Points, provided the player pays the dynamic runtime CP upkeep cost associated with the ability during their Activation Sequence.*  
+* ***Climax (Theater Level 3):** Allows the player to manually execute the one-time, game-ending reward printed on the card when the global board reaches 14 combined Supremacy Points by sacrificing the required runtime CP cost during their Activation Sequence.*
 
 ### ***D. Sideboarding Constraints***
 
@@ -72,7 +74,7 @@
 
 *The battlefield is a highly structured tactical grid divided into distinct rows and quadrants for each player.*
 
-*The **Back Row** serves as the primary deployment and support zone. Units typically enter the battlefield here, shielded from enemy close-combat, but must eventually advance to effectively project power. The **Front Row** is the primary combat zone. Holding the Front Row is strictly required to score Supremacy Points and secure victory. Both rows are further divided into three distinct **Quadrants**: Left, Center, and Right. A unit is considered "adjacent" to units in the quadrants directly next to it, both horizontally and vertically.*
+*The The battlefield is a shared, continuous 5x3 grid. Row 1 is your Deployment Zone (Back Row). Row 2 is your Vanguard. Row 3 is the neutral Contested Zone. Row 4 is the opponent's Vanguard, and Row 5 is the opponent's Deployment Zone. Each row is divided into three columns (Left, Center, Right). Physical line of sight is obstructed by any quadrant operating at maximum capacity (e.g., containing a Massive unit or two Large units); attacks cannot pass through these obstructed quadrants. A unit is considered "adjacent" to units in the quadrants directly next to it, both horizontally and vertically.*
 
 ### ***A. Quadrant Capacity and Unit Sizes***
 
@@ -89,10 +91,11 @@
 
 ### ***A. Game Setup***
 
-1. ***Missions:** Players simultaneously reveal their chosen Mission cards and place them in the Mission Zone.*  
-2. ***Initiative:** Flip a coin or roll a die to determine the starting player for the first round.*  
-3. ***Draw:** Each player draws cards equal to their default Maximum Hand Size (5).*  
-4. ***Mulligan:** A player may choose to shuffle their entire hand back into their deck and redraw 5 cards. This may only be done once per game.*
+1. ***Missions:** Players simultaneously reveal their chosen Mission cards and place them in the Mission Zone.*
+2. ***Reconnaissance:** Before drawing hands, players alternate placing a total of two 'Strategic Directive' tokens onto the battlefield. These tokens may only be placed in Row 3 (Contested Zone) or Row 4 (Enemy Vanguard). They cannot be placed in a player's own Row 1 or Row 2.
+3. ***Initiative:** Flip a coin or roll a die to determine the starting player for the first round.*  
+4. ***Draw:** Each player draws cards equal to their default Maximum Hand Size (5).*  
+5. ***Mulligan:** A player may choose to shuffle their entire hand back into their deck and redraw 5 cards. This may only be done once per game.*
 
 ### ***B. The Game Round***
 
@@ -114,10 +117,12 @@
 *On your turn, you must perform exactly ONE of the following actions, after which the turn immediately passes clockwise:*
 
 * ***Deploy:** Pay the required CP cost to play a card from your hand. Units must be deployed to the Back Row unless they possess a keyword stating otherwise, and must respect Quadrant Capacity limits. Assets are deployed to the Loadout Area. Upgrades are attached directly to valid units. Terrain is played directly onto a Quadrant.*  
-* ***Move:** Relocate a ready unit one quadrant into an adjacent friendly quadrant (e.g., from Back-Left to Front-Left). The unit must respect the capacity limits of the destination quadrant and is immediately exhausted upon completing the movement.*  
-* ***Attack:** Exhaust a ready unit to declare an attack against an enemy unit within its valid range.*  
+* ***Move:** Relocate a ready unit one orthogonal quadrant. The unit is immediately exhausted.*  
+* ***Attack:** Exhaust a ready unit to declare an attack against an enemy unit within its valid range.* 
+* ***Tactical Advance:** Relocate a ready unit one orthogonal quadrant and immediately declare an attack with it. The unit suffers a strict -2 penalty to its Attack value for this combat resolution, then exhausts.*
 * ***Activate:** Pay any associated costs to trigger an "Active Ability" printed on a card you already control in play.*  
 * ***Play Event:** Pay the CP cost of an Event card in your hand, fully resolve its text, and place it in your discard pile.*  
+* ***Secure Objective:** Exhaust a ready unit currently occupying a quadrant that contains a Strategic Directive token to claim it, immediately securing a one-time burst of 3 Supremacy Points and permanently removing the token from the board.*
 * ***Pass:** Choose to take no action.*
 
 *The Activation Sequence ends only when all players pass consecutively in an unbroken sequence. If you pass, but your opponent subsequently takes an action, the sequence is broken and you may take another action when the turn returns to you. The specific player who passed first to initiate the unbroken sequence that ends the phase successfully secures Initiative for the next round.*
@@ -136,10 +141,10 @@
 
 *When declaring an attack, a unit's inherent Range dictates its valid targets.*
 
-* ***Close Range:** The unit may only target enemies in strictly adjacent quadrants, which typically means the enemy Front Row units directly opposing it.*  
-* ***Mid Range:** The unit may target adjacent quadrants as well as any diagonal quadrants physically touching the unit's current quadrant.*  
-* ***Far Range:** The unit may target any entity located exactly one row away. A Far Range unit in the Back Row can target any quadrant in the opposing Front Row. A Far Range unit in the Front Row can target any quadrant in the opposing Back Row.*  
-* ***Far Range Override:** If a Far Range unit occupies the Front Row and an enemy unit occupies the directly opposing Close Range quadrant, the Far Range unit may declare an attack against that Close Range enemy. However, executing this Close-Quarters Override inflicts a strict -1 penalty to the attacking unit's Attack value (Attack values cannot be reduced below 0) for the duration of that combat resolution.*
+* ***Range 1:** The unit may only target orthogonally adjacent quadrants.*  
+* ***Range 2:** The unit may target any quadrant up to 2 orthogonal steps away.*  
+* ***Range 3+:** The unit operates as artillery, targeting quadrants up to 3 (or more) orthogonal steps away, subject to physical Line of Sight obstructions.*  
+* ***Flanking Crossfire:** If a defending unit is attacked from a diagonal quadrant, and its directly opposing frontal quadrant is simultaneously occupied by a hostile unit, the defender suffers a permanent -1 Effective Defense penalty for that specific attack resolution, mathematically punishing static formations.*
 
 ### ***B. Combat Resolution and Suppression***
 

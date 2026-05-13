@@ -184,5 +184,5 @@
 * ***Synaptic Mark:** The mark on it's own does nothing, but it is used to target units with other powerful abilitites.*  
 * ***Taunt:** Enemy units that declare an attack must target a unit with Taunt if one is within range and constitutes a valid target.*  
 * ***Territorial:** This unit actively blocks enemy deployment and movement into any adjacent quadrant, including corresponding enemy Front Row quadrants.* 
-* ***Zeal:** The first time this unit would be destroyed in a given Game Round, it instead survives, removes all accumulated damage and Impact counters, and immediately becomes Suppressed.*
+* ***Zeal:** The first time this unit would be destroyed in a given Game Round, it instead survives, removes all accumulated upgrades and counters, and immediately becomes Suppressed.*
 * ***Horde:*** when taking an Attack action, your units with the Horde keyword in that quadrant can attack and exhaust as a single action.*

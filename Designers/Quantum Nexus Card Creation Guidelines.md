@@ -43,7 +43,7 @@ When assigning statistics (Attack, Defense, and Range) and keywords to Units, de
 
 When designing for the Technology domain, cards should prioritize high Defense values and Far Range capabilities, effectively utilizing keywords such as Impact, Territorial, and Zenith to reflect calculated, long-range superiority.
 
-When designing for the Magic domain, units should exhibit high Attack values but exceptionally low Defense values, heavily utilizing the Arcane Recall and Ward keywords to represent volatile, glass-cannon spellcasters.
+When designing for the Magic domain, units should exhibit high Attack values but exceptionally low Defense values, heavily utilizing the Arcane Recall keyword to represent volatile, glass-cannon spellcasters.
 
 When designing for the Psionics domain, units require balanced combat statistics but highly disruptive utility, relying on keywords like Phantom, Taunt, and Synaptic Mark to control the flow of engagement and obfuscate targeting.
 

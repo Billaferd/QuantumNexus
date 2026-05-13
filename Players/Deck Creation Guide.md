@@ -184,9 +184,9 @@ Leader (17/25 CP):
 
 1x The Silent Judge (8 CP) \- The primary engine for board control via 'Synaptic Mark' removal.
 
-​Play Cards (174/200 CP):
+​Play Cards (178/200 CP):
 
-Units (77 CP):
+Units (81 CP):
 
 4x Cerebral Inquisitor (16 CP) \- The deck's most important unit for hand disruption and information gathering.
 

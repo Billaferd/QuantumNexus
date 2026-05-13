@@ -130,7 +130,7 @@ Combo,Assemble a specific combination of cards for a game-winning effect.,Specif
 
 ​The Technology domain excels at creating resilient boards of 'Construct' units, supported by powerful Assets and Upgrades. The core strategy revolves around leveraging subtype synergies to create an unbreachable wall that grinds the opponent down with 'Impact' damage and efficient attacks.
 
-​Synergy Chain: A player deploys the Leader Director-General Axiom, whose passive grants all other 'Construct' units 'Steadfast'. They then deploy Foreman 44, whose passive gives other 'Construct' units \+1 Defense. Now, a board of otherwise simple units like Sentry Turret and Maintenance Frame becomes a formidable defensive line that is both difficult to move (Steadfast) and hard to destroy (+1 Defense). This durable board can then be supported by Assets like Automated Foundry to generate more 'Construct' tokens or Tactical Uplink to grant all Constructs \+1 Attack, shifting from defense to offense.
+​Synergy Chain: A player deploys the Leader Director-General Axiom, whose passive grants all other 'Construct' units 'Steadfast'. They then deploy Vanguard Phalanx to establish a solid Front Row. Now, a board of otherwise simple units becomes a formidable defensive line that is both difficult to move (Steadfast) and hard to destroy (\+1 Defense). This durable board can then be supported by Assets like Construct Fabricator to generate more 'Construct' tokens or Tactical Uplink to grant all Constructs \+1 Attack, shifting from defense to offense.
 
 ​The Psionic Web (Psionics)
 
@@ -142,7 +142,7 @@ Combo,Assemble a specific combination of cards for a game-winning effect.,Specif
 
 ​The Divinity domain embodies resilience and value-oriented attrition. Its strategies often revolve around the keywords 'Zeal' (surviving destruction), 'Martyrdom' (gaining a benefit upon death), and 'Ritual' (sacrificing units for a powerful effect). This creates a cycle where units are valuable both on the board and in the discard pile.
 
-​Synergy Chain: A board of units with 'Zeal', such as First Martyr or those granted the keyword by the Leader Saint-Queen Elara, is incredibly difficult for an opponent to remove permanently. These resilient units can then be used as fodder for a powerful 'Ritual' ability, such as the one on High Priest of Rites, which sacrifices two friendly units to destroy an enemy unit. If one of the sacrificed units was Martyr's Gift, the player gains 1 CP from its 'Martyrdom' trigger, helping to fuel the next play. This creates a value-generating engine that is difficult to disrupt because it benefits from its own units being destroyed.
+​Synergy Chain: A board of units with 'Zeal', such as Sanctified Battle-Priest or those granted the keyword by the Leader Saint-Queen Elara, is incredibly difficult for an opponent to remove permanently. These resilient units can then be used as fodder for a powerful ability, such as the one on Altar of Zeal, which destroys a friendly unit to resurrect another. If one of the sacrificed units was Zealous Chaplain, the player gains 1 CP from its 'Martyrdom' trigger, helping to fuel the next play. This creates a value-generating engine that is difficult to disrupt because it benefits from its own units being destroyed.
 
 ​3.3 The Art of the Curve and the Alternating Activation
 
@@ -188,7 +188,7 @@ Leader (17/25 CP):
 
 Units (77 CP):
 
-4x Synaptic Infiltrator (12 CP) \- The deck's most important unit for applying 'Synaptic Mark'.
+4x Cerebral Inquisitor (16 CP) \- The deck's most important unit for hand disruption and information gathering.
 
 3x Thought-Reader (9 CP) \- Provides perfect information about the opponent's hand.
 

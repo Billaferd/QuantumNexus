@@ -79,10 +79,10 @@
 **Please rate the clarity, ease of use, and perceived balance of the following core game keywords that appeared in your match. Note any rules arguments or confusion that arose.**
 
 * **Technology: Territorial, Impact, Zenith, Fortified Positions.**  
-* **Magic: Arcane Recall, Ward, Transmute.**  
+* **Magic: Arcane Recall.**  
 * **Psionics: Phantom, Taunt, Synaptic Mark, Skirmisher.**  
 * **Divinity: Zeal, Martyrdom, Phalanx.**  
-* **Neutral/General: Steadfast, Swarm, Horde, Consume, Static.**
+* **Neutral/General: Steadfast, Swarm, Horde.**
 
 **Comments on Specific Keywords: \[Provide details here\]**
 

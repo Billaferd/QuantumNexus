@@ -170,4 +170,4 @@ Tier 4 Climaxes represent the game-ending Bombs. Initiating a total board wipe t
 | Create three 2/2 Spirit tokens (Flying, Ethereal). | 6.0 CP | Divinity | Tier 3: Major Removal |
 | Board Wipe: Destroy all Units in the Front Row. | 8.0 CP | Tech / Magic | Tier 4: The "Bomb" |
 | Invulnerability: Your Units cannot be destroyed this sequence. | 8.0 CP | Divinity / Tech | Tier 4: The "Bomb" |
-| Temporal Shift: Take two consecutive actions on your first turn next round. | 9.0 CP | Magic | Tier 4: The "Bomb" |
+| Temporal Shift: During the next round's Activation Sequence, the first Event card you play does not consume your action. | 9.0 CP | Magic | Tier 4: The "Bomb" |

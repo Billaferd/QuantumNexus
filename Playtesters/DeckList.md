@@ -27,7 +27,7 @@
 | Magic      | Mana Surge                | 4     | Event     | Spell         | Magic      | 1             | 2             | 8                     |
 | Magic      | Erase from Time           | 2     | Event     | Spell         | Magic      | 3             | 6             | 12                    |
 | Magic      | Echo Projection           | 3     | Event     | Tactic        | Psionics   | 1             | 2             | 6                     |
-| Magic      | Archmage's Mantle         | 2     | Upgrade   | Magic         | Magic      | 2             | 4             | 8                     |
+| Magic      | Archmage's Mantle         | 2     | Event     | Magic         | Magic      | 2             | 4             | 8                     |
 | Magic      | Supernova Catalyst        | 2     | Event     | Spell         | Magic      | 4             | 10            | 20                    |
 | Magic      | Cognitive Dissonance      | 2     | Event     | Tactic        | Psionics   | 2             | 4             | 8                     |
 | Magic      | Mental Shatter            | 1     | Event     | Tactic        | Psionics   | 2             | 6             | 6                     |

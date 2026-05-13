@@ -6,7 +6,7 @@ This document establishes the definitive visual framework for the Quantum Nexus 
 
 ### **Vision Statement**
 
-Quantum Nexus is a universe defined by the collision of **Grounded Futurism** and **Transcendent Power**. Our aesthetic must capture the inherent tension and emergent synergy between the tangible, understandable laws of technology and the inexplicable, reality-bending forces of magic, psionics, divinity, unbound biology, and systemic decay. Every piece of art must tell a story of this intersection, reflecting a universe where a perfectly calibrated railgun slug can be stopped by a whispered prayer, a psychic’s precognitive flash can outmaneuver the most advanced battle computer, a hyper-evolved organism can consume and repurpose both, and an entropic signal can erase them all from existence.
+Quantum Nexus is a universe defined by the collision of **Grounded Futurism** and **Transcendent Power**. Our aesthetic must capture the inherent tension and emergent synergy between the tangible, understandable laws of technology and the inexplicable, reality-bending forces of magic, psionics, and divinity. Every piece of art must tell a story of this intersection, reflecting a universe where a perfectly calibrated railgun slug can be stopped by a whispered prayer, a psychic’s precognitive flash can outmaneuver the most advanced battle computer, a hyper-evolved organism can consume and repurpose both, and an entropic signal can erase them all from existence.
 
 ### **Core Artistic Pillars**
 
@@ -31,7 +31,7 @@ Light is our primary tool for conveying the nature of power. The source, quality
 
 A strong and consistent sense of scale and materiality will ground our world and make it believable.
 
-* **Scale**: The constructs of Technology are massive, heavy, and industrial. The architecture of Divinity is monumental and cathedral-like. Magic's effects can be vast in scope but should feel energetic and weightless. Psionics operates on a more personal, precise scale, even when its effects are profound. Biology's scale is fractal, from the microscopic virus to the continent-spanning hive-mind. Entropy operates on a conceptual scale, visualizing the deconstruction of information itself.  
+* **Scale**: The constructs of Technology are massive, heavy, and industrial. The architecture of Divinity is monumental and cathedral-like. Magic's effects can be vast in scope but should feel energetic and weightless. Psionics operates on a more personal, precise scale, even when its effects are profound.  
 * **Materiality**: Textures must be rendered with high fidelity. Artists must convey the cold, brushed feel of tungsten steel, the gritty texture of reinforced concrete, the shimmering heat of a freshly cast spell, the unsettling, seamless smoothness of a psionic construct, the wet, glistening texture of alien flesh, and the glitching, pixelated decay of an entropic effect.
 
 ## **Universal Design Principles**
@@ -58,8 +58,6 @@ Each of the six domains possesses a unique mechanical and philosophical identity
 | **Magic** | Unstable Reality | Fluid, chaotic, organic spirals, fractals, impossible geometry. | Vibrant, saturated magenta, cyan, iridescent purples. Clashing and bleeding. | Solidified light, crystalline energy, shifting smoke. Smooth, glassy, crackling. | Uncontained, expressive, raw. Spilling, arcing, dissolving. |
 | **Psionics** | Sleek Subterfuge | Minimalist, aerodynamic, sharp edges, negative space. | Cool, monochromatic indigos and greys. Single, vibrant accent (cyan, violet). | Polished chrome, form-fitting bodysuits, hard-light. Pristine, seamless. | Subtle, precise, internal. Distortions, shimmers, unseen forces. |
 | **Divinity** | Gothic Ascendancy | Monumental, vertical, ornate arches, filigree. | Regal gold, cream, crimson, deep blue. | Polished marble, stained glass, gilded metal, consecrated stone. Ancient, preserved. | Radiant, holy, volumetric. Golden halos, beams of light, rising spirits. |
-| **Biology** | Predatory Evolution | Asymmetrical, organic, chitinous, sinewy, fractal. | Sickly greens, bruised purples, fleshy pinks, bone-white. Toxic yellow accents. | Glistening flesh, porous bone, taut sinew, viscous slime. Wet and unsettling. | Corrosive, infectious, adaptive. Acid sprays, spore clouds, mutating flesh. |
-| **Entropy** | Creeping Silence | Deconstructed, pixelated, glitching, voids, negative space made manifest. | Stark black and white, digital grey, accented with acidic greens or corrupted magenta "error" signals. | Glitching pixels, corrupted data blocks, pure null-space, de-rezzed matter. | Digital static, signal decay, visual noise, violent deletion artifacts. |
 
 ### **1.1 Domain: Technology**
 
@@ -93,22 +91,6 @@ Each of the six domains possesses a unique mechanical and philosophical identity
 * **Environment & Architecture**: Their architecture blends Gothic cathedrals with impregnable fortresses. A Celestial sanctuary might be a city built on a cloud, with towers of polished marble and stained-glass windows depicting their history. An Infernal sacrificial pit is a volcanic, obsidian temple carved with jagged runes, illuminated by the hellfire of their rituals.  
 * **Character Design Considerations**: Divinity silhouettes are monumental and instantly recognizable, defined by heavy, ornate plate armor, large pauldrons, flowing tabards, halos, and angelic or demonic wings. Poses should be stoic, pious, or monumental, reflecting unwavering conviction. Even their basic units should feel like statues brought to life.
 
-### **1.5 Domain: Biology**
-
-* **Core Philosophy**: Embodies life unbound, driven to consume, adapt, and multiply. They win with evolving horrors (Adapt, Evolve), corrupting Bio-Terrain, and Consume effects.  
-* **Visual Keystone**: Predatory Evolution.  
-* **Energy & VFX**: Messy and visceral. Adapt is a wound rapidly sealing over with tougher flesh or bone spurs. Consume shows a creature devouring a foe, its own biomass swelling. Evolve is a dramatic, painful-looking transformation.  
-* **Environment & Architecture**: Their environments are living worlds. A Verdant Host planet is a single, interconnected, symbiotic jungle, where giant, ancient trees form the architecture and rivers pulse with nutrient-rich sap. A Scourge-infested world is a cancerous landscape of pulsating biomass, chitinous hives, and pools of acidic digestive fluids, all under a sickly, spore-choked sky.  
-* **Character Design Considerations**: This domain offers the most freedom for creating unique silhouettes. Designs must be organic, asymmetrical, and often inhuman. Focus on creating forms inspired by insects, deep-sea life, and alien flora, fused in unsettling ways. Poses should be predatory and animalistic—crouched, lunging, or coiled to strike. Avoid humanoid forms unless they are clearly being corrupted or consumed by biological growth.
-
-### **1.6 Domain: Entropy**
-
-* **Core Philosophy**: Represents dissolution and unmaking. Wins by corrupting a card's identity with the Static state, then purging it from existence with Nullify.  
-* **Visual Keystone**: The Creeping Silence.  
-* **Energy & VFX**: Digital decay. Static is a heavy layer of television-like static or a pixelated "scrambled" overlay covering a card's art and rule box. Nullify is a clean, violent deletion effect: the target pixelates intensely and then vanishes into nothing.  
-* **Environment & Architecture**: Entropic spaces are "non-places." They exist as glitches in reality's code. This could be a "quarantined server," a vast, silent, white void where the only features are floating, corrupted data blocks. Or it could be a "de-rezzed zone," a landscape where trees, buildings, and the ground itself are dissolving into flickering static and null-data cubes.  
-* **Character Design Considerations**: Entropy characters are the most abstract. Their silhouettes should appear unstable or incomplete, as if they are being de-rezzed from reality. Their forms could be made of pure data, glitching between different states, or be humanoid shapes with parts of their body missing or dissolving into static. Poses can be unnervingly still and robotic or violently distorted, as if caught between frames of an animation.
-
 ## **Part II: The Synthesis – Hybrid Domain Art Direction**
 
 Hybrid cards represent new, synergistic philosophies. The art must reflect this synthesis, creating a look that is more than the sum of its parts.
@@ -121,12 +103,6 @@ Hybrid cards represent new, synergistic philosophies. The art must reflect this 
 | **Magic / Psionics** | The Mind Weavers: "Reality is a perception; we shape perception." | **Structured Chaos**: Magic provides the raw energy; Psionics provides the intelligent design. |
 | **Magic / Divinity** | The Theurges: "Faith is the source; magic is the grammar to speak it." | **Formalized Miracles**: Divinity provides the power source; Magic provides the delivery method. |
 | **Psionics / Divinity** | The Silent Inquisition: "The strongest will is the purest faith." | **Austere Presence**: Divinity provides the foundation; Psionics provides the projecting force. |
-| **Technology / Biology** | The Flesh-Forge: "Perfection is not built, it is grown." | **Infection & Assimilation**: Giger-esque biomechanics. Wires and veins are indistinguishable. Armor is grown from bone. |
-| **Technology / Entropy** | The System Auditor: A hard control "prison" strategy. | **Systemic Corruption**: Clean, high-tech surfaces are afflicted with patches of digital decay. Orderly constructs flicker with static. |
-| **Magic / Biology** | The Life-Weavers: "Life is the ultimate arcane medium, and we are its sculptors." | **Unnatural Selection**: Creatures whose forms are twisted by magic into impossible shapes. Spells spawn swarms of living organisms. |
-| **Psionics / Biology** | The Hive Mind: "Individuality is a disease. The swarm is the cure." | **The Body as a Network**: Creatures linked by visible psychic tendrils or sharing a single, glowing hive-mind symbol. |
-| **Divinity / Biology** | The Sacred Grove: "The divine is not a distant god, but the sacred, hungry cycle of life and death itself." | **A Living Cathedral**: A fusion of animal, plant, and fungal life forming a sacred ecosystem. Divine light is bioluminescent. |
-| **Divinity / Entropy** | The Inquisitor: A slow, grinding control strategy. | **Hallowed Decay**: The iconography of Divinity is being "unmade." Marble statues crack and pixelate. Holy light is "deleted" at the edges. |
 
 ## **Part III: The Canvas – Card Type Visual Language**
 
@@ -157,8 +133,6 @@ For a full-art card design, the informational overlays are a critical part of th
 * **Magic:** Overlays have soft, fluid borders that seem to bleed into the art. The fill is a swirling, iridescent transparency, like smoke trapped under glass. Typography for titles is an elegant, slightly arcane serif font, while rules text remains highly legible.  
 * **Psionics:** Overlays are minimalist and sleek, using sharp hexagons or clean, thin lines to delineate information. The fill is a cool, dark indigo with very low opacity. Typography is a modern, lightweight sans-serif, emphasizing clarity and negative space.  
 * **Divinity:** Overlays incorporate the shapes of gothic arches and have filigree patterns in the corners. The transparency has a faint golden tint and a texture that mimics polished marble or stained glass. Typography is a classic, regal serif font like **Cinzel**.  
-* **Biology:** Overlays have organic, asymmetrical shapes, as if they are stretched membranes or cross-sections of a cell. The borders are textured to look like chitinous plates or woven sinew. The fill is a sickly, semi-transparent green or purple.  
-* **Entropy:** Overlays are intentionally unstable. The borders are sharp-angled but constantly flicker and "glitch," with small blocks of pixels appearing and disappearing. The fill is a dark grey static pattern. Typography is a monospaced font like **Courier New**, as if being read from a terminal, with occasional "corrupted" characters.  
 * **Hybrid Cards:** The overlays for hybrid cards should be a tasteful fusion of their parent domains. For example, a Divinity/Entropy card might have the gothic arch shape of Divinity, but its border is pixelating and decaying in the style of Entropy.
 
 ### **Standardized Keyword & State Iconography**
@@ -168,11 +142,8 @@ To ensure at-a-glance readability, key mechanics should be represented by a stan
 * **Impact**: A symbol of a shield with a spiderweb crack through it.  
 * **Zeal**: A radiant, stylized halo or a simplified phoenix icon.  
 * **Adapt**: An upward-pointing, spiraling arrow, suggesting growth.  
-* **Arcane Recall**: An open book with a swirling, ghost-like rune rising from its pages.  
-* **Consume**: A set of stylized, sharp teeth or mandibles in a "C" shape.  
-* **Evolve**: A DNA helix icon that transitions into a larger, more complex shape.  
-* **Nullify**: A circle with a hard, clean line striking through it, representing deletion.  
-* **Static (State)**: A square filled with a noisy, television-static pattern.  
+* **Arcane Recall**: An open book with a swirling, ghost-like rune rising from its pages.
+
 * **Suppressed (State)**: A downward-pointing arrow inside a broken circle, indicating a kneeling/vulnerable state.  
 * **Phantom**: A stylized eye that is partially transparent or fading.  
 * **Taunt**: A targeting reticle with an exclamation point in the center.

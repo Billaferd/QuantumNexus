@@ -1,22 +1,22 @@
-The Nexus Architect's Handbook: A Comprehensive Tome of Deck Building
+# The Nexus Architect's Handbook: A Comprehensive Tome of Deck Building
 
 ​Part I: The Unbreakable Laws of Deck Construction
 
 ​The path to victory in Quantum Nexus begins not on the battlefield, but at the architect's table. Before a single unit is deployed or a Command Point is spent, a player must first master the art of deck construction. This is a discipline governed by a precise set of rules, a framework of constraints that channels creativity and ensures a balanced contest of strategic wills. Understanding these foundational laws is the bedrock upon which all advanced strategies are built. They are not merely suggestions; they are the unbreakable code that defines a legal and functional deck.
 
-​1.1 The 200 CP Budget: A Point-Buy Philosophy
+​1.1 The 200 RP Budget: A Point-Buy Philosophy
 
-​The single most defining constraint in Quantum Nexus deck building is the Requisition Point (RP) budget. The main deck—which includes all Unit, Leader, Asset, Event, Upgrade, and Terrain cardsmust contain cards with a maximum total RP value of 200, establishing a strict power ceiling that is entirely divorced from the runtime Command Point (CP) action economy utilized during live gameplay. Each of these cards features its RP cost prominently in its top-right corner, serving as a constant reminder of its impact on your overall budget. Mission Cards are explicitly excluded from this 200 RP limit and function under a separate system, which will be detailed later.
+​The single most defining constraint in Quantum Nexus deck building is the Requisition Point (RP) budget. The main deck—which includes all Unit, Leader, Asset, Event, Upgrade, and Terrain cards—must contain cards with a maximum total RP value of 200, establishing a strict power ceiling that is entirely divorced from the runtime Command Point (CP) action economy utilized during live gameplay. Each of these cards features its RP cost prominently, serving as a constant reminder of its impact on your overall deck-building budget. Mission Cards are explicitly excluded from this 200 RP limit and function under a separate system, which will be detailed later.
 
-​Crucially, the rules place no specific minimum or maximum limit on the number of individual cards in the main deck, the cost of the cards will dictate the deck size. This creates a fundamental departure from many other trading card games that mandate a fixed card count. Quantum Nexus instead employs a "point-buy" system, forcing a critical strategic tension between the quantity of cards in a deck and their individual quality, as measured by CP cost.
+​Crucially, the rules place no specific minimum or maximum limit on the number of individual cards in the main deck; the RP cost of the cards will dictate the deck's physical volume. This creates a fundamental departure from many other trading card games that mandate a fixed card count. Quantum Nexus instead employs a "point-buy" system, forcing a critical strategic tension between the quantity of cards in a deck and their individual quality, as measured by RP cost.
 
-​This system presents the architect with a profound choice. One could construct a deck of 50 cards with an average cost of 4 CP each, creating a deep well of options but potentially diluting the power of any single draw. Conversely, one could build a deck of 25 cards with an average cost of 8 CP, packing it with high-impact "bombs" that can dominate the board individually. This latter approach, however, risks creating an inflexible hand and offering fewer actions over the course of a game. This decision between a swarm of cheaper, more numerous threats and a select cadre of elite, expensive powerhouses is a core component of a deck's identity, influencing everything from opening hands to late-game consistency.
+​This system presents the architect with a profound choice. One could construct a deck of 50 cards with an average cost of 4 RP each, creating a deep well of options but potentially diluting the power of any single draw. Conversely, one could build a deck of 25 cards with an average cost of 8 RP, packing it with high-impact "bombs" that can dominate the board individually. This latter approach, however, risks creating an inflexible hand and offering fewer units to physically occupy the spatial matrix over the course of a game. This decision between a swarm of cheaper, more numerous threats and a select cadre of elite, expensive powerhouses is a core component of a deck's identity, influencing everything from opening hands to late-game consistency.
 
 ​1.2 The Leadership Council: Capping Your Command Structure
 
-​Leaders are the keystones of an army, powerful units with game-altering abilities and formidable stats. To balance their immense influence, their inclusion is strictly regulated. Within the maximum 200 CP budget for the main deck, a player may allocate no more than 25 CP to cards bearing the 'Leader' subtype. This cap is a sub-limit of the main 200 CP budget, not in addition to it.
+​Leaders are the keystones of an army, functioning as concentrated synergy hubs with game-altering abilities and formidable stats. To balance their immense influence, their inclusion is strictly regulated. Within the maximum 200 RP budget for the main deck, a player may allocate no more than 25 RP to cards bearing the 'Leader' subtype. This cap is a sub-limit of the main 200 RP budget, not in addition to it.
 
-​This rule, combined with the in-game restriction of deploying only one of your Leaders per quadrant, forces a difficult and meaningful choice regarding your army's command structure. It prevents players from simply filling their decks with the most powerful cards in the game, compelling them to invest in a well-rounded supporting cast. The 25 RP cap creates a balancing act between power concentration and strategic flexibility. A player might choose to field two hyper-elite 9 CP Leaders and a single 7 CP Leader, hitting the 25 RP limit exactly with just three cards, such as a combination of The Forge-Star and Siege-Captain Valerius alongside another powerful commander. This concentrates immense power in a few key figures. Alternatively, a player could opt for three moderately-priced 8 CP Leaders, leaving 1 CP of their Leader budget unused but gaining greater flexibility in deployment and board presence. This decision defines the nature of your leadership—a small council of titans or a broader assembly of capable commanders—and is a foundational pillar of your deck's strategic identity.
+​This rule, combined with the in-game restriction of deploying only one of your Leaders per quadrant, forces a difficult and meaningful choice regarding your army's command structure. It prevents players from simply filling their decks with the most powerful cards in the game, compelling them to invest in a well-rounded supporting cast. The 25 RP cap creates a balancing act between power concentration and strategic flexibility. A player might choose to field two hyper-elite 9 RP Leaders and a single 7 RP Leader, hitting the 25 RP limit exactly with just three cards, such as a combination of The Forge-Star and Siege-Captain Valerius alongside another powerful commander. This concentrates immense power in a few key figures. Alternatively, a player could opt for three moderately-priced 8 RP Leaders, leaving 1 RP of their Leader budget unused but gaining greater flexibility in deployment and board presence. This decision defines the nature of your leadership—a small council of titans or a broader assembly of capable commanders—and is a foundational pillar of your deck's strategic identity.
 
 ​1.3 The Rule of Duplicates
 
@@ -42,19 +42,19 @@ Play Card Legality,Card's DP ≤ Mission's Total DP,Must be true for every domai
 
 Duplicates,As printed on card,All card types
 
-​Part II: The Strategic Foundation \- Mastering Your Missions
+​Part II: The Strategic Foundation - Mastering Your Missions
 
-​While the 200 RP budget dictates the physical substance of a deck, the Mission Cards dictate its soul. The single most important decision an architect makes is the selection of their Mission package. These cards, set aside and visible from the start of the game, are not mere side-quests; they are the constitution of your deck, the strategic DNA from which all other choices flow. They establish your resource engine, define the very pool of cards you are legally allowed to play, and signpost your overarching path to victory.
+​While the 200 RP budget dictates the physical substance of a deck, the Mission Cards dictate its soul. The single most important decision an architect makes is the selection of their Mission package. These cards, set aside and visible from the start of the game, are not mere side-quests; they are the constitution of your deck, the strategic DNA from which all other choices flow. They establish your dynamic runtime mana sinks, define the very pool of cards you are legally allowed to play, and signpost your overarching path to victory.
 
 ​2.1 The "Mission First" Philosophy: Your Strategic DNA
 
-​The rules of Quantum Nexus inherently guide the architect toward a "top-down" design philosophy. At the beginning of game setup, before any other actions, players separate their chosen Mission Cards from their main deck and place them in the Mission Card Area. This simple act has profound implications for the building process. These Missions determine two critical factors for the rest of the game: the base Command Points a player will generate each round, and the Domain Point (DP) legality for every other card in their deck.
+​The rules of Quantum Nexus inherently guide the architect toward a "top-down" design philosophy. At the beginning of game setup, before any other actions, players separate their chosen Mission Cards from their main deck and place them in the Mission Card Area. This simple act has profound implications for the building process. These Missions determine two critical factors for the rest of the game: the Domain Point (DP) legality for every other card in their deck, and the massive runtime Command Point (CP) costs required to unlock their game-ending Theater abilities.
 
 ​This means a player must choose their high-level strategy—embodied by their Missions—before they can select their tactical tools. Attempting to build a deck from the "bottom-up" by first picking powerful units and then trying to find Missions to support them is a path fraught with peril, often leading to an illegal or strategically incoherent deck.
 
 ​Consider a player who is impressed by the powerful 9 RP Leader The Forge-Star. This unit requires 4 Technology DP to be included in a deck. To make this single card legal, the player is now forced to construct a Mission package that provides at least 4 Technology DP. There are very few single Missions that provide this, such as Singularity Engine or Orbital Annihilation Protocol, which both possess 4 Tech DP and 4 Total DP. To meet the requirement of having exactly 6 Total DP, the player must now find two more Mission cards from other domains that provide the remaining 2 DP, such as the 1 DP Hedge Magic and the 1 DP Minor Glitch.
 
-​The consequence of this is that the initial desire to include one powerful unit has dictated the entire architecture of the deck. The player is now locked into a strategy that is heavily focused on the Technology domain, with a specific emphasis on Assets due to Singularity Engine's passive ability ("Your Assets have \+2 Defense"). The architect must therefore begin by asking, "What is the overarching strategy I want to execute?" and then select a Mission package that enables that vision. The Missions, in turn, provide a constrained yet synergistic pool of Play Cards from which to build the army.
+​The consequence of this is that the initial desire to include one powerful unit has dictated the entire architecture of the deck. The player is now locked into a strategy that is heavily focused on the Technology domain, with a specific emphasis on Assets due to Singularity Engine's passive ability ("Your Assets have +2 Defense"). The architect must therefore begin by asking, "What is the overarching strategy I want to execute?" and then select a Mission package that enables that vision. The Missions, in turn, provide a constrained yet synergistic pool of Play Cards from which to build the army.
 
 ​2.2 The Six-Point Mandate: Crafting Your Domain Profile
 
@@ -70,39 +70,39 @@ A 3-2-1-0 spread creates a "major/minor/splash" identity, offering a primary str
 
 ​Solving the puzzle of the 6 DP / 4 DP cap system is a critical step. For instance, a player building a Technology deck might be tempted to combine the 3 DP Strategic Bombardment with the 2 DP Integrated Systems. However, this would result in 5 Technology DP, making the combination illegal. A legal alternative would be to pair Strategic Bombardment (3 Tech DP) with Rudimentary Toolkit (1 Tech DP), for a total of 4 Tech DP. This leaves 2 Total DP to be filled by missions from other domains, solidifying a 4 Tech, X, Y DP profile and defining the deck's access to different strategic tools.
 
-​2.3 The Command Engine: Setting Your CP Salary
+​2.3 The Mana Sink Engine: Managing Your Runtime Costs
 
-​Beyond defining card legality, Mission cards are the economic engine of a deck. The combined CP value of a player's chosen Mission cards determines the base amount of Command Points they will calculate during each Game Round's Start of Round Step. This forms a consistent CP "salary" that fuels all actions during the game.
+​Beyond defining card legality, Mission cards are the economic anchor of a deck. Because every player now receives a standardized, universal salary of exactly 15 Command Points (CP) at the Start of Round Step, Missions no longer dictate a fluctuating baseline income. Instead, analysis of Mission cards reveals the core economic principle of the game: Dynamic Temporal Resource Exchange. 
 
-​Analysis of Mission cards reveals the core economic principle of the game: Temporal Resource Exchange. There is a strict, inverse mathematical relationship between the early-game RP salary a Mission provides and the power of its late-game Theater Level abilities. A player who drafts a Mission Card containing a catastrophic Theater 3 climax—such as a total board wipe—must pay for that inevitable future power through a severely taxed, lower early-game CP salary.
+​There is a strict, direct mathematical relationship between the power of a Mission's late-game Theater Level abilities and the runtime CP cost required to activate them. A player who drafts a Mission Card containing a catastrophic Theater 3 climax—such as a total board wipe—must pay for that inevitable future power by sacrificing a massive portion of their 15 CP salary during the specific round they wish to detonate it, severely taxing their operational tempo.
 
-​Conversely, a Mission Card that offers negligible late-game escalations compensates the player by providing a massive influx of early-game Command Points. This forces architects to decide exactly when their deck is designed to peak. Do you draft a high-RP "Vanguard" package to overwhelm the board in Theater Level 1, knowing you have no late-game power? Or do you draft a heavily taxed "Doomsday" package, surviving on a razor-thin economy early in order to guarantee game-ending explosions when the board reaches Theater Level 3?
+​Conversely, a Mission Card that offers negligible late-game escalations compensates the player by requiring almost zero CP upkeep to trigger, leaving their full 15 CP salary available for deploying units and casting spells. This forces architects to decide exactly when their deck is designed to peak. Do you draft a low-upkeep package to overwhelm the board with a full 15 CP action economy every round? Or do you draft a heavily taxed "Doomsday" package, knowing you will have to paralyze your own deployment phase to afford your game-ending explosions when the board reaches Theater Level 3?
 
-​This creates another layer of strategic choice. A player might opt for a high-yield but high-risk approach, centering their deck on a single 4 DP Keystone mission. A package of Singularity Engine (6 RP), Hedge Magic (2 RP), and Pledge of Faith (3 RP) would yield a base of 11 CP per round, but locks the player into a 4 Tech DP strategy. Another player might choose a more diversified portfolio of six different 1 DP missions. This could yield a higher salary (e.g., a combination totaling 15 RP) and grant access to all six domains (1-1-1-1-1-1), offering incredible flexibility. However, the passive and one-time abilities of these missions would be individually weaker and less synergistic. Choosing a Mission package is therefore akin to setting an investment strategy: a concentrated, high-risk, high-reward "stock" versus a diversified, lower-yield "mutual fund."
+​This creates another layer of strategic choice. A player might opt for a high-yield but high-risk approach, centering their deck on a single 4 DP Keystone mission. A package built around Orbital Annihilation Protocol forces the player into a 4 Tech DP strategy and demands massive CP investments during the match to utilize its bombardment passive and board-wipe climax. Another player might choose a more diversified portfolio of six different 1 DP missions, granting access to all six domains (1-1-1-1-1-1) with incredibly cheap runtime activation costs, offering incredible flexibility. However, the passive and one-time abilities of these missions would be individually weaker. Choosing a Mission package is therefore akin to setting an investment strategy: preparing to pay for a concentrated, high-reward "stock" versus coasting on a diversified, low-upkeep "mutual fund."
 
 ​2.4 Defining Your Doctrine: Passives and One-Time Payoffs
 
-​Finally, Mission cards dictate your deck's strategic progression through the global Theater System. Rather than relying on individual, arbitrary challenges, a Mission's power unlocks automatically as the combined Supremacy Points on the board increase.
+​Finally, Mission cards dictate your deck's strategic progression through the global Theater System. Rather than relying on individual, arbitrary challenges, a Mission's power scales as the combined Supremacy Points on the board increase.
 
 ​Mission Cards are divided into three chronological escalations:
 
-Logistics (Theater 1): The card provides its baseline CP salary to fund the early war (0-7 Combined Points).
+Logistics (Theater 1): The standardized 15 CP salary funds the early war (0-7 Combined Points).
 
-Escalation (Theater 2): A passive doctrine automatically unlocks when the tension rises (8-13 Combined Points).
+Escalation (Theater 2): A passive doctrine becomes available for activation or sustained upkeep via a dynamic runtime CP cost when the tension rises (8-13 Combined Points).
 
-The Climax (Theater 3): A massive, one-time reward detonates instantaneously when total war is achieved (14+ Combined Points).
+The Climax (Theater 3): A massive, one-time reward can be manually triggered by paying its steep runtime CP cost when total war is achieved (14+ Combined Points).
 
 ​Consider the Strategic Bombardment mission profile:
 
-Logistics: Provides 2 CP per round. (Heavily taxed due to late-game power).
+Logistics: Players rely on their baseline 15 CP salary.
 
-Theater 2 Escalation: Your units with 'Far Range' have \+1 Attack.
+Theater 2 Escalation: Your units with 'Range 3+' have +1 Attack (3 CP Upkeep).
 
-Theater 3 Climax: Immediately inflict 'Impact 1' on up to 5 different units your opponent controls.
+Theater 3 Climax: Immediately inflict 'Impact 1' on up to 5 different units your opponent controls (5 CP Cost).
 
-​If an architect selects this Mission, they are actively choreographing a late-game combo. The deck must include efficient 'Far Range' units to exploit the Theater 2 passive, but the true goal is surviving until Theater 3\. The moment the global board hits 14 combined Supremacy Points, this Mission will automatically detonate, crippling the opponent's board. Deck building is no longer about fulfilling micro-objectives; it is about managing the chronological pacing of the war.
+​If an architect selects this Mission, they are actively choreographing a late-game combo. The deck must include efficient artillery units (Range 3+) to exploit the Theater 2 passive, but the true goal is surviving until Theater 3. The moment the global board hits 14 combined Supremacy Points, this Mission can be manually detonated for 5 CP, crippling the opponent's board. Deck building is no longer about fulfilling micro-objectives; it is about managing the chronological pacing of the war.
 
-​Part III: Assembling Your Arsenal \- Synergy and Archetypes
+​Part III: Assembling Your Arsenal - Synergy and Archetypes
 
 ​With the strategic foundation of the Mission package laid, the architect can now turn to the selection of Play Cards. This is the process of assembling a synergistic force of Units, Assets, Events, and other cards that can effectively execute the doctrine defined by the Missions. This selection process is best guided by an understanding of established deck archetypes and the powerful keyword synergies that exist within each domain.
 
@@ -112,13 +112,13 @@ Theater 3 Climax: Immediately inflict 'Impact 1' on up to 5 different units your
 
 ​Table 2: Archetype Philosophy Matrix
 
-​Archetype,Core Goal,Key Resource,Typical CP Curve,Example Mission Synergy
+​Archetype,Core Goal,Key Resource,Typical RP/CP Curve,Example Mission Synergy
 
 Aggro,Win quickly via overwhelming unit pressure and damage.,Board Presence,"Low-to-the-ground, with many cheap, efficient units.",Basic Instinct
 
 Control,Out-value and exhaust the opponent's resources; win in the late game.,Card Advantage,"High-cost finishers and powerful, expensive Events.",Zone of Silence
 
-Midrange,"Dominate the mid-game with high-value, resilient units.",Tempo,"Balanced, peaking with powerful 4-6 CP cost cards.",Integrated Systems
+Midrange,"Dominate the mid-game with high-value, resilient units.",Tempo,"Balanced, peaking with powerful 4-6 RP cost cards.",Integrated Systems
 
 Combo,Assemble a specific combination of cards for a game-winning effect.,Specific Combo Pieces,"Spiky and situational, built to enable a key turn.",Archmage's Legacy
 
@@ -130,13 +130,13 @@ Combo,Assemble a specific combination of cards for a game-winning effect.,Specif
 
 ​The Technology domain excels at creating resilient boards of 'Construct' units, supported by powerful Assets and Upgrades. The core strategy revolves around leveraging subtype synergies to create an unbreachable wall that grinds the opponent down with 'Impact' damage and efficient attacks.
 
-​Synergy Chain: A player deploys the Leader Director-General Axiom, whose passive grants all other 'Construct' units 'Steadfast'. They then deploy Vanguard Phalanx to establish a solid Front Row. Now, a board of otherwise simple units becomes a formidable defensive line that is both difficult to move (Steadfast) and hard to destroy (\+1 Defense). This durable board can then be supported by Assets like Construct Fabricator to generate more 'Construct' tokens or Tactical Uplink to grant all Constructs \+1 Attack, shifting from defense to offense.
+​Synergy Chain: A player deploys the Leader Director-General Axiom, whose passive grants all other 'Construct' units 'Steadfast'. They then deploy Vanguard Phalanx to establish a solid presence in the Vanguard (Row 2) or the Contested Zone (Row 3). Now, a board of otherwise simple units becomes a formidable defensive line that is both difficult to move (Steadfast) and hard to destroy (+1 Defense). This durable board can then be supported by Assets like Construct Fabricator to generate more 'Construct' tokens or Tactical Uplink to grant all Constructs +1 Attack, shifting from defense to offense.
 
 ​The Psionic Web (Psionics)
 
 ​The Psionics domain specializes in disruption and targeted removal, centered on the 'Synaptic Mark' mechanic. The strategy is a two-step process: apply the 'Synaptic Mark' state with enabler cards, then exploit that mark with powerful payoff cards to control the board and the opponent's hand.
 
-​Synergy Chain: A player uses the 3 CP unit Synaptic Infiltrator to apply 'Synaptic Mark' to a key enemy threat. This mark does nothing on its own, but it enables a suite of powerful follow-up plays. On a subsequent turn, the player can activate the Leader The Silent Judge to destroy the marked unit for a mere 2 CP, turning a generic status into hyper-efficient removal. Alternatively, a Psychic Executioner attacking the marked unit gains \+2 Attack, allowing it to trade up against larger foes. This synergy can be scaled up with Events like Mental Collapse, which applies the 'Suppressed' state to all marked units simultaneously, creating a massive tempo swing.
+​Synergy Chain: A player uses the 3 RP / 3 CP unit Synaptic Infiltrator to apply 'Synaptic Mark' to a key enemy threat. This mark does nothing on its own, but it enables a suite of powerful follow-up plays. On a subsequent turn, the player can activate the Leader The Silent Judge to destroy the marked unit for a mere 2 CP, turning a generic status into hyper-efficient removal. Alternatively, a Psychic Executioner attacking the marked unit gains +2 Attack, allowing it to trade up against larger foes. This synergy can be scaled up with Events like Mental Collapse, which applies the 'Suppressed' state to all marked units simultaneously, creating a massive tempo swing.
 
 ​The Divine Host (Divinity)
 
@@ -146,19 +146,19 @@ Combo,Assemble a specific combination of cards for a game-winning effect.,Specif
 
 ​3.3 The Art of the Curve and the Alternating Activation
 
-​In Quantum Nexus, optimizing the CP curve of a deck is a nuanced art that goes beyond simply having a card to play at every cost increment. The game's use of an "Activation Sequence"—where players take alternating single actions—fundamentally changes the nature of resource management. A well-constructed curve in this system is not a simple ramp; it is a carefully balanced portfolio of proactive and reactive plays.
+​In Quantum Nexus, optimizing the CP deployment curve of a deck is a nuanced art that goes beyond simply having a card to play at every cost increment. The game's use of an "Activation Sequence"—where players take alternating single actions—fundamentally changes the nature of resource management. A well-constructed curve in this system is not a simple ramp; it is a carefully balanced portfolio of proactive and reactive plays funded by your 15 CP universal allowance.
 
-​The goal is to build a deck that allows a player to make a significant, proactive play (like deploying a high-cost unit) while still retaining enough CP to make reactive plays (like playing a cheap Event or activating an ability) later in the same Game Round. This creates a dynamic where a player can advance their own board state without leaving themselves completely vulnerable to their opponent's subsequent actions. For example, a player with 10 CP who spends 8 CP on their first action to deploy Director-General Axiom is making a powerful move, but they are also signaling to their opponent that they only have 2 CP remaining for the rest of the round. The opponent can now act with a much higher degree of certainty and safety. In contrast, a player who spends 5 CP on a mid-cost unit retains 5 CP, keeping the opponent guessing and forcing them to play around the potential threat of a powerful Event like the 5 CP Chain Lightning.
+​The goal is to build a deck that allows a player to make a significant, proactive play (like deploying a high-cost unit) while still retaining enough CP to make reactive plays (like playing a cheap Event or activating an ability) later in the same Game Round. This creates a dynamic where a player can advance their own board state without leaving themselves completely vulnerable to their opponent's subsequent actions. For example, a player with 15 CP who spends 12 CP on their first action to deploy Titan-Class Mech is making a powerful move, but they are also signaling to their opponent that they only have 3 CP remaining for the rest of the round. The opponent can now act with a much higher degree of certainty and safety. In contrast, a player who spends 5 CP on a mid-cost unit retains 10 CP, keeping the opponent guessing and forcing them to play around the potential threat of a powerful Event like the 5 CP Chain Lightning.
 
 ​This dynamic is further complicated by the game's initiative system. The player who "passed first" to initiate the final, uninterrupted sequence of passes that ends a round's Activation Sequence gains initiative for the following round. This creates a powerful and highly dangerous "Initiative-Tempo Loop." A player might intentionally conserve CP and pass their action early to force the opponent's hand. If the opponent also passes, the round ends, and the first player successfully "buys" the crucial first action of the next round.
 
-​However, because the Scoring Step occurs immediately after the round ends, passing early is a massive calculated risk. If you pass while your opponent controls the Front Row, your attempt to bank CP and seize initiative will directly bleed Supremacy Points, actively accelerating the opponent's victory and pushing the global Theater Level forward. You must constantly weigh the value of future initiative against the immediate cost of territorial concession. Mastering this delicate balance—knowing when to spend all your resources to press an advantage and when to conserve them to seize initiative—is a hallmark of an expert Nexus Architect.
+​However, because the Scoring Step occurs immediately after the round ends, passing early is a massive calculated risk. If you pass while your opponent physically occupies the neutral Contested Zone (Row 3), your attempt to bank CP and seize initiative will directly bleed Supremacy Points, actively accelerating the opponent's victory and pushing the global Theater Level forward. You must constantly weigh the value of future initiative against the immediate cost of territorial concession. Mastering this delicate balance—knowing when to spend all your resources to press an advantage and when to conserve them to seize initiative—is a hallmark of an expert Nexus Architect.
 
-​Part IV: Blueprints for Victory \- Example Deck Analyses
+​Part IV: Blueprints for Victory - Example Deck Analyses
 
-​Theory provides the framework, but practice builds the engine. This section presents three complete, legal, and strategically coherent decklists as case studies. Each blueprint demonstrates the "Mission First" philosophy, showcasing how Mission selection dictates card choices, keyword synergies, and the optimization of the CP curve to create a powerful, focused machine.
+​Theory provides the framework, but practice builds the engine. This section presents three complete, legal, and strategically coherent decklists as case studies. Each blueprint demonstrates the "Mission First" philosophy, showcasing how Mission selection dictates card choices, keyword synergies, and the optimization of the RP/CP curves to create a powerful, focused machine.
 
-4. ​1 Decklist: "Liana's Mental Siege" (Psionic Control)
+4.1 Decklist: "Liana's Mental Siege" (Psionic Control)
 
 ​This is a pure control deck that seeks to win by systematically dismantling the opponent's strategy. It attacks the opponent's hand with discard effects, their board with 'Synaptic Mark' synergies, and their mind with information warfare, ultimately achieving victory by stripping them of all viable options.
 
@@ -166,81 +166,81 @@ Combo,Assemble a specific combination of cards for a game-winning effect.,Specif
 
 Total DP Profile: 4 Psionics, 2 Magic (Total: 6/6)
 
-Base CP per Round: 8
+Universal CP Salary: 15 CP per Round
 
 Missions:
 
-Psionic Supremacy (4 Psionic DP, 5 CP): A devastating Keystone mission that blanks keywords and provides a powerful hand-attack ability.
+Psionic Supremacy (4 Psionic DP): Theater 2 Upkeep: 8 CP. Climax Cost: 12 CP. A devastating Keystone mission that blanks keywords and provides a powerful hand-attack ability.
 
-Standard Spellcraft (2 Magic DP, 3 CP): Provides crucial card draw in a deck that relies on finding specific Event-based answers.
+Standard Spellcraft (2 Magic DP): Theater 2 Upkeep: 3 CP. Climax Cost: 7 CP. Provides crucial card draw in a deck that relies on finding specific Event-based answers.
 
-Justification: This package creates a high-power, low-economy control build. The low base CP of 8 is a significant trade-off, demanding extremely efficient use of resources. However, the sheer power of Psionic Supremacy's passive keyword blanking and its one-time hand destruction ability can justify the economic deficit. Standard Spellcraft helps mitigate the low CP by providing card advantage.
+Justification: This package creates a high-power, high-upkeep control build. The exorbitant runtime CP costs of the Theater abilities are a significant trade-off, demanding extremely efficient use of resources during deployment. However, the sheer power of Psionic Supremacy's passive keyword blanking and its one-time hand destruction climax justifies the massive runtime economic deficit. 
 
 ​Decklist
 
-Leader (17/25 CP):
+Leader (17/25 RP):
 
-1x Matriarch Liana (9 CP) \- The primary engine for hand disruption.
+1x Matriarch Liana (9 RP) - The primary engine for hand disruption.
 
-1x The Silent Judge (8 CP) \- The primary engine for board control via 'Synaptic Mark' removal.
+1x The Silent Judge (8 RP) - The primary engine for board control via 'Synaptic Mark' removal.
 
-​Play Cards (178/200 CP):
+​Play Cards (178/200 RP):
 
-Units (81 CP):
+Units (81 RP):
 
-4x Cerebral Inquisitor (16 CP) \- The deck's most important unit for hand disruption and information gathering.
+4x Cerebral Inquisitor (16 RP) - The deck's most important unit for hand disruption and information gathering.
 
-3x Thought-Reader (9 CP) \- Provides perfect information about the opponent's hand.
+3x Thought-Reader (9 RP) - Provides perfect information about the opponent's hand.
 
-2x Psychic Executioner (8 CP) \- Efficient removal for marked targets.
+2x Psychic Executioner (8 RP) - Efficient removal for marked targets.
 
-2x Mind-Eater (12 CP) \- Combines board removal with hand disruption.
+2x Mind-Eater (12 RP) - Combines board removal with hand disruption.
 
-1x Thought Tyrant (8 CP) \- A massive tempo swing on deployment, ripping two cards from hand.
+1x Thought Tyrant (8 RP) - A massive tempo swing on deployment, ripping two cards from hand.
 
-3x Mental Decoy (6 CP) \- 'Taunt' unit to protect key Leaders and enablers.
+3x Mental Decoy (6 RP) - 'Taunt' unit to protect key Leaders and enablers.
 
-3x Phantom Agent (12 CP) \- A resilient unit that is hard to target.
+3x Phantom Agent (12 RP) - A resilient unit that is hard to target.
 
-2x Puppeteer (10 CP) \- Locks down enemy units.
+2x Puppeteer (10 RP) - Locks down enemy units.
 
-​Assets (21 CP):
+​Assets (21 RP):
 
-3x Cerebral Inhibitor (9 CP) \- Taxes opponent's Events, slowing them down.
+3x Cerebral Inhibitor (9 RP) - Taxes opponent's Events, slowing them down.
 
-2x Thought Prison (10 CP) \- A powerful active ability to lock the opponent out of playing certain card types.
+2x Thought Prison (10 RP) - A powerful active ability to lock the opponent out of playing certain card types.
 
-1x Scrying Pool (2 CP) \- Cheap card filtering.
+1x Scrying Pool (2 RP) - Cheap card filtering.
 
-​Events (64 CP):
+​Events (64 RP):
 
-3x Mind Scan (3 CP) \- Cheap and repeatable hand information.
+3x Mind Scan (3 RP) - Cheap and repeatable hand information.
 
-3x Mental Static (3 CP) \- Shuts down activated abilities.
+3x Mental Static (3 RP) - Shuts down activated abilities.
 
-3x Thought Extraction (9 CP) \- Targeted discard.
+3x Thought Extraction (9 RP) - Targeted discard.
 
-2x Mental Collapse (6 CP) \- Board-wide suppression for marked units.
+2x Mental Collapse (6 RP) - Board-wide suppression for marked units.
 
-2x Synaptic Purge (8 CP) \- Returns all marked units to an opponent's hand.
+2x Synaptic Purge (8 RP) - Returns all marked units to an opponent's hand.
 
-2x Mental Block (6 CP) \- Disrupts the opponent's draw.
+2x Mental Block (6 RP) - Disrupts the opponent's draw.
 
-1x Cerebral Reboot (7 CP) \- A panic button to disrupt a well-sculpted hand.
+1x Cerebral Reboot (7 RP) - A panic button to disrupt a well-sculpted hand.
 
-2x Arcane Intellect (6 CP) \- Pure card draw.
+2x Arcane Intellect (6 RP) - Pure card draw.
 
-2x Unravel Reality (6 CP) \- Returns a mid-sized threat to an opponent's hand.
+2x Unravel Reality (6 RP) - Returns a mid-sized threat to an opponent's hand.
 
-2x Mass Unsummoning (10 CP) \- Board clear for smaller units.
+2x Mass Unsummoning (10 RP) - Board clear for smaller units.
 
-​Upgrades (12 CP):
+​Upgrades (12 RP):
 
-4x Neural Intrusion (12 CP) \- Turns any attacker into a 'Synaptic Mark' applicator.
+4x Neural Intrusion (12 RP) - Turns any attacker into a 'Synaptic Mark' applicator.
 
-​Strategic Analysis: This deck has a very low-to-the-ground CP curve, relying on a multitude of cheap, disruptive Events and low-cost units. The strategy is to survive the early game using 'Taunt' and cheap removal, while setting up 'Synaptic Marks'. The mid-game is about controlling the flow of information with Mind Scan and Thought-Reader, and then using that information to surgically remove threats from the opponent's hand with Matriarch Liana or Thought Extraction. The win condition is attrition; the opponent is left with no cards in hand and no meaningful threats on the board.
+​Strategic Analysis: This deck has a very low-to-the-ground RP curve, relying on a multitude of cheap, disruptive Events and low-cost units to compensate for the massive CP sinks generated by its Missions. The strategy is to survive the early game using 'Taunt' and cheap removal, while setting up 'Synaptic Marks'. The mid-game is about controlling the flow of information with Mind Scan and Thought-Reader, and then using that information to surgically remove threats from the opponent's hand with Matriarch Liana or Thought Extraction. The win condition is attrition; the opponent is left with no cards in hand and no meaningful threats on the 5x3 grid.
 
-​Part V: The Evolving Battlefield \- Advanced Strategic Theory
+​Part V: The Evolving Battlefield - Advanced Strategic Theory
 
 ​Mastering the foundational rules and archetypes is the price of entry to competitive Quantum Nexus. Ascending to the level of a true Nexus Architect requires an understanding of the more abstract, dynamic forces that govern the game: the shifting metagame, the delicate balance of tempo and advantage, and the commitment to continuous improvement.
 
@@ -248,7 +248,7 @@ Units (81 CP):
 
 ​A deck is not constructed in a vacuum. Its strength is relative, measured by its performance against the other decks popular in the current play environment—the "metagame". Advanced deck building requires a player to analyze this metagame, identify dominant strategies, and adapt their own deck to counter them. This is often accomplished through the inclusion of "tech choices".
 
-​A tech choice is a card included not for its general utility, but for its specific effectiveness against a prevalent threat. For example, if the metagame is saturated with Technology decks that rely on a suite of powerful Assets to generate value, a Psionic control player might dedicate a few of their 200 CP to include two copies of the Magic Event Disperse Magic. This 2 CP Event can destroy a target Asset with 3 or less Defense. While this card may be useless against a Divinity deck with no Assets, its inclusion is a calculated decision to improve the odds against a specific, popular, and otherwise difficult matchup. This is the art of the tech choice: sacrificing a degree of general consistency for targeted, metagame-specific power.
+​A tech choice is a card included not for its general utility, but for its specific effectiveness against a prevalent threat. For example, if the metagame is saturated with Technology decks that rely on a suite of powerful Assets to generate value, a Psionic control player might dedicate a few of their 200 RP to include two copies of the Magic Event Disperse Magic. This 2 RP / 2 CP Event can destroy a target Asset with 3 or less Defense. While this card may be useless against a Divinity deck with no Assets, its inclusion is a calculated decision to improve the odds against a specific, popular, and otherwise difficult matchup. This is the art of the tech choice: sacrificing a degree of general consistency for targeted, metagame-specific power.
 
 ​5.2 The Dynamics of Tempo and Card Advantage
 
@@ -256,7 +256,7 @@ Units (81 CP):
 
 ​Tempo, on the other hand, is the pace of play. It is the measure of how effectively a player uses their Command Points and actions within the game's alternating Activation Sequence to advance their board state relative to their opponent's. A critical and unique aspect of tempo in Quantum Nexus is the "Initiative-Tempo Loop" created by the turn structure rules. The player who passes first to begin the final sequence of passes in a round gains initiative—and thus the first action—in the next round.
 
-​This rule creates a direct and powerful link between resource management and tempo. A player might deliberately choose not to spend their last few CP on a minor action. Instead, they pass, putting the onus on their opponent to act. If the opponent also passes, the round ends. The first player has successfully secured the incredibly valuable first action of the next round. However, weaponizing the pass requires flawless spatial awareness. If a player passes and ends the round while their Front Row is compromised, they will hemorrhage points in the ensuing Scoring Step. The highest level of strategic skill in Quantum Nexus is knowing exactly when to trade immediate territorial dominance for future tempo, manipulating the board state so that you secure initiative without conceding critical Supremacy Points.
+​This rule creates a direct and powerful link between resource management and tempo. A player might deliberately choose not to spend their last few CP on a minor action. Instead, they pass, putting the onus on their opponent to act. If the opponent also passes, the round ends. The first player has successfully secured the incredibly valuable first action of the next round. However, weaponizing the pass requires flawless spatial awareness. If a player passes and ends the round while their hold on the Contested Zone (Row 3) is compromised, they will hemorrhage points in the ensuing Scoring Step. The highest level of strategic skill in Quantum Nexus is knowing exactly when to trade immediate territorial dominance for future tempo, manipulating the board state so that you secure initiative without conceding critical Supremacy Points.
 
 ​5.3 The Path of Continuous Improvement
 

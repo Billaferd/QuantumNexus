@@ -91,7 +91,7 @@
 
 1. ***Missions:** Players simultaneously reveal their chosen Mission cards and place them in the Mission Zone.*  
 2. ***Initiative:** Flip a coin or roll a die to determine the starting player for the first round.*  
-3. ***Draw:** Each player draws 5 cards from their deck.*  
+3. ***Draw:** Each player draws cards equal to their default Maximum Hand Size (5).*  
 4. ***Mulligan:** A player may choose to shuffle their entire hand back into their deck and redraw 5 cards. This may only be done once per game.*
 
 ### ***B. The Game Round***
@@ -104,7 +104,7 @@
 
 * ***Refresh:** Ready (untap) all exhausted cards, remove any temporary tokens, and reset all Command Point (CP) totals to zero.*  
 * ***Income:** Gain Command Points equal to the total combined CP value of your Mission Cards.*  
-* ***Draw:** Draw cards from your deck until you hold exactly 5 cards in your hand. If you already hold 5 or more cards, you do not draw.*  
+* ***Draw:** A player's default Maximum Hand Size is 5. Draw cards from your deck until the number of cards in your hand equals your Maximum Hand Size. If you currently hold a number of cards equal to or greater than your Maximum Hand Size, you do not draw.*  
 * ***Resolve Triggers:** Any card effects explicitly stating "At the start of the round" resolve immediately.*
 
 #### ***2\. The Activation Sequence***

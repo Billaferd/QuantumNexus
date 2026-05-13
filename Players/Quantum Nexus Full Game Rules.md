@@ -129,7 +129,7 @@ Within your 200 RP main deck Requisition Budget, you may allocate a maximum of 2
 
 #### ***3\. The Scoring Step***
 
-*Immediately following the consecutive passes that terminate the Activation Sequence, players evaluate the positional state of the Front Row. A player earns exactly one (1) Supremacy Point for every friendly Front Row quadrant that is physically occupied by at least one unit (or indirectly controlled via spatial projection) that directly faces an entirely unoccupied enemy Front Row quadrant.*
+*Immediately following the consecutive passes that terminate the Activation Sequence, players evaluate the positional state of the Front Row. A player earns exactly one (1) Supremacy Point for every quadrant they physically occupy within the neutral Contested Zone (Row 3). This centralized territorial dominance forms the baseline progression of the Theater Escalation, forcing direct collision to advance the game state.*
 
 *After points are awarded, players calculate the Combined Supremacy Score by adding both players' totals together. If the combined total reaches 8, Theater Level 2 is initiated, and all players immediately activate their Mission Cards' passive abilities. If the combined total reaches 14, Theater Level 3 is initiated, and all players immediately resolve their Mission Cards' Climax abilities.*
 

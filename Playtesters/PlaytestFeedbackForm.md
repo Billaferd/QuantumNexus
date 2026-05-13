@@ -78,7 +78,7 @@
 
 **Please rate the clarity, ease of use, and perceived balance of the following core game keywords that appeared in your match. Note any rules arguments or confusion that arose.**
 
-* **Technology: Territorial, Impact, Zenith, Fortified Positions.**  
+* **Technology: Territorial, Impact, Steadfast, Fortified Positions.**  
 * **Magic: Arcane Recall.**  
 * **Psionics: Phantom, Taunt, Synaptic Mark, Skirmisher.**  
 * **Divinity: Zeal, Martyrdom, Phalanx.**  

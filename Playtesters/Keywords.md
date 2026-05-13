@@ -1,3 +1,5 @@
+| Keyword | Description |
+| ------- | -----|
 | **Arcane Recall** | You may play this card from your discard pile by paying its CP cost and fulfilling any additionally specified resource costs. Once a card played via Arcane Recall resolves, it is exiled from the game rather than being returned to the discard pile. |
 | **Ethereal** | Combat damage dealt to this unit during standard attacks is reduced by 1. |
 | **Flying** | This unit ignores the presence of non-Flying units when declaring attacks, allowing it to target opposing Back Row units directly even if the enemy Front Row is occupied, provided the target is within its designated Range. |

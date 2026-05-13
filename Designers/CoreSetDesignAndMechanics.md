@@ -38,13 +38,13 @@ The Technology domain utilizes the Construct, which serves as a basic mechanical
 
 The following table serves strictly as an illustrative summary of the token statistics described above.
 
-| Token Designation | Affiliated Domain | Combat Statistics | Innate Keywords | Tactical Role |
+| Token Designation | Affiliated Domain | Combat Statistics | Range | Innate Keywords | Tactical Role |
 | :---- | :---- | :---- | :---- | :---- |
-| Construct | Technology | 1 Attack / 1 Defense | None | Ground holding and attritional infantry. |
-| Spirit | Divinity | 2 Attack / 2 Defense | Flying, Ethereal | Highly evasive, resilient physical manifestations. |
-| Echo | Psionics | 0 Attack / 1 Defense | Illusion | Fragile decoys that die immediately when targeted. |
-| Golem | Magic | 2 Attack / 1 Defense | None | Offensively slanted magical constructs. |
-| Scrap | Neutral | 0 Attack / 1 Defense | Immobile | Improvised, static defensive cover. |
+| Construct | Technology | 1 Attack / 1 Defense | Close Range | None | Ground holding and attritional infantry. |
+| Spirit | Divinity | 2 Attack / 2 Defense | Close Range | Flying, Ethereal | Highly evasive, resilient physical manifestations. |
+| Echo | Psionics | 0 Attack / 1 Defense | Close Range | Illusion | Fragile decoys that die immediately when targeted. |
+| Golem | Magic | 2 Attack / 1 Defense | Close Range | None | Offensively slanted magical constructs. |
+| Scrap | Neutral | 0 Attack / 1 Defense | Close Range | Immobile | Improvised, static defensive cover. |
 
 ## **Part II: Phase Structure and Action Economy**
 

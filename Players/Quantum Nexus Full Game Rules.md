@@ -161,11 +161,11 @@
 
 *When a card effect instructs a player to create a specific token, the token must utilize the following exact statistics and traits.*
 
-* ***Construct (Technology):** Small Size. 1 Attack / 1 Defense. No keywords.*  
-* ***Spirit (Divinity):** Small Size. 2 Attack / 2 Defense. Flying, Ethereal.*  
-* ***Echo (Psionics):** Small Size. 0 Attack / 1 Defense. Illusion.*  
-* ***Golem (Magic):** Small Size. 2 Attack / 1 Defense. No Keywords.*  
-* ***Scrap (Neutral):** Small Size. 0 Attack / 1 Defense. Immobile.*
+* ***Construct (Technology):** Small Size. 1 Attack / 1 Defense. Close Range. No keywords.*  
+* ***Spirit (Divinity):** Small Size. 2 Attack / 2 Defense. Close Range. Flying, Ethereal.*  
+* ***Echo (Psionics):** Small Size. 0 Attack / 1 Defense. Close Range. Illusion.*  
+* ***Golem (Magic):** Small Size. 2 Attack / 1 Defense. Close Range. No Keywords.*  
+* ***Scrap (Neutral):** Small Size. 0 Attack / 1 Defense. Close Range. Immobile.*
 
 ## ***Appendix B: Universal Keyword & Status Effect Glossary***
 

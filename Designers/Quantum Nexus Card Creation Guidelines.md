@@ -41,7 +41,7 @@ Under the strict parameters of the fixed-resource economy, no repeatable token g
 
 When assigning statistics (Attack, Defense, and Range) and keywords to Units, designers must strictly adhere to the defined identities of the four Domains.
 
-When designing for the Technology domain, cards should prioritize high Defense values and Far Range capabilities, effectively utilizing keywords such as Impact, Territorial, and Zenith to reflect calculated, long-range superiority.
+When designing for the Technology domain, cards should prioritize high Defense values and Far Range capabilities, effectively utilizing keywords such as Impact, Territorial, and Steadfast to reflect calculated, long-range superiority.
 
 When designing for the Magic domain, units should exhibit high Attack values but exceptionally low Defense values, heavily utilizing the Arcane Recall keyword to represent volatile, glass-cannon spellcasters.
 

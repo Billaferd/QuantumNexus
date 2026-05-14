@@ -18,7 +18,7 @@
 | Magic      | Aether Channeler          | 3     | Unit      | Infantry      | Magic      | 1             | 3             | 3               | 9                     |
 | Magic      | Mindweaver                | 3     | Unit      | Infantry      | Psionics   | 1             | 4             | 4               | 12                    |
 | Magic      | Rift Mage                 | 3     | Unit      | Infantry      | Magic      | 2             | 5             | 5               | 15                    |
-| Magic      | Arcane Colossus           | 2     | Unit      | Construct     | Magic      | 3             | 9             | 9               | 18                    |
+| Magic      | Arcane Colossus           | 2     | Unit      | Construct     | Magic      | 3             | 8             | 8               | 16                    |
 | Magic      | Leyline Nexus             | 3     | Asset     | Generator     | Magic      | 2             | 6             | 6               | 18                    |
 | Magic      | Cerebral Network          | 2     | Asset     | HQ            | Psionics   | 2             | 7             | 7               | 14                    |
 | Magic      | Aetheric Blast            | 4     | Event     | Spell         | Magic      | 2             | 4             | 4               | 16                    |

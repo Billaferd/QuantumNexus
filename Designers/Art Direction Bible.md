@@ -6,15 +6,15 @@ This document establishes the definitive visual framework for the Quantum Nexus 
 
 ### **Vision Statement**
 
-Quantum Nexus is a universe defined by the collision of **Grounded Futurism** and **Transcendent Power**. Our aesthetic must capture the inherent tension and emergent synergy between the tangible, understandable laws of technology and the inexplicable, reality-bending forces of magic, psionics, and divinity. Every piece of art must tell a story of this intersection, reflecting a universe where a perfectly calibrated railgun slug can be stopped by a whispered prayer, a psychic’s precognitive flash can outmaneuver the most advanced battle computer, a hyper-evolved organism can consume and repurpose both, and an entropic signal can erase them all from existence.
+Quantum Nexus is a universe defined by the collision of **Grounded Futurism** and **Transcendent Power**. Our aesthetic must capture the inherent tension and emergent synergy between the tangible, understandable laws of technology and the inexplicable, reality-bending forces of magic, psionics, and divinity. Every piece of art must tell a story of this intersection, reflecting a universe where a perfectly calibrated railgun slug can be stopped by a whispered prayer, a psychic’s precognitive flash can outmaneuver the most advanced battle computer, a localized spell can warp gravity, and a divine intervention can shatter an armored line.
 
 ### **Core Artistic Pillars**
 
 To achieve this vision, all artwork will be built upon three core pillars. These principles are not suggestions; they are the fundamental laws of our visual universe.
 
-#### **Narrative Clarity**
+#### **Narrative Clarity & Spatial Context**
 
-The art must instantly communicate the card's function and domain identity. A player should be able to look at a card and feel what it does before they read a single word of text. This is paramount. The gameplay of Quantum Nexus is built around an alternating "Activation Sequence," a series of discrete, tactical decisions rather than a single, chaotic battle phase. Our art must capture this specific tempo. We are not illustrating the peak of a massive war; we are illustrating the critical moments within it: the tense standoff before an attack, the immediate, crackling aftermath of a powerful event, the strategic deployment of a key asset. Each card is a snapshot of a single, crucial action in a high-stakes chess match.
+The art must instantly communicate the card's function, domain identity, and intended spatial role across the 5x3 grid. A player should be able to look at a card and feel what it does before they read a single word of text. This is paramount. The gameplay of Quantum Nexus is built around an alternating "Activation Sequence," a series of discrete, tactical decisions funded by a universal CP salary. Our art must capture this specific tempo. We are not illustrating the chaotic peak of a massive war; we are illustrating the critical moments within it: the tense standoff in the neutral Contested Zone (Row 3), the immediate, crackling aftermath of a powerful event, the strategic deployment of a key asset into a Deployment Zone. Each card is a snapshot of a single, crucial action in a high-stakes chess match.
 
 #### **Light & Color**
 
@@ -25,12 +25,12 @@ Light is our primary tool for conveying the nature of power. The source, quality
 * **Psionic Light** is ethereal, subtle, and often internal. It is the soft glow from a character's eyes or temples, a shimmering distortion in the air, or a hard-light projection that feels both real and immaterial. Its source is the mind, not a machine or a spell.  
 * **Divine Light** is volumetric, radiant, and awe-inspiring. It is the light of revelation, pouring down in visible rays (crepuscular rays), forming halos, and bathing its subjects in a warm, golden luminescence that feels both powerful and serene.  
 
-#### **Scale & Materiality**
+#### **Scale, Materiality, & Capacity**
 
-A strong and consistent sense of scale and materiality will ground our world and make it believable.
+A strong and consistent sense of scale and materiality will ground our world and make it believable, reinforcing the mechanical rules of Capacity Slots.
 
-* **Scale**: The constructs of Technology are massive, heavy, and industrial. The architecture of Divinity is monumental and cathedral-like. Magic's effects can be vast in scope but should feel energetic and weightless. Psionics operates on a more personal, precise scale, even when its effects are profound.  
-* **Materiality**: Textures must be rendered with high fidelity. Artists must convey the cold, brushed feel of tungsten steel, the gritty texture of reinforced concrete, the shimmering heat of a freshly cast spell, the unsettling, seamless smoothness of a psionic construct, the wet, glistening texture of alien flesh, and the glitching, pixelated decay of an entropic effect.
+* **Scale**: Visual scale must strictly reflect mechanical size to communicate Line of Sight rules. A Tiny or Small unit (1-2 slots) should be depicted relative to human scale. A Large unit (4 slots) must dominate the frame, explicitly looking robust enough to share a quadrant with only a few infantry. A Massive unit (8 slots) must be depicted as an absolute behemoth, entirely filling its environment and visibly acting as a physical Line of Sight obstruction that blocks artillery. 
+* **Materiality**: Textures must be rendered with high fidelity. Artists must convey the cold, brushed feel of tungsten steel, the gritty texture of reinforced concrete, the shimmering heat of a freshly cast spell, the unsettling, seamless smoothness of a psionic construct, and the ornate, polished marble of a divine fortification.
 
 ## **Universal Design Principles**
 
@@ -41,14 +41,12 @@ Before delving into specific domains, all art should adhere to several universal
 * **Silhouette Theory:** A character's silhouette must be unique and instantly readable. A player should be able to identify a Leader or a distinct unit type from its outline alone. Avoid generic or ambiguous shapes. Encourage poses and equipment that create interesting and dynamic negative space. The silhouette is the first and most important read of a character.  
 * **Posing and Attitude:** A unit's pose must communicate its primary role and attitude.  
   * **Aggressive Units** (e.g., Skirmisher, Horde) should be depicted with forward momentum, leaning into the action, and often breaking the implied frame of the art to create a sense of immediacy.  
-  * **Defensive Units** (e.g., Steadfast, Phalanx) should have a grounded, stable stance. Their poses should be braced, solid, and immovable, emphasizing their resilience.  
+  * **Defensive Units** (e.g., Steadfast, Phalanx, Territorial) should have a grounded, stable stance. Their poses should be braced, solid, and immovable, emphasizing their resilience and area denial capabilities.  
   * **Control/Support Units** (e.g., Spellcasters, Leaders with passive auras) can have more contemplative or commanding poses, with gestures that suggest the activation of an ability rather than direct physical conflict.  
-* **Conveying Scale:** The game features units of varying sizes (Tiny, Small, Large, Massive). This must be communicated visually.  
-  * For Large and Massive units, use compositional cues to sell their scale: a low camera angle, smaller units or environmental elements for comparison, atmospheric perspective (haze obscuring more distant parts of the creature), and environmental effects like dust clouds or cracked ground at their feet.
 
 ## **Part I: The 4 Pillars – Mono-Domain Art Direction**
 
-Each of the six domains possesses a unique mechanical and philosophical identity. The following sections translate these identities into a distinct and instantly recognizable visual language.
+Each of the four domains possesses a unique mechanical and philosophical identity. The following sections translate these identities into a distinct and instantly recognizable visual language.
 
 | Domain | Visual Keystone | Shape Language | Primary Color Palette | Materiality & Texture | Energy & VFX |
 | :---- | :---- | :---- | :---- | :---- | :---- |
@@ -59,7 +57,7 @@ Each of the six domains possesses a unique mechanical and philosophical identity
 
 ### **1.1 Domain: Technology**
 
-* **Core Philosophy**: Solves any problem through superior engineering, overwhelming production, and calculated force. Their gameplay revolves around establishing a resilient board state with Assets and Terrain, then systematically dismantling foes from Far Range using the slow, grinding Impact keyword.  
+* **Core Philosophy**: Solves any problem through superior engineering, overwhelming production, and calculated force. Their gameplay revolves around establishing a resilient board state with Assets and Terrain, then systematically dismantling foes from Range 3+ using the slow, grinding Impact keyword.  
 * **Visual Keystone**: Calculated Brutalism.  
 * **Energy & VFX**: Contained and directed. Muzzle flashes are sharp. Lasers are precise beams. Impact is visualized as lasting, physical damage: spiderweb cracks in armor, buckled plating.  
 * **Environment & Architecture**: Architecture is inspired by brutalism and industrial factories—imposing, concrete-and-steel structures built for purpose, not comfort. A Directive arcology is a marvel of clean lines and megastructural engineering, piercing the clouds under a smog-filtered sun. A Scrapcode settlement is a chaotic, vertical shantytown built in the husk of a derelict starship, glowing with the erratic light of jury-rigged power sources.  
@@ -77,7 +75,7 @@ Each of the six domains possesses a unique mechanical and philosophical identity
 
 * **Core Philosophy**: The true battlefield is the mind. Wins through disruption, misdirection, and by attacking the opponent's hand and strategy directly. Keywords like Phantom, Skirmisher, and Taunt emphasize stealth and control.  
 * **Visual Keystone**: Sleek Subterfuge.  
-* **Energy & VFX**: Subtle and precise, focused on the effect, not the cause. Phantom is a shimmering optical distortion. Hand-attack cards like Cerebral Purge could show a ghostly image of a memory being torn from the target's mind.  
+* **Energy & VFX**: Subtle and precise, focused on the effect, not the cause. Phantom is a shimmering optical distortion that visually explains its Range 1 targeting restriction. Hand-attack cards like Cerebral Purge could show a ghostly image of a memory being torn from the target's mind.  
 * **Environment & Architecture**: Psionic environments are minimalist and cerebral. They favor serene, zen-like meditation chambers where physical objects are few but the air shimmers with psychic energy, or sleek, chrome-and-obsidian "thought-labyrinths" designed to train or imprison powerful minds. Their structures are often hard-light projections, perfect and immaterial.  
 * **Character Design Considerations**: Psionic silhouettes are clean, minimalist, and aerodynamic. They avoid bulky armor or extraneous equipment. Negative space is key to their design. Poses are often subtle and controlled—a focused gaze, a simple hand gesture, or an unnervingly calm stance—to convey that the true action is happening internally.
 
@@ -85,7 +83,7 @@ Each of the six domains possesses a unique mechanical and philosophical identity
 
 * **Core Philosophy**: Commands an eternal army where faith is a weapon and sacrifice is a currency. Strength comes from resilience (Zeal), overwhelming numbers (Phalanx, Horde), and a cycle of death and rebirth (Martyrdom).  
 * **Visual Keystone**: Gothic Ascendancy.  
-* **Energy & VFX**: Radiant and holy. Zeal is a unit shattering but being instantly reformed by a column of golden light, leaving them in a kneeling, "suppressed" state. Martyrdom effects show ethereal golden spirits rising from a fallen unit to bless comrades.  
+* **Energy & VFX**: Radiant and holy. Zeal is a unit shattering but being instantly reformed by a column of golden light, leaving them in a kneeling, "suppressed" state. Martyrdom effects show ethereal golden spirits rising from a fallen unit to bless comrades in adjacent quadrants.  
 * **Environment & Architecture**: Their architecture blends Gothic cathedrals with impregnable fortresses. A Celestial sanctuary might be a city built on a cloud, with towers of polished marble and stained-glass windows depicting their history. An Infernal sacrificial pit is a volcanic, obsidian temple carved with jagged runes, illuminated by the hellfire of their rituals.  
 * **Character Design Considerations**: Divinity silhouettes are monumental and instantly recognizable, defined by heavy, ornate plate armor, large pauldrons, flowing tabards, halos, and angelic or demonic wings. Poses should be stoic, pious, or monumental, reflecting unwavering conviction. Even their basic units should feel like statues brought to life.
 
@@ -106,20 +104,13 @@ Hybrid cards represent new, synergistic philosophies. The art must reflect this 
 
 The function of each card type must be the primary driver of its artistic composition.
 
-* **Unit Cards: The Actors**  
-  * **Composition**: Character-focused, dynamic poses reflecting their role. Keywords like Horde or Swarm should be visualized with similar units in the background. Art for an Evolve unit should show the dramatic transformation from its previous form.  
-* **Leader Cards: The Protagonists**  
-  * **Composition**: More epic and commanding. Wider shots showing the Leader directing others, or low-angle shots to emphasize scale and authority.  
-* **Asset Cards: The Infrastructure**  
-  * **Composition**: Object-focused and can be more static, depicting the asset itself—a power plant, a factory, or a holy shrine.  
-* **Event Cards: The Action**  
-  * **Composition**: The most dynamic and impactful art. The focus is entirely on the moment of the effect. Ritual cards should show the culmination of the ritual.  
-* **Upgrade Cards: The Enhancement**  
-  * **Composition**: A close-up or "macro" shot, focusing on the upgrade being applied to or integrated with its host.  
-* **Terrain Cards: The Environment**  
-  * **Composition**: An establishing or landscape shot that defines a place. Units may be included for scale but must be secondary to the terrain itself.  
-* **Mission Cards: The Narrative**  
-  * **Composition**: More symbolic and illustrative rather than literal, representing the objective or concept of the mission.
+* **Unit Cards: The Spatial Actors** * **Composition**: Character-focused, dynamic poses reflecting their role on the grid. Keywords like Horde or Swarm should be visualized with similar units in the background. Art for Massive units must strictly frame them against tiny background elements to communicate their 8-slot Line of Sight obstruction.  
+* **Leader Cards: The Protagonists** * **Composition**: More epic and commanding. Wider shots showing the Leader directing others, or low-angle shots to emphasize scale and authority.  
+* **Asset Cards: The Infrastructure** * **Composition**: Object-focused and can be more static, depicting the asset itself—a power plant, a factory, or a holy shrine situated in the Loadout Area.  
+* **Event Cards: The Action** * **Composition**: The most dynamic and impactful art. The focus is entirely on the moment of the effect. Ritual cards should show the culmination of the ritual.  
+* **Upgrade Cards: The Enhancement** * **Composition**: A close-up or "macro" shot, focusing on the upgrade being applied to or integrated with its host.  
+* **Terrain Cards: The Environment** * **Composition**: An establishing or landscape shot that defines a specific quadrant on the grid. Units may be included for scale but must be secondary to the terrain itself.  
+* **Mission Cards: The Strategic Contract** * **Composition**: More symbolic and illustrative rather than literal, representing the overarching doctrine, escalating passives, and the ultimate Theater 3 climax of the mission.
 
 ## **Part IV: Visual Language of the Game Interface**
 
@@ -131,7 +122,7 @@ For a full-art card design, the informational overlays are a critical part of th
 * **Magic:** Overlays have soft, fluid borders that seem to bleed into the art. The fill is a swirling, iridescent transparency, like smoke trapped under glass. Typography for titles is an elegant, slightly arcane serif font, while rules text remains highly legible.  
 * **Psionics:** Overlays are minimalist and sleek, using sharp hexagons or clean, thin lines to delineate information. The fill is a cool, dark indigo with very low opacity. Typography is a modern, lightweight sans-serif, emphasizing clarity and negative space.  
 * **Divinity:** Overlays incorporate the shapes of gothic arches and have filigree patterns in the corners. The transparency has a faint golden tint and a texture that mimics polished marble or stained glass. Typography is a classic, regal serif font like **Cinzel**.  
-* **Hybrid Cards:** The overlays for hybrid cards should be a tasteful fusion of their parent domains. For example, a Divinity/Entropy card might have the gothic arch shape of Divinity, but its border is pixelating and decaying in the style of Entropy.
+* **Hybrid Cards:** The overlays for hybrid cards should be a tasteful fusion of their parent domains. For example, a Divinity/Psionics card might have the gothic arch shape of Divinity, but its border is sleek, minimalist chrome.
 
 ### **Standardized Keyword & State Iconography**
 
@@ -139,7 +130,6 @@ To ensure at-a-glance readability, key mechanics should be represented by a stan
 
 * **Impact**: A symbol of a shield with a spiderweb crack through it.  
 * **Zeal**: A radiant, stylized halo or a simplified phoenix icon.  
-* **Adapt**: An upward-pointing, spiraling arrow, suggesting growth.  
 * **Arcane Recall**: An open book with a swirling, ghost-like rune rising from its pages.
 
 * **Suppressed (State)**: A downward-pointing arrow inside a broken circle, indicating a kneeling/vulnerable state.  

@@ -22,3 +22,4 @@
 | **Phantom** | This unit cannot be chosen as a valid target for standard attacks unless the attacking unit is positioned in an orthogonally adjacent quadrant (Range 1). |
 | **Adapt** | Whenever this unit survives combat, it gains a permanent +1/+1 counter, increasing its base Attack and Defense. |
 | **Nullify** | Cards destroyed by this unit's attacks are exiled from the game instead of being placed in the discard pile, preventing Arcane Recall or Martyrdom synergies. |
+| **Aetheric Shielding** | Any opponent attempting to target this unit with an Event card must pay a mandatory tax of 3 additional Command Points (CP) added to the Event's normal runtime deployment cost. |

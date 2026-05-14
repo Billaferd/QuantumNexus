@@ -22,7 +22,7 @@
 | Magic      | Leyline Nexus             | 3     | Asset     | Generator     | Magic      | 2             | 6             | 6               | 18                    |
 | Magic      | Cerebral Network          | 2     | Asset     | HQ            | Psionics   | 2             | 7             | 7               | 14                    |
 | Magic      | Aetheric Blast            | 4     | Event     | Spell         | Magic      | 2             | 4             | 4               | 16                    |
-| Magic      | Reality Fracture          | 3     | Event     | Spell         | Magic      | 3             | 7             | 7               | 21                    |
+| Magic      | Reality Fracture          | 3     | Event     | Spell         | Magic      | 3             | 6             | 6               | 18                    |
 | Magic      | Psychic Tether            | 3     | Event     | Tactic        | Psionics   | 1             | 3             | 3               | 9                     |
 | Magic      | Mana Surge                | 4     | Event     | Spell         | Magic      | 1             | 2             | 2               | 8                     |
 | Magic      | Erase from Time           | 2     | Event     | Spell         | Magic      | 3             | 6             | 6               | 12                    |

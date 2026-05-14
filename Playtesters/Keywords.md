@@ -1,24 +1,24 @@
 | Keyword | Description |
 | ------- | -----|
-| **Arcane Recall** | You may play this card from your discard pile by paying its CP cost and fulfilling any additionally specified resource costs. Once a card played via Arcane Recall resolves, it is exiled from the game rather than being returned to the discard pile. |
+| **Arcane Recall** | You may play this card from your discard pile by paying its runtime CP deployment cost and fulfilling any additionally specified resource costs. Once a card played via Arcane Recall resolves, it is exiled from the game rather than being returned to the discard pile. |
 | **Ethereal** | Combat damage dealt to this unit during standard attacks is reduced by 1. |
 | **Flying** | This unit completely ignores physical Line of Sight obstructions (quadrants currently at maximum capacity) when determining valid targets for attacks within its numeric Range. |
-| **Horde** | When taking an "Attack" action, your units with the Horde keyword in that quadrant can attack and exhaust as a single action. |
+| **Horde** | When taking an Attack action during the Activation Sequence, your units with the Horde keyword in that quadrant can attack and exhaust as a single action. |
 | **Illusion** | If a unit with this keyword becomes the explicit target of any enemy attack, activated ability, or Event, the unit is immediately destroyed prior to the resolution of that effect. |
-| **Immobile** | This unit cannot be chosen as the valid target of a standard Move action and is immune to being relocated by any card effects. |
+| **Immobile** | This unit cannot be chosen as the valid target of a standard Move action or a Tactical Advance, and is immune to being relocated by any card effects. |
 | **Impact** | Impact is a persistent and accumulating value tracked by each unit and asset that does not reset at the end of a Game Round. When an effect inflicts Impact on a target, that value is permanently added to the target's accumulated Impact total. Each accumulated Impact counter acts as a continuous -1 modifier when calculating that unit's Effective Defense. Consequently, when resolving standard attacks, the attacker's Attack value is compared directly against the defender's newly reduced Effective Defense. If a unit's Effective Defense is reduced to 0 or below at any time due to these accumulated Impact counters, the unit is immediately destroyed. |
-| **Infiltrator** | You may deploy this unit directly into your Vanguard (Row 2). This overrides the general baseline rule that units must be strictly deployed to the Deployment Zone (Row 1). |
-| **Large** | A quadrant can only hold 2 large units or 1 large unit and 2 normal sized units. |
+| **Infiltrator** | You may deploy this unit directly into your Vanguard (Row 2). This overrides the general baseline rule that units must be strictly deployed to your Deployment Zone (Row 1). |
+| **Large** | This unit's physical size occupies exactly 4 Capacity Slots within a quadrant. Because every quadrant is governed by a strict maximum of 8 Capacity Slots, a single quadrant can only ever hold a maximum of 2 Large units (thereby acting as a Line of Sight obstruction) or 1 Large unit alongside up to 4 Capacity Slots of smaller units. |
 | **Martyrdom** | When this unit is destroyed, immediately trigger the associated ability text. |
-| **Massive** | A quadrant can only contain one unit with the Massive keyword. This applies to both your units and your opponent's. For example, if you have a Massive unit in your Front Left quadrant, you cannot move or deploy another Massive unit into that same quadrant. |
-| **Phalanx** | This unit has +1 Defense for each adjacent friendly unit that also has the Phalanx keyword. "Adjacent" refers to any friendly quadrant (including diagonally) that is next to this unit's quadrant. The Defense bonus is dynamic and is recalculated whenever the number of adjacent friendly Phalanx units changes. |
-| **Skirmisher** | After this unit performs an Attack action, you may immediately move it to an adjacent friendly quadrant. This special move does not exhaust the unit and does not cost an action. |
-| **Steadfast** | This unit cannot be moved from its quadrant by an opponent's card effects. |
-| **Swarm** | When taking a "Deploy a Card" action to deploy a unit with the Swarm keyword, you may also deploy any number of other units with the Swarm keyword from your hand into the same quadrant during the same action. You must pay the CP cost for all units deployed. |
-| **Synaptic Mark** | The mark on it's own does nothing, but it is used to target units with other powerful abilitites. |
-| **Taunt** | Enemy units that are able to attack must target a unit with Taunt if one is in range and a valid target. If there are multiple enemy units with Taunt, the attacking player may choose which one to target. |
-| **Territorial** | Actively blocks enemy deployment, standard movement, and Tactical Advances into any orthogonally adjacent quadrant, locking down physical firing lanes. |
+| **Massive** | This unit's physical size occupies exactly 8 Capacity Slots, completely filling a quadrant's capacity upon deployment or movement. A quadrant containing a Massive unit claims absolute spatial dominance and acts as a physical Line of Sight obstruction that blocks ranged attacks from passing through it. A quadrant may only ever contain 1 Massive unit. |
+| **Phalanx** | This unit receives +1 Defense for each orthogonally adjacent friendly unit that also possesses the Phalanx keyword. This is a dynamic bonus recalculated whenever the board state changes across the spatial grid. |
+| **Skirmisher** | After this unit performs an Attack action, you may immediately move it to an orthogonally adjacent quadrant. This special maneuver does not consume an additional action for your turn during the Activation Sequence. |
+| **Steadfast** | This unit cannot be moved from its current quadrant by an opponent's card effects. |
+| **Swarm** | When taking a "Deploy" action to play a unit with the Swarm keyword, you may simultaneously deploy any number of other units with the Swarm keyword from your hand into the exact same quadrant. You must pay the individual runtime CP costs from your 15 CP universal salary for all units deployed in this manner. |
+| **Synaptic Mark** | The mark on its own does nothing, but it is used to legally target the unit with other powerful domain-specific abilities. |
+| **Taunt** | Enemy units that declare an attack must target a unit with Taunt if one is within their numeric range and constitutes a valid target based on Line of Sight. If there are multiple enemy units with Taunt available, the attacking player may choose which one to target. |
+| **Territorial** | Actively blocks enemy deployment, standard movement, and Tactical Advances into any orthogonally adjacent quadrant, locking down physical firing lanes on the 5x3 grid. |
 | **Zeal** | The first time this unit would be destroyed in a given Game Round, it instead survives, removes all accumulated upgrades and counters, and immediately becomes Suppressed. |
-| ***Phantom*** | a unit cannot be targeted by attacks unless the attacker is in an adjacent quadrant. |
-| ***Adapt*** | Whenever this unit survives combat, it gains a permanent +1/+1 counter. |
-| ***Nullify*** | Cards destroyed by this unit's attacks are exiled from the game instead of being placed in the discard pile. |
+| **Phantom** | This unit cannot be chosen as a valid target for standard attacks unless the attacking unit is positioned in an orthogonally adjacent quadrant (Range 1). |
+| **Adapt** | Whenever this unit survives combat, it gains a permanent +1/+1 counter, increasing its base Attack and Defense. |
+| **Nullify** | Cards destroyed by this unit's attacks are exiled from the game instead of being placed in the discard pile, preventing Arcane Recall or Martyrdom synergies. |

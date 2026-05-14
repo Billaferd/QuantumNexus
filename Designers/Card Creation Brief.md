@@ -9,21 +9,20 @@ Date: \[Date of Creation\]
 
 * **Core Concept & Lore:**(This is the "Lore" component. What is the story this card tells in a few sentences? What is its fantasy? Example: "A holy warrior whose faith is so strong it can unmake corrupting enchantments, creating a bastion of purity on the battlefield.")  
 * **Player Experience & Agency:**(What choice does this card create for the player using it and the player facing it? Which player psychographic (Timmy, Johnny, Spike, Vorthos) does this most appeal to? Example: "This card gives the Divinity player a proactive way to protect their key units, forcing the Entropy player to solve this new problem before continuing their main strategy. It restores agency by offering a clear counter-play. Appeals to Spike for its efficiency and Vorthos for its thematic power.")  
-* **Strategic Role (Threat / Answer Analysis):**(Is this card primarily a "Threat" that poses a new problem, or an "Answer" that solves an existing one? Which category from the Threat and Counter-Play Interaction Matrix does it fall into? Example: "This is an 'Answer' card. It functions as a 'Proactive Shield' against the 'State Application (Static)' threat.")
+* **Strategic Role (Threat / Answer Analysis):**(Is this card primarily a "Threat" that poses a new problem on the spatial grid, or an "Answer" that solves an existing one? Which category from the Threat and Counter-Play Interaction Matrix does it fall into? Example: "This is an 'Answer' card. It functions as a 'Proactive Shield' against the 'State Application (Static)' threat.")
 
 ### **Phase 2: Mechanical Design**
 
-* **Card Stats:**  
-  * **Card Type:** (Unit, Asset, Event, Upgrade, Terrain, Mission)  
+* **Card Stats:** * **Card Type:** (Unit, Asset, Event, Upgrade, Terrain, Mission)  
   * **Subtype(s):** (e.g., Leader, Construct, Spellcaster, etc.)  
-  * **Domain(s) & DP Cost:** (e.g., Divinity 2 / Magic 2\)  
-  * **Command Point (CP) Cost:** (Target Cost)  
+  * **Domain(s) & DP Cost:** (e.g., Divinity 2 / Magic 2)  
+  * **Requisition Point (RP) Draft Cost:** (Target Deck-Building Cost)  
+  * **Command Point (CP) Runtime Cost:** (Target Deployment/Execution Cost)  
   * **Attack / Defense:** (For Units/Assets)  
-  * **Range:** (Close, Mid, Far \- For Units)  
+  * **Numeric Range:** (Range 1, Range 2, Range 3+ - For Units)  
   * **Duplicate Limit:** (Default 3, or specify)  
-* **Rule Box Text:**  
-  * **Keywords:** (e.g., Zeal, Territorial, Adapt, Static, Nullify)  
-  * **Abilities (Passive/Active/Triggered):**(Write out the full proposed rules text as it would appear on the card.)  
+* **Rule Box Text:** * **Keywords:** (e.g., Zeal, Territorial, Adapt, Static, Nullify)  
+  * **Abilities (Passive/Active/Triggered):**(Write out the full proposed rules text as it would appear on the card, ensuring exact references to the 5x3 grid terminology like Deployment Zone, Vanguard, Contested Zone, or orthogonal adjacency.)  
   * **Flavor Text:**(A short, thematic sentence that reinforces the card's lore.)  
 * **Mechanical Justification:**(Briefly explain how the chosen mechanics implement the Core Concept. Example: "The 'Zeal' keyword represents its resilience. The passive aura preventing 'Static' directly fulfills its role as a Proactive Shield.")
 
@@ -36,5 +35,5 @@ Date: \[Date of Creation\]
 
 ### **Phase 4: Balancing & Playtest Notes**
 
-* **Balancing Concerns:**(Are there any potential balance issues to watch for? Does this card risk invalidating other strategies too easily? Example: "Need to ensure the CP cost is high enough that playing this card is a significant tempo investment. If too cheap, it could shut down Entropy decks completely.")  
-* **Key Interactions to Test:**(What specific card combinations or matchups should be tested? Example: "Test against mono-Entropy decks. Test how it interacts with effects that target units with specific keywords. Does its aura protect against AoE Static effects?")
+* **Balancing Concerns:**(Are there any potential balance issues to watch for? Does this card risk invalidating other strategies too easily? Example: "Need to ensure the runtime CP deployment cost is high enough that playing this card represents a significant deficit against the 15 CP universal salary. If too cheap, it could shut down Entropy decks completely with no tempo loss.")  
+* **Key Interactions to Test:**(What specific card combinations or matchups should be tested? Example: "Test against mono-Entropy decks. Test how it interacts with effects that target units with specific keywords. Does its aura protect against AoE Static effects bypassing Line of Sight?")

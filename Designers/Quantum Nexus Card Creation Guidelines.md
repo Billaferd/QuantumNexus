@@ -20,6 +20,30 @@ Quantum Nexus is constructed as a continuous, alternating conversation between t
 
 The design ecosystem actively prohibits solitaire strategies. If a card or combination of cards allows a player to execute a prolonged sequence of unpreventable actions while the opponent merely observes, it constitutes a fundamental failure of design. To prevent this, designers must strictly adhere to the Threat-Answer Matrix. Every card entered into the game must be explicitly categorized as either a Threat that poses a strategic problem on the spatial grid, or an Answer designed to solve a specific, existing problem. When a formidable Threat is introduced into the environment—such as a massive Divinity Leader requiring a large portion of a player's 25 RP Leader budget—the design team is obligated to ensure that a corresponding, efficiently CP-costed Answer exists within the broader card pool, such as a localized Magic transformation Event or a Technology suppression tactic.
 
+### Framework for Removal Costing and Tempo Economy
+
+​The fundamental principle governing this framework is the Tempo Swing Cap. In a static 15 CP runtime economy, a single removal action should rarely generate a positive tempo swing exceeding +5 CP. If a player utilizes a 2 CP Event to unconditionally destroy a 12 CP Titan-Class Mech, the resulting +10 CP tempo advantage mathematically concludes the game on the spot. Removal must be scaled to require a meaningful sacrifice of the caster's own operational capacity for the round.
+
+#### ​Unconditional Asset and Infrastructure Removal
+
+Assets represent permanent value engines and fortified positions that often require a massive upfront CP investment, ranging from 5 to 10 CP. Because Assets do not directly engage in combat and cannot be degraded through standard damage math, they are inherently vulnerable to targeted Events. To replace the dynamic tax system, any Event card reading "Destroy target Asset" without restrictions must possess a baseline runtime cost of 7 to 9 CP. This high cost ensures that answering a major value engine consumes approximately half of the caster's universal salary, preserving the interactive duality of the Threat-Answer matrix. If a designer wishes to create a lower-cost Asset removal card, it must be strictly conditional. For example, an Event costing 4 CP must be restricted to "Destroy target Asset with an RP cost of 5 or less." This prevents cheap utility spells from dismantling top-tier infrastructure.
+
+#### ​Unconditional Unit Removal (Hard Execution)
+
+The outright destruction or exile of a target unit, entirely bypassing the deterministic combat system and Effective Defense math, is the most powerful tempo tool in the game. Unconditional hard removal Events must be base-costed between 6 and 8 CP. At this cost bracket, a player who successfully answers a 12 CP Massive unit generates a healthy +4 to +6 CP tempo advantage, rewarding them for utilizing the correct answer without completely invalidating the opponent's capacity to play the game. Furthermore, unconditional exile effects, which completely deny recursion mechanics from the discard pile, must incur an additional 1 CP premium over standard destruction effects.
+
+#### ​Conditional and Damage-Based Unit Removal
+
+Removal that operates within the boundaries of the game's combat math scales linearly. The standard conversion rate dictates that 1 CP yields approximately 1.5 damage. An Event costing 4 CP should generate roughly 6 damage. However, if the damage possesses the Armor Piercing keyword, bypassing Base Defense values entirely, it must be subjected to a 2 CP premium tax. This ensures that direct damage spells cannot effortlessly assassinate heavily armored, high-RP frontline units without a significant economic commitment from the caster.
+
+#### ​Soft Removal and Tempo Delay
+
+Soft removal focuses on temporary disruption rather than permanent answers, encompassing mechanics such as returning a unit to its owner's hand, exhausting a readied unit, or applying temporary stat reductions. Because the targeted threat remains in the game and will inevitably demand a second answer, soft removal is permitted to operate at high efficiency. Events that return a target unit to hand or exhaust a target quadrant should be costed strictly between 2 and 4 CP. This allows a player to rapidly seize the initiative and open maneuvering lanes on the spatial grid, forcing the opponent to spend their CP to redeploy the exact same threat on a subsequent turn.
+
+#### ​Spatial and Global Board Wipes
+
+Events capable of clearing entire rows, columns, or quadrants operate outside of single-target tempo math. Symmetrical board wipes, which destroy all units in a specific zone regardless of ownership, must cost between 6 and 8 CP. The caster inherently pays an additional hidden cost by losing their own board presence. Asymmetrical board wipes, which exclusively target enemy units within a specified spatial zone, must require an absolute minimum investment of 9 to 12 CP. These actions represent apocalyptic strategic shifts. By demanding up to 80 percent of the universal salary, the caster is forced to commit their entire round to clearing the board, ensuring they cannot simultaneously deploy new threats into the newly vacated Contested Zone.
+
 ## Section 2: The Card Creation Process
 
 ### Phase 1: Conceptualization & Strategic Identity

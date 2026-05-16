@@ -1,5 +1,7 @@
 | Deck Focus | Card Name                 | Count | Card Type | Subtype       | Domain     | DP (Per Card) | Draft RP Cost | Runtime CP Cost | Total RP Contribution |
 | ---------- | ------------------------- | ----- | --------- | ------------- | ---------- | ------------- | ------------- | --------------- | --------------------- |
+| Technology | Singularity Engine        | 1     | Mission   | N/A           | Technology | 4             | 0             | 0               | 0                     |
+| Technology | Blessed Logistics         | 1     | Mission   | N/A           | Divinity   | 2             | 0             | 0               | 0                     |
 | Technology | Trench Engineer           | 3     | Unit      | Infantry      | Technology | 1             | 3             | 3               | 9                     |
 | Technology | Vanguard Phalanx          | 4     | Unit      | Infantry      | Technology | 2             | 4             | 4               | 16                    |
 | Technology | Field Medic Automaton     | 3     | Unit      | Construct     | Technology | 1             | 3             | 3               | 9                     |
@@ -15,6 +17,8 @@
 | Technology | Orbital Strike            | 2     | Event     | Tactic        | Technology | 4             | 8             | 8               | 16                    |
 | Technology | Zealous Chaplain          | 3     | Unit      | Infantry      | Divinity   | 2             | 4             | 4               | 12                    |
 | Technology | Holy Aegis                | 3     | Event     | Spell         | Divinity   | 2             | 4             | 4               | 12                    |
+| Magic      | Temporal Fracture         | 1     | Mission   | N/A           | Magic      | 4             | 0             | 0               | 0                     |
+| Magic      | Arcane Repository         | 1     | Mission   | N/A           | Magic      | 2             | 0             | 0               | 0                     |
 | Magic      | Aether Channeler          | 3     | Unit      | Infantry      | Magic      | 1             | 3             | 3               | 9                     |
 | Magic      | Mindweaver                | 3     | Unit      | Infantry      | Psionics   | 1             | 4             | 4               | 12                    |
 | Magic      | Rift Mage                 | 3     | Unit      | Infantry      | Magic      | 2             | 5             | 5               | 15                    |
@@ -31,6 +35,8 @@
 | Magic      | Supernova Catalyst        | 2     | Event     | Spell         | Magic      | 4             | 10            | 10              | 20                    |
 | Magic      | Cognitive Dissonance      | 2     | Event     | Tactic        | Psionics   | 2             | 4             | 4               | 8                     |
 | Magic      | Mental Shatter            | 1     | Event     | Tactic        | Psionics   | 2             | 4             | 4               | 4                     |
+| Psionics   | Psionic Supremacy         | 1     | Mission   | N/A           | Psionics   | 4             | 0             | 0               | 0                     |
+| Psionics   | Automated Defenses        | 1     | Mission   | N/A           | Technology | 2             | 0             | 0               | 0                     |
 | Psionics   | Cerebral Inquisitor       | 4     | Unit      | Infantry      | Psionics   | 2             | 4             | 4               | 16                    |
 | Psionics   | Scrap Warden              | 3     | Unit      | Construct     | Technology | 1             | 4             | 4               | 12                    |
 | Psionics   | Neural Architect          | 3     | Unit      | Infantry      | Psionics   | 2             | 5             | 5               | 15                    |
@@ -44,19 +50,19 @@
 | Psionics   | Psychic Scream            | 2     | Event     | Spell         | Psionics   | 4             | 8             | 8               | 16                    |
 | Psionics   | Precognitive Dodge        | 3     | Event     | Tactic        | Psionics   | 1             | 3             | 3               | 9                     |
 | Psionics   | Thought-Theft             | 3     | Event     | Spell         | Psionics   | 2             | 5             | 5               | 15                    |
-| Divinity   | Saint-Queen Elara         | 1     | Unit      | Leader        | Divinity | 4             | 9             | 9               | 9                     |
-| Divinity   | Seraphic Vanguard         | 2     | Unit      | Vehicle       | Divinity | 4             | 10            | 10              | 20                    |
-| Divinity   | Choir of the Ascended     | 3     | Unit      | Infantry      | Divinity | 3             | 6             | 6               | 18                    |
-| Divinity   | Sanctified Battle-Priest  | 4     | Unit      | Infantry      | Divinity | 2             | 4             | 4               | 16                    |
-| Divinity   | Reliquary Guard           | 3     | Unit      | Infantry      | Divinity | 2             | 5             | 5               | 15                    |
-| Divinity   | Initiate of the Order     | 4     | Unit      | Infantry      | Divinity | 1             | 3             | 3               | 12                    |
-| Divinity   | Zealous Chaplain          | 3     | Unit      | Infantry      | Divinity | 2             | 4             | 4               | 12                    |
-| Divinity   | Aether Channeler          | 2     | Unit      | Infantry      | Magic    | 1             | 3             | 3               | 6                     |
-| Divinity   | Cathedral of Martyrs      | 3     | Asset     | Fortification | Divinity | 2             | 5             | 5               | 15                    |
-| Divinity   | Altar of Zeal             | 2     | Asset     | HQ            | Divinity | 3             | 7             | 7               | 14                    |
-| Divinity   | Mass Ascension            | 2     | Event     | Spell         | Divinity | 4             | 8             | 5               | 16                    |
-| Divinity   | Holy Aegis                | 3     | Event     | Spell         | Divinity | 2             | 4             | 4               | 12                    |
-| Divinity   | Righteous Fury            | 4     | Event     | Spell         | Divinity | 1             | 3             | 3               | 12                    |
-| Divinity   | Mana Surge                | 4     | Event     | Spell         | Magic    | 1             | 2             | 2               | 8                     |
-| Divinity   | Arcane Culling            | 3     | Event     | Spell         | Magic    | 1             | 1             | 1               | 3                     |
-| Divinity   | Holy Vow                  | 3     | Upgrade   | Divinity      | Divinity | 2             | 4             | 4               | 12                    |
+| Divinity   | Absolute Crusade          | 1     | Mission   | N/A           | Divinity   | 4             | 0             | 0               | 0                     |
+| Divinity   | Standard Spellcraft       | 1     | Mission   | N/A           | Magic      | 2             | 0             | 0               | 0                     |
+| Divinity   | Initiate of the Order     | 4     | Unit      | Infantry      | Divinity   | 1             | 3             | 3               | 12                    |
+| Divinity   | Sanctified Battle-Priest  | 4     | Unit      | Infantry      | Divinity   | 2             | 4             | 4               | 16                    |
+| Divinity   | Reliquary Guard           | 3     | Unit      | Infantry      | Divinity   | 2             | 5             | 5               | 15                    |
+| Divinity   | Choir of the Ascended     | 3     | Unit      | Infantry      | Divinity   | 3             | 6             | 6               | 18                    |
+| Divinity   | Seraphic Vanguard         | 2     | Unit      | Vehicle       | Divinity   | 4             | 10            | 10              | 20                    |
+| Divinity   | Cathedral of Martyrs      | 3     | Asset     | Fortification | Divinity   | 2             | 5             | 5               | 15                    |
+| Divinity   | Altar of Zeal             | 2     | Asset     | HQ            | Divinity   | 3             | 7             | 7               | 14                    |
+| Divinity   | Righteous Fury            | 4     | Event     | Spell         | Divinity   | 1             | 3             | 3               | 12                    |
+| Divinity   | Mass Ascension            | 2     | Event     | Spell         | Divinity   | 4             | 8             | 8               | 16                    |
+| Divinity   | Holy Vow                  | 3     | Upgrade   | Divinity      | Divinity   | 2             | 4             | 4               | 12                    |
+| Divinity   | Aetheric Repulsion        | 4     | Event     | Spell         | Magic      | 2             | 4             | 4               | 16                    |
+| Divinity   | Arcane Barrage            | 4     | Event     | Spell         | Magic      | 2             | 5             | 5               | 20                    |
+| Divinity   | Illusionary Bypass        | 4     | Event     | Tactic        | Magic      | 1             | 2             | 2               | 8                     |
+| Divinity   | Aetheric Shift            | 2     | Event     | Tactic        | Magic      | 1             | 3             | 3               | 6                     |

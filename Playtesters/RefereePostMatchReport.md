@@ -34,20 +34,20 @@ This form serves as the official, standardized analytical record for competitive
 
 ## **Part A: The Supremacy & Theater Escalation Log**
 
-**Instructions:** At the conclusion of every Activation Sequence, during the formal Scoring Step, log the precise state of the board. Record the player who secured Initiative for the next round (by passing first), the Supremacy Points earned this round via the Contested Zone (Row 3) and asynchronous Secure Objective bursts, the running total for each player, and the Combined Supremacy Score. You must explicitly mark the exact rounds where the global board escalates to Theater Level 2 (8 Combined Points) and Theater Level 3 (14 Combined Points), unlocking dynamic runtime CP mana sinks.
+**Instructions:** At the conclusion of every Activation Sequence, during the formal Scoring Step, log the precise state of the board. Record the player who held Initiative for the current round (governed by the strict alternation rule), the Supremacy Points earned this round via the Contested Zone (Row 3) and asynchronous Secure Objective bursts, the running total for each player, and the Combined Supremacy Score. You must explicitly mark the exact rounds where the global board escalates to Theater Level 2 (6 Combined Points) and Theater Level 3 (10 Combined Points), unlocking dynamic runtime CP mana sinks.
 
 | Round | Initiative Holder | Player 1 Points Gained (Running Total) | Player 2 Points Gained (Running Total) | Combined Supremacy Score & Theater Escalations |
 | :---- | :---- | :---- | :---- | :---- |
-| **1** |  | +____ (Total: ____) | +____ (Total: ____) | Combined: ____ |
-| **2** |  | +____ (Total: ____) | +____ (Total: ____) | Combined: ____ |
-| **3** |  | +____ (Total: ____) | +____ (Total: ____) | Combined: ____ |
-| **4** |  | +____ (Total: ____) | +____ (Total: ____) | Combined: ____ |
-| **5** |  | +____ (Total: ____) | +____ (Total: ____) | Combined: ____ |
-| **6** |  | +____ (Total: ____) | +____ (Total: ____) | Combined: ____ |
-| **7** |  | +____ (Total: ____) | +____ (Total: ____) | Combined: ____ |
-| **8** |  | +____ (Total: ____) | +____ (Total: ____) | Combined: ____ |
-| **9** |  | +____ (Total: ____) | +____ (Total: ____) | Combined: ____ |
-| **10+** |  | +____ (Total: ____) | +____ (Total: ____) | Combined: ____ |
+| **1** |  | +____ (Total: ____) | +____ (Total: ____) | Combined: ____ |
+| **2** |  | +____ (Total: ____) | +____ (Total: ____) | Combined: ____ |
+| **3** |  | +____ (Total: ____) | +____ (Total: ____) | Combined: ____ |
+| **4** |  | +____ (Total: ____) | +____ (Total: ____) | Combined: ____ |
+| **5** |  | +____ (Total: ____) | +____ (Total: ____) | Combined: ____ |
+| **6** |  | +____ (Total: ____) | +____ (Total: ____) | Combined: ____ |
+| **7** |  | +____ (Total: ____) | +____ (Total: ____) | Combined: ____ |
+| **8** |  | +____ (Total: ____) | +____ (Total: ____) | Combined: ____ |
+| **9** |  | +____ (Total: ____) | +____ (Total: ____) | Combined: ____ |
+| **10+** |  | +____ (Total: ____) | +____ (Total: ____) | Combined: ____ |
 
 ## **Part B: Player Execution and Tactical Analysis**
 
@@ -63,7 +63,7 @@ Evaluate how effectively each player piloted their 200 Requisition Point (RP) dr
 
 **LVP Card (Least efficient / "Dead" card in hand):** ___________________________
 
-**Referee Notes on the Initiative-Tempo Loop:** Analyze Player 1's use of the Activation Sequence. Did they frequently pass early to secure Initiative for the subsequent round? When they did pass early, did they successfully avoid conceding critical quadrants in the neutral Contested Zone (Row 3) during the Scoring Step, or did their tempo manipulation result in a loss of Supremacy Points?
+**Referee Notes on the Initiative-Tempo Loop:** Analyze Player 1's use of the Activation Sequence. Did they efficiently forecast the strict alternating Initiative to set up two-turn tactical maneuvers? Did they successfully leverage the Momentum rule to secure critical quadrants in the neutral Contested Zone (Row 3) prior to the Scoring Step, or did their tempo management result in a loss of Supremacy Points? Did they effectively balance their action economy by utilizing the 3 CP Draw Intel action when necessary?
 
 [Provide detailed prose analysis here]
 
@@ -77,7 +77,7 @@ Evaluate how effectively each player piloted their 200 Requisition Point (RP) dr
 
 **LVP Card (Least efficient / "Dead" card in hand):** ___________________________
 
-**Referee Notes on the Initiative-Tempo Loop:** Analyze Player 2's use of the Activation Sequence. Did they over-extend their 15 CP universal allowance early in the round, allowing Player 1 to execute unanswered actions? How effectively did they manage the spatial deployment of their units between their Deployment Zone (Row 1/Row 5), their Vanguard (Row 2/Row 4), and the Contested Zone (Row 3)?
+**Referee Notes on the Initiative-Tempo Loop:** Analyze Player 2's use of the Activation Sequence. Did they over-extend their 15 CP universal allowance early in the round, allowing Player 1 to execute unanswered actions? How effectively did they manage the spatial deployment of their units between their Deployment Zone (Row 1/Row 5), their Vanguard (Row 2/Row 4), and the Contested Zone (Row 3), while adhering to the 3-Weight capacity limit and treating enemy quadrants as impassable walls?
 
 [Provide detailed prose analysis here]
 
@@ -97,9 +97,9 @@ Quantum Nexus removes individual mission challenges in favor of a global scaling
 * Did the game reach Theater Level 3 (Climax), and if so, did players sacrifice their action economy to pay the massive CP execution cost, and were the resulting one-time abilities successfully mitigated by the opponent?
 * [Provide detailed prose analysis here]
 
-**3. Deterministic Combat, Spatial Geometry, and Suppression:**
+**3. Deterministic Combat, Spatial Geometry, and Native Traits:**
 
-Evaluate the health of the combat math and spatial tracking during this match. How frequently were units placed into the "Suppressed" state (Attack exactly equals Effective Defense)? Did players successfully execute the Tactical Advance maneuver (taking a strict -2 Attack penalty to move and fire simultaneously), and did physical Line of Sight obstructions or Flanking Crossfire penalties (-1 Effective Defense) dictate engagement lanes?
+Evaluate the health of the combat math and spatial tracking during this match. How frequently was the Momentum rule triggered to execute fluid frontline sweeps? Did players successfully execute the Tactical Advance maneuver (taking a strict -1 Attack penalty to move and fire simultaneously), and did physical Line of Sight obstructions governed by the 3-Weight capacity limit or the application of Native Traits (Evasion, Pushback, Quadrant Damage) dictate engagement lanes?
 
 [Provide detailed prose analysis here]
 
@@ -107,7 +107,7 @@ Evaluate the health of the combat math and spatial tracking during this match. H
 
 * **Observed Rule Infractions:** YES / NO (If YES, detail the exact phase and mechanical failure below)
 * **Confusing Keyword Interactions:** YES / NO (If YES, specify which keywords, such as *Arcane Recall*, *Impact*, or *Zeal*, caused resolution disputes)
-* **Token Application:** Did players correctly utilize the standardized baseline tokens (Constructs, Spirits, Echoes, Golems, Scrap) and their immutable stats, Range 1 metrics, and keywords? YES / NO
+* **Token Application:** Did players correctly utilize the standardized baseline tokens (Constructs, Spirits, Echoes, Golems, Scrap) and their immutable stats, Small Size (1 Weight) metrics, Range 1 metrics, and keywords? YES / NO
 
 **Referee's Final Diagnostic Assessment:**
 

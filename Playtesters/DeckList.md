@@ -22,7 +22,7 @@
 | Magic      | Leyline Nexus             | 3     | Asset     | Generator     | Magic      | 2             | 6             | 6               | 18                    |
 | Magic      | Cerebral Network          | 2     | Asset     | HQ            | Psionics   | 2             | 7             | 7               | 14                    |
 | Magic      | Aetheric Blast            | 4     | Event     | Spell         | Magic      | 2             | 4             | 4               | 16                    |
-| Magic      | Reality Fracture          | 3     | Event     | Spell         | Magic      | 3             | 6             | 6               | 18                    |
+| Magic      | Reality Fracture          | 3     | Event     | Spell         | Magic      | 3             | 8             | 8               | 24                    |
 | Magic      | Psychic Tether            | 3     | Event     | Tactic        | Psionics   | 1             | 3             | 3               | 9                     |
 | Magic      | Mana Surge                | 4     | Event     | Spell         | Magic      | 1             | 2             | 2               | 8                     |
 | Magic      | Erase from Time           | 2     | Event     | Spell         | Magic      | 3             | 6             | 6               | 12                    |
@@ -30,12 +30,12 @@
 | Magic      | Archmage's Mantle         | 2     | Event     | Magic         | Magic      | 2             | 4             | 4               | 8                     |
 | Magic      | Supernova Catalyst        | 2     | Event     | Spell         | Magic      | 4             | 10            | 10              | 20                    |
 | Magic      | Cognitive Dissonance      | 2     | Event     | Tactic        | Psionics   | 2             | 4             | 4               | 8                     |
-| Magic      | Mental Shatter            | 1     | Event     | Tactic        | Psionics   | 2             | 6             | 6               | 6                     |
+| Magic      | Mental Shatter            | 1     | Event     | Tactic        | Psionics   | 2             | 4             | 4               | 4                     |
 | Psionics   | Cerebral Inquisitor       | 4     | Unit      | Infantry      | Psionics   | 2             | 4             | 4               | 16                    |
 | Psionics   | Scrap Warden              | 3     | Unit      | Construct     | Technology | 1             | 4             | 4               | 12                    |
 | Psionics   | Neural Architect          | 3     | Unit      | Infantry      | Psionics   | 2             | 5             | 5               | 15                    |
 | Psionics   | Synaptic Nullifier        | 2     | Unit      | Vehicle       | Psionics   | 3             | 8             | 8               | 16                    |
-| Psionics   | Leviathan-Class Null-Mech | 2     | Unit      | Vehicle       | Psionics   | 2             | 13            | 13              | 26                    |
+| Psionics   | Leviathan-Class Null-Mech | 2     | Unit      | Vehicle       | Psionics   | 2             | 12            | 12              | 24                    |
 | Psionics   | Automated Barricade       | 3     | Asset     | Fortification | Technology | 2             | 4             | 4               | 12                    |
 | Psionics   | Panopticon Relay          | 3     | Asset     | HQ            | Psionics   | 2             | 6             | 6               | 18                    |
 | Psionics   | Ego Collapse              | 3     | Event     | Spell         | Psionics   | 2             | 5             | 5               | 15                    |

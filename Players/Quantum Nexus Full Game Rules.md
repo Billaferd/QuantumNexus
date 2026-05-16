@@ -51,29 +51,38 @@ The total DP provided across all of your chosen Mission Cards must equal exactly
 Mission Cards operate on three escalations tied to the global Theater Level:
 
 * **Logistics (Theater Level 1):** All players receive a standardized universal baseline salary of 15 Command Points (CP) at the start of every single round, completely divorced from Mission Card selection.
-* **Escalation (Theater Level 2):** Grants access to the passive ability printed on the card when the global board reaches 8 combined Supremacy Points, provided the player pays the dynamic runtime CP upkeep cost associated with the ability during their Activation Sequence.
-* **Climax (Theater Level 3):** Allows the player to manually execute the one-time, game-ending reward printed on the card when the global board reaches 14 combined Supremacy Points by sacrificing the required runtime CP cost during their Activation Sequence.
+* **Escalation (Theater Level 2):** Grants access to the passive ability printed on the card when the global board reaches 6 combined Supremacy Points, provided the player pays the dynamic runtime CP upkeep cost associated with the ability during their Activation Sequence.
+* **Climax (Theater Level 3):** Allows the player to manually execute the one-time, game-ending reward printed on the card when the global board reaches 10 combined Supremacy Points by sacrificing the required runtime CP cost during their Activation Sequence.
 
 ### D. Sideboarding Constraints
 
 Players may utilize a standardized sideboard to adapt their strategies between games in a competitive match. The sideboard is governed by two simultaneous constraints: it may contain a maximum of 10 physical cards, and the combined RP value of those cards must not exceed 40 RP. All cards within the sideboard must strictly adhere to the Domain Point restrictions established by your primary Mission roster, and as previously noted, the combined total of any specific card between your main deck and sideboard cannot exceed that card's printed Duplicates stat.
 
-## IV. The Battlefield and Spatial Capacity
+## IV. The Battlefield, Spatial Capacity, and Native Traits
 
 The battlefield is a highly structured tactical grid divided into distinct rows and quadrants for each player.
 
-The battlefield is a shared, continuous 5x3 grid. Row 1 is your Deployment Zone (Back Row). Row 2 is your Vanguard. Row 3 is the neutral Contested Zone. Row 4 is the opponent's Vanguard, and Row 5 is the opponent's Deployment Zone. Each row is divided into three columns (Left, Center, Right). Physical line of sight is obstructed by any quadrant operating at maximum capacity (e.g., containing a Massive unit or two Large units); attacks cannot pass through these obstructed quadrants. A unit is considered "adjacent" to units in the quadrants directly next to it, both horizontally and vertically.
+The battlefield is a shared, continuous 5x3 grid. Row 1 is your Deployment Zone (Back Row). Row 2 is your Vanguard. Row 3 is the neutral Contested Zone. Row 4 is the opponent's Vanguard, and Row 5 is the opponent's Deployment Zone. Each row is divided into three columns (Left, Center, Right). Physical line of sight is obstructed by any quadrant operating at maximum capacity; attacks cannot pass through these obstructed quadrants. A unit is considered "adjacent" to units in the quadrants directly next to it, both horizontally and vertically.
+
+**Important:** Enemy-occupied quadrants are strictly impassable. Opposing units may never mix or co-occupy the same quadrant.
 
 ### A. Quadrant Capacity and Unit Sizes
 
-Every quadrant on the battlefield is governed by a strict spatial capacity limit. To calculate this, every quadrant is conceptualized as containing exactly eight "Capacity Slots." A unit's designated physical size dictates how many of these slots it occupies upon deployment or movement.
+Every quadrant on the battlefield is governed by a strict visual limit of 3 Weight. A unit's designated physical size dictates its Weight, determining how many units can safely fit into a single quadrant. 
 
-* **Tiny Units** require 1 slot each. A maximum of 8 Tiny units can occupy an empty quadrant.
-* **Small Units** require 2 slots each. A maximum of 4 Small units can occupy an empty quadrant.
-* **Large Units** require 4 slots each. A maximum of 2 Large units can occupy an empty quadrant.
-* **Massive Units** require 8 slots each. A quadrant may only ever contain 1 Massive unit, claiming absolute dominance over that space.
+* **Small Units** (and legacy Tiny units) possess 1 Weight. A maximum of 3 Small units can occupy a quadrant.
+* **Large Units** possess 2 Weight. A quadrant can safely hold one Large unit and one Small unit.
+* **Massive Units** possess 3 Weight. A quadrant may only ever contain 1 Massive unit, claiming absolute dominance over that space.
 
-Because capacity is calculated strictly via these slots, players may freely mix and match unit sizes within a single quadrant, provided the total slot value does not exceed eight. For example, a player may legally occupy a single quadrant with one Large unit (4 slots) alongside four Small units (4 slots) to perfectly maximize the quadrant's 8-slot capacity.
+Because capacity is visual and absolute, players instantly know if a quadrant is full based on these strict combinations adding up to exactly 3 Weight.
+
+### B. Native Unit Traits
+
+Because enemy quadrants act as physical walls, a unit's size classification grants it an inherent Native Trait to interact with the grid, drastically defining its tactical role.
+
+* **Evasion (Small Units):** Small units are agile flankers. They are the only entities permitted to move diagonally. Additionally, Small units do not block friendly Line of Sight for ranged attacks.
+* **Pushback (Large Units):** Large units are linebreakers. When a Large unit successfully inflicts an Impact counter on a defending unit, it may force that unit to retreat into an empty adjacent quadrant. If no empty quadrant exists, the defender suffers 1 additional Impact counter instead.
+* **Quadrant Damage (Massive Units):** Massive units represent overwhelming, indiscriminate force. When a Massive unit declares an attack against a target quadrant, its Attack value is compared against the Armor of *every* unit in that quadrant simultaneously. 
 
 ## V. Gameplay Structure
 
@@ -91,24 +100,25 @@ The game is played in a continuous series of rounds, each meticulously divided i
 
 #### 1. Start of Round Step
 
-All players perform these logistical steps simultaneously. First, players ready all exhausted cards, remove any temporary tokens, and reset all Command Point (CP) totals to zero. Second, players secure their Income by gaining a standardized base salary of 15 Command Points (CP). Third, players execute their Draw phase; a player's default Maximum Hand Size is 5. Draw cards from your deck until the number of cards in your hand equals your Maximum Hand Size. If you currently hold a number of cards equal to or greater than your Maximum Hand Size, you do not draw. At the end of the round, if you hold more cards than your Maximum Hand Size, you must discard cards until your hand size equals the maximum limit. Finally, any card effects explicitly stating "At the start of the round" resolve immediately.
+All players perform these logistical steps simultaneously. First, players ready all exhausted cards, remove any temporary tokens, and reset all Command Point (CP) totals to zero. Second, players secure their Income by gaining a standardized base salary of 15 Command Points (CP). Third, players execute their Draw phase; every player automatically draws exactly two (2) cards. A player's default Maximum Hand Size is 5. At the end of the round, if you hold more cards than your Maximum Hand Size, you must discard cards until your hand size equals the maximum limit. Finally, any card effects explicitly stating "At the start of the round" resolve immediately.
 
 #### 2. The Activation Sequence
 
-This is the core tactical phase, characterized by alternating, singular actions. The player possessing Initiative acts first. In the first round, this is the coin-toss winner. During the Activation Sequence, Initiative operates dynamically via a 'Tug of War' mechanic: the moment a player successfully destroys an enemy unit, they immediately seize the Initiative token for the following round. This token changes hands immediately whenever a unit is destroyed.
+This is the core tactical phase, characterized by alternating, singular actions. The player possessing Initiative acts first. In the first round, this is the coin-toss winner. During the Activation Sequence, Initiative operates on a strict alternation mechanic: the Initiative token simply passes back and forth between players at the start of every new round, allowing for predictable tactical forecasting. 
 
 On your turn, you must perform exactly ONE of the following actions, after which the turn immediately passes clockwise:
 
 * **Deploy:** Pay the required CP cost to play a card from your hand. Units must be deployed to your Deployment Zone (Row 1) unless they possess a keyword stating otherwise, and must respect Quadrant Capacity limits. Assets are deployed to the Loadout Area. Upgrades are attached directly to valid units. Terrain is played directly onto a Quadrant.
-* **Move:** Relocate a ready unit one orthogonal quadrant. The unit is immediately exhausted.
-* **Tactical Advance:** Relocate a ready unit one orthogonal quadrant and immediately declare an attack with it. The unit suffers a strict -1 penalty to its Attack value for this combat resolution, then exhausts.
+* **Move:** Relocate a ready unit one orthogonal quadrant (or diagonal, if Small). The unit is immediately exhausted.
+* **Tactical Advance:** Relocate a ready unit one quadrant and immediately declare an attack with it. The unit suffers a strict -1 penalty to its Attack value for this combat resolution, then exhausts.
 * **Attack:** Exhaust a ready unit to declare a stationary attack against an enemy unit within its valid numeric range.
 * **Activate:** Pay any associated costs to trigger an "Active Ability" printed on a card you already control in play.
 * **Play Event:** Pay the CP cost of an Event card in your hand, fully resolve its text, and place it in your discard pile.
+* **Draw Intel:** Spend exactly 3 CP to draw 1 card from your deck.
 * **Secure Objective:** Exhaust a ready non-token unit currently occupying a quadrant that contains a Strategic Directive token to claim it, immediately securing a one-time burst of 2 Supremacy Points and permanently removing the token from the board.
-* **Pass:** Choose to take no action. 
+* **Pass:** Choose to take no action. 
 
-The Activation Sequence ends only when all players pass consecutively in an unbroken sequence. If you pass, but your opponent subsequently takes an action, the sequence is broken and you may take another action when the turn returns to you. 
+The Activation Sequence ends only when all players pass consecutively in an unbroken sequence. If you pass, but your opponent subsequently takes an action, the sequence is broken and you may take another action when the turn returns to you. 
 
 #### 3. The Scoring Step
 
@@ -116,7 +126,7 @@ Immediately following the consecutive passes that terminate the Activation Seque
 
 A player earns exactly one (1) Supremacy Point for every quadrant they physically occupy within the neutral Contested Zone (Row 3). This centralized territorial dominance forms the baseline progression of the Theater Escalation, forcing direct collision to advance the game state.
 
-After points are awarded, players calculate the Combined Supremacy Score by adding both players' totals together. If the combined total reaches 8, Theater Level 2 is initiated, and all players immediately activate their Mission Cards' passive abilities, provided they meet the dynamic upkeep CP cost. If the combined total reaches 14, Theater Level 3 is initiated, and all players immediately resolve their Mission Cards' Climax abilities by paying the associated runtime CP cost.
+After points are awarded, players calculate the Combined Supremacy Score by adding both players' totals together. If the combined total reaches 6, Theater Level 2 is initiated, and all players immediately activate their Mission Cards' passive abilities, provided they meet the dynamic upkeep CP cost. If the combined total reaches 10, Theater Level 3 is initiated, and all players immediately resolve their Mission Cards' Climax abilities by paying the associated runtime CP cost.
 
 ## VI. Combat Mechanics
 
@@ -126,10 +136,9 @@ Combat in Quantum Nexus is a deterministic calculation of positioning and statis
 
 When declaring an attack, a unit's inherent Range dictates its valid targets. Units residing in their respective Deployment Zone (Row 1 or Row 5) cannot be targeted by Range 2 or greater attacks unless the attacking unit possesses the Artillery or Sniper keyword.
 
-* **Range 1:** The unit may only target orthogonally adjacent quadrants.
-* **Range 2:** The unit may target any quadrant up to 2 orthogonal steps away.
-* **Range 3+:** The unit operates as artillery, targeting quadrants up to 3 (or more) orthogonal steps away, subject to physical Line of Sight obstructions.
-* **Flanking Crossfire:** If a defending unit is attacked from a diagonal quadrant, and its directly opposing frontal quadrant is simultaneously occupied by a hostile unit, the attacking unit gains the Armor Piercing keyword for that specific attack resolution, mathematically punishing static formations through binary state resolution.
+* **Range 1:** The unit may only target adjacent quadrants.
+* **Range 2:** The unit may target any quadrant up to 2 steps away.
+* **Range 3+:** The unit operates as artillery, targeting quadrants up to 3 (or more) steps away, subject to physical Line of Sight obstructions.
 
 ### B. Combat Resolution and Damage
 
@@ -138,7 +147,9 @@ To resolve combat, compare the attacker's Attack value directly against the defe
 * **Destruction (Attack >= Defense):** If the attacker's Attack value is greater than or equal to the defender's Defense (accounting for any accumulated Impact counters), the target is destroyed and placed in the discard pile.
 * **Exhaustion and Impact (Attack < Defense):** If the Attack value is lower than the defender's Defense, the attack is not immediately lethal. Instead, the target receives one Impact counter and is immediately exhausted (if it was ready). If a unit's accumulated Impact counters ever equal or exceed its Defense, it is immediately destroyed.
 
-Units do not retain temporary combat damage between actions unless represented by persistent Impact counters. 
+**The Momentum Rule:** If an attacking unit completely clears a target quadrant of all enemy units, it may immediately move into that quadrant as part of the same Activation at no additional CP cost. This ensures the frontline remains violently fluid.
+
+Units do not retain temporary combat damage between actions unless represented by persistent Impact counters. 
 
 ## VII. Winning the Game
 
@@ -150,11 +161,11 @@ Additionally, if any player is required to draw a card but has zero cards remain
 
 When a card effect instructs a player to create a specific token, the token must utilize the following exact statistics and traits. **All newly generated tokens enter the battlefield in an exhausted state.**
 
-* **Construct (Technology):** Small Size. 1 Attack / 1 Defense. Range 1. No keywords.
-* **Spirit (Divinity):** Small Size. 2 Attack / 2 Defense. Range 1. Flying, Ethereal.
-* **Echo (Psionics):** Small Size. 0 Attack / 1 Defense. Range 1. Illusion.
-* **Golem (Magic):** Small Size. 2 Attack / 1 Defense. Range 1. No Keywords.
-* **Scrap (Neutral):** Small Size. 0 Attack / 1 Defense. Range 1. Immobile.
+* **Construct (Technology):** Small Size (1 Weight). 1 Attack / 1 Defense. Range 1. No keywords.
+* **Spirit (Divinity):** Small Size (1 Weight). 2 Attack / 2 Defense. Range 1. Flying, Ethereal.
+* **Echo (Psionics):** Small Size (1 Weight). 0 Attack / 1 Defense. Range 1. Illusion.
+* **Golem (Magic):** Small Size (1 Weight). 2 Attack / 1 Defense. Range 1. No Keywords.
+* **Scrap (Neutral):** Small Size (1 Weight). 0 Attack / 1 Defense. Range 1. Immobile.
 
 ## Appendix B: Universal Keyword & Status Effect Glossary
 

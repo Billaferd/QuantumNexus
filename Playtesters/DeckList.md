@@ -42,14 +42,18 @@
 | Psionics   | Neural Architect          | 3     | Unit      | Infantry      | Psionics   | 2             | 5             | 5               | 15                    |
 | Psionics   | Synaptic Nullifier        | 2     | Unit      | Vehicle       | Psionics   | 3             | 8             | 8               | 16                    |
 | Psionics   | Leviathan-Class Null-Mech | 2     | Unit      | Vehicle       | Psionics   | 2             | 12            | 12              | 24                    |
+| Psionics   | Synaptic Executioner      | 3     | Unit      | Infantry      | Psionics   | 3             | 5             | 5               | 15                    |
 | Psionics   | Automated Barricade       | 3     | Asset     | Fortification | Technology | 2             | 4             | 4               | 12                    |
-| Psionics   | Panopticon Relay          | 3     | Asset     | HQ            | Psionics   | 2             | 6             | 6               | 18                    |
-| Psionics   | Ego Collapse              | 3     | Event     | Spell         | Psionics   | 2             | 5             | 5               | 15                    |
-| Psionics   | Memory Wipe               | 3     | Event     | Tactic        | Psionics   | 3             | 7             | 7               | 21                    |
+| Psionics   | Panopticon Relay          | 2     | Asset     | HQ            | Psionics   | 2             | 6             | 6               | 12                    |
+| Psionics   | Ego Collapse              | 2     | Event     | Spell         | Psionics   | 2             | 5             | 5               | 10                    |
+| Psionics   | Memory Wipe               | 1     | Event     | Tactic        | Psionics   | 3             | 7             | 7               | 7                     |
 | Psionics   | Industrial Conscription   | 3     | Event     | Tactic        | Technology | 1             | 3             | 3               | 9                     |
-| Psionics   | Psychic Scream            | 2     | Event     | Spell         | Psionics   | 4             | 8             | 8               | 16                    |
+| Psionics   | Psychic Scream            | 1     | Event     | Spell         | Psionics   | 4             | 8             | 8               | 8                     |
 | Psionics   | Precognitive Dodge        | 3     | Event     | Tactic        | Psionics   | 1             | 3             | 3               | 9                     |
-| Psionics   | Thought-Theft             | 3     | Event     | Spell         | Psionics   | 2             | 5             | 5               | 15                    |
+| Psionics   | Thought-Theft             | 2     | Event     | Spell         | Psionics   | 2             | 5             | 5               | 10                    |
+| Psionics   | Induced Betrayal          | 2     | Event     | Spell         | Psionics   | 3             | 5             | 5               | 10                    |
+| Psionics   | Telekinetic Eviction      | 2     | Event     | Tactic        | Psionics   | 2             | 4             | 4               | 8                     |
+| Psionics   | Sensory Deprivation       | 2     | Event     | Spell         | Psionics   | 2             | 3             | 3               | 6                     |
 | Divinity   | Absolute Crusade          | 1     | Mission   | N/A           | Divinity   | 4             | 0             | 0               | 0                     |
 | Divinity   | Standard Spellcraft       | 1     | Mission   | N/A           | Magic      | 2             | 0             | 0               | 0                     |
 | Divinity   | Initiate of the Order     | 4     | Unit      | Infantry      | Divinity   | 1             | 3             | 3               | 12                    |

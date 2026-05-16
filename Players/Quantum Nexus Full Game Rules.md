@@ -101,7 +101,7 @@ On your turn, you must perform exactly ONE of the following actions, after which
 
 * **Deploy:** Pay the required CP cost to play a card from your hand. Units must be deployed to your Deployment Zone (Row 1) unless they possess a keyword stating otherwise, and must respect Quadrant Capacity limits. Assets are deployed to the Loadout Area. Upgrades are attached directly to valid units. Terrain is played directly onto a Quadrant.
 * **Move:** Relocate a ready unit one orthogonal quadrant. The unit is immediately exhausted.
-* **Tactical Advance:** Relocate a ready unit one orthogonal quadrant and immediately declare an attack with it. The unit suffers a strict -2 penalty to its Attack value for this combat resolution, then exhausts.
+* **Tactical Advance:** Relocate a ready unit one orthogonal quadrant and immediately declare an attack with it. The unit suffers a strict -1 penalty to its Attack value for this combat resolution, then exhausts.
 * **Attack:** Exhaust a ready unit to declare a stationary attack against an enemy unit within its valid numeric range.
 * **Activate:** Pay any associated costs to trigger an "Active Ability" printed on a card you already control in play.
 * **Play Event:** Pay the CP cost of an Event card in your hand, fully resolve its text, and place it in your discard pile.

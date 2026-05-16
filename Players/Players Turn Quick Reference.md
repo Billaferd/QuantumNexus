@@ -11,10 +11,10 @@ The Activation Sequence is the core phase of gameplay, characterized by players 
 When choosing an action, players may select from the following strictly defined options:
  * **Deploy:** A player may pay the CP cost to play a Unit, Upgrade, Asset, or Terrain card from their hand. Units must be deployed directly to the player's Deployment Zone (Row 1) unless the unit possesses a keyword explicitly stating otherwise. Assets must always be deployed to the special Loadout Area, while Upgrades must be deployed directly onto a host unit. Terrain cards are played to occupy a specific Quadrant on the battlefield.
  * **Move:** A player may move a ready unit one orthogonal quadrant, immediately exhausting it.
- * **Tactical Advance:** A player may move a ready unit one orthogonal quadrant and immediately declare an attack, suffering a strict -2 Attack penalty for the resolution of that specific combat.
+ * **Tactical Advance:** A player may move a ready unit one orthogonal quadrant and immediately declare an attack, suffering a strict -1 Attack penalty for the resolution of that specific combat.
  * **Attack:** A player may exhaust a ready unit to declare a stationary attack against an enemy unit that falls within its valid numeric range.
  * **Activate:** A player may use an Active Ability printed on a card they already have in play, provided they pay any associated costs, which may include spending CP or exhausting the card itself.
- * **Secure Objective:** A player may exhaust a ready non-token unit currently occupying a quadrant that contains a Strategic Directive token to instantly score a one-time burst of 3 Supremacy Points and permanently remove the token from the board.
+ * **Secure Objective:** A player may exhaust a ready non-token unit currently occupying a quadrant that contains a Strategic Directive token to instantly score a one-time burst of 2 Supremacy Points and permanently remove the token from the board.
  * **Play Event:** A player may pay the CP cost of an Event card in their hand, resolve its text immediately, and then place the card into their discard pile.
  * **Pass:** A player may choose to take no action.
 

@@ -12,7 +12,7 @@ The fundamental objective of Quantum Nexus is not simply to eradicate the oppone
 
 ### B. Components
 
-To play Quantum Nexus, each player requires a customized deck of cards constructed strictly according to the deck-building laws. Players will also need a Game Board or Playmat to organize their cards and track the game state across the shared spatial grid, Deck, Discard, and Mission Area. Various tokens are required to represent generated units, status indicators (such as "Suppressed"), and damage counters. A randomizer, such as a coin or die, is used to determine the starting player.
+To play Quantum Nexus, each player requires a customized deck of cards constructed strictly according to the deck-building laws. Players will also need a Game Board or Playmat to organize their cards and track the game state across the shared spatial grid, Deck, Discard, and Mission Area. Various tokens are required to represent generated units, status indicators, and damage counters (such as Impact counters). A randomizer, such as a coin or die, is used to determine the starting player.
 
 Furthermore, players must share a highly visible, physical Supremacy Tracker placed centrally between them. This tracker records each player's individual Supremacy Points to determine the winner, as well as the Combined Supremacy Score used to dictate the current global Theater Level.
 
@@ -34,7 +34,7 @@ Constructing a legal deck is an exercise in strict economic engineering. Quantum
 
 ### A. The 200 RP Budget and The Rule of Duplicates
 
-Your main deck—which encompasses all Units, Leaders, Assets, Events, Upgrades, and Terrain cards—must contain a collection of cards with a maximum total Requisition Point (RP) value of 200. Command Points (CP) are strictly reserved as a runtime action currency and do not govern deck construction. There is no minimum or maximum limit on the physical number of cards within the main deck; the cumulative RP cost alone dictates the deck's volume. You may choose to field a massive swarm of inexpensive units or a highly concentrated strike force of elite entities, provided the total cost does not exceed 200 RP.
+Your main deck—which encompasses all Units, Leaders, Assets, Events, Upgrades, and Terrain cards—must contain exactly 40 to 60 physical cards with a maximum total Requisition Point (RP) value of 200. Command Points (CP) are strictly reserved as a runtime action currency and do not govern deck construction. The mathematical cost dictates the deck's power density, while the 40 to 60 card limit mathematically bounds the physical volume to ensure competitive consistency. You may choose to field a swarm of inexpensive units or a concentrated strike force of elite entities, provided the total cost does not exceed 200 RP and the card count remains strictly between 40 and 60.
 
 To ensure deck diversity and prevent strategic monopolization, Quantum Nexus strictly enforces the **Rule of Duplicates**. As defined by the universal card properties, every card features a printed Duplicates stat. The combined quantity of a specific card across both your main deck and your sideboard must never exceed this printed numerical limit under any circumstances.
 
@@ -95,7 +95,7 @@ All players perform these logistical steps simultaneously. First, players ready 
 
 #### 2. The Activation Sequence
 
-This is the core tactical phase, characterized by alternating, singular actions. The player possessing Initiative acts first. In the first round, this is the coin-toss winner; in all subsequent rounds, it is the player who passed first to successfully end the previous round.
+This is the core tactical phase, characterized by alternating, singular actions. The player possessing Initiative acts first. In the first round, this is the coin-toss winner. During the Activation Sequence, Initiative operates dynamically via a 'Tug of War' mechanic: the moment a player successfully destroys an enemy unit, they immediately seize the Initiative token for the following round. This token changes hands immediately whenever a unit is destroyed.
 
 On your turn, you must perform exactly ONE of the following actions, after which the turn immediately passes clockwise:
 
@@ -106,13 +106,15 @@ On your turn, you must perform exactly ONE of the following actions, after which
 * **Activate:** Pay any associated costs to trigger an "Active Ability" printed on a card you already control in play.
 * **Play Event:** Pay the CP cost of an Event card in your hand, fully resolve its text, and place it in your discard pile.
 * **Secure Objective:** Exhaust a ready non-token unit currently occupying a quadrant that contains a Strategic Directive token to claim it, immediately securing a one-time burst of 2 Supremacy Points and permanently removing the token from the board.
-* **Pass:** Choose to take no action.
+* **Pass:** Choose to take no action. 
 
-The Activation Sequence ends only when all players pass consecutively in an unbroken sequence. If you pass, but your opponent subsequently takes an action, the sequence is broken and you may take another action when the turn returns to you. The specific player who passed first to initiate the unbroken sequence that ends the phase successfully secures Initiative for the next round.
+The Activation Sequence ends only when all players pass consecutively in an unbroken sequence. If you pass, but your opponent subsequently takes an action, the sequence is broken and you may take another action when the turn returns to you. 
 
 #### 3. The Scoring Step
 
-Immediately following the consecutive passes that terminate the Activation Sequence, players evaluate the positional state of the battlefield. A player earns exactly one (1) Supremacy Point for every quadrant they physically occupy within the neutral Contested Zone (Row 3). This centralized territorial dominance forms the baseline progression of the Theater Escalation, forcing direct collision to advance the game state.
+Immediately following the consecutive passes that terminate the Activation Sequence, players evaluate the positional state of the battlefield. If an entire round passes with absolutely zero units being destroyed, Initiative immediately defaults to the player who physically occupies the most quadrants in the neutral Contested Zone (Row 3). If the center is equally contested or entirely empty, Initiative simply remains with the player who currently possesses it.
+
+A player earns exactly one (1) Supremacy Point for every quadrant they physically occupy within the neutral Contested Zone (Row 3). This centralized territorial dominance forms the baseline progression of the Theater Escalation, forcing direct collision to advance the game state.
 
 After points are awarded, players calculate the Combined Supremacy Score by adding both players' totals together. If the combined total reaches 8, Theater Level 2 is initiated, and all players immediately activate their Mission Cards' passive abilities, provided they meet the dynamic upkeep CP cost. If the combined total reaches 14, Theater Level 3 is initiated, and all players immediately resolve their Mission Cards' Climax abilities by paying the associated runtime CP cost.
 
@@ -122,22 +124,21 @@ Combat in Quantum Nexus is a deterministic calculation of positioning and statis
 
 ### A. Range and Targeting
 
-When declaring an attack, a unit's inherent Range dictates its valid targets.
+When declaring an attack, a unit's inherent Range dictates its valid targets. Units residing in their respective Deployment Zone (Row 1 or Row 5) cannot be targeted by Range 2 or greater attacks unless the attacking unit possesses the Artillery or Sniper keyword.
 
 * **Range 1:** The unit may only target orthogonally adjacent quadrants.
 * **Range 2:** The unit may target any quadrant up to 2 orthogonal steps away.
 * **Range 3+:** The unit operates as artillery, targeting quadrants up to 3 (or more) orthogonal steps away, subject to physical Line of Sight obstructions.
-* **Flanking Crossfire:** If a defending unit is attacked from a diagonal quadrant, and its directly opposing frontal quadrant is simultaneously occupied by a hostile unit, the defender suffers a permanent -1 Effective Defense penalty for that specific attack resolution, mathematically punishing static formations.
+* **Flanking Crossfire:** If a defending unit is attacked from a diagonal quadrant, and its directly opposing frontal quadrant is simultaneously occupied by a hostile unit, the attacking unit gains the Armor Piercing keyword for that specific attack resolution, mathematically punishing static formations through binary state resolution.
 
-### B. Combat Resolution and Suppression
+### B. Combat Resolution and Damage
 
-To resolve combat, compare the attacker's Attack value directly against the defender's Effective Defense. A unit's Effective Defense is its base Defense, plus a +1 bonus if it resides in its respective protective Deployment Zone, minus any persistent negative modifiers (such as Impact counters).
+To resolve combat, compare the attacker's Attack value directly against the defender's Defense value. Combat utilizes standard damage counters (Impact) rather than floating modifiers.
 
-* **Destruction (Attack > Defense):** If the Attack value is strictly greater than the Effective Defense, the target is destroyed and placed in the discard pile.
-* **Suppression (Attack = Defense):** If the Attack value exactly equals the Effective Defense, the target is Suppressed. It is immediately exhausted (if it was ready) and receives a Suppressed token. Suppressed units cannot attack or activate abilities. If a Suppressed unit is targeted by a subsequent valid attack from any unit with a base Attack value of 1 or greater, the Suppressed unit is immediately destroyed. Attacks originating from units with a 0 Attack value cannot trigger the destruction of a Suppressed unit.
-* **Ineffective (Attack < Defense):** If the Attack value is lower than the Effective Defense, the attack fails completely, and the target remains unharmed.
+* **Destruction (Attack >= Defense):** If the attacker's Attack value is greater than or equal to the defender's Defense (accounting for any accumulated Impact counters), the target is destroyed and placed in the discard pile.
+* **Exhaustion and Impact (Attack < Defense):** If the Attack value is lower than the defender's Defense, the attack is not immediately lethal. Instead, the target receives one Impact counter and is immediately exhausted (if it was ready). If a unit's accumulated Impact counters ever equal or exceed its Defense, it is immediately destroyed.
 
-Units do not retain temporary combat damage between actions. They are either destroyed, suppressed, or unharmed, unless a card explicitly utilizes persistent counters.
+Units do not retain temporary combat damage between actions unless represented by persistent Impact counters. 
 
 ## VII. Winning the Game
 
@@ -160,17 +161,17 @@ When a card effect instructs a player to create a specific token, the token must
 * **Adapt:** Whenever this unit survives combat, it gains a permanent +1/+1 counter, increasing its base Attack and Defense.
 * **Aetheric Shielding:** Any opponent attempting to target this unit with an Event card must pay a mandatory tax of 3 additional Command Points (CP) added to the Event's normal runtime deployment cost.
 * **Arcane Recall:** You may play this card from your discard pile by paying its CP cost and fulfilling any additionally specified resource costs. Once a card played via Arcane Recall resolves, it is exiled from the game rather than being returned to the discard pile.
-* **Armor Piercing:** When calculating combat resolution, damage dealt by this card or effect ignores any positive Defense modifiers applied by Keywords, Upgrades, Terrain, or Mission cards. Compare the Attack or Damage value strictly against the target's printed Base Defense.
+* **Armor Piercing:** When calculating combat resolution, damage dealt by this card or effect ignores the target's printed Base Defense, acting as a binary threshold bypass rather than a mathematical calculation.
 * **Ethereal:** Combat damage dealt to this unit during standard attacks is reduced by 1.
 * **Flying:** This unit completely ignores physical Line of Sight obstructions (quadrants currently at maximum capacity) when determining valid targets for attacks within its numeric Range.
 * **Horde:** When taking an Attack action, your units with the Horde keyword in that quadrant can attack and exhaust as a single action.
 * **Illusion:** If a unit with this keyword becomes the explicit target of any enemy attack, activated ability, or Event, the unit is immediately destroyed prior to the resolution of that effect. If destroyed by an attack declaration, the attacker's action is fully consumed and the attacking unit exhausts.
 * **Immobile:** This unit cannot be chosen as the valid target of a standard Move action and is immune to being relocated by any card effects.
-* **Impact:** A persistent, accumulating value tracked by specific units and assets. When an effect inflicts Impact on a target, that value is permanently added to the target's accumulated Impact total. This total does not reset at the end of a round. Each accumulated Impact counter acts as a continuous -1 modifier when calculating that unit's Effective Defense. When resolving standard attacks, the attacker's Attack value is compared directly against the defender's newly reduced Effective Defense. If a unit's Effective Defense is reduced to 0 or below at any time due to accumulated Impact counters, the unit is immediately destroyed.
+* **Impact:** Impact represents persistent, incremental damage accumulation rather than a floating mathematical modifier. When an effect inflicts Impact on a target, or a unit survives a non-lethal attack, an Impact counter is placed on it. Each Impact counter represents 1 point of persistent damage. If a unit's accumulated Impact counters ever equal or exceed its Defense value, the unit is immediately destroyed.
 * **Infiltrator:** You may deploy this unit directly into your Vanguard (Row 2). This overrides the general baseline rule that units must be strictly deployed to the Deployment Zone (Row 1).
 * **Martyrdom:** When this unit is destroyed, immediately trigger the associated ability text.
 * **Nullify:** Cards destroyed by this unit's attacks are exiled from the game instead of being placed in the discard pile, preventing Arcane Recall or Martyrdom synergies.
-* **Phalanx:** This unit receives +1 Defense for each adjacent friendly unit that also possesses the Phalanx keyword. This is a dynamic bonus recalculated whenever the board state changes.
+* **Phalanx:** If this unit is adjacent to at least one other friendly unit that also possesses the Phalanx keyword, it cannot be destroyed by an attack unless the Attack value exceeds its Defense by 2 or more. This shifts the bonus from a dynamic mathematical calculation to a binary survival threshold.
 * **Phantom:** This unit cannot be chosen as a valid target for standard attacks unless the attacking unit is positioned in an orthogonally adjacent quadrant (Range 1).
 * **Skirmisher:** After this unit performs an Attack action, you may immediately move it to an adjacent friendly quadrant. This special move does not exhaust the unit and does not consume your action for the turn.
 * **Steadfast:** This unit cannot be moved from its current quadrant by an opponent's card effects.
@@ -178,4 +179,4 @@ When a card effect instructs a player to create a specific token, the token must
 * **Synaptic Mark:** The mark on its own does nothing, but it is used to target units with other powerful abilities.
 * **Taunt:** Enemy units that declare an attack must target a unit with Taunt if one is within range and constitutes a valid target.
 * **Territorial:** This unit actively blocks enemy deployment, standard movement, and Tactical Advances into any orthogonally adjacent quadrant, locking down physical firing lanes.
-* **Zeal:** The first time this unit would be destroyed in a given Game Round, it instead survives, removes all accumulated upgrades and counters, and immediately becomes Suppressed.
+* **Zeal:** The first time this unit would be destroyed in a given Game Round, it instead survives, removes all accumulated upgrades and Impact counters, and immediately becomes exhausted.

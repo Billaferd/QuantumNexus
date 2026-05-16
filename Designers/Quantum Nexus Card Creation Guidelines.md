@@ -6,7 +6,7 @@
 
 The design architecture of Quantum Nexus represents a work of profound ambition and intellectual rigor. While foundational guidelines exist to establish an exceptionally robust framework for mechanical balance—providing the essential mathematics to determine what a card can be and how it should be costed within the strict 200 Requisition Point (RP) drafting limit—this guide shifts the focus toward a holistic, experience-first philosophy. It seeks to answer the fundamental questions of why a specific card should exist and, most critically, how its mechanical execution should dictate a player's emotional and strategic experience.
 
-The evolution of Quantum Nexus design necessitates moving beyond the pursuit of simple numerical equilibrium and toward the deliberate cultivation of player agency and emergent narrative. The game's most innovative systems—specifically the dynamic CP mana sinks of Mission Cards, the Threat-Answer Matrix, and the highly granular, alternating Activation Sequence operating across a shared 5x3 spatial grid—are not merely balancing tools. They are powerful, untapped engines for creating compelling tactical choices, fostering deep player investment, and telling coherent stories through the physical act of gameplay.
+The evolution of Quantum Nexus design necessitates moving beyond the pursuit of simple numerical equilibrium and toward the deliberate cultivation of player agency and emergent narrative. The game's most innovative systems—specifically the dynamic CP mana sinks of Mission Cards, the Threat-Answer Matrix, and the highly granular, alternating Activation Sequence operating across a shared 5x3 spatial grid governed by the strict 3-Weight capacity limit and the Momentum rule—are not merely balancing tools. They are powerful, untapped engines for creating compelling tactical choices, fostering deep player investment, and telling coherent stories through the physical act of gameplay.
 
 ### Core Design Pillar: Narrative-First Workflow
 
@@ -22,25 +22,25 @@ The design ecosystem actively prohibits solitaire strategies. If a card or combi
 
 ### Framework for Removal Costing and Tempo Economy
 
-​The fundamental principle governing this framework is the Tempo Swing Cap. In a static 15 CP runtime economy, a single removal action should rarely generate a positive tempo swing exceeding +5 CP. If a player utilizes a 2 CP Event to unconditionally destroy a 12 CP Titan-Class Mech, the resulting +10 CP tempo advantage mathematically concludes the game on the spot. Removal must be scaled to require a meaningful sacrifice of the caster's own operational capacity for the round.
+The fundamental principle governing this framework is the Tempo Swing Cap. In a static 15 CP runtime economy, a single removal action should rarely generate a positive tempo swing exceeding +5 CP. If a player utilizes a 2 CP Event to unconditionally destroy a 12 CP Titan-Class Mech, the resulting +10 CP tempo advantage mathematically concludes the game on the spot. Removal must be scaled to require a meaningful sacrifice of the caster's own operational capacity for the round.
 
-#### ​Unconditional Asset and Infrastructure Removal
+#### Unconditional Asset and Infrastructure Removal
 
 Assets represent permanent value engines and fortified positions that often require a massive upfront CP investment, ranging from 5 to 10 CP. Because Assets do not directly engage in combat and cannot be degraded through standard damage math, they are inherently vulnerable to targeted Events. To replace the dynamic tax system, any Event card reading "Destroy target Asset" without restrictions must possess a baseline runtime cost of 7 to 9 CP. This high cost ensures that answering a major value engine consumes approximately half of the caster's universal salary, preserving the interactive duality of the Threat-Answer matrix. If a designer wishes to create a lower-cost Asset removal card, it must be strictly conditional. For example, an Event costing 4 CP must be restricted to "Destroy target Asset with an RP cost of 5 or less." This prevents cheap utility spells from dismantling top-tier infrastructure.
 
-#### ​Unconditional Unit Removal (Hard Execution)
+#### Unconditional Unit Removal (Hard Execution)
 
 The outright destruction or exile of a target unit, entirely bypassing the deterministic combat system and Defense thresholds, is the most powerful tempo tool in the game. Unconditional hard removal Events must be base-costed between 6 and 8 CP. At this cost bracket, a player who successfully answers a 12 CP Massive unit generates a healthy +4 to +6 CP tempo advantage, rewarding them for utilizing the correct answer without completely invalidating the opponent's capacity to play the game. Furthermore, unconditional exile effects, which completely deny recursion mechanics from the discard pile, must incur an additional 1 CP premium over standard destruction effects.
 
-#### ​Conditional and Damage-Based Unit Removal
+#### Conditional and Damage-Based Unit Removal
 
 Removal that operates within the boundaries of the game's flattened combat math scales linearly. The standard conversion rate dictates that 1 CP yields exactly 1 point of Impact damage. An Event costing 4 CP should generate exactly 4 Impact counters. However, if the damage or attack possesses the Armor Piercing keyword, bypassing printed Defense thresholds entirely, it must be subjected to a 2 CP premium tax. This ensures that direct damage spells cannot effortlessly assassinate heavily armored, high-RP frontline units without a significant economic commitment from the caster.
 
-#### ​Soft Removal and Tempo Delay
+#### Soft Removal and Tempo Delay
 
 Soft removal focuses on temporary disruption rather than permanent answers, encompassing mechanics such as returning a unit to its owner's hand, exhausting a readied unit, or applying temporary stat reductions. Because the targeted threat remains in the game and will inevitably demand a second answer, soft removal is permitted to operate at high efficiency. Events that return a target unit to hand or exhaust a target quadrant should be costed strictly between 2 and 4 CP. This allows a player to rapidly seize the initiative and open maneuvering lanes on the spatial grid, forcing the opponent to spend their CP to redeploy the exact same threat on a subsequent turn.
 
-#### ​Spatial and Global Board Wipes
+#### Spatial and Global Board Wipes
 
 Events capable of clearing entire rows, columns, or quadrants operate outside of single-target tempo math. Symmetrical board wipes, which destroy all units in a specific zone regardless of ownership, must cost between 6 and 8 CP. The caster inherently pays an additional hidden cost by losing their own board presence. Asymmetrical board wipes, which exclusively target enemy units within a specified spatial zone, must require an absolute minimum investment of 9 to 12 CP. These actions represent apocalyptic strategic shifts. By demanding up to 80 percent of the universal salary, the caster is forced to commit their entire round to clearing the board, ensuring they cannot simultaneously deploy new threats into the newly vacated Contested Zone.
 
@@ -64,7 +64,7 @@ High-cost events requiring massive CP investments must function as primary board
 
 Designers must calculate a unit's baseline statistics by factoring in the mathematical penalties of their intended mechanics. Units designed to leverage simultaneous movement and attacking, such as through a Tactical Advance, must possess sufficient baseline statistics to breach standard frontline defenses after the strict -1 Attack penalty is applied.
 
-Asymmetrical global removal is critical. To maintain the balance of the alternating Activation Sequence, high-cost global removal Events (Tier 4 Bombs) must be inherently asymmetrical or provide a tangible tempo refund to the caster. Designing symmetrical board wipes that completely consume an entire round's 15 CP universal salary must be evaluated carefully; while destroying enemy units instantly secures the Initiative token via the live "Tug of War" mechanic, leaving the caster with zero CP prevents them from deploying into the newly vacated Contested Zone, creating a volatile tempo vacuum.
+Asymmetrical global removal is critical. To maintain the balance of the alternating Activation Sequence, high-cost global removal Events (Tier 4 Bombs) must be inherently asymmetrical or provide a tangible tempo refund to the caster. Designing symmetrical board wipes that completely consume an entire round's 15 CP universal salary must be evaluated carefully; while destroying enemy units allows your surviving units to immediately advance via the Momentum rule, leaving the caster with zero CP prevents them from deploying new units into the newly vacated Contested Zone, creating a volatile tempo vacuum.
 
 The Dynamic Cost Adjustment Algorithm governs regular main deck cards. Designers must assign an internal Domain Point (DP) tier (1 through 4) to act as the mathematical anchor for the card's scaling. The final printed Requisition Point (RP) cost of the card is calculated using a dynamic delta system: Final RP Cost = Base Draft Cost + (Actual Ability RP - Internal Budget).
 
@@ -78,7 +78,7 @@ When designing for the Technology domain, cards should prioritize high Defense v
 
 When designing for the Magic domain, units should exhibit high Attack values but exceptionally low Defense values, heavily utilizing the Arcane Recall keyword to represent volatile, glass-cannon spellcasters capable of explosive tempo swings.
 
-When designing for the Psionics domain, units require balanced combat statistics but highly disruptive utility, relying on keywords like Phantom, Taunt, and Synaptic Mark to control the flow of engagement, obfuscate targeting, and generate Flanking Crossfires.
+When designing for the Psionics domain, units require balanced combat statistics but highly disruptive utility, relying on keywords like Phantom, Taunt, and Synaptic Mark to control the flow of engagement, obfuscate targeting, and generate unpredictable angles of attack utilizing the diagonal Evasion paths of Small units.
 
 When designing for the Divinity domain, units typically begin with high Defense but low initial Attack values, leveraging keywords such as Zeal, Phalanx, and Martyrdom to endure early assaults, pushing steadily into the Contested Zone and growing stronger through collective faith and sacrifice.
 
@@ -98,7 +98,7 @@ Mechanically, giving this Leader overwhelming combat statistics would contradict
 
 Applying the Narrative-First philosophy, the text is refined to interact deeply with the game's spatial grid and keyword systems: "Martyrdom: When this unit is destroyed, create a Spirit token in its quadrant and all friendly units in orthogonally adjacent quadrants gain the Zeal keyword until the end of the round."
 
-This revised execution is highly successful because it creates a rich tactical dilemma. The player controlling the Martyr Saint actively wants their 25-RP-capped Leader to die at a highly specific moment to trigger the zealotry of their surrounding forces and spawn an immediate 2/2 Flying and Ethereal Spirit token. Conversely, the opposing player is forced to calculate whether they should expend a vital action to destroy the Leader and inadvertently buff the enemy army, or strategically ignore the Leader to avoid triggering the Martyrdom effect. Agency is preserved and amplified for both players.
+This revised execution is highly successful because it creates a rich tactical dilemma. The player controlling the Martyr Saint actively wants their 25-RP-capped Leader to die at a highly specific moment to trigger the zealotry of their surrounding forces and spawn an immediate Small Size (1 Weight) 2/2 Flying and Ethereal Spirit token. Conversely, the opposing player is forced to calculate whether they should expend a vital action to destroy the Leader and inadvertently buff the enemy army, or strategically ignore the Leader to avoid triggering the Martyrdom effect. Agency is preserved and amplified for both players.
 
 ### Case Study 2: An Answer to Stealth (Psionics)
 
@@ -114,14 +114,14 @@ This design works perfectly within the ruleset. It does not outright destroy the
 
 To maintain absolute mechanical consistency and reduce cognitive load during gameplay, all cards that generate tokens must draw strictly from the standardized core statistics. Designers are strictly prohibited from creating custom, unlisted tokens (such as an arbitrary 3/3 robot) without formal ruleset expansion.
 
-As detailed in the accompanying table, the Technology domain utilizes the Construct, which serves as basic mechanical infantry for holding ground, possessing 1 Attack, 1 Defense, and no inherent keywords. The Divinity domain utilizes the Spirit, representing manifestations of pure faith that are highly evasive, possessing 2 Attack, 2 Defense, and both the Flying and Ethereal keywords. The Psionics domain creates the Echo, acting as a fragile psychic projection to confuse enemies, possessing 0 Attack, 1 Defense, and the Illusion keyword, which causes it to immediately die if targeted by any effect. The Magic domain generates the Golem, an aggressive magical infantry unit boasting 2 Attack, 1 Defense, and no keywords. Finally, Neutral card effects can create Scrap, representing debris used as improvised cover, possessing 0 Attack, 1 Defense, and the Immobile keyword.
+As detailed in the accompanying table, the Technology domain utilizes the Construct, which serves as basic mechanical infantry for holding ground, possessing Small Size (1 Weight), 1 Attack, 1 Defense, and no inherent keywords. The Divinity domain utilizes the Spirit, representing manifestations of pure faith that are highly evasive, possessing Small Size (1 Weight), 2 Attack, 2 Defense, and both the Flying and Ethereal keywords. The Psionics domain creates the Echo, acting as a fragile psychic projection to confuse enemies, possessing Small Size (1 Weight), 0 Attack, 1 Defense, and the Illusion keyword, which causes it to immediately die if targeted by any effect. The Magic domain generates the Golem, an aggressive magical infantry unit boasting Small Size (1 Weight), 2 Attack, 1 Defense, and no keywords. Finally, Neutral card effects can create Scrap, representing debris used as improvised cover, possessing Small Size (1 Weight), 0 Attack, 1 Defense, and the Immobile keyword.
 
 The following table serves strictly as an illustrative summary of these mandated token statistics.
 
-| Token Designation | Affiliated Domain | Combat Statistics | Range | Innate Keywords | Tactical Role |
-| :---- | :---- | :---- | :---- | :---- | :---- |
-| Construct | Technology | 1 Attack / 1 Defense | Range 1 | None | Ground holding and attritional infantry. |
-| Spirit | Divinity | 2 Attack / 2 Defense | Range 1 | Flying, Ethereal | Highly evasive, resilient physical manifestations. |
-| Echo | Psionics | 0 Attack / 1 Defense | Range 1 | Illusion | Fragile decoys that die immediately when targeted. |
-| Golem | Magic | 2 Attack / 1 Defense | Range 1 | None | Offensively slanted magical constructs. |
-| Scrap | Neutral | 0 Attack / 1 Defense | Range 1 | Immobile | Improvised, static defensive cover. |
+| Token Designation | Affiliated Domain | Size (Weight) | Combat Statistics | Range | Innate Keywords | Tactical Role |
+| :---- | :---- | :---- | :---- | :---- | :---- | :---- |
+| Construct | Technology | Small (1 Weight) | 1 Attack / 1 Defense | Range 1 | None | Ground holding and attritional infantry. |
+| Spirit | Divinity | Small (1 Weight) | 2 Attack / 2 Defense | Range 1 | Flying, Ethereal | Highly evasive, resilient physical manifestations. |
+| Echo | Psionics | Small (1 Weight) | 0 Attack / 1 Defense | Range 1 | Illusion | Fragile decoys that die immediately when targeted. |
+| Golem | Magic | Small (1 Weight) | 2 Attack / 1 Defense | Range 1 | None | Offensively slanted magical constructs. |
+| Scrap | Neutral | Small (1 Weight) | 0 Attack / 1 Defense | Range 1 | Immobile | Improvised, static defensive cover. |

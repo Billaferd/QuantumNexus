@@ -105,7 +105,7 @@ On your turn, you must perform exactly ONE of the following actions, after which
 * **Attack:** Exhaust a ready unit to declare a stationary attack against an enemy unit within its valid numeric range.
 * **Activate:** Pay any associated costs to trigger an "Active Ability" printed on a card you already control in play.
 * **Play Event:** Pay the CP cost of an Event card in your hand, fully resolve its text, and place it in your discard pile.
-* **Secure Objective:** Exhaust a ready non-token unit currently occupying a quadrant that contains a Strategic Directive token to claim it, immediately securing a one-time burst of 3 Supremacy Points and permanently removing the token from the board.
+* **Secure Objective:** Exhaust a ready non-token unit currently occupying a quadrant that contains a Strategic Directive token to claim it, immediately securing a one-time burst of 2 Supremacy Points and permanently removing the token from the board.
 * **Pass:** Choose to take no action.
 
 The Activation Sequence ends only when all players pass consecutively in an unbroken sequence. If you pass, but your opponent subsequently takes an action, the sequence is broken and you may take another action when the turn returns to you. The specific player who passed first to initiate the unbroken sequence that ends the phase successfully secures Initiative for the next round.
@@ -164,7 +164,7 @@ When a card effect instructs a player to create a specific token, the token must
 * **Ethereal:** Combat damage dealt to this unit during standard attacks is reduced by 1.
 * **Flying:** This unit completely ignores physical Line of Sight obstructions (quadrants currently at maximum capacity) when determining valid targets for attacks within its numeric Range.
 * **Horde:** When taking an Attack action, your units with the Horde keyword in that quadrant can attack and exhaust as a single action.
-* **Illusion:** If a unit with this keyword becomes the explicit target of any enemy attack, activated ability, or Event, the unit is immediately destroyed prior to the resolution of that effect.
+* **Illusion:** If a unit with this keyword becomes the explicit target of any enemy attack, activated ability, or Event, the unit is immediately destroyed prior to the resolution of that effect. If destroyed by an attack declaration, the attacker's action is fully consumed and the attacking unit exhausts.
 * **Immobile:** This unit cannot be chosen as the valid target of a standard Move action and is immune to being relocated by any card effects.
 * **Impact:** A persistent, accumulating value tracked by specific units and assets. When an effect inflicts Impact on a target, that value is permanently added to the target's accumulated Impact total. This total does not reset at the end of a round. Each accumulated Impact counter acts as a continuous -1 modifier when calculating that unit's Effective Defense. When resolving standard attacks, the attacker's Attack value is compared directly against the defender's newly reduced Effective Defense. If a unit's Effective Defense is reduced to 0 or below at any time due to accumulated Impact counters, the unit is immediately destroyed.
 * **Infiltrator:** You may deploy this unit directly into your Vanguard (Row 2). This overrides the general baseline rule that units must be strictly deployed to the Deployment Zone (Row 1).

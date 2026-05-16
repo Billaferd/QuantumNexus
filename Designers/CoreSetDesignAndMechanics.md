@@ -18,7 +18,7 @@ Supremacy Points are generated exclusively during the Scoring Step. A player ear
 
 Furthermore, the accumulation of these points serves a dual purpose: it acts as a pacing mechanism known as Theater Escalation. By calculating the Combined Supremacy Score (the sum of all players' current Supremacy Points), the game dynamically shifts through three distinct phases.
 
-The game begins at Theater Level 1: Logistics. During this phase, which lasts while the Combined Supremacy Score is between zero and seven, all players receive a standardized universal baseline salary of 15 Command Points (CP) at the start of every single round, completely divorced from Mission Card selection. The game enters Theater Level 2: Escalation the exact moment the combined score reaches eight points. At this threshold, all passive abilities printed on players' Mission Cards become available, provided the player pays the dynamic runtime CP upkeep cost associated with the ability during their Activation Sequence, fundamentally altering the strategic landscape. Finally, when the combined board state reaches fourteen points, the game enters Theater Level 3: Climax. This detonation threshold allows the player to manually execute the massive, one-time rewards printed on the Mission Cards by sacrificing the required runtime CP cost during their Activation Sequence, often dictating the absolute conclusion of the match.
+The game begins at Theater Level 1: Logistics. During this phase, which lasts while the Combined Supremacy Score is between zero and five, all players receive a standardized universal baseline salary of 15 Command Points (CP) at the start of every single round, completely divorced from Mission Card selection. The game enters Theater Level 2: Escalation the exact moment the combined score reaches six (6) points. At this threshold, all passive abilities printed on players' Mission Cards become available, provided the player pays the dynamic runtime CP upkeep cost associated with the ability during their Activation Sequence, fundamentally altering the strategic landscape. Finally, when the combined board state reaches ten (10) points, the game enters Theater Level 3: Climax. This detonation threshold allows the player to manually execute the massive, one-time rewards printed on the Mission Cards by sacrificing the required runtime CP cost during their Activation Sequence, often dictating the absolute conclusion of the match.
 
 ### **1.2 Deck Construction: The Strategic Foundation**
 
@@ -30,35 +30,52 @@ Separate from the main deck budget is the Mission Roster. Players select up to s
 
 Finally, players may bring a Sideboard to competitive matches. The Sideboard represents a reserve cache of adaptive tools and is governed by two simultaneous constraints: it may contain a maximum of 10 physical cards, and the combined RP value of those cards must not exceed 40 RP. Furthermore, the cards within the sideboard must legally align with the domain restrictions established by the player's primary 6 DP Mission roster.
 
-### **1.3 Standardized Token Statistics**
+### **1.3 Spatial Capacity, Impassable Frontlines, and Native Traits**
+
+To eliminate cognitive overload and maintain board clarity across the 5x3 grid, spatial geometry is governed by a strict, visual capacity system combined with native unit behaviors.
+
+Every quadrant on the battlefield is governed by a strict limit of 3 Weight. A unit's designated physical size determines its Weight: Small Units possess 1 Weight, Large Units possess 2 Weight, and Massive Units possess 3 Weight. 
+
+Crucially, opposing units may never mix or co-occupy the same quadrant under any circumstances, rendering enemy-occupied spaces strictly impassable. Because these enemy quadrants act as physical walls, a unit's size classification grants it an inherent Native Trait to interact with the grid:
+* **Evasion (Small Units):** Agile flankers that are the only entities permitted to move diagonally, and do not block friendly Line of Sight.
+* **Pushback (Large Units):** Linebreakers that can force a defending unit to retreat into an empty adjacent quadrant upon inflicting an Impact counter, or deal 1 additional Impact if no empty quadrant exists.
+* **Quadrant Damage (Massive Units):** Overwhelming forces whose Attack value is simultaneously compared against the Defense of every unit in the target quadrant.
+
+### **1.4 Standardized Token Statistics**
 
 To maintain board clarity and ensure predictable mathematical interactions, the Core Set heavily utilizes standardized tokens across the four domains. It is strictly mandated that effects generating these specific tokens adhere flawlessly to the established combat statistics and keywords.
 
-The Technology domain utilizes the Construct, which serves as a basic mechanical infantry unit possessing 1 Attack, 1 Defense, and no inherent keywords. The Divinity domain utilizes the Spirit, representing highly evasive manifestations of pure faith with 2 Attack, 2 Defense, and both the Flying and Ethereal keywords. The Psionics domain creates the Echo, a fragile psychic projection meant to confuse enemies; it has 0 Attack, 1 Defense, and the Illusion keyword, meaning it dies immediately if targeted by any effect. The Magic domain generates the Golem, an aggressive magical construct boasting 2 Attack, 1 Defense, and no keywords. Finally, Neutral card effects can create Scrap, representing improvised static cover with 0 Attack, 1 Defense, and the Immobile keyword.
+The Technology domain utilizes the Construct, which serves as a basic mechanical infantry unit possessing Small Size (1 Weight), 1 Attack, 1 Defense, and no inherent keywords. The Divinity domain utilizes the Spirit, representing highly evasive manifestations of pure faith with Small Size (1 Weight), 2 Attack, 2 Defense, and both the Flying and Ethereal keywords. The Psionics domain creates the Echo, a fragile psychic projection meant to confuse enemies; it has Small Size (1 Weight), 0 Attack, 1 Defense, and the Illusion keyword, meaning it dies immediately if targeted by any effect. The Magic domain generates the Golem, an aggressive magical construct boasting Small Size (1 Weight), 2 Attack, 1 Defense, and no keywords. Finally, Neutral card effects can create Scrap, representing improvised static cover with Small Size (1 Weight), 0 Attack, 1 Defense, and the Immobile keyword.
 
 The following table serves strictly as an illustrative summary of the token statistics described above.
 
-| Token Designation | Affiliated Domain | Combat Statistics | Range | Innate Keywords | Tactical Role |
-| :---- | :---- | :---- | :---- | :---- | :---- |
-| Construct | Technology | 1 Attack / 1 Defense | Range 1 | None | Ground holding and attritional infantry. |
-| Spirit | Divinity | 2 Attack / 2 Defense | Range 1 | Flying, Ethereal | Highly evasive, resilient physical manifestations. |
-| Echo | Psionics | 0 Attack / 1 Defense | Range 1 | Illusion | Fragile decoys that die immediately when targeted. |
-| Golem | Magic | 2 Attack / 1 Defense | Range 1 | None | Offensively slanted magical constructs. |
-| Scrap | Neutral | 0 Attack / 1 Defense | Range 1 | Immobile | Improvised, static defensive cover. |
+| Token Designation | Affiliated Domain | Size (Weight) | Combat Statistics | Range | Innate Keywords | Tactical Role |
+| :---- | :---- | :---- | :---- | :---- | :---- | :---- |
+| Construct | Technology | Small (1 Weight) | 1 Attack / 1 Defense | Range 1 | None | Ground holding and attritional infantry. |
+| Spirit | Divinity | Small (1 Weight) | 2 Attack / 2 Defense | Range 1 | Flying, Ethereal | Highly evasive, resilient physical manifestations. |
+| Echo | Psionics | Small (1 Weight) | 0 Attack / 1 Defense | Range 1 | Illusion | Fragile decoys that die immediately when targeted. |
+| Golem | Magic | Small (1 Weight) | 2 Attack / 1 Defense | Range 1 | None | Offensively slanted magical constructs. |
+| Scrap | Neutral | Small (1 Weight) | 0 Attack / 1 Defense | Range 1 | Immobile | Improvised, static defensive cover. |
 
 ## **Part II: Phase Structure and Action Economy**
 
-Quantum Nexus relies on a highly granular, alternating action economy that rewards spatial awareness and tempo manipulation. A standard Game Round is divided into structured sequences.
+Quantum Nexus relies on a highly kinetic, alternating action economy that rewards spatial awareness and tempo manipulation. A standard Game Round is divided into structured sequences.
 
-The Start of Round Step represents a simultaneous reset for all players. First, players ready all exhausted cards, clear temporary effect tokens, and reset their Command Point pools to zero. Following this refresh, players secure their Income by gaining a standardized base salary of exactly 15 Command Points (CP), ensuring absolute economic parity for the action phase regardless of Mission Card selection. Players then draw from their deck until they hold exactly five cards in hand; if a player already holds five or more cards, the draw step is skipped.
+The Start of Round Step represents a simultaneous reset for all players. First, players ready all exhausted cards, clear temporary effect tokens, and reset their Command Point pools to zero. Following this refresh, players secure their Income by gaining a standardized base salary of exactly 15 Command Points (CP), ensuring absolute economic parity for the action phase regardless of Mission Card selection. Third, players execute their Draw phase; every player automatically draws exactly two (2) cards from their deck. A player's default Maximum Hand Size is 5. At the end of the round, if you hold more cards than your Maximum Hand Size, you must discard down to the limit.
 
-The game then transitions to the Activation Sequence. This is the core tactical phase where players take alternating, single actions. The player holding Initiative takes the first action, after which the turn passes clockwise. During the Activation Sequence, Initiative operates dynamically via a 'Tug of War' mechanic: the moment a player successfully destroys an enemy unit, they immediately seize the Initiative token for the following round. This token changes hands immediately whenever a unit is destroyed. A player may only perform one legal action per turn—such as deploying a card, moving a unit one orthogonal quadrant, executing a Tactical Advance (moving and attacking with a strict -1 Attack penalty), securing a Strategic Directive objective, attacking with a unit, or activating a distinct ability.
+The game then transitions to the Activation Sequence. This is the core tactical phase where players take alternating, single actions. During the Activation Sequence, Initiative operates on a strict alternation mechanic: the Initiative token simply passes back and forth between players at the start of every new round, allowing for predictable tactical forecasting. 
 
-The strategic pinnacle of this phase revolves around the "Pass" action. When a player possesses no profitable actions or wishes to force the opponent's hand, they may pass. If all players pass consecutively, the Activation Sequence immediately ends. Once the Activation Sequence concludes, the game immediately enters the Scoring Step. Here, Initiative fallback conditions are evaluated (if an entire round passes with absolutely zero units being destroyed, Initiative immediately defaults to the player who physically occupies the most quadrants in the neutral Contested Zone, or remains with the current holder if tied or empty), Supremacy Points are tallied, and Theater Escalation is checked.
+A player may only perform one legal action per turn—such as deploying a card, moving a unit (orthogonally, or diagonally if Small), executing a Tactical Advance (moving and attacking with a strict -1 Attack penalty), attacking with a unit, activating a distinct ability, or utilizing the **Draw Intel** action (spending exactly 3 CP to draw 1 card). 
+
+Combat fluidity within this sequence is fiercely maintained via the **Momentum Rule**: if an attacking unit completely clears a target quadrant of all enemy units, it may immediately move into that quadrant as part of the same Activation at no additional CP cost, preventing static gridlock.
+
+The strategic pinnacle of this phase revolves around the "Pass" action. When a player possesses no profitable actions or wishes to force the opponent's hand, they may pass. If all players pass consecutively, the Activation Sequence immediately ends. 
+
+Once the Activation Sequence concludes, the game immediately enters the Scoring Step. Supremacy Points are tallied, Theater Escalation is checked based on the 6 and 10 Combined Supremacy thresholds, and the Initiative token passes to the opposing player to ensure strict alternation for the subsequent round.
 
 ## **Part III: Design Philosophy \- Interactive Duality**
 
-The Core Set is built upon the foundational philosophy of "Interactive Duality" and horizontal design. We do not design isolated threats; we engineer an ecosystem of corresponding answers.
+The Core Set is built upon the foundational philosophy of "Interactive Duality" and horizontal design. We do not design isolated threats; we engineer an ecosystem of corresponding answers operating dynamically across the fluid frontline.
 
 Every potent strategy introduced in this set is matched with a distinct counter-measure available within the game's broader economy. If the Magic domain presents an oppressive, non-interactive combo sequence (a Threat), the Psionics domain is supplied with the exact hand disruption and action-denial tools required to dismantle it (the Answer). This philosophy ensures that the metagame remains a dynamic puzzle rather than a static race. Balance is not merely about adjusting RP drafting costs and CP deployment costs; it is about ensuring that a player's agency is preserved through comprehensive sideboard options and diverse strategic responses to the prevailing Threat Matrix.
 
@@ -70,7 +87,7 @@ The four launch domains are defined by strict mechanical boundaries and narrativ
 
 The Technology domain represents absolute, entrenched defensive superiority and systemic efficiency. It seeks to establish an unbreakable fortress, utilizing heavy armor and relentless, systematic advancement. Technologists employ the Impact keyword to represent precise, persistent damage accumulation, distributing damage counters that inevitably breach a target's Defense threshold.
 
-Its primary threats involve the gradual accumulation of unassailable value. It utilizes heavy fortifications and Area-of-Effect artillery to punish aggressive swarm strategies. Conversely, Technology is highly susceptible to "Non-Destruction" removal; bouncing an expensive, heavily armored unit back to a player's hand via Magic completely negates the immense CP investment required to deploy it. Its Mission Cards heavily reward controlling specific quadrant geometry and generating logistical superiority.
+Its primary threats involve the gradual accumulation of unassailable value. It utilizes heavy fortifications and Area-of-Effect artillery to punish aggressive swarm strategies, perfectly complementing the native Quadrant Damage trait of their Massive units. Conversely, Technology is highly susceptible to "Non-Destruction" removal; bouncing an expensive, heavily armored unit back to a player's hand via Magic completely negates the immense CP investment required to deploy it. Its Mission Cards heavily reward controlling specific quadrant geometry and generating logistical superiority.
 
 ### **4.2 Magic**
 
@@ -82,13 +99,13 @@ Magic players utilize powerful "Bounce" and transformational effects to complete
 
 Psionics embodies the pinnacle of control, psychological warfare, and action denial. This domain does not seek to out-muscle the opponent; it seeks to systematically remove the opponent's capacity to participate in the game. It utilizes hand disruption to strip key pieces before they can be played and leverages the Synaptic Mark keyword to lock down enemy units, exhausting them and actively denying their participation in the alternating action sequence.
 
-Psionics acts as the natural predator to Magic's combo strategies by destroying the necessary components before execution. However, Psionics relies heavily on expensive, precise, single-target removal. This precision makes the domain wildly inefficient when facing the overwhelming numbers and highly redundant token-generation of a Divinity swarm strategy.
+Psionics acts as the natural predator to Magic's combo strategies by destroying the necessary components before execution. They fully exploit the native Evasion trait of Small units, sliding diagonally past impenetrable enemy walls to strike high-value assets. However, Psionics relies heavily on expensive, precise, single-target removal. This precision makes the domain wildly inefficient when facing the overwhelming numbers and highly redundant token-generation of a Divinity swarm strategy.
 
 ### **4.4 Divinity**
 
 Divinity is the domain of relentless attrition, inevitable scale, and the terrifying resilience of the horde. It utilizes overlapping synergy to turn every loss into an advantage. Units in this domain frequently possess the Zeal keyword, making them exceptionally difficult to permanently destroy, and the Martyrdom keyword, which triggers powerful effects upon their inevitable death.
 
-Divinity thrives in long, grinding conflicts. They organize their units into Phalanx formations, gaining immense statistical survival thresholds through spatial adjacency. By swarming the board with Spirit tokens, Divinity easily overwhelms the precise, single-target defenses of Psionics. Their major weakness, however, is mass-damage artillery; a single, well-placed Technology board-wipe can decimate a heavily invested Phalanx in a single action.
+Divinity thrives in long, grinding conflicts. They organize their units into Phalanx formations, gaining immense statistical survival thresholds through spatial adjacency while perfectly managing the 3-Weight quadrant capacity limit with defensive Phalanx lines and offensive Horde swarms. By swarming the board with Spirit tokens, Divinity easily overwhelms the precise, single-target defenses of Psionics. Their major weakness, however, is mass-damage artillery; a single, well-placed Technology board-wipe can decimate a heavily invested Phalanx in a single action.
 
 ## **Part V: Metagame Archetypes (The Quad-Cycle)**
 
@@ -115,4 +132,4 @@ The following table summarizes these intended launch archetypes, serving strictl
 
 The First Core Set for Quantum Nexus is not merely a collection of mathematically balanced game pieces; it is the forging of the game's intellectual and strategic soul. By committing to a four-domain launch architecture, we ensure deep, meaningful strategic options and razor-sharp identities for every faction.
 
-The integrated "Quad-Cycle" metagame ensures that every constructed deck possesses a natural predator within the ecosystem, while the strict sideboard parameters guarantee that players have the tools to adapt and survive. Supported by a dynamic escalation system tied intrinsically to territorial control, this design establishes a powerful, highly interactive foundation that will allow the Quantum Nexus platform to thrive, scale, and evolve.
+The integrated "Quad-Cycle" metagame ensures that every constructed deck possesses a natural predator within the ecosystem, while the strict sideboard parameters guarantee that players have the tools to adapt and survive. Supported by a dynamic escalation system tied intrinsically to territorial control and fiercely fluid combat mechanics, this design establishes a powerful, highly interactive foundation that will allow the Quantum Nexus platform to thrive, scale, and evolve.

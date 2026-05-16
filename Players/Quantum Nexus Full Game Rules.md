@@ -160,7 +160,7 @@ When a card effect instructs a player to create a specific token, the token must
 * **Adapt:** Whenever this unit survives combat, it gains a permanent +1/+1 counter, increasing its base Attack and Defense.
 * **Aetheric Shielding:** Any opponent attempting to target this unit with an Event card must pay a mandatory tax of 3 additional Command Points (CP) added to the Event's normal runtime deployment cost.
 * **Arcane Recall:** You may play this card from your discard pile by paying its CP cost and fulfilling any additionally specified resource costs. Once a card played via Arcane Recall resolves, it is exiled from the game rather than being returned to the discard pile.
-* **Armor Piercing:** Damage dealt by this card or effect ignores the target's Base Defense values.
+* **Armor Piercing:** When calculating combat resolution, damage dealt by this card or effect ignores any positive Defense modifiers applied by Keywords, Upgrades, Terrain, or Mission cards. Compare the Attack or Damage value strictly against the target's printed Base Defense.
 * **Ethereal:** Combat damage dealt to this unit during standard attacks is reduced by 1.
 * **Flying:** This unit completely ignores physical Line of Sight obstructions (quadrants currently at maximum capacity) when determining valid targets for attacks within its numeric Range.
 * **Horde:** When taking an Attack action, your units with the Horde keyword in that quadrant can attack and exhaust as a single action.
@@ -174,7 +174,7 @@ When a card effect instructs a player to create a specific token, the token must
 * **Phantom:** This unit cannot be chosen as a valid target for standard attacks unless the attacking unit is positioned in an orthogonally adjacent quadrant (Range 1).
 * **Skirmisher:** After this unit performs an Attack action, you may immediately move it to an adjacent friendly quadrant. This special move does not exhaust the unit and does not consume your action for the turn.
 * **Steadfast:** This unit cannot be moved from its current quadrant by an opponent's card effects.
-* **Swarm:** When taking a "Deploy" action to play a unit with Swarm, you may simultaneously deploy any number of other units with the Swarm keyword from your hand into the exact same quadrant. You must pay the individual CP costs for all units deployed in this manner.
+* **Swarm:** When taking a "Deploy" action to play a unit with Swarm, you may simultaneously deploy exactly one additional unit with the Swarm keyword from your hand into the exact same quadrant. You must pay the individual CP costs for both units deployed in this manner.
 * **Synaptic Mark:** The mark on its own does nothing, but it is used to target units with other powerful abilities.
 * **Taunt:** Enemy units that declare an attack must target a unit with Taunt if one is within range and constitutes a valid target.
 * **Territorial:** This unit actively blocks enemy deployment, standard movement, and Tactical Advances into any orthogonally adjacent quadrant, locking down physical firing lanes.

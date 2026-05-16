@@ -29,10 +29,10 @@
 | Magic      | Reality Fracture          | 3     | Event     | Spell         | Magic      | 3             | 8             | 8               | 24                    |
 | Magic      | Psychic Tether            | 3     | Event     | Tactic        | Psionics   | 1             | 3             | 3               | 9                     |
 | Magic      | Mana Surge                | 4     | Event     | Spell         | Magic      | 1             | 2             | 2               | 8                     |
-| Magic      | Erase from Time           | 2     | Event     | Spell         | Magic      | 3             | 6             | 6               | 12                    |
+| Magic      | Erase from Time           | 2     | Event     | Spell         | Magic      | 3             | 8             | 8               | 16                    |
 | Magic      | Echo Projection           | 3     | Event     | Tactic        | Psionics   | 1             | 2             | 2               | 6                     |
 | Magic      | Archmage's Mantle         | 2     | Event     | Magic         | Magic      | 2             | 4             | 4               | 8                     |
-| Magic      | Supernova Catalyst        | 2     | Event     | Spell         | Magic      | 4             | 10            | 10              | 20                    |
+| Magic      | Supernova Catalyst        | 2     | Event     | Spell         | Magic      | 4             | 8             | 8               | 16                    |
 | Magic      | Cognitive Dissonance      | 2     | Event     | Tactic        | Psionics   | 2             | 4             | 4               | 8                     |
 | Magic      | Mental Shatter            | 1     | Event     | Tactic        | Psionics   | 2             | 4             | 4               | 4                     |
 | Psionics   | Psionic Supremacy         | 1     | Mission   | N/A           | Psionics   | 4             | 0             | 0               | 0                     |
@@ -45,7 +45,7 @@
 | Psionics   | Synaptic Executioner      | 3     | Unit      | Infantry      | Psionics   | 3             | 5             | 5               | 15                    |
 | Psionics   | Automated Barricade       | 3     | Asset     | Fortification | Technology | 2             | 4             | 4               | 12                    |
 | Psionics   | Panopticon Relay          | 2     | Asset     | HQ            | Psionics   | 2             | 6             | 6               | 12                    |
-| Psionics   | Ego Collapse              | 2     | Event     | Spell         | Psionics   | 2             | 5             | 5               | 10                    |
+| Psionics   | Ego Collapse              | 2     | Event     | Spell         | Psionics   | 2             | 3             | 3               | 6                     |
 | Psionics   | Memory Wipe               | 1     | Event     | Tactic        | Psionics   | 3             | 7             | 7               | 7                     |
 | Psionics   | Industrial Conscription   | 3     | Event     | Tactic        | Technology | 1             | 3             | 3               | 9                     |
 | Psionics   | Psychic Scream            | 1     | Event     | Spell         | Psionics   | 4             | 8             | 8               | 8                     |
@@ -67,6 +67,6 @@
 | Divinity   | Mass Ascension            | 2     | Event     | Spell         | Divinity   | 4             | 8             | 8               | 16                    |
 | Divinity   | Holy Vow                  | 3     | Upgrade   | Divinity      | Divinity   | 2             | 4             | 4               | 12                    |
 | Divinity   | Aetheric Repulsion        | 4     | Event     | Spell         | Magic      | 2             | 4             | 4               | 16                    |
-| Divinity   | Arcane Barrage            | 4     | Event     | Spell         | Magic      | 2             | 5             | 5               | 20                    |
+| Divinity   | Arcane Barrage            | 4     | Event     | Spell         | Magic      | 2             | 4             | 4               | 16                    |
 | Divinity   | Illusionary Bypass        | 4     | Event     | Tactic        | Magic      | 1             | 2             | 2               | 8                     |
 | Divinity   | Aetheric Shift            | 2     | Event     | Tactic        | Magic      | 1             | 3             | 3               | 6                     |

@@ -18,7 +18,7 @@ Conversely, the Economic Engine of the card is governed by its dynamic runtime a
 
 ### The Strategic Contract and the Economy of Scale
 
-The construction of every Quantum Nexus deck is governed by a single, immutable, and strictly enforced constraint: every deck must contain exactly 6 Domain Points (DP) worth of Mission Cards. Furthermore, no single domain may accumulate more than 4 DP across a player's selected Mission suite. This fixed budget ensures that all players operate on a fundamentally level playing field regarding their overall strategic weight, and it forces multi-domain synergies. The diversity of the game stems not from having access to more drafting resources than an opponent, but from how effectively a player chooses to allocate this strictly fixed budget.
+The construction of every strictly regulated 40 to 60 card Quantum Nexus deck is governed by a single, immutable, and strictly enforced constraint: every deck must contain exactly 6 Domain Points (DP) worth of Mission Cards. Furthermore, no single domain may accumulate more than 4 DP across a player's selected Mission suite. This fixed budget ensures that all players operate on a fundamentally level playing field regarding their overall strategic weight, and it forces multi-domain synergies. The diversity of the game stems not from having access to more drafting resources than an opponent, but from how effectively a player chooses to allocate this strictly fixed budget.
 
 Because CP income has been standardized universally to 15 CP per round to ensure action-economy parity, the design weight of DP is now focused entirely on tech-tree access. High-tier cards require significant DP to legally draft into a 200 RP main deck. 
 
@@ -53,7 +53,7 @@ The Quantum Nexus core rules establish an Activation Sequence where players take
 
 ### Critical Evaluation 3: The Mechanics of Healing
 
-The core rules state that units do not retain standard damage. An attack is either ineffective, results in Suppression, or completely destroys the unit. The only exception is the accumulation of permanent counters via the Impact keyword. Therefore, assigning a CP cost to healing in a vacuum is illogical. In Quantum Nexus, healing must be explicitly defined in card text as the removal of Impact counters or the removal of Suppression tokens.
+The core rules state that units do not retain temporary combat damage between actions unless represented by persistent Impact counters. An attack either completely destroys the unit, or is non-lethal, resulting in the target being exhausted and receiving an Impact counter. Therefore, assigning a CP cost to abstract healing is illogical. In Quantum Nexus, healing must be explicitly defined in card text strictly as the removal of Impact counters.
 
 ### Critical Evaluation 4: Prohibition of Unavoidable Combat Debuffs
 
@@ -90,7 +90,7 @@ Inflicting 1 point of targeted damage holds an estimated market value of 1.0 CP,
 | Card Draw (1 Card) | 3.0 CP | Standard intellect gathering events cost roughly 3 CP per card. |
 | Discard (Targeted) | 9.0 CP | Precision thought extraction is highly premium. |
 | Hand Info (Reveal) | 3.0 CP | Basic mind scanning operations. |
-| Suppress / Exhaust | 3.0 CP | Applying suppression or mental static to shut down a unit. |
+| Exhaust / Stun | 3.0 CP | Applying an exhaust effect or mental static to shut down a unit. |
 | Token (1/1 stats) | 1.5 CP | Standard 1/1 units cost 2 CP; generated tokens are inherently discounted. |
 | Action (Economy) | ~4.0 CP | The premium value of executing an effect without passing an action turn. |
 
@@ -98,9 +98,9 @@ Inflicting 1 point of targeted damage holds an estimated market value of 1.0 CP,
 
 When inventing a new Theater 3 Climax, you must calculate its designated runtime CP execution cost using a strict mathematical formula: the Climax Cost is equal to the Base Effect Value multiplied by the Scope Multiplier, plus any applicable Novelty Premium.
 
-First, determine the Base Effect Value. Utility effects, such as moving a unit or swapping positions, command a base of 1 to 2 CP. Soft Control effects, including suppression or applying negative statistical modifiers, command a base of 3 to 4 CP. Hard Removal or Creation effects, such as outright destroying a unit or generating large tokens, command a base of 5 to 8 CP.
+First, determine the Base Effect Value. Utility effects, such as moving a unit or swapping positions, command a base of 1 to 2 CP. Soft Control effects, including applying negative statistical modifiers or exhausting units, command a base of 3 to 4 CP. Hard Removal or Creation effects, such as outright destroying a unit or generating large tokens, command a base of 5 to 8 CP.
 
-Second, apply the Scope Multipliers. If the effect targets a single unit, the multiplier is 1.0. If the effect targets two specific units, or utilizes a cleave mechanic, the multiplier is 1.5. If the effect impacts an entire Quadrant, the multiplier increases to 2.5. If the effect is completely Global, impacting all units on the board, the guidelines impose a progressive, compounding tax rather than a linear multiplier. This drastic scaling guarantees that total board wipes and mass suppression effects remain prohibitively expensive and require significant strategic sacrifice rather than serving as highly efficient, low-cost reset mechanisms.
+Second, apply the Scope Multipliers. If the effect targets a single unit, the multiplier is 1.0. If the effect targets two specific units, or utilizes a cleave mechanic, the multiplier is 1.5. If the effect impacts an entire Quadrant, the multiplier increases to 2.5. If the effect is completely Global, impacting all units on the board, the guidelines impose a progressive, compounding tax rather than a linear multiplier. This drastic scaling guarantees that total board wipes and mass exhaust effects remain prohibitively expensive and require significant strategic sacrifice rather than serving as highly efficient, low-cost reset mechanisms.
 
 Finally, assess the Novelty Premium. If the effect operates within standard parameters, the premium is 0 CP. If the effect bends core rules, such as ignoring Line of Sight obstructions, add a 1 CP premium. If the effect completely breaks fundamental game rules, such as granting absolute invulnerability, add a steep 3 CP premium.
 
@@ -126,7 +126,7 @@ Tier 0 passives are focused on thematic flavor and formatting, possessing neglig
 
 Tier 1 passives provide minor economic and utility advantages. Increasing your maximum hand size by 1 is a Magic or Technology utility that incurs a 1.5 CP upkeep cost per round. Reducing the cost of the first Asset deployed each round by 1 CP is a Technology utility that carries a 2.0 CP upkeep. Altering the core Mulligan rule to grant 6 cards instead of 5 is a neutral utility that carries a highly efficient 1.0 CP upfront payment.
 
-Tier 2 passives fundamentally alter combat math across the spatial grid, providing a significant board advantage. Granting all units in the Contested Zone (Row 3) an automatic +1 Defense is a Divinity or Technology trait that costs 3.0 CP to maintain. Giving Range 3+ units +1 Attack is a Technology trait that costs 3.0 CP. Forcing all enemy units to enter play Suppressed and exhausted unless the opponent pays an additional 1 CP is a massive Psionics tempo advantage costing 3.5 CP to sustain.
+Tier 2 passives fundamentally alter combat math across the spatial grid, providing a significant board advantage. Granting all units in the Contested Zone (Row 3) an automatic +1 Defense is a Divinity or Technology trait that costs 3.0 CP to maintain. Giving Range 3+ units +1 Attack is a Technology trait that costs 3.0 CP. Forcing all enemy units to enter play exhausted unless the opponent pays an additional 1 CP is a massive Psionics tempo advantage costing 3.5 CP to sustain.
 
 Tier 3 passives represent rule-breaking, game-warping power. Allowing a player to play Event cards as a reaction to an opponent's action, while costing an extra 1 CP to do so, is a Magic domain trait incurring a 2.0 CP upkeep tax, allowing the controlling player to sustainably execute their core mechanic. Passively looking at any card an opponent draws outside the Start of Round step is a Psionics trait that commands a steep 4.0 CP upkeep.
 
@@ -139,7 +139,7 @@ Tier 3 passives represent rule-breaking, game-warping power. Allowing a player t
 | Mulligan grants 6 cards instead of 5. | 1.0 CP | Neutral | Tier 1: Utility |
 | Units in the Contested Zone (Row 3) have +1 Defense. | 3.0 CP | Divinity / Tech | Tier 2: Combat Math |
 | Units with Range 3+ have +1 Attack. | 3.0 CP | Technology | Tier 2: Combat Math |
-| Enemy Units enter play Suppressed unless opponent pays 1 CP. | 3.5 CP | Psionics | Tier 2: Combat Math |
+| Enemy Units enter play exhausted unless opponent pays 1 CP. | 3.5 CP | Psionics | Tier 2: Combat Math |
 | Look at any card an opponent draws (except Start of Round). | 4.0 CP | Psionics | Tier 3: Rule Breaking |
 | Play Event cards as a reaction to an opponent's action (+1 CP). | 2.0 CP | Magic | Tier 3: Rule Breaking |
 

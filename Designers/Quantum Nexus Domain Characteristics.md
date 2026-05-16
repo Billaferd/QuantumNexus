@@ -4,7 +4,7 @@
 
 This document is the definitive guide to the core philosophies, mechanical identities, and strategic roles of the six primary Domains in Quantum Nexus. Each Domain represents a unique approach to conflict, with distinct strengths, weaknesses, and a specific narrative flavor. The goal of this document is to be a one-stop shop for all things related to Domain Identity.
 
-A fundamental aspect of this guide is the integration of the **Threat and Counter-Play Interaction Matrix**. This matrix is a core tool for understanding how each Domain's identity translates into its function within the game's ecosystem of threats and answers across the 5x3 spatial grid. Following the matrix, each Domain's description includes a dedicated **"Role in Counter-Play"** section. This section explicitly defines which counter-play strategies from the matrix a Domain excels at, ensuring that every new card designed for a Domain reinforces its established interactive identity and contributes to a healthy, balanced metagame.
+A fundamental aspect of this guide is the integration of the **Threat and Counter-Play Interaction Matrix**. This matrix is a core tool for understanding how each Domain's identity translates into its function within the game's ecosystem of threats and answers across the fluid 5x3 spatial grid, governed by its strict 3-Weight capacity limits, the Momentum rule, and impenetrable enemy walls. Following the matrix, each Domain's description includes a dedicated **"Role in Counter-Play"** section. This section explicitly defines which counter-play strategies from the matrix a Domain excels at, ensuring that every new card designed for a Domain reinforces its established interactive identity and contributes to a healthy, balanced metagame.
 
 ## **The Threat and Counter-Play Interaction Matrix**
 
@@ -38,7 +38,7 @@ The domain of Technology is built on a foundation of cold, hard logic. Its adher
 ### **Core Characteristics**
 
 * **Excels At:** * **Superior Firepower and Range:** Technology brings bigger guns. Their mastery of ballistics, energy projection, and advanced targeting systems allows them to engage and eliminate threats from well outside the effective range of other domains. They are the masters of **Range 3+** combat.  
-  * **Area-of-Effect (AoE) Saturation:** Why eliminate one target when you can eliminate a dozen? Technology excels at deploying weapons that saturate entire quadrants of the battlefield with artillery shells, missile barrages, or sweeping energy beams.  
+  * **Area-of-Effect (AoE) Saturation:** Why eliminate one target when you can eliminate a dozen? Technology excels at deploying weapons that saturate entire quadrants of the battlefield with artillery shells, missile barrages, or sweeping energy beams, perfectly complementing the native Quadrant Damage trait of their Massive units.  
   * **Durable and Fortified Positions:** Their units are forged from hardened alloys and shielded by energy fields. They create resilient board states with high-Defense units, deployable Terrain like automated turrets and bastion walls, and leverage keywords like **Territorial** to lock down sectors.  
   * **Action-Economy Efficiency:** A war machine runs on resources. Technology is adept at securing and optimizing their supply lines, represented by their unique ability to generate Command Point (CP) deployment discounts through specialized Assets to maximize their universal 15 CP salary.  
   * **Upgrades and Modifications:** A piece of tech can always be improved. They are the premier domain for using Upgrade cards, bolting on enhanced armor, larger cannons, and advanced sensor suites to their units.  
@@ -78,7 +78,7 @@ Technology's logical and systematic approach to warfare translates into specific
 * **Level 3 (Advanced):** * **Concept:** Wielding signature weapons and specialized war-constructs. The first appearance of true energy weapons.  
   * **Abilities:** Access to powerful **Area-of-Effect (AoE)** Saturation Events. The signature **Impact** keyword appears. 
 * **Level 4 (Absolute Mastery):** * **Concept:** Unleashing the full, devastating power of a technological singularity. Matter-printers, nano-swarms, and planet-cracking weaponry.  
-  * **Abilities:** The most powerful AoE effects. Game-ending Leader units that combine multiple keywords. The ability to inflict large amounts of **Impact** in a single volley.
+  * **Abilities:** The most powerful AoE effects. Game-ending Leader units that combine multiple keywords. The ability to inflict large amounts of **Impact** in a single volley. Token generation for Technology is restricted to the Construct, which possesses Small Size (1 Weight), 1 Attack, 1 Defense, Range 1, and no keywords.
 
 ## **Domain 2: Magic**
 
@@ -129,7 +129,7 @@ Magic's ability to bend the rules of reality makes it a versatile and powerful s
 * **Level 3 (Advanced):** * **Concept:** Casting powerful, flexible spells and tapping into forbidden knowledge. Reciting incantations that make the world tremble.  
   * **Abilities:** The **Arcane Recall** skill appears on key Event cards. Events become more powerful and flexible. Rule Bending becomes more pronounced.  
 * **Level 4 (Absolute Mastery):** * **Concept:** Achieving archmage status, capable of reality-warping miracles. Bending time, space, and fate to their will.  
-  * **Abilities:** Access to the most powerful Event cards that can alter the entire board state. Rule Bending reaches its apex. High-cost, archmage Leader units with devastating abilities.
+  * **Abilities:** Access to the most powerful Event cards that can alter the entire board state. Rule Bending reaches its apex. High-cost, archmage Leader units with devastating abilities. Token generation for Magic is restricted to the Golem, which features Small Size (1 Weight), 2 Attack, 1 Defense, Range 1, and no keywords.
 
 ## **Domain 3: Psionics**
 
@@ -143,8 +143,8 @@ The power of Psionics comes from within the mind. Its practitioners view the phy
 
 * **Excels At:** * **Disruption and Control:** They are the premier domain for controlling enemy units through non-damaging means. They can force units to move, prevent them from acting, or use the **Taunt** keyword to dictate the flow of combat.  
   * **Hand and Deck Manipulation:** They are the only domain that can directly attack an opponent's mind, represented by their ability to force discards from the hand, disrupting the enemy's plans at their source.  
-  * **Misdirection and Evasion:** As masters of the **Skirmisher** and **Phantom** keywords, they are exceptionally mobile and difficult to pin down, executing hit-and-run attacks and repositioning with fluid grace.  
-  * **Targeted Elimination (Units/Assets):** Their deployed Units and Assets possess precise attacks, representing a focused psychic lance that can bypass conventional armor or defenses to strike at a weak point, often generating Flanking Crossfires. 
+  * **Misdirection and Evasion:** As masters of the **Skirmisher** and **Phantom** keywords, they are exceptionally mobile and difficult to pin down, executing hit-and-run attacks and repositioning with fluid grace. They fully exploit the native Evasion trait of Small units, sliding diagonally past impenetrable enemy walls.  
+  * **Targeted Elimination (Units/Assets):** Their deployed Units and Assets possess precise attacks, representing a focused psychic lance that can bypass conventional armor or defenses to strike at a weak point, often utilizing the diagonal Evasion paths of Small units to bypass impenetrable frontline walls. 
 * **Struggles With:** * **Raw Attack Power:** A psychic assault doesn't always leave a physical mark. Their units generally have lower base Attack values, as their goal is often to neutralize, not obliterate.  
   * **Destroying Non-Unit Cards:** Their powers are focused on living or machine minds. They have almost no way to directly affect inanimate objects like enemy Assets or Terrain.  
   * **Sustained, Long-Range Combat:** Their abilities require focus and proximity. They have very few units with **Range 3+**, preferring to get up close and personal in the Contested Zone.  
@@ -181,7 +181,7 @@ Psionics wages war in the mind, making it the premier domain for disrupting an o
 * **Level 3 (Advanced):** * **Concept:** Deep intrusion into an opponent's mind and strategy. Reading surface thoughts, controlling motor functions.  
   * **Abilities:** The first abilities that exploit a **Synaptic Mark** for a more powerful effect are introduced. More powerful hand manipulation (e.g., targeted discard).  
 * **Level 4 (Absolute Mastery):** * **Concept:** Total psychic supremacy, shattering the opponent's will to fight. Rewriting memories, creating armies of puppets, complete mental domination.  
-  * **Abilities:** The most powerful forms of disruption (e.g., preventing card plays). Leader units that can lock down multiple enemies. The ability to temporarily take full control of an enemy unit.
+  * **Abilities:** The most powerful forms of disruption (e.g., preventing card plays). Leader units that can lock down multiple enemies. The ability to temporarily take full control of an enemy unit. Token generation for Psionics is restricted to the Echo, which possesses Small Size (1 Weight), 0 Attack, 1 Defense, Range 1, and the Illusion keyword.
 
 ## **Domain 4: Divinity**
 
@@ -196,7 +196,7 @@ The power of Divinity flows from collective belief and unshakable conviction. It
 * **Excels At:** * **Unyielding Resilience:** They are exceptionally difficult to remove from the board, boasting high-Defense units and the **Steadfast** keyword. Their faith makes them immovable objects within the Contested Zone.  
   * **Summoning and Channeling:** They are masters of bringing forth reinforcements, using **Transformation** effects to turn a humble believer into a divine champion, or summoning units via **Swarm** or directly from the deck/discard pile.  
   * **Performing Rituals:** They can enact powerful, slow-burn abilities that require multiple turns or the sacrifice of their own units to complete, culminating in a game-altering "miracle."  
-  * **Synergistic "Go-Wide" Formations:** They master keywords that reward having a large board presence, like the defensive **Phalanx** and the offensive **Horde**.  
+  * **Synergistic "Go-Wide" Formations:** They master keywords that reward having a large board presence, perfectly managing the 3-Weight quadrant capacity limit with defensive **Phalanx** lines and offensive **Horde** swarms.  
   * **Martyrdom (Discard Pile Synergy):** Death is not the end. They leverage their own Discard Pile, with powerful abilities triggering when their units are destroyed.  
 * **Struggles With:** * **Card Advantage and Hand Size:** Their strength is in the faithful on the board, not the options in their hand. They have almost no abilities that allow for drawing extra cards.  
   * **Flexibility and Mobility:** Their power comes from rigid, interlocking formations. Their units are typically slow and lack extra movement abilities, making them vulnerable to being outmaneuvered or bypassed by Tactical Advances.  
@@ -234,4 +234,4 @@ Divinity's power comes from faith and sacrifice, allowing it to outlast threats 
 * **Level 3 (Advanced):** * **Concept:** Channeling divine power and enacting holy rites. The first true miracles begin to manifest.  
   * **Abilities:** The ability to **Summon** units (**Swarm**, from discard). Access to **Transformation** effects. The ability to perform **Rituals** by sacrificing units.  
 * **Level 4 (Absolute Mastery):** * **Concept:** Wielding true, world-altering miracles as the embodiment of a god's will. Becoming a direct avatar for a divine being.  
-  * **Abilities:** The most powerful **Transformation** effects. "Miracle" Event cards that can affect the entire board state. The most demanding and impactful **Rituals**.
+  * **Abilities:** The most powerful **Transformation** effects. "Miracle" Event cards that can affect the entire board state. The most demanding and impactful **Rituals**. Token generation for Divinity is restricted to the Spirit, which possesses Small Size (1 Weight), 2 Attack, 2 Defense, Range 1, and boasts both the Flying and Ethereal keywords.

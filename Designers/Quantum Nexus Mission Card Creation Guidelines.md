@@ -10,9 +10,9 @@ This guide establishes a comprehensive framework for designing Mission Cards tha
 
 Each Mission Card inherently dictates your chronological progression through the global Theater System. Rather than acting as individual, isolated objectives, a Mission provides the legal framework for the early game, a passive advantage representing Theater Level 2, and a massive one-time payoff representing Theater Level 3. These higher-tier abilities become available as the Combined Supremacy Score shared between all players on the board increases. This mechanic dictates the chronological pacing of a player's overall strategy.
 
-The foundational attribute of any Mission Card is its Deckbuilding Resource, quantified as Domain Points (DP). The DP value establishes the deck's technological ceiling. Opting for a high-DP Mission allows a player access to the most powerful and devastating cards within a specific domain during the draft phase. 
+The foundational attribute of any Mission Card is its Deckbuilding Resource, quantified as Domain Points (DP). The DP value establishes the deck's technological ceiling. Opting for a high-DP Mission allows a player access to the most powerful and devastating cards within a specific domain during the draft phase. 
 
-Conversely, the Economic Engine of the card is governed by its dynamic runtime activation costs. Because every player receives a standardized universal salary of exactly 15 Command Points (CP) per round, a Mission's power is strictly constrained by how heavily the player must voluntarily tax their own runtime economy to execute the Mission's passive and climax abilities. To accurately balance a Mission Card, you must calculate the precise runtime CP cost a player must pay during the live match to activate its Theater 2 and Theater 3 abilities. The total runtime CP cost is derived directly from the Base Effect Value multiplied by the Scope Multiplier and Reliability Discount.
+Conversely, the Economic Engine of the card is governed by its dynamic runtime activation costs. Because every player receives a standardized universal base salary of exactly 15 Command Points (CP) per round—scaling up to a hard ceiling of 20 CP when utilizing the strategic 5 CP Reserve banking system—a Mission's power is strictly constrained by how heavily the player must voluntarily tax their own runtime economy to execute the Mission's passive and climax abilities. To accurately balance a Mission Card, you must calculate the precise runtime CP cost a player must pay during the live match to activate its Theater 2 and Theater 3 abilities. The total runtime CP cost is derived directly from the Base Effect Value multiplied by the Scope Multiplier and Reliability Discount.
 
 ## Section 2: The Design Framework
 
@@ -20,7 +20,7 @@ Conversely, the Economic Engine of the card is governed by its dynamic runtime a
 
 The construction of every strictly regulated 40 to 60 card Quantum Nexus deck is governed by a single, immutable, and strictly enforced constraint: every deck must contain exactly 6 Domain Points (DP) worth of Mission Cards. Furthermore, no single domain may accumulate more than 4 DP across a player's selected Mission suite. This fixed budget ensures that all players operate on a fundamentally level playing field regarding their overall strategic weight, and it forces multi-domain synergies. The diversity of the game stems not from having access to more drafting resources than an opponent, but from how effectively a player chooses to allocate this strictly fixed budget.
 
-Because CP income has been standardized universally to 15 CP per round to ensure action-economy parity, the design weight of DP is now focused entirely on tech-tree access. High-tier cards require significant DP to legally draft into a 200 RP main deck. 
+Because CP income has been standardized universally to a 15 CP base per round (plus up to 5 CP from the Reserve banking system) to ensure action-economy parity, the design weight of DP is now focused entirely on tech-tree access. High-tier cards require significant DP to legally draft into a 200 RP main deck. 
 
 ### The Core Trade-Off: Vertical vs. Horizontal Power
 
@@ -45,7 +45,7 @@ Before outlining domain identities, it is paramount to address and correct sever
 
 ### Critical Evaluation 1: The Timing of the Theater 3 Climax
 
-Theater 3 Climax abilities become available exactly when the global board reaches 10 Combined Supremacy Points. Unlike outdated models that forced simultaneous detonation during the Scoring Step, players must actively choose to execute their Climax ability during the Activation Sequence by sacrificing a specific portion of their 15 CP salary. Designing a Climax that grants an immediate extra action fundamentally violates the game's phase structure. Any Climax intended to manipulate action economy must be written to adhere to the alternating sequence, such as stating that during the next round's Activation Sequence, your first Event card played does not consume your action.
+Theater 3 Climax abilities become available exactly when the global board reaches 10 Combined Supremacy Points during the Scoring Step, provided no player has achieved an individual 10 SP victory first. Unlike outdated models that forced simultaneous detonation during the Scoring Step, players must actively choose to execute their Climax ability by paying its CP cost as a proactive action during the *following* round's Activation Sequence. Designing a Climax that grants an immediate extra action fundamentally violates the game's phase structure, especially given that action parity is strictly enforced across the board (e.g., secondary Swarm deployments enter exhausted, and Horde attacks cannot utilize units deployed in the same round). Any Climax intended to manipulate action economy must be written to adhere to the alternating sequence, such as stating that during the next round's Activation Sequence, your first Event card played does not consume your action.
 
 ### Critical Evaluation 2: The "Opponent's Turn" Fallacy
 
@@ -53,7 +53,7 @@ The Quantum Nexus core rules establish an Activation Sequence where players take
 
 ### Critical Evaluation 3: The Mechanics of Healing
 
-The core rules state that units do not retain temporary combat damage between actions unless represented by persistent Impact counters. An attack either completely destroys the unit, or is non-lethal, resulting in the target being exhausted and receiving an Impact counter. Therefore, assigning a CP cost to abstract healing is illogical. In Quantum Nexus, healing must be explicitly defined in card text strictly as the removal of Impact counters.
+The core rules state that units do not retain temporary combat damage between actions unless represented by persistent Impact counters. An attack either completely destroys the unit, or is non-lethal, resulting in the target being exhausted and receiving an Impact counter. Therefore, assigning a CP cost to abstract healing is illogical. In Quantum Nexus, healing must be explicitly defined in card text strictly as the removal of Impact counters (which mathematically accumulate regardless of a unit's Phalanx or Zeal status). Furthermore, catch-up mechanics within Mission designs should account for the established Reinforcement Draw rule—which naturally grants an extra card to players trailing by 4 or more SP—rather than attempting to build arbitrary points of life-gain or free scoring to bridge gaps.
 
 ### Critical Evaluation 4: Prohibition of Unavoidable Combat Debuffs
 
@@ -63,19 +63,19 @@ Mission card Escalations, particularly at Theater 2, must provide economic utili
 
 Every Mission must strictly adhere to the thematic and mechanical identity of its corresponding domain. Furthermore, if a Mission dictates the creation of tokens, it must explicitly reference the standardized token statistics provided in the core rulebook to maintain mathematical integrity across the 5x3 spatial grid.
 
-The Technology domain acts as the Blueprint of Industry, focusing on establishing rigid order, building resilient infrastructure, and asserting dominance through superior, calculated firepower. Escalation abilities in Theater 2 should involve maintaining high defensive thresholds across the board or controlling the Contested Zone (Row 3). Climax abilities in Theater 3 should provide systemic repair of damaged units by removing Impact counters, or devastating, symmetrical Range 3+ bombardments. Token generation for Technology is restricted to the Construct, which possesses Small Size (1 Weight), 1 Attack, 1 Defense, Range 1, and no keywords.
+The Technology domain acts as the Blueprint of Industry, focusing on establishing rigid order, building resilient infrastructure, and asserting dominance through superior, calculated firepower. Escalation abilities in Theater 2 should involve maintaining high defensive thresholds across the board, leveraging the fact that friendly units and friendly-occupied quadrants never obstruct your own physical Line of Sight. Climax abilities in Theater 3 should provide systemic repair of damaged units by removing Impact counters, or devastating, symmetrical Range 3+ bombardments (keeping in mind that Massive units executing Quadrant Damage are strictly capped at targeting a maximum of two units per attack). Token generation for Technology is restricted to the Construct, which possesses Small Size (1 Weight), 1 Attack, 1 Defense, Range 1, and no keywords.
 
 The Magic domain performs the Arcane Ritual, representing the unlocking of forbidden knowledge, weaving complex sequences of spells, and fundamentally altering the fabric of reality. Escalation abilities should challenge the player to cast specific sequences of Event cards, manage a precise threshold of spells in their discard pile to fuel Arcane Recall, or maintain fragile units with high Attack but exceptionally low Defense. Climax abilities should grant the free casting of powerful spells directly from the discard pile, drastically alter unit positions through Strategic Re-routing, or heavily disrupt the standard rules of engagement. Token generation for Magic is restricted to the Golem, which features Small Size (1 Weight), 2 Attack, 1 Defense, Range 1, and no keywords.
 
-The Psionics domain initiates the Mind War, relying entirely on infiltrating the enemy's plans, subverting their will, and strictly controlling the flow of information. Escalation abilities should focus on forcing the opponent to discard cards from their hand, generating unpredictable angles of attack utilizing the diagonal Evasion paths of Small units, or ensuring that units with the Phantom keyword survive deep within the Enemy Vanguard. Climax abilities should provide highly proactive shielding by stripping specific cards from the opponent's hand, temporarily seizing control of enemy units to disrupt their formation, or forcing the opponent to skip their next available action in the sequence. Token generation for Psionics is restricted to the Echo, which possesses Small Size (1 Weight), 0 Attack, 1 Defense, Range 1, and the Illusion keyword.
+The Psionics domain initiates the Mind War, relying entirely on infiltrating the enemy's plans, subverting their will, and strictly controlling the flow of information. Escalation abilities should focus on forcing the opponent to discard cards from their hand, generating unpredictable angles of attack utilizing the diagonal Evasion paths of Small units, or ensuring that units with the Phantom keyword survive deep within the Enemy Vanguard. Designers must also respect strict action caps: abilities complementing the hit-and-run tactics of Skirmisher units must account for the fact that those units are now left exhausted and unreadyable for the rest of the round after their free repositioning. Climax abilities should provide highly proactive shielding by stripping specific cards from the opponent's hand, temporarily seizing control of enemy units to disrupt their formation, or forcing the opponent to skip their next available action in the sequence. Token generation for Psionics is restricted to the Echo, which possesses Small Size (1 Weight), 0 Attack, 1 Defense, Range 1, and the updated Illusion keyword (acting as a targeting tax that forces attack redirection rather than action denial). Echo tokens uniquely enter play ready, but cannot move or act on the turn they enter.
 
-The Divinity domain embarks on the Holy Crusade, defined by spreading faith, enduring immense hardship, and overwhelming unbelievers with righteous zeal. Escalation abilities should revolve around having units survive fatal damage through the Zeal keyword, intentionally sacrificing your own units to trigger Martyrdom effects, or overwhelming the Contested Zone by pushing a massive phalanx of units forward. Climax abilities should manifest as literal divine interventions, such as rendering friendly units completely indestructible for a specific duration, executing mass resurrections of fallen units directly from the discard pile, or manifesting massive token swarms. Token generation for Divinity is restricted to the Spirit, which possesses Small Size (1 Weight), 2 Attack, 2 Defense, Range 1, and boasts both the Flying and Ethereal keywords.
+The Divinity domain embarks on the Holy Crusade, defined by spreading faith, enduring immense hardship, and overwhelming unbelievers with righteous zeal. Escalation abilities should revolve around having units survive fatal damage through the Zeal keyword (which strictly triggers only after the printed base Defense of Phalanx has been completely breached by Impact counters), intentionally sacrificing your own units to trigger Martyrdom effects, or overwhelming the Contested Zone by pushing a massive phalanx of units forward. Units within this domain grow stronger through collective faith and mechanics like Adapt, which is strictly hard-capped to trigger only the first time a unit survives combat each Game Round. Climax abilities should manifest as literal divine interventions, such as rendering friendly units completely indestructible for a specific duration, executing mass resurrections of fallen units directly from the discard pile, or manifesting massive token swarms. Token generation for Divinity is restricted to the Spirit, which possesses Small Size (1 Weight), 2 Attack, 2 Defense, Range 1, and boasts both the Flying and Ethereal keywords.
 
 Additionally, Neutral cards, which are not tied to specific DP constraints, can generate the Scrap token, representing improvised cover with Small Size (1 Weight), 0 Attack, 1 Defense, Range 1, and the Immobile keyword.
 
 ## Section 4: The Runtime Costing Algorithms
 
-To accurately determine the power level of a Mission Card, you must calculate its precise mechanical market value based on the game's fundamental runtime economy. Every passive and climax ability functions as a Mana Sink that is assessed against the player's universal 15 CP per-round salary.
+To accurately determine the power level of a Mission Card, you must calculate its precise mechanical market value based on the game's fundamental runtime economy. Every passive and climax ability functions as a Mana Sink that is assessed against the player's 15 CP per-round base salary and up to 5 banked Reserve CP.
 
 ### The Market Rate Baseline
 
@@ -96,7 +96,9 @@ Inflicting 1 point of targeted damage holds an estimated market value of 1.0 CP,
 
 ### Costing Novel Climaxes (The Theater 3 Execution Cost)
 
-When inventing a new Theater 3 Climax, you must calculate its designated runtime CP execution cost using a strict mathematical formula: the Climax Cost is equal to the Base Effect Value multiplied by the Scope Multiplier, plus any applicable Novelty Premium.
+When inventing a new Theater 3 Climax, you must calculate its designated runtime CP execution cost using a strict mathematical formula: the Climax Cost is equal to the Base Effect Value multiplied by the Scope Multiplier, plus any applicable Novelty Premium. 
+
+Furthermore, when designing objective-based Climaxes around Strategic Directive tokens, designers must remember these tokens are strictly confined to Row 3, and claiming them requires the unit to have begun the Game Round already occupying that Contested Zone, ensuring timing windows and setup are baked into the execution of the Climax.
 
 First, determine the Base Effect Value. Utility effects, such as moving a unit or swapping positions, command a base of 1 to 2 CP. Soft Control effects, including applying negative statistical modifiers or exhausting units, command a base of 3 to 4 CP. Hard Removal or Creation effects, such as outright destroying a unit or generating large tokens, command a base of 5 to 8 CP.
 
@@ -108,11 +110,11 @@ Finally, assess the Novelty Premium. If the effect operates within standard para
 
 Passives must be carefully costed to ensure they do not generate infinite value. You must determine their ongoing dynamic runtime upkeep CP cost by calculating the Expected Value. The Upkeep formula dictates that the Value per Trigger is multiplied by the estimated Triggers per Round, and that product is then multiplied by a Reliability Discount.
 
-First, identify the Value per Trigger using the established Market Rate Baseline. 
+First, identify the Value per Trigger using the established Market Rate Baseline. 
 
-Second, identify the strict objective categorizations based on the precise mechanical triggers, eliminating any reliance on a designer's subjective estimation of trigger frequency. 
+Second, identify the strict objective categorizations based on the precise mechanical triggers, eliminating any reliance on a designer's subjective estimation of trigger frequency. 
 
-Third, apply a strict mechanical multiplier based on the objective trigger condition. If the trigger is a guaranteed game phase (e.g., Start of Round), the multiplier remains 1.0. If it triggers upon standard card deployment, the multiplier is 0.8. If it relies on specific keyword interactions, the multiplier is 0.6. If it strictly requires an opponent's action to trigger, the multiplier is 0.4. Furthermore, the guidelines establish strict upkeep ceilings for core faction mechanics; utility passives must be costed sustainably, typically capturing no more than 10% to 15% of the universal salary, ensuring they support rather than suffocate the primary action economy.
+Third, apply a strict mechanical multiplier based on the objective trigger condition. If the trigger is a guaranteed game phase (e.g., Start of Round), the multiplier remains 1.0. If it triggers upon standard card deployment, the multiplier is 0.8. If it relies on specific keyword interactions, the multiplier is 0.6. If it strictly requires an opponent's action to trigger, the multiplier is 0.4. Furthermore, the guidelines establish strict upkeep ceilings for core faction mechanics; utility passives must be costed sustainably, typically capturing no more than 10% to 15% of the universal base salary, ensuring they support rather than suffocate the primary action economy.
 
 ## Section 5: The Component Database
 
@@ -120,7 +122,7 @@ To assemble a final Mission Card, you must use the database below to apply the u
 
 ### Passive Ability Upkeep Values
 
-Passive abilities located in Theater 2 are categorized into tiers based on their game impact. 
+Passive abilities located in Theater 2 are categorized into tiers based on their game impact. 
 
 Tier 0 passives are focused on thematic flavor and formatting, possessing negligible mechanical impact and carrying a 0 CP upkeep cost. Examples include granting Construct tokens +1 Defense, giving Spirit tokens the Flying keyword, or stipulating that a Leader counts as a Construct, all typically rooted in the Technology domain.
 
@@ -145,7 +147,7 @@ Tier 3 passives represent rule-breaking, game-warping power. Allowing a player t
 
 ### Climax Payoff Execution Values
 
-Climax payoffs located in Theater 3 represent the culmination of the game when Combined Supremacy reaches 10, demanding massive CP expenditures to execute.
+Climax payoffs located in Theater 3 represent the culmination of the game when Combined Supremacy reaches 10, demanding massive CP expenditures to execute during the next round.
 
 Tier 1 Climaxes provide minor value and simple efficiency. Drawing 1 card is a neutral trait that carries a minimal 1.0 CP execution cost. Removing up to 3 Impact counters from a unit or Asset acts as healing for the Technology or Divinity domains and costs 1.0 CP. Creating a single neutral Scrap token with Small Size (1 Weight), 0 Attack, 1 Defense, Range 1, and the Immobile keyword for cover incurs a mere 0.5 CP cost.
 
@@ -167,3 +169,13 @@ Tier 4 Climaxes represent the game-ending Bombs. Initiating a total board wipe t
 | Board Wipe: Destroy all Units in the Contested Zone (Row 3). | 8.0 CP | Tech / Magic | Tier 4: The "Bomb" |
 | Invulnerability: Your Units cannot be destroyed this sequence. | 8.0 CP | Divinity / Tech | Tier 4: The "Bomb" |
 | Temporal Shift: During the next round's Activation Sequence, the first Event card you play does not consume your action. | 9.0 CP | Magic | Tier 4: The "Bomb" |
+
+### Standard Token Dictionary Supplement
+
+| Token Designation | Affiliated Domain | Size (Weight) | Combat Statistics | Range | Innate Keywords | Tactical Role |
+| :---- | :---- | :---- | :---- | :---- | :---- | :---- |
+| Construct | Technology | Small (1 Weight) | 1 Attack / 1 Defense | Range 1 | None | Ground holding and attritional infantry. |
+| Spirit | Divinity | Small (1 Weight) | 2 Attack / 2 Defense | Range 1 | Flying, Ethereal | Highly evasive, resilient physical manifestations. |
+| Echo | Psionics | Small (1 Weight) | 0 Attack / 1 Defense | Range 1 | Illusion | Fragile decoys that force attack redirection. Enters ready, cannot act/move on entry turn. |
+| Golem | Magic | Small (1 Weight) | 2 Attack / 1 Defense | Range 1 | None | Offensively slanted magical constructs. |
+| Scrap | Neutral | Small (1 Weight) | 0 Attack / 1 Defense | Range 1 | Immobile | Improvised, static defensive cover. |

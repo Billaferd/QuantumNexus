@@ -62,7 +62,7 @@ Players may utilize a standardized sideboard to adapt their strategies between g
 
 The battlefield is a highly structured tactical grid divided into distinct rows and quadrants for each player.
 
-The battlefield is a shared, continuous 5x3 grid. Row 1 is your Deployment Zone (Back Row). Row 2 is your Vanguard. Row 3 is the neutral Contested Zone. Row 4 is the opponent's Vanguard, and Row 5 is the opponent's Deployment Zone. Each row is divided into three columns (Left, Center, Right). Physical line of sight is obstructed by any quadrant operating at maximum capacity; attacks cannot pass through these obstructed quadrants. A unit is considered "adjacent" to units in the quadrants directly next to it, both horizontally and vertically.
+The battlefield is a shared, continuous 5x3 grid. Row 1 is your Deployment Zone (Back Row). Row 2 is your Vanguard. Row 3 is the neutral Contested Zone. Row 4 is the opponent's Vanguard, and Row 5 is the opponent's Deployment Zone. Each row is divided into three columns (Left, Center, Right). A quadrant operating at maximum capacity (3 Weight) obstructs physical Line of Sight for enemy attacks. Friendly units and friendly occupied quadrants never obstruct the Line of Sight of your own ranged attacks. A unit is considered "adjacent" to units in the quadrants directly next to it, both horizontally and vertically.
 
 **Important:** Enemy-occupied quadrants are strictly impassable. Opposing units may never mix or co-occupy the same quadrant.
 
@@ -82,14 +82,14 @@ Because enemy quadrants act as physical walls, a unit's size classification gran
 
 * **Evasion (Small Units):** Small units are agile flankers. They are the only entities permitted to move diagonally. Additionally, Small units do not block friendly Line of Sight for ranged attacks.
 * **Pushback (Large Units):** Large units are linebreakers. When a Large unit successfully inflicts an Impact counter on a defending unit, it may force that unit to retreat into an empty adjacent quadrant. If no empty quadrant exists, the defender suffers 1 additional Impact counter instead.
-* **Quadrant Damage (Massive Units):** Massive units represent overwhelming, indiscriminate force. When a Massive unit declares an attack against a target quadrant, its Attack value is compared against the Armor of *every* unit in that quadrant simultaneously. 
+* **Quadrant Damage (Massive Units):** Massive units represent overwhelming, indiscriminate force. When a Massive unit declares an attack against a target quadrant, the attacking player chooses up to two units occupying that quadrant. The Massive unit's Attack value is compared against both targets' Defense values independently and simultaneously.
 
 ## V. Gameplay Structure
 
 ### A. Game Setup
 
 1. **Missions:** Players simultaneously reveal their chosen Mission cards and place them in the Mission Zone.
-2. **Reconnaissance:** Before drawing hands, players alternate placing a total of two 'Strategic Directive' tokens onto the battlefield. These tokens may only be placed in Row 3 (Contested Zone) or Row 4 (Enemy Vanguard). They cannot be placed in a player's own Row 1 or Row 2.
+2. **Reconnaissance:** Before drawing hands, players alternate placing a total of two 'Strategic Directive' tokens onto the battlefield. These tokens may only be placed in Row 3 (Contested Zone). They cannot be placed in a player's own Row 1 or Row 2, nor in Row 4 or Row 5.
 3. **Initiative:** Flip a coin or roll a die to determine the starting player for the first round.
 4. **Draw:** Each player draws cards equal to their default Maximum Hand Size (5).
 5. **Mulligan:** A player may choose to shuffle their entire hand back into their deck and redraw 5 cards. This may only be done once per game.
@@ -100,7 +100,11 @@ The game is played in a continuous series of rounds, each meticulously divided i
 
 #### 1. Start of Round Step
 
-All players perform these logistical steps simultaneously. First, players ready all exhausted cards, remove any temporary tokens, and reset all Command Point (CP) totals to zero. Second, players secure their Income by gaining a standardized base salary of 15 Command Points (CP). Third, players execute their Draw phase; every player automatically draws exactly two (2) cards. A player's default Maximum Hand Size is 5. At the end of the round, if you hold more cards than your Maximum Hand Size, you must discard cards until your hand size equals the maximum limit. Finally, any card effects explicitly stating "At the start of the round" resolve immediately.
+All players perform these logistical steps simultaneously. First, players ready all exhausted cards, remove any temporary tokens, and reset all Command Point (CP) totals to zero. **Reserve:** At the end of each round, before CP totals reset, a player may designate up to **5 CP** as Reserve. These Reserved CP carry forward and are added to the player's income at the start of the next round. Reserve CP does not stack across multiple rounds — only the most recently designated Reserve is retained. 
+
+Second, players secure their Income by gaining a standardized base salary of 15 Command Points (CP), plus any Reserved CP from the previous round. 
+
+Third, players execute their Draw phase; every player automatically draws exactly two (2) cards. **Reinforcement Draw:** If a player trails their opponent by 4 or more Supremacy Points at the start of the Draw phase, they draw **one additional card** this round. A player's default Maximum Hand Size is 5. At the end of the round, if you hold more cards than your Maximum Hand Size, you must discard cards until your hand size equals the maximum limit. Finally, any card effects explicitly stating "At the start of the round" resolve immediately.
 
 #### 2. The Activation Sequence
 
@@ -115,18 +119,22 @@ On your turn, you must perform exactly ONE of the following actions, after which
 * **Activate:** Pay any associated costs to trigger an "Active Ability" printed on a card you already control in play.
 * **Play Event:** Pay the CP cost of an Event card in your hand, fully resolve its text, and place it in your discard pile.
 * **Draw Intel:** Spend exactly 3 CP to draw 1 card from your deck.
-* **Secure Objective:** Exhaust a ready non-token unit currently occupying a quadrant that contains a Strategic Directive token to claim it, immediately securing a one-time burst of 2 Supremacy Points and permanently removing the token from the board.
-* **Pass:** Choose to take no action. 
+* **Secure Objective:** Exhaust a ready non-token unit currently occupying a quadrant that contains a Strategic Directive token to claim it, immediately securing a one-time burst of 2 Supremacy Points and permanently removing the token from the board. A unit may only execute this action if it began the Game Round already occupying the Contested Zone (Row 3).
+* **Pass:** Choose to take no action. 
 
-The Activation Sequence ends only when all players pass consecutively in an unbroken sequence. If you pass, but your opponent subsequently takes an action, the sequence is broken and you may take another action when the turn returns to you. 
+The Activation Sequence ends only when all players pass consecutively in an unbroken sequence. If you pass, but your opponent subsequently takes an action, the sequence is broken and you may take another action when the turn returns to you. 
 
 #### 3. The Scoring Step
 
-Immediately following the consecutive passes that terminate the Activation Sequence, players evaluate the positional state of the battlefield. If an entire round passes with absolutely zero units being destroyed, Initiative immediately defaults to the player who physically occupies the most quadrants in the neutral Contested Zone (Row 3). If the center is equally contested or entirely empty, Initiative simply remains with the player who currently possesses it.
+Immediately following the consecutive passes that terminate the Activation Sequence, players evaluate the positional state of the battlefield. 
 
-A player earns exactly one (1) Supremacy Point for every quadrant they physically occupy within the neutral Contested Zone (Row 3). This centralized territorial dominance forms the baseline progression of the Theater Escalation, forcing direct collision to advance the game state.
+**Scoring Step Resolution Order:**
+1. Award SP for all occupied Row 3 quadrants simultaneously. A player earns exactly one (1) Supremacy Point for every quadrant they physically occupy within the neutral Contested Zone (Row 3).
+2. Check each player's individual SP total. If any player has reached 10 SP, the game proceeds to **End of Game** resolution before any further effects trigger.
+3. If no player has reached 10 individual SP, calculate the Combined Supremacy Score. If it has newly reached 6, trigger Theater Level 2. If it has newly reached 10, trigger Theater Level 3 and allow Climax activations.
+4. Climax abilities are activated during the **following round's Activation Sequence**, not immediately. A player who wishes to execute their Climax pays its CP cost as one of their actions during that Activation Sequence.
 
-After points are awarded, players calculate the Combined Supremacy Score by adding both players' totals together. If the combined total reaches 6, Theater Level 2 is initiated, and all players immediately activate their Mission Cards' passive abilities, provided they meet the dynamic upkeep CP cost. If the combined total reaches 10, Theater Level 3 is initiated, and all players immediately resolve their Mission Cards' Climax abilities by paying the associated runtime CP cost.
+Finally, the Initiative token passes to the opposing player to ensure strict alternation for the subsequent round.
 
 ## VI. Combat Mechanics
 
@@ -147,9 +155,11 @@ To resolve combat, compare the attacker's Attack value directly against the defe
 * **Destruction (Attack >= Defense):** If the attacker's Attack value is greater than or equal to the defender's Defense (accounting for any accumulated Impact counters), the target is destroyed and placed in the discard pile.
 * **Exhaustion and Impact (Attack < Defense):** If the Attack value is lower than the defender's Defense, the attack is not immediately lethal. Instead, the target receives one Impact counter and is immediately exhausted (if it was ready). If a unit's accumulated Impact counters ever equal or exceed its Defense, it is immediately destroyed.
 
+Impact counters accumulate regardless of Phalanx or Zeal. A unit that survives via Zeal removes all Impact counters as stated. A unit that survives via Phalanx **retains** its Impact counters. For destruction purposes, a unit is immediately destroyed if its accumulated Impact counters equal or exceed its **printed base Defense**, regardless of Phalanx status.
+
 **The Momentum Rule:** If an attacking unit completely clears a target quadrant of all enemy units, it may immediately move into that quadrant as part of the same Activation at no additional CP cost. This ensures the frontline remains violently fluid.
 
-Units do not retain temporary combat damage between actions unless represented by persistent Impact counters. 
+Units do not retain temporary combat damage between actions unless represented by persistent Impact counters. 
 
 ## VII. Winning the Game
 
@@ -159,35 +169,35 @@ Additionally, if any player is required to draw a card but has zero cards remain
 
 ## Appendix A: Standard Token Dictionary
 
-When a card effect instructs a player to create a specific token, the token must utilize the following exact statistics and traits. **All newly generated tokens enter the battlefield in an exhausted state.**
+When a card effect instructs a player to create a specific token, the token must utilize the following exact statistics and traits. **All newly generated tokens enter the battlefield in an exhausted state, unless otherwise noted.**
 
 * **Construct (Technology):** Small Size (1 Weight). 1 Attack / 1 Defense. Range 1. No keywords.
 * **Spirit (Divinity):** Small Size (1 Weight). 2 Attack / 2 Defense. Range 1. Flying, Ethereal.
-* **Echo (Psionics):** Small Size (1 Weight). 0 Attack / 1 Defense. Range 1. Illusion.
+* **Echo (Psionics):** Small Size (1 Weight). 0 Attack / 1 Defense. Range 1. Illusion. Enters play **ready**, but this unit cannot move or take actions on the turn it enters play.
 * **Golem (Magic):** Small Size (1 Weight). 2 Attack / 1 Defense. Range 1. No Keywords.
 * **Scrap (Neutral):** Small Size (1 Weight). 0 Attack / 1 Defense. Range 1. Immobile.
 
 ## Appendix B: Universal Keyword & Status Effect Glossary
 
-* **Adapt:** Whenever this unit survives combat, it gains a permanent +1/+1 counter, increasing its base Attack and Defense.
+* **Adapt:** The first time this unit survives combat each Game Round, it gains a permanent +1/+1 counter, increasing its base Attack and Defense.
 * **Aetheric Shielding:** Any opponent attempting to target this unit with an Event card must pay a mandatory tax of 3 additional Command Points (CP) added to the Event's normal runtime deployment cost.
 * **Arcane Recall:** You may play this card from your discard pile by paying its CP cost and fulfilling any additionally specified resource costs. Once a card played via Arcane Recall resolves, it is exiled from the game rather than being returned to the discard pile.
 * **Armor Piercing:** When calculating combat resolution, damage dealt by this card or effect ignores the target's printed Base Defense, acting as a binary threshold bypass rather than a mathematical calculation.
 * **Ethereal:** Combat damage dealt to this unit during standard attacks is reduced by 1.
 * **Flying:** This unit completely ignores physical Line of Sight obstructions (quadrants currently at maximum capacity) when determining valid targets for attacks within its numeric Range.
-* **Horde:** When taking an Attack action, your units with the Horde keyword in that quadrant can attack and exhaust as a single action.
-* **Illusion:** If a unit with this keyword becomes the explicit target of any enemy attack, activated ability, or Event, the unit is immediately destroyed prior to the resolution of that effect. If destroyed by an attack declaration, the attacker's action is fully consumed and the attacking unit exhausts.
+* **Horde:** When taking an Attack action, you may exhaust any number of **ready** units with Horde in the same quadrant to attack as a single action. Only units that were **not** deployed this round may participate in a Horde attack.
+* **Illusion:** When this unit is declared as the target of an attack, it is destroyed before the attack resolves. The attacking unit does **not** exhaust and the action is **not** consumed. The attacker may immediately declare a new target for that attack action, subject to normal targeting rules.
 * **Immobile:** This unit cannot be chosen as the valid target of a standard Move action and is immune to being relocated by any card effects.
 * **Impact:** Impact represents persistent, incremental damage accumulation rather than a floating mathematical modifier. When an effect inflicts Impact on a target, or a unit survives a non-lethal attack, an Impact counter is placed on it. Each Impact counter represents 1 point of persistent damage. If a unit's accumulated Impact counters ever equal or exceed its Defense value, the unit is immediately destroyed.
 * **Infiltrator:** You may deploy this unit directly into your Vanguard (Row 2). This overrides the general baseline rule that units must be strictly deployed to the Deployment Zone (Row 1).
 * **Martyrdom:** When this unit is destroyed, immediately trigger the associated ability text.
 * **Nullify:** Cards destroyed by this unit's attacks are exiled from the game instead of being placed in the discard pile, preventing Arcane Recall or Martyrdom synergies.
-* **Phalanx:** If this unit is adjacent to at least one other friendly unit that also possesses the Phalanx keyword, it cannot be destroyed by an attack unless the Attack value exceeds its Defense by 2 or more. This shifts the bonus from a dynamic mathematical calculation to a binary survival threshold.
+* **Phalanx:** If this unit is adjacent to at least one other friendly unit that also possesses the Phalanx keyword, it cannot be destroyed by an attack unless the Attack value exceeds its Defense by 2 or more. This shifts the bonus from a dynamic mathematical calculation to a binary survival threshold. For the purposes of the Phalanx keyword, a unit's Defense is its **printed base Defense value**, not its effective Defense after Impact counters are applied.
 * **Phantom:** This unit cannot be chosen as a valid target for standard attacks unless the attacking unit is positioned in an orthogonally adjacent quadrant (Range 1).
-* **Skirmisher:** After this unit performs an Attack action, you may immediately move it to an adjacent friendly quadrant. This special move does not exhaust the unit and does not consume your action for the turn.
+* **Skirmisher:** After this unit performs an Attack action, you may immediately move it to an adjacent friendly or empty quadrant. This movement does not consume an additional action. The unit remains exhausted after this movement and cannot be readied by card effects for the remainder of the Game Round.
 * **Steadfast:** This unit cannot be moved from its current quadrant by an opponent's card effects.
-* **Swarm:** When taking a "Deploy" action to play a unit with Swarm, you may simultaneously deploy exactly one additional unit with the Swarm keyword from your hand into the exact same quadrant. You must pay the individual CP costs for both units deployed in this manner.
+* **Swarm:** When you take a Deploy action for a unit with Swarm, you may simultaneously deploy one additional unit with the Swarm keyword from your hand into the same quadrant, paying its CP cost. Units deployed via this secondary Swarm placement **enter exhausted.**
 * **Synaptic Mark:** The mark on its own does nothing, but it is used to target units with other powerful abilities.
 * **Taunt:** Enemy units that declare an attack must target a unit with Taunt if one is within range and constitutes a valid target.
 * **Territorial:** This unit actively blocks enemy deployment, standard movement, and Tactical Advances into any orthogonally adjacent quadrant, locking down physical firing lanes.
-* **Zeal:** The first time this unit would be destroyed in a given Game Round, it instead survives, removes all accumulated upgrades and Impact counters, and immediately becomes exhausted.
+* **Zeal:** The first time this unit would be destroyed in a given Game Round, it instead survives, removes all accumulated upgrades and Impact counters, and immediately becomes exhausted. Zeal triggers **after** all other survival checks, including Phalanx, are resolved. A unit with both Zeal and Phalanx that survives via Phalanx does **not** trigger Zeal — Zeal only triggers when the unit would be destroyed by an attack that bypasses or exceeds Phalanx's threshold.
